@@ -1,5 +1,5 @@
 <tmx version="1.4">
-  <header creationtool="Translate Toolkit" creationtoolversion="3.19.6" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText" />
+  <header creationtool="Translate Toolkit" creationtoolversion="3.19.7" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText" />
   <body>
     <tu>
       <tuv xml:lang="en">
@@ -3423,6 +3423,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/appcds</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/appcds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/aws-lambda</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4319,6 +4327,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/kafka-reactive-getting-started</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/kafka-reactive-getting-started</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/kafka-schema-registry-avro</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4639,6 +4655,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/opentracing</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/opentracing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/optaplanner</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4847,6 +4871,22 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/rest-client-multipart</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/rest-client-multipart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/rest-client-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/rest-client-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/rest-data-panache</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4899,6 +4939,22 @@ this.logControl
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guides/resteasy-client-multipart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/resteasy-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive-migration</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/resteasy-reactive-migration</seg>
       </tuv>
     </tu>
     <tu>
@@ -4987,6 +5043,14 @@ this.logControl
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guides/security-basic-authentication-howto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/security-basic-authentication-tutorial</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/security-basic-authentication-tutorial</seg>
       </tuv>
     </tu>
     <tu>
@@ -5263,6 +5327,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/security-properties</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/security-properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/security-testing</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -5315,6 +5387,14 @@ this.logControl
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guides/smallrye-health</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/smallrye-metrics</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/smallrye-metrics</seg>
       </tuv>
     </tu>
     <tu>
@@ -6995,6 +7075,14 @@ public class Startup {
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Uma pilha Java nativa do Kubernetes sob medida para OpenJDK HotSpot e GraalVM, criada a partir das melhores bibliotecas e padrões Java.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>A N M Bazlur Rahman</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -7162,7 +7250,7 @@ we saw the production of a `ServiceStartBuildItem` in the previous section, and 
         <seg>A cohesive platform for optimized developer joy:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Uma plataforma coesa para a alegria otimizada do desenvolvedor:</seg>
+        <seg>Uma plataforma coesa para uma alegria otimizada para programadores:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7428,6 +7516,14 @@ Tipo: _string_</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>A list of all extensions that support Dev Services and their configuration options.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Uma lista de todas as extensões que suportam Dev Services e as suas opções de configuração.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>A list of features installed in the runtime image</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -7486,7 +7582,7 @@ When getting a topic stats, associate this metadata with the consumer stats for 
       <tuv xml:lang="pt_BR">
         <seg>Um nome ou propriedade de valor desse consumidor.
 
-'propriedades' são metadados definidos pelo aplicativo anexados a um consumidor.
+'properties' são metadados definidos pelo aplicativo anexados a um consumidor.
 
 Ao obter estatísticas de tópico, associe esses metadados às estatísticas do consumidor para facilitar a identificação.</seg>
       </tuv>
@@ -7529,7 +7625,7 @@ It isn't a class distinct from link:{Thread}[Thread] or `VirtualThread` but rath
         <seg>A port value of zero will result in a randomly assigned port.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Um valor de porta zero resultará numa porta atribuída aleatoriamente.</seg>
+        <seg>Um valor de porta igual a zero resultará numa porta atribuída aleatoriamente.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8392,7 +8488,7 @@ The following information shows you how to use `OpenID Connect` for secure singl
         <seg>After successfully securing your Quarkus application with Basic authentication, you can increase the security further by adding more advanced authentication mechanisms, for example, the Quarkus xref:security-oidc-code-flow-authentication.adoc[OpenID Connect (OIDC) authorization code flow mechanism] guide.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Após garantir com sucesso a segurança da sua aplicação Quarkus com a Basic authentication, você pode aumentar ainda mais a segurança adicionando mecanismos de autenticação mais avançados, por exemplo, consulte o guia xref:security-oidc-code-flow-authentication.adoc[Mecanismo de fluxo de autorização] Quarkus xref:security-oidc-code-flow-authentication.adoc[OpenID Connect (OIDC)] .</seg>
+        <seg>Após garantir com sucesso a segurança da sua aplicação Quarkus com a Basic authentication, você pode aumentar ainda mais a segurança adicionando mecanismos de autenticação mais avançados, por exemplo, consulte o guia xref:security-oidc-code-flow-authentication.adoc[Mecanismo de fluxo de autorização OpenID Connect (OIDC)] .</seg>
       </tuv>
     </tu>
     <tu>
@@ -9759,7 +9855,7 @@ The built-in keys located in `io.quarkus.arc.processor.BuildExtension.Key` are:<
         <seg>Applications send and receive *messages*. A message wraps a _payload_ and can be extended with some _metadata_. With the Kafka connector, a _message_ corresponds to a Kafka _record_.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>As aplicações enviam e recebem *mensagens*. Uma mensagem envolve uma _conteúdo_ e pode ser estendida com alguns _metadados_. Com o conector Kafka, uma _mensagem_ corresponde a um _registro_ Kafka.</seg>
+        <seg>Aplicações enviam e recebem *mensagens*. Uma mensagem encapsula um _payload_ e pode ser estendida com alguns _metadados_. Com o conector Kafka, uma _mensagem_ corresponde a um _registro_ Kafka.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9991,7 +10087,7 @@ image function deployments.</seg>
         <seg>As an example, if you export the metrics to Prometheus, you will get:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Como exemplo, se você exportar as métricas para o Prometheus, obterá:</seg>
+        <seg>Por exemplo, se você exportar as métricas para o Prometheus, você terá:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10312,14 +10408,6 @@ It provides a convenient way of making just the necessary sources available to t
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Além dos símbolos de depuração, a configuração do sinalizador `-Dquarkus.native.debug.enabled=true` gera um cache de arquivos de origem para todas as classes de tempo de execução do JDK, classes do GraalVM e classes de aplicação resolvidas durante a geração do executável nativo. Esse cache de fontes é útil para ferramentas de depuração nativas, para estabelecer o vínculo entre os símbolos e o código-fonte correspondente. Ele fornece uma maneira conveniente de disponibilizar apenas os códigos-fonte necessários para o depurador/IDE ao depurar um executável nativo.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Ask on &lt;a href="https://stackoverflow.com/questions/tagged/quarkus"&gt;Stack Overflow with the &lt;code&gt;quarkus&lt;/code&gt; tag&lt;/a&gt;</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Pergunte no &lt;a href="https://stackoverflow.com/questions/tagged/quarkus"&gt;Stack Overflow com a tag &lt;code&gt;quarkus&lt;/code&gt;&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11063,7 +11151,7 @@ Otherwise, you may access the object outside the transaction, which is not allow
         <seg>Before building security into your Quarkus applications, learn about the xref:security-architecture.adoc[Quarkus Security architecture] and the different authentication mechanisms and features you can use.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Antes de incorporar segurança às suas aplicações Quarkus, aprenda sobre a xref:security-architecture.adoc[arquitetura do Quarkus Security] e os diferentes mecanismos de autenticação e recursos que o você pode usar.</seg>
+        <seg>Antes de desenvolver segurança em suas aplicações Quarkus, aprenda sobre a xref:security-architecture.adoc[arquitetura do Quarkus Security] e os diferentes mecanismos de autenticação e recursos que o você pode usar.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11225,7 +11313,7 @@ on Windows you should share your project's drive at Docker Desktop file share se
         <seg>Best of Breed Libraries and Standards</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>As melhores bibliotecas e padrões disponíveis</seg>
+        <seg>As melhores Bibliotecas e Padrões disponíveis</seg>
       </tuv>
     </tu>
     <tu>
@@ -11688,7 +11776,7 @@ For example, with Maven, run:</seg>
         <seg>Build the project:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Compile o projeto:</seg>
+        <seg>Construir o projeto:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13428,7 +13516,7 @@ native executable:</seg>
         <seg>Complete the steps in the xref:security-getting-started-tutorial.adoc[Getting started with Security by using Basic authentication and Jakarta Persistence] tutorial.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Conclua as etapas do tutorial xref:security-getting-started-tutorial.adoc[Getting started with Security by using Basic authentication and Jakarta Persistence (Começando com Security usando Basic authentication e Jakarta Persistence] ).</seg>
+        <seg>Conclua as etapas do tutorial xref:security-getting-started-tutorial.adoc[Começando com Security usando Autenticação Básica e Jakarta Persistence).</seg>
       </tuv>
     </tu>
     <tu>
@@ -14750,7 +14838,7 @@ In Podman, this is known as the Podman machine, and it is built into the tool.</
         <seg>Create the `src/main/java/org/acme/redis/IncrementResource.java` file, with the following content:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Criar o arquivo `src/main/java/org/acme/redis/IncrementResource.java`, com o seguinte conteúdo:</seg>
+        <seg>Criar o arquivo `src/main/java/org/acme/redis/IncrementoResource.java`, com o seguinte conteúdo:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14758,7 +14846,7 @@ In Podman, this is known as the Podman machine, and it is built into the tool.</
         <seg>Create the `src/main/java/org/acme/redis/IncrementService.java` file, with the following content:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Criar o arquivo `src/main/java/org/acme/redis/IncrementService.java`, com o seguinte conteúdo:</seg>
+        <seg>Criar o arquivo `src/main/java/org/acme/redis/IncrementoService.java`, com o seguinte conteúdo:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14938,7 +15026,7 @@ it is discouraged to pool them or reuse them for different tasks.</seg>
         <seg>Creating the Increment Service</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Criando o Serviço de Incremento `IncrementoService`</seg>
+        <seg>Criando o Serviço de Incremento</seg>
       </tuv>
     </tu>
     <tu>
@@ -15051,22 +15139,6 @@ it is discouraged to pool them or reuse them for different tasks.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Prevenção de Cross-Site Request Forgery (CSRF)</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Cross-origin resource sharing</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Compartilhamento de recursos entre origens</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Cross-origin resource sharing (CORS) is an HTTP-header-based mechanism that allows a server to indicate any origins other than its own, from which a browser should permit loading resources.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O CORS (Cross-origin resource sharing, compartilhamento de recursos entre origens) é um mecanismo baseado em cabeçalhos HTTP que permite que um servidor indique quaisquer origens diferentes da sua, a partir das quais um navegador deve permitir o carregamento de recursos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15654,7 +15726,7 @@ Por padrão, algumas mensagens provavelmente são reentregues muitas vezes, até
 
 Usando o mecanismo de dead letter, as mensagens têm a contagem máxima de reentrega. **Ao exceder o número máximo de reentregas, as mensagens são enviadas para o Tópico de Dead Letter e reconhecidas automaticamente**.
 
-Você pode ativar o mecanismo de letra morta definindo 'deadLetterPolicy'.
+Você pode ativar o mecanismo de dead letter definindo 'deadLetterPolicy'.
 
 Ao especificar a política de dead letter enquanto não especifica 'ackTimeoutMillis', você pode definir o tempo limite de ack para 30000 milissegundos.</seg>
       </tuv>
@@ -15899,7 +15971,7 @@ Quando um aplicativo usa 'Consumer#negativeAcknowledge(Message)', as mensagens c
         <seg>Delete the `first` increment.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Excluir o incremento `first`.</seg>
+        <seg>Excluir o incremento `primeira`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16215,7 +16287,7 @@ The application is configured automatically.</seg>
         <seg>Dev Services for AMQP is automatically enabled unless:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O Dev Services para AMQP é  ativado automaticamente, a menos que:</seg>
+        <seg>O Dev Services para AMQP é ativado automaticamente, a menos que:</seg>
       </tuv>
     </tu>
     <tu>
@@ -16446,7 +16518,7 @@ If your environment does not support Docker, you will need to start the server m
         <seg>Developer Joy</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Alegria do desenvolvedor</seg>
+        <seg>Alegria em desenvolver</seg>
       </tuv>
     </tu>
     <tu>
@@ -16624,7 +16696,7 @@ Many of these characteristics come by default with the Quarkus framework or http
         <seg>Disabling metrics collection</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Desativar a coleta de métricas</seg>
+        <seg>Desabilitando a coleta de métricas</seg>
       </tuv>
     </tu>
     <tu>
@@ -17392,7 +17464,7 @@ It is not advisable to permit all origins in a production environment, as it can
         <seg>Enable xref:security-basic-authentication.adoc[Basic authentication] for your Quarkus project and allow users to authenticate with a username and password.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Ative link:security-basic-authentication.html[a autenticação básica] para o seu projeto Quarkus e permita que os usuários se autentiquem com um username e um password.</seg>
+        <seg>Habilite a xref:security-basic-authentication.adoc[autenticação básica (Basic)] para o seu projeto Quarkus e permita que os usuários se autentiquem com um nome de usuário e senha.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17461,7 +17533,7 @@ Tipo: _boolean_</seg>
         <seg>Enabling / Disabling Dev Services for Kubernetes</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Ativar/desativar Dev Services  para Kubernetes</seg>
+        <seg>Ativar/desativar Dev Services para Kubernetes</seg>
       </tuv>
     </tu>
     <tu>
@@ -19478,7 +19550,7 @@ You can use a convenient builder-like API to create a transformer instance:</seg
         <seg>For guidance on testing Quarkus Security features and ensuring that your Quarkus applications are securely protected, see the xref:security-testing.adoc[Security testing] guide.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para obter orientação sobre testar recursos de segurança do Quarkus Security e garantir que suas aplicações Quarkus estejam protegidas de forma segura, consulte o guia de xref:security-testing.adoc[Security testing] .</seg>
+        <seg>Para obter orientação sobre testar recursos de segurança do Quarkus Security e garantir que suas aplicações Quarkus estejam protegidas de forma segura, consulte o guia de xref:security-testing.adoc[Testando o Security] .</seg>
       </tuv>
     </tu>
     <tu>
@@ -19497,7 +19569,7 @@ with the markers `// @formatter:off`/`// @formatter:on`. These require separate 
         <seg>For information about other methods that you can use to configure the required user credentials, see the xref:security-testing.adoc#configuring-user-information[Configuring User Information] section of the Quarkus "Security Testing" guide.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para obter informações sobre outros métodos que você pode utilizar para configurar as credenciais de usuário necessárias, consulte a seção  link:security-testing.html#configuring-user-information[Configurar as informações do usuario] do guia "Teste de segurança" do Quarkus.</seg>
+        <seg>Para obter informações sobre outros métodos que você pode usar para configurar as credenciais de usuário necessárias, consulte a seção xref:security-testing.adoc#configuring-user-information[Configurando Informações do Usuário] do guia "Teste de segurança" do Quarkus.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19820,14 +19892,6 @@ extension deployment module.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>For usage questions, we recommend to:</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Para perguntas de uso, recomendamos:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>For using `KafkaCompanion` API in tests, start by adding the following dependency:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -20049,7 +20113,7 @@ If you have GraalVM installed and it matches this version, you can start the nat
         <seg>Funqy HTTP Binding with AWS Lambda </seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Vinculação HTTP do Funqy com o AWS Lambda</seg>
+        <seg>Vinculação HTTP do Funqy com o AWS Lambda </seg>
       </tuv>
     </tu>
     <tu>
@@ -20472,14 +20536,6 @@ Refer to xref:jackson-serialization[Serializing via Jackson] to write your own s
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Getting Started with Security using Basic authentication and Jakarta Persistence</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Introdução à Segurança Usando a Autenticação Básica e o Jakarta Persistence</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Getting Started with gRPC</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -20786,7 +20842,7 @@ A longer ack group time is more efficient at the expense of a slight increase in
       <tuv xml:lang="pt_BR">
         <seg>Agrupe uma confirmação de consumidor por um tempo especificado. +
 Por padrão, um consumidor usa o tempo de agrupamento de 100ms para enviar confirmações a um corretor. +
-Definir um tempo de grupo de 0 envia confirmações imediatamente. +
+Definir um tempo de grupo de 0ms envia confirmações imediatamente. +
 Um tempo de grupo mais longo é mais eficiente às custas de um ligeiro aumento nas reentregas de mensagens após uma falha.</seg>
       </tuv>
     </tu>
@@ -21488,6 +21544,14 @@ If `Panache` is not used, `Mutiny.SessionFactory` can be injected and used simil
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Hibernate Search allows you to index your entities in an Elasticsearch cluster and easily offer full text search in all your Hibernate ORM-based applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>O Hibernate Search permite indexar suas entidades em um cluster do Elasticsearch e oferecer facilmente pesquisa de texto completo em todos os aplicativos baseados no Hibernate ORM.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>High concurrency and low resource usage</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -21870,7 +21934,7 @@ Tipo: _string_</seg>
         <seg>If `api-version` is not set, the latest version for the given flavor will be used. Otherwise, the version must match a https://github.com/dajudge/kindcontainer/blob/master/k8s-versions.json[version supported by the given flavor].</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Se a api-version não estiver definida, a versão mais recente para a variante fornecido será usada. Caso contrário, a versão deve corresponder a uma https://github.com/dajudge/kindcontainer/blob/master/k8s-versions.json[versão suportada pela variante fornecida].</seg>
+        <seg>Se a api-version não estiver definida, a versão mais recente para o tipo fornecido será usada. Caso contrário, a versão deve corresponder a uma https://github.com/dajudge/kindcontêiner/blob/master/k8s-versions.json[versão suportada pelo tipo fornecido].</seg>
       </tuv>
     </tu>
     <tu>
@@ -23479,7 +23543,7 @@ You can do it with Mockito's `@InjectMock` or with `QuarkusMock`.</seg>
 For more information, see the xref:rest-data-panache.adoc#securing-endpoints[Securing endpoints] section of the Quarkus "Generating Jakarta REST resources with Panache" guide.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Se você utilizar a extensão REST Data com Panache para auto-gerar seus recursos, você ainda pode utilizar anotações de segurança dentro do pacote `jakarta.annotation.security` . 
+        <seg>Se você utilizar a extensão REST Data com Panache para autogerar seus recursos, você ainda pode utilizar anotações de segurança dentro do pacote `jakarta.annotation.security` . 
 Para mais informações, consulte a seção xref:rest-data-panache.adoc#securing-endpoints[Securing endpoints] do guia "Gerando recursos REST Jakarta com Panache" do Quarkus.</seg>
       </tuv>
     </tu>
@@ -25813,7 +25877,8 @@ You do that with the `QuarkusRestClientBuilder`.</seg>
 The default priority, used if the interceptor does not implement the `Prioritized` interface, is `0`.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Os interceptadores com a maior prioridade são chamados primeiro. A prioridade padrão, usada se o interceptador não implementar a interface `Prioritized` , é `0` .</seg>
+        <seg>Os interceptores com a maior prioridade são chamados primeiro.
+A prioridade padrão, usada se o interceptador não implementar a interface 'Priorizada', é '0'.</seg>
       </tuv>
     </tu>
     <tu>
@@ -26265,7 +26330,7 @@ Esse comando também pode ser usado para atualizar o Quarkus CLI.</seg>
         <seg>It's also possible to annotate a producer method as a global interceptor:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Também é possível anotar um método produtor como um interceptor global:</seg>
+        <seg>Também é possível anotar um método de produtor como um interceptador global:</seg>
       </tuv>
     </tu>
     <tu>
@@ -27829,7 +27894,7 @@ Valor               https://234asdf234as.execute-api.us-east-1.amazonaws.com/</s
         <seg>Kubernetes nativo</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>Kubernetes Service Bindings</seg>
       </tuv>
@@ -28600,7 +28665,7 @@ them to the client, you can do it like this:</seg>
         <seg>Lightweight </seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Leve</seg>
+        <seg>Leve </seg>
       </tuv>
     </tu>
     <tu>
@@ -30914,8 +30979,8 @@ An exhaustive list of configuration properties is available in xref:kafka.adoc#k
 For information about security vulnerabilities, see the xref:security-vulnerability-detection.adoc[Security vulnerability detection and reporting in Quarkus] guide.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>A maioria das tags do Quarkus são relatadas no link:https://nvd.nist.gov[de US National Vulnerability Database (NVD] ). 
-Para obter informações sobre vulnerabilidades de segurança, consulte o guia xref:security-vulnerability-detection.adoc[Security vulnerability detection and reporting no Quarkus].</seg>
+        <seg>A maioria das tags do Quarkus são relatadas no link:https://nvd.nist.gov[US National Vulnerability Database (NVD] ). 
+Para obter informações sobre vulnerabilidades de segurança, consulte o guia xref:security-vulnerability-detection.adoc[Deteção e comunicação de vulnerabilidades de segurança no Quarkus].</seg>
       </tuv>
     </tu>
     <tu>
@@ -31486,7 +31551,7 @@ the value `bar`.</seg>
         <seg>No hassle native executable generation</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Sem complicações na geração de executáveis nativos</seg>
+        <seg>Geração de executável nativo sem complicações</seg>
       </tuv>
     </tu>
     <tu>
@@ -32858,7 +32923,7 @@ call must set a specific environment variable:</seg>
         <seg>Open another terminal and run the `curl http://localhost:8080/increments` command.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Abra outro terminal e execute o comando `curl http://localhost:8080/increments.</seg>
+        <seg>Abra outro terminal e execute o comando `curl http://localhost:8080/incrementos`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34157,8 +34222,8 @@ For more information, see the Quarkus xref:security-proactive-authentication.ado
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O produtor deve tomar medidas quando a criptografia falhar. +
-* **FAIL**: se a criptografia falhar, as mensagens não criptografadas não serão enviadas. +
-* **SEND**: se a criptografia falhar, mensagens não criptografadas serão enviadas.</seg>
+* **FALHA**: se a criptografia falhar, as mensagens não criptografadas não serão enviadas. +
+* **ENVIO**: se a criptografia falhar, mensagens não criptografadas serão enviadas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34534,7 +34599,7 @@ We use `java.util.Optional` type to define such properties.</seg>
         <seg>Quarkus Extension for Apache Kafka</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Extensão Quarkus para o Apache Kafka</seg>
+        <seg>Extensão Quarkus para Apache Kafka</seg>
       </tuv>
     </tu>
     <tu>
@@ -34642,7 +34707,7 @@ For more information, see the Quarkus xref:security-customization.adoc[Security 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O Quarkus Security também é altamente personalizável. 
-Para obter mais informações, consulte o guia de xref:security-customization.adoc[dicas e técnicas] do Quarkus xref:security-customization.adoc[Security] .</seg>
+Para obter mais informações, consulte o guia do Quarkus xref:security-customization.adoc[Dicas e truques de Segurança] .</seg>
       </tuv>
     </tu>
     <tu>
@@ -35314,7 +35379,7 @@ These checks are used in combination with the `quarkus-smallrye-health` extensio
 Based on Eclipse MicroProfile Reactive Messaging specification 2.0, it proposes a flexible programming model bridging CDI and event-driven.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O Quarkus oferece suporte ao Apache Kafka por meio da estrutura https://smallrye.io/smallrye-reactive-messaging/[Mensageria Reativa do SmallRye]. Com base na especificação 2.0 da Mensageria Reativa do Eclipse MicroProfile, ele propõe um modelo de programação flexível que une o CDI e a orientação a eventos.</seg>
+        <seg>O Quarkus oferece suporte para Apache Kafka através do framework https://smallrye.io/smallrye-reactive-messaging/[Mensageria Reativa do SmallRye]. Baseado na especificação Eclipse MicroProfile Reactive Messaging 2.0, ela propõe um modelo de programação flexível que conecta CDI e processamento orientado a eventos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36396,7 +36461,7 @@ For more information, see the xref:security-customization.adoc#security-identity
         <seg>Remote Development</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Desenvolvimento remoto</seg>
+        <seg>Desenvolvimento Remoto</seg>
       </tuv>
     </tu>
     <tu>
@@ -37791,7 +37856,7 @@ The `event` parameter takes any JSON file, in this case the sample `payload.json
         <seg>Security vulnerability detection</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Security vulnerability detection</seg>
+        <seg>Detecção de vulnerabilidades Security</seg>
       </tuv>
     </tu>
     <tu>
@@ -39130,6 +39195,14 @@ supported. Consider using xref:config-mappings.adoc[Mapping configuration to obj
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Start Keycloak or other providers automatically in dev and test modes.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Inicie o Keycloak ou outros provedores automaticamente nos modos de desenvolvimento e teste.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Start Kogito automatically in dev and test modes.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -40100,14 +40173,6 @@ Quarkus application for each test class.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Os componentes "reais" podem injetar diretamente o `TestContext`.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The &lt;a href="https://groups.google.com/d/forum/quarkus-dev" target="_blank"&gt;quarkus-dev Google Groups&lt;/a&gt;</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O &lt;a href="https://groups.google.com/d/forum/quarkus-dev" target="_blank"&gt;quarkus-dev Google Groups&lt;/a&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41971,7 +42036,7 @@ Once the insertion completes (which plays the role of the continuation), we crea
         <seg>The combination of Quarkus and Kubernetes provides an ideal environment for creating scalable, fast, and lightweight applications. Quarkus significantly increases developer productivity with tooling, pre-built integrations, application services, and more.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>A combinação de Quarkus e Kubernetes fornece um ambiente ideal para criar aplicativos escaláveis, rápidos e leves. O Quarkus aumenta significativamente a produtividade do desenvolvedor com ferramentas, integrações pré-criadas, serviços de aplicativos e muito mais.</seg>
+        <seg>A combinação de Quarkus e Kubernetes fornece um ambiente ideal para criar aplicações escaláveis, rápidas e leves. O Quarkus aumenta significativamente a produtividade do desenvolvedor com ferramentas, integrações pré-criadas, serviços de aplicações e muito mais.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42137,7 +42202,7 @@ Tipo: _string_</seg>
         <seg>The consumed / populated Pulsar topic. If not set, the channel name is used</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O tópico Pulsar consumido/povoado. Se não estiver definido, o nome do canal será usado</seg>
+        <seg>O tópico Pulsar consumido/populado. Se não estiver definido, o nome do canal será usado</seg>
       </tuv>
     </tu>
     <tu>
@@ -42498,7 +42563,7 @@ using the default, `prod` profile.</seg>
         <seg>The extension includes `kafka-clients` version 3.2.1 as a transitive dependency and is compatible with Kafka brokers version 2.x.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>A extensão inclui `kafka-clients` versão 3.2.1 como uma dependência transitiva e é compatível com os brokers Kafka versão 2.x.</seg>
+        <seg>A extensão inclui `kafka-clients` versão 3.2.1 como uma dependência transitiva e é compatível com brokers Kafka versão 2.x.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43961,7 +44026,7 @@ Tipo: _string_</seg>
         <seg>The service name, method and type can be found in the _tags_.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O nome do serviço, o método e o tipo podem ser encontrados nas _tags_.</seg>
+        <seg>O nome do serviço, o método e o tipo podem ser encontrados em _tags_.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44273,7 +44338,7 @@ The following &lt;&lt;roles-example&gt;&gt; illustrates the syntax with 4 user-t
         <seg>The user, `alice`, has `alice` as their password and `admin` as their role.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O usuário, `alice`, tem `alice` como password e `admin` como role.</seg>
+        <seg>O usuário, `alice`, tem `alice` como sua senha e `admin` como sua função.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44281,7 +44346,7 @@ The following &lt;&lt;roles-example&gt;&gt; illustrates the syntax with 4 user-t
         <seg>The user, `bob`, has `bob` as their password and `user` as their role.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O usuário, `bob`, tem `bob` como senha e `user` como role.</seg>
+        <seg>O usuário, `bob`, tem `bob` como sua senha e `user` como sua função.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45385,6 +45450,14 @@ Se você estiver interessado em reatividade, sugerimos o xref:getting-started-re
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide covers how to deploy a native application on OpenShift.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia aborda como implantar um aplicativo nativo no OpenShift.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide covers how to use GCP BigQuery in Quarkus.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45733,6 +45806,22 @@ Se você estiver interessado em reatividade, sugerimos o xref:getting-started-re
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your OpenID Connect application can support multi-tenancy so that you can serve multiple tenants from a single application.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como seu aplicativo OpenID Connect pode oferecer suporte a multilocação para que você possa atender vários locatários de um único aplicativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can authorize access to protected resources using Keycloak Authorization Services.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como a sua aplicação Quarkus pode autorizar o acesso a recursos protegidos utilizando os Serviços de Autorização Keycloak.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can collect metrics using the Micrometer extension.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45791,6 +45880,14 @@ passwords.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can use a .properties file to store your user identities.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como seu aplicativo Quarkus pode usar um arquivo .properties para armazenar suas identidades de usuário.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can use a LDAP directory to store your user identities.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45840,6 +45937,14 @@ and power it up with the Drools rule engine.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with AMQP.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como sua aplicação Quarkus pode utilizar o SmallRye Reactive Messaging para interagir com o AMQP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with Apache Kafka.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45884,6 +45989,14 @@ and power it up with the Drools rule engine.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia demonstra como sua aplicação Quarkus pode utilizar a extensão SmallRye Health.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize the SmallRye Metrics extension.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como sua aplicação Quarkus pode utilizar a extensão SmallRye Metrics.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46000,6 +46113,14 @@ and power it up with the Drools rule engine.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to centralize your logs with Logstash or Fluentd using the Graylog Extended Log Format (GELF).</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como centralizar seus logs com Logstash ou Fluentd usando o Graylog Extended Log Format (GELF).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to configure Quarkus to authenticate against well-known OpenID Connect providers such as GitHub, Google, Microsoft, Apple...</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -46096,6 +46217,14 @@ and power it up with the Drools rule engine.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to use OpenID Connect and OAuth2 Client and Filters to acquire, refresh and propagate access tokens.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como usar clientes e filtros OpenID Connect e o OAuth2 para adquirir, atualizar e propagar tokens de acesso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to use Sentry to monitor your application and be notified when exceptions occur.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -46141,6 +46270,14 @@ REST Client Reactive is the REST Client implementation compatible with RESTEasy 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia explica como usar o RESTEasy REST Client para enviar solicitações REST multipart, normalmente para carregar documentos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how to use the RESTEasy Reactive REST Client.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como utilizar o cliente RESTEasy Reactive REST.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46225,8 +46362,24 @@ REST Client Reactive is the REST Client implementation compatible with RESTEasy 
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTelemetry to provide distributed tracing for interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como sua aplicação Quarkus pode utilizar o OpenTelemetry para fornecer rastreamento distribuído para aplicativos Web interativos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how your Quarkus application can utilize OpenTracing to provide distributed tracing for
 interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como sua aplicação Quarkus pode utilizar o OpenTracing para fornecer rastreamento distribuído para aplicativos Web interativos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTracing to provide distributed tracing for interactive web applications.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia explica como sua aplicação Quarkus pode utilizar o OpenTracing para fornecer rastreamento distribuído para aplicativos Web interativos.</seg>
@@ -46911,6 +47064,14 @@ Execute o seguinte para adicionar isso ao seu `application.properties` :</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia de referência fornece detalhes avançados sobre o uso e a configuração da instância Vert.x usada pelo Quarkus.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This reference guide provides an in-depth look on Apache Kafka and Smallrye Reactive Messaging framework.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia de referência fornece uma visão detalhada da estrutura Apache Kafka e Smallrye Reactive Messaging.</seg>
       </tuv>
     </tu>
     <tu>
@@ -47866,7 +48027,7 @@ Here is a summary of which extensions can access which metadata:</seg>
         <seg>To get started with security in Quarkus, consider securing your Quarkus application endpoints with the built-in Quarkus xref:security-basic-authentication.adoc[Basic authentication] and the Jakarta Persistence identity provider and enabling role-based access control.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para começar a usar a segurança no Quarkus, considere proteger os endpoints da sua aplicação Quarkus com a xref:security-basic-authentication.adoc[authentication] integrada do Quarkus xref:security-basic-authentication.adoc[Basic] e o Jakarta Persistence identity provider e habilitar o controle de acesso baseado em papéis.</seg>
+        <seg>Para começar a usar a segurança no Quarkus, considere proteger os endpoints da sua aplicação Quarkus com a xref:security-basic-authentication.adoc[Autenticação básica] integrada do Quarkus e o Jakarta Persistence identity provider e habilitar o controle de acesso baseado em papéis.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48055,7 +48216,7 @@ For more information about the CORS filter Quarkus provides, see the xref:securi
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Para tornar sua aplicação Quarkus acessível a partir de outra aplicação em execução em um domínio diferente, é necessário configurar o Cross-Origin Resource Sharing (CORS). 
-Para obter mais informações sobre o filtro CORS que o Quarkus fornece, consulte a seção de xref:security-cors.adoc#cors-filter[CORS filter] do guia "Cross-Origin Resource Sharing" do Quarkus.</seg>
+Para obter mais informações sobre o filtro CORS que o Quarkus fornece, consulte  xref:security-cors.adoc#cors-filter[CORS filter]  a seção do guia "Cross-Origin Resource Sharing" do Quarkus.</seg>
       </tuv>
     </tu>
     <tu>
@@ -48276,7 +48437,7 @@ The easiest way of accomplishing this task is to execute:</seg>
         <seg>To turn off the mock event server:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para desativar o mock event server:</seg>
+        <seg>Para desativar o servidor de eventos simulado:</seg>
       </tuv>
     </tu>
     <tu>
@@ -48309,7 +48470,7 @@ used as a marker for Quarkus generation tool, but it is also used by the `javado
         <seg>To use TLS with mutual authentication, use the following configuration:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para utilizar o TLS com autenticação mútua, utilize a seguinte configuração:</seg>
+        <seg>Para usar o TLS com autenticação mútua, use a seguinte configuração:</seg>
       </tuv>
     </tu>
     <tu>
@@ -48580,7 +48741,7 @@ O valor padrão e mínimo é 1 minuto.</seg>
         <seg>Tracing with AWS XRay and GraalVM</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Tracing com AWS XRay e GraalVM</seg>
+        <seg>Rastreabilidade com AWS X-Ray e GraalVM</seg>
       </tuv>
     </tu>
     <tu>
@@ -49105,6 +49266,14 @@ Furthermore, in multi-hop deployments, the credentials can be exposed if HTTPS i
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Use o Quarkus para criar um aplicativo Kafka Streams.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use Spring Boot's `@ConfigurationProperties` in place of MicroProfile Config annotations</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Use o '@ConfigurationProperties' do Spring Boot no lugar das anotações do MicroProfile Config</seg>
       </tuv>
     </tu>
     <tu>
@@ -51283,14 +51452,6 @@ this allows native image tests to also be run.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>What is Quarkus?</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O que é Quarkus?</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>What is a Quarkus extension?</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -51395,7 +51556,7 @@ information about this start, in particular:</seg>
         <seg>When SSL/TLS is configured, `plain-text` is automatically disabled.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Quando SSL/TLS é configurado, `plain-text` é automaticamente desativado.</seg>
+        <seg>Quando SSL/TLS é configurado, 'texto sem formatação' é automaticamente desabilitado.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53005,6 +53166,14 @@ This makes sure that managed entity is not impacted by the Kafka serialization.<
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Estruturas YAML e JSON podem ser interpretadas em um arquivo application.yaml.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>YAML as a Configuration Source.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>YAML como uma fonte de configuração.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57011,14 +57180,6 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>alt-languages, data</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>alt-languages, data</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>alternative-languages</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -57343,6 +57504,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>apicurio-registry-dev-services.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>appcds.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>appcds.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -58532,14 +58701,6 @@ to do so</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>cloud, core</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>cloud, core</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>cloud, native</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -58798,22 +58959,6 @@ to do so</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>core, native, tooling</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>core, native, tooling</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>core, native, writing-extensions</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>core, native, writing-extensions</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>core, security, native</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -59344,6 +59489,14 @@ to do so</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>deploy-kubernetes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>deploy-openshift</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>deploy-openshift</seg>
       </tuv>
     </tu>
     <tu>
@@ -61116,14 +61269,6 @@ O Micrometer coleta as métricas de todos os serviços gRPC implementados pelo a
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>getting-started, native</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>getting-started, security</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>getting-started, security</seg>
       </tuv>
     </tu>
     <tu>
@@ -80433,6 +80578,14 @@ Eles delegam a outros tipos de documentação (conceitos ou referência) para fo
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>kafka-reactive-getting-started.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>kafka-reactive-getting-started.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>kafka-schema-registry-avro.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -80935,7 +81088,7 @@ Eles delegam a outros tipos de documentação (conceitos ou referência) para fo
         <seg>link:/developer-joy[Saiba mais].</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>link:/standards[Learn more].</seg>
       </tuv>
@@ -82305,14 +82458,6 @@ Once you have set up `brew`, you can use the `brew install` command to install P
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>native, tooling</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>native, tooling</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>native-and-ssl.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82545,14 +82690,6 @@ Once you have set up `brew`, you can use the `brew install` command to install P
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>observability, web</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>observability, web</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>observability-devservices-lgtm.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82672,6 +82809,14 @@ The `Job` performs initialization and the actual `Pod`, will starts once the `Jo
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>opentelemetry.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>opentracing.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>opentracing.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -83920,6 +84065,22 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>rest-client-multipart.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>rest-client-multipart.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>rest-client-reactive.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>rest-client-reactive.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>rest-client.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -83988,6 +84149,22 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>resteasy-client.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive-migration.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>resteasy-reactive-migration.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>resteasy-reactive.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -84584,6 +84761,22 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>security-basic-authentication-tutorial</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>security-basic-authentication-tutorial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>security-basic-authentication-tutorial.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>security-basic-authentication-tutorial.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>security-basic-authentication.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -85120,14 +85313,6 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>serialization, web</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>serialization, web</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>sgahlot</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -85284,6 +85469,14 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>smallrye-health.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>smallrye-metrics.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>smallrye-metrics.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -86496,14 +86689,6 @@ considered blocking and the link:{runonvthread}[@RunOnVirtualThread] annotation 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>tooling, data</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>tooling, data</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>tooling, native</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -86946,14 +87131,6 @@ considered blocking and the link:{runonvthread}[@RunOnVirtualThread] annotation 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>web, security</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>web, security</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>web, serialization</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -87318,7 +87495,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:http-reference.adoc#ssl[Secure connections with SSL/TLS]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:http-reference.adoc#ssl[Secure connections with SSL/TLS]</seg>
+        <seg>xref:http-reference.adoc#ssl[Conexões seguras com SSL/TLS]</seg>
       </tuv>
     </tu>
     <tu>
@@ -87430,7 +87607,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-basic-authentication.adoc[Basic authentication]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-basic-authentication.adoc[Autenticação básica]</seg>
+        <seg>xref:security-basic-authentication.adoc[Basic authentication]</seg>
       </tuv>
     </tu>
     <tu>
@@ -87446,7 +87623,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-identity-providers.adoc[Identity Providers]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-identity-providers.adoc[Fornecedores de identidade]</seg>
+        <seg>xref:security-identity-providers.adoc[Provedores de Identidade]</seg>
       </tuv>
     </tu>
     <tu>
@@ -87494,7 +87671,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-oidc-bearer-token-authentication-tutorial.adoc[Protect a service application by using OIDC Bearer token authentication]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-oidc-bearer-token-authentication-tutorial.adoc[Proteger uma aplicação de serviço utilizando a OIDC Bearer token authentication]</seg>
+        <seg>xref:security-oidc-bearer-token-authentication-tutorial.adoc[Proteger uma aplicação de serviço utilizando OIDC Bearer token authentication]</seg>
       </tuv>
     </tu>
     <tu>
@@ -87558,7 +87735,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-proactive-authentication.adoc[Proactive authentication]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-proactive-authentication.adoc[Proactive authentication]</seg>
+        <seg>xref:security-proactive-authentication.adoc[Autenticação Proativa]</seg>
       </tuv>
     </tu>
     <tu>
@@ -87566,7 +87743,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-testing.adoc#configuring-user-information[Configuring User Information in application.properties]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-testing.adoc#configuring-user-information[Configurar as informações do usuário no application.properties]</seg>
+        <seg>xref:security-testing.adoc#configuring-user-information[Configurando Informações do Usuário no _application.properties_]</seg>
       </tuv>
     </tu>
     <tu>
@@ -87574,7 +87751,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-vulnerability-detection.adoc[Security vulnerability detection and National Vulnerability Database (NVD) registration]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-vulnerability-detection.adoc[Security vulnerability detection e registro US National Vulnerability Database (NVD)]</seg>
+        <seg>xref:security-vulnerability-detection.adoc[Deteção de vulnerabilidades de segurança e registo na base de dados nacional de vulnerabilidades (NVD)].</seg>
       </tuv>
     </tu>
     <tu>
