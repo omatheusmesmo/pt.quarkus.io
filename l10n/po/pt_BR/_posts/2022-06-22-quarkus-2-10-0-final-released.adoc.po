@@ -28,6 +28,7 @@ msgstr "Quarkus 2.10.0.Final lançado - Trabalho preliminar nas linhas virtuais 
 msgid "We released Quarkus 2.10.0.Final which starts the exploratory work for Loom's virtual threads and refines a lot of extensions."
 msgstr "Lançámos o Quarkus 2.10.0.Final que inicia o trabalho exploratório para as threads virtuais do Loom e aperfeiçoa muitas extensões."
 
+#. type: Plain text
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -41,19 +42,19 @@ msgstr "Novo mês, novo lançamento de recursos do Quarkus, o senhor sabe como �
 msgid "This version is a mix of exploratory work and refinements on existing extensions:"
 msgstr "Esta versão é uma mistura de trabalho exploratório e aperfeiçoamentos de extensões existentes:"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Preliminary work on Loom's virtual threads"
 msgstr "Trabalhos preliminares sobre os fios virtuais do Loom"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "GraphQL non-blocking support"
 msgstr "Suporte a não-bloqueio GraphQL"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kubernetes service binding support for Reactive SQL Clients"
@@ -71,7 +72,7 @@ msgstr "`CacheKeyGenerator` para extensão de cache"
 msgid "And much more!"
 msgstr "E muito mais!"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Migration Guide"
@@ -83,7 +84,7 @@ msgstr "Guia de migração"
 msgid "To migrate from 2.9, please refer to https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.10[our migration guide]."
 msgstr "Para migrar da versão 2.9, consulte o  link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-2.10[nosso guia de migração]."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
@@ -95,6 +96,7 @@ msgstr "O que é que há de novo?"
 msgid "The Quarkus team started experimenting with Loom's virtual threads and https://github.com/quarkusio/quarkus/pull/24942[a first pull request] was merged."
 msgstr "A equipa do Quarkus começou a experimentar as threads virtuais do Loom e  link:https://github.com/quarkusio/quarkus/pull/24942[um primeiro pull request] foi fundido."
 
+#. type: Plain text
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy
 msgid "It is still very rough and the API will be subject to change  but if you are interested in Loom's virtual threads, feel free to give it a try."
@@ -112,6 +114,7 @@ msgstr "Aguarde mais desenvolvimentos e anúncios nos próximos meses."
 msgid "To learn more about this effort, check out https://developers.redhat.com/devnation/tech-talks/integrate-loom-quarkus[the video of Clément's and Arthur's talk]."
 msgstr "Para saber mais sobre este esforço, veja  link:https://developers.redhat.com/devnation/tech-talks/integrate-loom-quarkus[o vídeo da palestra de Clément e Arthur]."
 
+#. type: Plain text
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -125,7 +128,7 @@ msgstr "O Quarkus oferece paradigmas programáticos imperativos e reativos, e tr
 msgid "The GraphQL extensions now support non-blocking workloads."
 msgstr "As extensões GraphQL agora suportam cargas de trabalho sem bloqueio."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "SmallRye Reactive Messaging upgrade"
@@ -143,7 +146,7 @@ msgstr "O SmallRye Reactive Messaging foi atualizado para a versão 3.16.0."
 msgid "We added Kubernetes service binding support for the Reactive SQL Clients extensions."
 msgstr "Adicionámos suporte de ligação de serviço Kubernetes para as extensões de clientes SQL reactivos."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "CacheKeyGenerator for cache extension"
@@ -161,7 +164,7 @@ msgstr "A extensão `quarkus-cache` estava a gerar automaticamente chaves de cac
 msgid "A new contract `CacheKeyGenerator` was introduced in 2.10 to allow for this customization."
 msgstr "Um novo contrato `CacheKeyGenerator` foi introduzido na versão 2.10 para permitir esta personalização."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "quarkus-bootstrap-maven-plugin deprecated in favor of quarkus-extension-maven-plugin"
@@ -179,13 +182,13 @@ msgstr "O `quarkus-bootstrap-maven-plugin` foi preterido em favor do `quarkus-ex
 msgid "This only has impact on extension developers who should switch to the new plugin."
 msgstr "Isto só tem impacto nos criadores de extensões que devem mudar para o novo plugin."
 
-#. type: delimited block =
+#. type: Plain text
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy
 msgid "We will keep publishing the deprecated plugin for a while so you it is not urgent to switch to the new one."
 msgstr "Continuaremos a publicar o plugin obsoleto durante algum tempo para que não seja urgente mudar para o novo."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Better infrastructure for JDBC driver extensions"
@@ -203,12 +206,13 @@ msgstr "Um colaborador começou a trabalhar numa extensão de driver JDBC para S
 msgid "Most notably, it is now possible to indicate which Hibernate ORM dialect should be used by default even for external JDBC driver extensions."
 msgstr "Nomeadamente, é agora possível indicar qual o dialeto Hibernate ORM que deve ser utilizado por defeito, mesmo para extensões de controladores JDBC externos."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Quiltflower decompiler support"
 msgstr "Suporte ao descompilador Quiltflower"
 
+#. type: Plain text
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -222,7 +226,7 @@ msgstr "Ao escrever extensões do Quarkus, muitas vezes é útil descompilar o c
 msgid "We used Fernflower for that until now but we have switched to Quiltflower which provides a better output."
 msgstr "Até agora, utilizávamos o Fernflower para esse efeito, mas mudámos para o Quiltflower, que proporciona um melhor resultado."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "New guides"
@@ -252,7 +256,7 @@ msgstr "link:/guides/security-openid-connect-client-reference[Guia de referênci
 msgid "link:/guides/podman[Using Podman with Quarkus]"
 msgstr "link:/guides/podman[Utilizar o Podman com o Quarkus]"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -264,12 +268,13 @@ msgstr "Registo de alterações completo"
 msgid "You can get the full changelog of https://github.com/quarkusio/quarkus/releases/tag/2.10.0.CR1[2.10.0.CR1] and https://github.com/quarkusio/quarkus/releases/tag/2.10.0.Final[2.10.0.Final] on GitHub."
 msgstr "Pode obter o registo de alterações completo das versões  link:https://github.com/quarkusio/quarkus/releases/tag/2.10.0.CR1[2.10.0.CR1] e  link:https://github.com/quarkusio/quarkus/releases/tag/2.10.0.Final[2.10.0.Final] no GitHub."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Contributors"
 msgstr "Contribuintes"
 
+#. type: Plain text
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -283,7 +288,7 @@ msgstr "A comunidade Quarkus está crescendo e agora conta com link:https://gith
 msgid "In particular for the 2.10 release, thanks to Alexey Loubyansky, Alexey Sharandin, Amos Feng, andreaTP, Andy Damevin, Anthony Dahanne, Anton Kozlov, aona42, arnavarr, Auri Munoz, Bill Burke, Clara Fang, Clement Escoffier, Davide, Eddú Meléndez, Emanuel Alves, Eric Deandrea, Erik Åsén, Erin Schnabel, Fabricio Gregorio, Falko Modler, Fedor Dudinskiy, Felipe Henrique Gross Windmoller, Foivos Zakkak, franz1981, Geoffrey De Smet, George Gastaldi, Georgios Andrianakis, Greg Stewart, Guillaume Le Floch, Guillaume Smet, Gwenneg Lepage, Holly Cummins, Ioannis Canellos, Jacob Skillin, Jakob, James Netherton, Jan Martiška, Jason T. Greene, Jay, jeanphibaconnais, Jeff MAURY, Joel Mateus, Jose, Julien Gracia, Julien Ponge, Katia Aresti, kdnakt, Kevin Wooten, kioichiyoda, Knut Wannheden, Ladislav Thon, Loïc Hermann, Loïc Mathieu, luneo7, lyoff, Manyanda Chitimbo, Marc Wrobel, Marcin Kłopotek, Martin Kouba, Martin Panzer, Matej Vasek, Matthias Andreas Benkard, Max Rydahl Andersen, Michael Anstis, Michal Karm Babacek, Michal Vavřík, Michał Szynkiewicz, Mihai.Poenaru, mun711, Nathan Erwin, Neil Moffat, newur, Oleksiy Lukin, Ozan Gunalp, Pedro Igor, Peter Palaga, Phillip Krüger, Primož Hrovat, Robert Stupp, Roberto Cortez, Romain QUINIO, Rostislav Svoboda, Sanal Kumar, Sanne Grinovero, Sergey Beryozkin, Steve Ebersole, Stuart Douglas, Stéphane Épardaud, Thomas Segismont, Vinícius Ferraz Campos Florentino, Willem Jan Glerum, Wim Goeman, xstefank, Yoann Rodière and Yoshikazu Nojima."
 msgstr "Em particular para a versão 2.10, graças a Alexey Loubyansky, Alexey Sharandin, Amos Feng, andreaTP, Andy Damevin, Anthony Dahanne, Anton Kozlov, aona42, arnavarr, Auri Munoz, Bill Burke, Clara Fang, Clement Escoffier, Davide, Eddú Meléndez, Emanuel Alves, Eric Deandrea, Erik Åsén, Erin Schnabel, Fabricio Gregorio, Falko Modler, Fedor Dudinskiy, Felipe Henrique Gross Windmoller, Foivos Zakkak, franz1981, Geoffrey De Smet, George Gastaldi, Georgios Andrianakis, Greg Stewart, Guillaume Le Floch, Guillaume Smet, Gwenneg Lepage, Holly Cummins, Ioannis Canellos, Jacob Skillin, Jakob, James Netherton, Jan Martiška, Jason T. Greene, Jay, jeanphibaconnais, Jeff MAURY, Joel Mateus, Jose, Julien Gracia, Julien Ponge, Katia Aresti, kdnakt, Kevin Wooten, kioichiyoda, Knut Wannheden, Ladislav Thon, Loïc Hermann, Loïc Mathieu, luneo7, lyoff, Manyanda Chitimbo, Marc Wrobel, Marcin Kłopotek, Martin Kouba, Martin Panzer, Matej Vasek, Matthias Andreas Benkard, Max Rydahl Andersen, Michael Anstis, Michal Karm Babacek, Michal Vavřík, Michał Szynkiewicz, Mihai.Poenaru, mun711, Nathan Erwin, Neil Moffat, newur, Oleksiy Lukin, Ozan Gunalp, Pedro Igor, Peter Palaga, Phillip Krüger, Primož Hrovat, Robert Stupp, Roberto Cortez, Romain QUINIO, Rostislav Svoboda, Sanal Kumar, Sanne Grinovero, Sergey Beryozkin, Steve Ebersole, Stuart Douglas, Stéphane Épardaud, Thomas Segismont, Vinícius Ferraz Campos Florentino, Willem Jan Glerum, Wim Goeman, xstefank, Yoann Rodière e Yoshikazu Nojima."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2022-06-22-quarkus-2-10-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"

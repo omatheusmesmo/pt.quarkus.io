@@ -64,7 +64,7 @@ msgstr "Estava à espera deste artigo 🤓"
 msgid "Now that you are teased, aren't you? Let's dive in."
 msgstr "Agora que está a ser provocado, não está? Vamos mergulhar no assunto."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-20-sentry-the-guardian-of-your-quarkus-app.adoc
 #, fuzzy, no-wrap
 msgid "Sentry, the guardian has arrived on Quarkus"
@@ -124,12 +124,13 @@ msgstr "Adicionar a extensão:"
 msgid "Set it up:"
 msgstr "Preparar tudo:"
 
+#. type: Plain text
 #: _posts/2020-01-20-sentry-the-guardian-of-your-quarkus-app.adoc
 #, fuzzy
 msgid "More details about the configuration can be found in the https://quarkus.io/guides/logging-sentry[Logging with Sentry guide]"
 msgstr "Mais detalhes sobre a configuração podem ser encontrados no link:https://quarkus.io/guides/logging-sentry[guia Logging with Sentry]"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2020-01-20-sentry-the-guardian-of-your-quarkus-app.adoc
 #, fuzzy, no-wrap
 msgid "Happily ever after"

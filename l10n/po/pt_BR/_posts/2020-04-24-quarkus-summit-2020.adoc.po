@@ -40,6 +40,7 @@ msgstr "Caso ainda não saiba, a  link:https://www.redhat.com/en/summit[Red Hat 
 msgid "Here is a handy session guide for the <<keynote>>, <<technical>>, and <<stories>>, where Quarkus is either covered or is the central topic. Registration starts Monday."
 msgstr "Aqui está um guia prático para as sessões  link:#keynote[[keynote]],  link:#technical[[technical]] e  link:#stories[[stories]], onde o Quarkus é abordado ou é o tópico central. As inscrições começam na segunda-feira."
 
+#. type: Title =
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid "Keynote"
@@ -85,6 +86,7 @@ msgstr ""
 "Quarta-feira 9:00 EDT\n"
 "<br> &lt; ----  link:https://www.redhat.com/en/summit/agenda/agenda-at-a-glance[link] ---- &gt;"
 
+#. type: Title =
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid "Technical Sessions"
@@ -424,6 +426,7 @@ msgstr ""
 "<br> 29 de abril\n"
 "<br> 5:00 pm SGT"
 
+#. type: Title =
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid "Quarkus in Production Customer Sessions"
@@ -435,6 +438,7 @@ msgstr "Sessões de clientes do Quarkus em produção"
 msgid "Vodafone Greece's exciting migration journey from SpringBoot to Quarkus"
 msgstr "A emocionante viagem de migração da Vodafone Grécia do SpringBoot para o Quarkus"
 
+#. type: Table
 #: _posts/2020-04-24-quarkus-summit-2020.adoc
 #, fuzzy
 msgid ""

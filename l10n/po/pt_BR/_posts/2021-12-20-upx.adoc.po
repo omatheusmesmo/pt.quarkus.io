@@ -28,6 +28,7 @@ msgstr "Compressão de executáveis nativos com UPX"
 msgid "How does Quarkus make your native executable smaller using UPX"
 msgstr "Como é que o Quarkus torna o seu executável nativo mais pequeno utilizando o UPX"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -37,6 +38,7 @@ msgid ""
 "More than 20 years later, UPX is still rocking."
 msgstr "O UPX é um *empacotador de executável* de código aberto, portátil e de alto desempenho, criado inicialmente em 1996. Ele recebe um executável como entrada e produz um executável compactado. Os leitores de uma _certa_ idade podem já ter usado o UPX há muito tempo, quando os programas precisavam ser compactados para caber em um disquete. Mais de 20 anos depois, o UPX ainda está em alta."
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -48,7 +50,7 @@ msgid ""
 "So make sure to read the \"big warning\" section before using it."
 msgstr "No Quarkus 2.6, integramos a compactação UPX na compilação do Quarkus. Assim, o Quarkus pode produzir automaticamente um executável compactado. Esta postagem explica como o senhor pode usar esse novo recurso. Mas, antes de prosseguir, o senhor precisa entender que *nada vem* de graça. O executável compactado é menor no disco, mas seu uso de memória é maior. Portanto, certifique-se de ler a seção \"grande aviso\" antes de usá-lo."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy, no-wrap
 msgid "Getting you ready"
@@ -60,6 +62,7 @@ msgstr "Prepará-lo"
 msgid "Quarkus can compress your executable if you have installed UPX on your system or use an in-container build."
 msgstr "O Quarkus pode comprimir o seu executável se tiver instalado o UPX no seu sistema ou se utilizar uma compilação em contentor."
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -69,6 +72,7 @@ msgid ""
 "So you can compress a Linux 64 bits executable even from a macOS or Windows machine."
 msgstr "O UPX está disponível na maioria dos sistemas operacionais. Portanto, o senhor deve poder fazer o download na link:https://github.com/upx/upx/releases/tag/v3.96[página de lançamento] . O UPX é multiplataforma. Portanto, o senhor pode compactar um executável Linux de 64 bits mesmo em uma máquina macOS ou Windows."
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -85,12 +89,13 @@ msgstr "Se a instalação do UPX não for uma opção para o senhor, é possíve
 msgid "In this post, we will use the first approach. The https://quarkus.io/version/main/guides/building-native-image#creating-a-container[Building a Native Executable] page explains how to use in-container build."
 msgstr "Neste post, usaremos a primeira abordagem. A página  link:https://quarkus.io/version/main/guides/building-native-image#creating-a-container[Construindo um executável nativo] explica como usar a construção em contêiner."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy, no-wrap
 msgid "Let's get something to compress"
 msgstr "Vamos arranjar algo para comprimir"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -99,6 +104,7 @@ msgid ""
 "This application uses RESTEasy Reactive and its Jackson support, but the compression works with any project, and we won't even look at the code."
 msgstr "Primeiro, precisamos de um aplicativo. Para simplificar, vamos criar um novo aplicativo em link:https://code.quarkus.io/?a=upx-compression-demo&e=resteasy-reactive-jacksoncode.quarkus.io[https://code.quarkus.io/?a=upx-compression-demo&e=resteasy-reactive-jacksoncode.quarkus.io.] Esse aplicativo usa o RESTEasy Reactive e seu suporte Jackson, mas a compactação funciona com qualquer projeto, e nem mesmo analisaremos o código."
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -112,6 +118,7 @@ msgstr "Antes de usar o UPX, precisamos medir o espaço em disco e o uso da mem�
 msgid "The resulting executable use ~46 MB of disk space:"
 msgstr "O executável resultante utiliza ~46 MB de espaço em disco:"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -143,12 +150,13 @@ msgstr "O comando `rss` tem a seguinte função:"
 msgid "Check https://quarkus.io/guides/performance-measure[Quarkus - Measuring Performance] to learn more about RSS and how to measure it"
 msgstr "Consulte  link:https://quarkus.io/guides/performance-measure[Quarkus - Measuring Performance] para saber mais sobre RSS e como medi-lo"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy, no-wrap
 msgid "Configuring the compression"
 msgstr "Configurar a compressão"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -183,7 +191,7 @@ msgstr "Configurar o nível a partir do ficheiro `application.properties`:"
 msgid "That's all you need to do to enable the compression."
 msgstr "É tudo o que precisa de fazer para ativar a compressão."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy, no-wrap
 msgid "Building the compressed native executable"
@@ -207,12 +215,13 @@ msgstr "Como pode ver, desta vez, ele executa o UPX para comprimir o executável
 msgid "So we went from 46 M to 15 M; this is a considerable gain, even if it still does not fit on a floppy disk."
 msgstr "Assim, passámos de 46 M para 15 M; trata-se de um ganho considerável, mesmo que continue a não caber numa disquete."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy, no-wrap
 msgid "The **BIG** warning"
 msgstr "O *GRANDE* aviso"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -232,6 +241,7 @@ msgstr "Execute a aplicação com:"
 msgid "And, in another terminal, run:"
 msgstr "E, noutro terminal, executar:"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -240,12 +250,13 @@ msgid ""
 "It can also increase the startup time, but this startup overhead is insignificant most of the time."
 msgstr "*57 MB* ! Portanto, ele usa ~2,7 vezes mais RSS do que o executável não compactado. Essa sobrecarga ocorre porque o executável compactado precisa descompactar o programa na inicialização e armazená-lo na memória. Ele também pode aumentar o tempo de inicialização, mas essa sobrecarga de inicialização é insignificante na maioria das vezes."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
 msgstr "Resumo"
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -253,6 +264,7 @@ msgid ""
 "In Quarkus 2.6, you only need to configure the compression level, and voilà, it compresses it for you."
 msgstr "O UPX permite que o senhor comprima seus executáveis nativos. No Quarkus 2.6, o senhor só precisa configurar o nível de compactação e, pronto, ele comprime para o senhor."
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""
@@ -260,6 +272,7 @@ msgid ""
 "While the gain on disk space is fantastic, do not ignore the RSS overhead."
 msgstr "No entanto, não pense que tudo isso é gratuito. Embora o ganho de espaço em disco seja fantástico, não ignore a sobrecarga de RSS."
 
+#. type: Plain text
 #: _posts/2021-12-20-upx.adoc
 #, fuzzy
 msgid ""

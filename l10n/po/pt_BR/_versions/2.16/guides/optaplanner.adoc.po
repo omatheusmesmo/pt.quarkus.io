@@ -16,15 +16,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "OptaPlanner - Using AI to optimize a schedule with OptaPlanner"
 msgstr "OptaPlanner - Usando IA para otimizar uma programação com o OptaPlanner"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -32,7 +33,7 @@ msgid ""
 "with https://www.optaplanner.org/[OptaPlanner]'s constraint solving Artificial Intelligence (AI)."
 msgstr "Este guia orienta o senhor no processo de criação de um aplicativo Quarkus com a Inteligência Artificial (IA) de solução de restrições do link:https://www.optaplanner.org/[OptaPlanner] ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, no-wrap
 msgid "What you will build"
@@ -44,6 +45,7 @@ msgstr "O que você vai construir"
 msgid "You will build a REST application that optimizes a school timetable for students and teachers:"
 msgstr "O senhor criará um aplicativo REST que otimiza um horário escolar para alunos e professores:"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -87,6 +89,7 @@ msgstr "Um professor prefere dar aulas sequenciais e não gosta de intervalos en
 msgid "A student dislikes sequential lessons on the same subject."
 msgstr "Um aluno não gosta de aulas sequenciais sobre o mesmo assunto."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -98,12 +101,13 @@ msgid ""
 "that deliver a near-optimal solution in a reasonable amount of time."
 msgstr "Em termos matemáticos, a definição do horário escolar é um problema _NP difícil_ . Isso significa que é difícil de dimensionar. A simples iteração por força bruta de todas as combinações possíveis leva milhões de anos para um conjunto de dados não trivial, mesmo em um supercomputador. Felizmente, os solucionadores de restrições de IA, como o OptaPlanner, têm algoritmos avançados que fornecem uma solução quase ideal em um período de tempo razoável."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "Solução"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
@@ -121,18 +125,19 @@ msgstr "Clone o repositório Git: `git clone {quickstarts-clone-url}`, ou baixe 
 msgid "The solution is located in {quickstarts-tree-url}/optaplanner-quickstart[the `optaplanner-quickstart` directory]."
 msgstr "A solução está localizada em {quickstarts-tree-url}/optaplanner-quickstart [o diretório `optaplanner-quickstart` ]."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, no-wrap
 msgid "Prerequisites"
 msgstr "Pré-requisitos"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "The build file and the dependencies"
 msgstr "O arquivo de compilação e as dependências"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -188,12 +193,13 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Model the domain objects"
 msgstr "Modelar os objetos de domínio"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -201,12 +207,13 @@ msgid ""
 "You will create these classes:"
 msgstr "Seu objetivo é atribuir cada aula a um intervalo de tempo e a uma sala. O senhor criará essas classes:"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Timeslot"
 msgstr "Faixa de horário"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -216,6 +223,7 @@ msgid ""
 "and there are no time slots during lunch or other breaks."
 msgstr "A classe `Timeslot` representa um intervalo de tempo em que as aulas são ministradas, por exemplo, `Monday 10:30 - 11:30` ou `Tuesday 13:30 - 14:30` . Para simplificar, todos os intervalos de tempo têm a mesma duração e não há intervalos de tempo durante o almoço ou outros intervalos."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -229,6 +237,7 @@ msgstr "Um intervalo de tempo não tem data, porque a programação do ensino m�
 msgid "Create the `src/main/java/org/acme/optaplanner/domain/Timeslot.java` class:"
 msgstr "Crie a classe `src/main/java/org/acme/optaplanner/domain/Timeslot.java` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -236,6 +245,7 @@ msgid ""
 "Such classes do not require any OptaPlanner specific annotations."
 msgstr "Como nenhuma instância de `Timeslot` muda durante a solução, um `Timeslot` é chamado de _fato do problema_ . Essas classes não requerem nenhuma anotação específica do OptaPlanner."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -243,12 +253,13 @@ msgid ""
 "so it is easier to read OptaPlanner's `DEBUG` or `TRACE` log, as shown later."
 msgstr "Observe que o método `toString()` mantém a saída curta, de modo que é mais fácil ler o registro `DEBUG` ou `TRACE` do OptaPlanner, conforme mostrado posteriormente."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Room"
 msgstr "Sala"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -270,12 +281,13 @@ msgstr "Crie a classe `src/main/java/org/acme/optaplanner/domain/Room.java` :"
 msgid "`Room` instances do not change during solving, so `Room` is also a _problem fact_."
 msgstr "`Room` as instâncias não mudam durante a solução, portanto, `Room` também é um _fato problemático_ ."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Lesson"
 msgstr "Lição"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -287,6 +299,7 @@ msgid ""
 "For example, the 9th grade has six math lessons a week."
 msgstr "Durante uma aula, representada pela classe `Lesson` , um professor ensina uma matéria para um grupo de alunos, por exemplo, `Math by A.Turing for 9th grade` ou `Chemistry by M.Curie for 10th grade` . Se uma matéria for ensinada várias vezes por semana pelo mesmo professor para o mesmo grupo de alunos, há várias instâncias `Lesson` que só podem ser distinguidas por `id` . Por exemplo, a 9ª série tem seis aulas de matemática por semana."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -295,6 +308,7 @@ msgid ""
 "Because OptaPlanner changes these fields, `Lesson` is a _planning entity_:"
 msgstr "Durante a resolução, o OptaPlanner altera os campos `timeslot` e `room` da classe `Lesson` , para atribuir cada aula a um intervalo de tempo e a uma sala. Como o OptaPlanner altera esses campos, `Lesson` é uma _entidade de planejamento_ :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -314,6 +328,7 @@ msgstr "A maioria dos campos no diagrama anterior contém dados de entrada, exce
 msgid "Create the `src/main/java/org/acme/optaplanner/domain/Lesson.java` class:"
 msgstr "Crie a classe `src/main/java/org/acme/optaplanner/domain/Lesson.java` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -322,6 +337,7 @@ msgid ""
 "because it contains one or more planning variables."
 msgstr "A classe `Lesson` tem uma anotação `@PlanningEntity` , de modo que o OptaPlanner sabe que essa classe muda durante a solução porque contém uma ou mais variáveis de planejamento."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -338,6 +354,7 @@ msgstr "O campo `timeslot` tem uma anotação `@PlanningVariable` , portanto o O
 msgid "The `room` field also has an `@PlanningVariable` annotation, for the same reasons."
 msgstr "O campo `room` também tem uma anotação `@PlanningVariable` , pelos mesmos motivos."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -347,12 +364,13 @@ msgid ""
 "to avoid common pitfalls."
 msgstr "Determinar os campos `@PlanningVariable` para um caso de uso de solução de restrições arbitrárias costuma ser um desafio na primeira vez. Leia link:https://docs.optaplanner.org/latestFinal/optaplanner-docs/html_single/index.html#domainModelingGuide[as diretrizes de modelagem de domínio] para evitar armadilhas comuns."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Define the constraints and calculate the score"
 msgstr "Definir as restrições e calcular a pontuação"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -362,6 +380,7 @@ msgid ""
 "It might be the _optimal_ solution."
 msgstr "Uma _pontuação_ representa a qualidade de uma solução específica. Quanto mais alta, melhor. O OptaPlanner procura a melhor solução, que é a solução com a maior pontuação encontrada no tempo disponível. Ela pode ser a solução _ideal_ ."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -381,6 +400,7 @@ msgstr "As restrições rígidas não podem ser violadas. Por exemplo: _Uma sala
 msgid "Soft constraints should not be broken. For example: _A teacher prefers to teach in a single room._"
 msgstr "As restrições flexíveis não devem ser quebradas. Por exemplo: _Um professor prefere dar aulas em uma única sala._"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -395,6 +415,7 @@ msgstr "As restrições rígidas são ponderadas em relação a outras restriç�
 msgid "To calculate the score, you could implement an `EasyScoreCalculator` class:"
 msgstr "Para calcular a pontuação, o senhor poderia implementar uma classe `EasyScoreCalculator` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -403,6 +424,7 @@ msgid ""
 "all lessons are re-evaluated to calculate the new score."
 msgstr "Infelizmente, *isso não é bem dimensionado* , porque não é incremental: toda vez que uma aula é atribuída a um horário ou sala diferente, todas as aulas são reavaliadas para calcular a nova pontuação."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -417,12 +439,13 @@ msgstr "Em vez disso, crie uma classe `src/main/java/org/acme/optaplanner/solver
 msgid "The `ConstraintProvider` scales an order of magnitude better than the `EasyScoreCalculator`: __O__(n) instead of __O__(n²)."
 msgstr "O `ConstraintProvider` é escalonado em uma ordem de magnitude melhor do que o `EasyScoreCalculator` : _O_ (n) em vez de _O_ (n²)."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Gather the domain objects in a planning solution"
 msgstr "Reunir os objetos de domínio em uma solução de planejamento"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -431,6 +454,7 @@ msgid ""
 "it is a _planning solution_ and it has a score:"
 msgstr "Um `TimeTable` envolve todas as instâncias `Timeslot` , `Room` e `Lesson` de um único conjunto de dados. Além disso, por conter todas as lições, cada uma com um estado específico de variável de planejamento, é uma _solução de planejamento_ e tem uma pontuação:"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -438,6 +462,7 @@ msgid ""
 "for example, a solution with the score `-4init/0hard/0soft`."
 msgstr "Se as aulas ainda não foram atribuídas, trata-se de uma solução _não inicializada_ , por exemplo, uma solução com a pontuação `-4init/0hard/0soft` ."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -445,6 +470,7 @@ msgid ""
 "for example, a solution with the score `-2hard/-3soft`."
 msgstr "Se ela quebrar restrições rígidas, será uma solução _inviável_ , por exemplo, uma solução com a pontuação `-2hard/-3soft` ."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -458,6 +484,7 @@ msgstr "Se a solução obedecer a todas as restrições rígidas, será uma solu
 msgid "Create the `src/main/java/org/acme/optaplanner/domain/TimeTable.java` class:"
 msgstr "Crie a classe `src/main/java/org/acme/optaplanner/domain/TimeTable.java` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -507,6 +534,7 @@ msgstr "Esta é uma lista de entidades de planejamento, pois elas mudam durante 
 msgid "Of each `Lesson`:"
 msgstr "De cada `Lesson` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -514,6 +542,7 @@ msgid ""
 "They are planning variables."
 msgstr "Os valores dos campos `timeslot` e `room` normalmente ainda são `null` , portanto, não atribuídos. Eles são variáveis de planejamento."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -539,12 +568,13 @@ msgstr "Um campo `lessonList` para o qual cada instância `Lesson` tem campos `t
 msgid "A `score` field that represents the quality of the output solution, for example, `0hard/-5soft`"
 msgstr "Um campo `score` que representa a qualidade da solução de saída, por exemplo, `0hard/-5soft`"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "The value range providers"
 msgstr "Os provedores de faixa de valores"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -560,12 +590,13 @@ msgstr "O campo `timeslotList` é um provedor de intervalo de valores. Ele cont�
 msgid "Following the same logic, the `roomList` field also has an `@ValueRangeProvider` annotation."
 msgstr "Seguindo a mesma lógica, o campo `roomList` também tem uma anotação `@ValueRangeProvider` ."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "The problem fact and planning entity properties"
 msgstr "O fato do problema e as propriedades da entidade de planejamento"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -574,6 +605,7 @@ msgid ""
 "by your `TimeTableConstraintProvider`."
 msgstr "Além disso, o OptaPlanner precisa saber quais instâncias do `Lesson` podem ser alteradas e como recuperar as instâncias do `Timeslot` e do `Room` usadas para o cálculo da pontuação pelo seu `TimeTableConstraintProvider` ."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -581,6 +613,7 @@ msgid ""
 "so your `TimeTableConstraintProvider` can select _from_ those instances."
 msgstr "Os campos `timeslotList` e `roomList` têm uma anotação `@ProblemFactCollectionProperty` , portanto, o `TimeTableConstraintProvider` pode selecionar _essas_ instâncias."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -589,12 +622,13 @@ msgid ""
 "and your `TimeTableConstraintProvider` can select _from_ those too."
 msgstr "O site `lessonList` tem uma anotação `@PlanningEntityCollectionProperty` , de modo que o OptaPlanner pode alterá-las durante a solução e o site `TimeTableConstraintProvider` também pode _selecioná-las_ ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Create the solver service"
 msgstr "Criar o serviço do solucionador"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -611,6 +645,7 @@ msgstr "Agora o senhor está pronto para juntar tudo e criar um serviço REST. M
 msgid "Create the `src/main/java/org/acme/optaplanner/rest/TimeTableResource.java` class:"
 msgstr "Crie a classe `src/main/java/org/acme/optaplanner/rest/TimeTableResource.java` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -619,12 +654,13 @@ msgid ""
 "The _complete_ implementation avoids HTTP timeouts much more elegantly."
 msgstr "Para simplificar, essa implementação inicial aguarda a conclusão do solucionador, o que ainda pode causar um tempo limite de HTTP. A implementação _completa_ evita os tempos limite do HTTP de forma muito mais elegante."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Set the termination time"
 msgstr "Definir o tempo de término"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -639,7 +675,7 @@ msgstr "Sem uma configuração de encerramento ou um evento de encerramento, o s
 msgid "Create the `src/main/resources/application.properties` file:"
 msgstr "Crie o arquivo `src/main/resources/application.properties` :"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, no-wrap
 msgid "Run the application"
@@ -651,12 +687,13 @@ msgstr "Executar o aplicativo"
 msgid "First start the application:"
 msgstr "Primeiro, inicie o aplicativo:"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Try the application"
 msgstr "Experimente o aplicativo"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -665,6 +702,7 @@ msgid ""
 "The following example uses the Linux command `curl` to send a POST request:"
 msgstr "Agora que o aplicativo está em execução, o senhor pode testar o serviço REST. O senhor pode usar qualquer cliente REST que desejar. O exemplo a seguir usa o comando do Linux `curl` para enviar uma solicitação POST:"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -672,6 +710,7 @@ msgid ""
 "the service returns an output similar to the following example:"
 msgstr "Após cerca de cinco segundos, de acordo com o tempo de término definido em seu site `application.properties` , o serviço retorna uma saída semelhante ao exemplo a seguir:"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -686,7 +725,7 @@ msgstr "Observe que seu aplicativo atribuiu todas as quatro aulas a um dos dois 
 msgid "On the server side, the `info` log show what OptaPlanner did in those five seconds:"
 msgstr "No lado do servidor, o registro `info` mostra o que o OptaPlanner fez nesses cinco segundos:"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Test the application"
@@ -698,12 +737,13 @@ msgstr "Teste o aplicativo"
 msgid "A good application includes test coverage."
 msgstr "Um bom aplicativo inclui cobertura de teste."
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Test the constraints"
 msgstr "Testar as restrições"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -724,6 +764,7 @@ msgstr "Adicione uma dependência de `optaplanner-test` em seu arquivo de compil
 msgid "Create the `src/test/java/org/acme/optaplanner/solver/TimeTableConstraintProviderTest.java` class:"
 msgstr "Crie a classe `src/test/java/org/acme/optaplanner/solver/TimeTableConstraintProviderTest.java` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -733,6 +774,7 @@ msgid ""
 "So with a constraint weight of `10hard` it would reduce the score by `-10hard`."
 msgstr "Esse teste verifica que a restrição `TimeTableConstraintProvider::roomConflict` , quando recebe três aulas na mesma sala, em que duas aulas têm o mesmo intervalo de tempo, penaliza com um peso de correspondência de `1` . Portanto, com um peso de restrição de `10hard` , a pontuação seria reduzida em `-10hard` ."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -742,7 +784,7 @@ msgid ""
 "This way, constraint weight tweaking does not break the unit tests."
 msgstr "Observe como o site `ConstraintVerifier` ignora o peso da restrição durante o teste - mesmo que esses pesos da restrição estejam codificados no site `ConstraintProvider` - porque os pesos das restrições mudam regularmente antes de entrar em produção. Dessa forma, o ajuste do peso da restrição não interrompe os testes de unidade."
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Test the solver"
@@ -760,6 +802,7 @@ msgstr "Em um teste JUnit, gere um conjunto de dados de teste e envie-o para o s
 msgid "Create the `src/test/java/org/acme/optaplanner/rest/TimeTableResourceTest.java` class:"
 msgstr "Crie a classe `src/test/java/org/acme/optaplanner/rest/TimeTableResourceTest.java` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -773,6 +816,7 @@ msgstr "Esse teste verifica se, após a solução, todas as aulas são atribuíd
 msgid "Add test properties to the `src/main/resources/application.properties` file:"
 msgstr "Adicione propriedades de teste ao arquivo `src/main/resources/application.properties` :"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -784,12 +828,13 @@ msgid ""
 "But it does not run a millisecond longer than it strictly must, even on fast machines."
 msgstr "Normalmente, o solver encontra uma solução viável em menos de 200 milissegundos. Observe como o site `application.properties` sobrescreve o término do solver durante os testes para encerrar assim que uma solução viável ( `0hard/*soft` ) for encontrada. Isso evita a codificação rígida do tempo do solver, pois o teste de unidade pode ser executado em um hardware arbitrário. Essa abordagem garante que o teste seja executado por tempo suficiente para encontrar uma solução viável, mesmo em máquinas lentas. Mas ele não é executado um milissegundo a mais do que o estritamente necessário, mesmo em máquinas rápidas."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.16/guides/optaplanner.adoc
 #, no-wrap
 msgid "Logging"
 msgstr "Registrando"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -798,6 +843,7 @@ msgid ""
 "after solving for the same amount of time, to assess the performance impact:"
 msgstr "Ao adicionar restrições em seu `ConstraintProvider` , observe a _velocidade de cálculo da pontuação_ no registro `info` , depois de resolver pelo mesmo período de tempo, para avaliar o impacto no desempenho:"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -817,12 +863,13 @@ msgstr "Use o registro `debug` para mostrar cada _etapa_ :"
 msgid "Use `trace` logging to show every _step_ and every _move_ per step."
 msgstr "Use o registro `trace` para mostrar cada _passo_ e cada _movimento_ por passo."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
 msgstr "Resumo"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -830,7 +877,7 @@ msgid ""
 "You have just developed a Quarkus application with https://www.optaplanner.org/[OptaPlanner]!"
 msgstr "Parabéns! O senhor acabou de desenvolver um aplicativo Quarkus com o link:https://www.optaplanner.org/[OptaPlanner] !"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy, no-wrap
 msgid "Further improvements: Database and UI integration"
@@ -854,6 +901,7 @@ msgstr "Armazene `Timeslot` , `Room` e `Lesson` no banco de dados com o xref:hib
 msgid "xref:rest-json.adoc[Expose them through REST]."
 msgstr "xref:rest-json.adoc[Exponha-os por meio de REST] ."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -861,6 +909,7 @@ msgid ""
 "and use those accordingly:"
 msgstr "Ajuste o site `TimeTableResource` para ler e gravar uma instância de `TimeTable` em uma única transação e use-os adequadamente:"
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -868,6 +917,7 @@ msgid ""
 "but it is straightforward to enable multi-tenancy and handle multiple `TimeTable` instances of different high schools in parallel."
 msgstr "Para simplificar, esse código lida com apenas uma instância do site `TimeTable` , mas é fácil habilitar o multilocatário e lidar com várias instâncias do site `TimeTable` de diferentes escolas de ensino médio em paralelo."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -876,6 +926,7 @@ msgid ""
 "to calculate the score of that timetable, so the UI can show the score."
 msgstr "O método `getTimeTable()` retorna o horário mais recente do banco de dados. Ele usa o `ScoreManager` (que é injetado automaticamente) para calcular a pontuação desse horário, de modo que a interface do usuário possa mostrar a pontuação."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""
@@ -885,6 +936,7 @@ msgid ""
 "This enables the UI to show progress while the backend is still solving."
 msgstr "O método `solve()` inicia um trabalho para resolver o horário atual e armazenar o intervalo de tempo e as atribuições de sala no banco de dados. Ele usa o método `SolverManager.solveAndListen()` para ouvir as melhores soluções intermediárias e atualizar o banco de dados adequadamente. Isso permite que a interface do usuário mostre o progresso enquanto o backend ainda está resolvendo."
 
+#. type: Plain text
 #: _versions/2.16/guides/optaplanner.adoc
 #, fuzzy
 msgid ""

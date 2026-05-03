@@ -16,33 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Using Podman with Quarkus"
 msgstr "Usando o Podman com o Quarkus"
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 msgid ""
 "https://podman.io/[Podman] is a daemonless and rootless container engine for developing, managing, and running OCI Containers on your Linux system or other OS.\n"
 "If you're using Podman with Quarkus, some one-off setup is needed, but once it's done, you can take advantage of all the Quarkus features."
 msgstr "https://podman.io/[Podman] é um mecanismo de contêiner sem daemon e sem root para desenvolver, gerenciar e executar contêineres OCI no seu sistema Linux ou em outro sistema operacional. Se você estiver usando o Podman com o Quarkus, será necessária uma configuração única, mas, uma vez concluída, você poderá aproveitar todos os recursos do Quarkus."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Installing Podman"
 msgstr "Instalando o Podman"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "macOS"
 msgstr "macOS"
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 msgid ""
 "Containers are really Linux.\n"
@@ -52,6 +54,7 @@ msgid ""
 "In Podman, this is known as the Podman machine, and it is built into the tool."
 msgstr "Contêineres são realmente Linux. Dessa forma, os contêineres do Linux não podem ser executados nativamente no macOS ou no Windows. Portanto, os contêineres devem ser executados em uma máquina virtual (VM) Linux, e um cliente Podman interage com essa VM. Um subsistema de hipervisor nativo e um software de virtualização são usados para executar a VM do Linux no sistema operacional e, em seguida, os contêineres são executados nessa VM. No Podman, isso é conhecido como máquina Podman e está integrado à ferramenta."
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 msgid ""
 "macOS users can install Podman through https://brew.sh/[Homebrew].\n"
@@ -98,7 +101,7 @@ msgstr "https://xphyr.net/post/podman_on_osx/[outro artigo], com boas orientaç�
 msgid "article about https://edofic.com/posts/2021-09-12-podman-m1-amd64[running AMD64 images with Podman on Mac M1]"
 msgstr "artigo sobre a https://edofic.com/posts/2021-09-12-podman-m1-amd64[execução de imagens AMD64 com o Podman no Mac M1]"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Windows"
@@ -119,12 +122,13 @@ msgstr "Antes de iniciar a máquina Podman, configure-a para preferir a execuç�
 msgid "This action only needs to be done once."
 msgstr "Esta ação só precisa ser executada uma vez."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Linux"
 msgstr "Linux"
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 #, fuzzy
 msgid ""
@@ -134,24 +138,25 @@ msgid ""
 "Below is the short installation instruction for popular Linux distributions:"
 msgstr "O pacote Podman está disponível em várias distribuições Linux. O Podman pode ser usado da mesma forma que o Docker com o pacote `podman-docker` . Para instalá-lo em seu sistema operacional, consulte o link:https://podman.io/getting-started/installation[guia de instalação do Podman] . Abaixo estão as instruções de instalação resumidas para distribuições populares do Linux:"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.13/guides/podman.adoc
 #, fuzzy, no-wrap
 msgid "Fedora"
 msgstr "Fedora"
 
-#. type: Title ====
+#. type: Title ===
 #: _versions/2.13/guides/podman.adoc
 #, fuzzy, no-wrap
 msgid "Ubuntu (21.04 and later)"
 msgstr "Ubuntu (21.04 e posterior)"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Setting DOCKER_HOST on Linux"
 msgstr "Definindo o DOCKER_HOST no Linux"
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 #, fuzzy
 msgid ""
@@ -183,13 +188,13 @@ msgstr "Substitua `/path/to/podman.sock` pelo caminho que obteve anteriormente."
 msgid "For a detailed explanation, see this https://quarkus.io/blog/quarkus-devservices-testcontainers-podman/[blog article]."
 msgstr "Para uma explicação mais detalhada, consulte este https://quarkus.io/blog/quarkus-devservices-testcontainers-podman/[artigo do blog]."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "After installation"
 msgstr "Após a instalação"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Testcontainers privileges"
@@ -205,24 +210,27 @@ msgstr "Edite `~/.testcontainers.properties` e adicione a seguinte linha"
 msgid "Alternatively, you can disable ryuk:"
 msgstr "Alternativamente, você pode desativar o ryuk:"
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 msgid ""
 "This has the disadvantage of https://github.com/containers/podman/discussions/14238[disabling container cleanup], so you may find stale containers hanging around.\n"
 "This can be a problem if you're running automated tests."
 msgstr "Isso tem a desvantagem de https://github.com/containers/podman/discussions/14238[desativar a limpeza de contêineres] , de modo que você pode encontrar contêineres obsoletos por aí. Isso pode ser um problema se você estiver executando testes automatizados."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.13/guides/podman.adoc
 #, no-wrap
 msgid "Short names of images"
 msgstr "Nomes curtos de imagens"
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 msgid ""
 "Testcontainers and Quarkus Dev Services also expect the container service they make requests against to be non-interactive.\n"
 "In case you have multiple registries configured in your Docker or Podman configuration, and when using short image names, Podman responds with a prompt asking which registry should be used to pull images."
 msgstr "O Testcontainers e o Quarkus Dev Services também esperam que o serviço de contêiner ao qual fazem solicitações seja não interativo. Caso tenha vários registros configurados na sua configuração do Docker ou do Podman, e ao usar nomes de imagem curtos, o Podman responde com um prompt perguntando qual registro deve ser usado para extrair imagens."
 
+#. type: Plain text
 #: _versions/2.13/guides/podman.adoc
 msgid ""
 "While we recommend you to avoid short names and always use fully specified names including the registry, Testcontainers unfortunately relies on short names internally for the time being.\n"

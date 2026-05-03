@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, fuzzy, no-wrap
 msgid "Cross-Site Request Forgery Prevention"
@@ -55,12 +55,13 @@ msgstr "diretamente incorporado em uma entrada de formulário oculta de formulá
 msgid "The extension consists of a xref:resteasy-reactive.adoc[RESTEasy Reactive] server filter which creates and verifies CSRF tokens in `application/x-www-form-urlencoded` and `multipart/form-data` forms and a Qute HTML form parameter provider which supports the xref:qute-reference.adoc#injecting-beans-directly-in-templates[injection of CSRF tokens in Qute templates]."
 msgstr "A extensão consiste em um filtro de servidor xref:resteasy-reactive.adoc[RESTEasy Reactive] que cria e verifica tokens CSRF em formulários `application/x-www-form-urlencoded` e `multipart/form-data` e um provedor de parâmetros de formulário HTML Qute que oferece suporte à xref:qute-reference.adoc#injecting-beans-directly-in-templates[injeção de tokens CSRF em modelos Qute] ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, fuzzy, no-wrap
 msgid "Creating the Project"
 msgstr "Criação do projeto"
 
+#. type: Plain text
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 msgid ""
 "First, we need a new project.\n"
@@ -73,6 +74,7 @@ msgstr "Primeiro, precisamos de um novo projeto. Crie um novo projeto com o segu
 msgid "This command generates a project which imports the `csrf-reactive` extension."
 msgstr "Esse comando gera um projeto que importa a extensão `csrf-reactive` ."
 
+#. type: Plain text
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, fuzzy
 msgid ""
@@ -145,7 +147,7 @@ msgstr "A solicitação POST do formulário falhará com o status HTTP `400` se 
 msgid "At this stage no additional configuration is needed - by default the CSRF form field and cookie name will be set to `csrf-token`, and the filter will verify the token. But you can change these names if you would like:"
 msgstr "Nesse estágio, nenhuma configuração adicional é necessária: por padrão, o campo do formulário CSRF e o nome do cookie serão definidos como `csrf-token` , e o filtro verificará o token. Mas o senhor pode alterar esses nomes, se desejar:"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, fuzzy, no-wrap
 msgid "Sign CSRF token"
@@ -157,7 +159,7 @@ msgstr "Assinar token CSRF"
 msgid "You can get `HMAC` signatures created for the generated CSRF tokens and have these `HMAC` values stored as CSRF token cookies if you would like to avoid the risk of the attackers recreating the CSRF cookie token. All you need to do is to configure a token signature secret which must be at least 32 characters long:"
 msgstr "O senhor pode obter assinaturas `HMAC` criadas para os tokens CSRF gerados e ter esses valores `HMAC` armazenados como cookies de token CSRF se quiser evitar o risco de os invasores recriarem o token de cookie CSRF. Tudo o que o senhor precisa fazer é configurar um segredo de assinatura de token que deve ter pelo menos 32 caracteres:"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, fuzzy, no-wrap
 msgid "Restrict CSRF token verification"
@@ -193,7 +195,7 @@ msgstr "Solicitação POST json para `/users` , a verificação do token CSRF n�
 msgid "As you can see a CSRF token verification will be required at the `/service/user` path accepting the `application/x-www-form-urlencoded` payload, but `User` JSON representation posted to both `/service/user` and `/service/users` method will have no CSRF token and therefore the token verification has to be skipped in these cases by restricting it to the specific `/service/user` request path but also allowing not only `application/x-www-form-urlencoded` on this path:"
 msgstr "Como o senhor pode ver, será necessária uma verificação do token CSRF no caminho `/service/user` que aceita a carga útil `application/x-www-form-urlencoded` , mas a representação `User` JSON postada nos métodos `/service/user` e `/service/users` não terá token CSRF e, portanto, a verificação do token deve ser ignorada nesses casos, restringindo-a ao caminho de solicitação `/service/user` específico, mas também permitindo não apenas `application/x-www-form-urlencoded` nesse caminho:"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, fuzzy, no-wrap
 msgid "Verify CSRF token in the application code"
@@ -217,17 +219,18 @@ msgstr "Compare os valores do campo do formulário CSRF e do cookie e falhe com 
 msgid "Also disable the token verification in the filter:"
 msgstr "Desative também a verificação de token no filtro:"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, no-wrap
 msgid "Configuration Reference"
 msgstr "Referência de configuração"
 
+#. type: Plain text
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de Configuração Fixa no Momento da Compilação - Todas as outras propriedades de configuração podem ser sobrepostas em tempo de execução. <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/2.16/guides/security-csrf-prevention.adoc
 #, no-wrap
 msgid "References"

@@ -34,6 +34,7 @@ msgstr "Na próxima segunda-feira (8 de fevereiro de 21), faremos o Quarkus Insi
 msgid "On the next Quarkus Insights episode, we are trying something new."
 msgstr "No próximo episódio de Quarkus Insights, vamos tentar algo novo."
 
+#. type: Plain text
 #: _posts/2021-02-02-quarkus-insights-qanda.adoc
 #, fuzzy
 msgid ""

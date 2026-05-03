@@ -16,10 +16,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Using the MongoDB Client"
@@ -37,7 +37,7 @@ msgstr "O MongoDB é um banco de dados NoSQL bem conhecido e amplamente utilizad
 msgid "In this guide, we see how you can get your REST services to use the MongoDB database."
 msgstr "Neste guia, veremos como o senhor pode fazer com que seus serviços REST usem o banco de dados MongoDB."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, no-wrap
 msgid "Prerequisites"
@@ -49,7 +49,7 @@ msgstr "Pré-requisitos"
 msgid "MongoDB installed or Docker installed"
 msgstr "MongoDB instalado ou Docker instalado"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, no-wrap
 msgid "Architecture"
@@ -73,12 +73,13 @@ msgstr "Todas as informações entre o navegador e o servidor são formatadas co
 msgid "The elements are stored in MongoDB."
 msgstr "Os elementos são armazenados no MongoDB."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "Solução"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
@@ -96,7 +97,7 @@ msgstr "Clone o repositório Git: `git clone {quickstarts-clone-url}`, ou baixe 
 msgid "The solution is located in the `mongodb-quickstart` link:{quickstarts-tree-url}/mongodb-quickstart[directory]."
 msgstr "A solução está localizada no link:{quickstarts-tree-url}/mongodb-quickstart[diretório] `mongodb-quickstart` ."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, no-wrap
 msgid "Creating the Maven project"
@@ -107,6 +108,7 @@ msgstr "Criar o projeto Maven"
 msgid "First, we need a new project. Create a new project with the following command:"
 msgstr "Primeiro, precisamos de um novo projeto. Crie um novo projeto com o seguinte comando:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -114,6 +116,7 @@ msgid ""
 "After this, the `quarkus-mongodb-client` extension has been added to your build file."
 msgstr "Esse comando gera uma estrutura Maven importando as extensões Quarkus REST (anteriormente RESTEasy Reactive) Jackson e MongoDB Client. Depois disso, a extensão `quarkus-mongodb-client` foi adicionada ao seu arquivo de compilação."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -138,7 +141,7 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Creating your first JSON REST service"
@@ -180,12 +183,13 @@ msgstr "Agora, crie a classe `org.acme.mongodb.FruitResource` da seguinte forma:
 msgid "The implementation is pretty straightforward, and you just need to define your endpoints using the Jakarta REST annotations and use the `FruitService` to list/add new fruits."
 msgstr "A implementação é bastante simples e o senhor só precisa definir seus endpoints usando as anotações Jakarta REST e usar o `FruitService` para listar/adicionar novas frutas."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Configuring the MongoDB database"
 msgstr "Configuração do banco de dados MongoDB"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "The main property to configure is the URL to access the MongoDB instance. Almost all configuration can be included in the connection URI, so we advise you to do so. You can find more information in the MongoDB documentation: https://docs.mongodb.com/manual/reference/connection-string/"
@@ -203,11 +207,13 @@ msgstr "Um exemplo de configuração deve ser semelhante a este:"
 msgid "In this example, we are using a single instance running on localhost:"
 msgstr "Neste exemplo, estamos usando uma única instância em execução no localhost:"
 
+#. type: Title ==
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Resolving mongo+srv:// URLs"
 msgstr "Resolução de URLs mongo+srv://"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -215,6 +221,7 @@ msgid ""
 "By default, it relies on a DNS client implemented using JNDI."
 msgstr "Ao usar URLs `mongo+srv://` , o driver do MongoDB resolve registros DNS SRV para recuperar a lista de hosts aos quais se conectar. Por padrão, ele se baseia em um cliente DNS implementado usando JNDI."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -222,6 +229,7 @@ msgid ""
 "To support `mongo+srv://`, Quarkus provides an alternative DNS client."
 msgstr "Por motivos de segurança, o Quarkus restringe o uso do JNDI nos aplicativos para ajudar a mitigar possíveis vulnerabilidades, como o Log4Shell. Para dar suporte a `mongo+srv://` , o Quarkus fornece um cliente DNS alternativo."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -229,27 +237,31 @@ msgid ""
 "If you encounter such issues, you can revert to the MongoDB driver’s default DNS client by setting the following properties:"
 msgstr "No entanto, em alguns ambientes, esse cliente DNS alternativo pode não conseguir resolver os registros `SRV` . Se o senhor encontrar esses problemas, poderá reverter para o cliente DNS padrão do driver do MongoDB definindo as seguintes propriedades:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "This restores the default JNDI-based resolution mechanism used by the MongoDB driver."
 msgstr "Isso restaura o mecanismo de resolução padrão baseado em JNDI usado pelo driver do MongoDB."
 
+#. type: Title ==
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Use the MongoDB Dev Services"
 msgstr "Usar os serviços de desenvolvimento do MongoDB"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "See xref:mongodb-dev-services.adoc[MongoDB Dev Services]."
 msgstr "Consulte xref:mongodb-dev-services.adoc[Serviços de desenvolvimento do MongoDB] ."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Multiple MongoDB Clients"
 msgstr "Vários clientes MongoDB"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -257,6 +269,7 @@ msgid ""
 "Using several clients works the same way as having a single client."
 msgstr "O MongoDB permite que o senhor configure vários clientes. Usar vários clientes funciona da mesma forma que ter um único cliente."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -265,6 +278,7 @@ msgid ""
 "If the name is omitted, it configures the default client."
 msgstr "Observe que há um bit extra na chave (os segmentos `users` e `inventory` ). A sintaxe é a seguinte: `quarkus.mongodb.[optional name.][mongo connection property]` . Se o nome for omitido, ele configurará o cliente padrão."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -277,12 +291,13 @@ msgstr ""
 "\n"
 " Se o senhor quiser se conectar a vários bancos de dados dentro do mesmo cluster, *não* são necessários vários clientes, pois um único cliente é capaz de acessar todos os bancos de dados no mesmo cluster (como uma conexão JDBC é capaz de acessar vários esquemas dentro do mesmo banco de dados)."
 
-#. type: Title ===
+#. type: Title ==
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Named Mongo client Injection"
 msgstr "Injeção de cliente Mongo nomeado"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -290,62 +305,76 @@ msgid ""
 "Using the above properties to configure three different clients, you can also inject each one as follows:"
 msgstr "Ao usar vários clientes, cada um `MongoClient` , o senhor pode selecionar o cliente a ser injetado usando o qualificador `io.quarkus.mongodb.MongoClientName` . Usando as propriedades acima para configurar três clientes diferentes, o senhor também pode injetar cada um deles da seguinte forma:"
 
+#. type: Title ==
 #: _guides/mongodb.adoc
 msgid "Activate or deactivate Mongo Clients"
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "When a Mongo Client is configured at build time, and its URL is set at runtime, it is active by default. Quarkus\n"
 "starts the corresponding Mongo Client when the application starts."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "To deactivate a Mongo Client at runtime, either:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "Do not set `quarkus.mongodb[.optional name].hosts` or `quarkus.mongodb[.optional name].connection-#string#`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "Set `quarkus.mongodb[.optional name].active` to `false`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "If a Mongo Client is not active:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "The Mongo Client does not attempt to connect to Mongo during application startup."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "The Mongo Client does not contribute a <<mongo-health-check,health check>>."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "Static CDI injection points involving the Mongo Client, such as `@Inject ReactiveMongoClient mongoClient` or `@Inject MongoClient mongoClient`, cause application startup to fail."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "Dynamic retrieval of the Mongo Client, such as through `CDI.getBeanContainer()`, `Arc.instance()`, or an injected `Instance<ReactiveMongoClient>`, causes an exception to be thrown."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "Other Quarkus extensions that consume the Mongo Client may cause application startup to fail."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "This feature is especially useful when the application must dynamically select a Mongo Client from a predefined set at\n"
 "runtime."
 msgstr ""
 
+#. type: Block title
 #: _guides/mongodb.adoc
 msgid "An example of configuring multiple Mongo Clients for runtime selection:"
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "Setting `quarkus.mongodb.one.active=true` xref:config-reference.adoc#configuration-sources[at runtime] makes only the\n"
@@ -353,6 +382,7 @@ msgid ""
 "Setting `quarkus.mongodb.two.active=true` at runtime makes only the Mongo Client `two` available."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "A Mongo Client (either default or named) must always be discoverable at build-time to be considered for runtime\n"
@@ -361,7 +391,7 @@ msgid ""
 "startup time if the Mongo Client is inactive. Alternatively, Mongo Clients may also be discovered via configuration."
 msgstr ""
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Running a MongoDB Database"
@@ -379,17 +409,19 @@ msgstr "Como, por padrão, o `MongoClient` está configurado para acessar um ban
 msgid "If you want to use Docker to run a MongoDB database, you can use the following command to launch one:"
 msgstr "Se quiser usar o Docker para executar um banco de dados MongoDB, o senhor pode usar o seguinte comando para iniciar um:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "If you use <<dev-services,Dev Services>>, launching the container manually is not necessary."
 msgstr "Se o senhor usar o Dev xref:dev-services[Services] , não será necessário iniciar o contêiner manualmente."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Creating a frontend"
 msgstr "Criando um frontend"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -410,14 +442,17 @@ msgstr "Agora o senhor pode interagir com o serviço REST:"
 msgid "start Quarkus with:"
 msgstr "iniciar o Quarkus com:"
 
+#. type: Block title
 #: _guides/mongodb.adoc
 msgid "CLI"
 msgstr "CLI"
 
+#. type: Block title
 #: _guides/mongodb.adoc
 msgid "Maven"
 msgstr "Maven"
 
+#. type: Block title
 #: _guides/mongodb.adoc
 msgid "Gradle"
 msgstr "Gradle"
@@ -434,12 +469,13 @@ msgstr "abra um navegador para `http://localhost:8080/fruits.html`"
 msgid "add new fruits to the list via the form"
 msgstr "adicionar novas frutas à lista por meio do formulário"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Reactive MongoDB Client"
 msgstr "Cliente MongoDB reativo"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -454,6 +490,7 @@ msgstr "Um cliente MongoDB reativo está incluído no Quarkus. Usá-lo é tão f
 msgid "Mutiny"
 msgstr "Mutiny"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -461,7 +498,7 @@ msgid ""
 "If you are not familiar with Mutiny, check xref:mutiny-primer.adoc[Mutiny - an intuitive reactive programming library]."
 msgstr "O cliente reativo do MongoDB usa tipos reativos do Mutiny. Se o senhor não estiver familiarizado com o Mutiny, consulte xref:mutiny-primer.adoc[Mutiny - uma biblioteca de programação reativa intuitiva] ."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Simplifying MongoDB Client usage using BSON codec"
@@ -473,6 +510,7 @@ msgstr "Simplificando o uso do cliente MongoDB usando o codec BSON"
 msgid "By using a Bson `Codec`, the MongoDB Client will take care of the transformation of your domain object to/from a MongoDB `Document` automatically."
 msgstr "Ao usar um Bson `Codec` , o cliente MongoDB cuidará da transformação do seu objeto de domínio de/para um MongoDB `Document` automaticamente."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -505,12 +543,13 @@ msgstr "Por fim, ao obter o `MongoCollection` do banco de dados, o senhor pode u
 msgid "Here is an example of using a `MongoCollection` with the `FruitCodec`."
 msgstr "Aqui está um exemplo de uso de um `MongoCollection` com o `FruitCodec` ."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "The POJO Codec"
 msgstr "O codec POJO"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -519,6 +558,7 @@ msgid ""
 "This codec also supports Java records so you can use them for your POJOs or an attribute of your POJOs."
 msgstr "O link:https://www.mongodb.com/docs/drivers/java/sync/current/fundamentals/data-formats/document-data-format-pojo/[codec POJO] fornece um conjunto de anotações que permitem a personalização da forma como um POJO é mapeado para uma coleção do MongoDB, e esse codec é inicializado automaticamente pelo Quarkus. Esse codec também oferece suporte a registros Java para que o senhor possa usá-los para seus POJOs ou para um atributo de seus POJOs."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -532,6 +572,7 @@ msgstr "Uma dessas anotações é a anotação `@BsonDiscriminator` , que permit
 msgid "Quarkus will automatically register all the classes annotated with `@BsonDiscriminator` with the POJO codec."
 msgstr "O Quarkus registrará automaticamente todas as classes anotadas com `@BsonDiscriminator` com o codec POJO."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -540,7 +581,7 @@ msgid ""
 "When building native executables and using generic types, you might need to register the type arguments for reflection."
 msgstr "O codec POJO tem suporte genérico aprimorado por meio de `PropertyCodecProvider` , o Quarkus registrará automaticamente qualquer `PropertyCodecProvider` com o codec POJO (essas classes são automaticamente transformadas em beans CDI do escopo `@Singleton` ). Ao criar executáveis nativos e usar tipos genéricos, talvez seja necessário registrar os argumentos do tipo para reflexão."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Simplifying MongoDB with Panache"
@@ -552,12 +593,13 @@ msgstr "Simplificando o MongoDB com o Panache"
 msgid "The xref:mongodb-panache.adoc[MongoDB with Panache] extension facilitates the usage of MongoDB by providing active record style entities (and repositories) like you have in xref:hibernate-orm-panache.adoc[Hibernate ORM with Panache] and focuses on making your entities trivial and fun to write in Quarkus."
 msgstr "A extensão xref:mongodb-panache.adoc[MongoDB com Panache] facilita o uso do MongoDB, fornecendo entidades (e repositórios) no estilo de registro ativo, como no xref:hibernate-orm-panache.adoc[Hibernate ORM com Panache] , e se concentra em tornar as entidades triviais e divertidas de escrever no Quarkus."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Schema migration with Liquibase"
 msgstr "Migração de esquemas com o Liquibase"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -565,12 +607,13 @@ msgid ""
 "It implements the same schema migration facilities that Liquibase offers for SQL databases."
 msgstr "A extensão xref:liquibase-mongodb.adoc[Liquibase MongoDB] facilita a inicialização de um banco de dados MongoDB, incluindo índices e dados iniciais. Ela implementa os mesmos recursos de migração de esquema que o Liquibase oferece para bancos de dados SQL."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Connection Health Check"
 msgstr "Verificação da integridade da conexão"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -590,12 +633,13 @@ msgstr "Assim, quando o senhor acessar o endpoint `/q/health/ready` do seu aplic
 msgid "This behavior can be disabled by setting the `quarkus.mongodb.health.enabled` property to `false` in your `application.properties`."
 msgstr "Esse comportamento pode ser desativado definindo a propriedade `quarkus.mongodb.health.enabled` como `false` em seu `application.properties` ."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Metrics"
 msgstr "Métricas"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "If you are using the `quarkus-micrometer`, `quarkus-mongodb-client` can provide metrics about the connection pools.\n"
@@ -603,28 +647,84 @@ msgid ""
 "`application.properties`."
 msgstr ""
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid ""
 "So when you access the `/q/metrics` endpoint of your application you will have information about the connection pool\n"
 "status."
 msgstr ""
 
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Tracing"
 msgstr "Rastreamento"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "To use tracing with MongoDB, you need to add the xref:opentelemetry.adoc[`quarkus-opentelemetry`] extension to your project."
 msgstr "Para usar o rastreamento com o MongoDB, o senhor precisa adicionar a extensão xref:opentelemetry.adoc[quarkus-opentelemetry] ao seu projeto."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Even with all the tracing infrastructure in place the mongodb tracing is not enabled by default, and you need to enable it by setting this property:"
 msgstr "Mesmo com toda a infraestrutura de rastreamento instalada, o rastreamento do mongodb não está ativado por padrão e o senhor precisa ativá-lo definindo essa propriedade:"
 
 #. type: Title ==
+#: _guides/mongodb.adoc
+msgid "Command Detail Level"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid ""
+"By default, MongoDB command details are not included in traces (`OFF` mode). You can control this behavior with the `command-detail-level` property.\n"
+"When enabled, the command text is stored in the `db.query.text` attribute following OpenTelemetry semantic conventions."
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "**Detail levels:**"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "`OFF` (default) - No command details, only operation metadata (operation name, database, collection)"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "`SANITIZED` - Command structure with type placeholders instead of actual values"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "Example: `{\"find\": \"<string>\", \"filter\": {\"email\": \"<string>\", \"age\": \"<int32>\"}}`"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "Preserves command structure for debugging while protecting sensitive data"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "`FULL` - Complete command including all data"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "**NOT recommended for production** - may expose sensitive information"
+msgstr ""
+
+#. type: Plain text
+#: _guides/mongodb.adoc
+msgid "Using `FULL` mode can expose sensitive data (passwords, emails, personal information) in your traces. Only use in development or when you're certain no sensitive data is involved."
+msgstr ""
+
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Testing helpers"
@@ -636,6 +736,7 @@ msgstr "Ajudantes de teste"
 msgid "xref:#dev-services[Dev Services for MongoDB] is your best option to start a MongoDB database for your unit tests."
 msgstr "O Dev xref:dev-services[Services for MongoDB] é a melhor opção para iniciar um banco de dados MongoDB para seus testes de unidade."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -667,7 +768,7 @@ msgstr "Para usá-los, o senhor precisa adicionar a dependência `io.quarkus:qua
 msgid "For more information about the usage of a `QuarkusTestResourceLifecycleManager` please read xref:getting-started-testing.adoc#quarkus-test-resource[Quarkus test resource]."
 msgstr "Para obter mais informações sobre o uso do site `QuarkusTestResourceLifecycleManager` , leia o xref:getting-started-testing.adoc#quarkus-test-resource[recurso de teste do Quarkus] ."
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "To set the desired port MongoDB will listen to when it is launched, the following code should be used:"
@@ -679,6 +780,7 @@ msgstr "Para definir a porta desejada que o MongoDB escutará quando for iniciad
 msgid "To set the desired MongoDB version that will be launched, the following code should be used:"
 msgstr "Para definir a versão desejada do MongoDB que será iniciada, o código a seguir deve ser usado:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -686,12 +788,13 @@ msgid ""
 "If no version is specified, `Version.Main.V4_0` is used by default."
 msgstr "O valor da cadeia de caracteres usado pode ser qualquer um dos enums `de.flapdoodle.embed.mongo.distribution.Version` ou `de.flapdoodle.embed.mongo.distribution.Version.Main` . Se nenhuma versão for especificada, `Version.Main.V4_0` será usado por padrão."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "The legacy client"
 msgstr "O cliente antigo"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -699,33 +802,37 @@ msgid ""
 "and the `com.mongodb.MongoClient` that is now superseded by `com.mongodb.client.MongoClient`."
 msgstr "Por padrão, não incluímos o cliente MongoDB legado. Ele contém a API Java do MongoDB (DB, DBCollection,...), agora aposentada, e o site `com.mongodb.MongoClient` , que agora foi substituído pelo site `com.mongodb.client.MongoClient` ."
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "If you want to use the legacy API, you need to add the following dependency to your build file:"
 msgstr "Se quiser usar a API herdada, o senhor precisará adicionar a seguinte dependência ao seu arquivo de compilação:"
 
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "TLS configuration"
 msgstr "Configuração do TLS"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "If you want to use SSL/TLS encryption, you need to add this property in your `application.properties`:"
 msgstr "Se quiser usar a criptografia SSL/TLS, o senhor precisa adicionar essa propriedade em seu site `application.properties` :"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "You can also configure the client to use a tls configuration from the TLS registry, this will enable tls:"
 msgstr "Também é possível configurar o cliente para usar uma configuração tls do registro TLS, o que ativará o tls:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "You can configure the client to trust servers with certificates with invalid hostnames:"
 msgstr "O senhor pode configurar o cliente para confiar em servidores com certificados com nomes de host inválidos:"
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy, no-wrap
 msgid "Building a native executable"
@@ -737,6 +844,7 @@ msgstr "Criação de um executável nativo"
 msgid "You can use the MongoDB client in a native executable."
 msgstr "O senhor pode usar o cliente MongoDB em um executável nativo."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "You can build a native executable with the usual command:"
@@ -754,12 +862,13 @@ msgstr "Para executá-lo, basta acessar `./target/mongodb-quickstart-1.0.0-SNAPS
 msgid "You can then point your browser to `http://localhost:8080/fruits.html` and use your application."
 msgstr "Em seguida, o senhor pode direcionar seu navegador para `http://localhost:8080/fruits.html` e usar seu aplicativo."
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Currently, Quarkus doesn't support link:https://docs.mongodb.com/manual/core/security-client-side-encryption/[Client-Side Field Level Encryption] in native mode."
 msgstr "Atualmente, o Quarkus não suporta link:https://docs.mongodb.com/manual/core/security-client-side-encryption/[Client-Side Field Level Encryption] no modo nativo."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -773,16 +882,19 @@ msgstr ""
 "\n"
 " Isso significa que a classe `org.acme.MyVariable` não é conhecida pelo GraalVM; a solução é adicionar a anotação `@RegisterForReflection` à sua classe `MyVariable` . Mais detalhes sobre a anotação `@RegisterForReflection` podem ser encontrados na página de xref:writing-native-applications-tips.adoc#registerForReflection[dicas de aplicativos nativos] ."
 
+#. type: Title =
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Customize the Mongo client configuration programmatically"
 msgstr "Personalizar a configuração do cliente Mongo de forma programática"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "If you need to customize the Mongo client configuration programmatically, you need to implement the `io.quarkus.mongodb.runtime.MongoClientCustomizer` interface and expose it as a CDI _application scoped_ bean:"
 msgstr "Se precisar personalizar a configuração do cliente Mongo de forma programática, o senhor precisará implementar a interface `io.quarkus.mongodb.runtime.MongoClientCustomizer` e expô-la como um bean _com escopo de aplicativo_ CDI:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -792,6 +904,7 @@ msgid ""
 "If multiple customizers targeting the same client are detected, an exception is thrown at build time."
 msgstr "O bean pode personalizar um cliente específico usando o qualificador `@MongoClientName` para indicar o nome do cliente. Quando não há qualificador, ele personaliza o cliente padrão. No máximo um personalizador pode ser usado por cliente. Se forem detectados vários personalizadores direcionados ao mesmo cliente, será lançada uma exceção no momento da compilação."
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid ""
@@ -799,17 +912,19 @@ msgid ""
 "Follows the instructions from https://www.mongodb.com/docs/manual/core/csfle/[the Mongo web site] to configure CSFLE:"
 msgstr "Esse recurso pode ser usado para configurar a criptografia de nível de campo no lado do cliente (CSFLE). Siga as instruções do link:https://www.mongodb.com/docs/manual/core/csfle/[site da Mongo] para configurar o CSFLE:"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 #, fuzzy
 msgid "Client-side field level encryption, and feature relying on https://github.com/mongodb/libmongocrypt[Mongo Crypt] in general, are not supported in native mode."
 msgstr "A criptografia em nível de campo do lado do cliente e os recursos que dependem do link:https://github.com/mongodb/libmongocrypt[Mongo Crypt] em geral não são compatíveis com o modo nativo."
 
-#. type: Title ==
+#. type: Title =
 #: _guides/mongodb.adoc
 #, no-wrap
 msgid "Configuration Reference"
 msgstr "Referência de configuração"
 
+#. type: Plain text
 #: _guides/mongodb.adoc
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de Configuração Fixa no Momento da Compilação - Todas as outras propriedades de configuração podem ser sobrepostas em tempo de execução. <input type=\"search\" id=\"config-search-0\" placeholder=\"FILTER CONFIGURATION\" disabled>"

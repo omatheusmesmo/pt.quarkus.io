@@ -34,6 +34,7 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-enabled]]`link:#quarkus-oidc_quarkus-keycloak-devservices-enabled[quarkus.keycloak.devservices.enabled]`\n"
@@ -61,6 +62,7 @@ msgstr "booleano"
 msgid "`true`"
 msgstr "`true`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-image-name]]`link:#quarkus-oidc_quarkus-keycloak-devservices-image-name[quarkus.keycloak.devservices.image-name]`\n"
@@ -82,10 +84,12 @@ msgstr ""
 msgid "string"
 msgstr "string"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "`quay.io/keycloak/keycloak:22.0.5`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-keycloak-x-image]]`link:#quarkus-oidc_quarkus-keycloak-devservices-keycloak-x-image[quarkus.keycloak.devservices.keycloak-x-image]`\n"
@@ -99,6 +103,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-shared]]`link:#quarkus-oidc_quarkus-keycloak-devservices-shared[quarkus.keycloak.devservices.shared]`\n"
@@ -116,6 +121,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-service-name]]`link:#quarkus-oidc_quarkus-keycloak-devservices-service-name[quarkus.keycloak.devservices.service-name]`\n"
@@ -137,6 +143,7 @@ msgstr ""
 msgid "`quarkus`"
 msgstr "`quarkus`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-realm-path]]`link:#quarkus-oidc_quarkus-keycloak-devservices-realm-path[quarkus.keycloak.devservices.realm-path]`\n"
@@ -156,6 +163,7 @@ msgstr ""
 msgid "list of string"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-java-opts]]`link:#quarkus-oidc_quarkus-keycloak-devservices-java-opts[quarkus.keycloak.devservices.java-opts]`\n"
@@ -169,6 +177,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-show-logs]]`link:#quarkus-oidc_quarkus-keycloak-devservices-show-logs[quarkus.keycloak.devservices.show-logs]`\n"
@@ -188,6 +197,7 @@ msgstr ""
 msgid "`false`"
 msgstr "`false`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-start-command]]`link:#quarkus-oidc_quarkus-keycloak-devservices-start-command[quarkus.keycloak.devservices.start-command]`\n"
@@ -201,6 +211,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-realm-name]]`link:#quarkus-oidc_quarkus-keycloak-devservices-realm-name[quarkus.keycloak.devservices.realm-name]`\n"
@@ -214,6 +225,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-create-realm]]`link:#quarkus-oidc_quarkus-keycloak-devservices-create-realm[quarkus.keycloak.devservices.create-realm]`\n"
@@ -227,6 +239,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-port]]`link:#quarkus-oidc_quarkus-keycloak-devservices-port[quarkus.keycloak.devservices.port]`\n"
@@ -248,6 +261,7 @@ msgstr ""
 msgid "int"
 msgstr "int"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-users-users]]`link:#quarkus-oidc_quarkus-keycloak-devservices-users-users[quarkus.keycloak.devservices.users]`\n"
@@ -267,6 +281,7 @@ msgstr ""
 msgid "`Map<String,String>`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-roles-roles]]`link:#quarkus-oidc_quarkus-keycloak-devservices-roles-roles[quarkus.keycloak.devservices.roles]`\n"
@@ -286,6 +301,7 @@ msgstr ""
 msgid "`Map<String,List<String>>`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-keycloak-devservices-container-env-container-env]]`link:#quarkus-oidc_quarkus-keycloak-devservices-container-env-container-env[quarkus.keycloak.devservices.container-env]`\n"
@@ -299,6 +315,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-enabled]]`link:#quarkus-oidc_quarkus-oidc-enabled[quarkus.oidc.enabled]`\n"
@@ -312,6 +329,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-devui-grant-type]]`link:#quarkus-oidc_quarkus-oidc-devui-grant-type[quarkus.oidc.devui.grant.type]`\n"
@@ -331,6 +349,7 @@ msgstr ""
 msgid "tooltip:client['client_credentials' grant], tooltip:password['password' grant], tooltip:code['authorization_code' grant], tooltip:implicit['implicit' grant]"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-devui-web-client-timeout]]`link:#quarkus-oidc_quarkus-oidc-devui-web-client-timeout[quarkus.oidc.devui.web-client-timeout]`\n"
@@ -344,6 +363,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
@@ -356,6 +376,7 @@ msgstr ""
 msgid "`4S`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-default-token-cache-enabled]]`link:#quarkus-oidc_quarkus-oidc-default-token-cache-enabled[quarkus.oidc.default-token-cache-enabled]`\n"
@@ -369,6 +390,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-auth-server-url]]`link:#quarkus-oidc_quarkus-oidc-auth-server-url[quarkus.oidc.auth-server-url]`\n"
@@ -382,6 +404,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-discovery-enabled]]`link:#quarkus-oidc_quarkus-oidc-discovery-enabled[quarkus.oidc.discovery-enabled]`\n"
@@ -395,6 +418,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-path]]`link:#quarkus-oidc_quarkus-oidc-token-path[quarkus.oidc.token-path]`\n"
@@ -408,6 +432,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-revoke-path]]`link:#quarkus-oidc_quarkus-oidc-revoke-path[quarkus.oidc.revoke-path]`\n"
@@ -421,6 +446,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-client-id]]`link:#quarkus-oidc_quarkus-oidc-client-id[quarkus.oidc.client-id]`\n"
@@ -434,6 +460,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-connection-delay]]`link:#quarkus-oidc_quarkus-oidc-connection-delay[quarkus.oidc.connection-delay]`\n"
@@ -447,6 +474,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-connection-retry-count]]`link:#quarkus-oidc_quarkus-oidc-connection-retry-count[quarkus.oidc.connection-retry-count]`\n"
@@ -466,6 +494,7 @@ msgstr ""
 msgid "`3`"
 msgstr "`3`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-connection-timeout]]`link:#quarkus-oidc_quarkus-oidc-connection-timeout[quarkus.oidc.connection-timeout]`\n"
@@ -485,6 +514,7 @@ msgstr ""
 msgid "`10S`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-max-pool-size]]`link:#quarkus-oidc_quarkus-oidc-max-pool-size[quarkus.oidc.max-pool-size]`\n"
@@ -498,6 +528,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-secret]]`link:#quarkus-oidc_quarkus-oidc-credentials-secret[quarkus.oidc.credentials.secret]`\n"
@@ -511,6 +542,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-value]]`link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-value[quarkus.oidc.credentials.client-secret.value]`\n"
@@ -524,6 +556,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-name]]`link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-name[quarkus.oidc.credentials.client-secret.provider.name]`\n"
@@ -537,6 +570,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-key]]`link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-key[quarkus.oidc.credentials.client-secret.provider.key]`\n"
@@ -550,6 +584,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-method]]`link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-method[quarkus.oidc.credentials.client-secret.method]`\n"
@@ -563,10 +598,12 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "tooltip:basic[client_secret_basic (default): client id and secret are submitted with the HTTP Authorization Basic scheme], tooltip:post[client_secret_post: client id and secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:post-jwt[client_secret_jwt: client id and generated JWT secret are submitted as the `client_id` and `client_secret` form parameters.]"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret[quarkus.oidc.credentials.jwt.secret]`\n"
@@ -580,6 +617,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-name]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-name[quarkus.oidc.credentials.jwt.secret-provider.name]`\n"
@@ -593,6 +631,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-key]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-key[quarkus.oidc.credentials.jwt.secret-provider.key]`\n"
@@ -606,6 +645,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-file]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[quarkus.oidc.credentials.jwt.key-file]`\n"
@@ -619,6 +659,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-file]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-file[quarkus.oidc.credentials.jwt.key-store-file]`\n"
@@ -632,6 +673,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-password]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-password[quarkus.oidc.credentials.jwt.key-store-password]`\n"
@@ -645,6 +687,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-id]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-id[quarkus.oidc.credentials.jwt.key-id]`\n"
@@ -658,6 +701,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-password]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-password[quarkus.oidc.credentials.jwt.key-password]`\n"
@@ -671,6 +715,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-audience]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-audience[quarkus.oidc.credentials.jwt.audience]`\n"
@@ -684,6 +729,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-token-key-id]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-key-id[quarkus.oidc.credentials.jwt.token-key-id]`\n"
@@ -697,6 +743,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-issuer]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-issuer[quarkus.oidc.credentials.jwt.issuer]`\n"
@@ -710,6 +757,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-subject]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-subject[quarkus.oidc.credentials.jwt.subject]`\n"
@@ -723,6 +771,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-signature-algorithm]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-signature-algorithm[quarkus.oidc.credentials.jwt.signature-algorithm]`\n"
@@ -736,6 +785,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-lifespan]]`link:#quarkus-oidc_quarkus-oidc-credentials-jwt-lifespan[quarkus.oidc.credentials.jwt.lifespan]`\n"
@@ -755,6 +805,7 @@ msgstr ""
 msgid "`10`"
 msgstr "`10`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-proxy-host]]`link:#quarkus-oidc_quarkus-oidc-proxy-host[quarkus.oidc.proxy.host]`\n"
@@ -769,6 +820,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-proxy-port]]`link:#quarkus-oidc_quarkus-oidc-proxy-port[quarkus.oidc.proxy.port]`\n"
@@ -788,6 +840,7 @@ msgstr ""
 msgid "`80`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-proxy-username]]`link:#quarkus-oidc_quarkus-oidc-proxy-username[quarkus.oidc.proxy.username]`\n"
@@ -801,6 +854,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-proxy-password]]`link:#quarkus-oidc_quarkus-oidc-proxy-password[quarkus.oidc.proxy.password]`\n"
@@ -814,6 +868,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-verification]]`link:#quarkus-oidc_quarkus-oidc-tls-verification[quarkus.oidc.tls.verification]`\n"
@@ -833,6 +888,7 @@ msgstr ""
 msgid "tooltip:required[Certificates are validated and hostname verification is enabled. This is the default value.], tooltip:certificate-validation[Certificates are validated but hostname verification is disabled.], tooltip:none[All certificated are trusted and hostname verification is disabled.]"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-key-store-file]]`link:#quarkus-oidc_quarkus-oidc-tls-key-store-file[quarkus.oidc.tls.key-store-file]`\n"
@@ -852,6 +908,7 @@ msgstr ""
 msgid "path"
 msgstr "caminho"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-key-store-file-type]]`link:#quarkus-oidc_quarkus-oidc-tls-key-store-file-type[quarkus.oidc.tls.key-store-file-type]`\n"
@@ -865,6 +922,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-key-store-provider]]`link:#quarkus-oidc_quarkus-oidc-tls-key-store-provider[quarkus.oidc.tls.key-store-provider]`\n"
@@ -878,6 +936,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-key-store-password]]`link:#quarkus-oidc_quarkus-oidc-tls-key-store-password[quarkus.oidc.tls.key-store-password]`\n"
@@ -891,6 +950,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-key-store-key-alias]]`link:#quarkus-oidc_quarkus-oidc-tls-key-store-key-alias[quarkus.oidc.tls.key-store-key-alias]`\n"
@@ -904,6 +964,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-key-store-key-password]]`link:#quarkus-oidc_quarkus-oidc-tls-key-store-key-password[quarkus.oidc.tls.key-store-key-password]`\n"
@@ -917,6 +978,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-trust-store-file]]`link:#quarkus-oidc_quarkus-oidc-tls-trust-store-file[quarkus.oidc.tls.trust-store-file]`\n"
@@ -930,6 +992,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-trust-store-password]]`link:#quarkus-oidc_quarkus-oidc-tls-trust-store-password[quarkus.oidc.tls.trust-store-password]`\n"
@@ -943,6 +1006,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-trust-store-cert-alias]]`link:#quarkus-oidc_quarkus-oidc-tls-trust-store-cert-alias[quarkus.oidc.tls.trust-store-cert-alias]`\n"
@@ -956,6 +1020,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-trust-store-file-type]]`link:#quarkus-oidc_quarkus-oidc-tls-trust-store-file-type[quarkus.oidc.tls.trust-store-file-type]`\n"
@@ -969,6 +1034,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-trust-store-provider]]`link:#quarkus-oidc_quarkus-oidc-tls-trust-store-provider[quarkus.oidc.tls.trust-store-provider]`\n"
@@ -982,6 +1048,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-id]]`link:#quarkus-oidc_quarkus-oidc-tenant-id[quarkus.oidc.tenant-id]`\n"
@@ -995,6 +1062,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-enabled]]`link:#quarkus-oidc_quarkus-oidc-tenant-enabled[quarkus.oidc.tenant-enabled]`\n"
@@ -1008,6 +1076,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-application-type]]`link:#quarkus-oidc_quarkus-oidc-application-type[quarkus.oidc.application-type]`\n"
@@ -1021,6 +1090,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "tooltip:web-app[A `WEB_APP` is a client that serves pages, usually a front-end application. For this type of client the Authorization Code Flow is defined as the preferred method for authenticating users.], tooltip:service[A `SERVICE` is a client that has a set of protected HTTP resources, usually a backend application following the RESTful Architectural Design. For this type of client, the Bearer Authorization method is defined as the preferred method for authenticating and authorizing users.], tooltip:hybrid[A combined `SERVICE` and `WEB_APP` client. For this type of client, the Bearer Authorization method will be used if the Authorization header is set and Authorization Code Flow - if not.]"
 msgstr ""
@@ -1031,6 +1101,7 @@ msgstr ""
 msgid "`service`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authorization-path]]`link:#quarkus-oidc_quarkus-oidc-authorization-path[quarkus.oidc.authorization-path]`\n"
@@ -1044,6 +1115,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-user-info-path]]`link:#quarkus-oidc_quarkus-oidc-user-info-path[quarkus.oidc.user-info-path]`\n"
@@ -1057,6 +1129,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-path]]`link:#quarkus-oidc_quarkus-oidc-introspection-path[quarkus.oidc.introspection-path]`\n"
@@ -1070,6 +1143,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-path]]`link:#quarkus-oidc_quarkus-oidc-jwks-path[quarkus.oidc.jwks-path]`\n"
@@ -1083,6 +1157,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-end-session-path]]`link:#quarkus-oidc_quarkus-oidc-end-session-path[quarkus.oidc.end-session-path]`\n"
@@ -1096,6 +1171,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-public-key]]`link:#quarkus-oidc_quarkus-oidc-public-key[quarkus.oidc.public-key]`\n"
@@ -1109,6 +1185,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-credentials-name]]`link:#quarkus-oidc_quarkus-oidc-introspection-credentials-name[quarkus.oidc.introspection-credentials.name]`\n"
@@ -1122,6 +1199,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-credentials-secret]]`link:#quarkus-oidc_quarkus-oidc-introspection-credentials-secret[quarkus.oidc.introspection-credentials.secret]`\n"
@@ -1135,6 +1213,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-credentials-include-client-id]]`link:#quarkus-oidc_quarkus-oidc-introspection-credentials-include-client-id[quarkus.oidc.introspection-credentials.include-client-id]`\n"
@@ -1148,6 +1227,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-roles-role-claim-path]]`link:#quarkus-oidc_quarkus-oidc-roles-role-claim-path[quarkus.oidc.roles.role-claim-path]`\n"
@@ -1161,6 +1241,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-roles-role-claim-separator]]`link:#quarkus-oidc_quarkus-oidc-roles-role-claim-separator[quarkus.oidc.roles.role-claim-separator]`\n"
@@ -1174,6 +1255,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-roles-source]]`link:#quarkus-oidc_quarkus-oidc-roles-source[quarkus.oidc.roles.source]`\n"
@@ -1193,6 +1275,7 @@ msgstr ""
 msgid "tooltip:idtoken[ID Token - the default value for the 'web-app' applications.], tooltip:accesstoken[Access Token - the default value for the 'service' applications; can also be used as the source of roles for the 'web-app' applications.], tooltip:userinfo[User Info]"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-issuer]]`link:#quarkus-oidc_quarkus-oidc-token-issuer[quarkus.oidc.token.issuer]`\n"
@@ -1206,6 +1289,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-audience]]`link:#quarkus-oidc_quarkus-oidc-token-audience[quarkus.oidc.token.audience]`\n"
@@ -1219,6 +1303,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-token-type]]`link:#quarkus-oidc_quarkus-oidc-token-token-type[quarkus.oidc.token.token-type]`\n"
@@ -1232,6 +1317,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-lifespan-grace]]`link:#quarkus-oidc_quarkus-oidc-token-lifespan-grace[quarkus.oidc.token.lifespan-grace]`\n"
@@ -1245,6 +1331,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-age]]`link:#quarkus-oidc_quarkus-oidc-token-age[quarkus.oidc.token.age]`\n"
@@ -1258,6 +1345,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-principal-claim]]`link:#quarkus-oidc_quarkus-oidc-token-principal-claim[quarkus.oidc.token.principal-claim]`\n"
@@ -1271,6 +1359,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-refresh-expired]]`link:#quarkus-oidc_quarkus-oidc-token-refresh-expired[quarkus.oidc.token.refresh-expired]`\n"
@@ -1284,6 +1373,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-refresh-token-time-skew]]`link:#quarkus-oidc_quarkus-oidc-token-refresh-token-time-skew[quarkus.oidc.token.refresh-token-time-skew]`\n"
@@ -1297,6 +1387,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-forced-jwk-refresh-interval]]`link:#quarkus-oidc_quarkus-oidc-token-forced-jwk-refresh-interval[quarkus.oidc.token.forced-jwk-refresh-interval]`\n"
@@ -1316,6 +1407,7 @@ msgstr ""
 msgid "`10M`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-header]]`link:#quarkus-oidc_quarkus-oidc-token-header[quarkus.oidc.token.header]`\n"
@@ -1329,6 +1421,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-signature-algorithm]]`link:#quarkus-oidc_quarkus-oidc-token-signature-algorithm[quarkus.oidc.token.signature-algorithm]`\n"
@@ -1348,6 +1441,7 @@ msgstr ""
 msgid "`rs256`, `rs384`, `rs512`, `ps256`, `ps384`, `ps512`, `es256`, `es384`, `es512`, `eddsa`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-decryption-key-location]]`link:#quarkus-oidc_quarkus-oidc-token-decryption-key-location[quarkus.oidc.token.decryption-key-location]`\n"
@@ -1361,6 +1455,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-allow-jwt-introspection]]`link:#quarkus-oidc_quarkus-oidc-token-allow-jwt-introspection[quarkus.oidc.token.allow-jwt-introspection]`\n"
@@ -1374,6 +1469,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-require-jwt-introspection-only]]`link:#quarkus-oidc_quarkus-oidc-token-require-jwt-introspection-only[quarkus.oidc.token.require-jwt-introspection-only]`\n"
@@ -1387,6 +1483,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-allow-opaque-token-introspection]]`link:#quarkus-oidc_quarkus-oidc-token-allow-opaque-token-introspection[quarkus.oidc.token.allow-opaque-token-introspection]`\n"
@@ -1400,6 +1497,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-customizer-name]]`link:#quarkus-oidc_quarkus-oidc-token-customizer-name[quarkus.oidc.token.customizer-name]`\n"
@@ -1413,6 +1511,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-verify-access-token-with-user-info]]`link:#quarkus-oidc_quarkus-oidc-token-verify-access-token-with-user-info[quarkus.oidc.token.verify-access-token-with-user-info]`\n"
@@ -1426,6 +1525,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-path]]`link:#quarkus-oidc_quarkus-oidc-logout-path[quarkus.oidc.logout.path]`\n"
@@ -1439,6 +1539,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-post-logout-path]]`link:#quarkus-oidc_quarkus-oidc-logout-post-logout-path[quarkus.oidc.logout.post-logout-path]`\n"
@@ -1452,6 +1553,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-post-logout-uri-param]]`link:#quarkus-oidc_quarkus-oidc-logout-post-logout-uri-param[quarkus.oidc.logout.post-logout-uri-param]`\n"
@@ -1471,6 +1573,7 @@ msgstr ""
 msgid "`post_logout_redirect_uri`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-path]]`link:#quarkus-oidc_quarkus-oidc-logout-backchannel-path[quarkus.oidc.logout.backchannel.path]`\n"
@@ -1484,6 +1587,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-size]]`link:#quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-size[quarkus.oidc.logout.backchannel.token-cache-size]`\n"
@@ -1497,6 +1601,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-time-to-live]]`link:#quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-time-to-live[quarkus.oidc.logout.backchannel.token-cache-time-to-live]`\n"
@@ -1510,6 +1615,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-clean-up-timer-interval]]`link:#quarkus-oidc_quarkus-oidc-logout-backchannel-clean-up-timer-interval[quarkus.oidc.logout.backchannel.clean-up-timer-interval]`\n"
@@ -1523,6 +1629,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-logout-token-key]]`link:#quarkus-oidc_quarkus-oidc-logout-backchannel-logout-token-key[quarkus.oidc.logout.backchannel.logout-token-key]`\n"
@@ -1542,6 +1649,7 @@ msgstr ""
 msgid "`sub`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-frontchannel-path]]`link:#quarkus-oidc_quarkus-oidc-logout-frontchannel-path[quarkus.oidc.logout.frontchannel.path]`\n"
@@ -1555,6 +1663,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-response-mode]]`link:#quarkus-oidc_quarkus-oidc-authentication-response-mode[quarkus.oidc.authentication.response-mode]`\n"
@@ -1568,6 +1677,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "tooltip:query[Authorization response parameters are encoded in the query string added to the `redirect_uri`], tooltip:form-post[Authorization response parameters are encoded as HTML form values that are auto-submitted in the browser and transmitted via the HTTP POST method using the application/x-www-form-urlencoded content type]"
 msgstr ""
@@ -1578,6 +1688,7 @@ msgstr ""
 msgid "`query`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-redirect-path]]`link:#quarkus-oidc_quarkus-oidc-authentication-redirect-path[quarkus.oidc.authentication.redirect-path]`\n"
@@ -1591,6 +1702,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-restore-path-after-redirect]]`link:#quarkus-oidc_quarkus-oidc-authentication-restore-path-after-redirect[quarkus.oidc.authentication.restore-path-after-redirect]`\n"
@@ -1604,6 +1716,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-remove-redirect-parameters]]`link:#quarkus-oidc_quarkus-oidc-authentication-remove-redirect-parameters[quarkus.oidc.authentication.remove-redirect-parameters]`\n"
@@ -1617,6 +1730,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-error-path]]`link:#quarkus-oidc_quarkus-oidc-authentication-error-path[quarkus.oidc.authentication.error-path]`\n"
@@ -1630,6 +1744,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-verify-access-token]]`link:#quarkus-oidc_quarkus-oidc-authentication-verify-access-token[quarkus.oidc.authentication.verify-access-token]`\n"
@@ -1643,6 +1758,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-force-redirect-https-scheme]]`link:#quarkus-oidc_quarkus-oidc-authentication-force-redirect-https-scheme[quarkus.oidc.authentication.force-redirect-https-scheme]`\n"
@@ -1656,6 +1772,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-scopes]]`link:#quarkus-oidc_quarkus-oidc-authentication-scopes[quarkus.oidc.authentication.scopes]`\n"
@@ -1669,6 +1786,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-add-openid-scope]]`link:#quarkus-oidc_quarkus-oidc-authentication-add-openid-scope[quarkus.oidc.authentication.add-openid-scope]`\n"
@@ -1682,6 +1800,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-forward-params]]`link:#quarkus-oidc_quarkus-oidc-authentication-forward-params[quarkus.oidc.authentication.forward-params]`\n"
@@ -1695,6 +1814,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-force-secure]]`link:#quarkus-oidc_quarkus-oidc-authentication-cookie-force-secure[quarkus.oidc.authentication.cookie-force-secure]`\n"
@@ -1708,6 +1828,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-suffix]]`link:#quarkus-oidc_quarkus-oidc-authentication-cookie-suffix[quarkus.oidc.authentication.cookie-suffix]`\n"
@@ -1721,6 +1842,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-path]]`link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path[quarkus.oidc.authentication.cookie-path]`\n"
@@ -1740,6 +1862,7 @@ msgstr ""
 msgid "`/`"
 msgstr "`/`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-path-header]]`link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path-header[quarkus.oidc.authentication.cookie-path-header]`\n"
@@ -1753,6 +1876,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-domain]]`link:#quarkus-oidc_quarkus-oidc-authentication-cookie-domain[quarkus.oidc.authentication.cookie-domain]`\n"
@@ -1766,6 +1890,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-same-site]]`link:#quarkus-oidc_quarkus-oidc-authentication-cookie-same-site[quarkus.oidc.authentication.cookie-same-site]`\n"
@@ -1791,6 +1916,7 @@ msgstr ""
 msgid "`lax`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-allow-multiple-code-flows]]`link:#quarkus-oidc_quarkus-oidc-authentication-allow-multiple-code-flows[quarkus.oidc.authentication.allow-multiple-code-flows]`\n"
@@ -1804,6 +1930,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-fail-on-missing-state-param]]`link:#quarkus-oidc_quarkus-oidc-authentication-fail-on-missing-state-param[quarkus.oidc.authentication.fail-on-missing-state-param]`\n"
@@ -1823,6 +1950,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-user-info-required]]`link:#quarkus-oidc_quarkus-oidc-authentication-user-info-required[quarkus.oidc.authentication.user-info-required]`\n"
@@ -1836,6 +1964,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-session-age-extension]]`link:#quarkus-oidc_quarkus-oidc-authentication-session-age-extension[quarkus.oidc.authentication.session-age-extension]`\n"
@@ -1855,6 +1984,7 @@ msgstr ""
 msgid "`5M`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-java-script-auto-redirect]]`link:#quarkus-oidc_quarkus-oidc-authentication-java-script-auto-redirect[quarkus.oidc.authentication.java-script-auto-redirect]`\n"
@@ -1868,6 +1998,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-id-token-required]]`link:#quarkus-oidc_quarkus-oidc-authentication-id-token-required[quarkus.oidc.authentication.id-token-required]`\n"
@@ -1881,6 +2012,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-internal-id-token-lifespan]]`link:#quarkus-oidc_quarkus-oidc-authentication-internal-id-token-lifespan[quarkus.oidc.authentication.internal-id-token-lifespan]`\n"
@@ -1894,6 +2026,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-pkce-required]]`link:#quarkus-oidc_quarkus-oidc-authentication-pkce-required[quarkus.oidc.authentication.pkce-required]`\n"
@@ -1907,6 +2040,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-pkce-secret]]`link:#quarkus-oidc_quarkus-oidc-authentication-pkce-secret[quarkus.oidc.authentication.pkce-secret]`\n"
@@ -1926,6 +2060,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-strategy]]`link:#quarkus-oidc_quarkus-oidc-token-state-manager-strategy[quarkus.oidc.token-state-manager.strategy]`\n"
@@ -1951,6 +2086,7 @@ msgstr ""
 msgid "`keep-all-tokens`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-split-tokens]]`link:#quarkus-oidc_quarkus-oidc-token-state-manager-split-tokens[quarkus.oidc.token-state-manager.split-tokens]`\n"
@@ -1964,6 +2100,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-encryption-required]]`link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-required[quarkus.oidc.token-state-manager.encryption-required]`\n"
@@ -1977,6 +2114,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-encryption-secret]]`link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-secret[quarkus.oidc.token-state-manager.encryption-secret]`\n"
@@ -1994,6 +2132,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-allow-token-introspection-cache]]`link:#quarkus-oidc_quarkus-oidc-allow-token-introspection-cache[quarkus.oidc.allow-token-introspection-cache]`\n"
@@ -2007,6 +2146,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-allow-user-info-cache]]`link:#quarkus-oidc_quarkus-oidc-allow-user-info-cache[quarkus.oidc.allow-user-info-cache]`\n"
@@ -2020,6 +2160,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-cache-user-info-in-idtoken]]`link:#quarkus-oidc_quarkus-oidc-cache-user-info-in-idtoken[quarkus.oidc.cache-user-info-in-idtoken]`\n"
@@ -2033,6 +2174,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-provider]]`link:#quarkus-oidc_quarkus-oidc-provider[quarkus.oidc.provider]`\n"
@@ -2052,6 +2194,7 @@ msgstr ""
 msgid "`apple`, `facebook`, `github`, `google`, `microsoft`, `spotify`, `twitter`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-cache-max-size]]`link:#quarkus-oidc_quarkus-oidc-token-cache-max-size[quarkus.oidc.token-cache.max-size]`\n"
@@ -2071,6 +2214,7 @@ msgstr ""
 msgid "`0`"
 msgstr "`0`"
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-cache-time-to-live]]`link:#quarkus-oidc_quarkus-oidc-token-cache-time-to-live[quarkus.oidc.token-cache.time-to-live]`\n"
@@ -2090,6 +2234,7 @@ msgstr ""
 msgid "`3M`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-cache-clean-up-timer-interval]]`link:#quarkus-oidc_quarkus-oidc-token-cache-clean-up-timer-interval[quarkus.oidc.token-cache.clean-up-timer-interval]`\n"
@@ -2103,6 +2248,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-devui-grant-options-grant-options]]`link:#quarkus-oidc_quarkus-oidc-devui-grant-options-grant-options[quarkus.oidc.devui.grant-options]`\n"
@@ -2122,6 +2268,7 @@ msgstr ""
 msgid "`Map<String,Map<String,String>>`"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-required-claims-claim-name]]`link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[quarkus.oidc.token.required-claims]`\n"
@@ -2135,6 +2282,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-extra-params-extra-params]]`link:#quarkus-oidc_quarkus-oidc-logout-extra-params-extra-params[quarkus.oidc.logout.extra-params]`\n"
@@ -2148,6 +2296,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-extra-params-extra-params]]`link:#quarkus-oidc_quarkus-oidc-authentication-extra-params-extra-params[quarkus.oidc.authentication.extra-params]`\n"
@@ -2161,6 +2310,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-code-grant-extra-params-extra-params]]`link:#quarkus-oidc_quarkus-oidc-code-grant-extra-params-extra-params[quarkus.oidc.code-grant.extra-params]`\n"
@@ -2174,6 +2324,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-code-grant-headers-headers]]`link:#quarkus-oidc_quarkus-oidc-code-grant-headers-headers[quarkus.oidc.code-grant.headers]`\n"
@@ -2187,10 +2338,12 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "[[quarkus-oidc_quarkus-oidc-named-tenants-additional-named-tenants]]link:#quarkus-oidc_quarkus-oidc-named-tenants-additional-named-tenants[Additional named tenants]"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-auth-server-url]]`link:#quarkus-oidc_quarkus-oidc-tenant-auth-server-url[quarkus.oidc.\"tenant\".auth-server-url]`\n"
@@ -2204,6 +2357,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-discovery-enabled]]`link:#quarkus-oidc_quarkus-oidc-tenant-discovery-enabled[quarkus.oidc.\"tenant\".discovery-enabled]`\n"
@@ -2217,6 +2371,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-path[quarkus.oidc.\"tenant\".token-path]`\n"
@@ -2230,6 +2385,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-revoke-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-revoke-path[quarkus.oidc.\"tenant\".revoke-path]`\n"
@@ -2243,6 +2399,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-client-id]]`link:#quarkus-oidc_quarkus-oidc-tenant-client-id[quarkus.oidc.\"tenant\".client-id]`\n"
@@ -2256,6 +2413,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-connection-delay]]`link:#quarkus-oidc_quarkus-oidc-tenant-connection-delay[quarkus.oidc.\"tenant\".connection-delay]`\n"
@@ -2269,6 +2427,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-connection-retry-count]]`link:#quarkus-oidc_quarkus-oidc-tenant-connection-retry-count[quarkus.oidc.\"tenant\".connection-retry-count]`\n"
@@ -2282,6 +2441,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-connection-timeout]]`link:#quarkus-oidc_quarkus-oidc-tenant-connection-timeout[quarkus.oidc.\"tenant\".connection-timeout]`\n"
@@ -2295,6 +2455,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-max-pool-size]]`link:#quarkus-oidc_quarkus-oidc-tenant-max-pool-size[quarkus.oidc.\"tenant\".max-pool-size]`\n"
@@ -2308,6 +2469,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-secret]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-secret[quarkus.oidc.\"tenant\".credentials.secret]`\n"
@@ -2321,6 +2483,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-value]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-value[quarkus.oidc.\"tenant\".credentials.client-secret.value]`\n"
@@ -2334,6 +2497,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-provider-name]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-provider-name[quarkus.oidc.\"tenant\".credentials.client-secret.provider.name]`\n"
@@ -2347,6 +2511,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-provider-key]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-provider-key[quarkus.oidc.\"tenant\".credentials.client-secret.provider.key]`\n"
@@ -2360,6 +2525,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-method]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-client-secret-method[quarkus.oidc.\"tenant\".credentials.client-secret.method]`\n"
@@ -2373,6 +2539,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-secret]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-secret[quarkus.oidc.\"tenant\".credentials.jwt.secret]`\n"
@@ -2386,6 +2553,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-secret-provider-name]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-secret-provider-name[quarkus.oidc.\"tenant\".credentials.jwt.secret-provider.name]`\n"
@@ -2399,6 +2567,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-secret-provider-key]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-secret-provider-key[quarkus.oidc.\"tenant\".credentials.jwt.secret-provider.key]`\n"
@@ -2412,6 +2581,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-file]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-file[quarkus.oidc.\"tenant\".credentials.jwt.key-file]`\n"
@@ -2425,6 +2595,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-store-file]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-store-file[quarkus.oidc.\"tenant\".credentials.jwt.key-store-file]`\n"
@@ -2438,6 +2609,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-store-password]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-store-password[quarkus.oidc.\"tenant\".credentials.jwt.key-store-password]`\n"
@@ -2451,6 +2623,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-id]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-id[quarkus.oidc.\"tenant\".credentials.jwt.key-id]`\n"
@@ -2464,6 +2637,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-password]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-key-password[quarkus.oidc.\"tenant\".credentials.jwt.key-password]`\n"
@@ -2477,6 +2651,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-audience]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-audience[quarkus.oidc.\"tenant\".credentials.jwt.audience]`\n"
@@ -2490,6 +2665,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-token-key-id]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-token-key-id[quarkus.oidc.\"tenant\".credentials.jwt.token-key-id]`\n"
@@ -2503,6 +2679,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-issuer]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-issuer[quarkus.oidc.\"tenant\".credentials.jwt.issuer]`\n"
@@ -2516,6 +2693,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-subject]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-subject[quarkus.oidc.\"tenant\".credentials.jwt.subject]`\n"
@@ -2529,6 +2707,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-signature-algorithm]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-signature-algorithm[quarkus.oidc.\"tenant\".credentials.jwt.signature-algorithm]`\n"
@@ -2542,6 +2721,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-lifespan]]`link:#quarkus-oidc_quarkus-oidc-tenant-credentials-jwt-lifespan[quarkus.oidc.\"tenant\".credentials.jwt.lifespan]`\n"
@@ -2555,6 +2735,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-proxy-host]]`link:#quarkus-oidc_quarkus-oidc-tenant-proxy-host[quarkus.oidc.\"tenant\".proxy.host]`\n"
@@ -2569,6 +2750,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-proxy-port]]`link:#quarkus-oidc_quarkus-oidc-tenant-proxy-port[quarkus.oidc.\"tenant\".proxy.port]`\n"
@@ -2582,6 +2764,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-proxy-username]]`link:#quarkus-oidc_quarkus-oidc-tenant-proxy-username[quarkus.oidc.\"tenant\".proxy.username]`\n"
@@ -2595,6 +2778,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-proxy-password]]`link:#quarkus-oidc_quarkus-oidc-tenant-proxy-password[quarkus.oidc.\"tenant\".proxy.password]`\n"
@@ -2608,6 +2792,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-verification]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-verification[quarkus.oidc.\"tenant\".tls.verification]`\n"
@@ -2621,6 +2806,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-key-store-file]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-key-store-file[quarkus.oidc.\"tenant\".tls.key-store-file]`\n"
@@ -2634,6 +2820,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-key-store-file-type]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-key-store-file-type[quarkus.oidc.\"tenant\".tls.key-store-file-type]`\n"
@@ -2647,6 +2834,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-key-store-provider]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-key-store-provider[quarkus.oidc.\"tenant\".tls.key-store-provider]`\n"
@@ -2660,6 +2848,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-key-store-password]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-key-store-password[quarkus.oidc.\"tenant\".tls.key-store-password]`\n"
@@ -2673,6 +2862,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-key-store-key-alias]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-key-store-key-alias[quarkus.oidc.\"tenant\".tls.key-store-key-alias]`\n"
@@ -2686,6 +2876,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-key-store-key-password]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-key-store-key-password[quarkus.oidc.\"tenant\".tls.key-store-key-password]`\n"
@@ -2699,6 +2890,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-file]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-file[quarkus.oidc.\"tenant\".tls.trust-store-file]`\n"
@@ -2712,6 +2904,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-password]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-password[quarkus.oidc.\"tenant\".tls.trust-store-password]`\n"
@@ -2725,6 +2918,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-cert-alias]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-cert-alias[quarkus.oidc.\"tenant\".tls.trust-store-cert-alias]`\n"
@@ -2738,6 +2932,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-file-type]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-file-type[quarkus.oidc.\"tenant\".tls.trust-store-file-type]`\n"
@@ -2751,6 +2946,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-provider]]`link:#quarkus-oidc_quarkus-oidc-tenant-tls-trust-store-provider[quarkus.oidc.\"tenant\".tls.trust-store-provider]`\n"
@@ -2764,6 +2960,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tenant-id]]`link:#quarkus-oidc_quarkus-oidc-tenant-tenant-id[quarkus.oidc.\"tenant\".tenant-id]`\n"
@@ -2777,6 +2974,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-tenant-enabled]]`link:#quarkus-oidc_quarkus-oidc-tenant-tenant-enabled[quarkus.oidc.\"tenant\".tenant-enabled]`\n"
@@ -2790,6 +2988,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-application-type]]`link:#quarkus-oidc_quarkus-oidc-tenant-application-type[quarkus.oidc.\"tenant\".application-type]`\n"
@@ -2803,6 +3002,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authorization-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-authorization-path[quarkus.oidc.\"tenant\".authorization-path]`\n"
@@ -2816,6 +3016,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-user-info-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-user-info-path[quarkus.oidc.\"tenant\".user-info-path]`\n"
@@ -2829,6 +3030,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-introspection-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-introspection-path[quarkus.oidc.\"tenant\".introspection-path]`\n"
@@ -2842,6 +3044,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-jwks-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-jwks-path[quarkus.oidc.\"tenant\".jwks-path]`\n"
@@ -2855,6 +3058,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-end-session-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-end-session-path[quarkus.oidc.\"tenant\".end-session-path]`\n"
@@ -2868,6 +3072,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-public-key]]`link:#quarkus-oidc_quarkus-oidc-tenant-public-key[quarkus.oidc.\"tenant\".public-key]`\n"
@@ -2881,6 +3086,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-introspection-credentials-name]]`link:#quarkus-oidc_quarkus-oidc-tenant-introspection-credentials-name[quarkus.oidc.\"tenant\".introspection-credentials.name]`\n"
@@ -2894,6 +3100,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-introspection-credentials-secret]]`link:#quarkus-oidc_quarkus-oidc-tenant-introspection-credentials-secret[quarkus.oidc.\"tenant\".introspection-credentials.secret]`\n"
@@ -2907,6 +3114,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-introspection-credentials-include-client-id]]`link:#quarkus-oidc_quarkus-oidc-tenant-introspection-credentials-include-client-id[quarkus.oidc.\"tenant\".introspection-credentials.include-client-id]`\n"
@@ -2920,6 +3128,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-roles-role-claim-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-roles-role-claim-path[quarkus.oidc.\"tenant\".roles.role-claim-path]`\n"
@@ -2933,6 +3142,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-roles-role-claim-separator]]`link:#quarkus-oidc_quarkus-oidc-tenant-roles-role-claim-separator[quarkus.oidc.\"tenant\".roles.role-claim-separator]`\n"
@@ -2946,6 +3156,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-roles-source]]`link:#quarkus-oidc_quarkus-oidc-tenant-roles-source[quarkus.oidc.\"tenant\".roles.source]`\n"
@@ -2959,6 +3170,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-issuer]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-issuer[quarkus.oidc.\"tenant\".token.issuer]`\n"
@@ -2972,6 +3184,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-audience]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-audience[quarkus.oidc.\"tenant\".token.audience]`\n"
@@ -2985,6 +3198,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-required-claims-claim-name]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-required-claims-claim-name[quarkus.oidc.\"tenant\".token.required-claims]`\n"
@@ -2998,6 +3212,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-token-type]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-token-type[quarkus.oidc.\"tenant\".token.token-type]`\n"
@@ -3011,6 +3226,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-lifespan-grace]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-lifespan-grace[quarkus.oidc.\"tenant\".token.lifespan-grace]`\n"
@@ -3024,6 +3240,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-age]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-age[quarkus.oidc.\"tenant\".token.age]`\n"
@@ -3037,6 +3254,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-principal-claim]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-principal-claim[quarkus.oidc.\"tenant\".token.principal-claim]`\n"
@@ -3050,6 +3268,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-refresh-expired]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-refresh-expired[quarkus.oidc.\"tenant\".token.refresh-expired]`\n"
@@ -3063,6 +3282,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-refresh-token-time-skew]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-refresh-token-time-skew[quarkus.oidc.\"tenant\".token.refresh-token-time-skew]`\n"
@@ -3076,6 +3296,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-forced-jwk-refresh-interval]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-forced-jwk-refresh-interval[quarkus.oidc.\"tenant\".token.forced-jwk-refresh-interval]`\n"
@@ -3089,6 +3310,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-header]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-header[quarkus.oidc.\"tenant\".token.header]`\n"
@@ -3102,6 +3324,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-signature-algorithm]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-signature-algorithm[quarkus.oidc.\"tenant\".token.signature-algorithm]`\n"
@@ -3115,6 +3338,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-decryption-key-location]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-decryption-key-location[quarkus.oidc.\"tenant\".token.decryption-key-location]`\n"
@@ -3128,6 +3352,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-allow-jwt-introspection]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-allow-jwt-introspection[quarkus.oidc.\"tenant\".token.allow-jwt-introspection]`\n"
@@ -3141,6 +3366,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-require-jwt-introspection-only]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-require-jwt-introspection-only[quarkus.oidc.\"tenant\".token.require-jwt-introspection-only]`\n"
@@ -3154,6 +3380,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-allow-opaque-token-introspection]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-allow-opaque-token-introspection[quarkus.oidc.\"tenant\".token.allow-opaque-token-introspection]`\n"
@@ -3167,6 +3394,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-customizer-name]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-customizer-name[quarkus.oidc.\"tenant\".token.customizer-name]`\n"
@@ -3180,6 +3408,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-verify-access-token-with-user-info]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-verify-access-token-with-user-info[quarkus.oidc.\"tenant\".token.verify-access-token-with-user-info]`\n"
@@ -3193,6 +3422,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-path[quarkus.oidc.\"tenant\".logout.path]`\n"
@@ -3206,6 +3436,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-post-logout-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-post-logout-path[quarkus.oidc.\"tenant\".logout.post-logout-path]`\n"
@@ -3219,6 +3450,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-post-logout-uri-param]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-post-logout-uri-param[quarkus.oidc.\"tenant\".logout.post-logout-uri-param]`\n"
@@ -3232,6 +3464,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-extra-params-extra-params]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-extra-params-extra-params[quarkus.oidc.\"tenant\".logout.extra-params]`\n"
@@ -3245,6 +3478,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-path[quarkus.oidc.\"tenant\".logout.backchannel.path]`\n"
@@ -3258,6 +3492,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-token-cache-size]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-token-cache-size[quarkus.oidc.\"tenant\".logout.backchannel.token-cache-size]`\n"
@@ -3271,6 +3506,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-token-cache-time-to-live]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-token-cache-time-to-live[quarkus.oidc.\"tenant\".logout.backchannel.token-cache-time-to-live]`\n"
@@ -3284,6 +3520,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-clean-up-timer-interval]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-clean-up-timer-interval[quarkus.oidc.\"tenant\".logout.backchannel.clean-up-timer-interval]`\n"
@@ -3297,6 +3534,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-logout-token-key]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-backchannel-logout-token-key[quarkus.oidc.\"tenant\".logout.backchannel.logout-token-key]`\n"
@@ -3310,6 +3548,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-logout-frontchannel-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-logout-frontchannel-path[quarkus.oidc.\"tenant\".logout.frontchannel.path]`\n"
@@ -3323,6 +3562,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-response-mode]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-response-mode[quarkus.oidc.\"tenant\".authentication.response-mode]`\n"
@@ -3336,6 +3576,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-redirect-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-redirect-path[quarkus.oidc.\"tenant\".authentication.redirect-path]`\n"
@@ -3349,6 +3590,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-restore-path-after-redirect]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-restore-path-after-redirect[quarkus.oidc.\"tenant\".authentication.restore-path-after-redirect]`\n"
@@ -3362,6 +3604,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-remove-redirect-parameters]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-remove-redirect-parameters[quarkus.oidc.\"tenant\".authentication.remove-redirect-parameters]`\n"
@@ -3375,6 +3618,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-error-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-error-path[quarkus.oidc.\"tenant\".authentication.error-path]`\n"
@@ -3388,6 +3632,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-verify-access-token]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-verify-access-token[quarkus.oidc.\"tenant\".authentication.verify-access-token]`\n"
@@ -3401,6 +3646,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-force-redirect-https-scheme]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-force-redirect-https-scheme[quarkus.oidc.\"tenant\".authentication.force-redirect-https-scheme]`\n"
@@ -3414,6 +3660,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-scopes]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-scopes[quarkus.oidc.\"tenant\".authentication.scopes]`\n"
@@ -3427,6 +3674,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-add-openid-scope]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-add-openid-scope[quarkus.oidc.\"tenant\".authentication.add-openid-scope]`\n"
@@ -3440,6 +3688,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-extra-params-extra-params]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-extra-params-extra-params[quarkus.oidc.\"tenant\".authentication.extra-params]`\n"
@@ -3453,6 +3702,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-forward-params]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-forward-params[quarkus.oidc.\"tenant\".authentication.forward-params]`\n"
@@ -3466,6 +3716,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-force-secure]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-force-secure[quarkus.oidc.\"tenant\".authentication.cookie-force-secure]`\n"
@@ -3479,6 +3730,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-suffix]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-suffix[quarkus.oidc.\"tenant\".authentication.cookie-suffix]`\n"
@@ -3492,6 +3744,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-path]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-path[quarkus.oidc.\"tenant\".authentication.cookie-path]`\n"
@@ -3505,6 +3758,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-path-header]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-path-header[quarkus.oidc.\"tenant\".authentication.cookie-path-header]`\n"
@@ -3518,6 +3772,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-domain]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-domain[quarkus.oidc.\"tenant\".authentication.cookie-domain]`\n"
@@ -3531,6 +3786,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-same-site]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-cookie-same-site[quarkus.oidc.\"tenant\".authentication.cookie-same-site]`\n"
@@ -3544,6 +3800,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-allow-multiple-code-flows]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-allow-multiple-code-flows[quarkus.oidc.\"tenant\".authentication.allow-multiple-code-flows]`\n"
@@ -3557,6 +3814,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-fail-on-missing-state-param]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-fail-on-missing-state-param[quarkus.oidc.\"tenant\".authentication.fail-on-missing-state-param]`\n"
@@ -3576,6 +3834,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-user-info-required]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-user-info-required[quarkus.oidc.\"tenant\".authentication.user-info-required]`\n"
@@ -3589,6 +3848,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-session-age-extension]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-session-age-extension[quarkus.oidc.\"tenant\".authentication.session-age-extension]`\n"
@@ -3602,6 +3862,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-java-script-auto-redirect]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-java-script-auto-redirect[quarkus.oidc.\"tenant\".authentication.java-script-auto-redirect]`\n"
@@ -3615,6 +3876,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-id-token-required]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-id-token-required[quarkus.oidc.\"tenant\".authentication.id-token-required]`\n"
@@ -3628,6 +3890,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-internal-id-token-lifespan]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-internal-id-token-lifespan[quarkus.oidc.\"tenant\".authentication.internal-id-token-lifespan]`\n"
@@ -3641,6 +3904,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-pkce-required]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-pkce-required[quarkus.oidc.\"tenant\".authentication.pkce-required]`\n"
@@ -3654,6 +3918,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-authentication-pkce-secret]]`link:#quarkus-oidc_quarkus-oidc-tenant-authentication-pkce-secret[quarkus.oidc.\"tenant\".authentication.pkce-secret]`\n"
@@ -3673,6 +3938,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-code-grant-extra-params-extra-params]]`link:#quarkus-oidc_quarkus-oidc-tenant-code-grant-extra-params-extra-params[quarkus.oidc.\"tenant\".code-grant.extra-params]`\n"
@@ -3686,6 +3952,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-code-grant-headers-headers]]`link:#quarkus-oidc_quarkus-oidc-tenant-code-grant-headers-headers[quarkus.oidc.\"tenant\".code-grant.headers]`\n"
@@ -3699,6 +3966,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-state-manager-strategy]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-state-manager-strategy[quarkus.oidc.\"tenant\".token-state-manager.strategy]`\n"
@@ -3712,6 +3980,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-state-manager-split-tokens]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-state-manager-split-tokens[quarkus.oidc.\"tenant\".token-state-manager.split-tokens]`\n"
@@ -3725,6 +3994,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-state-manager-encryption-required]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-state-manager-encryption-required[quarkus.oidc.\"tenant\".token-state-manager.encryption-required]`\n"
@@ -3738,6 +4008,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-token-state-manager-encryption-secret]]`link:#quarkus-oidc_quarkus-oidc-tenant-token-state-manager-encryption-secret[quarkus.oidc.\"tenant\".token-state-manager.encryption-secret]`\n"
@@ -3755,6 +4026,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-allow-token-introspection-cache]]`link:#quarkus-oidc_quarkus-oidc-tenant-allow-token-introspection-cache[quarkus.oidc.\"tenant\".allow-token-introspection-cache]`\n"
@@ -3768,6 +4040,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-allow-user-info-cache]]`link:#quarkus-oidc_quarkus-oidc-tenant-allow-user-info-cache[quarkus.oidc.\"tenant\".allow-user-info-cache]`\n"
@@ -3781,6 +4054,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-cache-user-info-in-idtoken]]`link:#quarkus-oidc_quarkus-oidc-tenant-cache-user-info-in-idtoken[quarkus.oidc.\"tenant\".cache-user-info-in-idtoken]`\n"
@@ -3794,6 +4068,7 @@ msgid ""
 "--"
 msgstr ""
 
+#. type: Table
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-provider]]`link:#quarkus-oidc_quarkus-oidc-tenant-provider[quarkus.oidc.\"tenant\".provider]`\n"
@@ -3813,32 +4088,39 @@ msgstr ""
 msgid "About the Duration format"
 msgstr ""
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() javadoc] for more information."
 msgstr "Para valores de duração, use o formato padrão 'java.time.Duration'.  Consulte o link:https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() javadoc] para obter mais informações."
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "If the value is only a number, it represents time in seconds."
 msgstr "Se o valor for apenas um número, ele representará o tempo em segundos."
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "If the value is a number followed by `ms`, it represents time in milliseconds."
 msgstr "Se o valor for um número seguido de 'ms', ele representa o tempo em milissegundos."
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "In other cases, the simplified format is translated to the `java.time.Duration` format for parsing:"
 msgstr "Em outros casos, o formato simplificado é traduzido para o formato 'java.time.Duration' para análise:"
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "If the value is a number followed by `h`, `m`, or `s`, it is prefixed with `PT`."
 msgstr "Se o valor for um número seguido de 'h', 'm' ou 's', ele é prefixado com 'PT'."
 
+#. type: Plain text
 #: _generated-doc/3.2/config/quarkus-oidc.adoc
 msgid "If the value is a number followed by `d`, it is prefixed with `P`."
 msgstr "Se o valor for um número seguido de 'd', ele é prefixado com 'P'."

@@ -22,6 +22,7 @@ msgstr ""
 msgid "Quarkus Tools for IntelliJ 1.4.0 released!"
 msgstr "Lançamento das ferramentas Quarkus para IntelliJ 1.4.0!"
 
+#. type: Plain text
 #: _posts/2021-02-17-intellij-quarkus-tools-1.4.0.adoc
 #, fuzzy
 msgid ""
@@ -29,12 +30,13 @@ msgid ""
 "This release enhances codestarts support in the Quarkus project wizard."
 msgstr "Temos o prazer de anunciar a versão 1.4.0 do Quarkus Tools for IntelliJ. Essa versão aprimora o suporte a codestarts no assistente de projeto do Quarkus."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-02-17-intellij-quarkus-tools-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "Codestarts"
 msgstr "Codestarts"
 
+#. type: Plain text
 #: _posts/2021-02-17-intellij-quarkus-tools-1.4.0.adoc
 #, fuzzy
 msgid ""
@@ -43,12 +45,13 @@ msgid ""
 "identify codestarts enabled extensions."
 msgstr "O assistente de projeto do Quarkus agora destaca a extensão habilitada para codestarts com um ícone específico (à direita do nome da extensão), semelhante ao code.quarkus.io, permitindo que os usuários identifiquem melhor as extensões habilitadas para codestarts."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-02-17-intellij-quarkus-tools-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "Moving Forward"
 msgstr "Seguir em frente"
 
+#. type: Plain text
 #: _posts/2021-02-17-intellij-quarkus-tools-1.4.0.adoc
 #, fuzzy
 msgid ""
@@ -62,7 +65,7 @@ msgstr "Se o senhor tiver alguma dúvida, sugestão ou feedback, link:https://gi
 msgid "Thank you for reading and stay tuned for the next release!"
 msgstr "Obrigado pela leitura e fiquem atentos ao próximo lançamento!"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2021-02-17-intellij-quarkus-tools-1.4.0.adoc
 #, fuzzy, no-wrap
 msgid "Links"

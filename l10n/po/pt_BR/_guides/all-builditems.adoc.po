@@ -17,20 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.2\n"
 
+#. type: YAML Front Matter: title
 #. This guide is maintained in the main Quarkus repository
 #. and pull requests should be submitted there:
 #. https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc
-#. type: Title =
 #: _guides/all-builditems.adoc
 #, no-wrap
 msgid "Build Items"
 msgstr "Itens de Construção"
 
+#. type: Plain text
 #: _guides/all-builditems.adoc
 #, fuzzy
 msgid "Here you can find a list of Build Items and the extension that provides them."
 msgstr "Aqui o senhor pode encontrar uma lista de Build Items e a extensão que os fornece."
 
+#. type: Plain text
 #: _guides/all-builditems.adoc
 #, fuzzy
 msgid "icon:building[title=Non-instantiatable Build Item] Build item can't be instantiated directly, but can be extended/inherited from"

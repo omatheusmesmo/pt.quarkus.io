@@ -71,6 +71,7 @@ msgstr "[lock] O senhor pode fazer isso?  `link:#quarkus-blaze-persistence_quark
 msgid "int"
 msgstr "int"
 
+#. type: Table
 #: _guides/_includes/quarkus-blaze-persistence.adoc
 #, fuzzy
 msgid ""

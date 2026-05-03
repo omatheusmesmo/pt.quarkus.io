@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#. type: delimited block =
+#. type: Plain text
 #: _guides/_includes/platform-include.adoc
 msgid "This extension is developed by a third party and is part of the Quarkus Platform."
 msgstr "Esta extensão é desenvolvida por terceiros e faz parte da Plataforma Quarkus."

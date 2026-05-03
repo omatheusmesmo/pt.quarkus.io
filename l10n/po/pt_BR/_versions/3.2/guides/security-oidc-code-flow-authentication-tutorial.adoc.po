@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: YAML Front Matter: title
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy, no-wrap
 msgid "Protect a web application by using OpenID Connect (OIDC) authorization code flow"
@@ -34,6 +34,7 @@ msgstr "Com a extensão Quarkus OpenID Connect (OIDC), o senhor pode proteger os
 msgid "To learn more about the OIDC authorization code flow mechanism, see xref:security-oidc-code-flow-authentication.adoc[OIDC code flow mechanism for protecting web applications]."
 msgstr "Para saber mais sobre o mecanismo de fluxo de código de autorização do OIDC, consulte xref:security-oidc-code-flow-authentication.adoc[Mecanismo de fluxo de código do OIDC para proteger aplicativos da Web] ."
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -47,13 +48,13 @@ msgstr "Para saber como os provedores sociais conhecidos, como Google, GitHub, M
 msgid "If you want to protect your service applications by using OIDC Bearer token authentication, see xref:security-oidc-bearer-token-authentication-concept.adoc[OIDC Bearer token authentication]."
 msgstr "Se o senhor quiser proteger seus aplicativos de serviço usando a autenticação de token de portador OIDC, consulte xref:security-oidc-bearer-token-authentication-concept.adoc[Autenticação de token de portador OIDC] ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Prerequisites"
 msgstr "Pré-requisitos"
 
-#. type: Title ==
+#. type: Title =
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Architecture"
@@ -77,12 +78,13 @@ msgstr "`/index.html`"
 msgid "This page is protected and can only be accessed by authenticated users."
 msgstr "Esta página é protegida e só pode ser acessada por usuários autenticados."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Solution"
 msgstr "Solução"
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 msgid ""
 "We recommend that you follow the instructions in the next sections and create the application step by step.\n"
@@ -100,18 +102,19 @@ msgstr "Clone o repositório Git: `git clone {quickstarts-clone-url}`, ou baixe 
 msgid "The solution is located in the `security-openid-connect-web-authentication-quickstart` link:{quickstarts-tree-url}/security-openid-connect-web-authentication-quickstart[directory]."
 msgstr "A solução está localizada no link:{quickstarts-tree-url}/security-openid-connect-web-authentication-quickstart[diretório] `security-openid-connect-web-authentication-quickstart` ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Procedure"
 msgstr "Procedimento"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Create the Maven project"
 msgstr "Crie o projeto Maven"
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 msgid ""
 "First, we need a new project.\n"
@@ -141,7 +144,7 @@ msgstr "pom.xml"
 msgid "build.gradle"
 msgstr "build.gradle"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Write the application"
@@ -153,6 +156,7 @@ msgstr "Escreva a aplicação"
 msgid "Let's write a simple Jakarta REST resource which has all the tokens returned in the authorization code grant response injected:"
 msgstr "Vamos escrever um recurso Jakarta REST simples que tem todos os tokens retornados na resposta de concessão de código de autorização injetados:"
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -166,8 +170,8 @@ msgstr "Esse endpoint tem tokens de ID, acesso e atualização injetados. Ele re
 msgid "Note that you do not have to inject the tokens - it is only required if the endpoint needs to use the ID token to interact with the currently authenticated user or use the access token to access a downstream service on behalf of this user."
 msgstr "Observe que o senhor não precisa injetar os tokens - isso só é necessário se o endpoint precisar usar o token de ID para interagir com o usuário autenticado no momento ou usar o token de acesso para acessar um serviço downstream em nome desse usuário."
 
+#. type: Title ==
 #. SJ: TO DO - update link to point to new reference guide. For more information, see xref:access_id_and_access_tokens[Access ID and Access Tokens] section.
-#. type: Title ===
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "Configure the application"
@@ -197,6 +201,7 @@ msgstr "A propriedade `quarkus.oidc.client-id` faz referência ao `client_id` em
 msgid "The `quarkus.oidc.application-type` property is set to `web-app` in order to tell Quarkus that you want to enable the OIDC authorization code flow, so that your users are redirected to the OIDC provider to authenticate."
 msgstr "A propriedade `quarkus.oidc.application-type` é definida como `web-app` para informar ao Quarkus que o senhor deseja ativar o fluxo do código de autorização do OIDC, de modo que os usuários sejam redirecionados para o provedor do OIDC para autenticação."
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -205,7 +210,7 @@ msgid ""
 "For more information, see xref:security-authorization-of-web-endpoints-reference.adoc[Security Authorization Guide]."
 msgstr "Por fim, a permissão `quarkus.http.auth.permission.authenticated` é definida para informar ao Quarkus sobre os caminhos que o senhor deseja proteger. Nesse caso, todos os caminhos estão sendo protegidos por uma política que garante que somente os usuários do `authenticated` tenham permissão de acesso. Para obter mais informações, consulte o xref:security-authorization-of-web-endpoints-reference.adoc[Guia de Autorização de Segurança] ."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy, no-wrap
 msgid "Start and configure the Keycloak server"
@@ -229,6 +234,7 @@ msgstr "onde `keycloak.version` deve ser definido como `17.0.0` ou superior."
 msgid "You should be able to access your Keycloak Server at http://localhost:8180[localhost:8180]."
 msgstr "O senhor deve conseguir acessar o servidor Keycloak em link:http://localhost:8180[localhost:8180] ."
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -236,6 +242,7 @@ msgid ""
 "Username should be `admin` and password `admin`."
 msgstr "Para acessar o Console de administração do Keycloak, faça login como usuário `admin` . O nome de usuário deve ser `admin` e a senha `admin` ."
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -243,7 +250,7 @@ msgid ""
 "For more information, see the Keycloak documentation about how to https://www.keycloak.org/docs/latest/server_admin/index.html#_create-realm[create a new realm]."
 msgstr "Importe o link:{quickstarts-tree-url}/security-openid-connect-web-authentication-quickstart/config/quarkus-realm.json[arquivo de configuração do realm] para criar um novo realm. Para obter mais informações, consulte a documentação do Keycloak sobre como link:https://www.keycloak.org/docs/latest/server_admin/index.html#_create-realm[criar um novo realm] ."
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy, no-wrap
 msgid "Run the application in dev and JVM modes"
@@ -273,12 +280,13 @@ msgstr "Primeiro, compile-o:"
 msgid "Then, run it:"
 msgstr "Em seguida, execute-o:"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy, no-wrap
 msgid "Run the application in Native mode"
 msgstr "Executar o aplicativo no modo nativo"
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -286,6 +294,7 @@ msgid ""
 "No modifications are required."
 msgstr "Essa mesma demonstração pode ser compilada em código nativo. Não são necessárias modificações."
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -293,6 +302,7 @@ msgid ""
 "the produced binary, and optimized to run with minimal resource overhead."
 msgstr "Isso significa que o senhor não precisa mais instalar uma JVM no seu ambiente de produção, pois a tecnologia de tempo de execução está incluída no binário produzido e é otimizada para ser executada com o mínimo de sobrecarga de recursos."
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -306,7 +316,7 @@ msgstr "A compilação levará um pouco mais de tempo, portanto, essa etapa est�
 msgid "After getting a cup of coffee, you can run this binary directly:"
 msgstr "Depois de tomar uma xícara de café, o senhor pode executar esse binário diretamente:"
 
-#. type: Title ===
+#. type: Title ==
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy, no-wrap
 msgid "Test the application"
@@ -360,12 +370,13 @@ msgstr "Depois de clicar no botão `Login` , o senhor será redirecionado de vol
 msgid "For more information about writing the integration tests that depend on `Dev Services for Keycloak`, see the xref:security-oidc-code-flow-authentication.adoc#integration-testing-keycloak-devservices[Dev Services for Keycloak] section."
 msgstr "Para obter mais informações sobre como escrever os testes de integração que dependem de `Dev Services for Keycloak` , consulte a seção Dev xref:security-oidc-code-flow-authentication.adoc#integration-testing-keycloak-devservices[Services for Keycloak] ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy, no-wrap
 msgid "Summary"
 msgstr "Resumo"
 
+#. type: Plain text
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, fuzzy
 msgid ""
@@ -374,7 +385,7 @@ msgid ""
 "After you have completed this tutorial, explore xref:security-oidc-bearer-token-authentication.adoc[OIDC Bearer token authentication] and xref:security-authentication-mechanisms.adoc[other authentication mechanisms]."
 msgstr "Parabéns! O senhor aprendeu a configurar e usar o mecanismo de fluxo de código de autorização do OIDC para proteger e testar os pontos de extremidade HTTP do aplicativo. Depois de concluir este tutorial, o senhor poderá explorar xref:security-oidc-bearer-token-authentication.adoc[a autenticação de token de portador do OIDC] e xref:security-authentication-mechanisms.adoc[outros mecanismos de autenticação] ."
 
-#. type: Title ==
+#. type: Title =
 #: _versions/3.2/guides/security-oidc-code-flow-authentication-tutorial.adoc
 #, no-wrap
 msgid "References"

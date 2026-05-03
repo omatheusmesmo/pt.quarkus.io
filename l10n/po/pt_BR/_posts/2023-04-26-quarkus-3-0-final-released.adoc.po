@@ -34,6 +34,7 @@ msgstr "É com grande prazer que anunciamos a nova versão principal do Quarkus:
 msgid "Quarkus 3.0 is the result of a lot of work and dedication from the community. Quarkus continues to be an Open Source stack to write Java applications offering unparalleled startup time, memory footprint, and developer experience."
 msgstr "O Quarkus 3.0 é o resultado de muito trabalho e dedicação da comunidade. O Quarkus continua a ser uma pilha de código aberto para escrever aplicações Java, oferecendo um tempo de arranque, um consumo de memória e uma experiência de desenvolvimento sem paralelo."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -42,6 +43,7 @@ msgid ""
 "while continuing the development of Quarkus 2."
 msgstr "O desenvolvimento do Quarkus 3 começou no ano passado, em 18 de março de 2022, com a ideia maluca de que poderíamos reescrever toda a árvore para migrar para os novos pacotes `jakarta.*` e, ao mesmo tempo, continuar o desenvolvimento do Quarkus 2."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -50,6 +52,7 @@ msgid ""
 "that we implemented during this period."
 msgstr "O Quarkus 3.0 é baseado no Jakarta EE 10 e, como o senhor pode esperar, essa não é a única mudança. Essa versão vem repleta de novos recursos e aprimoramentos que implementamos durante esse período."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -57,18 +60,19 @@ msgid ""
 "so we recommend reading it thoroughly before upgrading to Quarkus 3."
 msgstr "Esse anúncio contém muitas informações sobre os novos recursos e como fazer a atualização, por isso recomendamos que o senhor o leia com atenção antes de fazer a atualização para o Quarkus 3."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "What's new?"
 msgstr "O que é que há de novo?"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "New Dev UI"
 msgstr "Nova IU de desenvolvimento"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -76,6 +80,7 @@ msgid ""
 "Extensions could provide their own Dev UI pages to provide additional functionality."
 msgstr "O Quarkus 2 introduziu a Dev UI, que fornece uma UI da Web para ser usada durante o desenvolvimento. As extensões podem fornecer suas próprias páginas Dev UI para oferecer funcionalidades adicionais."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -83,6 +88,7 @@ msgid ""
 "It also has a new and much-improved look and feel."
 msgstr "O Quarkus 3.0 agora tem uma nova interface de desenvolvimento que é mais extensível e fácil de usar. Ele também tem uma aparência nova e muito melhorada."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -98,7 +104,7 @@ msgstr "A nova Dev UI está disponível por padrão. No entanto, como nem todas 
 msgid "We have a https://www.youtube.com/watch?v=sz5ihmA4gaE&list=PLsM3ZE5tGAVbyncLm7ue2V25cwFck7ew9[playlist] on Quarkus YouTube channel that shows off the new Dev UI, explains the new features and how to use and extend it."
 msgstr "Temos uma  link:https://www.youtube.com/watch?v=sz5ihmA4gaE&amp;list=PLsM3ZE5tGAVbyncLm7ue2V25cwFck7ew9[lista de reprodução] no canal YouTube do Quarkus que mostra a nova IU de desenvolvimento, explica as novas funcionalidades e como a utilizar e alargar."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Jakarta EE 10"
@@ -140,6 +146,7 @@ msgstr "O ecossistema Java mais alargado está a mudar para as dependências Jak
 msgid "CDI introduces the notion of CDI Lite and Build Compatible Extensions (BCE), which enable standard extensions that are compatible across CDI implementations and reap the benefits of Quarkus build time optimizations."
 msgstr "O CDI introduz a noção de CDI Lite e Build Compatible Extensions (BCE), que permitem extensões padrão compatíveis com todas as implementações do CDI e beneficiam das optimizações de tempo de construção do Quarkus."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -147,7 +154,7 @@ msgid ""
 "The ones from the JDK are still under `javax.*`."
 msgstr "Somente os pacotes `javax.*` do Jakarta EE foram alterados. Os do JDK ainda estão em `javax.*` ."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Eclipse MicroProfile 6"
@@ -159,7 +166,7 @@ msgstr "Eclipse MicroProfile 6"
 msgid "Eclipse MicroProfile 6.0 aligns with Jakarta EE 10 Core Profile and replaces MicroProfile OpenTracing with MicroProfile Telemetry."
 msgstr "O Eclipse MicroProfile 6.0 alinha-se com o Jakarta EE 10 Core Profile e substitui o MicroProfile OpenTracing pelo MicroProfile Telemetry."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate ORM 6"
@@ -171,6 +178,7 @@ msgstr "Hibernate ORM 6"
 msgid "One of the biggest changes in Quarkus 3 is that we upgraded Hibernate ORM from version 5 to version 6.2."
 msgstr "Uma das maiores alterações no Quarkus 3 é o facto de termos atualizado o Hibernate ORM da versão 5 para a versão 6.2."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -232,7 +240,7 @@ msgstr "Suporte para `StatementInspector` como `@PersistenceUnitExtension` manag
 msgid "The ability to inject a https://docs.jboss.org/hibernate/orm/6.2/userguide/html_single/Hibernate_User_Guide.html#_statelesssession[`StatelessSession`] by using CDI (Contexts and Dependency Injection)."
 msgstr "A capacidade de injetar um  link:https://docs.jboss.org/hibernate/orm/6.2/userguide/html_single/Hibernate_User_Guide.html#_statelesssession[`StatelessSession`] utilizando CDI (Contextos e Injeção de Dependências)."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Hibernate Reactive 2"
@@ -244,12 +252,13 @@ msgstr "Hibernação Reactiva 2"
 msgid "Hibernate Reactive has been upgraded to version 2.0 to be compatible with Hibernate ORM 6."
 msgstr "O Hibernate Reactive foi atualizado para a versão 2.0 para ser compatível com o Hibernate ORM 6."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Mutiny 2 and Java Flow"
 msgstr "Mutiny 2 e Java Flow"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -257,7 +266,7 @@ msgid ""
 "and now uses the Java Flow API instead of Reactive Streams."
 msgstr "O Quarkus foi atualizado para o link:https://smallrye.io/smallrye-mutiny/2.0.0/reference/migrating-to-mutiny-2/[Mutiny 2] e agora usa a API Java Flow em vez de Reactive Streams."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Development Tools"
@@ -269,7 +278,7 @@ msgstr "Ferramentas de desenvolvimento"
 msgid "Developer experience is a key aspect of Quarkus, and we are constantly improving it."
 msgstr "A experiência do programador é um aspeto fundamental do Quarkus, e estamos constantemente a melhorá-la."
 
-#. type: Title ====
+#. type: Title ===
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "CLI plugins"
@@ -287,7 +296,7 @@ msgstr "O Quarkus CLI é agora extensível com plugins. Ver pormenores no  link:
 msgid "Expect many new features in the Quarkus CLI in the form of plugins in the near future."
 msgstr "Espere muitas novas funcionalidades no Quarkus CLI sob a forma de plugins num futuro próximo."
 
-#. type: Title ====
+#. type: Title ===
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Update tool"
@@ -305,7 +314,7 @@ msgstr "O Quarkus 3.0 tem uma nova ferramenta de atualização que simplifica ra
 msgid "You can learn more about it in the <<upgrading>> section."
 msgstr "Pode obter mais informações sobre este assunto na secção  link:#upgrading[[atualização]]."
 
-#. type: Title ====
+#. type: Title ===
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "`quarkus deploy` in all dev tools"
@@ -317,6 +326,7 @@ msgstr "`quarkus deploy` em todas as ferramentas de desenvolvimento"
 msgid "Quarkus CLI and the Maven and Gradle plugins now have the ability to `deploy` Quarkus applications."
 msgstr "O Quarkus CLI e os plugins Maven e Gradle têm agora a capacidade de `deploy` aplicações Quarkus."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -324,12 +334,13 @@ msgid ""
 "All without requiring changes to the project dependencies or configuration, simplifying developer experience."
 msgstr "Isso permite a implantação de aplicativos Quarkus em plataformas como Kubernetes, Knative e OpenShift. Tudo isso sem exigir alterações nas dependências ou na configuração do projeto, simplificando a experiência do desenvolvedor."
 
-#. type: Title ====
+#. type: Title ===
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Support for Maven 3.9"
 msgstr "Suporte para Maven 3.9"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -343,7 +354,7 @@ msgstr "O Maven 3.9 trouxe algumas mudanças significativas, e a integração co
 msgid "Also Maven 3.8.2 is the minimal requirement for Quarkus 3 projects."
 msgstr "Também o Maven 3.8.2 é o requisito mínimo para os projectos Quarkus 3."
 
-#. type: Title ====
+#. type: Title ===
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Gradle 8"
@@ -355,7 +366,7 @@ msgstr "Gradle 8"
 msgid "Our Gradle support has been upgraded to Gradle 8."
 msgstr "O nosso suporte Gradle foi atualizado para o Gradle 8."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Management network interface"
@@ -373,7 +384,7 @@ msgstr "Até agora, todos os terminais Quarkus estavam expostos na mesma interfa
 msgid "Starting with Quarkus 3.0, you can expose technical endpoints such as the health and metrics on a different interface thanks to link:/guides/management-interface-reference[a specific management interface]."
 msgstr "A partir do Quarkus 3.0, pode expor pontos de extremidade técnicos, como o estado e as métricas, numa interface diferente graças a  link:/guides/management-interface-reference[uma interface de gestão específica]."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "/q/info"
@@ -391,7 +402,7 @@ msgstr "Para expor informações sobre a sua aplicação (como o hash do git), a
 msgid "The endpoint is available on `/q/info` and will be exposed on the management network interface if you enable it."
 msgstr "O ponto final está disponível em `/q/info` e será exposto na interface de rede de gestão se o ativar."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "RESTEasy Reactive"
@@ -409,7 +420,7 @@ msgstr "O RESTEasy Reactive foi melhorado em muitos aspectos, tais como a recupe
 msgid "Remember that RESTEasy Reactive is our default REST layer covering both reactive and blocking workloads."
 msgstr "Lembre-se de que o RESTEasy Reactive é nossa camada REST padrão que abrange cargas de trabalho reativas e bloqueadoras."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "OpenTelemetry"
@@ -427,6 +438,7 @@ msgstr "A extensão OpenTelemetry foi reescrita para suportar a autoconfiguraç�
 msgid "The configuration namespace has changed to `quarkus.otel.*`. We recommend switching to the new configuration properties, even though the old ones are still supported for now."
 msgstr "O espaço de nomes de configuração foi alterado para `quarkus.otel.*`. Recomendamos a mudança para as novas propriedades de configuração, embora as antigas ainda sejam suportadas por enquanto."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -434,7 +446,7 @@ msgid ""
 "You don't have to modify your JDBC connection URL anymore."
 msgstr "Além disso, ativar o OpenTelemetry para JDBC agora é tão simples quanto definir `quarkus.datasource.jdbc.telemetry` como `true` . O senhor não precisa mais modificar o URL da conexão JDBC."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Multiple mailers"
@@ -452,7 +464,7 @@ msgstr "O envio de mensagens de correio eletrónico através de vários servidor
 msgid "Have a look at the https://quarkus.io/version/main/guides/mailer-reference#multiple-mailer-configurations[updated documentation]."
 msgstr "Consulte a  link:https://quarkus.io/version/main/guides/mailer-reference#multiple-mailer-configurations[documentação actualizada]."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Qute"
@@ -464,7 +476,7 @@ msgstr "Qute"
 msgid "Qute, our templating engine, also got a lot of love with several new features, such as the ability to cache a section of the template that rarely changes thanks to link:/guides/qute-reference#cached-section[cached sections]."
 msgstr "O Qute, o nosso motor de criação de modelos, também foi muito apreciado com várias novas funcionalidades, como a capacidade de guardar em cache uma secção do modelo que raramente é alterada graças às  link:/guides/qute-reference#cached-section[secções guardadas em cache]."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Cache"
@@ -488,7 +500,7 @@ msgstr "Para mais informações, consulte o  link:https://quarkus.io/version/mai
 msgid "The cache extension also allows you to define a global default cache configuration that will be applied to all your caches."
 msgstr "A extensão de cache também lhe permite definir uma configuração de cache global predefinida que será aplicada a todas as suas caches."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Database migrations"
@@ -506,6 +518,7 @@ msgstr "As suas migrações de bases de dados com o Flyway e o Liquibase são ag
 msgid "The notion of migration/setup work being done in init containers is available for other extensions to implement and support."
 msgstr "A noção de trabalho de migração/configuração realizado em contentores init está disponível para ser implementada e suportada por outras extensões."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -513,7 +526,7 @@ msgid ""
 "and you can more easily customize the configuration of the Flyway instance."
 msgstr "A extensão Flyway oferece suporte a credenciais/URLs personalizados para conexão com o banco de dados e o senhor pode personalizar mais facilmente a configuração da instância do Flyway."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, no-wrap
 msgid "MongoDB"
@@ -525,12 +538,13 @@ msgstr "MongoDB"
 msgid "``CredentialsProvider``s are now supported for MongoDB connections."
 msgstr "`CredentialsProvider`s são agora suportados para conexões MongoDB."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Elasticsearch Java Client extension"
 msgstr "Extensão do cliente Java do Elasticsearch"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -544,7 +558,7 @@ msgstr "O novo Elasticsearch Java Client é suportado como uma extensão totalme
 msgid "To use this new client, have a look at the updated link:/guides/elasticsearch[Elasticsearch guide]."
 msgstr "Para utilizar este novo cliente, consulte o  link:/guides/elasticsearch[guia Elasticsearch] atualizado."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, no-wrap
 msgid "gRPC"
@@ -556,12 +570,13 @@ msgstr "gRPC"
 msgid "Several enhancements have been made to the gRPC extensions, such as the support of `InProcess`."
 msgstr "Foram efectuadas várias melhorias nas extensões gRPC, tais como o suporte de `InProcess`."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Scheduler API"
 msgstr "API do programador"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -569,7 +584,7 @@ msgid ""
 "described in the link:/guides/scheduler-reference#programmatic_scheduling[Scheduler reference guide]."
 msgstr "Agora o senhor pode agendar trabalhos de forma programática usando a API programática do Scheduler, descrita no link:/guides/scheduler-reference#programmatic_scheduling[guia de referência do Scheduler] ."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Kubernetes Client"
@@ -581,7 +596,7 @@ msgstr "Cliente Kubernetes"
 msgid "The Kubernetes Client has been upgraded to version 6.5."
 msgstr "O cliente Kubernetes foi atualizado para a versão 6.5."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Azure Functions extension"
@@ -599,18 +614,19 @@ msgstr "O desenvolvimento de funções do Azure está mais fácil do que nunca, 
 msgid "Learn more about it in the link:/guides/azure-functions[dedicated guide]"
 msgstr "Saiba mais sobre o assunto no  link:/guides/azure-functions[guia dedicado]"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Other changes"
 msgstr "Outras alterações"
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Quarkus Platform readiness"
 msgstr "Preparação para a plataforma Quarkus"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -672,7 +688,7 @@ msgstr "SDK do operador"
 msgid "If you are using an extension that is missing or not working, please open issues in their respective issue tracker systems."
 msgstr "Se estiver a utilizar uma extensão que esteja em falta ou não funcione, abra problemas nos respectivos sistemas de rastreio de problemas."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Java 11 deprecated"
@@ -684,7 +700,7 @@ msgstr "Java 11 obsoleto"
 msgid "The OpenJDK community will end active support for Java 11 in September 2023. We still plan to support Java 11 past that date for core Quarkus functionality, but Java 11 is now marked as deprecated. We recommend that you upgrade to Java 17 or later if you want to use the latest and greatest version of Quarkus."
 msgstr "A comunidade OpenJDK encerrará o suporte ativo ao Java 11 em setembro de 2023. Ainda planeamos suportar o Java 11 após essa data para a funcionalidade principal do Quarkus, mas o Java 11 está agora marcado como obsoleto. Recomendamos que actualize para Java 17 ou posterior se pretender utilizar a melhor e mais recente versão do Quarkus."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Release cadence and Long Term Support"
@@ -702,7 +718,7 @@ msgstr "Com o Quarkus 3 finalmente lançado, voltaremos à nossa cadência regul
 msgid "We do know some of you are looking for a more stable release cadence, and we are working on a new long-term support (LTS) policy starting from Quarkus 3.2. We will provide details on this as we get closer to the 3.2 release. Java 11 will still be supported there for the core part of Quarkus."
 msgstr "Sabemos que alguns de vós procuram uma cadência de lançamento mais estável e estamos a trabalhar numa nova política de suporte a longo prazo (LTS) a partir do Quarkus 3.2. Forneceremos detalhes sobre isso à medida que nos aproximarmos do lançamento da versão 3.2. O Java 11 continuará a ser suportado para a parte central do Quarkus."
 
-#. type: Title ===
+#. type: Title ==
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Quarkiverse"
@@ -714,6 +730,7 @@ msgstr "Quarkiverso"
 msgid "Quarkus is not just the https://github.com/quarkusio/quarkus repository and the Quarkus platform. It is also the whole rest of the Quarkus ecosystem - the so-called Quarkiverse. Those extensions are hosted and maintained by lots of contributors and organizations around the world. Some host these extensions in their GitHub repositories, and others host them in the https://github.com/quarkiverse[Quarkiverse Hub]."
 msgstr "O Quarkus não é apenas o repositório  https://github.com/quarkusio/quarkus  e a plataforma Quarkus. É também todo o resto do ecossistema Quarkus - o chamado Quarkiverse. Estas extensões são alojadas e mantidas por muitos colaboradores e organizações de todo o mundo. Alguns alojam estas extensões nos seus repositórios GitHub e outros alojam-nas no  link:https://github.com/quarkiverse[Quarkiverse Hub]."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -721,7 +738,7 @@ msgid ""
 "We are working with the maintainers of the remaining extensions to get them updated as well."
 msgstr "Com o Quarkus 3, devido principalmente às alterações de pacotes em muitas das dependências principais, temos o prazer de dizer que muitas dessas extensões já foram atualizadas para funcionar com o Quarkus 3.0. Estamos trabalhando com os mantenedores das extensões restantes para atualizá-las também."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Updating to Quarkus 3.0"
@@ -739,6 +756,7 @@ msgstr "Como é habitual, escrevemos um  link:https://github.com/quarkusio/quark
 msgid "It is complemented by a dedicated https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration[Hibernate ORM 6.2 update guide]."
 msgstr "É complementado por um  link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration[guia de atualização] dedicado ao  link:https://github.com/quarkusio/quarkus/wiki/Migration-Guide-3.0:-Hibernate-ORM-5-to-6-migration[Hibernate ORM 6.2]."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -782,6 +800,7 @@ msgstr "Actualize as suas extensões do Quarkiverse para versões compatíveis c
 msgid "Adjust your configuration files when configuration properties have changed"
 msgstr "Ajustar os seus ficheiros de configuração quando as propriedades de configuração tiverem sido alteradas"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -789,6 +808,7 @@ msgid ""
 "but it should handle most of the tedious work."
 msgstr "Ela não cuida de tudo (normalmente, as alterações na API do Hibernate ORM não são cobertas pela ferramenta de atualização), mas deve cuidar da maior parte do trabalho tedioso."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -820,7 +840,7 @@ msgstr "Se não estiver a utilizar o CLI e a utilizar o Gradle, utilize o plugin
 msgid "For more information, consult the link:/guides/update-quarkus[dedicated guide]."
 msgstr "Para mais informações, consultar o  link:/guides/update-quarkus[guia específico]."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "I use Quarkus 2.x, do I need to update right away?"
@@ -832,6 +852,7 @@ msgstr "Utilizo o Quarkus 2.x. Tenho de atualizar imediatamente?"
 msgid "We are aware that the update to Quarkus 3.0 will require some work and testing on your side, especially if you are using Hibernate ORM."
 msgstr "Estamos cientes de que a atualização para o Quarkus 3.0 exigirá algum trabalho e testes da sua parte, especialmente se estiver a utilizar o Hibernate ORM."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -839,7 +860,7 @@ msgid ""
 "so that you have the time to upgrade your applications to Quarkus 3.x."
 msgstr "É por isso que manteremos o Quarkus 2.16 com correções de bugs e correções de CVE importantes por alguns meses, para que o senhor tenha tempo de atualizar seus aplicativos para o Quarkus 3.x."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Full changelog"
@@ -911,12 +932,13 @@ msgstr "link:https://github.com/quarkusio/quarkus/releases/tag/3.0.0.Final[3.0.0
 msgid "https://github.com/quarkusio/quarkus/releases/tag/3.0.1.Final[3.0.1.Final]"
 msgstr "link:https://github.com/quarkusio/quarkus/releases/tag/3.0.1.Final[3.0.1.Final]"
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Contributors"
 msgstr "Contribuintes"
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid ""
@@ -924,6 +946,7 @@ msgid ""
 "Many, many thanks to each and every one of them."
 msgstr "A comunidade Quarkus está crescendo e agora tem link:https://github.com/quarkusio/quarkus/graphs/contributors[788 colaboradores] . Muito, muito obrigado a todos e a cada um deles."
 
+#. type: Plain text
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy
 msgid "In particular for the 3.0 release, thanks to Adler Fleurant, Adrian Pauli, Ales Justin, Alex Martel, Alexandre Dutra, Alexei Bratuhin, Alexey Loubyansky, Alexey Sharandin, amoscatelli, Andrea Cosentino, Andrea Peruffo, Andri Reveli, Andy Damevin, Àngel Ollé Blázquez, Antonio Costa, Antonio Goncalves, Antonio Jacob Costa, arik-dig, Ashish Ranjan, Auri Munoz, Benedikt Ritter, benstone, besta, Bill Burke, Brad Hards, Bruno Baptista, Bruno Borges, Bruno Leonardo Gonçalves, Bård Kristian Haaland-Sørensen, Carles Arnal, Chexpir, Chihiro Ito, Chris Laprun, Christian Berger, Christian Pieczewski, Christian von Atzigen, Christoph Hermann, Clemens Classen, Clement Escoffier, Damon Sutherland, Dan Dunning, David Andlinger, David Arnold, David M. Lloyd, Davide D'Alto, Dmitri Bourlatchkov, Efim Smykov, Eric Deandrea, Erin Schnabel, faculbsz, Falko Modler, Felipe Henrique Gross Windmoller, Fikru  Mengesha, Filippe Spolti, Foivos Zakkak, Foobartender, Fouad Almalki, franz1981, Galder Zamarreño, Geert Schuring, George Gastaldi, Georgios Andrianakis, Gerhard Flothow, Giovanni Barbaro, Guillaume DOUSSIN, Guillaume Le Floch, Guillaume Nieser, Guillaume Smet, Gunnar Morling, Gwenneg Lepage, Harald Albers, Helber Belmiro, Holly Cummins, Hugo Guerrero, IgnasiCR, imperatorx, Ioannis Canellos, Ivan Bazalii, Jan Martiska, Jan Wiemer, Jasmin Suljic, Jayson Minard, Jesse Ehrenzweig, Joe Siponen, John OHara, Jonathan Kolberg, Jorge Solórzano, Jose, Jose Carvajal, Josef Andersson, jtama, Julien Ponge, Julio Enrique Santana Lora, Justin Lee, Katia Aresti, kdnakt, Kevin Dubois, Konstantin Gribov, Konstantin Silin, kottmann, Ladislav Thon, Laure Souche, Leandro Quiroga, Loïc Mathieu, luca-bassoricci, Lukas Lowinger, Lukáš Petrovický, luneo7, Manyanda Chitimbo, Marc Nuri, Marc Schlegel, Marcel Lohmann, Marcell Cruz, Marco Bungart, Marco Schaub, Marek Skacelik, marko-bekhta, Markus Himmel, Martin Kouba, Martin Panzer, Marvin B. Lillehaug, Matej Novotny, Matteo Mortari, Max Rydahl Andersen, Mazen Khalil, Melloware, mfpc, Michael Edgar, Michael Mosmann, Michael Musgrove, Michal Karm Babacek, Michal Maléř, Michal Vavřík, Michelle Purcell, Mickey Maler, Mihai.Poenaru, Moritz Heine, mrizzi, mun711, Nathan Erwin, Nathan Mittelette, Nicolas Filotto, nscuro, oliv37, Orbifoldt, Ozan Gunalp, Özkan Pakdil, Pablo Gonzalez Granados, Paulo Casaes, Pavel.Vervenko, Pedro Igor, Pedro Pereira, Peter Palaga, Phillip Krüger, Radoslaw Adamiak, Radovan Synek, Ramon Boss, Robbie Gemmell, Robert Gonciarz, Robert Stupp, Roberto Cortez, Rolfe Dlugy-Hegwer, Romain Quinio, Rostislav Svoboda, Sanne Grinovero, Sebastian Schuster, Sergey Beryozkin, Severin Gehwolf, shjones, skraft-redhat, spencercjh, Stuart Douglas, sturdy5, Stéphane Épardaud, Sébastien CROCQUESEL, Sébastien Crocquesel, Tamas Cservenak, Theodor Mihalache, Thomas Segismont, Thor Weinreich, tom, Tom Cunningham, Vaclav Svejcar, Vincent Sevel xstefank, Yoann Rodière, Yoshikazu Nojima, Yubao Liu, zedbeit, Zheng Feng, and Žiga Deisinger."
@@ -935,7 +958,7 @@ msgstr "Em especial para a versão 3.0, graças a Adler Fleurant, Adrian Pauli, 
 msgid "We also want to thank all the extension maintainers from the Quarkiverse and beyond who worked hard on getting the extension ecosystem ready for Quarkus 3.0."
 msgstr "Também queremos agradecer a todos os mantenedores de extensões do Quarkiverse e de outros países que trabalharam arduamente para preparar o ecossistema de extensões para o Quarkus 3.0."
 
-#. type: Title ==
+#. type: Title =
 #: _posts/2023-04-26-quarkus-3-0-final-released.adoc
 #, fuzzy, no-wrap
 msgid "Come Join Us"
