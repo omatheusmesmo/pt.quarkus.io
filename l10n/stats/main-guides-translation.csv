@@ -14,14 +14,14 @@ l10n/po/pt_BR/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 
 l10n/po/pt_BR/_versions/main/guides/cdi-reference.adoc.po, 277, 308, 5298, 6364, 17%
 l10n/po/pt_BR/_versions/main/guides/security-jwt.adoc.po, 321, 345, 5139, 5270, 3%
 l10n/po/pt_BR/_versions/main/guides/getting-started-testing.adoc.po, 216, 251, 4892, 5831, 17%
-l10n/po/pt_BR/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 267, 472, 4830, 11542, 59%
+l10n/po/pt_BR/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 267, 472, 4830, 11543, 59%
 l10n/po/pt_BR/_versions/main/guides/pulsar.adoc.po, 201, 240, 4379, 4801, 9%
 l10n/po/pt_BR/_versions/main/guides/hibernate-search-standalone-elasticsearch.adoc.po, 229, 248, 4345, 4513, 4%
-l10n/po/pt_BR/_versions/main/guides/tls-registry-reference.adoc.po, 269, 382, 4138, 6664, 38%
 l10n/po/pt_BR/_versions/main/guides/config-reference.adoc.po, 215, 254, 4074, 4866, 17%
+l10n/po/pt_BR/_versions/main/guides/tls-registry-reference.adoc.po, 268, 397, 4074, 6947, 42%
 l10n/po/pt_BR/_versions/main/guides/mongodb-panache.adoc.po, 187, 200, 4062, 4173, 3%
 l10n/po/pt_BR/_versions/main/guides/gradle-tooling.adoc.po, 196, 213, 3842, 4167, 8%
-l10n/po/pt_BR/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 202, 235, 3815, 4502, 16%
+l10n/po/pt_BR/_versions/main/guides/security-authorize-web-endpoints-reference.adoc.po, 201, 237, 3772, 4602, 19%
 l10n/po/pt_BR/_versions/main/guides/redis-reference.adoc.po, 221, 253, 3750, 4584, 19%
 l10n/po/pt_BR/_versions/main/guides/messaging.adoc.po, 181, 205, 3730, 4030, 8%
 l10n/po/pt_BR/_versions/main/guides/vertx-reference.adoc.po, 250, 258, 3642, 3743, 3%
@@ -29,8 +29,8 @@ l10n/po/pt_BR/_versions/main/guides/security-authentication-mechanisms.adoc.po, 
 l10n/po/pt_BR/_versions/main/guides/dev-ui-v2.adoc.po, 224, 347, 3438, 5644, 40%
 l10n/po/pt_BR/_versions/main/guides/security-openid-connect-multitenancy.adoc.po, 169, 205, 3380, 3963, 15%
 l10n/po/pt_BR/_versions/main/guides/http-reference.adoc.po, 267, 306, 3379, 3785, 11%
-l10n/po/pt_BR/_versions/main/guides/security-openid-connect-providers.adoc.po, 154, 161, 3346, 3503, 5%
 l10n/po/pt_BR/_versions/main/guides/infinispan-client-reference.adoc.po, 194, 202, 3340, 3403, 2%
+l10n/po/pt_BR/_versions/main/guides/security-openid-connect-providers.adoc.po, 153, 161, 3325, 3550, 7%
 l10n/po/pt_BR/_versions/main/guides/security-webauthn.adoc.po, 118, 140, 3277, 3418, 5%
 l10n/po/pt_BR/_versions/main/guides/datasource.adoc.po, 289, 341, 3267, 4721, 31%
 l10n/po/pt_BR/_versions/main/guides/cassandra.adoc.po, 152, 165, 3248, 3621, 11%
@@ -109,7 +109,7 @@ l10n/po/pt_BR/_versions/main/guides/security-oidc-bearer-token-authentication-tu
 l10n/po/pt_BR/_versions/main/guides/funqy-gcp-functions.adoc.po, 69, 78, 1320, 1360, 3%
 l10n/po/pt_BR/_versions/main/guides/elasticsearch.adoc.po, 74, 84, 1306, 1362, 5%
 l10n/po/pt_BR/_versions/main/guides/kafka-schema-registry-json-schema.adoc.po, 55, 67, 1304, 1383, 6%
-l10n/po/pt_BR/_versions/main/guides/opentelemetry.adoc.po, 113, 149, 1303, 1853, 30%
+l10n/po/pt_BR/_versions/main/guides/opentelemetry.adoc.po, 113, 182, 1303, 2153, 40%
 l10n/po/pt_BR/_versions/main/guides/getting-started-dev-services.adoc.po, 77, 86, 1302, 1441, 10%
 l10n/po/pt_BR/_versions/main/guides/security-openid-connect-client-reference.adoc.po, 105, 231, 1270, 4651, 73%
 l10n/po/pt_BR/_versions/main/guides/databases-dev-services.adoc.po, 73, 83, 1267, 1517, 17%
@@ -201,8 +201,7 @@ l10n/po/pt_BR/_versions/main/guides/websockets-next-tutorial.adoc.po, 28, 49, 55
 l10n/po/pt_BR/_versions/main/guides/build-analytics.adoc.po, 41, 48, 523, 571, 9%
 l10n/po/pt_BR/_versions/main/guides/spring-scheduled.adoc.po, 26, 57, 505, 780, 36%
 l10n/po/pt_BR/_versions/main/guides/deploying-to-openshift-howto.adoc.po, 28, 32, 493, 505, 3%
-l10n/po/pt_BR/_versions/main/guides/cyclonedx.adoc.po, 41, 118, 481, 2269, 79%
-l10n/po/pt_BR/_versions/main/guides/extension-writing-dev-service.adoc.po, 23, 27, 455, 461, 2%
+l10n/po/pt_BR/_versions/main/guides/cyclonedx.adoc.po, 41, 121, 481, 2364, 80%
 l10n/po/pt_BR/_versions/main/guides/liquibase.adoc.po, 28, 44, 448, 607, 27%
 l10n/po/pt_BR/_versions/main/guides/web-dependency-locator.adoc.po, 23, 26, 399, 405, 2%
 l10n/po/pt_BR/_versions/main/guides/stork-reference.adoc.po, 29, 34, 398, 441, 10%
@@ -234,6 +233,7 @@ l10n/po/pt_BR/_versions/main/guides/security-basic-authentication-tutorial.adoc.
 l10n/po/pt_BR/_versions/main/guides/deploying-to-openshift-docker-howto.adoc.po, 13, 30, 134, 461, 71%
 l10n/po/pt_BR/_versions/main/guides/grpc-service-consumption.adoc.po, 3, 69, 121, 1053, 89%
 l10n/po/pt_BR/_versions/main/guides/_includes/extension-status.adoc.po, 3, 6, 116, 155, 26%
+l10n/po/pt_BR/_versions/main/guides/extension-writing-dev-service.adoc.po, 11, 66, 111, 1207, 91%
 l10n/po/pt_BR/_versions/main/guides/_includes/smallrye-pulsar-consumer.adoc.po, 83, 119, 100, 945, 90%
 l10n/po/pt_BR/_versions/main/guides/grpc-xds.adoc.po, 3, 20, 96, 208, 54%
 l10n/po/pt_BR/_versions/main/guides/security-oidc-configuration-properties-reference.adoc.po, 8, 14, 93, 164, 44%
@@ -298,7 +298,7 @@ l10n/po/pt_BR/_versions/main/guides/aot.adoc.po, 0, 78, 0, 974, 100%
 l10n/po/pt_BR/_versions/main/guides/apicurio-registry-dev-services.adoc.po, 0, 22, 0, 457, 100%
 l10n/po/pt_BR/_versions/main/guides/assistant.adoc.po, 0, 103, 0, 1195, 100%
 l10n/po/pt_BR/_versions/main/guides/config-yaml.adoc.po, 0, 33, 0, 586, 100%
-l10n/po/pt_BR/_versions/main/guides/dev-mcp.adoc.po, 0, 67, 0, 1350, 100%
+l10n/po/pt_BR/_versions/main/guides/dev-mcp.adoc.po, 0, 81, 0, 1625, 100%
 l10n/po/pt_BR/_versions/main/guides/doc-concept.adoc.po, 0, 41, 0, 623, 100%
 l10n/po/pt_BR/_versions/main/guides/drools.adoc.po, 0, 68, 0, 1595, 100%
 l10n/po/pt_BR/_versions/main/guides/funqy-aws-lambda-http.adoc.po, 0, 15, 0, 338, 100%
