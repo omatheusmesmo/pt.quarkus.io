@@ -2357,18 +2357,6 @@ Content-Type: text/plain;charset=UTF-8
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>**Important:** the guides are maintained in the main Quarkus repository and pull requests should be submitted there:
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>**Importante:** os guias são mantidos no repositório principal do Quarkus e pull requests devem ser enviados por lá:
-https://github.com/quarkusio/quarkus/tree/main/docs/src/main/asciidoc.
-</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>**Note**: All the configuration options in this guide are available on both OpenShift and Kubernetes. The rest of the guide will use Kubernetes(`quarkus.kubernetes` prefix)
 configuration prefix, but all the configuration options are also available for OpenShift(`quarkus.openshift` prefix) too.</seg>
       </tuv>
