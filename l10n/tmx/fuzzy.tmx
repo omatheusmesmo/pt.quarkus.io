@@ -249222,14 +249222,6 @@ affect the quality of the recommendations, but that's a topic for another post.<
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>The quarkus-narayana-jta extension provides a Transaction Manager that coordinates and expose transactions to your applications as described in the link: Jakarta Transactions specification, formerly known as Java Transaction API (JTA).</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>A extensão quarkus-narayana-jta fornece um Transaction Manager que coordena e expõe as transações aos seus aplicativos, conforme descrito no link: Especificação Jakarta Transactions, anteriormente conhecida como Java Transaction API (JTA).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>The quarkus-websockets-next extension provides a modern declarative API to define WebSocket server and client endpoints.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
