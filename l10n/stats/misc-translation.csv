@@ -33,11 +33,11 @@ l10n/po/pt_BR/_includes/kubernetes-native.html.po, 0, 24, 0, 408, 100%
 l10n/po/pt_BR/_includes/support-options-band.html.po, 0, 5, 0, 33, 100%
 l10n/po/pt_BR/_includes/worldtour-code.html.po, 0, 3, 0, 36, 100%
 l10n/po/pt_BR/_data/versioned/3-20/index/quarkus.yaml.po, 684, 1537, 4210, 8061, 48%
-l10n/po/pt_BR/_data/versioned/main/index/quarkus.yaml.po, 676, 1594, 4139, 8363, 51%
-l10n/po/pt_BR/_data/versioned/latest/index/quarkus.yaml.po, 673, 1594, 4119, 8359, 51%
+l10n/po/pt_BR/_data/versioned/main/index/quarkus.yaml.po, 675, 1602, 4107, 8387, 52%
+l10n/po/pt_BR/_data/versioned/latest/index/quarkus.yaml.po, 672, 1594, 4087, 8358, 52%
 l10n/po/pt_BR/_data/versioned/3-15/index/quarkus.yaml.po, 654, 1478, 4034, 7795, 49%
 l10n/po/pt_BR/_data/versioned/3-8/index/quarkus.yaml.po, 560, 1341, 3422, 7154, 53%
-l10n/po/pt_BR/_data/insights-videos.yaml.po, 722, 926, 3390, 4289, 21%
+l10n/po/pt_BR/_data/insights-videos.yaml.po, 722, 947, 3390, 4384, 23%
 l10n/po/pt_BR/_data/versioned/3-6/index/quarkus.yaml.po, 547, 1329, 3300, 7071, 54%
 l10n/po/pt_BR/_data/wg.yaml.po, 91, 247, 2957, 14095, 80%
 l10n/po/pt_BR/_data/versioned/3-2/index/quarkus.yaml.po, 219, 970, 2220, 5910, 63%
@@ -50,7 +50,7 @@ l10n/po/pt_BR/_data/versioned/latest/index/relations.yaml.po, 147, 517, 688, 205
 l10n/po/pt_BR/_data/versioned/3-15/index/relations.yaml.po, 144, 481, 658, 1864, 65%
 l10n/po/pt_BR/_data/versioned/3-8/index/relations.yaml.po, 125, 446, 577, 1739, 67%
 l10n/po/pt_BR/_data/versioned/3-6/index/relations.yaml.po, 121, 444, 548, 1722, 69%
-l10n/po/pt_BR/_data/newsletter.yaml.po, 166, 202, 495, 603, 18%
+l10n/po/pt_BR/_data/newsletter.yaml.po, 166, 205, 495, 612, 20%
 l10n/po/pt_BR/_data/qtips-videos.yaml.po, 97, 111, 479, 524, 9%
 l10n/po/pt_BR/_data/training.yaml.po, 58, 59, 457, 459, 1%
 l10n/po/pt_BR/_data/guides-2-7.yaml.po, 46, 666, 220, 4926, 96%
