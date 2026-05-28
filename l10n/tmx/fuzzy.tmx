@@ -7266,14 +7266,6 @@ With the editor, you can effortlessly create and update the necessary resources 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>... and a name of a method that should compute the value of the header. It can either be a static method or a default method in this interface</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -8384,6 +8376,14 @@ public void onReload(@Observes CertificateUpdatedEvent reload) {
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guias/security-oidc-bearer-token-authentication-concept</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/security-oidc-bearer-token-authentication-concept/index.html</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guias/security-oidc-bearer-token-authentication-concept/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -18029,7 +18029,7 @@ To generate the index just add the following to your `pom.xml`:</seg>
         <seg>A description of OpenShift resources and customisable properties is given below alongside Kubernetes resources to show similarities where applicable.   This includes an alternative to  `oc new-app ...` above, i.e. `oc apply -f target/kubernetes/openshift.json` .</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Uma descrição dos recursos do OpenShift e das propriedades personalizáveis é fornecida abaixo, juntamente com os recursos do Kubernetes, para mostrar semelhanças quando aplicável. Isso inclui uma alternativa para `oc new-app …​` acima, ou seja, `oc apply -f target/kubernetes/openshift.json` .</seg>
+        <seg>Uma descrição dos recursos do OpenShift e das propriedades personalizáveis é fornecida abaixo, juntamente com os recursos do Kubernetes, para mostrar as semelhanças quando aplicável. Isso inclui uma alternativa para `oc new-app …​` acima, ou seja, `oc apply -f target/kubernetes/openshift.json` .</seg>
       </tuv>
     </tu>
     <tu>
@@ -139537,14 +139537,6 @@ Create a file called `src/main/resources/json-schema.json` with the schema for o
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>June 12, 2024</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>12 de junho de 2024</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>June 13, 2023</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -180019,14 +180011,6 @@ You do not need to do this if you have already built a link:{quickstarts-tree-ur
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Quarkus</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Quarkus</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Quarkus &amp; Kubernetes I Cheat Sheet</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -201304,14 +201288,6 @@ image:qute-renarde-tags-completion.png[Renarde tags completion]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Proteja os pontos de extremidade do aplicativo Quarkus combinando a autenticação HTTP básica integrada do Quarkus com o provedor de identidade JPA para permitir o controle de acesso baseado em função (RBAC).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Secure your Quarkus application endpoints by combining the built-in Quarkus Basic authentication with the Jakarta Persistence identity provider to enable role-based access control (RBAC).</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Proteja os pontos de extremidade do aplicativo Quarkus combinando a autenticação integrada do Quarkus Basic com o provedor de identidade Jakarta Persistence para ativar o controle de acesso baseado em função (RBAC).</seg>
       </tuv>
     </tu>
     <tu>
@@ -265327,6 +265303,14 @@ By adding the Quarkus JFR extension, you can add custom Quarkus events to JFR. T
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to generate SBOMs for Quarkus applications in the CycloneDX format.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como gerar SBOMs para aplicativos Quarkus no formato CycloneDX.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to integrate link:https://github.com/smallrye/smallrye-jwt/[SmallRye JWT] into your Quarkus application to implement link:https://tools.ietf.org/html/rfc7519[JSON Web Token (JWT)] security in compliance with the MicroProfile JWT specification.
 You’ll learn how to verify JWTs, represent them as MicroProfile JWT `org.eclipse.microprofile.jwt.JsonWebToken`, and secure Quarkus HTTP endpoints using bearer token authorization and link:https://en.wikipedia.org/wiki/Role-based_access_control[Role-Based Access Control].</seg>
       </tuv>
@@ -289086,14 +289070,6 @@ into Minikube's Docker daemon. To use Minikube's Docker daemon you must first ex
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Using Docker</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Usando o Docker</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Using Eclipse Vert.x API from a Quarkus Application</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -292591,14 +292567,6 @@ Other extensions should follow a similar pattern when they are setting up a new 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Vinicius Ferraz</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Virtual</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Virtual</seg>
       </tuv>
     </tu>
     <tu>
@@ -315418,7 +315386,7 @@ Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.
         <seg>O senhor também pode fornecer valores de duração que comecem com um número. Nesse caso, se o valor consistir apenas em um número, o conversor tratará o valor como segundos. Caso contrário, `PT` é implicitamente anexado ao valor para obter um formato padrão `java.time.Duration` .</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>You can also provide strings instead of Objects, in that case the strings will be wrapped in quotes to become valid JSON values:</seg>
       </tuv>
@@ -357613,14 +357581,6 @@ You can now create project stubs via https://code.quarkus.io/?e=io.quarkiverse.c
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>https://quarkus.io/</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>https://quarkus.io/</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>https://quarkus.io/[Quarkus] is a cloud-native Java development framework, which allows Java code to be mapped to Kubernetes containers and compiled natively. https://www.graalvm.org/22.1/reference-manual/native-image/[Native compilation] is useful for serverless computing, it avoids the overhead of running a JVM in containers and lets us execute serverless code directly. Debugging natively compiled code is not an easy task. It can be very different from the original Java source code due to extensive code optimizations, as well as differences in libraries used in native vs non-natively compiled code. In some cases, it is necessary to view both the source and the assembly code in order to gain better understanding of the program, further complicating the debugging task. </seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -368293,7 +368253,7 @@ You can read more on the blocking processing in link:{rm_blocking_docs}[SmallRye
         <seg>oauth2,segurança</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>observer</seg>
       </tuv>
