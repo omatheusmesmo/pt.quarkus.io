@@ -265303,14 +265303,6 @@ By adding the Quarkus JFR extension, you can add custom Quarkus events to JFR. T
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>This guide explains how to generate SBOMs for Quarkus applications in the CycloneDX format.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Este guia explica como gerar SBOMs para aplicativos Quarkus no formato CycloneDX.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>This guide explains how to integrate link:https://github.com/smallrye/smallrye-jwt/[SmallRye JWT] into your Quarkus application to implement link:https://tools.ietf.org/html/rfc7519[JSON Web Token (JWT)] security in compliance with the MicroProfile JWT specification.
 You’ll learn how to verify JWTs, represent them as MicroProfile JWT `org.eclipse.microprofile.jwt.JsonWebToken`, and secure Quarkus HTTP endpoints using bearer token authorization and link:https://en.wikipedia.org/wiki/Role-based_access_control[Role-Based Access Control].</seg>
       </tuv>
@@ -374406,6 +374398,14 @@ quarkus.oidc-client.oidc-client-for-graphql.credentials.client-secret.method=POS
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>ssr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>staled</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>estagnado</seg>
       </tuv>
     </tu>
     <tu>
