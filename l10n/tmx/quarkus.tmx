@@ -3415,6 +3415,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/appcds</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/appcds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/aws-lambda</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4311,6 +4319,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/kafka-reactive-getting-started</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/kafka-reactive-getting-started</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/kafka-schema-registry-avro</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4855,6 +4871,14 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/guides/rest-client-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/rest-client-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/guides/rest-data-panache</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -4907,6 +4931,22 @@ this.logControl
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guides/resteasy-client-multipart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/resteasy-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/resteasy-reactive-migration</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/resteasy-reactive-migration</seg>
       </tuv>
     </tu>
     <tu>
@@ -4995,6 +5035,14 @@ this.logControl
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guides/security-basic-authentication-howto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/security-basic-authentication-tutorial</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guides/security-basic-authentication-tutorial</seg>
       </tuv>
     </tu>
     <tu>
@@ -7186,7 +7234,7 @@ we saw the production of a `ServiceStartBuildItem` in the previous section, and 
         <seg>A cohesive platform for optimized developer joy:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Uma plataforma coesa para a alegria otimizada do desenvolvedor:</seg>
+        <seg>Uma plataforma coesa para uma alegria otimizada para programadores:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7430,7 +7478,7 @@ Alternatively, if you want to apply the interceptor to any injected client then 
 </seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>A high level overview of what the various steps of a CI/CD pipeline would look is the following:</seg>
       </tuv>
@@ -7448,6 +7496,14 @@ Type: _string_</seg>
         <seg>Uma chave a ser usada ao gravar o registro
 
 Tipo: _string_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A list of all extensions that support Dev Services and their configuration options.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Uma lista de todas as extensões que suportam Dev Services e as suas opções de configuração.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11249,7 +11305,7 @@ on Windows you should share your project's drive at Docker Desktop file share se
         <seg>Best of Breed Libraries and Standards</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>As melhores Bibliotecas e Padrões disponíveis</seg>
+        <seg>As melhores bibliotecas e padrões disponíveis</seg>
       </tuv>
     </tu>
     <tu>
@@ -16470,7 +16526,7 @@ If your environment does not support Docker, you will need to start the server m
         <seg>Developer Joy</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Alegria do desenvolvedor</seg>
+        <seg>Alegria em desenvolver</seg>
       </tuv>
     </tu>
     <tu>
@@ -18868,7 +18924,7 @@ Create a new project with the following command:</seg>
         <seg>First, we need to create two projects: the _producer_ and the _processor_.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Primeiramente, temos que criar dois projetos: o _producer_ e o _processor_.</seg>
+        <seg>Em primeiro lugar, temos de criar dois projetos: o _producer_ e o _processor_.</seg>
       </tuv>
     </tu>
     <tu>
@@ -20451,7 +20507,7 @@ Refer to xref:jackson-serialization[Serializing via Jackson] to write your own s
         <seg>Getting Started</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Iniciando o projeto</seg>
+        <seg>Iniciando</seg>
       </tuv>
     </tu>
     <tu>
@@ -21508,6 +21564,14 @@ If `Panache` is not used, `Mutiny.SessionFactory` can be injected and used simil
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Hibernate Reactive with Panache</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hibernate Search allows you to index your entities in an Elasticsearch cluster and easily offer full text search in all your Hibernate ORM-based applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>O Hibernate Search permite indexar suas entidades em um cluster do Elasticsearch e oferecer facilmente pesquisa de texto completo em todos os aplicativos baseados no Hibernate ORM.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25215,7 +25279,7 @@ Note that, to use in-container build, you must have Docker or Podman installed o
         <seg>Indicates that the content is sent using `Server Sent Events`</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Indica que o conteúdo é enviado usando `Server-Sent Events`</seg>
+        <seg>Indica que o conteúdo é enviado utilizando `Server Sent Events`</seg>
       </tuv>
     </tu>
     <tu>
@@ -25255,7 +25319,7 @@ Note that, to use in-container build, you must have Docker or Podman installed o
         <seg>Indicates that the processing is _blocking_ and cannot be run on the caller thread.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Indica que o processamento é _bloqueante_ e não pode ser executado na thread chamadora.</seg>
+        <seg>Indica que o processamento está a _bloquear_ e não pode ser executado na thread do chamador.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25385,7 +25449,7 @@ You can configure it to use plain text or custom passwords.</seg>
         <seg>Inject a Reactive Messaging `Emitter` to send messages to the `quote-requests` channel.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Injete um `Emitter` de Mensageria Reativa para enviar mensagens para o canal `quote-requests`.</seg>
+        <seg>Injete um serviço de mensagens reativas `Emitter` para enviar mensagens para o canal  `quote-requests`.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31502,7 +31566,7 @@ the value `bar`.</seg>
         <seg>No hassle native executable generation</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Sem complicações na geração de executáveis nativos</seg>
+        <seg>Geração de executável nativo sem complicações</seg>
       </tuv>
     </tu>
     <tu>
@@ -32866,7 +32930,7 @@ call must set a specific environment variable:</seg>
         <seg>Open `http://localhost:8080/quotes.html` in your browser and request some quotes by clicking the button.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Abra `http://localhost:8080/quotes.html`  no seu navegador e solicite algumas cotações clicando no botão.</seg>
+        <seg>Abra `http://localhost:8080/quotes.html`  no seu browser e peça algumas cotações clicando no botão.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32923,7 +32987,7 @@ call must set a specific environment variable:</seg>
         <seg>Open the two projects in your favorite IDE.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Abra os dois projetos na sua IDE preferida.</seg>
+        <seg>Abra os dois projetos no seu IDE preferido.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34130,7 +34194,7 @@ For more information, see the Quarkus xref:security-proactive-authentication.ado
         <seg>Processing quote requests</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Processando solicitações de cotação</seg>
+        <seg>Processamento de pedidos de cotação</seg>
       </tuv>
     </tu>
     <tu>
@@ -35078,6 +35142,14 @@ It includes many reactive features and offers a broad ecosystem.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Quarkus is an Open Source project licensed under the &lt;a href="https://www.apache.org/licenses/LICENSE-2.0"&gt;Apache License version 2.0&lt;/a&gt;. First and foremost, it is an open community where contributions, ideas and discussions are done in the open and contributors are welcome. Let’s join forces in building the future of Java applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Quarkus é um projeto Open Source licenciado sob a &lt;a href="https://www.apache.org/licenses/LICENSE-2.0"&gt;Licença Apache versão 2.0.&lt;/a&gt; Em primeiro lugar, é uma comunidade aberta, onde contribuições, ideias e discussões são feitas ao ar livre e os colaboradores são bem-vindos. Vamos unir forças na construção do futuro das aplicações Java.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Quarkus is an Open Source project licensed under the https://www.apache.org/licenses/LICENSE-2.0[Apache License version 2.0].</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -35455,7 +35527,7 @@ application to use this service.</seg>
         <seg>O Quarkus adapta seu aplicativo para GraalVM e HotSpot. Tempo de inicialização incrivelmente rápido, memória RSS incrivelmente baixa (não apenas tamanho de heap!) oferecendo aumento de escala quase instantâneo e utilização de memória de alta densidade em plataformas de orquestração de contêineres como o Kubernetes. Usamos uma técnica que chamamos de inicialização de tempo de compilação. &lt;a href="/container-first"&gt;Saiba Mais.&lt;/a&gt;</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>Quarkus uses JBoss Logging as its logging engine, and xref:logging.adoc[supports several logging APIs]. (This is normal Java logging, not OpenTelemetry logging.)</seg>
       </tuv>
@@ -36404,7 +36476,7 @@ For more information, see the xref:security-customization.adoc#security-identity
         <seg>Remote Development</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Desenvolvimento Remoto</seg>
+        <seg>Desenvolvimento remoto</seg>
       </tuv>
     </tu>
     <tu>
@@ -36662,7 +36734,7 @@ The result would be something like:</seg>
         <seg>Returns the stream (_Reactive Stream_)</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Retorna o fluxo _(Reactive Stream_)</seg>
+        <seg>Devolve o fluxo _(Reactive Stream_)</seg>
       </tuv>
     </tu>
     <tu>
@@ -37119,7 +37191,7 @@ The `event` parameter takes any JSON file, in this case the sample `payload.json
         <seg>Running in JVM or Native mode</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Execução na JVM ou modo nativo</seg>
+        <seg>Execução em modo JVM ou nativo</seg>
       </tuv>
     </tu>
     <tu>
@@ -38127,7 +38199,7 @@ The `event` parameter takes any JSON file, in this case the sample `payload.json
         <seg>Set</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Conjunto</seg>
+        <seg>Set</seg>
       </tuv>
     </tu>
     <tu>
@@ -39134,6 +39206,14 @@ supported. Consider using xref:config-mappings.adoc[Mapping configuration to obj
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Inicie o Elasticsearch automaticamente nos modos de desenvolvimento e teste.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start Keycloak or other providers automatically in dev and test modes.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Inicie o Keycloak ou outros provedores automaticamente nos modos de desenvolvimento e teste.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41387,7 +41467,7 @@ In manual topic-partition rebalancing doesn't happen and therefore rebalance lis
         <seg>The `channel-name` segment must match the value set in the `@Incoming` and `@Outgoing` annotation:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O segmento `channel-name` deve corresponder ao valor definido nas anotações `@Incoming` e `@Outgoing`:</seg>
+        <seg>O segmento `channel-name` deve corresponder ao valor definido na anotação `@Incoming` e `@Outgoing`:</seg>
       </tuv>
     </tu>
     <tu>
@@ -42145,7 +42225,7 @@ Tipo: _string_</seg>
         <seg>The consumed / populated Pulsar topic. If not set, the channel name is used</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>O tópico Pulsar consumido/populado. Se não estiver definido, o nome do canal será usado</seg>
+        <seg>O tópico Pulsar consumido/povoado. Se não estiver definido, o nome do canal será usado</seg>
       </tuv>
     </tu>
     <tu>
@@ -45393,6 +45473,14 @@ Se você estiver interessado em reatividade, sugerimos o xref:getting-started-re
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide covers how to deploy a native application on OpenShift.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia aborda como implantar um aplicativo nativo no OpenShift.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide covers how to use GCP BigQuery in Quarkus.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45741,6 +45829,22 @@ Se você estiver interessado em reatividade, sugerimos o xref:getting-started-re
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your OpenID Connect application can support multi-tenancy so that you can serve multiple tenants from a single application.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como seu aplicativo OpenID Connect pode oferecer suporte a multilocação para que você possa atender vários locatários de um único aplicativo.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can authorize access to protected resources using Keycloak Authorization Services.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como a sua aplicação Quarkus pode autorizar o acesso a recursos protegidos utilizando os Serviços de Autorização Keycloak.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can collect metrics using the Micrometer extension.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45799,6 +45903,14 @@ passwords.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can use a .properties file to store your user identities.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como seu aplicativo Quarkus pode usar um arquivo .properties para armazenar suas identidades de usuário.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can use a LDAP directory to store your user identities.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45848,6 +45960,14 @@ and power it up with the Drools rule engine.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with AMQP.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como sua aplicação Quarkus pode utilizar o SmallRye Reactive Messaging para interagir com o AMQP.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide demonstrates how your Quarkus application can utilize SmallRye Reactive Messaging to interact with Apache Kafka.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -45892,6 +46012,14 @@ and power it up with the Drools rule engine.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia demonstra como sua aplicação Quarkus pode utilizar a extensão SmallRye Health.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide demonstrates how your Quarkus application can utilize the SmallRye Metrics extension.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia demonstra como sua aplicação Quarkus pode utilizar a extensão SmallRye Metrics.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46008,6 +46136,14 @@ and power it up with the Drools rule engine.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to centralize your logs with Logstash or Fluentd using the Graylog Extended Log Format (GELF).</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como centralizar seus logs com Logstash ou Fluentd usando o Graylog Extended Log Format (GELF).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to configure Quarkus to authenticate against well-known OpenID Connect providers such as GitHub, Google, Microsoft, Apple...</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -46104,6 +46240,14 @@ and power it up with the Drools rule engine.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how to use OpenID Connect and OAuth2 Client and Filters to acquire, refresh and propagate access tokens.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como usar clientes e filtros OpenID Connect e o OAuth2 para adquirir, atualizar e propagar tokens de acesso.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how to use Sentry to monitor your application and be notified when exceptions occur.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -46149,6 +46293,14 @@ REST Client Reactive is the REST Client implementation compatible with RESTEasy 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia explica como usar o RESTEasy REST Client para enviar solicitações REST multipart, normalmente para carregar documentos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how to use the RESTEasy Reactive REST Client.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como utilizar o cliente RESTEasy Reactive REST.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46233,8 +46385,24 @@ REST Client Reactive is the REST Client implementation compatible with RESTEasy 
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTelemetry to provide distributed tracing for interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como sua aplicação Quarkus pode utilizar o OpenTelemetry para fornecer rastreamento distribuído para aplicativos Web interativos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how your Quarkus application can utilize OpenTracing to provide distributed tracing for
 interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como sua aplicação Quarkus pode utilizar o OpenTracing para fornecer rastreamento distribuído para aplicativos Web interativos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTracing to provide distributed tracing for interactive web applications.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia explica como sua aplicação Quarkus pode utilizar o OpenTracing para fornecer rastreamento distribuído para aplicativos Web interativos.</seg>
@@ -46923,6 +47091,14 @@ Execute o seguinte para adicionar isso ao seu `application.properties` :</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This reference guide provides an in-depth look on Apache Kafka and Smallrye Reactive Messaging framework.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia de referência fornece uma visão detalhada da estrutura Apache Kafka e Smallrye Reactive Messaging.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This rules file must declare the same package and a unit with the same name of the Java class implementing the `RuleUnitData` interface in order to state that they belong to the same rule unit.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -47579,7 +47755,7 @@ use o comando `build`:</seg>
         <seg>To create the _processor_ project, from the same directory, run:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para criar o projeto _processor_, a partir do mesmo diretório, execute:</seg>
+        <seg>Para criar o projeto _do processor_, a partir do mesmo diretório, execute:</seg>
       </tuv>
     </tu>
     <tu>
@@ -49113,6 +49289,14 @@ Furthermore, in multi-hop deployments, the credentials can be exposed if HTTPS i
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Use o Quarkus para criar um aplicativo Kafka Streams.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use Spring Boot's `@ConfigurationProperties` in place of MicroProfile Config annotations</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Use o '@ConfigurationProperties' do Spring Boot no lugar das anotações do MicroProfile Config</seg>
       </tuv>
     </tu>
     <tu>
@@ -51036,7 +51220,7 @@ It will either reduce the chance for the other virtual thread to run or will sta
 However, you can go right to the completed example.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Recomendamos que siga as instruções nas próximas seções e crie as aplicações passo a passo. No entanto, você pode ir direto para o exemplo finalizado.</seg>
+        <seg>Recomendamos que siga as instruções nas próximas seções e crie aplicativos passo a passo. No entanto, você pode ir direto para o exemplo concluído.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51287,6 +51471,14 @@ this allows native image tests to also be run.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>E Se Eu Precisar Conhecer Todos os Escopos Utilizados na Aplicação?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What is Quarkus?</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>O que é Quarkus?</seg>
       </tuv>
     </tu>
     <tu>
@@ -53005,6 +53197,14 @@ This makes sure that managed entity is not impacted by the Kafka serialization.<
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Estruturas YAML e JSON podem ser interpretadas em um arquivo application.yaml.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>YAML as a Configuration Source.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>YAML como uma fonte de configuração.</seg>
       </tuv>
     </tu>
     <tu>
@@ -57011,14 +57211,6 @@ your migration as you normally do</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>alt-languages, data</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>alt-languages, data</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>alternative-languages</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -57343,6 +57535,14 @@ your migration as you normally do</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>apicurio-registry-dev-services.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>appcds.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>appcds.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -58532,14 +58732,6 @@ to do so</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>cloud, core</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>cloud, core</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>cloud, native</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -58798,22 +58990,6 @@ to do so</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>core, native, tooling</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>core, native, tooling</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>core, native, writing-extensions</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>core, native, writing-extensions</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>core, security, native</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -59344,6 +59520,14 @@ to do so</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>deploy-kubernetes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>deploy-openshift</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>deploy-openshift</seg>
       </tuv>
     </tu>
     <tu>
@@ -61116,14 +61300,6 @@ O Micrometer coleta as métricas de todos os serviços gRPC implementados pelo a
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>getting-started, native</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>getting-started, security</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>getting-started, security</seg>
       </tuv>
     </tu>
     <tu>
@@ -80433,6 +80609,14 @@ Eles delegam a outros tipos de documentação (conceitos ou referência) para fo
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>kafka-reactive-getting-started.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>kafka-reactive-getting-started.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>kafka-schema-registry-avro.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82305,14 +82489,6 @@ Once you have set up `brew`, you can use the `brew install` command to install P
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>native, tooling</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>native, tooling</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>native-and-ssl.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82545,14 +82721,6 @@ Once you have set up `brew`, you can use the `brew install` command to install P
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>observability, web</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>observability, web</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>observability-devservices-lgtm.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82672,6 +82840,14 @@ The `Job` performs initialization and the actual `Pod`, will starts once the `Jo
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>opentelemetry.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>opentracing.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>opentracing.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -83920,6 +84096,22 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>rest-client-multipart.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>rest-client-multipart.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>rest-client-reactive.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>rest-client-reactive.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>rest-client.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -83988,6 +84180,22 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>resteasy-client.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive-migration.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>resteasy-reactive-migration.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>resteasy-reactive.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>resteasy-reactive.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -84584,6 +84792,22 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>security-basic-authentication-tutorial</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>security-basic-authentication-tutorial</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>security-basic-authentication-tutorial.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>security-basic-authentication-tutorial.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>security-basic-authentication.adoc</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -85120,14 +85344,6 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>serialization, web</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>serialization, web</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>sgahlot</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -85284,6 +85500,14 @@ Eles não explicam nem fornecem contexto adicional de outras fontes.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>smallrye-health.adoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>smallrye-metrics.adoc</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>smallrye-metrics.adoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -86496,14 +86720,6 @@ considered blocking and the link:{runonvthread}[@RunOnVirtualThread] annotation 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>tooling, data</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>tooling, data</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>tooling, native</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -86942,14 +87158,6 @@ considered blocking and the link:{runonvthread}[@RunOnVirtualThread] annotation 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>web, observability</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>web, security</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>web, security</seg>
       </tuv>
     </tu>
     <tu>
@@ -87438,7 +87646,7 @@ Both xref:hibernate-reactive.adoc[Hibernate Reactive] and xref:hibernate-reactiv
         <seg>xref:security-getting-started-tutorial.adoc[Getting started with Security by using Basic authentication and Jakarta Persistence]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>xref:security-getting-started-tutorial.adoc[Começando com Security usando a Basic authentication e o Jakarta Persistence]</seg>
+        <seg>xref:security-getting-started-tutorial.adoc[Começando com _Security_ usando autenticação básica (Basic) e Jakarta Persistence]</seg>
       </tuv>
     </tu>
     <tu>
