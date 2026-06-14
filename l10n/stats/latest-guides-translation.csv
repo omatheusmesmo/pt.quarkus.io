@@ -26,7 +26,7 @@ l10n/po/pt_BR/_guides/vertx-reference.adoc.po, 250, 258, 3642, 3743, 3%
 l10n/po/pt_BR/_guides/security-authentication-mechanisms.adoc.po, 208, 278, 3615, 4839, 26%
 l10n/po/pt_BR/_guides/dev-ui-v2.adoc.po, 224, 347, 3438, 5644, 40%
 l10n/po/pt_BR/_guides/security-openid-connect-multitenancy.adoc.po, 169, 205, 3380, 3963, 15%
-l10n/po/pt_BR/_guides/http-reference.adoc.po, 267, 306, 3379, 3785, 11%
+l10n/po/pt_BR/_guides/http-reference.adoc.po, 267, 308, 3379, 3793, 11%
 l10n/po/pt_BR/_guides/infinispan-client-reference.adoc.po, 194, 202, 3340, 3403, 2%
 l10n/po/pt_BR/_guides/security-openid-connect-providers.adoc.po, 153, 161, 3325, 3550, 7%
 l10n/po/pt_BR/_guides/security-webauthn.adoc.po, 118, 140, 3277, 3418, 5%
@@ -196,7 +196,7 @@ l10n/po/pt_BR/_guides/build-analytics.adoc.po, 41, 48, 523, 571, 9%
 l10n/po/pt_BR/_guides/opentelemetry-logging.adoc.po, 31, 48, 511, 649, 22%
 l10n/po/pt_BR/_guides/spring-scheduled.adoc.po, 26, 57, 505, 780, 36%
 l10n/po/pt_BR/_guides/deploying-to-openshift-howto.adoc.po, 28, 32, 493, 505, 3%
-l10n/po/pt_BR/_guides/cyclonedx.adoc.po, 41, 141, 481, 2706, 83%
+l10n/po/pt_BR/_guides/cyclonedx.adoc.po, 41, 147, 481, 2863, 84%
 l10n/po/pt_BR/_guides/grpc-service-implementation.adoc.po, 36, 112, 473, 1777, 74%
 l10n/po/pt_BR/_guides/liquibase.adoc.po, 28, 44, 448, 607, 27%
 l10n/po/pt_BR/_guides/web-dependency-locator.adoc.po, 23, 26, 399, 405, 2%
