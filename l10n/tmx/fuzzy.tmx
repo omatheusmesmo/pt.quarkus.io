@@ -1798,26 +1798,10 @@ All messages in the stream up to (and including) the provided message are not re
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>**Emmanuel**: Quarkus Inside number one. Test.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>*Emmanuel* : Quarkus Inside número um. Teste.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>**Emmanuel**: Quarkus goes very well with the production, guys.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>*Emmanuel* : O Quarkus combina muito bem com a produção, pessoal.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Emmanuel**: Ready, we're doing this thing, "Okay yes, Quarkus inside number zero inception.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>*Emmanuel* : Pronto, estamos fazendo essa coisa, "Ok, sim, Quarkus dentro do início do número zero.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1922,14 +1906,6 @@ All messages in the stream up to (and including) the provided message are not re
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>*Emmanuel* : Aí está o senhor, como os recursos do YouTube.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Emmanuel**: To me it's like, "Spartakus" or it's Quarkus. But I'm Frensh so who knows.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>*Emmanuel* : Para mim, é como "Spartakus" ou Quarkus. Mas eu sou francês, então quem sabe.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2896,14 +2872,6 @@ an open standard since 2015.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>**JPAStreamer Quarkus Demo:** link:https//github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache[github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>*Demonstração do JPAStreamer Quarkus:* link:https//github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache[github.com/speedment/jpa-streamer-demo/tree/master/quarkus-hibernate-panache]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>**Leading slashes in explicitly configured values matter.** We know some of you want to move endpoints to specific places, and the most consistent way to express that intent is to allow you to specify the exact uri you want an endpoint to use. If you specify `/metrics`, that is where you will find the metrics endpoint.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -3047,14 +3015,6 @@ This efficiency is important in cloud environments where resource usage directly
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>*Max* : Acho que a questão aqui é a parte do POST. Acho que o ponto aqui é a parte do post, presumo, porque a parte do GET é fácil, é mais o post, o to...</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Max**: I sad, you should do it.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>*Max* : Eu disse que o senhor deveria fazer isso.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19459,16 +19419,6 @@ It could be done in the following way:</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>A percentile is a measure used in statistics indicating the value below which a given percentage of observations in a group of observations fall. For example, the response time for a HTTP request below which 90% of the response time values lie, is called the 90-percentile response time.
-The recommended way to calculate percentiles is using the "Percentiles Histogram" approach. See https://micrometer.io/docs/concepts#_histograms_and_percentiles.
-Quarkus (and Micrometer) let you enable this kind of metric by defining a `@Singleton` MeterFilterProducer. Example code below:</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Um percentil é uma medida usada em estatística que indica o valor abaixo do qual uma determinada porcentagem de observações em um grupo de observações se enquadra. Por exemplo, o tempo de resposta de uma solicitação HTTP, abaixo do qual se encontram 90% dos valores de tempo de resposta, é chamado de tempo de resposta de percentil 90. A maneira recomendada de calcular percentis é usar a abordagem "Histograma de percentis". link:https://micrometer.io/docs/concepts#_histograms_and_percentiles[Consulte https://micrometer.io/docs/concepts#_histograms_and_percentiles.] O Quarkus (e o Micrometer) permitem que o senhor habilite esse tipo de métrica definindo um `@Singleton` MeterFilterProducer. Exemplo de código abaixo:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>A periodical video podcast hosted by Quarkus Developers about things moving in and around Quarkus ecosystem. View the &lt;a href="{{site.baseurl}}/insights"&gt;live podcasts&lt;/a&gt; and check out older episodes on the Podcasts.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -28305,14 +28255,6 @@ First, start the infrastructure with:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Muito bem, vamos começar a trabalhar. Primeiro, inicie a infraestrutura com:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Alright, so I'm not alone in this madness. Welcome to this new episode of Quarkus Inside. It's an official one, in the sense that it's not a meta subject. We're gonna have real conversations around test today and to have conversation here. I do have Max, my colegue and partner in crime, but also Georgios which has been a massive contributor to Quarkus, being left and right, so maybe Georgios, do you wanna introduce yourself?</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Muito bem, então não estou sozinho nesta loucura. Bem-vindos a este novo episódio de Quarkus Inside. É um episódio oficial, no sentido em que não se trata de um meta-assunto. Hoje vamos ter conversas a sério sobre o teste e vamos conversar aqui. Tenho o Max, o meu colega e parceiro de crime, mas também o Georgios, que tem contribuído imenso para o Quarkus, à esquerda e à direita, por isso, Georgios, queres apresentar-te?</seg>
       </tuv>
     </tu>
     <tu>
@@ -74003,14 +73945,6 @@ Using an unbounded set of dimensional data can lead to a "cardinality explosion"
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Eager to discover more about it, we have two new guides for you either if you want to link:/guides/gcp-functions[develop a simple function] or link:gcp-functions-http[use HTTP].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Ansiosos por descobrir mais sobre o assunto, temos dois novos guias para si, quer queira  link:/guides/gcp-functions[desenvolver uma função simples] ou  link:gcp-functions-http[utilizar o HTTP].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Eager to learn more about it? Read the link:/guides/picocli[Picocli guide].</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -85588,14 +85522,6 @@ These problems not only impact technical aspects but also have financial implica
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>For contributions, improvements and discussions you can reach the Apache Camel team https://github.com/apache/camel-quarkus/[on GitHub], https://gitter.im/apache/camel-quarkus[on Gitter] and https://camel.apache.org/staging/community/mailing-list/[on the usual mailing lists].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Para contribuições, melhorias e discussões, pode contactar a equipa do Apache Camel  link:https://github.com/apache/camel-quarkus/[no GitHub],  link:https://gitter.im/apache/camel-quarkus[no Gitter] e  link:https://camel.apache.org/staging/community/mailing-list/[nas listas de correio habituais].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>For convenience there is a project in github with all the steps from the tutorial. You can clone it with the following command:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -94996,14 +94922,6 @@ Quarkus has support for all three databases.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Configuração do provedor do Google OpenID</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Goose is noteworthy given it is opensource and available both as a desktop app (on MacOS) and as a cli tool. It was https://block.github.io/goose/docs/quickstart/[recently announced] with full support for the Model Context Protocol.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Goose é digno de nota, pois é de código aberto e está disponível como um aplicativo de desktop (no MacOS) e como uma ferramenta de cli. link:https://block.github.io/goose/docs/quickstart/[Recentemente,] ele foi link:https://block.github.io/goose/docs/quickstart/[anunciado] com suporte total ao protocolo Model Context.</seg>
       </tuv>
     </tu>
     <tu>
@@ -119843,17 +119761,6 @@ Even if you use a worker thread pool, these threads are likely blocked, consumin
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>In a previous link:../eclipse-got-quarkused[post], we announced the
-first version of Quarkus Tools for Eclipse. We're now announcing a new version
-for Quarkus Tools for Eclipse, including better support for Eclipse Microprofile,
-Java 11 and enhancements to the wizard.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Em um link:../eclipse-got-quarkused[post] anterior, anunciamos a primeira versão do Quarkus Tools for Eclipse. Agora estamos anunciando uma nova versão para o Quarkus Tools for Eclipse, incluindo melhor suporte para o Eclipse Microprofile, Java 11 e melhorias no assistente.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>In a production application, the aforementioned class loading infrastructure is entirely absent - there is a single, purpose built ClassLoader that loads (almost) all classes and dependencies.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -142675,14 +142582,6 @@ link:https://infinispan.org/tutorials/simple/simple_tutorials.html#cross-site-re
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Saiba mais sobre as secções Qute  link:https://quarkus.io/guides/qute-reference#sections[aqui].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Learn more about all this in our new guides for link:/guides/amazon-lambda[Amazon Lambda] and link:/guides/amazon-lambda-http[Amazon Lambda with Vert.x Web, Servlet, or RESTEasy].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Saiba mais sobre tudo isso em nossos novos guias do  link:/guides/amazon-lambda[Amazon Lambda] e do  link:/guides/amazon-lambda-http[Amazon Lambda com Vert.x Web, Servlet ou RESTEasy].</seg>
       </tuv>
     </tu>
     <tu>
@@ -167206,14 +167105,6 @@ In doubt, check before implementing a retry, as it can harm your system.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Okay, so last thing is... Go subscribe to actually... Let me go back to my Chrome here that you got to youtube.com/c/quarkusio You will land on a brand new, actually not a brand new, you already have quite a few set of videos. Some of them will be the Quarkus inception or the Quarkus inside sorry, others will be Q-Tips which are like five-minute videos about a given subject. So they are also quite interesting as well. And then there is other ones you can go on the playlist, but what's important? Go to YouTube.com/c/quarkusio and click the subscribe button and you will be notified of when we wanna do something will probably publish everywhere we can to Twitter on the Zulip and somewhere here, if we figure out to properly set up YouTube live.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Ok, então a última coisa é... Subscrevam o youtube.com/c/quarkusio. Vão parar a um novo, na verdade não é um novo, já têm um conjunto de vídeos. Alguns deles serão o Quarkus inception ou o Quarkus inside sorry, outros serão Q-Tips que são como vídeos de cinco minutos sobre um determinado assunto. Por isso, também são bastante interessantes. E depois há outros que podem ir para a lista de reprodução, mas o que é importante? Vão a YouTube.com/c/quarkusio e cliquem no botão de subscrição e serão notificados quando quisermos fazer alguma coisa, que provavelmente publicaremos em todo o lado que pudermos, no Twitter, no Zulip e algures aqui, se descobrirmos como configurar corretamente o YouTube live.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Okay, so let's go create an entity "route". So that entity ____.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -169381,15 +169272,6 @@ specification.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Um dos desafios trazidos pela natureza distribuída dos microsserviços é que a comunicação com sistemas externos é inerentemente não confiável. Isso aumenta a demanda por resiliência dos aplicativos. Para simplificar a criação de aplicativos mais resilientes, o Quarkus fornece o link:https://github.com/smallrye/smallrye-fault-tolerance/[SmallRye Fault Tolerance] , uma implementação da especificação link:https://github.com/eclipse/microprofile-fault-tolerance/[MicroProfile Fault Tolerance] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>One of the challenges when connecting a custom GPTs with your API is the authentication, how your custom GPT can be https://platform.openai.com/docs/actions/authentication[authenticated] to be allowed to access the API.
-The https://platform.openai.com/docs/actions/authentication/oauth[OAuth] option is the best option when you need a user-specific permission to access the API, and this is what https://github.com/quarkiverse/quarkus-oidc-proxy[Quarkus OIDC Proxy] will help you to achieve without exposing all the OIDC/OAuth2 connection details.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Um dos desafios ao conectar um GPT personalizado com sua API é a autenticação, como seu GPT personalizado pode ser link:https://platform.openai.com/docs/actions/authentication[autenticado] para ter permissão para acessar a API. A opção link:https://platform.openai.com/docs/actions/authentication/oauth[OAuth] é a melhor opção quando o senhor precisa de uma permissão específica do usuário para acessar a API, e é isso que link:https://github.com/quarkiverse/quarkus-oidc-proxy[o Quarkus OIDC Proxy] o ajudará a conseguir sem expor todos os detalhes da conexão OIDC/OAuth2.</seg>
       </tuv>
     </tu>
     <tu>
@@ -194792,14 +194674,6 @@ and also being able to treat other exceptions as _normal_ to prevent a strategy 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Recent download statistics for Adoptium distributions, from https://dash.adoptopenjdk.net/trends[dash.adoptopenjdk.net]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Estatísticas de download recentes para distribuições Adoptium, de  link:https://dash.adoptopenjdk.net/trends[dash.adoptopenjdk.net]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Recent updates include:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -216144,14 +216018,6 @@ You can find more about it in the link:/guides/infinispan-client#infinispan-anno
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Suporte para link:https://opentelemetry.io[OpenTelemetry] na extensão link:https://quarkus.io/guides/websockets-next-tutorial[WebSockets Next] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Support for https://smallrye.io/docs/smallrye-config/config/config.html#secret-keys[SmallRye Config SecretKeys] has been added.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Foi adicionado o suporte para  link:https://smallrye.io/docs/smallrye-config/config/config.html#secret-keys[SmallRye Config SecretKeys].</seg>
       </tuv>
     </tu>
     <tu>
@@ -251551,14 +251417,6 @@ it is used to inject a limited number of classes and to handle composition (i.e.
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O conjunto de tipos decorados inclui todos os tipos de bean que são interfaces Java, exceto o `java.io.Serializable` .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The sheer volume of AdoptOpenJDK downloads, https://dash.adoptopenjdk.net/trends[about 500,000 per day^], meant that performance would become a key consideration for the API. In addition, Adoptium does not have a traditional datacenter, so all of this runs in the cloud on Microsoft Azure, where costs can increase when you have continuously running workloads that take up unnecessary space.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O grande volume de downloads do AdoptOpenJDK,  link:https://dash.adoptopenjdk.net/trends[cerca de 500.000 por dia, window=_blank], significava que o desempenho se tornaria uma consideração fundamental para a API. Além disso, a Adoptium não tem um centro de dados tradicional, pelo que tudo isto é executado na nuvem no Microsoft Azure, onde os custos podem aumentar quando se tem cargas de trabalho em execução contínua que ocupam espaço desnecessário.</seg>
       </tuv>
     </tu>
     <tu>
@@ -311200,15 +311058,6 @@ The application is configured automatically.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>With Quarkus Platform 3.2.0.Final, the status of the https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-metrics.html[Quarkus CXF Metrics Feature] changed from experimental to stable.
-The extension is now properly tested both in JVM and native modes.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Com o Quarkus Platform 3.2.0.Final, o status do link:https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/reference/extensions/quarkus-cxf-rt-features-metrics.html[recurso Quarkus CXF Metrics] mudou de experimental para estável. A extensão agora é testada corretamente nos modos JVM e nativo.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>With Quarkus `web-app` applications, only the `IdToken` is verified by default because the access token is not used to access the current Quarkus `web-app` endpoint and is intended to be propagated to the services expecting this access token.
 If you expect the access token to contain the roles required to access the current Quarkus endpoint (`quarkus.oidc.roles.source=accesstoken`) then it will also be verified.</seg>
       </tuv>
@@ -312732,14 +312581,6 @@ data for custom endpoints:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Com esses requisitos em vigor, o jar pode ser implantado no destino, juntamente com a configuração necessária para a integração do aplicativo no systemd como um serviço. Qualquer alteração na configuração do systemd requer o recarregamento do daemon, o que a coleção garante que ocorrerá sempre que for necessário. Com tudo isso pronto, a única coisa que resta é iniciar o serviço em si, o que também será feito pelo Ansible.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>With what we have so far, if we were to make changes to the user interface in our web application, we would need to stop Quarkus and run the above command to build the web application again and restart quarkus. This is not what we want, so we take advantage of Angular's https://angular.io/guide/build#proxying-to-a-backend-server[proxy]. https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development[React] and https://cli.vuejs.org/config/#devserver-proxy[Vue] have something similar.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Com o que temos até agora, se fizéssemos alterações na interface do utilizador na nossa aplicação web, teríamos de parar o Quarkus e executar o comando acima para construir novamente a aplicação web e reiniciar o quarkus. Isso não é o que queremos, então aproveitamos o  link:https://angular.io/guide/build#proxying-to-a-backend-server[proxy] do Angular.  link:https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development[O React] e  link:https://cli.vuejs.org/config/#devserver-proxy[o Vue] têm algo semelhante.</seg>
       </tuv>
     </tu>
     <tu>
@@ -352989,14 +352830,6 @@ Also the module has been declared _end of life_ by https://redis.com/blog/redisg
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>hhttps://youtu.be/6XVBa5YlEsw</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>hhttps://youtu.be/6XVBa5YlEsw</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>hibernate</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -353734,14 +353567,6 @@ of history and a lively community of users and developers.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>https://adoptium.net/faq.html[Adoptium FAQ]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://adoptium.net/faq.html[Adoptium FAQ]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>https://agoncal.teachable.com/courses/category/quarkus</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -353810,14 +353635,6 @@ of history and a lively community of users and developers.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>link:https://bitbucket.org/b_c/jose4j/issues/212[CVE-2023-51775] org.bitbucket.b_c/jose4j: Ataque dos via JWE especificamente criado</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>https://block.github.io/goose/docs/quickstart/[Goose]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://block.github.io/goose/docs/quickstart/[Ganso]</seg>
       </tuv>
     </tu>
     <tu>
@@ -354460,14 +354277,6 @@ They will be added in future releases. Current limitations are:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>link:https://docs.quarkiverse.io/quarkus-langchain4j/dev/in-process-embedding.html[Incorporação em processo]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>https://docs.quarkiverse.io/quarkus-langchain4j/dev/llms.html[Model provider]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://docs.quarkiverse.io/quarkus-langchain4j/dev/llms.html[Modelo de provedor]</seg>
       </tuv>
     </tu>
     <tu>
@@ -357698,17 +357507,6 @@ It provides a multi-tenant, high-performance solution to server messaging with t
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/index.html[Quarkus CXF] got a part of the previous Quarkus Platform release 3.1.0.Final already, but we forgot to announce it at that time (sorry!).
-Quarkus CXF ports https://cxf.apache.org/[Apache CXF] to Quarkus.
-It can be used for writing SOAP https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/user-guide/first-soap-web-service.html[WebServices] and https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/user-guide/first-soap-client.html[Clients].
-You can now create project stubs via https://code.quarkus.io/?e=io.quarkiverse.cxf%3Aquarkus-cxf&amp;extension-search=origin:platform%20quarkus%20cxf[code.quarkus.io].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/index.html[O Quarkus CXF] já fazia parte da versão anterior da plataforma Quarkus 3.1.0.Final, mas esquecemos de anunciá-lo na época (desculpe!). O Quarkus CXF porta link:https://cxf.apache.org/[o Apache CXF] para o Quarkus. Ele pode ser usado para escrever link:https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/user-guide/first-soap-web-service.html[WebServices] e link:https://quarkiverse.io/quarkiverse-docs/quarkus-cxf/dev/user-guide/first-soap-client.html[clientes] SOAP. Agora o senhor pode criar stubs de projeto via link:https://code.quarkus.io/?e=io.quarkiverse.cxf%3Aquarkus-cxf&amp;extension-search=origin:platform%20quarkus%20cxf[code.quarkus.io] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>https://quarkus.io/[Quarkus] is a cloud-native Java development framework, which allows Java code to be mapped to Kubernetes containers and compiled natively. https://www.graalvm.org/22.1/reference-manual/native-image/[Native compilation] is useful for serverless computing, it avoids the overhead of running a JVM in containers and lets us execute serverless code directly. Debugging natively compiled code is not an easy task. It can be very different from the original Java source code due to extensive code optimizations, as well as differences in libraries used in native vs non-natively compiled code. In some cases, it is necessary to view both the source and the assembly code in order to gain better understanding of the program, further complicating the debugging task. </seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -358722,14 +358520,6 @@ It was originally designed to target block devices and files but has since gaine
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>https://stargate.io[Stargate^], created in 2020, is a data API gateway that transforms https://cassandra.apache.org[Apache Cassandra^], an Open Source NoSQL database, into a JSON Document database. Stargate exposes Cassandra through a broad range of APIs, including JSON, https://cassandra.apache.org/doc/latest/cassandra/cql[CQL^], https://graphql.org[GraphQL^], REST, and https://grpc.io[gRPC^], bringing modular, service-oriented, and cloud native architectures into the Cassandra ecosystem in a non-invasive way.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://stargate.io[O Stargate, window=_blank], criado em 2020, é um gateway de API de dados que transforma  link:https://cassandra.apache.org[o Apache Cassandra, window=_blank], um banco de dados NoSQL de código aberto, em um banco de dados de documentos JSON. O Stargate expõe o Cassandra através de uma ampla gama de APIs, incluindo JSON,  link:https://cassandra.apache.org/doc/latest/cassandra/cql[CQL, window=_blank],  link:https://graphql.org[GraphQL, window=_blank], REST e  link:https://grpc.io[gRPC, window=_blank], trazendo arquiteturas modulares, orientadas a serviços e nativas da nuvem para o ecossistema Cassandra de uma forma não invasiva.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>https://stedolan.github.io/jq/[jq tool]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -358900,14 +358690,6 @@ That makes Vert.x popular in many areas such as web applications, IoT gateways, 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>link:https://vertx.io[O Vert.x] é um kit de ferramentas para criar aplicativos reativos. O ecossistema do Vert.x é enorme. De HTTP e recursos de acesso a dados a clientes de mensagens por meio de microsserviços e recursos de segurança, o ecossistema do Vert.x é extremamente diversificado e versátil. Para entender essa variedade, basta consultar a link:https://vertx.io/docs/[documentação do Vert.x] . Isso torna o Vert.x popular em muitas áreas, como aplicativos da Web, gateways de IoT, aplicativos bancários e assim por diante.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>https://weather.gov/api[Weather API Documentation]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://weather.gov/api[Documentação da API de clima]</seg>
       </tuv>
     </tu>
     <tu>
@@ -365844,14 +365626,6 @@ VSCode Quarkus Tools</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>link:/guides/amazon-kms[Amazon KMS] - Serviço de gestão de chaves</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>link:/guides/amazon-lambda-http[Amazon Lambda with RESTEasy, Undertow, or Vert.x Web]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:/guides/amazon-lambda-http[Amazon Lambda com RESTEasy, Undertow ou Vert.x Web]</seg>
       </tuv>
     </tu>
     <tu>
