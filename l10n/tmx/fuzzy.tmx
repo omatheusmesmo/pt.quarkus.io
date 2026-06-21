@@ -7492,6 +7492,14 @@ public void onReload(@Observes CertificateUpdatedEvent reload) {
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>/brand</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/marca</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>/community/</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
