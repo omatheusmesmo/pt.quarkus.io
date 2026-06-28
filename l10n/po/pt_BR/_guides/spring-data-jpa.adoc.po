@@ -533,7 +533,7 @@ msgstr "Consultas nativas e nomeadas ao usar `@Query`"
 #. type: Plain text
 #: _guides/spring-data-jpa.adoc
 msgid ""
-"https://docs.spring.io/spring-data/jpa/reference/data-commons/is-new-state-detection.html[Entity State-detection Strategies]\n"
+"https://github.com/spring-projects/spring-data-jpa/blob/main/src/main/asciidoc/jpa.adoc#entity-state-detection-strategies[Entity State-detection Strategies]\n"
 "via `EntityInformation`."
 msgstr ""
 
@@ -613,3 +613,8 @@ msgstr "link:spring-scheduled.html[Quarkus - Extensão para o Spring Scheduled]"
 #: _guides/spring-data-jpa.adoc
 msgid "xref:spring-data-rest.adoc[Quarkus - Extension for Spring Data REST]"
 msgstr "link:spring-data-rest.html[Quarkus - Extensão para Spring Data REST]"
+
+#. type: Plain text
+#: _guides/spring-data-jpa.adoc
+msgid "xref:spring-tx.adoc[Quarkus - Extension for Spring Transaction]"
+msgstr ""
