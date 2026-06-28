@@ -40497,14 +40497,6 @@ Finally you might also have realized that we didn't want to have a bunch of comm
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Athens, Greece</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Atenas, Grécia</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Atlas: `httpServerRequests`</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -42197,14 +42189,6 @@ The OIDC provider detects the logout request (for example, an RP-initiated one) 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>As bandas fazem-no "Rock", os roadies fazem-no "Roll"</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Bangalore, India</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Bangalore, Índia</seg>
       </tuv>
     </tu>
     <tu>
@@ -45599,14 +45583,6 @@ But sometimes, you need to include the native library for a different platform.<
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Bruno Leonardo Gonçalves</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Bucharest, Romania</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Bucharest, Romênia</seg>
       </tuv>
     </tu>
     <tu>
@@ -51426,24 +51402,6 @@ The extension is now fully supported in JVM mode and Native mode.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Camel Quarkus has been updated to 3.14.
-You can find everything you need to know about it in the https://camel.apache.org/blog/2024/08/camel-quarkus-release-3.14.0/[release notes].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Camel Quarkus foi atualizado para a versão 3.14. O senhor pode encontrar tudo o que precisa saber sobre isso nas link:https://camel.apache.org/blog/2024/08/camel-quarkus-release-3.14.0/[notas de versão] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel Quarkus has been updated to 3.15.0.
-You can find everything you need to know about it in the https://camel.apache.org/blog/2024/09/camel-quarkus-release-3.15.0/[release notes].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Camel Quarkus foi atualizado para a versão 3.15.0. O senhor pode encontrar tudo o que precisa saber sobre ele nas link:https://camel.apache.org/blog/2024/09/camel-quarkus-release-3.15.0/[notas de versão] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Camel Quarkus has been updated to 3.16.0.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -51460,37 +51418,10 @@ You can find everything you need to know about it in the https://camel.apache.or
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Camel Quarkus has been updated to 3.20.0.
-You can find everything you need to know about it in the https://camel.apache.org/blog/camel-quarkus-release-3.20.0[release notes].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Camel Quarkus foi atualizado para a versão 3.20.0. O senhor pode encontrar tudo o que precisa saber sobre ele nas link:https://camel.apache.org/blog/camel-quarkus-release-3.20.0[notas de versão] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Camel Quarkus has been upgraded to 3.18.0.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O Camel Quarkus foi atualizado para a versão 3.18.0.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel Quarkus has been upgraded to 3.19.0.
-You can consult the https://camel.apache.org/blog/2025/02/camel-quarkus-release-3.19.0/[release notes] for more information.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Camel Quarkus foi atualizado para a versão 3.19.0. O senhor pode consultar link:https://camel.apache.org/blog/2025/02/camel-quarkus-release-3.19.0/[as notas de versão] para obter mais informações.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel Quarkus has been upgraded to 3.20.0.
-You can consult the https://camel.apache.org/blog/camel-quarkus-release-3.20.0[release notes] for more information.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Camel Quarkus foi atualizado para a versão 3.20.0. O senhor pode consultar link:https://camel.apache.org/blog/camel-quarkus-release-3.20.0[as notas de versão] para obter mais informações.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51532,14 +51463,6 @@ with a new major version compatible with Jakarta EE 10 and Quarkus 3.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O Camel encaminha os pedidos REST de entrada da DSL REST para a DSL principal através do componente "direto" do Camel, que é essencialmente um conetor utilizado para invocações internas, como se estivesse a chamar um método Java a partir de uma linha de código Java.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Camel has its domain-specific language (DSL) to define processing flows, known as the Camel DSL. You use Camel components (aka. connectors) in the DSL to move data from sources to targets. Camel Quarkus has https://camel.apache.org/camel-quarkus/2.7.x/reference/index.html[300+ available extensions^].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Camel tem sua linguagem específica de domínio (DSL) para definir fluxos de processamento, conhecida como Camel DSL. Utiliza componentes Camel (também conhecidos como conectores) na DSL para mover dados de fontes para alvos. O Camel Quarkus tem  link:https://camel.apache.org/camel-quarkus/2.7.x/reference/index.html[mais de 300 extensões disponíveis, window=_blank].</seg>
       </tuv>
     </tu>
     <tu>
@@ -68712,14 +68635,6 @@ As a result the test is able to interact with the Quarkus event-driven applicati
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Developers often kickstart their projects unaware that Apache Camel has perfected how to best address integration patterns. Camel Quarkus provides https://camel.apache.org/camel-quarkus/2.7.x/reference/index.html[hundreds of connectors^] and rich functionality for data mediation: data formats, transformers, templating, custom processors, etc.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Os programadores iniciam frequentemente os seus projectos sem saberem que o Apache Camel aperfeiçoou a melhor forma de abordar os padrões de integração. O Camel Quarkus fornece  link:https://camel.apache.org/camel-quarkus/2.7.x/reference/index.html[centenas de conectores, window=_blank] e uma funcionalidade rica para mediação de dados: formatos de dados, transformadores, modelos, processadores personalizados, etc.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Developers who use Windows workstations might face the challenge of running Linux-native workflows.
 One way to achieve this is by using Podman, a container engine that provides a command line capability
 to run Linux containers. Podman supports running containers both as "rootful" and as "rootless",
@@ -68816,30 +68731,6 @@ we'll explore how to use Podman with Quarkus Native to build and run application
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Experiência centrada no desenvolvimento, sem concessões, para dar vida a seus aplicativos incríveis em pouco tempo</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Devoxx Greece</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Devoxx Grécia</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Devoxx Poland</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Devoxx Polônia</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Devoxx UK</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Devoxx Reino Unido</seg>
       </tuv>
     </tu>
     <tu>
@@ -71268,14 +71159,6 @@ testing the API.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>*Somente* durante *os testes* , a URL é uma propriedade opcional e, se não for especificada, o Quarkus assumirá que o destino do cliente é o aplicativo que está sendo testado (normalmente, `http://localhost:8081/graphql` ). Isso é útil se o seu aplicativo contiver uma API do lado do servidor GraphQL, bem como um cliente GraphQL que é usado para testar a API.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>During 3 days, 2.700 Devoxxians from 20 different countries attend Devoxx Poland including 100+ speakers and another 600K developers enjoy the presentations online. Making Devoxx the biggest Java conference in Poland.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Durante 3 dias, 2.700 devoxxianos de 20 países diferentes participam da Devoxx Poland, incluindo mais de 100 palestrantes, e outros 600 mil desenvolvedores assistem às apresentações on-line. Isso faz da Devoxx a maior conferência Java da Polônia.</seg>
       </tuv>
     </tu>
     <tu>
@@ -131763,14 +131646,6 @@ For example, if this is a reference, should some of this content be moved to a c
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Istanbul, Turkey</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Istambul, Turquia</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>It adds the following extensions to your build file:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -138604,14 +138479,6 @@ For over two years, the Quarkus team explored integrating this new feature to ea
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Java Day Istanbul</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Dia de Java em Istambul</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Java Flight Recorder</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -141232,14 +141099,6 @@ To simplify the interoperability between Mutiny and Kotlin there is the module `
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Versão do Kotlin</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Krakow, Poland</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Cracóvia, Polônia</seg>
       </tuv>
     </tu>
     <tu>
@@ -147188,14 +147047,6 @@ These can also be overridden by attaching a one or more named handlers to a cate
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Por padrão, o Logstash vem com um plug-in de entrada que pode entender o formato GELF. Primeiro, criaremos um pipeline que habilita esse plug-in.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>London, UK</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Londres, Reino Unido</seg>
       </tuv>
     </tu>
     <tu>
@@ -171819,6 +171670,14 @@ and `/src/main/resources/templates/FruitResource/oranges.txt`. Grouping template
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Oslo, Norway</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Oslo, Noruega</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Otavio Rodolfo Piske</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -174129,14 +173988,6 @@ MIME type. You can override these defaults with the `@PartType` annotation.</seg
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Exemplo de parênteses</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Paris, France</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Paris, França</seg>
       </tuv>
     </tu>
     <tu>
@@ -190255,14 +190106,6 @@ If you prefer to use different Redis client, you can configure it like in the ex
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Quarkus support in IDE's</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Suporte do Quarkus em IDE's</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Quarkus supports Cloud Functions gen 1 and gen 2. For an overview of Cloud Functions gen 2 see https://cloud.google.com/functions/docs/2nd-gen/overview[this page] on the Google Cloud Functions documentation. To use gen 2 you must add the `--gen2` parameter.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -204771,14 +204614,6 @@ A request will be sent to the OpenID Provider UserInfo endpoint and  an `io.quar
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Defina `quarkus.oidc.authentication.user-info-required=true` se for necessário solicitar um objeto JSON UserInfo do ponto de extremidade userinfo do OIDC. Uma solicitação será enviada ao ponto de extremidade UserInfo do provedor OpenID e um objeto `io.quarkus.oidc.UserInfo` (um invólucro simples `javax.json.JsonObject` ) será criado. `io.quarkus.oidc.UserInfo` pode ser injetado ou acessado como um atributo SecurityIdentity `userinfo` .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Set `quarkus.oidc.credentials.jwt.source=bearer` if the client authentication token is provided by Kubernetes, and use `quarkus.oidc.credentials.jwt.token-path` to point to the file resource containing this token.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Defina `quarkus.oidc.credentials.jwt.source=bearer` se o token de autenticação do cliente for fornecido pelo Kubernetes e use `quarkus.oidc.credentials.jwt.token-path` para apontar para o recurso de arquivo que contém esse token.</seg>
       </tuv>
     </tu>
     <tu>
@@ -241320,14 +241155,6 @@ an implementation of the link:https://github.com/eclipse/microprofile-metrics/[M
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O guia a seguir demonstra como um aplicativo Quarkus pode usar o link:https://github.com/smallrye/smallrye-metrics/[SmallRye Metrics] , uma implementação da especificação link:https://github.com/eclipse/microprofile-metrics/[MicroProfile Metrics] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The following https://camel.apache.org/blog/2021/11/vscode-atlasmap-release-0.1.0/[blog in the Apache Camel^] community describes how to use the tooling.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O seguinte  link:https://camel.apache.org/blog/2021/11/vscode-atlasmap-release-0.1.0/[blogue da, window=_blank] comunidade  link:https://camel.apache.org/blog/2021/11/vscode-atlasmap-release-0.1.0/[Apache Camel, window=_blank] descreve como utilizar as ferramentas.</seg>
       </tuv>
     </tu>
     <tu>
@@ -351445,30 +351272,6 @@ a flamegraph can be generated that shows bytes allocated.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>devoxxgreece_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>devoxxgreece_logo.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>devoxxpoland_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>devoxxpoland_logo.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>devoxxuk_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>devoxxuk_logo.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>devservice</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -351481,14 +351284,6 @@ a flamegraph can be generated that shows bytes allocated.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>serviços de desenvolvimento</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>devtalks_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>devtalks_logo.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -352557,14 +352352,6 @@ Offer reactive and imperative programming interfaces.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>geo - `.geo(memberType)`</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>gids_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>gids_logo.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -364542,14 +364329,6 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>javadayistanbul_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>javadayistanbul_logo.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>javascript</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -372724,14 +372503,6 @@ quarkus.oidc-client.oidc-client-for-graphql.credentials.client-secret.method=POS
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>sonda de prontidão</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>redhatsummit_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>redhatsummit_logo.png</seg>
       </tuv>
     </tu>
     <tu>
