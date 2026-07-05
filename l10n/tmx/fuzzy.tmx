@@ -374091,14 +374091,6 @@ quarkus.oidc-client.oidc-client-for-graphql.credentials.client-secret.method=POS
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>staled</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>estagnado</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>start Infinispan server</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
