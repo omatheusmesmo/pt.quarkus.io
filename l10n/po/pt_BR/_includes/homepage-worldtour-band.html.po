@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-09-21 08:25+0900\n"
+"POT-Creation-Date: 2026-07-12 09:03+0000\n"
 "PO-Revision-Date: 2023-09-21 22:09-0300\n"
 "Last-Translator: George Gastaldi <gegastaldi@gmail.com>\n"
 "Language-Team: \n"
@@ -21,6 +21,11 @@ msgstr ""
 #, fuzzy
 msgid "<a href=\"/worldtour/\">"
 msgstr "&lt;a href=\"/worldtour/\"&gt;"
+
+#. type: Attribute 'alt' of: <div><div><div><a><img>
+#: upstream/_includes/homepage-worldtour-band.html:4
+msgid "Quarkus World Tour 2023 promotional banner"
+msgstr ""
 
 #. type: Content of: <div><div><div><h2>
 #: upstream/_includes/homepage-worldtour-band.html:7

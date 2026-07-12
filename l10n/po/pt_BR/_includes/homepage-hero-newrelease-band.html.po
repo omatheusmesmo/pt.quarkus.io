@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-11-03 22:08+0900\n"
+"POT-Creation-Date: 2026-07-12 09:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr "foi lançado."
 msgid "Quarkus 3 continues the mission of making Java the preferred framework for Kubernetes-native development with new developer tools and improved performance."
 msgstr "O Quarkus 3 continua a missão de tornar o Java a estrutura preferida para o desenvolvimento nativo do Kubernetes com novas ferramentas de desenvolvimento e desempenho aprimorado."
 
-#. type: Attribute 'title' of: <div><div><img>
+#. type: Attribute 'alt' of: <div><div><img>
 #: upstream/_includes/homepage-hero-newrelease-band.html:6
 #, fuzzy
 msgid "Quarkus 3.0 feature icons"

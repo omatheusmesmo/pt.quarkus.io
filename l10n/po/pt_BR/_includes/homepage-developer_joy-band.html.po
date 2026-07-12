@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-09-21 08:25+0900\n"
+"POT-Creation-Date: 2026-07-12 09:03+0000\n"
 "PO-Revision-Date: 2023-09-21 21:57-0300\n"
 "Last-Translator: George Gastaldi <gegastaldi@gmail.com>\n"
 "Language-Team: \n"
@@ -66,3 +66,13 @@ msgstr ""
 #: upstream/_includes/homepage-developer_joy-band.html:27
 msgid "<a href=\"/developer-joy\">Learn more</a>"
 msgstr "<a href=\"/developer-joy\">Saiba Mais</a>"
+
+#. type: Attribute 'alt' of: <div><div><div><img>
+#: upstream/_includes/homepage-developer_joy-band.html:30
+msgid "Developer Joy comic strip part 1"
+msgstr ""
+
+#. type: Attribute 'alt' of: <div><div><div><img>
+#: upstream/_includes/homepage-developer_joy-band.html:33
+msgid "Developer Joy comic strip part 2"
+msgstr ""
