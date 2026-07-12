@@ -47265,16 +47265,6 @@ You must be cautious when you have many virtual threads, especially when using t
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>But, first, we need to explain how it works under the hood.
-When using reactive messaging, your application receives https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.4/concepts.html#messages[Messages].
-Even if your method handles _payloads_, there are Messages under the hood, and it unwraps the payload just before calling your method.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Mas, primeiro, precisamos explicar como isso funciona nos bastidores. Ao usar mensagens reativas, seu aplicativo recebe link:https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.4/concepts.html#messages[mensagens] . Mesmo que seu método lide com _cargas úteis_ , há mensagens sob o capô, e ele desembrulha a carga útil pouco antes de chamar seu método.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>But, how does it work under the hood?
 It’s quite simple.
 If it gets a failure, it just re-subscribes:</seg>
@@ -127199,15 +127189,6 @@ Examples from this blog post are available on https://github.com/cescoffier/quar
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Neste post, usaremos a primeira abordagem. A página  link:https://quarkus.io/version/main/guides/building-native-image#creating-a-container[Construindo um executável nativo] explica como usar a construção em contêiner.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In this post, you will learn how to get started with Apache Kafka in your Quarkus application in less than 10 steps.
-We will use https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.7/index.html[Reactive Messaging] - a declarative approach to build event-driven microservices, but you can also use _bare_ Kafka APIs or Kafka Streams.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Nesta publicação, o senhor aprenderá como começar a usar o Apache Kafka em seu aplicativo Quarkus em menos de 10 etapas. Usaremos o link:https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.7/index.html[Reactive Messaging] - uma abordagem declarativa para criar microsserviços orientados a eventos, mas o senhor também pode usar APIs Kafka _simples_ ou Kafka Streams.</seg>
       </tuv>
     </tu>
     <tu>
@@ -221999,14 +221980,6 @@ but any getters defined will not explicitly change the GraphQL schema.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>The Javadoc is available http://smallrye.io/smallrye-reactive-utils/apidocs/[here].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Javadoc está disponível  link:http://smallrye.io/smallrye-reactive-utils/apidocs/[aqui].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>The JobScheduler does not support persistent schedules.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -267838,14 +267811,6 @@ This tag has two purposes: it is used as a marker for our generation tool, but i
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>This is the very problem that Quarkus addresses.  Quarkus is optimized for memory density and rapid startup time. Quarkus applications running on the JVM can deliver nearly twice as many application instances in the same amount of RAM when compared to other cloud native Java stacks, and up to 7x more instances when packaged as a native binary. This is more than simply compiling to a native binary using https://github.com/oracle/graal/tree/master/substratevm[SubstrateVM] (a feature of https://www.graalvm.org/[GraalVM]). Quarkus has optimized traditionally “highly dynamic” frameworks for Kubernetes immutable infrastructure, resulting in reduced memory utilization and faster initialization. These optimized and https://quarkus.io/guides/[well-documented] frameworks, called “extensions”, consist of best of breed and standard APIs. The result is https://quarkus.io/assets/images/quarkus_metrics_graphic_bootmem_wide.png[significant improvements in runtime efficiency].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>É exatamente este o problema que o Quarkus resolve. O Quarkus é otimizado para densidade de memória e tempo de inicialização rápido. Os aplicativos Quarkus executados na JVM podem fornecer quase o dobro de instâncias de aplicativos na mesma quantidade de RAM quando comparados a outras pilhas Java nativas da nuvem e até 7x mais instâncias quando empacotados como um binário nativo. Isso é mais do que simplesmente compilar para um binário nativo usando o  link:https://github.com/oracle/graal/tree/master/substratevm[SubstrateVM] (um recurso do  link:https://www.graalvm.org/[GraalVM]). A Quarkus otimizou estruturas tradicionalmente "altamente dinâmicas" para a infraestrutura imutável do Kubernetes, resultando em utilização reduzida de memória e inicialização mais rápida. Essas estruturas otimizadas e  link:https://quarkus.io/guides/[bem documentadas], chamadas de "extensões", consistem em APIs padrão e de melhor qualidade. O resultado são  link:https://quarkus.io/assets/images/quarkus_metrics_graphic_bootmem_wide.png[melhorias significativas na eficiência do tempo de execução].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>This is to make the following code behave as one would naively expect:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -269324,25 +269289,6 @@ But, nothing comes for free, and the resulting code is slightly more complex.</s
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este post foi atualizado para utilizar o prefixo `quarkus.` ao configurar as propriedades do stork. Este prefixo é necessário desde o Quarkus 2.8.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This post is a brief introduction to the `Emitter` construct from Reactive Messaging.
-More information is available on the https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.2/emitter/emitter.html[SmallRye Reactive Messaging documentation].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Este post é uma breve introdução à construção `Emitter` do Reactive Messaging. Mais informações estão disponíveis na link:https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.2/emitter/emitter.html[documentação do SmallRye Reactive Messaging] .</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This post is the equivalent of the https://quarkus.io/blog/getting-started-kafka/[Kafka getting started post], but focuses on the usage of AMQP.
-You will learn how to get started with AMQP in your Quarkus application in less than ten steps.
-We will use https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.7/index.html[SmallRye Reactive Messaging] - a declarative approach to building event-driven microservices.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Esta publicação é equivalente à link:https://quarkus.io/blog/getting-started-kafka/[publicação de introdução ao Kafka] , mas se concentra no uso do AMQP. O senhor aprenderá como começar a usar o AMQP em seu aplicativo Quarkus em menos de dez etapas. Usaremos o link:https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.7/index.html[SmallRye Reactive Messaging] - uma abordagem declarativa para criar microsserviços orientados a eventos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -358246,14 +358192,6 @@ This can be useful for adding custom behavior to the channels, such as logging, 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>link:https://smallrye.io/smallrye-reactive-messaging/latest/concepts/decorators/[Os decoradores de canais] são uma forma de interceptar e decorar os fluxos reativos correspondentes aos canais de mensagens. Isso pode ser útil para adicionar comportamento personalizado aos canais, como registro, métricas ou tratamento de erros.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.2/kafka/kafka.html[The Kafka Connector documentation]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>link:https://smallrye.io/smallrye-reactive-messaging/smallrye-reactive-messaging/2.2/kafka/kafka.html[A documentação do Conector Kafka]</seg>
       </tuv>
     </tu>
     <tu>
