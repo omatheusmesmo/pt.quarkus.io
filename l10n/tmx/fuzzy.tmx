@@ -8356,14 +8356,6 @@ public void onReload(@Observes CertificateUpdatedEvent reload) {
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>/guides/security-oidc-bearer-token-authentication-concept/index.html</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>/guias/security-oidc-bearer-token-authentication-concept/index.html</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>/guides/security-oidc-code-flow-authentication-concept/index.html</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -10227,6 +10219,14 @@ So if you use this feature, please provide your feedback on Zulip or on our `qua
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>115 MB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>12</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>12</seg>
       </tuv>
     </tu>
     <tu>
@@ -13304,6 +13304,14 @@ Another use case might be when the OIDC provider does not have a logout endpoint
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>&amp;lt;a class="anchor" href="#functions-as-a-service-and-serverless"&amp;gt;&amp;lt;/a&amp;gt;Funções como serviço e sem servidor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>&lt;a href="#" class="scroll-down" address="true"&gt;&lt;/a&gt;</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>&amp;lt;a href="#" class="scroll-down" address="true"&amp;gt;&amp;lt;/a&amp;gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18005,7 +18013,7 @@ To generate the index just add the following to your `pom.xml`:</seg>
         <seg>A description of OpenShift resources and customisable properties is given below alongside Kubernetes resources to show similarities where applicable.   This includes an alternative to  `oc new-app ...` above, i.e. `oc apply -f target/kubernetes/openshift.json` .</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Uma descrição dos recursos do OpenShift e das propriedades personalizáveis é fornecida abaixo, juntamente com os recursos do Kubernetes, para mostrar as semelhanças quando aplicável. Isso inclui uma alternativa para `oc new-app …​` acima, ou seja, `oc apply -f target/kubernetes/openshift.json` .</seg>
+        <seg>Uma descrição dos recursos do OpenShift e das propriedades personalizáveis é fornecida abaixo, juntamente com os recursos do Kubernetes, para mostrar semelhanças quando aplicável. Isso inclui uma alternativa para `oc new-app …​` acima, ou seja, `oc apply -f target/kubernetes/openshift.json` .</seg>
       </tuv>
     </tu>
     <tu>
@@ -93351,6 +93359,14 @@ If all entities should be targeted, then `Object.class` can be used to create th
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Get started with Quarkus Security by securing your Quarkus application endpoints with the built-in Quarkus Basic authentication and the Jakarta Persistence identity provider and enabling role-based access control.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Comece a usar o Quarkus Security protegendo os pontos de extremidade do aplicativo Quarkus com a autenticação integrada do Quarkus Basic e o provedor de identidade Jakarta Persistence e habilitando o controle de acesso baseado em função.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Get started with Quarkus Security by securing your Quarkus application endpoints with the built-in Quarkus Basic authentication and the Jakarta Persistence identity provider, enabling role-based access control.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -122884,7 +122900,7 @@ Today, we benefit from an extension hub that quells all previous concerns and en
         <seg>Em especial para a versão 3.11, obrigado a Alasdair Preston, Aleksandr Nichiporuk, Ales Justin, Alexey Loubyansky, Andy Damevin, Antonio Musarra, antonwiens, Arcane418, asjervanasten, Bruno Baptista, Chris Laprun, cknoblauch, Clement Escoffier, Danny Gräf, David M. Lloyd, emile, Eric Deandrea, Foivos Zakkak, Fouad Almalki, George Gastaldi, Georgios Andrianakis, glefloch, Guillaume Smet, Gwenneg Lepage, Holly Cummins, Ivan Puntev, Jakub Jedlicka, Jan Martiska, Juan Zuriaga, Katia Aresti, Ladislav Thon, Lin Gao, Lorenzo Vannucchi, Loïc Mathieu, Marc Nuri, Marek Skacelik, mariofusco, Martin Kouba, Matej Novotny, Max Rydahl Andersen, Michal Maléř, Michal Vavřík, Nathan Erwin, Nithanim, Ozan Gunalp, Phillip Krüger, punkepa, Roberto Cortez, Rostislav Svoboda, Sanne Grinovero, Sauli Ketola, Selim, Sergey Beryozkin, Stuart Douglas, Stéphane Épardaud, Thomas Segismont, Vincent Sourin, Vinicius A. Santos, vkn, Yoann Rodière e Zheng Feng.</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>In particular for the 3.12 release, thanks to Alex Martel, Alexey Loubyansky, Andre F de Miranda, Andy Damevin, Arthur Burke, Auri Munoz, Bruno Baptista, Chihiro Ito, Chris Laprun, Christian Navolskyi, Christian Schmidt, cknoblauch, Clement Escoffier, Cody Moore, Daniel Meier, David Andlinger, David M. Lloyd, Davide D'Alto, Eric Deandrea, Fabrice Bauzac-Stehly, Floris Westerman, Foivos Zakkak, Fouad Almalki, Galder Zamarreño, George Gastaldi, Georgios Andrianakis, Giancarlo Calderón Cárdenas, Graham Cunningham, Guillaume Smet, Harsh Bhagat, Holly Cummins, Ioannis Canellos, Jakub Jedlicka, Jerome Prinet, Katia Aresti, Ladislav Thon, Marc Nuri, Marco Schaub, marko-bekhta, Martin Kouba, Matej Novotny, Matheus Cruz, Max Rydahl Andersen, Michal Karm Babacek, Michal Vavřík, Nithanim, Ozan Gunalp, Patryk Najda, Peter Palaga, Phillip Krüger, Pierre Cheucle, Rolfe Dlugy-Hegwer, Said BOUDJELDA, Sanne Grinovero, Sergey Beryozkin, Siva_M7, Stéphane Épardaud, Tamaro Skaljic, Thibault Meyer, Thomas Darimont, Vincent Sevel, vkn, vsevel, Yoann Rodière, and Yoshikazu Nojima.</seg>
       </tuv>
@@ -139328,6 +139344,14 @@ Create a file called `src/main/resources/json-schema.json` with the schema for o
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>10 de junho de 2024</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>June 12, 2024</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>12 de junho de 2024</seg>
       </tuv>
     </tu>
     <tu>
@@ -176218,6 +176242,14 @@ and report any problem to us by https://github.com/quarkusio/quarkus/issues[crea
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>Podman is a daemonless and rootless container engine for developing, managing, and running OCI Containers on your Linux system or other OS.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>O Podman é um mecanismo de contêiner sem daemon e sem raiz para desenvolver, gerenciar e executar contêineres OCI no seu sistema Linux ou em outro sistema operacional.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Podman is a daemonless container engine for developing, managing, and running Containers on Linux systems. Since the
 release of version 3, Podman allows the user to run a service emulating a Docker API provided on a  Unix socket. This
 makes it possible for Testcontainers and Quarkus Dev Services to be utilized with Podman.</seg>
@@ -179801,14 +179833,6 @@ You do not need to do this if you have already built a link:{quickstarts-tree-ur
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O Quarkiverse é uma organização separada do GitHub https://github.com/quarkiverse  que oferece:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quarkus</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Quarkus</seg>
       </tuv>
     </tu>
     <tu>
@@ -264991,6 +265015,14 @@ application metrics.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>This guide explains how Java Flight Recorder (JFR) can be extended to provide additional insight into your Quarkus application.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como o Java Flight Recorder (JFR) pode ser estendido para fornecer informações adicionais sobre o seu aplicativo Quarkus.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>This guide explains how a Quarkus application can leverage the well known Dependency Injection annotations included in the Spring Framework.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -265085,6 +265117,14 @@ By adding the Quarkus JFR extension, you can add custom Quarkus events to JFR. T
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia explica como implantar seus serviços gRPC no Quarkus para o Kubernetes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how to generate SBOMs for Quarkus applications in the CycloneDX format.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como gerar SBOMs para aplicativos Quarkus no formato CycloneDX.</seg>
       </tuv>
     </tu>
     <tu>
@@ -265252,6 +265292,14 @@ how you can test it via a user-friendly UI named Swagger UI.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia explica como o seu aplicativo Quarkus pode utilizar o OpenTelemetry Logging para fornecer registro centralizado para aplicativos interativos da Web.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide explains how your Quarkus application can utilize OpenTelemetry Logging to provide distributed logging for interactive web applications.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia explica como o seu aplicativo Quarkus pode utilizar o OpenTelemetry Logging para fornecer registro distribuído para aplicativos interativos da Web.</seg>
       </tuv>
     </tu>
     <tu>
@@ -269822,6 +269870,14 @@ Run the following to add this to your `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia de referência fornece uma visão detalhada das extensões do Apache Kafka e do Quarkus Messaging.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This reference guide provides an in-depth look on Apache Pulsar and Smallrye Reactive Messaging framework.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Este guia de referência oferece uma visão detalhada da estrutura do Apache Pulsar e do Smallrye Reactive Messaging.</seg>
       </tuv>
     </tu>
     <tu>
@@ -292346,14 +292402,6 @@ Other extensions should follow a similar pattern when they are setting up a new 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Virtual</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Virtual</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Virtual Method Example</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -310839,6 +310887,14 @@ The application is configured automatically.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>With Quarkus Smallrye Reactive Messaging Pulsar extension (quarkus-smallrye-reactive-messaging-pulsar) Dev Services for Pulsar automatically starts a Pulsar broker in dev mode and when running tests.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Com a extensão Pulsar do Quarkus Smallrye Reactive Messaging (quarkus-smallrye-reactive-messaging-pulsar), o Dev Services for Pulsar inicia automaticamente um broker Pulsar no modo de desenvolvimento e ao executar testes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>With Quarkus `web-app` applications, only the `IdToken` is verified by default because the access token is not used to access the current Quarkus `web-app` endpoint and is intended to be propagated to the services expecting this access token.
 If you expect the access token to contain the roles required to access the current Quarkus endpoint (`quarkus.oidc.roles.source=accesstoken`) then it will also be verified.</seg>
       </tuv>
@@ -324900,7 +324956,7 @@ runtime and the HTTP framework you are writing your microservices in.</seg>
         <seg>É necessário &amp;lt;a href="https://maven.apache.org/" target="_blank"&amp;gt;Apache Maven {{ site.data.versions.maven }}&amp;lt;/a&amp;gt; ou &amp;lt;a href="https://gradle.org/" target="_blank"&amp;gt;Gradle&amp;lt;/a&amp;gt;</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>You need GraalVM 19.0.2+</seg>
       </tuv>
@@ -349693,6 +349749,14 @@ property to the application config file (`src/main/resources/application.propert
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>appcds</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>appcds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>apple</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -349777,6 +349841,14 @@ property to the application config file (`src/main/resources/application.propert
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>arco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>architecture, core</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>arquitetura, núcleo</seg>
       </tuv>
     </tu>
     <tu>
@@ -350750,6 +350822,14 @@ a flamegraph can be generated that shows bytes allocated.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>contributing, security</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>contribuindo, segurança</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>controlling the emission thread - https://smallrye.io/smallrye-mutiny/guides/emit-subscription</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -350786,6 +350866,14 @@ a flamegraph can be generated that shows bytes allocated.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>núcleo, web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cors, http</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>cors, http</seg>
       </tuv>
     </tu>
     <tu>
@@ -351634,6 +351722,14 @@ or `&lt;parameters&gt;` or `&lt;maven.compiler.parameters&gt;` (https://maven.ap
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>pesquisa elástica</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>elasticsearch hibernate orm search</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>elasticsearch hibernate orm search</seg>
       </tuv>
     </tu>
     <tu>
@@ -357244,6 +357340,14 @@ It provides a multi-tenant, high-performance solution to server messaging with t
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>link:https://quarkiverse.github.io/quarkiverse-docs/quarkus-quinoa/dev/#getting-started[Aqui] está o guia Quinoa para aprofundar e configurar seu aplicativo com qualquer estrutura de interface do usuário da Web baseada em Node, como React, Angular, Lit, Webpack, Rollup, ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>https://quarkus.io/</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>https://quarkus.io/</seg>
       </tuv>
     </tu>
     <tu>
@@ -362939,6 +363043,14 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-csrf-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-csrf-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>io.quarkus:quarkus-cyclonedx</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -362983,6 +363095,14 @@ VSCode Quarkus Tools</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>io.quarkus:quarkus-elytron-security-oauth2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-elytron-security-properties-file</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-elytron-security-properties-file</seg>
       </tuv>
     </tu>
     <tu>
@@ -363179,6 +363299,14 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-jdbc-derby</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-jdbc-derby</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>io.quarkus:quarkus-jdbc-h2</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -363247,6 +363375,22 @@ VSCode Quarkus Tools</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>io.quarkus:quarkus-kafka-streams</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-keycloak-admin-client</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-keycloak-admin-client</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-keycloak-admin-client-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-keycloak-admin-client-reactive</seg>
       </tuv>
     </tu>
     <tu>
@@ -363643,6 +363787,30 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-rest-client-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-rest-client-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-rest-client-reactive-jackson</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-rest-client-reactive-jackson</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-rest-client-reactive-jsonb</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-rest-client-reactive-jsonb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>io.quarkus:quarkus-rest-csrf</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -363747,6 +363915,38 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-resteasy-reactive</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-resteasy-reactive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-resteasy-reactive-jackson</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-resteasy-reactive-jackson</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-resteasy-reactive-jsonb</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-resteasy-reactive-jsonb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-resteasy-reactive-qute</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-resteasy-reactive-qute</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>io.quarkus:quarkus-scheduler</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -363827,6 +364027,14 @@ VSCode Quarkus Tools</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-smallrye-metrics</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-smallrye-metrics</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>io.quarkus:quarkus-smallrye-openapi</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -363839,6 +364047,38 @@ VSCode Quarkus Tools</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>io.quarkus:quarkus-smallrye-opentracing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-amqp</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-amqp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-kafka</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-kafka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-pulsar</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-pulsar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-rabbitmq</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>io.quarkus:quarkus-smallrye-reactive-messaging-rabbitmq</seg>
       </tuv>
     </tu>
     <tu>
@@ -367902,6 +368142,14 @@ You can read more on the blocking processing in link:{rm_blocking_docs}[SmallRye
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>oidc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>oidc github twitter google facebook mastodon microsoft apple spotify twitch</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>oidc github twitter google facebook mastodon microsoft apple spotify twitch</seg>
       </tuv>
     </tu>
     <tu>
