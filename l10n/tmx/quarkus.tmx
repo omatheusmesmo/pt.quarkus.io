@@ -6013,14 +6013,6 @@ this.logControl
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>&lt;a href="https://www.redhat.com/en/topics/cloud-native-apps/why-choose-red-hat-quarkus" class="button-cta btn-sm"&gt;Red Hat Support&lt;/a&gt;</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>&lt;a href="https://www.redhat.com/en/topics/cloud-native-apps/why-choose-red-hat-quarkus" class="button-cta btn-sm"&gt;Suporte Red Hat&lt;/a&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>&lt;a href="{{ site.data.versions.quarkus.announce }}"&gt;Read the release notes&lt;/a&gt;</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -17656,14 +17648,6 @@ Opcionalmente, você pode aplicar um limite de tempo a supressões individuais a
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Enterprise support provided by Red Hat for the product.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Suporte corporativo fornecido pela Red Hat para o produto.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Entry point for everything gRPC.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -23435,14 +23419,6 @@ You can therefore use Mutiny APIs for handling downstream messages and errors.</
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Se preferir usar APIs de fluxo reativo, você pode usar `MutinyEmitter` que retornará `Uni&lt;Void&gt;` do método `send`. Portanto, você pode usar as APIs do Mutiny para lidar com mensagens e erros downstream.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If you require a higher level of support, you have options.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Se você precisar de um nível mais alto de suporte, você tem opções.</seg>
       </tuv>
     </tu>
     <tu>
@@ -31357,14 +31333,6 @@ you can declare them in a top-level (non-nested) `Templates` class:</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Need More Than Community Support?</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Precisa de mais do que apoio da comunidade?</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Neil Moffat</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -36175,14 +36143,6 @@ On the `@Incoming` methods, you can control how multiple channels are merged usi
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>RecorderContext</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Red Hat Build of Quarkus</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Red Hat Build do Quarkus</seg>
       </tuv>
     </tu>
     <tu>
