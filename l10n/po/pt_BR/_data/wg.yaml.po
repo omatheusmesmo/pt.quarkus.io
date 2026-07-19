@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-07-12 09:03+0000\n"
+"POT-Creation-Date: 2026-07-19 09:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 #. type: Hash Value: working-groups last-activity
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2026-07-11"
+msgid "2026-07-18"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -144,161 +144,6 @@ msgstr "no caminho certo"
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "Quarkus Data"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/79"
-msgstr ""
-
-#. type: Hash Value: working-groups discussion
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://quarkusio.zulipchat.com/#narrow/channel/187038-dev"
-msgstr ""
-
-#. type: Hash Value: working-groups last-update
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"My performance numbers were premature. Very premature, in fact. I thought guides were working, but they were not. With guide parsing, the Roq builds take half again as long as the Jekyll builds. There may be opportunities for tuning to improve that. \n"
-"I've also done lighthouse tests, and the Roq site drops 7 points on performance, and 17 points on SEO. I've raised issues to track those.\n"
-msgstr ""
-
-#. type: Hash Value: working-groups last-activity
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "2026-07-09"
-msgstr ""
-
-#. type: Hash Value: working-groups point-of-contact
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "@holly-cummins and @ia3andy"
-msgstr ""
-
-#. type: Hash Value: working-groups proposal
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/53541"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<h2>Objective:</h2>\n"
-"<p>The main objective of this working group is to convert our Jekyll-based website to a Roq-based one.</p>\n"
-"<h2>The Problem</h2>\n"
-"<p>Although Quarkus promotes a Quarkus-based static site generator, our own website uses a Ruby-based one. As well as being reputationally awkward (why aren't we eating our own dog food?), the Ruby-based generator has several practical limitations:</p>\n"
-"<ul>\n"
-"<li>It is difficult for the Java experts in the Quarkus team to make changes to the Ruby site code to add dynamic features. This means many enhancements get ruled out at the design stage.</li>\n"
-"<li>The site build is temperamental. Local Ruby installations can break, and even the container-based build can break.</li>\n"
-"</ul>\n"
-"<h2>The proposed Solution</h2>\n"
-"<p>Add support for Roq for the range of features used on quarkus.io, and add migration scripts to convert Jekyll to Quarkus. Once these are done, the quarkus.io site can be converted to Roq.</p>\n"
-"<h2>Definition of Done</h2>\n"
-"<p>This working group is complete when the live quarkus.io site is based on Roq.</p>\n"
-"<h2>Scope of Work</h2>\n"
-"<p>Visual changes to the website are outside the scope of this work. Conversion of some of the smaller satellite sites, such as https://quarkiverse.io/, could be in scope to act as prototypes. It is assumed that the quarkus.io contents that use asciidoc will continue to do so.</p>\n"
-"<h2>Organizing the Work</h2>\n"
-"<p>Issues will be split between the https://github.com/quarkusio/quarkusio.github.io and https://github.com/quarkiverse/quarkus-roq repositories. Zulip will be used for coordination.</p>\n"
-"<h2>Expected Timeline:</h2>\n"
-"<p>I expect about six months to be a suitable timescale.</p>\n"
-"<p>As always, we will aim for an incremental delivery, although the final switch will be a big bang.</p>\n"
-"<ul>\n"
-"<li>Support building Roq sites in quarkus.io preview</li>\n"
-"<li>Develop conversion scripts</li>\n"
-"<li>Maintain a long-running PR, with scripts</li>\n"
-"<li>Fill functionality gaps in Roq</li>\n"
-"<li>(possibly) Split site and and ship some sub-sections as Roq, some as Jekyll</li>\n"
-"</ul>\n"
-"<h2>Potential Outcomes &amp; Deliverables</h2>\n"
-"<p>The deliverables of this working group include:</p>\n"
-"<ul>\n"
-"<li>An easy-to-build, high-quality, dog-fooded website</li>\n"
-"<li>Technical improvements to Roq to support the range of features required for a site as complex as quarkus.io</li>\n"
-"<li>A set of documentation and scripts that will help other people do Jekyll to Roq conversions</li>\n"
-"</ul>\n"
-"<ul>\n"
-"<li>Point of contact: @holly-cummins and @ia3andy</li>\n"
-"<li>Proposal: https://github.com/quarkusio/quarkus/discussions/53541</li>\n"
-"<li>Discussion: <a href=\"https://quarkusio.zulipchat.com/#narrow/channel/187038-dev\">Zulip</a>)</li>\n"
-"</ul>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "The main objective of this working group is to convert our Jekyll-based website to one built on Roq. A side-effect may be a more generalised set of tools and docs for others to use to convert their sites.\n"
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Convert quarkus.io to Roq"
-msgstr ""
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/51"
-msgstr ""
-
-#. type: Hash Value: working-groups last-update
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"Work on Quarkus 4 saw progress with CI rework for the 4.0 branch. The team improved the Event bus and updated Vert.x configuration, including `Buffer#getByteBuf` usage. We also revisited the default value for `quarkus.http.use-semicolon-as-query-param-delimiter`.\n"
-"(This status update was automatically generated using AI.)\n"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<h2>Objective</h2>\n"
-"<p>This long‑running working group is dedicated to tracking development and ensuring a smooth rollout for Quarkus 4. It will serve as the central coordination point for feature tracking, release hygiene, migration guidance, and community alignment related to Quarkus 4.</p>\n"
-"<h2>The Problem</h2>\n"
-"<p>Quarkus 4 introduces significant shifts, including new Java 25 flags, architectural refinements, deprecations, and ecosystem changes. Without a focused group, efforts become fragmented, and downstream consumers (extensions, integrations, platform partners) may struggle to stay aligned.</p>\n"
-"<h2>Proposed Solution</h2>\n"
-"<p>Establish a designated WG to:</p>\n"
-"<ul>\n"
-"<li>Track all Quarkus 4‑related issues and PRs (using label triage/quarkus-4)</li>\n"
-"<li>Maintain a GitHub project board for feature status, blockers, and timelines</li>\n"
-"<li>Coordinate across teams (core, extensions, platform, tooling)</li>\n"
-"<li>Surface migration considerations and flag impacts (e.g. new --add-opens needs, optimized defaults) - useful to create the migration guide and rules</li>\n"
-"<li>Publish ADRs, migration guides, and summary docs</li>\n"
-"</ul>\n"
-"<h2>Definition of Done</h2>\n"
-"<p>This WG will be considered complete when:</p>\n"
-"<ul>\n"
-"<li>Quarkus 4 GA is released (including the platform)</li>\n"
-"<li>All major features are merged and tested</li>\n"
-"<li>Migration documentation is publicly available</li>\n"
-"</ul>\n"
-"<h2>Organizing the Work</h2>\n"
-"<p>Coordination via:</p>\n"
-"<ul>\n"
-"<li>GitHub Discussions: use design‑discussions category</li>\n"
-"<li>Issues/PRs: label with <code>triage/quarkus-4</code></li>\n"
-"<li>Project board to track status</li>\n"
-"</ul>\n"
-"<h2>Expected Timeline:</h2>\n"
-"<p>This is a long-running WG, starting now and wrapping up post‑GA (~late Q2 2026). We’ll mark it as “done” upon the public release of Quarkus 4 GA.</p>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "The Quarkus 4 working group aims to coordinate and track all Quarkus 4-related development in a long-running effort.\n"
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Quarkus 4"
 msgstr ""
 
 #. type: Hash Value: working-groups board-url
@@ -470,13 +315,355 @@ msgstr "Observabilidade.Next"
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
 #, no-wrap
+msgid "https://github.com/orgs/quarkusio/projects/79"
+msgstr ""
+
+#. type: Hash Value: working-groups discussion
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://quarkusio.zulipchat.com/#narrow/channel/187038-dev"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2026-07-17"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"My performance numbers were premature. Very premature, in fact. I thought guides were working, but they were not. With guide parsing, the Roq builds take half again as long as the Jekyll builds. There may be opportunities for tuning to improve that. \n"
+"I've also done lighthouse tests, and the Roq site drops 7 points on performance, and 17 points on SEO. I've raised issues to track those.\n"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2026-07-09"
+msgstr ""
+
+#. type: Hash Value: working-groups point-of-contact
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "@holly-cummins and @ia3andy"
+msgstr ""
+
+#. type: Hash Value: working-groups proposal
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/quarkusio/quarkus/discussions/53541"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<h2>Objective:</h2>\n"
+"<p>The main objective of this working group is to convert our Jekyll-based website to a Roq-based one.</p>\n"
+"<h2>The Problem</h2>\n"
+"<p>Although Quarkus promotes a Quarkus-based static site generator, our own website uses a Ruby-based one. As well as being reputationally awkward (why aren't we eating our own dog food?), the Ruby-based generator has several practical limitations:</p>\n"
+"<ul>\n"
+"<li>It is difficult for the Java experts in the Quarkus team to make changes to the Ruby site code to add dynamic features. This means many enhancements get ruled out at the design stage.</li>\n"
+"<li>The site build is temperamental. Local Ruby installations can break, and even the container-based build can break.</li>\n"
+"</ul>\n"
+"<h2>The proposed Solution</h2>\n"
+"<p>Add support for Roq for the range of features used on quarkus.io, and add migration scripts to convert Jekyll to Quarkus. Once these are done, the quarkus.io site can be converted to Roq.</p>\n"
+"<h2>Definition of Done</h2>\n"
+"<p>This working group is complete when the live quarkus.io site is based on Roq.</p>\n"
+"<h2>Scope of Work</h2>\n"
+"<p>Visual changes to the website are outside the scope of this work. Conversion of some of the smaller satellite sites, such as https://quarkiverse.io/, could be in scope to act as prototypes. It is assumed that the quarkus.io contents that use asciidoc will continue to do so.</p>\n"
+"<h2>Organizing the Work</h2>\n"
+"<p>Issues will be split between the https://github.com/quarkusio/quarkusio.github.io and https://github.com/quarkiverse/quarkus-roq repositories. Zulip will be used for coordination.</p>\n"
+"<h2>Expected Timeline:</h2>\n"
+"<p>I expect about six months to be a suitable timescale.</p>\n"
+"<p>As always, we will aim for an incremental delivery, although the final switch will be a big bang.</p>\n"
+"<ul>\n"
+"<li>Support building Roq sites in quarkus.io preview</li>\n"
+"<li>Develop conversion scripts</li>\n"
+"<li>Maintain a long-running PR, with scripts</li>\n"
+"<li>Fill functionality gaps in Roq</li>\n"
+"<li>(possibly) Split site and and ship some sub-sections as Roq, some as Jekyll</li>\n"
+"</ul>\n"
+"<h2>Potential Outcomes &amp; Deliverables</h2>\n"
+"<p>The deliverables of this working group include:</p>\n"
+"<ul>\n"
+"<li>An easy-to-build, high-quality, dog-fooded website</li>\n"
+"<li>Technical improvements to Roq to support the range of features required for a site as complex as quarkus.io</li>\n"
+"<li>A set of documentation and scripts that will help other people do Jekyll to Roq conversions</li>\n"
+"</ul>\n"
+"<ul>\n"
+"<li>Point of contact: @holly-cummins and @ia3andy</li>\n"
+"<li>Proposal: https://github.com/quarkusio/quarkus/discussions/53541</li>\n"
+"<li>Discussion: <a href=\"https://quarkusio.zulipchat.com/#narrow/channel/187038-dev\">Zulip</a>)</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "The main objective of this working group is to convert our Jekyll-based website to one built on Roq. A side-effect may be a more generalised set of tools and docs for others to use to convert their sites.\n"
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Convert quarkus.io to Roq"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkusio/projects/51"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"Work on Quarkus 4 saw progress with CI rework for the 4.0 branch. The team improved the Event bus and updated Vert.x configuration, including `Buffer#getByteBuf` usage. We also revisited the default value for `quarkus.http.use-semicolon-as-query-param-delimiter`.\n"
+"(This status update was automatically generated using AI.)\n"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<h2>Objective</h2>\n"
+"<p>This long‑running working group is dedicated to tracking development and ensuring a smooth rollout for Quarkus 4. It will serve as the central coordination point for feature tracking, release hygiene, migration guidance, and community alignment related to Quarkus 4.</p>\n"
+"<h2>The Problem</h2>\n"
+"<p>Quarkus 4 introduces significant shifts, including new Java 25 flags, architectural refinements, deprecations, and ecosystem changes. Without a focused group, efforts become fragmented, and downstream consumers (extensions, integrations, platform partners) may struggle to stay aligned.</p>\n"
+"<h2>Proposed Solution</h2>\n"
+"<p>Establish a designated WG to:</p>\n"
+"<ul>\n"
+"<li>Track all Quarkus 4‑related issues and PRs (using label triage/quarkus-4)</li>\n"
+"<li>Maintain a GitHub project board for feature status, blockers, and timelines</li>\n"
+"<li>Coordinate across teams (core, extensions, platform, tooling)</li>\n"
+"<li>Surface migration considerations and flag impacts (e.g. new --add-opens needs, optimized defaults) - useful to create the migration guide and rules</li>\n"
+"<li>Publish ADRs, migration guides, and summary docs</li>\n"
+"</ul>\n"
+"<h2>Definition of Done</h2>\n"
+"<p>This WG will be considered complete when:</p>\n"
+"<ul>\n"
+"<li>Quarkus 4 GA is released (including the platform)</li>\n"
+"<li>All major features are merged and tested</li>\n"
+"<li>Migration documentation is publicly available</li>\n"
+"</ul>\n"
+"<h2>Organizing the Work</h2>\n"
+"<p>Coordination via:</p>\n"
+"<ul>\n"
+"<li>GitHub Discussions: use design‑discussions category</li>\n"
+"<li>Issues/PRs: label with <code>triage/quarkus-4</code></li>\n"
+"<li>Project board to track status</li>\n"
+"</ul>\n"
+"<h2>Expected Timeline:</h2>\n"
+"<p>This is a long-running WG, starting now and wrapping up post‑GA (~late Q2 2026). We’ll mark it as “done” upon the public release of Quarkus 4 GA.</p>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "The Quarkus 4 working group aims to coordinate and track all Quarkus 4-related development in a long-running effort.\n"
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Quarkus 4"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/orgs/quarkusio/projects/76"
+msgstr ""
+
+#. type: Hash Value: working-groups discussion
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://quarkusio.zulipchat.com/#narrow/channel/187038-dev/topic/wg-modularity/with/581640512"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2026-07-16"
+msgstr ""
+
+#. type: Hash Value: working-groups last-update
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"The team migrated JAR file writing to `smallrye-common` facilities and made several JLink adjustments. We also resolved a SmallRye and MicroProfile config version conflict that was impacting Java module builds. The focus now is on new `Archive` APIs in `smallrye-common-io` and refining manifest copying.\n"
+"(This status update was automatically generated using AI.)\n"
+msgstr ""
+
+#. type: Hash Value: working-groups point-of-contact
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "@dmlloyd"
+msgstr ""
+
+#. type: Hash Value: working-groups proposal
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "https://github.com/quarkusio/quarkus/discussions/53223"
+msgstr ""
+
+#. type: Hash Value: working-groups readme
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid ""
+"<h2>Objective</h2>\n"
+"<p>Make Quarkus applications fully modular using JPMS (Java Platform Module System) and enable <code>jlink</code> as a first-class packaging strategy, producing smaller, faster, self-contained application images, with the long-term goal of making modular packaging the default and phasing out the legacy fast-jar layout.</p>\n"
+"<h2>The Problem</h2>\n"
+"<h3>Class Loading Architecture Debt</h3>\n"
+"<p>The Quarkus codebase contains between 15 and 20 class loader implementations, each with different behavior. These serve a variety of purposes, exposing hidden APIs, setting up execution environments for different launch modes, working around upstream issues, customizing parent delegation; but the ad hoc approach creates concurrency issues, virtual thread pinning, delegation bugs, and makes it nearly impossible to support JPMS properly.</p>\n"
+"<h3>No JPMS Support</h3>\n"
+"<p>Quarkus applications cannot take advantage of the Java Platform Module System. This means:</p>\n"
+"<ul>\n"
+"<li><strong>No module isolation</strong>: all application code, extensions, and dependencies share a flat classpath. There is no enforcement of encapsulation boundaries between artifacts at runtime.</li>\n"
+"<li><strong>No <code>jlink</code> support</strong>: applications cannot use <code>jlink</code> to produce optimized, stripped-down JVM images containing only the modules actually needed, resulting in unnecessarily large deployments.</li>\n"
+"<li><strong>No forward compatibility</strong>: future JDK features (FFM restrictions, Leyden AOT, serialization restrictions) increasingly assume or require JPMS. Without module support, Quarkus will face growing friction with each JDK release.</li>\n"
+"<li><strong>Split packages and service loading issues</strong>: the current flat classpath tolerates split packages and uncontrolled service loading, which masks real dependency problems and makes the classpath fragile.</li>\n"
+"</ul>\n"
+"<h3>Packaging Inefficiency</h3>\n"
+"<p>The current fast-jar packaging produces application images that are significantly larger than they need to be:</p>\n"
+"<ul>\n"
+"<li>Applications bundle the entire JDK (or require one to be pre-installed), even though most applications use a small fraction of JDK modules</li>\n"
+"<li>No tree-shaking of unused JDK modules</li>\n"
+"<li>Container images cannot effectively share JVM layers across different Quarkus applications</li>\n"
+"<li>Image size comparison from prototype work shows: <strong>GraalVM native &lt; jlink (modular) &lt; fast-jar &lt; AOT</strong> — meaning jlink provides a substantial size improvement over fast-jar without the complexity and limitations of native compilation</li>\n"
+"</ul>\n"
+"<h3>No Optimized Container Layering</h3>\n"
+"<p>A <code>jlink</code>-based modular image contains its own JVM, which allows container images to use a minimal base layer (no JDK required in the base). This opens the door to effective layer sharing across Quarkus applications running the same Quarkus version, the Quarkus core + JDK modules layer can be shared, with only the application layer differing. Today, this is not possible.</p>\n"
+"<h2>The Proposed Solution</h2>\n"
+"<h3>JPMS Modularization of Quarkus</h3>\n"
+"<p>Systematically modularize the Quarkus codebase so that each dependency/artifact gets its own class loader and module:</p>\n"
+"<ul>\n"
+"<li>Artifacts with <code>module-info.java</code> are created as named modules</li>\n"
+"<li>Other artifacts are created as unnamed modules with automatic module names</li>\n"
+"<li>A modular class loader architecture (based on David's <code>modules3</code> prototype) replaces the current ad hoc class loaders</li>\n"
+"<li>Each module has proper <code>exports</code>, <code>opens</code>, <code>requires</code>, <code>uses</code>, and <code>provides</code> declarations</li>\n"
+"</ul>\n"
+"<p><strong>Current prototype status:</strong> David's prototype (<code>dmlloyd/quarkus@modular</code> + <code>dmlloyd/modules3</code>) demonstrates this approach working. In the <code>getting-started</code> example, 39 out of 111 JARs are already modular. The remaining need automatic module names or full <code>module-info</code> files. Approximately 6-7 manual module patches are still required to start an application.</p>\n"
+"<p><strong>Key challenges to resolve:</strong></p>\n"
+"<ul>\n"
+"<li>Split packages between artifacts (tracked in #44710, not as bad as it initially appears)</li>\n"
+"<li>Generated classes at build time need a module home (#44657, more serious)</li>\n"
+"<li>Service loading across module boundaries needs correct <code>uses</code>/<code>provides</code> declarations</li>\n"
+"<li>Some artifacts will remain as unnamed modules until upstream projects add <code>module-info</code></li>\n"
+"</ul>\n"
+"<h3>JLink Packaging</h3>\n"
+"<p>Introduce <code>jlink</code> as a packaging type for Quarkus applications:</p>\n"
+"<ul>\n"
+"<li>Produce a self-contained application image with only the JDK modules actually used</li>\n"
+"<li>The image includes a custom JVM runtime, the modular application, and a launcher</li>\n"
+"<li>No external JDK installation required to run the application</li>\n"
+"<li>Performance is slightly better than fast-jar even without AOT (demonstrated in prototype)</li>\n"
+"</ul>\n"
+"<p><strong>Image layout:</strong></p>\n"
+"<ul>\n"
+"<li>A <code>jlink</code>-produced image is a directory containing <code>bin/</code> (launcher), <code>lib/</code> (JVM modules + application modules), and <code>conf/</code></li>\n"
+"<li>The layout naturally supports container image layering: JVM + Quarkus core in a shared base layer, application modules in the top layer</li>\n"
+"</ul>\n"
+"<h3>Container Image Optimization</h3>\n"
+"<p>Leverage the modular architecture for optimized container images:</p>\n"
+"<ul>\n"
+"<li><strong>Shared base layers</strong>: multiple Quarkus applications running the same Quarkus version share a common layer containing the JDK modules and Quarkus core, dramatically reducing per-application image size</li>\n"
+"<li><strong>Minimal base image</strong>: since jlink embeds the JVM, containers can use a minimal base (e.g., <code>ubi-micro</code>, <code>scratch</code> or <code>distroless</code>) instead of a JDK base image</li>\n"
+"<li><strong>AOT layering</strong>: AOT cache currently causes prohibitive image size bloat, but a layering strategy (AOT cache in a shared layer) may provide a partial solution; this needs investigation</li>\n"
+"</ul>\n"
+"<h3>Long-Term: Default Modular Packaging</h3>\n"
+"<p>The long-term goal is to make modular packaging the default build and test mode, phasing out the legacy fast-jar layout:</p>\n"
+"<ol>\n"
+"<li>First, modular packaging exists as an opt-in alternative (<code>MODULAR</code> packaging type or dedicated extension)</li>\n"
+"<li>Then, CI builds and tests run against both fast-jar and modular packaging</li>\n"
+"<li>Eventually, modular packaging becomes the default, with fast-jar available as a fallback</li>\n"
+"<li>Finally, fast-jar is deprecated and removed</li>\n"
+"</ol>\n"
+"<h3>Leyden / CDS Integration</h3>\n"
+"<p>The modular architecture positions Quarkus well for Project Leyden:</p>\n"
+"<ul>\n"
+"<li>The Quarkus core and bootstrap layer is loaded by the system class loader, making it eligible for Leyden premain optimizations</li>\n"
+"<li>A shared Leyden-trained layer (JDK modules + Quarkus core) could be reused across applications</li>\n"
+"<li>Extension and user code in separate module layers can benefit from Leyden independently</li>\n"
+"<li>Full Leyden integration is out of scope for this WG but the architecture should not preclude it</li>\n"
+"</ul>\n"
+"<h2>Definition of Done</h2>\n"
+"<ul>\n"
+"<li>[ ] Quarkus core modules have <code>module-info.java</code> descriptors (or automatic module names as an intermediate step)</li>\n"
+"<li>[ ] Applications can be built with modular packaging (<code>jlink</code> output)</li>\n"
+"<li>[ ] A <code>jlink</code>-packaged application starts and runs correctly (getting-started, REST, database scenarios)</li>\n"
+"<li>[ ] No manual module patches required to start an application</li>\n"
+"<li>[ ] Split package issues resolved for core Quarkus modules</li>\n"
+"<li>[ ] Generated classes have a proper module home</li>\n"
+"<li>[ ] Service loading works correctly across module boundaries</li>\n"
+"<li>[ ] <code>jlink</code> image size is smaller than fast-jar for equivalent applications</li>\n"
+"<li>[ ] Container image guide documents the layering strategy for modular images</li>\n"
+"<li>[ ] Performance is on par with or better than fast-jar</li>\n"
+"<li>[ ] Dev mode works with modular class loading</li>\n"
+"<li>[ ] Extension developer guide for making extensions module-friendly</li>\n"
+"</ul>\n"
+"<h2>Scope of Work</h2>\n"
+"<h3>In Scope</h3>\n"
+"<ul>\n"
+"<li>JPMS modularization of Quarkus core modules (<code>module-info.java</code> + automatic module names)</li>\n"
+"<li>Modular class loader architecture (replacing ad hoc class loaders for the modular packaging path)</li>\n"
+"<li><code>jlink</code> packaging type for Quarkus applications (name to be defined)</li>\n"
+"<li>Resolving split packages and generated class module assignment</li>\n"
+"<li>Service loading across module boundaries</li>\n"
+"<li>Container image layering strategy for modular images</li>\n"
+"<li>Dev mode support with modular class loading</li>\n"
+"<li>Extension author guidance for module compatibility</li>\n"
+"<li>Performance validation (startup time, memory, image size)</li>\n"
+"</ul>\n"
+"<h3>Out of Scope</h3>\n"
+"<ul>\n"
+"<li>Full rewrite of all 15-20 existing class loaders (incremental cleanup continues separately)</li>\n"
+"<li>Test class loading rework (covered by a separate WG)</li>\n"
+"<li>Project Leyden / CDS integration (parrallel work, but architecture should not preclude it)</li>\n"
+"<li>Modularizing third-party dependencies (upstream responsibility; Quarkus handles them as unnamed/automatic modules)</li>\n"
+"</ul>\n"
+"<h2>Organizing the Work</h2>\n"
+"<h3>Communication</h3>\n"
+"<ul>\n"
+"<li>Proposal: https://github.com/quarkusio/quarkus/discussions/53223</li>\n"
+"<li>Discussion: <a href=\"https://quarkusio.zulipchat.com/#narrow/channel/187038-dev/topic/wg-modularity/with/581640512\">#wg-modularity</a></li>\n"
+"<li>Point of contact: @dmlloyd</li>\n"
+"</ul>\n"
+"<h3>Existing Issues and Discussions</h3>\n"
+"<ul>\n"
+"<li><a href=\"https://github.com/quarkusio/quarkus/discussions/43749\">#43749</a> — Class loading WG discussion</li>\n"
+"<li><a href=\"https://github.com/quarkusio/quarkus/issues/43726\">#43726</a> — Class loader cleanup umbrella</li>\n"
+"<li><a href=\"https://github.com/quarkusio/quarkus/issues/44710\">#44710</a> — Split packages</li>\n"
+"<li><a href=\"https://github.com/quarkusio/quarkus/issues/44657\">#44657</a> — Generated classes and modules</li>\n"
+"</ul>\n"
+msgstr ""
+
+#. type: Hash Value: working-groups short-description
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Make Quarkus applications fully modular using JPMS (Java Platform Module System) and enable jlink as a first-class packaging strategy, producing smaller, faster, self-contained application images, with the long-term goal of making modular packaging the default and phasing out the legacy fast-jar lay\n"
+msgstr ""
+
+#. type: Hash Value: working-groups title
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "Modularity (JPMS) and JLink"
+msgstr ""
+
+#. type: Hash Value: working-groups board-url
+#: upstream/_data/wg.yaml:0
+#, no-wrap
 msgid "https://github.com/orgs/quarkusio/projects/49"
 msgstr ""
 
 #. type: Hash Value: working-groups last-activity
 #: upstream/_data/wg.yaml:0
 #, no-wrap
-msgid "2026-07-10"
+msgid "2026-07-15"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -537,6 +724,12 @@ msgstr ""
 #: upstream/_data/wg.yaml:0
 #, no-wrap
 msgid "https://quarkusio.zulipchat.com/#narrow/channel/187038-dev/topic/WG.20-.20Binary.20reproducibility"
+msgstr ""
+
+#. type: Hash Value: working-groups last-activity
+#: upstream/_data/wg.yaml:0
+#, no-wrap
+msgid "2026-07-10"
 msgstr ""
 
 #. type: Hash Value: working-groups last-update
@@ -1321,181 +1514,6 @@ msgstr "completo"
 #, fuzzy, no-wrap
 msgid "Gizmo 2"
 msgstr "Gizmo 2"
-
-#. type: Hash Value: working-groups board-url
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://github.com/orgs/quarkusio/projects/76"
-msgstr ""
-
-#. type: Hash Value: working-groups discussion
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://quarkusio.zulipchat.com/#narrow/channel/187038-dev/topic/wg-modularity/with/581640512"
-msgstr ""
-
-#. type: Hash Value: working-groups last-update
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"The team migrated JAR file writing to `smallrye-common` facilities and made several JLink adjustments. We also resolved a SmallRye and MicroProfile config version conflict that was impacting Java module builds. The focus now is on new `Archive` APIs in `smallrye-common-io` and refining manifest copying.\n"
-"(This status update was automatically generated using AI.)\n"
-msgstr ""
-
-#. type: Hash Value: working-groups point-of-contact
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "@dmlloyd"
-msgstr ""
-
-#. type: Hash Value: working-groups proposal
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "https://github.com/quarkusio/quarkus/discussions/53223"
-msgstr ""
-
-#. type: Hash Value: working-groups readme
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid ""
-"<h2>Objective</h2>\n"
-"<p>Make Quarkus applications fully modular using JPMS (Java Platform Module System) and enable <code>jlink</code> as a first-class packaging strategy, producing smaller, faster, self-contained application images, with the long-term goal of making modular packaging the default and phasing out the legacy fast-jar layout.</p>\n"
-"<h2>The Problem</h2>\n"
-"<h3>Class Loading Architecture Debt</h3>\n"
-"<p>The Quarkus codebase contains between 15 and 20 class loader implementations, each with different behavior. These serve a variety of purposes, exposing hidden APIs, setting up execution environments for different launch modes, working around upstream issues, customizing parent delegation; but the ad hoc approach creates concurrency issues, virtual thread pinning, delegation bugs, and makes it nearly impossible to support JPMS properly.</p>\n"
-"<h3>No JPMS Support</h3>\n"
-"<p>Quarkus applications cannot take advantage of the Java Platform Module System. This means:</p>\n"
-"<ul>\n"
-"<li><strong>No module isolation</strong>: all application code, extensions, and dependencies share a flat classpath. There is no enforcement of encapsulation boundaries between artifacts at runtime.</li>\n"
-"<li><strong>No <code>jlink</code> support</strong>: applications cannot use <code>jlink</code> to produce optimized, stripped-down JVM images containing only the modules actually needed, resulting in unnecessarily large deployments.</li>\n"
-"<li><strong>No forward compatibility</strong>: future JDK features (FFM restrictions, Leyden AOT, serialization restrictions) increasingly assume or require JPMS. Without module support, Quarkus will face growing friction with each JDK release.</li>\n"
-"<li><strong>Split packages and service loading issues</strong>: the current flat classpath tolerates split packages and uncontrolled service loading, which masks real dependency problems and makes the classpath fragile.</li>\n"
-"</ul>\n"
-"<h3>Packaging Inefficiency</h3>\n"
-"<p>The current fast-jar packaging produces application images that are significantly larger than they need to be:</p>\n"
-"<ul>\n"
-"<li>Applications bundle the entire JDK (or require one to be pre-installed), even though most applications use a small fraction of JDK modules</li>\n"
-"<li>No tree-shaking of unused JDK modules</li>\n"
-"<li>Container images cannot effectively share JVM layers across different Quarkus applications</li>\n"
-"<li>Image size comparison from prototype work shows: <strong>GraalVM native &lt; jlink (modular) &lt; fast-jar &lt; AOT</strong> — meaning jlink provides a substantial size improvement over fast-jar without the complexity and limitations of native compilation</li>\n"
-"</ul>\n"
-"<h3>No Optimized Container Layering</h3>\n"
-"<p>A <code>jlink</code>-based modular image contains its own JVM, which allows container images to use a minimal base layer (no JDK required in the base). This opens the door to effective layer sharing across Quarkus applications running the same Quarkus version, the Quarkus core + JDK modules layer can be shared, with only the application layer differing. Today, this is not possible.</p>\n"
-"<h2>The Proposed Solution</h2>\n"
-"<h3>JPMS Modularization of Quarkus</h3>\n"
-"<p>Systematically modularize the Quarkus codebase so that each dependency/artifact gets its own class loader and module:</p>\n"
-"<ul>\n"
-"<li>Artifacts with <code>module-info.java</code> are created as named modules</li>\n"
-"<li>Other artifacts are created as unnamed modules with automatic module names</li>\n"
-"<li>A modular class loader architecture (based on David's <code>modules3</code> prototype) replaces the current ad hoc class loaders</li>\n"
-"<li>Each module has proper <code>exports</code>, <code>opens</code>, <code>requires</code>, <code>uses</code>, and <code>provides</code> declarations</li>\n"
-"</ul>\n"
-"<p><strong>Current prototype status:</strong> David's prototype (<code>dmlloyd/quarkus@modular</code> + <code>dmlloyd/modules3</code>) demonstrates this approach working. In the <code>getting-started</code> example, 39 out of 111 JARs are already modular. The remaining need automatic module names or full <code>module-info</code> files. Approximately 6-7 manual module patches are still required to start an application.</p>\n"
-"<p><strong>Key challenges to resolve:</strong></p>\n"
-"<ul>\n"
-"<li>Split packages between artifacts (tracked in #44710, not as bad as it initially appears)</li>\n"
-"<li>Generated classes at build time need a module home (#44657, more serious)</li>\n"
-"<li>Service loading across module boundaries needs correct <code>uses</code>/<code>provides</code> declarations</li>\n"
-"<li>Some artifacts will remain as unnamed modules until upstream projects add <code>module-info</code></li>\n"
-"</ul>\n"
-"<h3>JLink Packaging</h3>\n"
-"<p>Introduce <code>jlink</code> as a packaging type for Quarkus applications:</p>\n"
-"<ul>\n"
-"<li>Produce a self-contained application image with only the JDK modules actually used</li>\n"
-"<li>The image includes a custom JVM runtime, the modular application, and a launcher</li>\n"
-"<li>No external JDK installation required to run the application</li>\n"
-"<li>Performance is slightly better than fast-jar even without AOT (demonstrated in prototype)</li>\n"
-"</ul>\n"
-"<p><strong>Image layout:</strong></p>\n"
-"<ul>\n"
-"<li>A <code>jlink</code>-produced image is a directory containing <code>bin/</code> (launcher), <code>lib/</code> (JVM modules + application modules), and <code>conf/</code></li>\n"
-"<li>The layout naturally supports container image layering: JVM + Quarkus core in a shared base layer, application modules in the top layer</li>\n"
-"</ul>\n"
-"<h3>Container Image Optimization</h3>\n"
-"<p>Leverage the modular architecture for optimized container images:</p>\n"
-"<ul>\n"
-"<li><strong>Shared base layers</strong>: multiple Quarkus applications running the same Quarkus version share a common layer containing the JDK modules and Quarkus core, dramatically reducing per-application image size</li>\n"
-"<li><strong>Minimal base image</strong>: since jlink embeds the JVM, containers can use a minimal base (e.g., <code>ubi-micro</code>, <code>scratch</code> or <code>distroless</code>) instead of a JDK base image</li>\n"
-"<li><strong>AOT layering</strong>: AOT cache currently causes prohibitive image size bloat, but a layering strategy (AOT cache in a shared layer) may provide a partial solution; this needs investigation</li>\n"
-"</ul>\n"
-"<h3>Long-Term: Default Modular Packaging</h3>\n"
-"<p>The long-term goal is to make modular packaging the default build and test mode, phasing out the legacy fast-jar layout:</p>\n"
-"<ol>\n"
-"<li>First, modular packaging exists as an opt-in alternative (<code>MODULAR</code> packaging type or dedicated extension)</li>\n"
-"<li>Then, CI builds and tests run against both fast-jar and modular packaging</li>\n"
-"<li>Eventually, modular packaging becomes the default, with fast-jar available as a fallback</li>\n"
-"<li>Finally, fast-jar is deprecated and removed</li>\n"
-"</ol>\n"
-"<h3>Leyden / CDS Integration</h3>\n"
-"<p>The modular architecture positions Quarkus well for Project Leyden:</p>\n"
-"<ul>\n"
-"<li>The Quarkus core and bootstrap layer is loaded by the system class loader, making it eligible for Leyden premain optimizations</li>\n"
-"<li>A shared Leyden-trained layer (JDK modules + Quarkus core) could be reused across applications</li>\n"
-"<li>Extension and user code in separate module layers can benefit from Leyden independently</li>\n"
-"<li>Full Leyden integration is out of scope for this WG but the architecture should not preclude it</li>\n"
-"</ul>\n"
-"<h2>Definition of Done</h2>\n"
-"<ul>\n"
-"<li>[ ] Quarkus core modules have <code>module-info.java</code> descriptors (or automatic module names as an intermediate step)</li>\n"
-"<li>[ ] Applications can be built with modular packaging (<code>jlink</code> output)</li>\n"
-"<li>[ ] A <code>jlink</code>-packaged application starts and runs correctly (getting-started, REST, database scenarios)</li>\n"
-"<li>[ ] No manual module patches required to start an application</li>\n"
-"<li>[ ] Split package issues resolved for core Quarkus modules</li>\n"
-"<li>[ ] Generated classes have a proper module home</li>\n"
-"<li>[ ] Service loading works correctly across module boundaries</li>\n"
-"<li>[ ] <code>jlink</code> image size is smaller than fast-jar for equivalent applications</li>\n"
-"<li>[ ] Container image guide documents the layering strategy for modular images</li>\n"
-"<li>[ ] Performance is on par with or better than fast-jar</li>\n"
-"<li>[ ] Dev mode works with modular class loading</li>\n"
-"<li>[ ] Extension developer guide for making extensions module-friendly</li>\n"
-"</ul>\n"
-"<h2>Scope of Work</h2>\n"
-"<h3>In Scope</h3>\n"
-"<ul>\n"
-"<li>JPMS modularization of Quarkus core modules (<code>module-info.java</code> + automatic module names)</li>\n"
-"<li>Modular class loader architecture (replacing ad hoc class loaders for the modular packaging path)</li>\n"
-"<li><code>jlink</code> packaging type for Quarkus applications (name to be defined)</li>\n"
-"<li>Resolving split packages and generated class module assignment</li>\n"
-"<li>Service loading across module boundaries</li>\n"
-"<li>Container image layering strategy for modular images</li>\n"
-"<li>Dev mode support with modular class loading</li>\n"
-"<li>Extension author guidance for module compatibility</li>\n"
-"<li>Performance validation (startup time, memory, image size)</li>\n"
-"</ul>\n"
-"<h3>Out of Scope</h3>\n"
-"<ul>\n"
-"<li>Full rewrite of all 15-20 existing class loaders (incremental cleanup continues separately)</li>\n"
-"<li>Test class loading rework (covered by a separate WG)</li>\n"
-"<li>Project Leyden / CDS integration (parrallel work, but architecture should not preclude it)</li>\n"
-"<li>Modularizing third-party dependencies (upstream responsibility; Quarkus handles them as unnamed/automatic modules)</li>\n"
-"</ul>\n"
-"<h2>Organizing the Work</h2>\n"
-"<h3>Communication</h3>\n"
-"<ul>\n"
-"<li>Proposal: https://github.com/quarkusio/quarkus/discussions/53223</li>\n"
-"<li>Discussion: <a href=\"https://quarkusio.zulipchat.com/#narrow/channel/187038-dev/topic/wg-modularity/with/581640512\">#wg-modularity</a></li>\n"
-"<li>Point of contact: @dmlloyd</li>\n"
-"</ul>\n"
-"<h3>Existing Issues and Discussions</h3>\n"
-"<ul>\n"
-"<li><a href=\"https://github.com/quarkusio/quarkus/discussions/43749\">#43749</a> — Class loading WG discussion</li>\n"
-"<li><a href=\"https://github.com/quarkusio/quarkus/issues/43726\">#43726</a> — Class loader cleanup umbrella</li>\n"
-"<li><a href=\"https://github.com/quarkusio/quarkus/issues/44710\">#44710</a> — Split packages</li>\n"
-"<li><a href=\"https://github.com/quarkusio/quarkus/issues/44657\">#44657</a> — Generated classes and modules</li>\n"
-"</ul>\n"
-msgstr ""
-
-#. type: Hash Value: working-groups short-description
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Make Quarkus applications fully modular using JPMS (Java Platform Module System) and enable jlink as a first-class packaging strategy, producing smaller, faster, self-contained application images, with the long-term goal of making modular packaging the default and phasing out the legacy fast-jar lay\n"
-msgstr ""
-
-#. type: Hash Value: working-groups title
-#: upstream/_data/wg.yaml:0
-#, no-wrap
-msgid "Modularity (JPMS) and JLink"
-msgstr ""
 
 #. type: Hash Value: working-groups board-url
 #: upstream/_data/wg.yaml:0
