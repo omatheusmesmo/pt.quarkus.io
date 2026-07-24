@@ -7226,14 +7226,6 @@ With the editor, you can effortlessly create and update the necessary resources 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>... and a name of a method that should compute the value of the header. It can either be a static method or a default method in this interface</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -8352,6 +8344,14 @@ public void onReload(@Observes CertificateUpdatedEvent reload) {
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>/guias/security-oidc-bearer-token-authentication-concept</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>/guides/security-oidc-bearer-token-authentication-concept/index.html</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>/guias/security-oidc-bearer-token-authentication-concept/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -18013,7 +18013,7 @@ To generate the index just add the following to your `pom.xml`:</seg>
         <seg>A description of OpenShift resources and customisable properties is given below alongside Kubernetes resources to show similarities where applicable.   This includes an alternative to  `oc new-app ...` above, i.e. `oc apply -f target/kubernetes/openshift.json` .</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Uma descrição dos recursos do OpenShift e das propriedades personalizáveis é fornecida abaixo, juntamente com os recursos do Kubernetes, para mostrar semelhanças quando aplicável. Isso inclui uma alternativa para `oc new-app …​` acima, ou seja, `oc apply -f target/kubernetes/openshift.json` .</seg>
+        <seg>Uma descrição dos recursos do OpenShift e das propriedades personalizáveis é fornecida abaixo, juntamente com os recursos do Kubernetes, para mostrar as semelhanças quando aplicável. Isso inclui uma alternativa para `oc new-app …​` acima, ou seja, `oc apply -f target/kubernetes/openshift.json` .</seg>
       </tuv>
     </tu>
     <tu>
@@ -67698,14 +67698,6 @@ to avoid common pitfalls.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Dev Services and UI for OpenID Connect (OIDC)</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Serviços de desenvolvimento e UI para OpenID Connect (OIDC)</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Dev Services are designed to be frictionless, so they will be automatically started any time you include an extension which supports
 Dev Services, as long as you don't configure a connection to an external service.</seg>
       </tuv>
@@ -70331,7 +70323,7 @@ The following sections will show you everything there is to know about it.</seg>
         <seg>Revisão do documento: 22 de abril de 2025</seg>
       </tuv>
     </tu>
-    <tu>
+  <tu>
       <tuv xml:lang="en">
         <seg>Document stores</seg>
       </tuv>
@@ -93347,14 +93339,6 @@ If all entities should be targeted, then `Object.class` can be used to create th
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Comece adicionando essa extensão:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Get started with Quarkus Security by securing your Quarkus application endpoints with the built-in Quarkus Basic authentication and the Jakarta Persistence identity provider and enabling role-based access control.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Comece a usar o Quarkus Security protegendo os pontos de extremidade do aplicativo Quarkus com a autenticação integrada do Quarkus Basic e o provedor de identidade Jakarta Persistence e habilitando o controle de acesso baseado em função.</seg>
       </tuv>
     </tu>
     <tu>
@@ -122884,7 +122868,7 @@ Today, we benefit from an extension hub that quells all previous concerns and en
         <seg>Em especial para a versão 3.11, obrigado a Alasdair Preston, Aleksandr Nichiporuk, Ales Justin, Alexey Loubyansky, Andy Damevin, Antonio Musarra, antonwiens, Arcane418, asjervanasten, Bruno Baptista, Chris Laprun, cknoblauch, Clement Escoffier, Danny Gräf, David M. Lloyd, emile, Eric Deandrea, Foivos Zakkak, Fouad Almalki, George Gastaldi, Georgios Andrianakis, glefloch, Guillaume Smet, Gwenneg Lepage, Holly Cummins, Ivan Puntev, Jakub Jedlicka, Jan Martiska, Juan Zuriaga, Katia Aresti, Ladislav Thon, Lin Gao, Lorenzo Vannucchi, Loïc Mathieu, Marc Nuri, Marek Skacelik, mariofusco, Martin Kouba, Matej Novotny, Max Rydahl Andersen, Michal Maléř, Michal Vavřík, Nathan Erwin, Nithanim, Ozan Gunalp, Phillip Krüger, punkepa, Roberto Cortez, Rostislav Svoboda, Sanne Grinovero, Sauli Ketola, Selim, Sergey Beryozkin, Stuart Douglas, Stéphane Épardaud, Thomas Segismont, Vincent Sourin, Vinicius A. Santos, vkn, Yoann Rodière e Zheng Feng.</seg>
       </tuv>
     </tu>
-  <tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>In particular for the 3.12 release, thanks to Alex Martel, Alexey Loubyansky, Andre F de Miranda, Andy Damevin, Arthur Burke, Auri Munoz, Bruno Baptista, Chihiro Ito, Chris Laprun, Christian Navolskyi, Christian Schmidt, cknoblauch, Clement Escoffier, Cody Moore, Daniel Meier, David Andlinger, David M. Lloyd, Davide D'Alto, Eric Deandrea, Fabrice Bauzac-Stehly, Floris Westerman, Foivos Zakkak, Fouad Almalki, Galder Zamarreño, George Gastaldi, Georgios Andrianakis, Giancarlo Calderón Cárdenas, Graham Cunningham, Guillaume Smet, Harsh Bhagat, Holly Cummins, Ioannis Canellos, Jakub Jedlicka, Jerome Prinet, Katia Aresti, Ladislav Thon, Marc Nuri, Marco Schaub, marko-bekhta, Martin Kouba, Matej Novotny, Matheus Cruz, Max Rydahl Andersen, Michal Karm Babacek, Michal Vavřík, Nithanim, Ozan Gunalp, Patryk Najda, Peter Palaga, Phillip Krüger, Pierre Cheucle, Rolfe Dlugy-Hegwer, Said BOUDJELDA, Sanne Grinovero, Sergey Beryozkin, Siva_M7, Stéphane Épardaud, Tamaro Skaljic, Thibault Meyer, Thomas Darimont, Vincent Sevel, vkn, vsevel, Yoann Rodière, and Yoshikazu Nojima.</seg>
       </tuv>
@@ -139332,14 +139316,6 @@ Create a file called `src/main/resources/json-schema.json` with the schema for o
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>June 12, 2024</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>12 de junho de 2024</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>June 13, 2023</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -142322,6 +142298,14 @@ uses that to get the required credentials and send proof of them to the server (
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Saiba como habilitar a autorização de token de portador em seu aplicativo Quarkus usando o link:https://www.keycloak.org/docs/latest/authorization_services/index.html[Keycloak Authorization Services] para obter acesso seguro a recursos protegidos.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Learn how to enable bearer token authorization in your Quarkus application using Keycloak Authorization Services for secure access to protected resources.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Saiba como habilitar a autorização de token de portador em seu aplicativo Quarkus usando o Keycloak Authorization Services para obter acesso seguro a recursos protegidos.</seg>
       </tuv>
     </tu>
     <tu>
@@ -165913,6 +165897,14 @@ The following conditions must be met for the issuer-based resolution to work:</s
     </tu>
     <tu>
       <tuv xml:lang="en">
+        <seg>OTel-LGTM is all-in-one Docker image containing OpenTelemetry&amp;#8217;s OTLP as the protocol to transport metrics, tracing and logging data to an OpenTelemetry Collector which then stores signals data into Prometheus (metrics), Tempo (traces) and Loki (logs), only to have it visualized by Grafana.</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>O OTel-LGTM é uma imagem completa do Docker que contém o OTLP do OpenTelemetry como protocolo para transportar métricas, rastreamento e dados de registro para um OpenTelemetry Collector que, em seguida, armazena dados de sinais no Prometheus (métricas), Tempo (rastreamentos) e Loki (registros), apenas para serem visualizados pelo Grafana.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Objects of type `String`, `JsonObject`, `JsonArray`, `Buffer`, and `byte[]` are sent as-is and bypass the serialization and deserialization.
 When no codec is provided, the serialization and deserialization convert the message from/to JSON automatically.</seg>
       </tuv>
@@ -170222,14 +170214,6 @@ Quarkus will redirect you to Slack provider on the first request where you can g
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>OpenID Connect (OIDC) and OAuth2 Client and Filters Reference Guide</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Guia de referência para clientes e filtros OpenID Connect (OIDC) e OAuth2</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>OpenID Connect (OIDC) and OAuth2 client and filters</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -170275,14 +170259,6 @@ OIDC enables client applications to verify the identity of a user based on the a
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Cliente e filtros do OpenID Connect</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>OpenID Connect Client and Token Propagation Quickstart</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Início rápido do cliente OpenID Connect e propagação de token</seg>
       </tuv>
     </tu>
     <tu>
@@ -176218,14 +176194,6 @@ and report any problem to us by https://github.com/quarkusio/quarkus/issues[crea
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Podman is a daemonless and rootless container engine for developing, managing, and running OCI Containers on your Linux system or other OS.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Podman é um mecanismo de contêiner sem daemon e sem raiz para desenvolver, gerenciar e executar contêineres OCI no seu sistema Linux ou em outro sistema operacional.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Podman is a daemonless container engine for developing, managing, and running Containers on Linux systems. Since the
 release of version 3, Podman allows the user to run a service emulating a Docker API provided on a  Unix socket. This
 makes it possible for Testcontainers and Quarkus Dev Services to be utilized with Podman.</seg>
@@ -177491,14 +177459,6 @@ xref:security-built-in-authentication.adoc#proactive-authentication[Proactive Au
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>A autenticação proativa HTTP precisa ser desativada ( `quarkus.http.auth.proactive=false` ) para que isso funcione. Consulte a seção xref:security-built-in-authentication.adoc#proactive-authentication[Autenticação proativa] para obter mais detalhes.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Proactive authentication is enabled in Quarkus by default.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>A autenticação proativa é ativada no Quarkus por padrão.</seg>
       </tuv>
     </tu>
     <tu>
@@ -185238,14 +185198,6 @@ complete the conversion of these credentials to `SecurityIdentity`.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Quarkus Security is a framework that provides the architecture, multiple authentication and authorization mechanisms, and other tools for you to build secure and production-quality Java applications.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Quarkus Security é uma estrutura que fornece a arquitetura, vários mecanismos de autenticação e autorização e outras ferramentas para que o senhor crie aplicativos Java seguros e com qualidade de produção.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Quarkus Security is customizable.
 You can customize the following core security components of Quarkus:</seg>
       </tuv>
@@ -187549,14 +187501,6 @@ In Quarkus 1.5, we introduced a new packaging type called Fast jar, which main o
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Quarkus has an integrated pluggable web security layer.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Quarkus tem uma camada de segurança da Web integrada e conectável.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Quarkus has an integrated pluggable web security layer.
 If security is enabled, all HTTP requests have a permission check performed to verify that they are allowed to continue.
 Therefore, you cannot use `@PermitAll` to open a path if the path is blocked by the `quarkus.http.auth.` configuration.</seg>
@@ -189052,14 +188996,6 @@ It starts a Keycloak container for both the dev and/or test modes and initialize
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O Quarkus fornece o recurso `Dev Services For Keycloak` , que é ativado por padrão quando a extensão `quarkus-oidc` é iniciada no modo de desenvolvimento e quando os testes de integração são executados no modo de teste, mas somente quando nenhuma propriedade `quarkus.oidc.auth-server-url` é configurada. Ele inicia um contêiner do Keycloak para os modos de desenvolvimento e/ou teste e os inicializa registrando o reino do Keycloak existente ou criando um novo reino com o cliente e os usuários para que o usuário possa começar a desenvolver o aplicativo Quarkus protegido pelo Keycloak imediatamente. O contêiner será reiniciado quando forem detectadas as alterações no arquivo `application.properties` ou no realm.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quarkus provides a Jakarta Persistence (formerly known as JPA) identity provider, similar to the JDBC identity provider, suitable for use with the Basic and Form-based Quarkus Security mechanisms, which require a combination of username and password credentials.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O Quarkus fornece um provedor de identidade Jakarta Persistence (anteriormente conhecido como JPA), semelhante ao provedor de identidade JDBC, adequado para uso com os mecanismos de segurança Quarkus Basic e Form-based, que exigem uma combinação de credenciais de nome de usuário e senha.</seg>
       </tuv>
     </tu>
     <tu>
@@ -201098,14 +201034,6 @@ image:qute-renarde-tags-completion.png[Renarde tags completion]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Proteja os pontos de extremidade do aplicativo Quarkus combinando a autenticação HTTP básica integrada do Quarkus com o provedor de identidade JPA para permitir o controle de acesso baseado em função (RBAC).</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Secure your Quarkus application endpoints by combining the built-in Quarkus Basic authentication with the Jakarta Persistence identity provider to enable role-based access control (RBAC).</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Proteja os pontos de extremidade do aplicativo Quarkus combinando a autenticação integrada do Quarkus Basic com o provedor de identidade Jakarta Persistence para ativar o controle de acesso baseado em função (RBAC).</seg>
       </tuv>
     </tu>
     <tu>
@@ -265272,14 +265200,6 @@ how you can test it via a user-friendly UI named Swagger UI.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>This guide explains how your Quarkus application can utilize OpenTelemetry Logging to provide distributed logging for interactive web applications.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Este guia explica como o seu aplicativo Quarkus pode utilizar o OpenTelemetry Logging para fornecer registro distribuído para aplicativos interativos da Web.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>This guide explains how your Quarkus application can utilize OpenTelemetry Tracing to provide distributed tracing for interactive web applications.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -269830,14 +269750,6 @@ Run the following to add this to your `application.properties`:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Este guia de referência explica como ativar o Compartilhamento de dados de classe de aplicativo em seus aplicativos Quarkus.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This reference guide explains how to use:</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Este guia de referência explica como usar:</seg>
       </tuv>
     </tu>
     <tu>
@@ -288869,14 +288781,6 @@ into Minikube's Docker daemon. To use Minikube's Docker daemon you must first ex
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Using Docker</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Usando o Docker</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Using Eclipse Vert.x API from a Quarkus Application</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -289050,14 +288954,6 @@ As most web applications use JSON to exchange messages, using it with Kafka soun
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>O uso de Multiple Outgoings pode ser útil para implementar padrões de fan-out, nos quais uma única mensagem é processada por vários canais de destino.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Using OpenID Connect (OIDC) and Keycloak to Centralize Authorization</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Uso do OpenID Connect (OIDC) e do Keycloak para centralizar a autorização</seg>
       </tuv>
     </tu>
     <tu>
@@ -289363,14 +289259,6 @@ but this support was limited. In particular, Pact tests couldn't run in continuo
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Usando a ferramenta Cenário de teste</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Using Transactions in Quarkus</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Uso de transações no Quarkus</seg>
       </tuv>
     </tu>
     <tu>
@@ -292374,6 +292262,14 @@ Other extensions should follow a similar pattern when they are setting up a new 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Vinicius Ferraz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Virtual</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>Virtual</seg>
       </tuv>
     </tu>
     <tu>
@@ -311461,14 +311357,6 @@ each with its own datasource and configuration.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>With the Quarkus OpenID Connect (OIDC) extension, you can protect application HTTP endpoints by using the OIDC Authorization Code Flow mechanism.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Com a extensão Quarkus OpenID Connect (OIDC), o senhor pode proteger os pontos de extremidade HTTP do aplicativo usando o mecanismo OIDC Authorization Code Flow.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>With the Quarkus extensions ecosystem growing, we improved information about extensions
 in the Quarkus project wizard.</seg>
       </tuv>
@@ -326831,14 +326719,6 @@ by using AI to adhere to hard and soft scheduling _constraints_, such as the fol
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Configuração zero no modo de desenvolvimento</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Zineb Bendhiba</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Zineb Bendhiba</seg>
       </tuv>
     </tu>
     <tu>
@@ -368109,14 +367989,6 @@ You can read more on the blocking processing in link:{rm_blocking_docs}[SmallRye
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>oidc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>oidc github twitter google facebook mastodon microsoft apple spotify twitch</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>oidc github twitter google facebook mastodon microsoft apple spotify twitch</seg>
       </tuv>
     </tu>
     <tu>
