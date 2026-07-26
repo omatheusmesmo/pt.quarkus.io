@@ -27680,14 +27680,6 @@ Thus, even though extra JDBC URL properties can be set in your `application.prop
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>All the "code" for this work is published in https://github.com/quarkusio/quarkus/tree/main/jakarta[the `jakarta` root folder of the Quarkus repository].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Todo o "código" deste trabalho está publicado na  link:https://github.com/quarkusio/quarkus/tree/main/jakarta[pasta raiz `jakarta` do repositório Quarkus].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>All the JWT claims can also be injected.
 Let's expand our `TokenSecuredResource` with another endpoint /secured/roles-allowed-admin which uses the injected `birthdate` claim (as opposed to getting it from `JsonWebToken`):</seg>
       </tuv>
@@ -70176,14 +70168,6 @@ The following sections will show you everything there is to know about it.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Doc: https://github.com/quarkusio/quarkus/blob/master/independent-projects/tools/codestarts/codestarts.adoc</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Doc:  https://github.com/quarkusio/quarkus/blob/master/independent-projects/tools/codestarts/codestarts.adoc</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Docker (min v1.13.1)</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -77903,14 +77887,6 @@ to create, delete, and update your functions.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Example codestarts dir: https://github.com/quarkusio/quarkus/tree/main/devtools/platform-descriptor-json/src/main/resources/codestarts</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Exemplo de dir. codestarts:  https://github.com/quarkusio/quarkus/tree/main/devtools/platform-descriptor-json/src/main/resources/codestarts</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Example configuration</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82148,14 +82124,6 @@ Instead, set the `quarkus.kubernetes-client.master-url` config property and auth
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Find more about the loom-unit extension on https://github.com/cescoffier/loom-unit[the project repository] or its https://github.com/quarkusio/quarkus/tree/main/independent-projects/junit5-virtual-threads[Quarkus sibling].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Saiba mais sobre a extensão loom-unit no  link:https://github.com/cescoffier/loom-unit[repositório do projeto] ou em seu  link:https://github.com/quarkusio/quarkus/tree/main/independent-projects/junit5-virtual-threads[irmão Quarkus].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Find more info about Mutiny and its usage in Quarkus on xref:mutiny-primer.adoc[Mutiny support documentation].</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -82333,14 +82301,6 @@ Then enter your `Redirect URIs` (set to `&lt;host&gt;/facebook`) and press `Save
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Primeiro, crie um novo projeto usando:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>First is that the programming model provided by Quarkus is very powerful, allowing you to easily focus on the business logic of your application. See https://quarkus.io/blog/mcp-server/[previous blog] for details on how to implement a server or look at the https://github.com/quarkiverse/quarkus-mcp-servers/blob/main/jdbc/src/main/java/io/quarkus/mcp/servers/jdbc/MCPServerJDBC.java[code of the JDBC servers]. Notice how compact it is!</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>A primeira é que o modelo de programação fornecido pelo Quarkus é muito poderoso, permitindo que o senhor se concentre facilmente na lógica comercial do seu aplicativo. Consulte o link:https://quarkus.io/blog/mcp-server/[blog anterior] para obter detalhes sobre como implementar um servidor ou veja o link:https://github.com/quarkiverse/quarkus-mcp-servers/blob/main/jdbc/src/main/java/io/quarkus/mcp/servers/jdbc/MCPServerJDBC.java[código dos servidores JDBC] . Observe como ele é compacto!</seg>
       </tuv>
     </tu>
     <tu>
@@ -89645,14 +89605,6 @@ It will be available soon.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Por enquanto, essa integração só está disponível com o Maven, mas contribuições são muito bem-vindas para integrá-la ao plug-in do Gradle.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>For now, we focus on the https://github.com/quarkusio/quarkus/blob/master/extensions[core extensions,role=external,window=_blank], but we will make it available to the broader ecosystem soon.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Por enquanto, concentramo-nos nas  link:https://github.com/quarkusio/quarkus/blob/master/extensions[extensões principais, role=external, window=_blank], mas iremos disponibilizá-las ao ecossistema mais vasto em breve.</seg>
       </tuv>
     </tu>
     <tu>
@@ -97369,14 +97321,6 @@ could prove useful for more complex use cases.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Eis os testemunhos de utilização do Quarkus dos membros da equipa de desenvolvimento da plataforma VCStream.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Here are the Codestarts https://github.com/quarkusio/quarkus/tree/main/independent-projects/tools/codestarts[core code], and the https://github.com/quarkusio/quarkus/tree/main/devtools/platform-descriptor-json/src/main/resources/bundled-codestarts[base codestarts] used to scaffold your Quarkus application.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Eis o  link:https://github.com/quarkusio/quarkus/tree/main/independent-projects/tools/codestarts[código principal] dos Codestarts e os  link:https://github.com/quarkusio/quarkus/tree/main/devtools/platform-descriptor-json/src/main/resources/bundled-codestarts[codestarts de base] utilizados para estruturar a sua aplicação Quarkus.</seg>
       </tuv>
     </tu>
     <tu>
@@ -242706,14 +242650,6 @@ It allows integrating OIDC service endpoints with SPAs without having to expose 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>The https://github.com/quarkusio/quarkus-super-heroes/tree/main/deploy/docker-compose[`+deploy/docker-compose+`^] directory in the https://github.com/quarkusio/quarkus-super-heroes[root of the respository^] contains compose files for each of the four versions of the application: JVM 11, JVM 17, native built with Java 11, and native built with Java 17. Additionally, https://prometheus.io[Prometheus^] monitoring can be started with the https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/docker-compose/prometheus.yml[supplied `+prometheus.yml+` file^].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O diretório  link:https://github.com/quarkusio/quarkus-super-heroes/tree/main/deploy/docker-compose[`deploy/docker-compose`, window=_blank] na  link:https://github.com/quarkusio/quarkus-super-heroes[raiz do repositório, window=_blank] contém ficheiros de composição para cada uma das quatro versões da aplicação: JVM 11, JVM 17, nativa construída com Java 11 e nativa construída com Java 17. Além disso, o monitoramento  link:https://prometheus.io[do Prometheus, window=_blank] pode ser iniciado com o  link:https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/docker-compose/prometheus.yml[arquivo `prometheus.yml` fornecido, window=_blank].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>The https://github.com/quarkusio/quarkus-super-heroes/tree/main/deploy/k8s[`+deploy/k8s+`^] directory in the https://github.com/quarkusio/quarkus-super-heroes[root of the respository^] contains Kubernetes descriptors for each of the four versions of the application: JVM 11, JVM 17, native built with Java 11, and native built with Java 17.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -263513,16 +263449,6 @@ Key points include:</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>This example illustrates how an agent can use _tools_ to retrieve data.
-While we use a search engine here, you can easily implement a tool that queries a database or another service to retrieve the needed information.
-You can check https://github.com/quarkusio/quarkus-workshop-langchain4j/blob/main/step-08/src/main/java/dev/langchain4j/quarkus/workshop/BookingRepository.java[this example] to see how to implement a tool that queries a database using a Quarkus Panache repository.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Este exemplo ilustra como um agente pode usar _ferramentas_ para recuperar dados. Embora usemos um mecanismo de pesquisa aqui, o senhor pode implementar facilmente uma ferramenta que consulta um banco de dados ou outro serviço para recuperar as informações necessárias. O senhor pode conferir link:https://github.com/quarkusio/quarkus-workshop-langchain4j/blob/main/step-08/src/main/java/dev/langchain4j/quarkus/workshop/BookingRepository.java[este exemplo] para ver como implementar uma ferramenta que consulta um banco de dados usando um repositório Quarkus Panache.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>This example is using recorder proxies; see the section on &lt;&lt;bytecode-recording,bytecode recording&gt;&gt; for more information.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -275152,14 +275078,6 @@ and call `purge`, passing the author class and identifier in argument.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>To deploy Prometheus monitoring in addition to the application, `+kubectl apply -f+` (or `+oc apply -f+` if using OpenShift) the appropriate Prometheus Kubernetes descriptor based on the target Kubernetes environment: https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/k8s/prometheus-openshift.yml[`+prometheus-openshift.yml+`^], https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/k8s/prometheus-minikube.yml[`+prometheus-minikube.yml+`^], or https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/k8s/prometheus-kubernetes.yml[`+prometheus-kubernetes.yml+`^].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Para implantar o monitoramento do Prometheus além do aplicativo, `kubectl apply -f` (ou `oc apply -f` se estiver usando o OpenShift) o descritor do Prometheus Kubernetes apropriado com base no ambiente Kubernetes de destino:  link:https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/k8s/prometheus-openshift.yml[`prometheus-openshift.yml`, window=_blank],  link:https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/k8s/prometheus-minikube.yml[`prometheus-minikube.yml`, window=_blank], ou  link:https://github.com/quarkusio/quarkus-super-heroes/blob/main/deploy/k8s/prometheus-kubernetes.yml[`prometheus-kubernetes.yml`, window=_blank].</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>To deploy a JVM application:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -280913,15 +280831,6 @@ or you can configure your Elasticsearch index to store those fields as text or k
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Para contornar essa limitação, o senhor pode desativar o envio de parâmetros de mensagem de log via `logging-gelf` configurando `quarkus.log.handler.gelf.include-log-message-parameters=false` , ou pode configurar o índice do Elasticsearch para armazenar esses campos como texto ou palavra-chave, e o Elasticsearch fará a tradução automática de int/boolean para String.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>To workaround the unsupported constructs used by Avro, we implemented a set of https://github.com/quarkusio/quarkus/blob/master/extensions/avro/runtime/src/main/java/io/quarkus/avro/graal/AvroSubstitutions.java[substitutions].
-We replaced method handles with reflection.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Para contornar as construções sem suporte usadas pelo Avro, implementamos um conjunto de link:https://github.com/quarkusio/quarkus/blob/master/extensions/avro/runtime/src/main/java/io/quarkus/avro/graal/AvroSubstitutions.java[substituições] . Substituímos os manipuladores de métodos por reflexões.</seg>
       </tuv>
     </tu>
     <tu>
@@ -297483,14 +297392,6 @@ Until then, we encourage you to test it and report your feedback.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Fornecemos uma configuração fácil para muitos fornecedores comuns de OIDC e adicionámos suporte para um novo fornecedor: Twitch.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>We provide https://github.com/quarkusio/quarkus/blob/master/independent-projects/tools/codestarts/README.adoc[doc and tooling,role=external,window=_blank] for it, you may also https://quarkusio.zulipchat.com/#narrow/stream/187038-dev/topic/Codestarts.2E.2E.2E[come and ping me (@ia3andy) on Zulip,role=external,window=_blank] for more info.</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Fornecemos  link:https://github.com/quarkusio/quarkus/blob/master/independent-projects/tools/codestarts/README.adoc[documentos e ferramentas, role=external, window=_blank] para o efeito. Pode também  link:https://quarkusio.zulipchat.com/#narrow/stream/187038-dev/topic/Codestarts.2E.2E.2E[contactar-me (@ia3andy) no Zulip, role=external, window=_blank] para mais informações.</seg>
       </tuv>
     </tu>
     <tu>
@@ -317700,14 +317601,6 @@ link:{hibernate-search-docs-url}#compatibility[this section of Hibernate Search'
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Para obter mais informações sobre como configurar o processo de criação de imagens nativas, consulte a seção &lt;&lt;configuration-reference&gt;&gt; abaixo.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>You can find more information about it in https://github.com/quarkusio/quarkus/tree/main/jakarta#jakarta-migration[the README.md of the `jakarta` folder].</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Pode encontrar mais informações sobre o mesmo no  link:https://github.com/quarkusio/quarkus/tree/main/jakarta#jakarta-migration[README.md da pasta `jakarta`].</seg>
       </tuv>
     </tu>
     <tu>
@@ -374112,6 +374005,14 @@ quarkus.oidc-client.oidc-client-for-graphql.credentials.client-secret.method=POS
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>ssr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>staled</seg>
+      </tuv>
+      <tuv xml:lang="pt_BR">
+        <seg>estagnado</seg>
       </tuv>
     </tu>
     <tu>
