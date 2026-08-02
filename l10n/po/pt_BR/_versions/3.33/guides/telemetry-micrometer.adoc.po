@@ -229,7 +229,7 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/3.33/guides/telemetry-micrometer.adoc
-msgid "This example corresponds to the following instructions in the Micrometer documentation: link:https://micrometer.io/docs/registry/statsD#_customizing_the_metrics_sink[Micrometer StatsD: Customizing the Metrics Sink]"
+msgid "This example corresponds to the following instructions in the Micrometer documentation: link:https://docs.micrometer.io/micrometer/reference/implementations/statsD.html#_customizing_the_metrics_sink[Micrometer StatsD: Customizing the Metrics Sink]"
 msgstr ""
 
 #. type: Plain text
@@ -1319,7 +1319,7 @@ msgid ""
 "to all `MeterRegistry` instances.\n"
 "An application configuration property is also injected and used as a tag value.\n"
 "Additional examples of MeterFilters can be found in the\n"
-"link:https://micrometer.io/docs/concepts[official documentation]."
+"link:https://docs.micrometer.io/micrometer/reference/concepts.html[official documentation]."
 msgstr ""
 
 #. type: Title ==

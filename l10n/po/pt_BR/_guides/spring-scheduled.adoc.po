@@ -363,3 +363,8 @@ msgstr "link:spring-security.html[Quarkus - Extensão para Spring Security]"
 #: _guides/spring-scheduled.adoc
 msgid "xref:spring-tx.adoc[Quarkus - Extension for Spring Transaction]"
 msgstr ""
+
+#. type: Plain text
+#: _guides/spring-scheduled.adoc
+msgid "xref:spring-test.adoc[Testing Spring-style Applications in Quarkus]"
+msgstr ""
