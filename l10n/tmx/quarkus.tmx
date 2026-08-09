@@ -17472,7 +17472,7 @@ It is not advisable to permit all origins in a production environment, as it can
         <seg>Enable xref:security-basic-authentication.adoc[Basic authentication] for your Quarkus project and allow users to authenticate with a username and password.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Habilite a xref:security-basic-authentication.adoc[autenticação básica (Basic)] para o seu projeto Quarkus e permita que os usuários se autentiquem com um nome de usuário e senha.</seg>
+        <seg>Ative link:security-basic-authentication.html[a autenticação básica] para o seu projeto Quarkus e permita que os usuários se autentiquem com um username e um password.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19569,7 +19569,7 @@ with the markers `// @formatter:off`/`// @formatter:on`. These require separate 
         <seg>For information about other methods that you can use to configure the required user credentials, see the xref:security-testing.adoc#configuring-user-information[Configuring User Information] section of the Quarkus "Security Testing" guide.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
-        <seg>Para obter informações sobre outros métodos que você pode usar para configurar as credenciais de usuário necessárias, consulte a seção xref:security-testing.adoc#configuring-user-information[Configurando Informações do Usuário] do guia "Teste de segurança" do Quarkus.</seg>
+        <seg>Para obter informações sobre outros métodos que você pode utilizar para configurar as credenciais de usuário necessárias, consulte a seção  link:security-testing.html#configuring-user-information[Configurar as informações do usuario] do guia "Teste de segurança" do Quarkus.</seg>
       </tuv>
     </tu>
     <tu>
@@ -78935,14 +78935,6 @@ there is some additional work to bundle the `function.zip`, as below.  For more 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>iii-i</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/ignore.png[Ignore strategy]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/ignore.png[Ignore strategy]</seg>
       </tuv>
     </tu>
     <tu>
