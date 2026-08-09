@@ -19501,15 +19501,6 @@ This isn't a class distinct from link:{Thread}[Thread] or VirtualThread but rath
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>A preference page is now available, under `Preferences | Languages &amp; Frameworks | Language Servers`, allowing power users to configure language servers debugging and tracing:
-image:lsp-settings.png[Language servers preferences]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Uma página de preferências está agora disponível em `Preferences | Languages &amp; Frameworks | Language Servers` , permitindo que os usuários avançados configurem a depuração e o rastreamento dos servidores de linguagem: image:lsp-settings.png[alt="Language servers preferences"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>A primitive type.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -27368,14 +27359,6 @@ If not set, it will default to the artifact id.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Todas as métricas cujo nome termina com "total" ou "contador" serão expostas como métricas de tipo contador</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>All network traffic is not equal! image:emoji-unhappy.png[Unhappy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Nem todo o tráfego de rede é igual!  image:emoji-unhappy.png[alt=Unhappy]</seg>
       </tuv>
     </tu>
     <tu>
@@ -55656,28 +55639,10 @@ Veja https://quarkus.io/guides/websockets-next-tutorial e https://quarkus.io/gui
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Completion is also available for enum values:
-image:properties-completion-enum.png[Quarkus properties enum completion]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>A conclusão também está disponível para valores de enum: image:properties-completion-enum.png[alt="Quarkus properties enum completion"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Completion is also available for enumerated type and boolean values.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>A conclusão também está disponível para tipos enumerados e valores booleanos.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Completion on the Renarde `uri` and `uriabs` namespaces lists available Renarde controllers:
-image:qute-renarde-completion.png[Renarde uri completion]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O preenchimento dos namespaces Renarde `uri` e `uriabs` lista os controladores Renarde disponíveis: image:qute-renarde-completion.png[alt="Renarde uri completion"]</seg>
       </tuv>
     </tu>
     <tu>
@@ -58963,14 +58928,6 @@ Help and ideas are welcome!</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Nome constante</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Constrain application image:emoji-happy.png[Happy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Restringir a aplicação  image:emoji-happy.png[alt=Happy]</seg>
       </tuv>
     </tu>
     <tu>
@@ -91808,14 +91765,6 @@ that is referenced using the `urlbase` template parameter. Using configuration d
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>FullStackQuarkusandReact.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>FullStackQuarkusandReact.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Fully typed programmatic APIs that make discovering and invoking HTTP endpoints safe, expressive, and elegant</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -95471,15 +95420,6 @@ Because `MediaLibrary` is the `TvLibrary` class parent, a user with the `admin` 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>A GraphQL UI é uma ótima ferramenta que permite a interação fácil com suas APIs GraphQL.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>GraphQL `void` operations are now allowed in Quarkus 3.1 and higher and the correct placement of GraphQL directives is now checked:
-image:java-validation-graphql-directives.png[GraphQL directives placement validation]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>As operações do GraphQL `void` agora são permitidas no Quarkus 3.1 e superior, e o posicionamento correto das diretivas do GraphQL agora é verificado: image:java-validation-graphql-directives.png[alt="GraphQL directives placement validation"]</seg>
       </tuv>
     </tu>
     <tu>
@@ -128717,14 +128657,6 @@ You can also redirect the handshake request on authorization failure with the `q
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Initial Results image:emoji-unhappy.png[Unhappy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Resultados iniciais  image:emoji-unhappy.png[alt=Unhappy]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Initial inspection of code</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -154852,14 +154784,6 @@ This could be one of the safest ways because accessing `SecurityIdentity` from e
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Move to a faster Disk image:emoji-happy.png[Happy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Mudar para um disco mais rápido  image:emoji-happy.png[alt=Happy]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Move to the root directory of your application.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -178307,15 +178231,6 @@ Another inactive `ActiveResult` may also be provided as a cause, if this bean's 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Properties completion in `application.properties` files now displays icons and documentation (provided `Preferences | Editor | General | Code Completion | Show the documentation popup` is enabled):
-image:properties-completion.png[Quarkus properties completion]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O preenchimento de propriedades em arquivos `application.properties` agora exibe ícones e documentação (desde que o `Preferences | Editor | General | Code Completion | Show the documentation popup` esteja ativado): image:properties-completion.png[alt="Quarkus properties completion"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Properties in the profile aware file have priority over profile aware properties defined in the main file.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -178361,15 +178276,6 @@ For example to define a `kubernetes-readiness-probe` which is of type `Probe`:</
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>As propriedades que usam tipos não padrão podem ser referenciadas expandindo a propriedade. Por exemplo, para definir um `kubernetes-readiness-probe` que é do tipo `Probe` :</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Properties using expression values are now resolved as inlay hints:
-image:properties-inlay-hint.png[Resolved property expression as inlay hint]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>As propriedades que usam valores de expressão agora são resolvidas como dicas de inlay: image:properties-inlay-hint.png[alt="Resolved property expression as inlay hint"]</seg>
       </tuv>
     </tu>
     <tu>
@@ -178982,15 +178888,6 @@ precedence:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>As chaves públicas podem ser formatadas em qualquer um dos seguintes formatos, especificados em ordem de precedência:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Public methods of sub-classes of a Renarde `Controller` automatically show a clickable codelens, even though they're lacking a HTTP method annotation, as they're treated as valid JAX-RS endpoints:
-image:qute-renarde-codelens.png[Renarde endpoint codelens]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Os métodos públicos de subclasses de uma Renarde `Controller` mostram automaticamente um código clicável, mesmo que não tenham uma anotação de método HTTP, pois são tratados como endpoints JAX-RS válidos: image:qute-renarde-codelens.png[alt="Renarde endpoint codelens"]</seg>
       </tuv>
     </tu>
     <tu>
@@ -183273,14 +183170,6 @@ if you are looking for an extended support cycle, you are encouraged to stay on 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Quarkus Application Fixed image:emoji-happy.png[Happy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Aplicação Quarkus corrigida  image:emoji-happy.png[alt=Happy]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Quarkus Application configuration file</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -185700,15 +185589,6 @@ https://tools.jboss.org/downloads/jbosstools/2019-12/4.14.0.Final.html[version]
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>As chaves de configuração YAML do Quarkus são escapadas implicitamente  link:https://github.com/quarkusio/quarkus/issues/11744[#11744]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quarkus `BuildItem` subclasses are checked whether they're `final` or `abstract`:
-image:java-builditem-validation.png[BuildItem validation]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>As subclasses do Quarkus `BuildItem` são verificadas se são `final` ou `abstract` : image:java-builditem-validation.png[alt="BuildItem validation"]</seg>
       </tuv>
     </tu>
     <tu>
@@ -197601,14 +197481,6 @@ thanks to the ability of full-text to assign a score to each hit.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Results image:emoji-happy.png[Happy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Resultados  image:emoji-happy.png[alt=Happy]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Results return to the LLM</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -200189,14 +200061,6 @@ exception and not the rule. And as you'll see later, because applications can op
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>Same results image:emoji-unhappy.png[Unhappy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Os mesmos resultados  image:emoji-unhappy.png[alt=Unhappy]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>Sample JWT Generation Output</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -200841,15 +200705,6 @@ This can be observed via the `ps` command:</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Segredos na configuração</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Section `{#}` completion now displays user tags contributed by dependencies, like Renarde or Web Bundler:
-image:qute-renarde-tags-completion.png[Renarde tags completion]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Seção `{#}` completion agora exibe tags de usuário contribuídas por dependências, como Renarde ou Web Bundler: image:qute-renarde-tags-completion.png[alt="Renarde tags completion"]</seg>
       </tuv>
     </tu>
     <tu>
@@ -216577,14 +216432,6 @@ an `OutOfMemoryError` would be observed along with some messages indicating that
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>Sistema em teste</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>System bottleneck still exists image:emoji-unhappy.png[Unhappy, 35, 35]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>O estrangulamento do sistema ainda existe  image:emoji-unhappy.png[alt=Unhappy]</seg>
       </tuv>
     </tu>
     <tu>
@@ -349881,14 +349728,6 @@ a flamegraph can be generated that shows bytes allocated.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>beginning-quarkus-framework.jpg</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>beginning-quarkus-framework.jpg</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>besta</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -351002,14 +350841,6 @@ a flamegraph can be generated that shows bytes allocated.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>descrição</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>designing-hexagonal-architectures.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>projeto-hexagonal-arquiteturas.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -352267,22 +352098,6 @@ Also the module has been declared _end of life_ by https://redis.com/blog/redisg
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>h2</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>hands-on-cloud-native.jpg</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>hands-on-cloud-native.jpg</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>hands-on-enterprise-java.jpg</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>hands-on-enterprise-java.jpg</seg>
       </tuv>
     </tu>
     <tu>
@@ -361430,354 +361245,10 @@ security annotations. Defaults to `false`.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/3.14.3/quarkus-3.14.3.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/3.14.3/quarkus-3.14.3.png[alt="quarkus 3.14.3"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/getting-started-amqp/getting-started-amqp-code.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/getting-started-amqp/getting-started-amqp-code.png[alt=getting started amqp code]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/getting-started-kafka/getting-started-kafka-code.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/getting-started-kafka/getting-started-kafka-code.png[alt=getting started kafka code]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-avro/architecture.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-avro/architecture.png[alt=architecture]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-avro/project.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-avro/project.png[alt=project]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-commit-strategies/consumer-groups.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-commit-strategies/consumer-groups.png[alt=consumer groups]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-commit-strategies/topics-partitions.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-commit-strategies/topics-partitions.png[alt=topics partitions]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/ack-chain.png[Acknowledgement chain]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/ack-chain.png[alt=Acknowledgement chain]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/dead-letter-topic.png[Dead-letter topic]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/dead-letter-topic.png[alt=Dead-letter topic]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/fail-fast.png[Fail-Fast]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/fail-fast.png[alt=Fail-Fast]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/messages.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/messages.png[alt=messages]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/nack-chain.png[Negative acknowledgment chain]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-failure-strategy/nack-chain.png[alt=Negative acknowledgment chain]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-rest-client/kafka-rest-architecture.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-rest-client/kafka-rest-architecture.png[alt=kafka rest architecture]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/kafka-rest-client/output.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/kafka-rest-client/output.png[alt=output]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-concurrent-uni/pattern.png[width=50%]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-concurrent-uni/pattern.png[alt=pattern]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-invoke-call/call.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-invoke-call/call.png[alt=call]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-invoke-call/invoke.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-invoke-call/invoke.png[alt=invoke]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-pagination/disjoint.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-pagination/disjoint.png[alt=disjoint]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-pagination/mutiny-pagination.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-pagination/mutiny-pagination.png[alt=mutiny pagination]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-retry/double-subscription.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-retry/double-subscription.png[alt=double subscription]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-retry/retry-failed.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-retry/retry-failed.png[alt="retry failed"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-retry/retry.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-retry/retry.png[alt=retry]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-retry/subscription.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-retry/subscription.png[alt=subscription]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-vertx/architecture.png[width=50%]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-vertx/architecture.png[alt=architecture]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-vertx/generation.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-vertx/generation.png[alt=generation]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/mutiny-vertx/mutiny.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/mutiny-vertx/mutiny.png[alt=mutiny]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/quarkus-native-on-a-raspberry-pi/sd-card-partitions.png[width=100%]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/quarkus-native-on-a-raspberry-pi/sd-card-partitions.png[alt=sd card partitions]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/quarkus-native-on-a-raspberry-pi/vm-cpu-config.png[width=100%]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/quarkus-native-on-a-raspberry-pi/vm-cpu-config.png[alt=vm cpu config]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/qute-templates-from-db/before-after.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/qute-templates-from-db/before-after.png[alt=before after]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/reactive-messaging-emitter/architecture.png[width=70%]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/reactive-messaging-emitter/architecture.png[alt=architecture]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:/assets/images/posts/reactive-messaging-emitter/buffer.png[width=90%]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:/assets/images/posts/reactive-messaging-emitter/buffer.png[alt=buffer]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:60th.png[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:60th.png[alt=60th]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:copy-login-command.png[Copy Login Command,width=400,height=374]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:copy-login-command.png[alt=Copy Login Command]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:delete-deploymentconfig.png[Delete Deployment Config]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:delete-deploymentconfig.png[alt=Delete Deployment Config]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:deploymentconfig-deleted.png[Deployment Config Deleted,width=709,height=126]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:deploymentconfig-deleted.png[alt=Deployment Config Deleted]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>image:dev-ui-embedded.png[alt=Dev UI embedded,role="center"]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>image:dev-ui-embedded.png[alt="Dev UI embedded"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:diff-action.png[Diff action,width=710,height=102]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:diff-action.png[alt=Diff action]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:diff-window.png[Diff window,width=600,height=386]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:diff-window.png[alt=Diff window]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:dockerfile.png[Dockerfile,width=600,height=222]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:dockerfile.png[alt=Dockerfile]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:exclude-qute-validation.png[Exclude Qute template from validation]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:exclude-qute-validation.png[alt=Exclude Qute template from validation]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:exclusions-quickfix.png[Quick-fix to exclude property from validation]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:exclusions-quickfix.png[alt=Quick-fix to exclude property from validation]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:exclusions-settings.png[Inspections settings]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:exclusions-settings.png[alt=Inspections settings]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:follow-logs.png[Follow Logs,width=806,height=338]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:follow-logs.png[alt=Follow Logs]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:github-actions.jpg[]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:github-actions.jpg[alt=github actions]</seg>
       </tuv>
     </tu>
     <tu>
@@ -361794,14 +361265,6 @@ security annotations. Defaults to `false`.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>image:health-ui-screenshot01.png[alt="Health UI"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:hello-from-resteasy.png[Hello RESETEasy Reactive,width=624,height=62]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:hello-from-resteasy.png[alt=Hello RESETEasy Reactive]</seg>
       </tuv>
     </tu>
     <tu>
@@ -361846,22 +361309,6 @@ security annotations. Defaults to `false`.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>image:inspections-severity-mapping.png[Inspection severity mapping]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:inspections-severity-mapping.png[alt=Inspection severity mapping]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:install-intellij-kubernetes.png[Install Kubernetes by Red Hat,width=600,height=401]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:install-intellij-kubernetes.png[alt=Install Kubernetes by Red Hat]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>image:kogito-DMN-guide-screenshot-DRG.png[alt=DMN model definition]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -361894,110 +361341,6 @@ security annotations. Defaults to `false`.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>image:login-command.png[Login command,width=624,height=62]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:login-command.png[alt=Login command]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:lsp-console-config.png[Language server configuration]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:lsp-console-config.png[alt=Language server configuration]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:lsp-console-traces.png[Language server traces]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:lsp-console-traces.png[alt=Language server traces]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:maven-package.png[mvn package,width=600,height=386]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:maven-package.png[alt=mvn package]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:new-resources.png[new resources,width=600,height=686]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:new-resources.png[alt=new resources]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:open-terminal-action.png[Open Terminal Action,width=860,height=334]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:open-terminal-action.png[alt=Open Terminal Action]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:openshift-resources.png[OpenShift resources,width=600,height=374]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:openshift-resources.png[alt=OpenShift resources]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:payair_logo_rgb.png[Payair Logo]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:payair_logo_rgb.png[alt=Payair Logo]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:pod-logs.png[Pod Logs,width=647,height=429]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:pod-logs.png[alt=Pod Logs]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:pod-terminal.png[Pod Terminal,width=930,height=429]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:pod-terminal.png[alt=Pod Terminal]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:push-to-create-deploymentconfig.png[Push to create Deployment Config,width=800,height=123]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:push-to-create-deploymentconfig.png[alt=Push to create Deployment Config]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:push-to-create.png[push to create,width=800,height=124]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:push-to-create.png[alt=push to create]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:quarkus-framework-page.png[Quarkus framework page,width=600,height=261]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:quarkus-framework-page.png[alt=Quarkus framework page]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>image:quarkus-native-webui.gif[]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -362014,50 +361357,10 @@ security annotations. Defaults to `false`.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>image:qute-message-bundles.png[Message bundle support for Qute templates]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:qute-message-bundles.png[alt=Message bundle support for Qute templates]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:qute-syntax-coloration-dark.png[Qute Syntax coloration - dark theme]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:qute-syntax-coloration-dark.png[alt=Qute Syntax coloration - dark theme]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:qute-syntax-coloration-light.png[Qute Syntax coloration - light theme]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:qute-syntax-coloration-light.png[alt=Qute Syntax coloration - light theme]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:qute-validation-settings.png[Qute validation settings]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:qute-validation-settings.png[alt=Qute validation settings]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>image:reactive-routes-guide-screenshot01.png[alt=Swagger UI]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>image:reactive-routes-guide-screenshot01.png[alt="Swagger UI"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:reactive-routes.png[Reactive routes]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:reactive-routes.png[alt=Reactive routes]</seg>
       </tuv>
     </tu>
     <tu>
@@ -362078,26 +361381,10 @@ security annotations. Defaults to `false`.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>image:resource-tree.png[Resource tree,width=600,height=448]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:resource-tree.png[alt=Resource tree]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>image:spring-web-guide-screenshot01.png[alt=Swagger UI]</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>image:spring-web-guide-screenshot01.png[alt="Swagger UI"]</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>image:toolwindow.png[Kubernetes by Red Hat Tool Window,width=600,height=172]</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>image:toolwindow.png[alt=Kubernetes by Red Hat Tool Window]</seg>
       </tuv>
     </tu>
     <tu>
@@ -364667,14 +363954,6 @@ VSCode Quarkus Tools</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>cliente kubernetes</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>kubernetes-native-microservices.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>kubernetes-native-microservices.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -368723,14 +368002,6 @@ newUrl: /guias/security-authorize-web-endpoints-reference</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>playing-with-java.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>playing-with-java.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>please refer to the official tool guide to get additional insights about it.
 The tool is described https://docs.fedoraproject.org/en-US/iot/physical-device-setup/#_scripted_image_transfer_with_arm_image_installer[here].</seg>
       </tuv>
@@ -368816,14 +368087,6 @@ The tool is described https://docs.fedoraproject.org/en-US/iot/physical-device-s
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>postgresql</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>practising-quarkus.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>praticando-quarkus.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -369172,14 +368435,6 @@ You can cite design decisions, historical reasons, and technical constraints to 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>quarkus-cookbook.jpg</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>quarkus-cookbook.jpg</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>quarkus-elytron-security</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -369212,14 +368467,6 @@ You can cite design decisions, historical reasons, and technical constraints to 
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>quarkus-for-spring-developers.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>quarkus-for-spring-developers.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>quarkus-hibernate-orm</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -369248,14 +368495,6 @@ You can cite design decisions, historical reasons, and technical constraints to 
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>quarkus-hibernate-validator</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>quarkus-in-action.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>quarkus-in-action.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -372385,14 +371624,6 @@ quarkus.oidc-client.oidc-client-for-graphql.credentials.client-secret.method=POS
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>reactive-systems-in-java.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>reactive-systems-in-java.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>reactive-type-converters</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -372677,14 +371908,6 @@ quarkus.oidc-client.oidc-client-for-graphql.credentials.client-secret.method=POS
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>nome da revisão</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>rivieradev_logo.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>rivieradev_logo.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -376164,14 +375387,6 @@ hence application restarts have no effect.</seg>
     </tu>
     <tu>
       <tuv xml:lang="en">
-        <seg>understanding-quarkus.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>understanding-quarkus.png</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
         <seg>undertow</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
@@ -376524,14 +375739,6 @@ var response = client.performRequest(request); // &lt;5&gt;
       </tuv>
       <tuv xml:lang="pt_BR">
         <seg>vertx vert.x</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>vertx-in-action.png</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>vertx-in-action.png</seg>
       </tuv>
     </tu>
     <tu>
