@@ -45,7 +45,7 @@ l10n/po/pt_BR/_guides/writing-native-applications-tips.adoc.po, 103, 109, 2616, 
 l10n/po/pt_BR/_guides/cache.adoc.po, 136, 172, 2593, 3431, 25%
 l10n/po/pt_BR/_guides/rabbitmq-reference.adoc.po, 234, 254, 2563, 2890, 12%
 l10n/po/pt_BR/_guides/scheduler-reference.adoc.po, 128, 145, 2531, 2771, 9%
-l10n/po/pt_BR/_guides/rest-client.adoc.po, 110, 349, 2496, 6797, 64%
+l10n/po/pt_BR/_guides/rest-client.adoc.po, 110, 352, 2496, 6837, 64%
 l10n/po/pt_BR/_guides/kafka-streams.adoc.po, 115, 132, 2495, 2847, 13%
 l10n/po/pt_BR/_guides/amqp-reference.adoc.po, 183, 229, 2494, 3416, 27%
 l10n/po/pt_BR/_guides/reactive-routes.adoc.po, 156, 165, 2479, 2529, 2%
@@ -249,7 +249,7 @@ l10n/po/pt_BR/_guides/_includes/smallrye-pulsar-incoming.adoc.po, 27, 51, 42, 37
 l10n/po/pt_BR/_guides/grpc-cli.adoc.po, 8, 9, 42, 43, 3%
 l10n/po/pt_BR/_guides/grpc-getting-started.adoc.po, 1, 56, 41, 925, 96%
 l10n/po/pt_BR/_guides/pulsar-dev-services.adoc.po, 2, 23, 40, 347, 89%
-l10n/po/pt_BR/_guides/security-basic-authentication-howto.adoc.po, 3, 24, 40, 336, 89%
+l10n/po/pt_BR/_guides/security-basic-authentication-howto.adoc.po, 3, 27, 40, 372, 90%
 l10n/po/pt_BR/_guides/_includes/duration-format-note.adoc.po, 1, 7, 39, 123, 69%
 l10n/po/pt_BR/_guides/kafka-dev-ui.adoc.po, 1, 8, 34, 90, 63%
 l10n/po/pt_BR/_guides/spring-boot-properties.adoc.po, 1, 55, 34, 736, 96%
