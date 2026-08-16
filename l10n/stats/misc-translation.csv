@@ -37,7 +37,7 @@ l10n/po/pt_BR/_data/versioned/latest/index/quarkus.yaml.po, 670, 1657, 4059, 864
 l10n/po/pt_BR/_data/versioned/3-15/index/quarkus.yaml.po, 654, 1478, 4034, 7795, 49%
 l10n/po/pt_BR/_data/versioned/main/index/quarkus.yaml.po, 666, 1673, 4029, 8709, 54%
 l10n/po/pt_BR/_data/versioned/3-8/index/quarkus.yaml.po, 560, 1341, 3422, 7154, 53%
-l10n/po/pt_BR/_data/insights-videos.yaml.po, 721, 970, 3386, 4493, 25%
+l10n/po/pt_BR/_data/insights-videos.yaml.po, 721, 978, 3386, 4545, 26%
 l10n/po/pt_BR/_data/versioned/3-6/index/quarkus.yaml.po, 547, 1329, 3300, 7071, 54%
 l10n/po/pt_BR/_data/wg.yaml.po, 92, 260, 2958, 15174, 81%
 l10n/po/pt_BR/_data/versioned/3-2/index/quarkus.yaml.po, 219, 970, 2220, 5910, 63%
@@ -50,7 +50,7 @@ l10n/po/pt_BR/_data/versioned/latest/index/relations.yaml.po, 147, 533, 688, 211
 l10n/po/pt_BR/_data/versioned/3-15/index/relations.yaml.po, 144, 481, 658, 1864, 65%
 l10n/po/pt_BR/_data/versioned/3-8/index/relations.yaml.po, 125, 446, 577, 1739, 67%
 l10n/po/pt_BR/_data/versioned/3-6/index/relations.yaml.po, 121, 444, 548, 1722, 69%
-l10n/po/pt_BR/_data/newsletter.yaml.po, 166, 211, 495, 630, 22%
+l10n/po/pt_BR/_data/newsletter.yaml.po, 166, 214, 495, 639, 23%
 l10n/po/pt_BR/_data/qtips-videos.yaml.po, 97, 111, 479, 524, 9%
 l10n/po/pt_BR/_data/training.yaml.po, 58, 59, 457, 459, 1%
 l10n/po/pt_BR/_data/guides-2-7.yaml.po, 46, 666, 220, 4926, 96%
@@ -75,7 +75,7 @@ l10n/po/pt_BR/_data/1kcontributor-list.yaml.po, 0, 3934, 0, 16570, 100%
 l10n/po/pt_BR/_data/contributors.yaml.po, 0, 358, 0, 548, 100%
 l10n/po/pt_BR/_data/getstarted-nextsteps.yaml.po, 0, 27, 0, 173, 100%
 l10n/po/pt_BR/_data/languages.yaml.po, 0, 1, 0, 21, 100%
-l10n/po/pt_BR/_data/releases.yaml.po, 0, 409, 0, 962, 100%
+l10n/po/pt_BR/_data/releases.yaml.po, 0, 410, 0, 965, 100%
 l10n/po/pt_BR/_data/sitemap-links.yaml.po, 0, 160, 0, 348, 100%
 l10n/po/pt_BR/_data/versioned/3-27/index/quarkus.yaml.po, 0, 1563, 0, 8189, 100%
 l10n/po/pt_BR/_data/versioned/3-27/index/relations.yaml.po, 0, 509, 0, 2014, 100%
@@ -83,4 +83,4 @@ l10n/po/pt_BR/_data/versioned/3-33/index/quarkus.yaml.po, 0, 1581, 0, 8285, 100%
 l10n/po/pt_BR/_data/versioned/3-33/index/relations.yaml.po, 0, 515, 0, 2047, 100%
 l10n/po/pt_BR/_data/versioned/3-34/index/quarkus.yaml.po, 0, 1581, 0, 8286, 100%
 l10n/po/pt_BR/_data/versioned/3-34/index/relations.yaml.po, 0, 515, 0, 2047, 100%
-l10n/po/pt_BR/_data/versioned/main/index/categories.yaml.po, 0, 1787, 0, 8989, 100%
+l10n/po/pt_BR/_data/versioned/main/index/categories.yaml.po, 0, 1786, 0, 8987, 100%

@@ -1,5 +1,5 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
-l10n/po/pt_BR/_versions/main/guides/qute-reference.adoc.po, 830, 891, 13329, 14552, 9%
+l10n/po/pt_BR/_versions/main/guides/qute-reference.adoc.po, 830, 893, 13329, 14648, 10%
 l10n/po/pt_BR/_versions/main/guides/security-oidc-expanded-configuration.adoc.po, 650, 760, 12805, 15233, 16%
 l10n/po/pt_BR/_versions/main/guides/native-reference.adoc.po, 347, 497, 10802, 13369, 20%
 l10n/po/pt_BR/_versions/main/guides/rest.adoc.po, 483, 525, 9395, 10235, 9%
@@ -12,7 +12,7 @@ l10n/po/pt_BR/_versions/main/guides/security-oidc-auth0-tutorial.adoc.po, 188, 1
 l10n/po/pt_BR/_versions/main/guides/security-oidc-bearer-token-authentication.adoc.po, 231, 247, 5477, 5856, 7%
 l10n/po/pt_BR/_versions/main/guides/hibernate-search-orm-elasticsearch.adoc.po, 270, 289, 5341, 5532, 4%
 l10n/po/pt_BR/_versions/main/guides/cdi-reference.adoc.po, 277, 308, 5298, 6366, 17%
-l10n/po/pt_BR/_versions/main/guides/security-jwt.adoc.po, 321, 345, 5139, 5270, 3%
+l10n/po/pt_BR/_versions/main/guides/security-jwt.adoc.po, 321, 350, 5139, 5365, 5%
 l10n/po/pt_BR/_versions/main/guides/security-oidc-code-flow-authentication.adoc.po, 266, 491, 4827, 12140, 61%
 l10n/po/pt_BR/_versions/main/guides/getting-started-testing.adoc.po, 214, 269, 4745, 6101, 23%
 l10n/po/pt_BR/_versions/main/guides/hibernate-search-standalone-elasticsearch.adoc.po, 229, 248, 4345, 4513, 4%
@@ -58,13 +58,13 @@ l10n/po/pt_BR/_versions/main/guides/doc-contribute-docs-howto.adoc.po, 135, 143,
 l10n/po/pt_BR/_versions/main/guides/mutiny-primer.adoc.po, 125, 125, 2148, 2148, 0%
 l10n/po/pt_BR/_versions/main/guides/smallrye-fault-tolerance.adoc.po, 104, 120, 2136, 2360, 10%
 l10n/po/pt_BR/_versions/main/guides/extension-codestart.adoc.po, 136, 146, 2128, 2326, 9%
-l10n/po/pt_BR/_versions/main/guides/logging.adoc.po, 255, 364, 2112, 4095, 49%
+l10n/po/pt_BR/_versions/main/guides/logging.adoc.po, 255, 364, 2112, 4124, 49%
 l10n/po/pt_BR/_versions/main/guides/validation.adoc.po, 102, 120, 2097, 2255, 8%
 l10n/po/pt_BR/_versions/main/guides/jreleaser.adoc.po, 61, 64, 2089, 2095, 1%
 l10n/po/pt_BR/_versions/main/guides/mongodb.adoc.po, 100, 143, 2003, 2587, 23%
 l10n/po/pt_BR/_versions/main/guides/software-transactional-memory.adoc.po, 39, 45, 1988, 2040, 3%
 l10n/po/pt_BR/_versions/main/guides/mailer-reference.adoc.po, 109, 128, 1933, 2210, 13%
-l10n/po/pt_BR/_versions/main/guides/security-jwt-build.adoc.po, 128, 138, 1931, 1993, 4%
+l10n/po/pt_BR/_versions/main/guides/security-jwt-build.adoc.po, 128, 139, 1931, 2033, 6%
 l10n/po/pt_BR/_versions/main/guides/reactive-sql-clients.adoc.po, 149, 191, 1895, 2430, 23%
 l10n/po/pt_BR/_versions/main/guides/smallrye-health.adoc.po, 83, 98, 1864, 1971, 6%
 l10n/po/pt_BR/_versions/main/guides/compose-dev-services.adoc.po, 142, 175, 1838, 2364, 23%
@@ -84,7 +84,7 @@ l10n/po/pt_BR/_versions/main/guides/kafka-schema-registry-avro.adoc.po, 69, 84, 
 l10n/po/pt_BR/_versions/main/guides/dev-ui.adoc.po, 111, 520, 1626, 6805, 77%
 l10n/po/pt_BR/_versions/main/guides/vertx.adoc.po, 90, 102, 1584, 1669, 6%
 l10n/po/pt_BR/_versions/main/guides/kotlin.adoc.po, 84, 94, 1564, 1620, 4%
-l10n/po/pt_BR/_versions/main/guides/openapi-swaggerui.adoc.po, 88, 163, 1562, 2687, 42%
+l10n/po/pt_BR/_versions/main/guides/openapi-swaggerui.adoc.po, 88, 165, 1562, 2758, 44%
 l10n/po/pt_BR/_versions/main/guides/smallrye-graphql-client.adoc.po, 50, 62, 1521, 1602, 6%
 l10n/po/pt_BR/_versions/main/guides/deploying-to-google-cloud.adoc.po, 84, 88, 1506, 1534, 2%
 l10n/po/pt_BR/_versions/main/guides/web.adoc.po, 69, 73, 1494, 1583, 6%
@@ -93,7 +93,7 @@ l10n/po/pt_BR/_versions/main/guides/extension-registry-user.adoc.po, 64, 96, 147
 l10n/po/pt_BR/_versions/main/guides/resteasy-reactive-migration.adoc.po, 97, 97, 1466, 1466, 0%
 l10n/po/pt_BR/_versions/main/guides/aws-lambda-http.adoc.po, 39, 112, 1462, 2437, 41%
 l10n/po/pt_BR/_versions/main/guides/telemetry-opentracing-to-otel-tutorial.adoc.po, 112, 118, 1460, 1470, 1%
-l10n/po/pt_BR/_versions/main/guides/extension-metadata.adoc.po, 71, 82, 1459, 1790, 19%
+l10n/po/pt_BR/_versions/main/guides/extension-metadata.adoc.po, 71, 88, 1459, 1962, 26%
 l10n/po/pt_BR/_versions/main/guides/platform.adoc.po, 51, 62, 1439, 1658, 14%
 l10n/po/pt_BR/_versions/main/guides/native-and-ssl.adoc.po, 90, 96, 1434, 1490, 4%
 l10n/po/pt_BR/_versions/main/guides/rest-migration.adoc.po, 96, 97, 1414, 1463, 4%
