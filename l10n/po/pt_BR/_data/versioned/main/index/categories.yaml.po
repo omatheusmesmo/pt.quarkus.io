@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-08-09 08:32+0000\n"
+"POT-Creation-Date: 2026-08-16 08:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgstr ""
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Getting Started"
+msgid "Getting started"
 msgstr ""
 
 #. type: Hash Value: categories description
@@ -751,7 +751,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Release and Distribution"
+msgid "Release and distribution"
 msgstr ""
 
 #. type: Hash Value: categories title
@@ -3853,7 +3853,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Database Migration"
+msgid "Database migration"
 msgstr ""
 
 #. type: Hash Value: categories title
@@ -3961,7 +3961,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Messaging Core"
+msgid "Messaging core"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides extensions
@@ -5137,7 +5137,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Security Core"
+msgid "Security core"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides filename
@@ -6052,7 +6052,7 @@ msgstr ""
 msgid "In the Quarkus Security framework, identity providers play a crucial role in authentication and authorization by verifying user identities."
 msgstr ""
 
-#. type: Hash Value: categories subcategories guides title
+#. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
 msgid "Identity providers"
@@ -6238,12 +6238,6 @@ msgstr ""
 msgid "security-identity"
 msgstr ""
 
-#. type: Hash Value: categories subcategories title
-#: upstream/_data/versioned/main/index/categories.yaml:0
-#, no-wrap
-msgid "Identity Providers"
-msgstr ""
-
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
@@ -6337,7 +6331,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Virtual Threads"
+msgid "Virtual threads"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides filename
@@ -6517,13 +6511,13 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Context Propagation"
+msgid "Context propagation"
 msgstr ""
 
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Execution Model"
+msgid "Execution model"
 msgstr ""
 
 #. type: Hash Value: categories description
@@ -7339,7 +7333,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Serverless Functions"
+msgid "Serverless functions"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides extensions
@@ -7645,7 +7639,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Service Discovery"
+msgid "Service discovery"
 msgstr ""
 
 #. type: Hash Value: categories title
@@ -8437,7 +8431,7 @@ msgstr ""
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Metrics and Telemetry"
+msgid "Metrics and telemetry"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides extensions
@@ -8953,7 +8947,7 @@ msgstr ""
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Command Line"
+msgid "Command line"
 msgstr ""
 
 #. type: Hash Value: categories description
@@ -8971,85 +8965,79 @@ msgstr ""
 #. type: Array Element: categories subcategories guides extensions
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "io.quarkus:quarkus-qute"
-msgstr ""
-
-#. type: Array Element: categories subcategories guides extensions
-#: upstream/_data/versioned/main/index/categories.yaml:0
-#, no-wrap
-msgid "io.quarkus:quarkus-resteasy-qute"
-msgstr ""
-
-#. type: Array Element: categories subcategories guides extensions
-#: upstream/_data/versioned/main/index/categories.yaml:0
-#, no-wrap
-msgid "io.quarkus:quarkus-rest-qute"
+msgid "io.quarkus:quarkus-mailer"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides filename
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "qute.adoc"
+msgid "mailer.adoc"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides summary
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Learn more about how you can use templating in your applications with the Qute template engine."
+msgid "Learn more about how you can send email from a Quarkus application with our reactive email client."
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Qute Templating Engine"
+msgid "Sending emails using SMTP"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "templating"
+msgid "mail"
+msgstr ""
+
+#. type: Array Element: categories subcategories guides topics
+#: upstream/_data/versioned/main/index/categories.yaml:0
+#, no-wrap
+msgid "mailer"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "/guides/qute"
+msgid "/guides/mailer"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides filename
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "qute-reference.adoc"
+msgid "mailer-reference.adoc"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides summary
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Learn everything you need to know about the Qute template engine."
+msgid "This reference guide explains in more details the configuration and usage of the Quarkus Mailer."
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Qute Reference Guide"
+msgid "Mailer Reference Guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "/guides/qute-reference"
+msgid "/guides/mailer-reference"
 msgstr ""
 
 #. type: Hash Value: categories subcategories id
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "miscellaneous-templating"
+msgid "miscellaneous-mail"
 msgstr ""
 
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Templating"
+msgid "Mail"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides extensions
@@ -9169,79 +9157,85 @@ msgstr ""
 #. type: Array Element: categories subcategories guides extensions
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "io.quarkus:quarkus-mailer"
+msgid "io.quarkus:quarkus-qute"
+msgstr ""
+
+#. type: Array Element: categories subcategories guides extensions
+#: upstream/_data/versioned/main/index/categories.yaml:0
+#, no-wrap
+msgid "io.quarkus:quarkus-resteasy-qute"
+msgstr ""
+
+#. type: Array Element: categories subcategories guides extensions
+#: upstream/_data/versioned/main/index/categories.yaml:0
+#, no-wrap
+msgid "io.quarkus:quarkus-rest-qute"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides filename
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "mailer.adoc"
+msgid "qute.adoc"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides summary
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Learn more about how you can send email from a Quarkus application with our reactive email client."
+msgid "Learn more about how you can use templating in your applications with the Qute template engine."
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Sending emails using SMTP"
+msgid "Qute Templating Engine"
 msgstr ""
 
 #. type: Array Element: categories subcategories guides topics
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "mail"
-msgstr ""
-
-#. type: Array Element: categories subcategories guides topics
-#: upstream/_data/versioned/main/index/categories.yaml:0
-#, no-wrap
-msgid "mailer"
+msgid "templating"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "/guides/mailer"
+msgid "/guides/qute"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides filename
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "mailer-reference.adoc"
+msgid "qute-reference.adoc"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides summary
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "This reference guide explains in more details the configuration and usage of the Quarkus Mailer."
+msgid "Learn everything you need to know about the Qute template engine."
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Mailer Reference Guide"
+msgid "Qute Reference Guide"
 msgstr ""
 
 #. type: Hash Value: categories subcategories guides url
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "/guides/mailer-reference"
+msgid "/guides/qute-reference"
 msgstr ""
 
 #. type: Hash Value: categories subcategories id
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "miscellaneous-mail"
+msgid "miscellaneous-templating"
 msgstr ""
 
 #. type: Hash Value: categories subcategories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Mail"
+msgid "Templating"
 msgstr ""
 
 #. type: Hash Value: categories title
@@ -9445,7 +9439,7 @@ msgstr ""
 #. type: Hash Value: categories description
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Spring framework compatibility layer"
+msgid "Spring Framework compatibility layer"
 msgstr ""
 
 #. type: Hash Value: categories id
@@ -9793,7 +9787,7 @@ msgstr ""
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Spring Compatibility"
+msgid "Spring compatibility"
 msgstr ""
 
 #. type: Hash Value: categories description
@@ -9889,7 +9883,7 @@ msgstr ""
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Alternative Languages"
+msgid "Alternative languages"
 msgstr ""
 
 #. type: Hash Value: categories description
@@ -10525,7 +10519,7 @@ msgstr ""
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Writing Extensions"
+msgid "Writing extensions"
 msgstr ""
 
 #. type: Hash Value: categories description
@@ -10735,5 +10729,5 @@ msgstr ""
 #. type: Hash Value: categories title
 #: upstream/_data/versioned/main/index/categories.yaml:0
 #, no-wrap
-msgid "Rule Engine"
+msgid "Rule engine"
 msgstr ""
