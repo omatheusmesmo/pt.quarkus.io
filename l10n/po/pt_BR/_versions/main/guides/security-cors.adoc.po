@@ -98,7 +98,9 @@ msgstr "Habilita o filtro CORS."
 
 #. type: Plain text
 #: _versions/main/guides/security-cors.adoc
-msgid "Specifies allowed origins, including a regular expression. When not specified, CORS is not permitted, and only same-origin requests are allowed."
+msgid ""
+"Specifies allowed origins, including a regular expression.\n"
+"When not specified, CORS is not permitted, and only same-origin requests are allowed."
 msgstr ""
 
 #. type: Plain text
@@ -190,12 +192,17 @@ msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-cors.adoc
+msgid "Configure the CORS filter by using <<cors-filter,configuration properties>> or programmatically, but not both."
+msgstr ""
+
+#. type: Plain text
+#: _versions/main/guides/security-cors.adoc
 msgid "To enforce CORS policies in your application, enable the Quarkus CORS filter with the `io.quarkus.vertx.http.security.HttpSecurity` CDI event:"
 msgstr ""
 
 #. type: Plain text
 #: _versions/main/guides/security-cors.adoc
-msgid "The `io.quarkus.vertx.http.security.CORS` builder allows you to create a complete CORS configuration:"
+msgid "Use the `io.quarkus.vertx.http.security.CORS` builder to create a complete CORS configuration:"
 msgstr ""
 
 #. type: Title =
@@ -216,5 +223,5 @@ msgstr "xref:http-reference.adoc[Referência HTTP do Quarkus]"
 
 #. type: Plain text
 #: _versions/main/guides/security-cors.adoc
-msgid "link:https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS[Mozilla HTTP CORS documentation]"
-msgstr "link:https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS[Documentação do Mozilla HTTP CORS]"
+msgid "link:https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS[Mozilla HTTP CORS documentation]"
+msgstr ""
