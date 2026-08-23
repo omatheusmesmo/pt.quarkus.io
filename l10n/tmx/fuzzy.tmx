@@ -184754,14 +184754,6 @@ For more information, see xref:security-oidc-code-flow-authentication.adoc[OIDC 
     </tu>
     <tu srclang="en">
       <tuv xml:lang="en">
-        <seg>Quarkus OpenId Connect (OIDC) Expanded Configuration Reference</seg>
-      </tuv>
-      <tuv xml:lang="pt_BR">
-        <seg>Referência de configuração expandida do Quarkus OpenId Connect (OIDC)</seg>
-      </tuv>
-    </tu>
-    <tu srclang="en">
-      <tuv xml:lang="en">
         <seg>Quarkus OpenTelemetry configuration properties now have the `quarkus.otel.*` prefix.</seg>
       </tuv>
       <tuv xml:lang="pt_BR">
