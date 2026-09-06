@@ -712,6 +712,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MAILER_KEEP_ALIV
 msgid "`true`"
 msgstr "`true`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-mailer_quarkus.mailer.disable-esmtp]]`link:#quarkus-mailer_quarkus.mailer.disable-esmtp[quarkus.mailer.disable-esmtp]`\n"
 "\n"
@@ -721,14 +723,16 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_MAILER_DISABLE_ESMTP+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-mailer_quarkus.mailer.disable-esmtp[quarkus.mailer.desativar-esmtp]`"
 
 #, fuzzy
 msgid "[[quarkus-mailer_quarkus.mailer.disable-esmtp]]`link:#quarkus-mailer_quarkus.mailer.disable-esmtp[quarkus.mailer.disable-esmtp]`"
 msgstr "`link:#quarkus-mailer_quarkus.mailer.disable-esmtp[quarkus.mailer.desativar-esmtp]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "Disable ESMTP. The RFC-1869 states that clients should always attempt `EHLO` as first command to determine if ESMTP is supported, if this returns an error code, `HELO` is tried to use the *regular* SMTP command."
-msgstr ""
+msgstr "Desative o ESMTP. A norma RFC-1869 estabelece que os clientes devem sempre tentar `o comando EHLO` como primeiro comando para determinar se o ESMTP é compatível; caso isso retorne um código de erro, deve-se tentar `o comando HELO` , que é o comando SMTP *padrão* ."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MAILER_DISABLE_ESMTP+++[]"
@@ -1293,10 +1297,12 @@ msgstr "Define o período de limpeza do pool de conexões. O valor zero desativa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MAILER_POOL_CLEANER_PERIOD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MAILER_POOL_CLEANER_PERIOD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duração] link:#duration-note-anchor-{summaryTableId}[[círculo de pergunta]]"
 
 #, fuzzy
 msgid "`PT1S`"

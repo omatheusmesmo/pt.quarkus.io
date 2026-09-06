@@ -212,6 +212,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-enabled]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-enabled[`quarkus.load-shedding.enabled`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.enabled+++[]\n"
@@ -224,12 +226,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-enabled[quarkus.load-shedding.enabled] config_property_copy_button:quarkus.load-shedding.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-enabled]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-enabled[`quarkus.load-shedding.enabled`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.enabled+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-enabled[quarkus.load-shedding.enabled] config_property_copy_button:quarkus.load-shedding.enabled[]"
 
 #, fuzzy
 msgid "Whether load shedding should be enabled. Currently, this only applies to incoming HTTP requests."
@@ -250,6 +254,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-max-limit]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-max-limit[`quarkus.load-shedding.max-limit`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.max-limit+++[]\n"
@@ -262,12 +268,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_MAX_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-max-limit[quarkus.load-shedding.max-limit] botão_para_copiar_propriedade_de_configuração:quarkus.load-shedding.max-limit[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-max-limit]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-max-limit[`quarkus.load-shedding.max-limit`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.max-limit+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-max-limit[quarkus.load-shedding.max-limit] botão_para_copiar_propriedade_de_configuração:quarkus.load-shedding.max-limit[]"
 
 #, fuzzy
 msgid "The maximum number of concurrent requests allowed."
@@ -284,6 +292,8 @@ msgstr "int"
 msgid "`+++1000+++`"
 msgstr "`1.000`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-alpha-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[`quarkus.load-shedding.alpha-factor`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.alpha-factor+++[]\n"
@@ -296,12 +306,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_ALPHA_FACTOR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[quarkus.load-shedding.alpha-factor] config_property_copy_button:quarkus.load-shedding.alpha-factor[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-alpha-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[`quarkus.load-shedding.alpha-factor`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.alpha-factor+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[quarkus.load-shedding.alpha-factor] botão_para_copiar_propriedade_de_configuração:quarkus.load-shedding.alpha-factor[]"
 
 #, fuzzy
 msgid "The `alpha` factor of the Vegas overload detection algorithm."
@@ -315,6 +327,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOAD_SHEDDING_AL
 msgid "`+++3+++`"
 msgstr "`3`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-beta-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-beta-factor[`quarkus.load-shedding.beta-factor`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.beta-factor+++[]\n"
@@ -327,12 +341,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_BETA_FACTOR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-beta-factor[quarkus.load-shedding.beta-factor] config_property_copy_button:quarkus.load-shedding.beta-factor[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-beta-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-beta-factor[`quarkus.load-shedding.beta-factor`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.beta-factor+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-beta-factor[quarkus.load-shedding.beta-factor] botão_de_cópia_da_propriedade_de_configuração:quarkus.load-shedding.beta-factor[]"
 
 #, fuzzy
 msgid "The `beta` factor of the Vegas overload detection algorithm."
@@ -346,6 +362,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOAD_SHEDDING_BE
 msgid "`+++6+++`"
 msgstr "`6`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-probe-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-probe-factor[`quarkus.load-shedding.probe-factor`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.probe-factor+++[]\n"
@@ -358,12 +376,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_PROBE_FACTOR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-probe-factor[quarkus.load-shedding.probe-factor] config_property_copy_button:quarkus.load-shedding.probe-factor[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-probe-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-probe-factor[`quarkus.load-shedding.probe-factor`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.probe-factor+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-probe-factor[quarkus.load-shedding.probe-factor] config_property_copy_button:quarkus.load-shedding.probe-factor[]"
 
 #, fuzzy
 msgid "The probe factor of the Vegas overload detection algorithm."
@@ -381,6 +401,8 @@ msgstr "duplo"
 msgid "`+++30.0+++`"
 msgstr "`30,0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-initial-limit]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-initial-limit[`quarkus.load-shedding.initial-limit`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.initial-limit+++[]\n"
@@ -393,12 +415,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_INITIAL_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-initial-limit[quarkus.load-shedding.initial-limit] config_property_copy_button:quarkus.load-shedding.initial-limit[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-initial-limit]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-initial-limit[`quarkus.load-shedding.initial-limit`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.initial-limit+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-initial-limit[quarkus.load-shedding.initial-limit] config_property_copy_button:quarkus.load-shedding.initial-limit[]"
 
 #, fuzzy
 msgid "The initial limit of concurrent requests allowed."
@@ -412,6 +436,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOAD_SHEDDING_IN
 msgid "`+++100+++`"
 msgstr "`100`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-priority-enabled]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-priority-enabled[`quarkus.load-shedding.priority.enabled`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.priority.enabled+++[]\n"
@@ -424,12 +450,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOAD_SHEDDING_PRIORITY_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-priority-enabled[quarkus.load-shedding.priority.enabled] config_property_copy_button:quarkus.load-shedding.priority.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-priority-enabled]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-priority-enabled[`quarkus.load-shedding.priority.enabled`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.priority.enabled+++[]"
-msgstr ""
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-priority-enabled[quarkus.load-shedding.priority.enabled] config_property_copy_button:quarkus.load-shedding.priority.enabled[]"
 
 #, fuzzy
 msgid "Whether priority load shedding should be enabled."

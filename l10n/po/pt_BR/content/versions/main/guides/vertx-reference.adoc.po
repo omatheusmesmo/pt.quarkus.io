@@ -86,6 +86,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-vertx_quarkus-vertx-native-transport]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-native-transport[`+++quarkus.vertx.native-transport+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.native-transport+++[]\n"
@@ -104,42 +106,60 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_NATIVE_TRANSPORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-vertx_quarkus-vertx-native-transport[quarkus.vertx.native-transport] config_property_copy_button:quarkus.vertx.native-transport[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-vertx_quarkus-vertx-native-transport]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-native-transport[`+++quarkus.vertx.native-transport+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.native-transport+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-vertx_quarkus-vertx-native-transport[quarkus.vertx.native-transport] config_property_copy_button:quarkus.vertx.native-transport[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Whether and how strictly native transport should be used."
-msgstr ""
+msgstr "Se o transporte nativo deve ser utilizado e com que rigor."
 
 #, fuzzy
 msgid "Supported values:"
 msgstr "Valores permitidos:"
 
+#. mt: deepl
+#, fuzzy
 msgid "`disabled` - Do not use native transport (default). Vert.x always uses Java NIO."
-msgstr ""
+msgstr "`desativado` - Não utilize o transporte nativo (padrão). O Vert.x utiliza sempre o Java NIO."
 
+#. mt: deepl
+#, fuzzy
 msgid "`if-available` - Use native transport if available, fall back to Java NIO otherwise."
-msgstr ""
+msgstr "`if-available` - Utilize o transporte nativo, se disponível; caso contrário, recorra ao Java NIO."
 
+#. mt: deepl
+#, fuzzy
 msgid "`required` - Require native transport. If the transport dependency is missing, the build fails. If the native library cannot load at runtime, the application fails to start."
-msgstr ""
+msgstr "`obrigatório` - Exige o transporte nativo. Se a dependência de transporte estiver ausente, a compilação falhará. Se a biblioteca nativa não puder ser carregada em tempo de execução, o aplicativo não será iniciado."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_NATIVE_TRANSPORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_NATIVE_TRANSPORT[]"
 
 #, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
 msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
+#. mt: deepl
+#, fuzzy
 msgid "tooltip:disabled[Do not use native transport. Quarkus will always use Java NIO.], tooltip:if-available[Use native transport if available, fall back to Java NIO otherwise.], tooltip:required[Require native transport. If the transport dependency is missing from the classpath, the build fails. If the native library cannot be loaded at runtime, the application fails to start.]"
-msgstr ""
+msgstr "tooltip:desativado[Não utilize transporte nativo. O Quarkus utilizará sempre o Java NIO.], tooltip:se-disponível[Utilize transporte nativo, se disponível; caso contrário, recorra ao Java NIO.], tooltip:obrigatório[Exija o transporte nativo. Se a dependência de transporte estiver ausente do classpath, a compilação falhará. Se a biblioteca nativa não puder ser carregada em tempo de execução, o aplicativo não será iniciado.]"
 
+#. mt: deepl
+#, fuzzy
 msgid "tooltip:disabled[Do not use native transport. Quarkus will always use Java NIO.]"
-msgstr ""
+msgstr "tooltip:desativado[Não utilize transporte nativo. O Quarkus sempre utilizará o Java NIO.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-vertx_quarkus-vertx-native-transport-type]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-native-transport-type[`+++quarkus.vertx.native-transport-type+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.native-transport-type+++[]\n"
@@ -167,46 +187,72 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_NATIVE_TRANSPORT_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-vertx_quarkus-vertx-native-transport-type[quarkus.vertx.native-transport-type] config_property_copy_button:quarkus.vertx.native-transport-type[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-vertx_quarkus-vertx-native-transport-type]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-native-transport-type[`+++quarkus.vertx.native-transport-type+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.native-transport-type+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-vertx_quarkus-vertx-native-transport-type[quarkus.vertx.native-transport-type] config_property_copy_button:quarkus.vertx.native-transport-type[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The type of native transport to use."
-msgstr ""
+msgstr "O tipo de transporte nativo a ser utilizado."
 
+#. mt: deepl
+#, fuzzy
 msgid "When set to a value other than `auto`, the application will attempt to use the specified native transport. If the transport is not available at runtime, the behavior depends on `native-transport()`."
-msgstr ""
+msgstr "Quando definido com um valor diferente de `“auto”` , o aplicativo tentará utilizar o transporte nativo especificado. Caso o transporte não esteja disponível no momento da execução, o comportamento dependerá da `função native-transport()` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "Setting this to a specific transport type implicitly enables native transport (i.e., `native-transport()` is treated as at least `if-available`)."
-msgstr ""
+msgstr "Ao definir isso para um tipo de transporte específico, o transporte nativo é habilitado implicitamente (ou seja, `native-transport()` é tratado, no mínimo, como `“se disponível”` )."
 
+#. mt: deepl
+#, fuzzy
 msgid "`auto` - Let Vert.x pick the best available transport (default)"
-msgstr ""
+msgstr "`auto` - Deixa que o Vert.x escolha o melhor transporte disponível (padrão)"
 
+#. mt: deepl
+#, fuzzy
 msgid "`epoll` - Use Linux epoll transport"
-msgstr ""
+msgstr "`epoll` - Utilizar o protocolo epoll do Linux"
 
+#. mt: deepl
+#, fuzzy
 msgid "`kqueue` - Use macOS kqueue transport"
-msgstr ""
+msgstr "`kqueue` - Utilizar o transporte kqueue do macOS"
 
+#. mt: deepl
+#, fuzzy
 msgid "`io-uring` - Use Linux io_uring transport"
-msgstr ""
+msgstr "`io-uring` - Utilize o transporte io_uring do Linux"
 
+#. mt: deepl
+#, fuzzy
 msgid "Note that, if not set to `auto`, Quarkus checks at build time that the requested transport type is available in the classpath. At runtime, it checks whether the transport can be used."
-msgstr ""
+msgstr "Observe que, se não estiver definido como `“auto”` , o Quarkus verifica, durante a compilação, se o tipo de transporte solicitado está disponível no classpath. Em tempo de execução, ele verifica se o transporte pode ser utilizado."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_NATIVE_TRANSPORT_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_NATIVE_TRANSPORT_TYPE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "tooltip:auto[Pick the most appropriate one. This is the default.], tooltip:epoll[EPOLL (Linux Only)  link\\:https\\://man7.org/linux/man-pages/man7/epoll.7.html\\\\]See epoll man page\\].], tooltip:kqueue[KQUEUE (OSX only)  link\\:https\\://en.wikipedia.org/wiki/Kqueue\\\\]See KQueue on Wikipedia\\]], tooltip:io-uring[IO_URING (Linux only, need a recent Linux kernel (5.10{plus})).  link\\:https\\://man7.org/linux/man-pages/man7/io_uring.7.html\\\\]See io_uring man page\\].]"
-msgstr ""
+msgstr "tooltip:auto[Escolha a opção mais adequada. Esta é a configuração padrão.], tooltip:epoll[EPOLL (somente Linux) link\\:https\\://man7.org/linux/man-pages/man7/epoll.7.html\\\\]Consulte a página de manual do epoll\\].], tooltip:kqueue[KQUEUE (somente OS X) link\\:https\\://en.wikipedia.org/wiki/Kqueue\\\\]Consulte KQueue na Wikipédia\\]], tooltip:io-uring[IO_URING (somente para Linux; requer um kernel Linux recente (5.10+)). link\\:https\\://man7.org/linux/man-pages/man7/io_uring.7.html\\\\]Consulte a página de manual do io_uring\\].]"
 
+#. mt: deepl
+#, fuzzy
 msgid "tooltip:auto[Pick the most appropriate one. This is the default.]"
-msgstr ""
+msgstr "tooltip:auto[Escolha a opção mais adequada. Esta é a opção padrão.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-caching]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-caching[`+++quarkus.vertx.caching+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.caching+++[]\n"
@@ -219,7 +265,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CACHING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-caching[quarkus.vertx.caching] config_property_copy_button:quarkus.vertx.caching[]"
 
 #, fuzzy
 msgid ""
@@ -242,6 +288,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cache-directory]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cache-directory[`+++quarkus.vertx.cache-directory+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.cache-directory+++[]\n"
@@ -256,7 +304,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CACHE_DIRECTORY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-cache-directory[quarkus.vertx.cache-directory] config_property_copy_button:quarkus.vertx.cache-directory[]"
 
 #, fuzzy
 msgid ""
@@ -279,6 +327,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CACHE_DIRE
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-classpath-resolving]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-classpath-resolving[`+++quarkus.vertx.classpath-resolving+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.classpath-resolving+++[]\n"
@@ -291,7 +341,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLASSPATH_RESOLVING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-classpath-resolving[quarkus.vertx.classpath-resolving] config_property_copy_button:quarkus.vertx.classpath-resolving[]"
 
 #, fuzzy
 msgid ""
@@ -307,6 +357,8 @@ msgstr "Ativa ou desativa o resolvedor de recursos do classpath do Vert.x."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLASSPATH_RESOLVING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLASSPATH_RESOLVING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-event-loops-pool-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-event-loops-pool-size[`+++quarkus.vertx.event-loops-pool-size+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.event-loops-pool-size+++[]\n"
@@ -319,7 +371,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENT_LOOPS_POOL_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-event-loops-pool-size[quarkus.vertx.event-loops-pool-size] config_property_copy_button:quarkus.vertx.event-loops-pool-size[]"
 
 #, fuzzy
 msgid ""
@@ -338,6 +390,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENT_LOOP
 msgid "int"
 msgstr "int"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-max-event-loop-execute-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-max-event-loop-execute-time[`+++quarkus.vertx.max-event-loop-execute-time+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.max-event-loop-execute-time+++[]\n"
@@ -350,7 +404,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_MAX_EVENT_LOOP_EXECUTE_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-max-event-loop-execute-time[quarkus.vertx.max-event-loop-execute-time] config_property_copy_button:quarkus.vertx.max-event-loop-execute-time[]"
 
 #, fuzzy
 msgid ""
@@ -374,6 +428,8 @@ msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/t
 msgid "`+++2S+++`"
 msgstr "`2S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-warning-exception-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-warning-exception-time[`+++quarkus.vertx.warning-exception-time+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.warning-exception-time+++[]\n"
@@ -386,7 +442,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_WARNING_EXCEPTION_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-warning-exception-time[quarkus.vertx.warning-exception-time] config_property_copy_button:quarkus.vertx.warning-exception-time[]"
 
 #, fuzzy
 msgid ""
@@ -402,6 +458,8 @@ msgstr "O tempo que decorre até que um aviso seja exibido caso o ciclo de event
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_WARNING_EXCEPTION_TIME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_WARNING_EXCEPTION_TIME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-max-worker-execute-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-max-worker-execute-time[`+++quarkus.vertx.max-worker-execute-time+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.max-worker-execute-time+++[]\n"
@@ -414,7 +472,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_MAX_WORKER_EXECUTE_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-max-worker-execute-time[quarkus.vertx.max-worker-execute-time] config_property_copy_button:quarkus.vertx.max-worker-execute-time[]"
 
 #, fuzzy
 msgid ""
@@ -434,6 +492,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_MAX_WORKER
 msgid "`+++60S+++`"
 msgstr "`anos 60`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-internal-blocking-pool-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-internal-blocking-pool-size[`+++quarkus.vertx.internal-blocking-pool-size+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.internal-blocking-pool-size+++[]\n"
@@ -446,7 +506,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_INTERNAL_BLOCKING_POOL_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-internal-blocking-pool-size[quarkus.vertx.internal-blocking-pool-size] config_property_copy_button:quarkus.vertx.internal-blocking-pool-size[]"
 
 #, fuzzy
 msgid ""
@@ -466,6 +526,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_INTERNAL_B
 msgid "`+++20+++`"
 msgstr "`20`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-queue-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-queue-size[`+++quarkus.vertx.queue-size+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.queue-size+++[]\n"
@@ -478,7 +540,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_QUEUE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-queue-size[quarkus.vertx.queue-size] config_property_copy_button:quarkus.vertx.queue-size[]"
 
 #, fuzzy
 msgid ""
@@ -494,6 +556,8 @@ msgstr "O tamanho da fila. Para a maioria das aplicações, esse valor deve ser 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_QUEUE_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_QUEUE_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-growth-resistance]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-growth-resistance[`+++quarkus.vertx.growth-resistance+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.growth-resistance+++[]\n"
@@ -508,7 +572,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_GROWTH_RESISTANCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-growth-resistance[quarkus.vertx.growth-resistance] config_property_copy_button:quarkus.vertx.growth-resistance[]"
 
 #, fuzzy
 msgid ""
@@ -536,6 +600,8 @@ msgstr "flutuar"
 msgid "`+++0+++`"
 msgstr "`0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-keep-alive-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-keep-alive-time[`+++quarkus.vertx.keep-alive-time+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.keep-alive-time+++[]\n"
@@ -548,7 +614,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_KEEP_ALIVE_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-keep-alive-time[quarkus.vertx.keep-alive-time] config_property_copy_button:quarkus.vertx.keep-alive-time[]"
 
 #, fuzzy
 msgid ""
@@ -568,6 +634,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_KEEP_ALIVE
 msgid "`+++30S+++`"
 msgstr "`30S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-prefill]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-prefill[`+++quarkus.vertx.prefill+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.prefill+++[]\n"
@@ -580,7 +648,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_PREFILL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-prefill[quarkus.vertx.prefill] config_property_copy_button:quarkus.vertx.prefill[]"
 
 #, fuzzy
 msgid ""
@@ -600,6 +668,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_PREFILL[]"
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-use-async-dns]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-use-async-dns[`+++quarkus.vertx.use-async-dns+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.use-async-dns+++[]\n"
@@ -612,7 +682,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_USE_ASYNC_DNS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-use-async-dns[quarkus.vertx.use-async-dns] config_property_copy_button:quarkus.vertx.use-async-dns[]"
 
 #, fuzzy
 msgid ""
@@ -628,6 +698,8 @@ msgstr "Ativa o resolvedor de DNS assíncrono."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_USE_ASYNC_DNS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_USE_ASYNC_DNS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live[`+++quarkus.vertx.resolver.cache-max-time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.cache-max-time-to-live+++[]\n"
@@ -644,7 +716,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_MAX_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live[quarkus.vertx.resolver.cache-max-time-to-live] config_property_copy_button:quarkus.vertx.resolver.cache-max-time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -652,23 +724,31 @@ msgid ""
 "config_property_copy_button:+++quarkus.vertx.resolver.cache-max-time-to-live+++[]"
 msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live[quarkus.vertx.resolver.cache-max-time-to-live] config_property_copy_button:quarkus.vertx.resolver.cache-max-time-to-live[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The maximum amount of time that a successfully resolved address will be cached."
-msgstr ""
+msgstr "O tempo máximo durante o qual um endereço resolvido com sucesso permanecerá armazenado em cache."
 
 #, fuzzy
 msgid "If not set explicitly, resolved addresses may be cached forever."
 msgstr "Caso não seja definido explicitamente, os endereços resolvidos poderão permanecer em cache indefinidamente."
 
+#. mt: deepl
+#, fuzzy
 msgid "The value must be a duration of at least 1 second."
-msgstr ""
+msgstr "O valor deve corresponder a uma duração de, no mínimo, 1 segundo."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_MAX_TIME_TO_LIVE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_CACHE_MAX_TIME_TO_LIVE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++2147483647S+++`"
-msgstr ""
+msgstr "`2147483647S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-cache-min-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-min-time-to-live[`+++quarkus.vertx.resolver.cache-min-time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.cache-min-time-to-live+++[]\n"
@@ -681,7 +761,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_MIN_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-cache-min-time-to-live[quarkus.vertx.resolver.cache-min-time-to-live] config_property_copy_button:quarkus.vertx.resolver.cache-min-time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -689,8 +769,10 @@ msgid ""
 "config_property_copy_button:+++quarkus.vertx.resolver.cache-min-time-to-live+++[]"
 msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-cache-min-time-to-live[quarkus.vertx.resolver.cache-min-time-to-live] config_property_copy_button:quarkus.vertx.resolver.cache-min-time-to-live[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The minimum amount of time that a successfully resolved address will be cached."
-msgstr ""
+msgstr "O tempo mínimo durante o qual um endereço resolvido com sucesso permanecerá armazenado em cache."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_MIN_TIME_TO_LIVE+++[]"
@@ -700,6 +782,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_C
 msgid "`+++0S+++`"
 msgstr "`0S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live[`+++quarkus.vertx.resolver.cache-negative-time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.cache-negative-time-to-live+++[]\n"
@@ -712,7 +796,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_NEGATIVE_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live[quarkus.vertx.resolver.cache-negative-time-to-live] config_property_copy_button:quarkus.vertx.resolver.cache-negative-time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -720,13 +804,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.vertx.resolver.cache-negative-time-to-live+++[]"
 msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live[quarkus.vertx.resolver.cache-negative-time-to-live] config_property_copy_button:quarkus.vertx.resolver.cache-negative-time-to-live[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The amount of time that an unsuccessful attempt to resolve an address will be cached."
-msgstr ""
+msgstr "O período de tempo durante o qual uma tentativa malsucedida de resolver um endereço ficará armazenada em cache."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_NEGATIVE_TIME_TO_LIVE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_CACHE_NEGATIVE_TIME_TO_LIVE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-max-queries]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-max-queries[`+++quarkus.vertx.resolver.max-queries+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.max-queries+++[]\n"
@@ -739,7 +827,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_MAX_QUERIES+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-max-queries[quarkus.vertx.resolver.max-queries] config_property_copy_button:quarkus.vertx.resolver.max-queries[]"
 
 #, fuzzy
 msgid ""
@@ -759,6 +847,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_M
 msgid "`+++4+++`"
 msgstr "`4`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-query-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-query-timeout[`+++quarkus.vertx.resolver.query-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.query-timeout+++[]\n"
@@ -771,7 +861,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_QUERY_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-query-timeout[quarkus.vertx.resolver.query-timeout] config_property_copy_button:quarkus.vertx.resolver.query-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -791,6 +881,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_Q
 msgid "`+++5S+++`"
 msgstr "`5S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-hosts-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-hosts-path[`+++quarkus.vertx.resolver.hosts-path+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.hosts-path+++[]\n"
@@ -805,7 +897,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_HOSTS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-hosts-path[quarkus.vertx.resolver.hosts-path] config_property_copy_button:quarkus.vertx.resolver.hosts-path[]"
 
 #, fuzzy
 msgid ""
@@ -825,6 +917,8 @@ msgstr "O valor padrão é `nulo` ; portanto, é utilizado o arquivo de configur
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_HOSTS_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_HOSTS_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-host-refresh-period]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-host-refresh-period[`+++quarkus.vertx.resolver.host-refresh-period+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.host-refresh-period+++[]\n"
@@ -841,7 +935,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_HOST_REFRESH_PERIOD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-host-refresh-period[quarkus.vertx.resolver.host-refresh-period] config_property_copy_button:quarkus.vertx.resolver.host-refresh-period[]"
 
 #, fuzzy
 msgid ""
@@ -849,20 +943,26 @@ msgid ""
 "config_property_copy_button:+++quarkus.vertx.resolver.host-refresh-period+++[]"
 msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-host-refresh-period[quarkus.vertx.resolver.host-refresh-period] config_property_copy_button:quarkus.vertx.resolver.host-refresh-period[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The hosts configuration refresh period."
-msgstr ""
+msgstr "O período de atualização da configuração dos servidores."
 
 #, fuzzy
 msgid "The resolver caches the hosts configuration (configured using `quarkus.vertx.resolver.hosts-path` after it has read it. When the content of this file can change, setting a positive refresh period will load the configuration file again when necessary."
 msgstr "O resolvedor armazena em cache a configuração dos hosts (configurada por meio de ``quarkus.vertx.resolver.hosts-path`` ) após lê-la. Como o conteúdo desse arquivo pode sofrer alterações, definir um período de atualização positivo fará com que o arquivo de configuração seja carregado novamente quando necessário."
 
+#. mt: deepl
+#, fuzzy
 msgid "A value of `0` (the default) disables the refresh."
-msgstr ""
+msgstr "Um valor igual a `0` (padrão) desativa a atualização."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_HOST_REFRESH_PERIOD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_HOST_REFRESH_PERIOD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-servers]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-servers[`+++quarkus.vertx.resolver.servers+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.servers+++[]\n"
@@ -875,7 +975,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_SERVERS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-servers[quarkus.vertx.resolver.servers] config_property_copy_button:quarkus.vertx.resolver.servers[]"
 
 #, fuzzy
 msgid ""
@@ -895,6 +995,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_S
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled[`+++quarkus.vertx.resolver.opt-resource-enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.opt-resource-enabled+++[]\n"
@@ -907,7 +1009,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_OPT_RESOURCE_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled[quarkus.vertx.resolver.opt-resource-enabled] config_property_copy_button:quarkus.vertx.resolver.opt-resource-enabled[]"
 
 #, fuzzy
 msgid ""
@@ -923,6 +1025,8 @@ msgstr "Defina como “true” para habilitar a inclusão automática, nas consu
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_OPT_RESOURCE_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_OPT_RESOURCE_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-rd-flag]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-rd-flag[`+++quarkus.vertx.resolver.rd-flag+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.rd-flag+++[]\n"
@@ -935,7 +1039,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_RD_FLAG+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-rd-flag[quarkus.vertx.resolver.rd-flag] config_property_copy_button:quarkus.vertx.resolver.rd-flag[]"
 
 #, fuzzy
 msgid ""
@@ -951,6 +1055,8 @@ msgstr "Defina o valor do sinalizador _“Recursão desejada_ ” para as consul
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_RD_FLAG+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_RD_FLAG[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-search-domains]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-search-domains[`+++quarkus.vertx.resolver.search-domains+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.search-domains+++[]\n"
@@ -965,7 +1071,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_SEARCH_DOMAINS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-search-domains[quarkus.vertx.resolver.search-domains] config_property_copy_button:quarkus.vertx.resolver.search-domains[]"
 
 #, fuzzy
 msgid ""
@@ -985,6 +1091,8 @@ msgstr "Quando a lista de domínios de pesquisa for nula, a lista efetiva de dom
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_SEARCH_DOMAINS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_SEARCH_DOMAINS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-ndots]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-ndots[`+++quarkus.vertx.resolver.ndots+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.ndots+++[]\n"
@@ -997,7 +1105,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_NDOTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-ndots[quarkus.vertx.resolver.ndots] config_property_copy_button:quarkus.vertx.resolver.ndots[]"
 
 #, fuzzy
 msgid ""
@@ -1017,6 +1125,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_N
 msgid "`+++-1+++`"
 msgstr "`-1`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-rotate-servers]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-rotate-servers[`+++quarkus.vertx.resolver.rotate-servers+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.rotate-servers+++[]\n"
@@ -1029,7 +1139,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_ROTATE_SERVERS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-rotate-servers[quarkus.vertx.resolver.rotate-servers] config_property_copy_button:quarkus.vertx.resolver.rotate-servers[]"
 
 #, fuzzy
 msgid ""
@@ -1045,6 +1155,8 @@ msgstr "Defina como `“true”` para ativar a seleção no modo round-robin do 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_ROTATE_SERVERS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_ROTATE_SERVERS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address[`+++quarkus.vertx.resolver.round-robin-inet-address+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.resolver.round-robin-inet-address+++[]\n"
@@ -1057,7 +1169,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_ROUND_ROBIN_INET_ADDRESS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address[quarkus.vertx.resolver.round-robin-inet-address] config_property_copy_button:quarkus.vertx.resolver.round-robin-inet-address[]"
 
 #, fuzzy
 msgid ""
@@ -1073,6 +1185,8 @@ msgstr "Defina como `“true”` para ativar a seleção de endereço IP por rou
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_ROUND_ROBIN_INET_ADDRESS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_ROUND_ROBIN_INET_ADDRESS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-blocked-thread-check-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-blocked-thread-check-interval[`+++quarkus.vertx.blocked-thread-check-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.blocked-thread-check-interval+++[]\n"
@@ -1085,18 +1199,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_BLOCKED_THREAD_CHECK_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-blocked-thread-check-interval[quarkus.vertx.blocked-thread-check-interval] config_property_copy_button:quarkus.vertx.blocked-thread-check-interval[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-blocked-thread-check-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-blocked-thread-check-interval[`+++quarkus.vertx.blocked-thread-check-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.blocked-thread-check-interval+++[]"
-msgstr ""
+msgstr " link:#quarkus-vertx_quarkus-vertx-blocked-thread-check-interval[quarkus.vertx.blocked-thread-check-interval] config_property_copy_button:quarkus.vertx.blocked-thread-check-interval[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The interval of the blocked thread checker. The blocked thread checker periodically checks if any event loop or worker thread has been blocked for longer than the configured thresholds (`max-event-loop-execute-time` and `max-worker-execute-time`)."
-msgstr ""
+msgstr "O intervalo do verificador de threads bloqueadas. O verificador de threads bloqueadas verifica periodicamente se algum loop de eventos ou thread de trabalho permaneceu bloqueado por um período superior aos limites configurados ( `max-event-loop-execute-time` e `max-worker-execute-time` )."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_BLOCKED_THREAD_CHECK_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_BLOCKED_THREAD_CHECK_INTERVAL[]"
 
 #, fuzzy
 msgid "`+++1S+++`"

@@ -139,8 +139,10 @@ msgstr "O caminho `/forbidden/` não está protegido."
 msgid "Custom HttpSecurityPolicy"
 msgstr "Política de segurança http personalizada"
 
+#. mt: deepl
+#, fuzzy
 msgid "You can register your own named policy by creating an application-scoped CDI bean that implements the `io.quarkus.vertx.http.runtime.security.HttpSecurityPolicy` interface, as shown in the following example:"
-msgstr ""
+msgstr "É possível registrar sua própria política nomeada criando um bean CDI no escopo da aplicação que implemente a interface ``io.quarkus.vertx.http.runtime.security.HttpSecurityPolicy` `, conforme mostrado no exemplo a seguir:"
 
 #, fuzzy
 msgid "Named HTTP Security policy will only be applied to requests matched by the `application.properties` path matching rules."
@@ -164,15 +166,19 @@ msgstr "A anotação `@AuthorizationPolicy` pode ser usada junto com outras anot
 msgid "Apply custom named HttpSecurityPolicy to the Jakarta REST `hello` endpoint."
 msgstr "Aplique a HttpSecurityPolicy nomeada personalizada ao endpoint Jakarta REST `hello` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "You can also create a global `HttpSecurityPolicy` invoked on every request.\n"
 "Just do not implement the `io.quarkus.vertx.http.runtime.security.HttpSecurityPolicy.name` method and leave the policy nameless."
-msgstr ""
+msgstr "Você também pode criar uma `HttpSecurityPolicy` global que seja invocada em todas as solicitações. Basta não implementar o método `io.quarkus.vertx.http.runtime.security.HttpSecurityPolicy.name` e deixar a política sem nome."
 
 #, fuzzy
 msgid "Inject <code>@RequestScoped</code> beans into <code>HttpSecurityPolicy</code>"
 msgstr "Injetar beans <code>@RequestScoped</code> na <code>HttpSecurityPolicy</code>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`@RequestScoped` beans can only be injected when the xref:cdi-reference.adoc#request-context-lifecycle[CDI request context] is active.\n"
 "Users can activate the context, for example, with the `@ActivateRequestContext` annotation.\n"
@@ -181,7 +187,7 @@ msgid ""
 "For example, consider a situation where you want to inject a bean from the Jakarta REST context, such as the `jakarta.ws.rs.core.UriInfo` bean.\n"
 "In this case, you must apply the `HttpSecurityPolicy` to Jakarta REST endpoints.\n"
 "You can use one of the following methods:"
-msgstr ""
+msgstr "Os beans `@RequestScoped` só podem ser injetados quando o xref:cdi-reference.adoc#request-context-lifecycle[contexto de solicitação do CDI] estiver ativo. Os usuários podem ativar o contexto, por exemplo, com a anotação `@ActivateRequestContext` . No entanto, a autorização ocorre antes que o Quarkus prepare alguns beans `@RequestScoped` . Deixe que o Quarkus ative e prepare o contexto de solicitação do CDI para você. Por exemplo, considere uma situação em que o senhor deseja injetar um bean do contexto Jakarta REST, como o bean ``jakarta.ws.rs.core.UriInfo` `. Nesse caso, o senhor deve aplicar a ` `HttpSecurityPolicy`` aos endpoints do Jakarta REST. O senhor pode utilizar um dos seguintes métodos:"
 
 #, fuzzy
 msgid "Use the `@AuthorizationPolicy` security annotation."
@@ -308,11 +314,13 @@ msgid ""
 "In this instance, the permission sets without methods only come into effect if the request method does not match permission sets with the method specification."
 msgstr "Quando um caminho é registrado com vários conjuntos de permissões, os conjuntos de permissões que especificam explicitamente um método HTTP que corresponde à solicitação têm precedência. Nesse caso, os conjuntos de permissões sem métodos só entram em vigor se o método da solicitação não corresponder aos conjuntos de permissões com a especificação do método."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The preceding permission set shows that `GET /public/foo` matches the paths of both permission sets.\n"
 "However, it specifically aligns with the explicit method of the `permit1` permission set.\n"
 "Therefore, `permit1` is selected, and the request is accepted."
-msgstr ""
+msgstr "O conjunto de permissões anterior mostra que `GET /public/foo` corresponde aos caminhos de ambos os conjuntos de permissões. No entanto, ele se alinha especificamente ao método explícito do conjunto de permissões `permit1` . Portanto, `o permit1` é selecionado e a solicitação é aceita."
 
 #, fuzzy
 msgid ""
@@ -427,13 +435,17 @@ msgid ""
 "These roles are then applicable for endpoint authorization by using the `@RolesAllowed` annotation."
 msgstr "A política vencedora baseada em função que foi escolhida para autorizar a solicitação atual pode mapear as funções de `SecurityIdentity` para funções específicas da implantação. Essas funções são então aplicáveis à autorização do endpoint usando a anotação `@RolesAllowed` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Map the `admin` role to the `Admin1` role.\n"
 "The `SecurityIdentity` will have both `admin` and `Admin1` roles."
-msgstr ""
+msgstr "Mapeie a função `“admin”` para a função `“Admin1` ”. A `SecurityIdentity` terá as funções `“admin` ” e `“Admin1` ”."
 
+#. mt: deepl
+#, fuzzy
 msgid "The `/*` path is secured, and only authenticated HTTP requests are granted access."
-msgstr ""
+msgstr "O caminho `/*` é protegido, e somente solicitações HTTP autenticadas têm acesso concedido."
 
 #, fuzzy
 msgid "If all that you need is to map the `SecurityIdentity` roles to the deployment-specific roles regardless of a path, you can also do this:"
@@ -716,8 +728,10 @@ msgid ""
 "It is possible to use multiple expressions in the role definition."
 msgstr "Esse endpoint `/subject/software-tester` requer um usuário autenticado que tenha recebido a função de \"Software-Tester\". É possível usar várias expressões na definição da função."
 
+#. mt: deepl
+#, fuzzy
 msgid "This `/subject/user` endpoint requires an authenticated user that has been granted the role \"User\" through the use of the `@RolesAllowed(\"${customer:User}\")` annotation because the configuration property `customer` is not set."
-msgstr ""
+msgstr "Este endpoint `/subject/user` exige um usuário autenticado ao qual tenha sido atribuída a função “User” por meio da anotação `@RolesAllowed(\"${customer:User}\")` , uma vez que a propriedade de configuração `customer` não está definida."
 
 #, fuzzy
 msgid ""
@@ -777,6 +791,8 @@ msgstr "Por padrão, pelo menos uma das permissões especificadas por meio de um
 msgid "Access is granted to `getItem` if `SecurityIdentity` has either `read` permission or `see` permission and one of the `all` or `detail` actions."
 msgstr "O acesso é concedido a `getItem` se `SecurityIdentity` tiver a permissão `read` ou `see` e uma das ações `all` ou `detail` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The colon separates the permission name from the action.\n"
 "To include a literal colon in the permission name, prefix it with a backslash (`\\\\:`).\n"
@@ -784,7 +800,7 @@ msgid ""
 "The backslash character is only allowed immediately before a colon.\n"
 "A value with more than one unescaped colon is rejected because there is no way to determine which colon is the separator.\n"
 "A single unescaped colon at the very start or end of the value is treated as part of the name, not as a separator."
-msgstr ""
+msgstr "Os dois pontos separam o nome da permissão da ação. Para incluir dois pontos literais no nome da permissão, coloque uma barra invertida ( `\\\\:` ) antes deles. Aqui, o nome da permissão é `resource:name` e a ação é `action` . O caractere barra invertida só é permitido imediatamente antes de dois pontos. Um valor com mais de um dois pontos não escapado é rejeitado, pois não há como determinar qual dois pontos é o separador. Um único dois pontos não escapado no início ou no final do valor é tratado como parte do nome, e não como um separador."
 
 #, fuzzy
 msgid ""
@@ -825,17 +841,21 @@ msgid ""
 "In this scenario, the permission `list` is added to the `SecurityIdentity` instance as `new CustomPermission(\"list\")`."
 msgstr "O senhor pode especificar uma implementação personalizada da classe `java.security.Permission` . Sua classe personalizada deve definir exatamente um construtor que aceite o nome da permissão e, opcionalmente, algumas ações, por exemplo, a matriz `String` . Nesse cenário, a permissão `list` é adicionada à instância `SecurityIdentity` como `new CustomPermission(\"list\")` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "To include a literal colon in the permission name, use `\\\\:` in the annotation value.\n"
 "In `application.properties`, use `\\\\\\\\:` because SmallRye Config consumes one level of backslash escaping.\n"
 "Here, the permission name is `resource:name` and the action is `action`."
-msgstr ""
+msgstr "Para incluir dois pontos literais no nome da permissão, utilize `\\\\:` no valor da anotação. No `arquivo application.properties` , utilize `\\\\\\\\:` , pois o SmallRye Config utiliza um nível de escape com barra invertida. Neste caso, o nome da permissão é `resource:name` e a ação é `action` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "You can also create a custom `java.security.Permission` class with additional constructor parameters.\n"
 "The names of these additional parameters are matched with the names of the arguments of the method annotated with the `@PermissionsAllowed` annotation.\n"
 "Later, Quarkus instantiates your custom permission with actual arguments, with which the method annotated with the `@PermissionsAllowed` has been invoked."
-msgstr ""
+msgstr "Você também pode criar uma classe ``java.security.Permission` ` personalizada com parâmetros adicionais no construtor. Os nomes desses parâmetros adicionais são correspondidos aos nomes dos argumentos do método anotado com a anotação ``@PermissionsAllowed`` . Posteriormente, o Quarkus instancia sua permissão personalizada com os argumentos reais, com os quais o método anotado com `@PermissionsAllowed` foi invocado."
 
 #, fuzzy
 msgid ""
@@ -870,13 +890,17 @@ msgstr "Aqui, o segundo parâmetro `Library` corresponde ao nome `library` , enq
 msgid "Similarly to the `CRUDResource` example, the following example shows how you can grant a user with the `admin` role permissions to update `MediaLibrary`:"
 msgstr "Da mesma forma que o exemplo `CRUDResource` , o exemplo a seguir mostra como o senhor pode conceder a um usuário com a função `admin` permissões para atualizar `MediaLibrary` :"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "When building a native executable, the permission class must be registered for reflection unless it is also used in at least one `io.quarkus.security.PermissionsAllowed#permission` attribute.\n"
 "More details about the `@RegisterForReflection` annotation can be found on the xref:writing-native-applications-tips.adoc#registerForReflection[native application tips] page."
-msgstr ""
+msgstr "Ao compilar um executável nativo, a classe de permissão deve ser registrada para reflexão, a menos que também seja utilizada em pelo menos um atributo `io.quarkus.security.PermissionsAllowed#permission` . Mais detalhes sobre a anotação `@RegisterForReflection` podem ser encontrados na página xref:writing-native-applications-tips.adoc#registerForReflection[de dicas para aplicativos nativos] ."
 
+#. mt: deepl
+#, fuzzy
 msgid "Pass the `MediaLibrary` instance to the `LibraryPermission` constructor."
-msgstr ""
+msgstr "Passe a instância `da MediaLibrary` ao construtor da `LibraryPermission` ."
 
 #, fuzzy
 msgid ""
@@ -891,10 +915,12 @@ msgid ""
 "In the following example, xref:security-customization.adoc#security-identity-customization[`SecurityIdentity` is customized] to add the same permission that was previously granted with the HTTP role-based policy."
 msgstr "Os exemplos fornecidos até agora demonstram o mapeamento de função para permissão. Também é possível adicionar permissões de forma programática à instância `SecurityIdentity` . No exemplo a seguir, o site xref:security-customization.adoc#security-identity-customization[SecurityIdentity é personalizado] para adicionar a mesma permissão que foi concedida anteriormente com a política baseada em função HTTP."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Add a `media-library` permission with `read`, `write`, and `list` actions.\n"
 "Because `MediaLibrary` is the `TvLibrary` class parent, a user with the `admin` role is also permitted to modify `TvLibrary`."
-msgstr ""
+msgstr "Adicione uma permissão `para a biblioteca de mídia` com as ações `de leitura` , `gravação` e `listagem` . Como a classe ``MediaLibrary`` é a classe-pai `da `TvLibrary`` , um usuário com a função `de administrador` também tem permissão para modificar `a `TvLibrary`` ."
 
 #, fuzzy
 msgid "Create permission checkers"
@@ -954,14 +980,20 @@ msgstr "O método verificador de permissões `canDeleteAllDirectories` concede a
 msgid "There must be exactly two permission checker methods, one for the `delete:service` permission and other for the `delete:file` permission."
 msgstr "Deve haver exatamente dois métodos de verificação de permissão, um para a permissão `delete:service` e outro para a permissão `delete:file` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "When escaped colons are used, the `@PermissionChecker` value must be an exact match of the raw `@PermissionsAllowed` value, including the escape characters:"
-msgstr ""
+msgstr "Quando forem utilizados dois pontos escapados, o valor `de @PermissionChecker` deve corresponder exatamente ao valor bruto de `@PermissionsAllowed` , incluindo os caracteres de escape:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Matched by the permission checker because both raw annotation values are `see\\\\:detail`."
-msgstr ""
+msgstr "Identificado pelo verificador de permissões porque ambos os valores brutos da anotação são `see\\\\:detail` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "Not matched because the raw value `see:detail` differs from the checker value `see\\\\:detail`."
-msgstr ""
+msgstr "Não houve correspondência porque o valor bruto `em see:detail` difere do valor do verificador `em see\\\\:detail` ."
 
 #, fuzzy
 msgid "Create permission meta-annotations"
@@ -988,13 +1020,15 @@ msgid ""
 "Let's consider following Jakarta REST resource:"
 msgstr "O Quarkus pode mapear campos de parâmetros de um método seguro para parâmetros de um construtor de permissão personalizado. O senhor pode usar esse recurso para passar parâmetros `jakarta.ws.rs.BeanParam` para a sua permissão personalizada. Vamos considerar o seguinte recurso Jakarta REST:"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The `params` annotation attribute specifies that user principal name should be passed to the `BeanParamPermissionChecker#canSayHello` method.\n"
 "Other `BeanParamPermissionChecker#canSayHello` method parameters like `customAuthorizationHeader` and `query` are matched automatically.\n"
 "Quarkus identifies the `BeanParamPermissionChecker#canSayHello` method parameters among `beanParam` fields and their public accessors.\n"
 "To avoid ambiguous resolution, automatic detection only works for the `beanParam` fields.\n"
 "For that reason, the path to the user principal name must be specified explicitly."
-msgstr ""
+msgstr "O atributo de anotação ``params` ` especifica que o nome principal do usuário deve ser passado ao método ``BeanParamPermissionChecker#canSayHello` `. Outros parâmetros do método ` `BeanParamPermissionChecker#canSayHello` `, como ` `customAuthorizationHeader` ` e ``query` `, são mapeados automaticamente. O Quarkus identifica os parâmetros do método ``BeanParamPermissionChecker#canSayHello` ` entre os campos ``beanParam`` e seus acessadores públicos. Para evitar ambiguidades na resolução, a detecção automática funciona apenas para os campos ``beanParam`` . Por esse motivo, o caminho para o nome principal do usuário deve ser especificado explicitamente."
 
 #, fuzzy
 msgid "Where the `SimpleBeanParam` class is declared like in the example below:"

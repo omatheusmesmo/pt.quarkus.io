@@ -1078,11 +1078,13 @@ msgstr "Por exemplo, o senhor pode querer manter os tokens em um cluster de cach
 msgid "Here is a simple example:"
 msgstr "Aqui está um exemplo simples:"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "If the tokens are kept in an external storage, this storage might no longer have them, for example, because they have expired and were evicted or removed.\n"
 "In this case, the custom `TokenStateManager#getTokens` method must either return a `null` value or fail with `io.quarkus.security.AuthenticationFailedException`.\n"
 "Both options are treated the same way: the session cookie is removed and the user is redirected to the OIDC provider to re-authenticate."
-msgstr ""
+msgstr "Caso os tokens sejam mantidos em um armazenamento externo, é possível que esse armazenamento não os contenha mais, por exemplo, porque expiraram e foram removidos ou eliminados. Nesse caso, o método personalizado ``TokenStateManager#getTokens`` deve retornar um valor `nulo` ou apresentar uma exceção do tipo ` `io.quarkus.security.AuthenticationFailedException` `. Ambas as opções são tratadas da mesma forma: o cookie de sessão é removido e o usuário é redirecionado ao provedor OIDC para se autenticar novamente."
 
 #, fuzzy
 msgid "For information about the default `TokenStateManager` storing tokens in an encrypted session cookie, see <<token-state-manager>>."

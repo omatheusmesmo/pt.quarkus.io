@@ -797,6 +797,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-additional-build-args]]`link:#quarkus-native-pkg-native-config_quarkus-native-additional-build-args[quarkus.native.additional-build-args]`\n"
 "\n"
@@ -807,10 +809,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ADDITIONAL_BUILD_ARGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-additional-build-args[quarkus.native.additional-build-args]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-additional-build-args]]`link:#quarkus-native-pkg-native-config_quarkus-native-additional-build-args[quarkus.native.additional-build-args]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-additional-build-args[quarkus.native.additional-build-args]`"
 
 #, fuzzy
 msgid "Comma-separated, additional arguments to pass to the build process. If an argument includes the `,` symbol, it needs to be escaped, e.g. `++\\\\++,`"
@@ -828,6 +832,8 @@ msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-http-url-handler]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-http-url-handler[quarkus.native.enable-http-url-handler]`\n"
 "\n"
@@ -838,10 +844,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_HTTP_URL_HANDLER+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-http-url-handler[quarkus.native.enable-http-url-handler]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-http-url-handler]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-http-url-handler[quarkus.native.enable-http-url-handler]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-http-url-handler[quarkus.native.enable-http-url-handler]`"
 
 #, fuzzy
 msgid "If the HTTP url handler should be enabled, allowing you to do URL.openConnection() for HTTP URLs"
@@ -857,6 +865,8 @@ msgstr "booleano"
 msgid "`true`"
 msgstr "`true`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-https-url-handler]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-https-url-handler[quarkus.native.enable-https-url-handler]`\n"
 "\n"
@@ -867,10 +877,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_HTTPS_URL_HANDLER+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-https-url-handler[quarkus.native.enable-https-url-handler]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-https-url-handler]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-https-url-handler[quarkus.native.enable-https-url-handler]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-https-url-handler[quarkus.native.enable-https-url-handler]`"
 
 #, fuzzy
 msgid "If the HTTPS url handler should be enabled, allowing you to do URL.openConnection() for HTTPS URLs"
@@ -884,6 +896,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ENABLE_HT
 msgid "`false`"
 msgstr "`false`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-headless]]`link:#quarkus-native-pkg-native-config_quarkus-native-headless[quarkus.native.headless]`\n"
 "\n"
@@ -894,10 +908,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_HEADLESS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-headless[quarkus.native.headless]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-headless]]`link:#quarkus-native-pkg-native-config_quarkus-native-headless[quarkus.native.headless]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-headless[quarkus.native.headless]`"
 
 #, fuzzy
 msgid "The default value for java.awt.headless JVM option. Switching this option affects linking of awt libraries."
@@ -907,6 +923,8 @@ msgstr "O valor padrão da opção java.awt.headless da JVM. A alteração dessa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_HEADLESS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_HEADLESS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-file-encoding]]`link:#quarkus-native-pkg-native-config_quarkus-native-file-encoding[quarkus.native.file-encoding]`\n"
 "\n"
@@ -917,10 +935,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_FILE_ENCODING+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-file-encoding[quarkus.native.file-encoding]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-file-encoding]]`link:#quarkus-native-pkg-native-config_quarkus-native-file-encoding[quarkus.native.file-encoding]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-file-encoding[quarkus.native.file-encoding]`"
 
 #, fuzzy
 msgid "Defines the file encoding as in `-Dfile.encoding=...`. Native image runtime uses the host's (i.e. build time) value of `file.encoding` system property. We intentionally default this to UTF-8 to avoid platform specific defaults to be picked up which can then result in inconsistent behavior in the generated native executable."
@@ -930,13 +950,17 @@ msgstr "Define a codificação do arquivo conforme especificado em `-Dfile.encod
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_FILE_ENCODING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_FILE_ENCODING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "link:https://docs.oracle.com/javase/8/docs/api/java/lang/String.html[String]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/lang/String.html[String]"
 
 #, fuzzy
 msgid "`UTF-8`"
 msgstr "`UTF-8`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-add-all-charsets]]`link:#quarkus-native-pkg-native-config_quarkus-native-add-all-charsets[quarkus.native.add-all-charsets]`\n"
 "\n"
@@ -947,10 +971,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ADD_ALL_CHARSETS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-add-all-charsets[quarkus.native.add-all-charsets]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-add-all-charsets]]`link:#quarkus-native-pkg-native-config_quarkus-native-add-all-charsets[quarkus.native.add-all-charsets]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-add-all-charsets[quarkus.native.add-all-charsets]`"
 
 #, fuzzy
 msgid "If all character sets should be added to the native image. This increases image size"
@@ -960,6 +986,8 @@ msgstr "Se todos os conjuntos de caracteres devem ser adicionados à imagem nati
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ADD_ALL_CHARSETS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ADD_ALL_CHARSETS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-graalvm-home]]`link:#quarkus-native-pkg-native-config_quarkus-native-graalvm-home[quarkus.native.graalvm-home]`\n"
 "\n"
@@ -970,10 +998,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_GRAALVM_HOME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-graalvm-home[quarkus.native.graalvm-home]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-graalvm-home]]`link:#quarkus-native-pkg-native-config_quarkus-native-graalvm-home[quarkus.native.graalvm-home]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-graalvm-home[quarkus.native.graalvm-home]`"
 
 #, fuzzy
 msgid "The location of the Graal distribution"
@@ -990,6 +1020,8 @@ msgstr "string"
 msgid "`${GRAALVM_HOME:}`"
 msgstr "`${GRAALVM_HOME:}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-java-home]]`link:#quarkus-native-pkg-native-config_quarkus-native-java-home[quarkus.native.java-home]`\n"
 "\n"
@@ -1000,10 +1032,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_JAVA_HOME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-java-home[quarkus.native.java-home]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-java-home]]`link:#quarkus-native-pkg-native-config_quarkus-native-java-home[quarkus.native.java-home]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-java-home[quarkus.native.java-home]`"
 
 #, fuzzy
 msgid "The location of the JDK"
@@ -1021,6 +1055,8 @@ msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/io/File.html[Arquivo
 msgid "`${java.home}`"
 msgstr "`${java.home}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-native-image-xmx]]`link:#quarkus-native-pkg-native-config_quarkus-native-native-image-xmx[quarkus.native.native-image-xmx]`\n"
 "\n"
@@ -1031,10 +1067,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_NATIVE_IMAGE_XMX+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-native-image-xmx[quarkus.native.native-image-xmx]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-native-image-xmx]]`link:#quarkus-native-pkg-native-config_quarkus-native-native-image-xmx[quarkus.native.native-image-xmx]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-native-image-xmx[quarkus.native.native-image-xmx]`"
 
 #, fuzzy
 msgid "The maximum Java heap to be used during the native image generation"
@@ -1044,6 +1082,8 @@ msgstr "O tamanho máximo da pilha de Java a ser utilizado durante a geração d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_NATIVE_IMAGE_XMX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_NATIVE_IMAGE_XMX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-debug-build-process]]`link:#quarkus-native-pkg-native-config_quarkus-native-debug-build-process[quarkus.native.debug-build-process]`\n"
 "\n"
@@ -1054,10 +1094,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_DEBUG_BUILD_PROCESS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-debug-build-process[quarkus.native.debug-build-process]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-debug-build-process]]`link:#quarkus-native-pkg-native-config_quarkus-native-debug-build-process[quarkus.native.debug-build-process]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-debug-build-process[quarkus.native.debug-build-process]`"
 
 #, fuzzy
 msgid "If the native image build should wait for a debugger to be attached before running. This is an advanced option and is generally only intended for those familiar with GraalVM internals"
@@ -1067,6 +1109,8 @@ msgstr "Se a compilação da imagem nativa deve aguardar a conexão de um depura
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_DEBUG_BUILD_PROCESS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_DEBUG_BUILD_PROCESS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-publish-debug-build-process-port]]`link:#quarkus-native-pkg-native-config_quarkus-native-publish-debug-build-process-port[quarkus.native.publish-debug-build-process-port]`\n"
 "\n"
@@ -1077,10 +1121,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_PUBLISH_DEBUG_BUILD_PROCESS_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-publish-debug-build-process-port[quarkus.native.publish-debug-build-process-port]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-publish-debug-build-process-port]]`link:#quarkus-native-pkg-native-config_quarkus-native-publish-debug-build-process-port[quarkus.native.publish-debug-build-process-port]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-publish-debug-build-process-port[quarkus.native.publish-debug-build-process-port]`"
 
 #, fuzzy
 msgid "If the debug port should be published when building with docker and debug-build-process is true"
@@ -1090,6 +1136,8 @@ msgstr "Se a porta de depuração deve ser publicada ao compilar com o Docker e 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_PUBLISH_DEBUG_BUILD_PROCESS_PORT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_PUBLISH_DEBUG_BUILD_PROCESS_PORT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-isolates]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-isolates[quarkus.native.enable-isolates]`\n"
 "\n"
@@ -1100,10 +1148,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_ISOLATES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-isolates[quarkus.native.enable-isolates]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-isolates]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-isolates[quarkus.native.enable-isolates]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-isolates[quarkus.native.enable-isolates]`"
 
 #, fuzzy
 msgid "If isolates should be enabled"
@@ -1113,6 +1163,8 @@ msgstr "Caso seja necessário habilitar os isolados"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_ISOLATES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ENABLE_ISOLATES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-fallback-images]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-fallback-images[quarkus.native.enable-fallback-images]`\n"
 "\n"
@@ -1123,10 +1175,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_FALLBACK_IMAGES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-fallback-images[quarkus.native.enable-fallback-images]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-fallback-images]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-fallback-images[quarkus.native.enable-fallback-images]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-fallback-images[quarkus.native.enable-fallback-images]`"
 
 #, fuzzy
 msgid "If a JVM based 'fallback image' should be created if native image fails. This is not recommended, as this is functionally the same as just running the application in a JVM"
@@ -1136,6 +1190,8 @@ msgstr "Se deve ser criada uma “imagem de reserva” baseada em JVM caso a ima
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_FALLBACK_IMAGES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ENABLE_FALLBACK_IMAGES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-auto-service-loader-registration]]`link:#quarkus-native-pkg-native-config_quarkus-native-auto-service-loader-registration[quarkus.native.auto-service-loader-registration]`\n"
 "\n"
@@ -1146,10 +1202,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_AUTO_SERVICE_LOADER_REGISTRATION+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-auto-service-loader-registration[quarkus.native.auto-service-loader-registration]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-auto-service-loader-registration]]`link:#quarkus-native-pkg-native-config_quarkus-native-auto-service-loader-registration[quarkus.native.auto-service-loader-registration]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-auto-service-loader-registration[quarkus.native.auto-service-loader-registration]`"
 
 #, fuzzy
 msgid "If all META-INF/services entries should be automatically registered"
@@ -1159,6 +1217,8 @@ msgstr "Se todas as entradas do META-INF/services devem ser registradas automati
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_AUTO_SERVICE_LOADER_REGISTRATION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_AUTO_SERVICE_LOADER_REGISTRATION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-dump-proxies]]`link:#quarkus-native-pkg-native-config_quarkus-native-dump-proxies[quarkus.native.dump-proxies]`\n"
 "\n"
@@ -1169,10 +1229,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_DUMP_PROXIES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-dump-proxies[quarkus.native.dump-proxies]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-dump-proxies]]`link:#quarkus-native-pkg-native-config_quarkus-native-dump-proxies[quarkus.native.dump-proxies]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-dump-proxies[quarkus.native.dump-proxies]`"
 
 #, fuzzy
 msgid "If the bytecode of all proxies should be dumped for inspection"
@@ -1182,6 +1244,8 @@ msgstr "Se o bytecode de todos os proxies deva ser exportado para análise"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_DUMP_PROXIES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_DUMP_PROXIES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-container-build]]`link:#quarkus-native-pkg-native-config_quarkus-native-container-build[quarkus.native.container-build]`\n"
 "\n"
@@ -1192,10 +1256,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_BUILD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-container-build[quarkus.native.container-build]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-container-build]]`link:#quarkus-native-pkg-native-config_quarkus-native-container-build[quarkus.native.container-build]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-container-build[quarkus.native.container-build]`"
 
 #, fuzzy
 msgid "If this build should be done using a container runtime. Unless container-runtime is also set, docker will be used by default. If docker is not available or is an alias to podman, podman will be used instead as the default."
@@ -1205,6 +1271,8 @@ msgstr "Se esta compilação for realizada utilizando um ambiente de execução 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_BUILD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_CONTAINER_BUILD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-pie]]`link:#quarkus-native-pkg-native-config_quarkus-native-pie[quarkus.native.pie]`\n"
 "\n"
@@ -1215,10 +1283,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_PIE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-pie[quarkus.native.pie]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-pie]]`link:#quarkus-native-pkg-native-config_quarkus-native-pie[quarkus.native.pie]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-pie[quarkus.native.pie]`"
 
 #, fuzzy
 msgid "Explicit configuration option to generate a native Position Independent Executable (PIE) for Linux. If the system supports PIE generation, the default behaviour is to disable it for link:https://www.redhat.com/en/blog/position-independent-executable-pie-performance[performance reasons]. However, some systems can only run position-independent executables, so this option enables the generation of such native executables."
@@ -1228,6 +1298,8 @@ msgstr "Opção de configuração explícita para gerar um executável nativo in
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_PIE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_PIE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-remote-container-build]]`link:#quarkus-native-pkg-native-config_quarkus-native-remote-container-build[quarkus.native.remote-container-build]`\n"
 "\n"
@@ -1238,10 +1310,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REMOTE_CONTAINER_BUILD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-remote-container-build[quarkus.native.remote-container-build]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-remote-container-build]]`link:#quarkus-native-pkg-native-config_quarkus-native-remote-container-build[quarkus.native.remote-container-build]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-remote-container-build[quarkus.native.remote-container-build]`"
 
 #, fuzzy
 msgid "If this build is done using a remote docker daemon."
@@ -1251,6 +1325,8 @@ msgstr "Caso essa compilação seja realizada utilizando um daemon do Docker rem
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REMOTE_CONTAINER_BUILD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_REMOTE_CONTAINER_BUILD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-builder-image]]`link:#quarkus-native-pkg-native-config_quarkus-native-builder-image[quarkus.native.builder-image]`\n"
 "\n"
@@ -1261,21 +1337,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_BUILDER_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-builder-image[quarkus.native.builder-image]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-builder-image]]`link:#quarkus-native-pkg-native-config_quarkus-native-builder-image[quarkus.native.builder-image]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-builder-image[quarkus.native.builder-image]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "The docker image to use to do the image build. It can be one of `graalvm`, `mandrel`, or the full image path, e.g. `quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-21`."
-msgstr ""
+msgstr "A imagem do Docker a ser utilizada para a compilação da imagem. Pode ser `“graalvm”` , `“mandrel”` ou o caminho completo da imagem, por exemplo, `quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-21` ."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_BUILDER_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_BUILDER_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`mandrel`"
-msgstr ""
+msgstr "`mandril`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-builder-image-pull]]`link:#quarkus-native-pkg-native-config_quarkus-native-builder-image-pull[quarkus.native.builder-image.pull]`\n"
 "\n"
@@ -1292,10 +1376,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_BUILDER_IMAGE_PULL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-builder-image-pull[quarkus.native.builder-image.pull]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-builder-image-pull]]`link:#quarkus-native-pkg-native-config_quarkus-native-builder-image-pull[quarkus.native.builder-image.pull]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-builder-image-pull[quarkus.native.builder-image.pull]`"
 
 #, fuzzy
 msgid "The strategy for pulling the builder image during the build."
@@ -1317,12 +1403,18 @@ msgstr "Utilize “never” para que a compilação seja reprovada caso não haj
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_BUILDER_IMAGE_PULL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_BUILDER_IMAGE_PULL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`always`, `missing`, `never`"
-msgstr ""
+msgstr "`sempre` , `ausente` , `nunca`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`always`"
-msgstr ""
+msgstr "`sempre`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-container-runtime]]`link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime[quarkus.native.container-runtime]`\n"
 "\n"
@@ -1333,10 +1425,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_RUNTIME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime[quarkus.native.container-runtime]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-container-runtime]]`link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime[quarkus.native.container-runtime]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime[quarkus.native.container-runtime]`"
 
 #, fuzzy
 msgid "The container runtime (e.g. docker) that is used to do an image based build. If this is set then a container build is always done."
@@ -1350,6 +1444,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_CONTAINER
 msgid "`docker`, `docker-rootless`, `wsl`, `wsl-rootless`, `podman`, `podman-rootless`, `unavailable`"
 msgstr "`docker` , `docker-rootless` , `wsl` , `wsl-rootless` , `podman` , `podman-rootless` , `indisponível`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-container-runtime-options]]`link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime-options[quarkus.native.container-runtime-options]`\n"
 "\n"
@@ -1360,10 +1456,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_RUNTIME_OPTIONS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime-options[quarkus.native.container-runtime-options]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-container-runtime-options]]`link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime-options[quarkus.native.container-runtime-options]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-container-runtime-options[quarkus.native.container-runtime-options]`"
 
 #, fuzzy
 msgid "Options to pass to the container runtime"
@@ -1373,6 +1471,8 @@ msgstr "Opções a serem passadas ao ambiente de execução do contêiner"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_RUNTIME_OPTIONS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_CONTAINER_RUNTIME_OPTIONS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-monitoring]]`link:#quarkus-native-pkg-native-config_quarkus-native-monitoring[quarkus.native.monitoring]`\n"
 "\n"
@@ -1390,10 +1490,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_MONITORING+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-monitoring[quarkus.native.monitoring]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-monitoring]]`link:#quarkus-native-pkg-native-config_quarkus-native-monitoring[quarkus.native.monitoring]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-monitoring[quarkus.native.monitoring]`"
 
 #, fuzzy
 msgid "Enable monitoring various monitoring options. The value should be comma separated."
@@ -1407,8 +1509,10 @@ msgstr "`jfr` para suporte ao gravador de voo do JDK"
 msgid "`jvmstat` for JVMStat support"
 msgstr "`jvmstat` para suporte ao JVMStat"
 
+#. mt: deepl
+#, fuzzy
 msgid "`heapdump` for heampdump support"
-msgstr ""
+msgstr "`heapdump` para suporte a heampdump"
 
 #, fuzzy
 msgid "`jmxclient` for JMX client support (experimental)"
@@ -1430,6 +1534,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_MONITORIN
 msgid "list of MonitoringOption"
 msgstr "lista de MonitoringOption"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-reports]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-reports[quarkus.native.enable-reports]`\n"
 "\n"
@@ -1440,10 +1546,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_REPORTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-reports[quarkus.native.enable-reports]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-reports]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-reports[quarkus.native.enable-reports]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-reports[quarkus.native.enable-reports]`"
 
 #, fuzzy
 msgid "If the reports on call paths and included packages/classes/methods should be generated"
@@ -1453,6 +1561,8 @@ msgstr "Se os relatórios sobre os caminhos de chamada e os pacotes/classes/mét
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_REPORTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ENABLE_REPORTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-report-exception-stack-traces]]`link:#quarkus-native-pkg-native-config_quarkus-native-report-exception-stack-traces[quarkus.native.report-exception-stack-traces]`\n"
 "\n"
@@ -1463,10 +1573,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REPORT_EXCEPTION_STACK_TRACES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-report-exception-stack-traces[quarkus.native.report-exception-stack-traces]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-report-exception-stack-traces]]`link:#quarkus-native-pkg-native-config_quarkus-native-report-exception-stack-traces[quarkus.native.report-exception-stack-traces]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-report-exception-stack-traces[quarkus.native.report-exception-stack-traces]`"
 
 #, fuzzy
 msgid "If exceptions should be reported with a full stack trace"
@@ -1476,6 +1588,8 @@ msgstr "Se as exceções devem ser relatadas com um rastreamento completo da pil
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REPORT_EXCEPTION_STACK_TRACES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_REPORT_EXCEPTION_STACK_TRACES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-report-errors-at-runtime]]`link:#quarkus-native-pkg-native-config_quarkus-native-report-errors-at-runtime[quarkus.native.report-errors-at-runtime]`\n"
 "\n"
@@ -1486,10 +1600,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REPORT_ERRORS_AT_RUNTIME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-report-errors-at-runtime[quarkus.native.report-errors-at-runtime]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-report-errors-at-runtime]]`link:#quarkus-native-pkg-native-config_quarkus-native-report-errors-at-runtime[quarkus.native.report-errors-at-runtime]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-report-errors-at-runtime[quarkus.native.report-errors-at-runtime]`"
 
 #, fuzzy
 msgid "If errors should be reported at runtime. This is a more relaxed setting, however it is not recommended as it means your application may fail at runtime if an unsupported feature is used by accident."
@@ -1499,6 +1615,8 @@ msgstr "Se os erros devem ser relatados durante a execução. Essa é uma config
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REPORT_ERRORS_AT_RUNTIME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_REPORT_ERRORS_AT_RUNTIME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-reuse-existing]]`link:#quarkus-native-pkg-native-config_quarkus-native-reuse-existing[quarkus.native.reuse-existing]`\n"
 "\n"
@@ -1509,10 +1627,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REUSE_EXISTING+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-reuse-existing[quarkus.native.reuse-existing]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-reuse-existing]]`link:#quarkus-native-pkg-native-config_quarkus-native-reuse-existing[quarkus.native.reuse-existing]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-reuse-existing[quarkus.native.reuse-existing]`"
 
 #, fuzzy
 msgid "Don't build a native image if it already exists. This is useful if you have already built an image and you want to use Quarkus to deploy it somewhere. Note that this is not able to detect if the existing image is outdated, if you have modified source or config and want a new image you must not use this flag."
@@ -1522,6 +1642,8 @@ msgstr "Não crie uma imagem nativa se ela já existir. Isso é útil caso você
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REUSE_EXISTING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_REUSE_EXISTING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-resources-includes]]`link:#quarkus-native-pkg-native-config_quarkus-native-resources-includes[quarkus.native.resources.includes]`\n"
 "\n"
@@ -1554,10 +1676,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_RESOURCES_INCLUDES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-resources-includes[quarkus.native.resources.includes]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-resources-includes]]`link:#quarkus-native-pkg-native-config_quarkus-native-resources-includes[quarkus.native.resources.includes]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-resources-includes[quarkus.native.resources.includes]`"
 
 #, fuzzy
 msgid "A comma separated list of globs to match resource paths that should be added to the native image."
@@ -1579,8 +1703,10 @@ msgstr "Exemplo: Supondo que você tenha os arquivos `src/main/resources/ignored
 msgid "the files `src/main/resources/foo/selected.png` and `bar/some.txt` will be included in the native image, while `src/main/resources/ignored.png` will not be included."
 msgstr "Os arquivos `src/main/resources/foo/selected.png` e `bar/some.txt` serão incluídos na imagem nativa, enquanto o arquivo `src/main/resources/ignored.png` não será incluído."
 
+#. mt: deepl
+#, fuzzy
 msgid "Supported glob features   Feature Description   `++*++` Matches a (possibly empty) sequence of characters that does not contain slash (`/`)   `++**++` Matches a (possibly empty) sequence of characters that may contain slash (`/`)   `?` Matches one character, but not slash   `++[++abc++]++` Matches one character given in the bracket, but not slash   `++[++a-z++]++` Matches one character from the range given in the bracket, but not slash   `++[++!abc++]++` Matches one character not named in the bracket; does not match slash   `++[++a-z++]++` Matches one character outside the range given in the bracket; does not match slash   `++{++one,two,three++}++` Matches any of the alternating tokens separated by comma; the tokens may contain wildcards, nested alternations and ranges   `++\\++` The escape character"
-msgstr ""
+msgstr "Recursos de glob suportados Recurso Descrição `*` Corresponde a uma sequência (possivelmente vazia) de caracteres que não contenha barra ( `/` ) `**` Corresponde a uma sequência (possivelmente vazia) de caracteres que possa conter barra ( `/` ) `?` Corresponde a um caractere, exceto a barra `[abc]` Corresponde a um caractere indicado entre colchetes, exceto a barra `[a-z]` Corresponde a um caractere do intervalo indicado entre colchetes, exceto a barra `[!abc]` Corresponde a um caractere não mencionado entre colchetes; não corresponde à barra `[a-z]` Corresponde a um caractere fora do intervalo indicado entre colchetes; não corresponde à barra `{um,dois,três}` Corresponde a qualquer um dos tokens alternativos separados por vírgula; os tokens podem conter curingas, alternativas aninhadas e intervalos `\\` O caractere de escape"
 
 #, fuzzy
 msgid "Note that there are three levels of escaping when passing this option via `application.properties`:"
@@ -1594,8 +1720,10 @@ msgstr "analisador do arquivo `application.properties`"
 msgid "MicroProfile Config list converter that splits the comma separated list"
 msgstr "Conversor de lista do MicroProfile Config que divide a lista separada por vírgulas"
 
+#. mt: deepl
+#, fuzzy
 msgid "Glob parser  All three levels use backslash (`++\\++`) as the escaping character. So you need to use an appropriate number of backslashes depending on which level you want to escape."
-msgstr ""
+msgstr "Analisador Glob: Todos os três níveis utilizam a barra invertida ( `\\` ) como caractere de escape. Portanto, é necessário utilizar um número adequado de barras invertidas, dependendo do nível para o qual deseja aplicar o escape."
 
 #, fuzzy
 msgid "Note that Quarkus extensions typically include the resources they require by themselves. This option is useful in situations when the built-in functionality is not sufficient."
@@ -1605,6 +1733,8 @@ msgstr "Observe que as extensões do Quarkus geralmente incluem por conta própr
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_RESOURCES_INCLUDES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_RESOURCES_INCLUDES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-resources-excludes]]`link:#quarkus-native-pkg-native-config_quarkus-native-resources-excludes[quarkus.native.resources.excludes]`\n"
 "\n"
@@ -1630,10 +1760,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_RESOURCES_EXCLUDES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-resources-excludes[quarkus.native.resources.excludes]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-resources-excludes]]`link:#quarkus-native-pkg-native-config_quarkus-native-resources-excludes[quarkus.native.resources.excludes]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-resources-excludes[quarkus.native.resources.excludes]`"
 
 #, fuzzy
 msgid "A comma separated list of globs to match resource paths that should *not* be added to the native image."
@@ -1659,6 +1791,8 @@ msgstr "O recurso `red.png` estará disponível na imagem nativa, enquanto os re
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_RESOURCES_EXCLUDES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_RESOURCES_EXCLUDES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-debug-enabled]]`link:#quarkus-native-pkg-native-config_quarkus-native-debug-enabled[quarkus.native.debug.enabled]`\n"
 "\n"
@@ -1669,10 +1803,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_DEBUG_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-debug-enabled[quarkus.native.debug.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-debug-enabled]]`link:#quarkus-native-pkg-native-config_quarkus-native-debug-enabled[quarkus.native.debug.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-debug-enabled[quarkus.native.debug.enabled]`"
 
 #, fuzzy
 msgid "If debug is enabled and debug symbols are generated. The symbols will be generated in a separate .debug file."
@@ -1682,6 +1818,8 @@ msgstr "Caso a depuração esteja ativada e os símbolos de depuração sejam ge
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_DEBUG_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_DEBUG_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-dashboard-dump]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-dashboard-dump[quarkus.native.enable-dashboard-dump]`\n"
 "\n"
@@ -1692,10 +1830,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_DASHBOARD_DUMP+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-dashboard-dump[quarkus.native.enable-dashboard-dump]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-enable-dashboard-dump]]`link:#quarkus-native-pkg-native-config_quarkus-native-enable-dashboard-dump[quarkus.native.enable-dashboard-dump]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-enable-dashboard-dump[quarkus.native.enable-dashboard-dump]`"
 
 #, fuzzy
 msgid "Generate the report files for GraalVM Dashboard."
@@ -1705,6 +1845,8 @@ msgstr "Gere os arquivos de relatório para o GraalVM Dashboard."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_DASHBOARD_DUMP+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ENABLE_DASHBOARD_DUMP[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-compression-level]]`link:#quarkus-native-pkg-native-config_quarkus-native-compression-level[quarkus.native.compression.level]`\n"
 "\n"
@@ -1717,10 +1859,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_COMPRESSION_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-compression-level[quarkus.native.compression.level]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-compression-level]]`link:#quarkus-native-pkg-native-config_quarkus-native-compression-level[quarkus.native.compression.level]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-compression-level[quarkus.native.compression.level]`"
 
 #, fuzzy
 msgid "The compression level in ++[++1, 10++]++. 10 means _best_."
@@ -1737,6 +1881,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_COMPRESSI
 msgid "int"
 msgstr "int"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-compression-additional-args]]`link:#quarkus-native-pkg-native-config_quarkus-native-compression-additional-args[quarkus.native.compression.additional-args]`\n"
 "\n"
@@ -1747,10 +1893,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_COMPRESSION_ADDITIONAL_ARGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-compression-additional-args[quarkus.native.compression.additional-args]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus-native-compression-additional-args]]`link:#quarkus-native-pkg-native-config_quarkus-native-compression-additional-args[quarkus.native.compression.additional-args]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus-native-compression-additional-args[quarkus.native.compression.additional-args]`"
 
 #, fuzzy
 msgid "Allows passing extra arguments to the UPX command line (like --brute). The arguments are comma-separated. The exhaustive list of parameters can be found in link:https://github.com/upx/upx/blob/devel/doc/upx.pod[https://github.com/upx/upx/blob/devel/doc/upx.pod]."

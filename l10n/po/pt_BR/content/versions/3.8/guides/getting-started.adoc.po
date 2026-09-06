@@ -438,8 +438,10 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-info_configuration]]link:#quarkus-info_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-info_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -447,6 +449,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-enabled]]`link:#quarkus-info_quarkus-info-enabled[quarkus.info.enabled]`\n"
 "\n"
@@ -457,10 +461,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-enabled[quarkus.info.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-enabled]]`link:#quarkus-info_quarkus-info-enabled[quarkus.info.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-enabled[quarkus.info.enabled]`"
 
 #, fuzzy
 msgid "Whether the info endpoint will be enabled"
@@ -480,6 +486,8 @@ msgstr "booleano"
 msgid "`true`"
 msgstr "`true`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-path]]`link:#quarkus-info_quarkus-info-path[quarkus.info.path]`\n"
 "\n"
@@ -490,10 +498,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-path[quarkus.info.path]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-path]]`link:#quarkus-info_quarkus-info-path[quarkus.info.path]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-path[quarkus.info.path]`"
 
 #, fuzzy
 msgid "The path under which the info endpoint will be located"
@@ -506,9 +516,13 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_PATH[]"
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid "`info`"
-msgstr ""
+msgstr "`informações`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-git-enabled]]`link:#quarkus-info_quarkus-info-git-enabled[quarkus.info.git.enabled]`\n"
 "\n"
@@ -519,10 +533,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_GIT_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-git-enabled[quarkus.info.git.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-git-enabled]]`link:#quarkus-info_quarkus-info-git-enabled[quarkus.info.git.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-git-enabled[quarkus.info.git.enabled]`"
 
 #, fuzzy
 msgid "Whether git info will be included in the info endpoint"
@@ -532,6 +548,8 @@ msgstr "Se o `git info` será incluído no endpoint `info`"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_GIT_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_GIT_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-git-mode]]`link:#quarkus-info_quarkus-info-git-mode[quarkus.info.git.mode]`\n"
 "\n"
@@ -542,10 +560,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_GIT_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-git-mode[quarkus.info.git.mode]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-git-mode]]`link:#quarkus-info_quarkus-info-git-mode[quarkus.info.git.mode]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-git-mode[quarkus.info.git.mode]`"
 
 #, fuzzy
 msgid "Controls how much information is present in the git section"
@@ -559,9 +579,13 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_GIT_MODE[]"
 msgid "`standard`, `full`"
 msgstr "`padrão` , `completo`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`standard`"
-msgstr ""
+msgstr "`padrão`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-build-enabled]]`link:#quarkus-info_quarkus-info-build-enabled[quarkus.info.build.enabled]`\n"
 "\n"
@@ -572,10 +596,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_BUILD_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-build-enabled[quarkus.info.build.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-build-enabled]]`link:#quarkus-info_quarkus-info-build-enabled[quarkus.info.build.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-build-enabled[quarkus.info.build.enabled]`"
 
 #, fuzzy
 msgid "Whether build info will be included in the info endpoint"
@@ -585,6 +611,8 @@ msgstr "Se as informações de compilação serão incluídas no endpoint de inf
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_BUILD_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_BUILD_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-os-enabled]]`link:#quarkus-info_quarkus-info-os-enabled[quarkus.info.os.enabled]`\n"
 "\n"
@@ -595,10 +623,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_OS_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-os-enabled[quarkus.info.os.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-os-enabled]]`link:#quarkus-info_quarkus-info-os-enabled[quarkus.info.os.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-os-enabled[quarkus.info.os.enabled]`"
 
 #, fuzzy
 msgid "Whether os info will be included in the info endpoint"
@@ -608,6 +638,8 @@ msgstr "Se essas informações serão incluídas no endpoint de informações"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_OS_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_OS_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-java-enabled]]`link:#quarkus-info_quarkus-info-java-enabled[quarkus.info.java.enabled]`\n"
 "\n"
@@ -618,10 +650,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_JAVA_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-java-enabled[quarkus.info.java.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-java-enabled]]`link:#quarkus-info_quarkus-info-java-enabled[quarkus.info.java.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-java-enabled[quarkus.info.java.enabled]`"
 
 #, fuzzy
 msgid "Whether java info will be included in the info endpoint"
@@ -631,6 +665,8 @@ msgstr "Se as informações sobre Java serão incluídas no endpoint de informa�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_JAVA_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_JAVA_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-build-additional-properties]]`link:#quarkus-info_quarkus-info-build-additional-properties[quarkus.info.build]`\n"
 "\n"
@@ -641,17 +677,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_BUILD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-build-additional-properties[quarkus.info.build]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-info_quarkus-info-build-additional-properties]]`link:#quarkus-info_quarkus-info-build-additional-properties[quarkus.info.build]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-info_quarkus-info-build-additional-properties[quarkus.info.build]`"
 
 #, fuzzy
 msgid "Additional properties to be added to the build section"
 msgstr "Propriedades adicionais a serem incluídas na seção de compilação"
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFO_BUILD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFO_BUILD[]"
 
 #, fuzzy
 msgid "`Map<String,String>`"

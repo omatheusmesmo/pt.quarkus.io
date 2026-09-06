@@ -96,8 +96,10 @@ msgstr ""
 "Anote seus objetos persistentes com `@Entity`,\n"
 "em seguida, adicione as propriedades de configuração relevantes em `{config-file}` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "xref:datasource.adoc[Configure the datasource] for production, relying on xref:datasource#dev-services[Dev Services] for connection information in tests / dev mode. Setting `db-kind` is only required if there is more than one database extension on the classpath."
-msgstr ""
+msgstr "xref:datasource.adoc[Configure a fonte de dados] para o ambiente de produção, utilizando o xref:datasource.adoc#dev-services[Dev Services] para obter as informações de conexão no modo de teste/desenvolvimento. A definição de ``db-kind`` só é necessária se houver mais de uma extensão de banco de dados no classpath."
 
 #, fuzzy
 msgid "Configure Hibernate ORM to create the schema on startup in production, which is useful for experimentation, but rely on <<dev-mode,convenient defaults in tests / dev mode>>."
@@ -116,21 +118,29 @@ msgstr "Além disso, o Quarkus definirá automaticamente muitas definições de 
 msgid "For a list of the items that you can set in `{config-file}`, see <<configuration-reference>>."
 msgstr "Para obter uma lista dos itens que você pode definir no `{config-file}`, consulte <<configuration-reference>>."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "A persistence unit (and its `SessionFactory`) will be created when Quarkus detects that one is needed.\n"
 "This happens when any of the following conditions is met:"
-msgstr ""
+msgstr "Uma unidade de persistência (e sua `SessionFactory` ) será criada quando o Quarkus detectar que ela é necessária. Isso ocorre quando qualquer uma das seguintes condições for atendida:"
 
+#. mt: deepl
+#, fuzzy
 msgid "JPA entities are detected in the application (the default persistence unit is created automatically)."
-msgstr ""
+msgstr "As entidades JPA são detectadas na aplicação (a unidade de persistência padrão é criada automaticamente)."
 
+#. mt: deepl
+#, fuzzy
 msgid "Hibernate ORM configuration properties are set (e.g. `quarkus.hibernate-orm.schema-management.strategy`)."
-msgstr ""
+msgstr "As propriedades de configuração do ORM do Hibernate estão definidas (por exemplo, `quarkus.hibernate-orm.schema-management.strategy` )."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Similarly, the datasource that the persistence unit points to is created automatically when it is referenced.\n"
 "See xref:datasource.adoc#datasource-detection[Datasource detection] for details."
-msgstr ""
+msgstr "Da mesma forma, a fonte de dados para a qual a unidade de persistência aponta é criada automaticamente quando é referenciada. Consulte xref:datasource.adoc#datasource-detection[“Detecção de fonte de dados”] para obter mais detalhes."
 
 msgid ""
 "The dialect will be selected and configured automatically based on your datasource;\n"
@@ -379,10 +389,12 @@ msgstr "Configuração de várias unidades de persistência"
 msgid "It is possible to define multiple persistence units using the Quarkus configuration properties."
 msgstr "É possível definir várias unidades de persistência usando as propriedades de configuração do Quarkus."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The properties at the root of the `quarkus.hibernate-orm.` namespace define the default persistence unit.\n"
 "For instance, the following snippet configures the `schema-management.strategy` property for the default persistence unit:"
-msgstr ""
+msgstr "As propriedades na raiz do namespace ` `quarkus.hibernate-orm.` ` definem a unidade de persistência padrão. Por exemplo, o trecho de código a seguir configura a propriedade ``schema-management.strategy`` para a unidade de persistência padrão:"
 
 msgid "Using a map based approach, it is possible to define named persistence units:"
 msgstr "Usando uma abordagem baseada em mapa, é possível definir unidades de persistência nomeadas:"
@@ -505,33 +517,49 @@ msgstr ""
 msgid "Note that, similarly to what we do with the configuration property, we take into account the annotated package but also all its subpackages."
 msgstr "Observe que, de forma semelhante ao que fazemos com a propriedade de configuração, levamos em consideração o pacote anotado e também todos os seus subpacotes."
 
+#. mt: deepl
+#, fuzzy
 msgid "Conditions for persistence unit configuration"
-msgstr ""
+msgstr "Condições para a configuração da unidade de persistência"
 
+#. mt: deepl
+#, fuzzy
 msgid "Quarkus creates a persistence unit when it detects that one is needed, i.e. when any of the following conditions is met:"
-msgstr ""
+msgstr "O Quarkus cria uma unidade de persistência quando detecta que ela é necessária, ou seja, quando qualquer uma das seguintes condições for atendida:"
 
+#. mt: deepl
+#, fuzzy
 msgid "It is requested by another extension (e.g. Hibernate Search, Envers)."
-msgstr ""
+msgstr "Isso é solicitado por outra extensão (por exemplo, Hibernate Search, Envers)."
 
+#. mt: deepl
+#, fuzzy
 msgid "OR at least one build-time property is set for it (e.g. `quarkus.hibernate-orm.\"users\".schema-management.strategy`)."
-msgstr ""
+msgstr "OU pelo menos uma propriedade de compilação esteja definida para ele (por exemplo, `quarkus.hibernate-orm.\"users\".schema-management.strategy` )."
 
+#. mt: deepl
+#, fuzzy
 msgid "OR at least one entity is attached to it (see <<multiple-persistence-units-attaching-model-classes,below>>)."
-msgstr ""
+msgstr "OU há pelo menos uma entidade associada a ela (veja xref:multiple-persistence-units-attaching-model-classes[abaixo] )."
 
+#. mt: deepl
+#, fuzzy
 msgid "OR no persistence unit is defined at all, and the default datasource exists: then the default persistence unit is created."
-msgstr ""
+msgstr "OU não houver nenhuma unidade de persistência definida e a fonte de dados padrão existir: nesse caso, a unidade de persistência padrão será criada."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "This applies equally to the default persistence unit and to named persistence units.\n"
 "You can mix the default persistence unit and named persistence units, or only have a default persistence unit, or only have named persistence units."
-msgstr ""
+msgstr "Isso se aplica tanto à unidade de persistência padrão quanto às unidades de persistência nomeadas. É possível combinar a unidade de persistência padrão com unidades de persistência nomeadas, ou utilizar apenas a unidade de persistência padrão, ou ainda utilizar apenas unidades de persistência nomeadas."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "xref:datasource.adoc#datasource-detection[Datasources follow similar rules], making most configuration optional <<dev-mode,while developing>>:\n"
 "for each persistence unit, you mainly need to select a datasource and attach entities."
-msgstr ""
+msgstr "xref:datasource.adoc#datasource-detection[As fontes de dados seguem regras semelhantes] , tornando a maior parte da configuração opcional xref:dev-mode[durante o desenvolvimento] : para cada unidade de persistência, basta selecionar uma fonte de dados e associar as entidades."
 
 msgid "CDI integration"
 msgstr "Integração com CDI"
@@ -579,29 +607,43 @@ msgstr "Além de `Session` e `SessionFactory` (e seus equivalentes no Jakarta Pe
 msgid "These components can also be injected with a specific persistence unit qualifier:"
 msgstr "Esses componentes também podem ser injetados com um qualificador de unidade de persistência específico:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Using <code>StatelessSession</code>"
-msgstr ""
+msgstr "Utilizando <code>StatelessSession</code>"
 
+#. mt: deepl
+#, fuzzy
 msgid "In addition to the regular `Session` (or `EntityManager`), Quarkus supports injecting Hibernate's link:{hibernate-orm-docs-url}#stateless-sessions[`StatelessSession`]."
-msgstr ""
+msgstr "Além da `Session` padrão (ou `EntityManager` ), o Quarkus oferece suporte à injeção link:{hibernate-orm-docs-url}#stateless-sessions[da StatelessSession] do Hibernate."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "A stateless session does not maintain a first-level cache and does not perform automatic dirty checking.\n"
 "Entity changes are not persisted automatically: you must call `insert()`, `update()`, or `delete()` explicitly.\n"
 "This makes stateless sessions a good fit for bulk operations or workflows where you want full control over writes."
-msgstr ""
+msgstr "Uma sessão sem estado não mantém um cache de primeiro nível e não realiza a verificação automática de alterações. As alterações nas entidades não são persistidas automaticamente: é necessário chamar explicitamente `os métodos insert()` , `update()` ou `delete()` . Isso torna as sessões sem estado uma boa opção para operações em massa ou fluxos de trabalho nos quais se deseja ter controle total sobre as gravações."
 
+#. mt: deepl
+#, fuzzy
 msgid "You can inject a `StatelessSession` the same way as a regular `Session`:"
-msgstr ""
+msgstr "É possível injetar uma `StatelessSession` da mesma forma que uma `Session` comum:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Wrap methods that modify the database in `@Transactional`, as you would with a regular `Session`:"
-msgstr ""
+msgstr "Envolva os métodos que modificam o banco de dados em `@Transactional` , da mesma forma que faria com uma `Session` comum:"
 
+#. mt: deepl
+#, fuzzy
 msgid "It is also possible to mix a regular `Session` and a `StatelessSession` within the same transaction when needed."
-msgstr ""
+msgstr "Também é possível combinar uma `Session` comum e uma `StatelessSession` na mesma transação, quando necessário."
 
+#. mt: deepl
+#, fuzzy
 msgid "For more details on stateless sessions with Panache, see xref:quarkus-data-hibernate.adoc#use-stateless-sessions[Quarkus Data Hibernate]."
-msgstr ""
+msgstr "Para obter mais detalhes sobre sessões sem estado com o Panache, consulte xref:quarkus-data-hibernate.adoc#use-stateless-sessions[o Quarkus Data Hibernate] ."
 
 #, fuzzy
 msgid "Plugging in converters and entity listeners"
@@ -2188,6 +2230,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-enabled[`+++quarkus.hibernate-orm.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.enabled+++[]\n"
@@ -2204,7 +2248,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-enabled[quarkus.hibernate-orm.enabled] config_property_copy_button:quarkus.hibernate-orm.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -2238,6 +2282,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-persistence-xml-ignore]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-persistence-xml-ignore[`+++quarkus.hibernate-orm.persistence-xml.ignore+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.persistence-xml.ignore+++[]\n"
@@ -2250,7 +2296,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_PERSISTENCE_XML_IGNORE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-persistence-xml-ignore[quarkus.hibernate-orm.persistence-xml.ignore] config_property_copy_button:quarkus.hibernate-orm.persistence-xml.ignore[]"
 
 #, fuzzy
 msgid ""
@@ -2270,6 +2316,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_PE
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-statistics]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-statistics[`+++quarkus.hibernate-orm.statistics+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.statistics+++[]\n"
@@ -2282,7 +2330,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_STATISTICS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-statistics[quarkus.hibernate-orm.statistics] config_property_copy_button:quarkus.hibernate-orm.statistics[]"
 
 #, fuzzy
 msgid ""
@@ -2298,6 +2346,8 @@ msgstr "Se a coleta de estatísticas está ativada. Se `metrics.enabled` for ver
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_STATISTICS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_STATISTICS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-log-session-metrics]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-session-metrics[`+++quarkus.hibernate-orm.log-session-metrics+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log-session-metrics+++[]\n"
@@ -2310,7 +2360,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_SESSION_METRICS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-session-metrics[quarkus.hibernate-orm.log-session-metrics] config_property_copy_button:quarkus.hibernate-orm.log-session-metrics[]"
 
 #, fuzzy
 msgid ""
@@ -2326,6 +2376,8 @@ msgstr "Determina se as métricas de sessão devem ser anexadas ao log do servid
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_SESSION_METRICS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LOG_SESSION_METRICS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-metrics-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-metrics-enabled[`+++quarkus.hibernate-orm.metrics.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.metrics.enabled+++[]\n"
@@ -2338,7 +2390,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_METRICS_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-metrics-enabled[quarkus.hibernate-orm.metrics.enabled] config_property_copy_button:quarkus.hibernate-orm.metrics.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -2354,6 +2406,8 @@ msgstr "Se as métricas são publicadas quando uma extensão de métricas está 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_METRICS_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_METRICS_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dev-ui-allow-hql]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dev-ui-allow-hql[`+++quarkus.hibernate-orm.dev-ui.allow-hql+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dev-ui.allow-hql+++[]\n"
@@ -2366,7 +2420,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DEV_UI_ALLOW_HQL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dev-ui-allow-hql[quarkus.hibernate-orm.dev-ui.allow-hql] config_property_copy_button:quarkus.hibernate-orm.dev-ui.allow-hql[]"
 
 #, fuzzy
 msgid ""
@@ -2382,6 +2436,8 @@ msgstr "Permitir consultas HQL na página da interface do usuário de desenvolvi
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DEV_UI_ALLOW_HQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DEV_UI_ALLOW_HQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-request-scoped-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-request-scoped-enabled[`+++quarkus.hibernate-orm.request-scoped.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.request-scoped.enabled+++[]\n"
@@ -2394,7 +2450,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_REQUEST_SCOPED_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-request-scoped-enabled[quarkus.hibernate-orm.request-scoped.enabled] config_property_copy_button:quarkus.hibernate-orm.request-scoped.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -2410,6 +2466,8 @@ msgstr "Ative ou desative o acesso ao `EntityManager/Session/StatelessSession` d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_REQUEST_SCOPED_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_REQUEST_SCOPED_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-datasource]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-datasource[`+++quarkus.hibernate-orm.datasource+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.datasource+++[]\n"
@@ -2427,7 +2485,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATASOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-datasource[quarkus.hibernate-orm.datasource] config_property_copy_button:quarkus.hibernate-orm.datasource[]"
 
 #, fuzzy
 msgid ""
@@ -2456,6 +2514,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DA
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-packages]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-packages[`+++quarkus.hibernate-orm.packages+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.packages+++[]\n"
@@ -2471,7 +2531,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_PACKAGES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-packages[quarkus.hibernate-orm.packages] config_property_copy_button:quarkus.hibernate-orm.packages[]"
 
 #, fuzzy
 msgid ""
@@ -2497,6 +2557,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_PA
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-sql-load-script]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-sql-load-script[`+++quarkus.hibernate-orm.sql-load-script+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.sql-load-script+++[]\n"
@@ -2543,7 +2605,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SQL_LOAD_SCRIPT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-sql-load-script[quarkus.hibernate-orm.sql-load-script] config_property_copy_button:quarkus.hibernate-orm.sql-load-script[]"
 
 #, fuzzy
 msgid ""
@@ -2607,6 +2669,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SQ
 msgid "`+++import.sql in dev and test modes ; no-file otherwise+++`"
 msgstr "`import.sql nos modos de desenvolvimento e teste; caso contrário, não há arquivo`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-physical-naming-strategy]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-physical-naming-strategy[`+++quarkus.hibernate-orm.physical-naming-strategy+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.physical-naming-strategy+++[]\n"
@@ -2622,7 +2686,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_PHYSICAL_NAMING_STRATEGY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-physical-naming-strategy[quarkus.hibernate-orm.physical-naming-strategy] config_property_copy_button:quarkus.hibernate-orm.physical-naming-strategy[]"
 
 #, fuzzy
 msgid ""
@@ -2644,6 +2708,8 @@ msgstr "Contrato de estratégia plugável para a aplicação de regras de nomenc
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_PHYSICAL_NAMING_STRATEGY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_PHYSICAL_NAMING_STRATEGY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-implicit-naming-strategy]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-implicit-naming-strategy[`+++quarkus.hibernate-orm.implicit-naming-strategy+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.implicit-naming-strategy+++[]\n"
@@ -2659,7 +2725,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_IMPLICIT_NAMING_STRATEGY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-implicit-naming-strategy[quarkus.hibernate-orm.implicit-naming-strategy] config_property_copy_button:quarkus.hibernate-orm.implicit-naming-strategy[]"
 
 #, fuzzy
 msgid ""
@@ -2681,6 +2747,8 @@ msgstr "Estratégia extensível para aplicar regras de nomenclatura implícitas 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_IMPLICIT_NAMING_STRATEGY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_IMPLICIT_NAMING_STRATEGY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-files]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-files[`+++quarkus.hibernate-orm.mapping-files+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping-files+++[]\n"
@@ -2698,7 +2766,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_FILES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-files[quarkus.hibernate-orm.mapping-files] config_property_copy_button:quarkus.hibernate-orm.mapping-files[]"
 
 #, fuzzy
 msgid ""
@@ -2728,6 +2796,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_MA
 msgid "`+++META-INF/orm.xml if it exists; no-file otherwise+++`"
 msgstr "`META-INF/orm.xml, caso exista; caso contrário, nenhum arquivo`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-quote-identifiers-strategy]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-quote-identifiers-strategy[`+++quarkus.hibernate-orm.quote-identifiers.strategy+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.quote-identifiers.strategy+++[]\n"
@@ -2745,7 +2815,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_QUOTE_IDENTIFIERS_STRATEGY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-quote-identifiers-strategy[quarkus.hibernate-orm.quote-identifiers.strategy] config_property_copy_button:quarkus.hibernate-orm.quote-identifiers.strategy[]"
 
 #, fuzzy
 msgid ""
@@ -2779,6 +2849,8 @@ msgstr "tooltip:none[Os identificadores não são colocados entre aspas.], toolt
 msgid "tooltip:none[Identifiers are not quoted.]"
 msgstr "tooltip:none[Os identificadores não estão entre aspas.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-second-level-caching-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-second-level-caching-enabled[`+++quarkus.hibernate-orm.second-level-caching-enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.second-level-caching-enabled+++[]\n"
@@ -2798,7 +2870,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SECOND_LEVEL_CACHING_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-second-level-caching-enabled[quarkus.hibernate-orm.second-level-caching-enabled] config_property_copy_button:quarkus.hibernate-orm.second-level-caching-enabled[]"
 
 #, fuzzy
 msgid ""
@@ -2828,6 +2900,8 @@ msgstr "Defina este parâmetro como “false” para desativar todos os caches d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SECOND_LEVEL_CACHING_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SECOND_LEVEL_CACHING_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-validation-mode]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-validation-mode[`+++quarkus.hibernate-orm.validation.mode+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.validation.mode+++[]\n"
@@ -2843,7 +2917,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_VALIDATION_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-validation-mode[quarkus.hibernate-orm.validation.mode] config_property_copy_button:quarkus.hibernate-orm.validation.mode[]"
 
 #, fuzzy
 msgid ""
@@ -2873,6 +2947,8 @@ msgstr "lista de dicas de ferramenta:auto[Se houver um provedor de Bean Validati
 msgid "`+++auto+++`"
 msgstr "`auto`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-multitenant]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-multitenant[`+++quarkus.hibernate-orm.multitenant+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.multitenant+++[]\n"
@@ -2891,7 +2967,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MULTITENANT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-multitenant[quarkus.hibernate-orm.multitenant] config_property_copy_button:quarkus.hibernate-orm.multitenant[]"
 
 #, fuzzy
 msgid ""
@@ -2917,6 +2993,8 @@ msgstr "Define o método para multilocação (DATABASE, NONE, SCHEMA). A lista c
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MULTITENANT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_MULTITENANT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-validate-in-dev-mode]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-validate-in-dev-mode[`+++quarkus.hibernate-orm.validate-in-dev-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.validate-in-dev-mode+++[]\n"
@@ -2932,7 +3010,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_VALIDATE_IN_DEV_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-validate-in-dev-mode[quarkus.hibernate-orm.validate-in-dev-mode] config_property_copy_button:quarkus.hibernate-orm.validate-in-dev-mode[]"
 
 #, fuzzy
 msgid ""
@@ -2954,6 +3032,8 @@ msgstr "Caso o Hibernate não esteja gerando o esquema automaticamente e o Quark
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_VALIDATE_IN_DEV_MODE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_VALIDATE_IN_DEV_MODE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-active]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-active[`+++quarkus.hibernate-orm.active+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.active+++[]\n"
@@ -2974,7 +3054,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_ACTIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-active[quarkus.hibernate-orm.active] config_property_copy_button:quarkus.hibernate-orm.active[]"
 
 #, fuzzy
 msgid ""
@@ -3010,6 +3090,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_AC
 msgid "`+++`true` if Hibernate ORM is enabled and there are entity types or an active datasource assigned to the persistence unit; `false` otherwise+++`"
 msgstr "``true` se o ORM do Hibernate estiver habilitado e houver tipos de entidade ou uma fonte de dados ativa atribuída à unidade de persistência; `false` caso contrário`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-unsupported-properties-full-property-key]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-unsupported-properties-full-property-key[`+++quarkus.hibernate-orm.unsupported-properties.\"full-property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.unsupported-properties.\"full-property-key\"+++[]\n"
@@ -3040,7 +3122,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_UNSUPPORTED_PROPERTIES__FULL_PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-unsupported-properties-full-property-key[quarkus.hibernate-orm.unsupported-properties.\"full-property-key\"] config_property_copy_button:quarkus.hibernate-orm.unsupported-properties.\"full-property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -3085,6 +3167,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_UN
 msgid "Map<String,String>"
 msgstr "Map<String, String>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-blocking]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-blocking[[.line-through]#`+++quarkus.hibernate-orm.blocking+++`#]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.blocking+++[]\n"
@@ -3104,7 +3188,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_BLOCKING+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-blocking[quarkus.hibernate-orm.blocking] config_property_copy_button:quarkus.hibernate-orm.blocking[]"
 
 #, fuzzy
 msgid ""
@@ -3136,6 +3220,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_BL
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-database]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-database[Database related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-database[Configuração relacionada ao banco de dados]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-database-orm-compatibility-version]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-orm-compatibility-version[`+++quarkus.hibernate-orm.database.orm-compatibility.version+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.database.orm-compatibility.version+++[]\n"
@@ -3166,7 +3252,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_ORM_COMPATIBILITY_VERSION+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-orm-compatibility-version[quarkus.hibernate-orm.database.orm-compatibility.version] config_property_copy_button:quarkus.hibernate-orm.database.orm-compatibility.version[]"
 
 #, fuzzy
 msgid ""
@@ -3226,6 +3312,8 @@ msgstr "`5.6` , `versão mais recente`"
 msgid "`+++latest+++`"
 msgstr "`mais recente`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-database-charset]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-charset[`+++quarkus.hibernate-orm.database.charset+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.database.charset+++[]\n"
@@ -3243,7 +3331,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_CHARSET+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-charset[quarkus.hibernate-orm.database.charset] config_property_copy_button:quarkus.hibernate-orm.database.charset[]"
 
 #, fuzzy
 msgid ""
@@ -3277,6 +3365,8 @@ msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/n
 msgid "`+++UTF-8+++`"
 msgstr "`UTF-8`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-database-default-catalog]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-default-catalog[`+++quarkus.hibernate-orm.database.default-catalog+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.database.default-catalog+++[]\n"
@@ -3292,7 +3382,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_CATALOG+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-default-catalog[quarkus.hibernate-orm.database.default-catalog] config_property_copy_button:quarkus.hibernate-orm.database.default-catalog[]"
 
 #, fuzzy
 msgid ""
@@ -3314,6 +3404,8 @@ msgstr "O catálogo padrão a ser utilizado para os objetos do banco de dados."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_CATALOG+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_CATALOG[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-database-default-schema]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-default-schema[`+++quarkus.hibernate-orm.database.default-schema+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.database.default-schema+++[]\n"
@@ -3329,7 +3421,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_SCHEMA+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-default-schema[quarkus.hibernate-orm.database.default-schema] config_property_copy_button:quarkus.hibernate-orm.database.default-schema[]"
 
 #, fuzzy
 msgid ""
@@ -3351,6 +3443,8 @@ msgstr "O esquema padrão a ser utilizado para os objetos do banco de dados."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_SCHEMA+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DATABASE_DEFAULT_SCHEMA[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-database-version-check-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-version-check-enabled[`+++quarkus.hibernate-orm.database.version-check.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.database.version-check.enabled+++[]\n"
@@ -3370,7 +3464,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_VERSION_CHECK_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-version-check-enabled[quarkus.hibernate-orm.database.version-check.enabled] config_property_copy_button:quarkus.hibernate-orm.database.version-check.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -3403,6 +3497,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DA
 msgid "`+++`false` if starting offline (see `start-offline`), `true` otherwise+++`"
 msgstr "``false` se for iniciado offline (consulte `start-offline`), `true` caso contrário`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-database-start-offline]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-start-offline[`+++quarkus.hibernate-orm.database.start-offline+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.database.start-offline+++[]\n"
@@ -3423,7 +3519,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DATABASE_START_OFFLINE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-database-start-offline[quarkus.hibernate-orm.database.start-offline] config_property_copy_button:quarkus.hibernate-orm.database.start-offline[]"
 
 #, fuzzy
 msgid ""
@@ -3457,6 +3553,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DA
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-mapping]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-mapping[JSON/XML mapping related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-mapping[Configuração relacionada ao mapeamento JSON/XML]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-timezone-default-storage]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-timezone-default-storage[`+++quarkus.hibernate-orm.mapping.timezone.default-storage+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping.timezone.default-storage+++[]\n"
@@ -3472,7 +3570,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_TIMEZONE_DEFAULT_STORAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-timezone-default-storage[quarkus.hibernate-orm.mapping.timezone.default-storage] config_property_copy_button:quarkus.hibernate-orm.mapping.timezone.default-storage[]"
 
 #, fuzzy
 msgid ""
@@ -3502,6 +3600,8 @@ msgstr "tooltip:native[Armazena o carimbo de data/hora e o fuso horário em uma 
 msgid "tooltip:default[Equivalent to `native` if supported, `normalize-utc` otherwise.]"
 msgstr "tooltip:default[Equivalente a `“native` ” se for compatível; caso contrário, `“normalize-utc` ”.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-id-optimizer-default]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-id-optimizer-default[`+++quarkus.hibernate-orm.mapping.id.optimizer.default+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping.id.optimizer.default+++[]\n"
@@ -3525,7 +3625,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_ID_OPTIMIZER_DEFAULT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-id-optimizer-default[quarkus.hibernate-orm.mapping.id.optimizer.default] config_property_copy_button:quarkus.hibernate-orm.mapping.id.optimizer.default[]"
 
 #, fuzzy
 msgid ""
@@ -3570,6 +3670,8 @@ msgstr "tooltip:pooled-lo[Presume que o valor recuperado da tabela/sequência se
 msgid "tooltip:pooled-lo[Assumes the value retrieved from the table/sequence is the lower end of the pool.  Upon retrieving value `N`, the new pool of identifiers will go from `N` to `N + <allocation size> - 1`, inclusive.]"
 msgstr "tooltip:pooled-lo[Presume-se que o valor recuperado da tabela/sequência seja o limite inferior do conjunto. Ao recuperar o valor `N` , o novo conjunto de identificadores irá de `N` a `N + <tamanho da alocação> - 1` , inclusive.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-duration-preferred-jdbc-type]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-duration-preferred-jdbc-type[`+++quarkus.hibernate-orm.mapping.duration.preferred-jdbc-type+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping.duration.preferred-jdbc-type+++[]\n"
@@ -3590,7 +3692,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_DURATION_PREFERRED_JDBC_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-duration-preferred-jdbc-type[quarkus.hibernate-orm.mapping.duration.preferred-jdbc-type] config_property_copy_button:quarkus.hibernate-orm.mapping.duration.preferred-jdbc-type[]"
 
 #, fuzzy
 msgid ""
@@ -3622,6 +3724,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_MA
 msgid "`+++INTERVAL_SECOND+++`"
 msgstr "`INTERVAL_SECOND`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-instant-preferred-jdbc-type]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-instant-preferred-jdbc-type[`+++quarkus.hibernate-orm.mapping.instant.preferred-jdbc-type+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping.instant.preferred-jdbc-type+++[]\n"
@@ -3643,7 +3747,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_INSTANT_PREFERRED_JDBC_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-instant-preferred-jdbc-type[quarkus.hibernate-orm.mapping.instant.preferred-jdbc-type] config_property_copy_button:quarkus.hibernate-orm.mapping.instant.preferred-jdbc-type[]"
 
 #, fuzzy
 msgid ""
@@ -3676,6 +3780,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_MA
 msgid "`+++TIMESTAMP+++`"
 msgstr "`MARCAÇÃO DE DATA E HORA`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-boolean-preferred-jdbc-type]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-boolean-preferred-jdbc-type[`+++quarkus.hibernate-orm.mapping.boolean.preferred-jdbc-type+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping.boolean.preferred-jdbc-type+++[]\n"
@@ -3696,7 +3802,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_BOOLEAN_PREFERRED_JDBC_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-boolean-preferred-jdbc-type[quarkus.hibernate-orm.mapping.boolean.preferred-jdbc-type] config_property_copy_button:quarkus.hibernate-orm.mapping.boolean.preferred-jdbc-type[]"
 
 #, fuzzy
 msgid ""
@@ -3728,6 +3834,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_MA
 msgid "`+++BOOLEAN+++`"
 msgstr "`BOOLEANO`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-uuid-preferred-jdbc-type]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-uuid-preferred-jdbc-type[`+++quarkus.hibernate-orm.mapping.uuid.preferred-jdbc-type+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.mapping.uuid.preferred-jdbc-type+++[]\n"
@@ -3748,7 +3856,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_MAPPING_UUID_PREFERRED_JDBC_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-uuid-preferred-jdbc-type[quarkus.hibernate-orm.mapping.uuid.preferred-jdbc-type] config_property_copy_button:quarkus.hibernate-orm.mapping.uuid.preferred-jdbc-type[]"
 
 #, fuzzy
 msgid ""
@@ -3784,6 +3892,8 @@ msgstr "`UUID`"
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-dialect]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-dialect[Dialect related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-dialect[Configuração relacionada ao dialeto]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect[`+++quarkus.hibernate-orm.dialect+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect+++[]\n"
@@ -3819,7 +3929,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect[quarkus.hibernate-orm.dialect] config_property_copy_button:quarkus.hibernate-orm.dialect[]"
 
 #, fuzzy
 msgid ""
@@ -3873,6 +3983,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DI
 msgid "`+++selected automatically for most popular databases+++`"
 msgstr "`selecionado automaticamente para os bancos de dados mais populares`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-bytes-per-character]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-bytes-per-character[`+++quarkus.hibernate-orm.dialect.mariadb.bytes-per-character+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mariadb.bytes-per-character+++[]\n"
@@ -3888,7 +4000,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_BYTES_PER_CHARACTER+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-bytes-per-character[quarkus.hibernate-orm.dialect.mariadb.bytes-per-character] config_property_copy_button:quarkus.hibernate-orm.dialect.mariadb.bytes-per-character[]"
 
 #, fuzzy
 msgid ""
@@ -3917,6 +4029,8 @@ msgstr "int"
 msgid "`+++4+++`"
 msgstr "`4`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-no-backslash-escapes]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-no-backslash-escapes[`+++quarkus.hibernate-orm.dialect.mariadb.no-backslash-escapes+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mariadb.no-backslash-escapes+++[]\n"
@@ -3932,7 +4046,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_NO_BACKSLASH_ESCAPES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-no-backslash-escapes[quarkus.hibernate-orm.dialect.mariadb.no-backslash-escapes] config_property_copy_button:quarkus.hibernate-orm.dialect.mariadb.no-backslash-escapes[]"
 
 #, fuzzy
 msgid ""
@@ -3954,6 +4068,8 @@ msgstr "Especifica se o modo SQL `NO_BACKSLASH_ESCAPES` está ativado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_NO_BACKSLASH_ESCAPES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_NO_BACKSLASH_ESCAPES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-storage-engine]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-storage-engine[`+++quarkus.hibernate-orm.dialect.mariadb.storage-engine+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mariadb.storage-engine+++[]\n"
@@ -3969,7 +4085,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_STORAGE_ENGINE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariadb-storage-engine[quarkus.hibernate-orm.dialect.mariadb.storage-engine] config_property_copy_button:quarkus.hibernate-orm.dialect.mariadb.storage-engine[]"
 
 #, fuzzy
 msgid ""
@@ -3991,6 +4107,8 @@ msgstr "O mecanismo de armazenamento a ser utilizado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_STORAGE_ENGINE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_MARIADB_STORAGE_ENGINE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-bytes-per-character]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-bytes-per-character[`+++quarkus.hibernate-orm.dialect.mysql.bytes-per-character+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mysql.bytes-per-character+++[]\n"
@@ -4006,7 +4124,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_BYTES_PER_CHARACTER+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-bytes-per-character[quarkus.hibernate-orm.dialect.mysql.bytes-per-character] config_property_copy_button:quarkus.hibernate-orm.dialect.mysql.bytes-per-character[]"
 
 #, fuzzy
 msgid ""
@@ -4024,6 +4142,8 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mysq
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_BYTES_PER_CHARACTER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_BYTES_PER_CHARACTER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-no-backslash-escapes]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-no-backslash-escapes[`+++quarkus.hibernate-orm.dialect.mysql.no-backslash-escapes+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mysql.no-backslash-escapes+++[]\n"
@@ -4039,7 +4159,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_NO_BACKSLASH_ESCAPES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-no-backslash-escapes[quarkus.hibernate-orm.dialect.mysql.no-backslash-escapes] config_property_copy_button:quarkus.hibernate-orm.dialect.mysql.no-backslash-escapes[]"
 
 #, fuzzy
 msgid ""
@@ -4057,6 +4177,8 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mysq
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_NO_BACKSLASH_ESCAPES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_NO_BACKSLASH_ESCAPES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-storage-engine]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-storage-engine[`+++quarkus.hibernate-orm.dialect.mysql.storage-engine+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mysql.storage-engine+++[]\n"
@@ -4072,7 +4194,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_STORAGE_ENGINE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-storage-engine[quarkus.hibernate-orm.dialect.mysql.storage-engine] config_property_copy_button:quarkus.hibernate-orm.dialect.mysql.storage-engine[]"
 
 #, fuzzy
 msgid ""
@@ -4090,6 +4212,8 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mysq
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_STORAGE_ENGINE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_MYSQL_STORAGE_ENGINE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-extended]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-extended[`+++quarkus.hibernate-orm.dialect.oracle.extended+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.oracle.extended+++[]\n"
@@ -4105,7 +4229,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_EXTENDED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-extended[quarkus.hibernate-orm.dialect.oracle.extended] config_property_copy_button:quarkus.hibernate-orm.dialect.oracle.extended[]"
 
 #, fuzzy
 msgid ""
@@ -4127,6 +4251,8 @@ msgstr "Suporte para MAX_STRING_SIZE = EXTENDED da Oracle."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_EXTENDED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_EXTENDED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-autonomous]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-autonomous[`+++quarkus.hibernate-orm.dialect.oracle.autonomous+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.oracle.autonomous+++[]\n"
@@ -4142,7 +4268,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_AUTONOMOUS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-autonomous[quarkus.hibernate-orm.dialect.oracle.autonomous] config_property_copy_button:quarkus.hibernate-orm.dialect.oracle.autonomous[]"
 
 #, fuzzy
 msgid ""
@@ -4164,6 +4290,8 @@ msgstr "Especifica se este banco de dados está sendo executado em um Serviço d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_AUTONOMOUS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_AUTONOMOUS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-application-continuity]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-application-continuity[`+++quarkus.hibernate-orm.dialect.oracle.application-continuity+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.oracle.application-continuity+++[]\n"
@@ -4179,7 +4307,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_APPLICATION_CONTINUITY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-oracle-application-continuity[quarkus.hibernate-orm.dialect.oracle.application-continuity] config_property_copy_button:quarkus.hibernate-orm.dialect.oracle.application-continuity[]"
 
 #, fuzzy
 msgid ""
@@ -4201,6 +4329,8 @@ msgstr "Especifica se o acesso a este banco de dados é feito por meio de um ser
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_APPLICATION_CONTINUITY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DIALECT_ORACLE_APPLICATION_CONTINUITY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mssql-compatibility-level]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mssql-compatibility-level[`+++quarkus.hibernate-orm.dialect.mssql.compatibility-level+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.dialect.mssql.compatibility-level+++[]\n"
@@ -4216,7 +4346,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DIALECT_MSSQL_COMPATIBILITY_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mssql-compatibility-level[quarkus.hibernate-orm.dialect.mssql.compatibility-level] config_property_copy_button:quarkus.hibernate-orm.dialect.mssql.compatibility-level[]"
 
 #, fuzzy
 msgid ""
@@ -4242,6 +4372,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DI
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-query]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-query[Query related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-query[Configuração relacionada à consulta]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-query-query-plan-cache-max-size]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-query-plan-cache-max-size[`+++quarkus.hibernate-orm.query.query-plan-cache-max-size+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.query.query-plan-cache-max-size+++[]\n"
@@ -4257,7 +4389,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_QUERY_QUERY_PLAN_CACHE_MAX_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-query-plan-cache-max-size[quarkus.hibernate-orm.query.query-plan-cache-max-size] config_property_copy_button:quarkus.hibernate-orm.query.query-plan-cache-max-size[]"
 
 #, fuzzy
 msgid ""
@@ -4283,6 +4415,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_QU
 msgid "`+++2048+++`"
 msgstr "`2048`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-query-default-null-ordering]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-default-null-ordering[`+++quarkus.hibernate-orm.query.default-null-ordering+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.query.default-null-ordering+++[]\n"
@@ -4300,7 +4434,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_QUERY_DEFAULT_NULL_ORDERING+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-default-null-ordering[quarkus.hibernate-orm.query.default-null-ordering] config_property_copy_button:quarkus.hibernate-orm.query.default-null-ordering[]"
 
 #, fuzzy
 msgid ""
@@ -4334,6 +4468,8 @@ msgstr "tooltip:none[Prioridade de valores nulos não especificada.], tooltip:fi
 msgid "tooltip:none[Null precedence not specified.]"
 msgstr "tooltip:none[Precedência nula não especificada.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-query-in-clause-parameter-padding]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-in-clause-parameter-padding[`+++quarkus.hibernate-orm.query.in-clause-parameter-padding+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.query.in-clause-parameter-padding+++[]\n"
@@ -4349,7 +4485,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_QUERY_IN_CLAUSE_PARAMETER_PADDING+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-in-clause-parameter-padding[quarkus.hibernate-orm.query.in-clause-parameter-padding] config_property_copy_button:quarkus.hibernate-orm.query.in-clause-parameter-padding[]"
 
 #, fuzzy
 msgid ""
@@ -4371,6 +4507,8 @@ msgstr "Ativa o preenchimento de parâmetros na cláusula IN, o que melhora o ar
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_QUERY_IN_CLAUSE_PARAMETER_PADDING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_QUERY_IN_CLAUSE_PARAMETER_PADDING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-query-fail-on-pagination-over-collection-fetch]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-fail-on-pagination-over-collection-fetch[`+++quarkus.hibernate-orm.query.fail-on-pagination-over-collection-fetch+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.query.fail-on-pagination-over-collection-fetch+++[]\n"
@@ -4391,7 +4529,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_QUERY_FAIL_ON_PAGINATION_OVER_COLLECTION_FETCH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-fail-on-pagination-over-collection-fetch[quarkus.hibernate-orm.query.fail-on-pagination-over-collection-fetch] config_property_copy_button:quarkus.hibernate-orm.query.fail-on-pagination-over-collection-fetch[]"
 
 #, fuzzy
 msgid ""
@@ -4426,6 +4564,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_QU
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-jdbc]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-jdbc[JDBC related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-jdbc[Configuração relacionada ao JDBC]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-enabled[`+++quarkus.hibernate-orm.jdbc.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.jdbc.enabled+++[]\n"
@@ -4448,7 +4588,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-enabled[quarkus.hibernate-orm.jdbc.enabled] config_property_copy_button:quarkus.hibernate-orm.jdbc.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -4478,6 +4618,8 @@ msgstr "Se deve ou não inicializar uma instância do ORM Hibernate (JDBC) do ti
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_JDBC_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-timezone]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-timezone[`+++quarkus.hibernate-orm.jdbc.timezone+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.jdbc.timezone+++[]\n"
@@ -4493,7 +4635,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_TIMEZONE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-timezone[quarkus.hibernate-orm.jdbc.timezone] config_property_copy_button:quarkus.hibernate-orm.jdbc.timezone[]"
 
 #, fuzzy
 msgid ""
@@ -4515,6 +4657,8 @@ msgstr "O fuso horário enviado ao driver JDBC. Consulte `quarkus.hibernate-orm.
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_TIMEZONE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_JDBC_TIMEZONE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-statement-fetch-size]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-statement-fetch-size[`+++quarkus.hibernate-orm.jdbc.statement-fetch-size+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.jdbc.statement-fetch-size+++[]\n"
@@ -4530,7 +4674,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_STATEMENT_FETCH_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-statement-fetch-size[quarkus.hibernate-orm.jdbc.statement-fetch-size] config_property_copy_button:quarkus.hibernate-orm.jdbc.statement-fetch-size[]"
 
 #, fuzzy
 msgid ""
@@ -4552,6 +4696,8 @@ msgstr "Quantas linhas são recuperadas de cada vez pelo driver JDBC."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_STATEMENT_FETCH_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_JDBC_STATEMENT_FETCH_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-statement-batch-size]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-statement-batch-size[`+++quarkus.hibernate-orm.jdbc.statement-batch-size+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.jdbc.statement-batch-size+++[]\n"
@@ -4567,7 +4713,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_JDBC_STATEMENT_BATCH_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-jdbc-statement-batch-size[quarkus.hibernate-orm.jdbc.statement-batch-size] config_property_copy_button:quarkus.hibernate-orm.jdbc.statement-batch-size[]"
 
 #, fuzzy
 msgid ""
@@ -4593,6 +4739,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_JD
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-reactive]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-reactive[Reactive related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-reactive[Configuração relacionada ao Reactive]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-reactive-enabled]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-reactive-enabled[`+++quarkus.hibernate-orm.reactive.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.reactive.enabled+++[]\n"
@@ -4613,7 +4761,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_REACTIVE_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-reactive-enabled[quarkus.hibernate-orm.reactive.enabled] config_property_copy_button:quarkus.hibernate-orm.reactive.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -4645,6 +4793,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_RE
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-fetch]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-fetch[Fetching logic configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-fetch[Recuperando a configuração da lógica]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-fetch-batch-size]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-fetch-batch-size[`+++quarkus.hibernate-orm.fetch.batch-size+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.fetch.batch-size+++[]\n"
@@ -4662,7 +4812,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_FETCH_BATCH_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-fetch-batch-size[quarkus.hibernate-orm.fetch.batch-size] config_property_copy_button:quarkus.hibernate-orm.fetch.batch-size[]"
 
 #, fuzzy
 msgid ""
@@ -4692,6 +4842,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_FE
 msgid "`+++16+++`"
 msgstr "`16`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-fetch-max-depth]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-fetch-max-depth[`+++quarkus.hibernate-orm.fetch.max-depth+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.fetch.max-depth+++[]\n"
@@ -4709,7 +4861,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_FETCH_MAX_DEPTH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-fetch-max-depth[quarkus.hibernate-orm.fetch.max-depth] config_property_copy_button:quarkus.hibernate-orm.fetch.max-depth[]"
 
 #, fuzzy
 msgid ""
@@ -4739,6 +4891,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_FE
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-cache]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-cache[Caching configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-cache[Configuração do cache]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-expiration-max-idle]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-expiration-max-idle[`+++quarkus.hibernate-orm.cache.\"cache\".expiration.max-idle+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.cache.\"cache\".expiration.max-idle+++[]\n"
@@ -4754,7 +4908,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_CACHE__CACHE__EXPIRATION_MAX_IDLE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-expiration-max-idle[quarkus.hibernate-orm.cache.\"cache\".expiration.max-idle] config_property_copy_button:quarkus.hibernate-orm.cache.\"cache\".expiration.max-idle[]"
 
 #, fuzzy
 msgid ""
@@ -4784,6 +4938,8 @@ msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/t
 msgid "`+++100s+++`"
 msgstr "`centenas`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-object-count]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-object-count[`+++quarkus.hibernate-orm.cache.\"cache\".memory.object-count+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.cache.\"cache\".memory.object-count+++[]\n"
@@ -4801,7 +4957,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_CACHE__CACHE__MEMORY_OBJECT_COUNT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-object-count[quarkus.hibernate-orm.cache.\"cache\".memory.object-count] config_property_copy_button:quarkus.hibernate-orm.cache.\"cache\".memory.object-count[]"
 
 #, fuzzy
 msgid ""
@@ -4834,6 +4990,8 @@ msgstr "long"
 msgid "`+++10000+++`"
 msgstr "`10.000`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-maximum-weight]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-maximum-weight[`+++quarkus.hibernate-orm.cache.\"cache\".memory.maximum-weight+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.cache.\"cache\".memory.maximum-weight+++[]\n"
@@ -4853,7 +5011,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_CACHE__CACHE__MEMORY_MAXIMUM_WEIGHT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-maximum-weight[quarkus.hibernate-orm.cache.\"cache\".memory.maximum-weight] config_property_copy_button:quarkus.hibernate-orm.cache.\"cache\".memory.maximum-weight[]"
 
 #, fuzzy
 msgid ""
@@ -4883,6 +5041,8 @@ msgstr "É mutuamente exclusivo com `“object-count` ”. Requer uma `classe �
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_CACHE__CACHE__MEMORY_MAXIMUM_WEIGHT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_CACHE__CACHE__MEMORY_MAXIMUM_WEIGHT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-weigher-class]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-weigher-class[`+++quarkus.hibernate-orm.cache.\"cache\".memory.weigher-class+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.cache.\"cache\".memory.weigher-class+++[]\n"
@@ -4900,7 +5060,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_CACHE__CACHE__MEMORY_WEIGHER_CLASS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-cache-cache-memory-weigher-class[quarkus.hibernate-orm.cache.\"cache\".memory.weigher-class] config_property_copy_button:quarkus.hibernate-orm.cache.\"cache\".memory.weigher-class[]"
 
 #, fuzzy
 msgid ""
@@ -4930,6 +5090,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_CA
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-discriminator]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-discriminator[Discriminator related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-discriminator[Configuração relacionada ao discriminador]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-discriminator-ignore-explicit-for-joined]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-discriminator-ignore-explicit-for-joined[`+++quarkus.hibernate-orm.discriminator.ignore-explicit-for-joined+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.discriminator.ignore-explicit-for-joined+++[]\n"
@@ -4945,7 +5107,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_DISCRIMINATOR_IGNORE_EXPLICIT_FOR_JOINED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-discriminator-ignore-explicit-for-joined[quarkus.hibernate-orm.discriminator.ignore-explicit-for-joined] config_property_copy_button:quarkus.hibernate-orm.discriminator.ignore-explicit-for-joined[]"
 
 #, fuzzy
 msgid ""
@@ -4971,6 +5133,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_DI
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-log]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-log[Logging configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-log[Configuração de registro]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus-hibernate-orm-log-bind-parameters]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-bind-parameters[`+++quarkus.hibernate-orm.log.bind-parameters+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log.bind-parameters+++[]\n"
@@ -4985,7 +5149,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_BIND_PARAMETERS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-bind-parameters[quarkus.hibernate-orm.log.bind-parameters] config_property_copy_button:quarkus.hibernate-orm.log.bind-parameters[]"
 
 #, fuzzy
 msgid ""
@@ -5005,6 +5169,8 @@ msgstr "Obviamente, não é recomendável definir esse parâmetro como “true�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_BIND_PARAMETERS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LOG_BIND_PARAMETERS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-log-sql]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-sql[`+++quarkus.hibernate-orm.log.sql+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log.sql+++[]\n"
@@ -5022,7 +5188,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_SQL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-sql[quarkus.hibernate-orm.log.sql] config_property_copy_button:quarkus.hibernate-orm.log.sql[]"
 
 #, fuzzy
 msgid ""
@@ -5044,6 +5210,8 @@ msgstr "Exiba os registros SQL e formate-os de maneira organizada."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_SQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LOG_SQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-log-format-sql]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-format-sql[`+++quarkus.hibernate-orm.log.format-sql+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log.format-sql+++[]\n"
@@ -5059,7 +5227,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_FORMAT_SQL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-format-sql[quarkus.hibernate-orm.log.format-sql] config_property_copy_button:quarkus.hibernate-orm.log.format-sql[]"
 
 #, fuzzy
 msgid ""
@@ -5081,6 +5249,8 @@ msgstr "Formate os registros SQL, caso o registro SQL esteja ativado"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_FORMAT_SQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LOG_FORMAT_SQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-log-highlight-sql]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-highlight-sql[`+++quarkus.hibernate-orm.log.highlight-sql+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log.highlight-sql+++[]\n"
@@ -5096,7 +5266,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_HIGHLIGHT_SQL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-highlight-sql[quarkus.hibernate-orm.log.highlight-sql] config_property_copy_button:quarkus.hibernate-orm.log.highlight-sql[]"
 
 #, fuzzy
 msgid ""
@@ -5118,6 +5288,8 @@ msgstr "Destaque os registros SQL, caso o registro SQL esteja ativado"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_HIGHLIGHT_SQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LOG_HIGHLIGHT_SQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-log-jdbc-warnings]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-jdbc-warnings[`+++quarkus.hibernate-orm.log.jdbc-warnings+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log.jdbc-warnings+++[]\n"
@@ -5133,7 +5305,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_JDBC_WARNINGS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-jdbc-warnings[quarkus.hibernate-orm.log.jdbc-warnings] config_property_copy_button:quarkus.hibernate-orm.log.jdbc-warnings[]"
 
 #, fuzzy
 msgid ""
@@ -5159,6 +5331,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LO
 msgid "`+++depends on dialect+++`"
 msgstr "`depende do dialeto`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-log-queries-slower-than-ms]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-queries-slower-than-ms[`+++quarkus.hibernate-orm.log.queries-slower-than-ms+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.log.queries-slower-than-ms+++[]\n"
@@ -5174,7 +5348,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_LOG_QUERIES_SLOWER_THAN_MS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-log-queries-slower-than-ms[quarkus.hibernate-orm.log.queries-slower-than-ms] config_property_copy_button:quarkus.hibernate-orm.log.queries-slower-than-ms[]"
 
 #, fuzzy
 msgid ""
@@ -5200,6 +5374,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_LO
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-schema-management]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-schema-management[Schema management configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-schema-management[Configuração do gerenciamento de esquemas]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-strategy]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-strategy[`+++quarkus.hibernate-orm.schema-management.strategy+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.schema-management.strategy+++[]\n"
@@ -5224,7 +5400,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_STRATEGY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-strategy[quarkus.hibernate-orm.schema-management.strategy] config_property_copy_button:quarkus.hibernate-orm.schema-management.strategy[]"
 
 #, fuzzy
 msgid ""
@@ -5272,6 +5448,8 @@ msgstr "tooltip:none[Nenhuma ação no esquema.], tooltip:create[Criar o esquema
 msgid "tooltip:none[No schema action.]"
 msgstr "tooltip:none[Nenhuma ação de esquema.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-create-schemas]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-create-schemas[`+++quarkus.hibernate-orm.schema-management.create-schemas+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.schema-management.create-schemas+++[]\n"
@@ -5287,7 +5465,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_CREATE_SCHEMAS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-create-schemas[quarkus.hibernate-orm.schema-management.create-schemas] config_property_copy_button:quarkus.hibernate-orm.schema-management.create-schemas[]"
 
 #, fuzzy
 msgid ""
@@ -5309,6 +5487,8 @@ msgstr "Se o ORM do Hibernate deve criar os esquemas automaticamente (para banco
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_CREATE_SCHEMAS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_CREATE_SCHEMAS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-halt-on-error]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-halt-on-error[`+++quarkus.hibernate-orm.schema-management.halt-on-error+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.schema-management.halt-on-error+++[]\n"
@@ -5324,7 +5504,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_HALT_ON_ERROR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-halt-on-error[quarkus.hibernate-orm.schema-management.halt-on-error] config_property_copy_button:quarkus.hibernate-orm.schema-management.halt-on-error[]"
 
 #, fuzzy
 msgid ""
@@ -5346,6 +5526,8 @@ msgstr "Se devemos interromper a aplicação do esquema ao ocorrer o primeiro er
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_HALT_ON_ERROR+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_HALT_ON_ERROR[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-extra-physical-table-types]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-extra-physical-table-types[`+++quarkus.hibernate-orm.schema-management.extra-physical-table-types+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.schema-management.extra-physical-table-types+++[]\n"
@@ -5368,7 +5550,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCHEMA_MANAGEMENT_EXTRA_PHYSICAL_TABLE_TYPES+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-schema-management-extra-physical-table-types[quarkus.hibernate-orm.schema-management.extra-physical-table-types] config_property_copy_button:quarkus.hibernate-orm.schema-management.extra-physical-table-types[]"
 
 #, fuzzy
 msgid ""
@@ -5406,6 +5588,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SC
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-scripts]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-scripts[Database scripts related configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-scripts[Configuração relacionada aos scripts do banco de dados]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation[`+++quarkus.hibernate-orm.scripts.generation+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.scripts.generation+++[]\n"
@@ -5421,7 +5605,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation[quarkus.hibernate-orm.scripts.generation] config_property_copy_button:quarkus.hibernate-orm.scripts.generation[]"
 
 #, fuzzy
 msgid ""
@@ -5443,6 +5627,8 @@ msgstr "Selecione se os arquivos DDL do esquema do banco de dados serão gerados
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation-create-target]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation-create-target[`+++quarkus.hibernate-orm.scripts.generation.create-target+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.scripts.generation.create-target+++[]\n"
@@ -5458,7 +5644,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION_CREATE_TARGET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation-create-target[quarkus.hibernate-orm.scripts.generation.create-target] config_property_copy_button:quarkus.hibernate-orm.scripts.generation.create-target[]"
 
 #, fuzzy
 msgid ""
@@ -5480,6 +5666,8 @@ msgstr "Nome do arquivo ou URL onde o arquivo DDL para criação do banco de dad
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION_CREATE_TARGET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION_CREATE_TARGET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation-drop-target]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation-drop-target[`+++quarkus.hibernate-orm.scripts.generation.drop-target+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.scripts.generation.drop-target+++[]\n"
@@ -5495,7 +5683,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SCRIPTS_GENERATION_DROP_TARGET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-scripts-generation-drop-target[quarkus.hibernate-orm.scripts.generation.drop-target] config_property_copy_button:quarkus.hibernate-orm.scripts.generation.drop-target[]"
 
 #, fuzzy
 msgid ""
@@ -5521,6 +5709,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_SC
 msgid "[[quarkus-hibernate-orm_section_quarkus-hibernate-orm-flush]] [.section-name.section-level0]##link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-flush[Flush configuration]##"
 msgstr " link:#quarkus-hibernate-orm_section_quarkus-hibernate-orm-flush[Configuração de descarga]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-hibernate-orm_quarkus-hibernate-orm-flush-mode]] [.property-path]##link:#quarkus-hibernate-orm_quarkus-hibernate-orm-flush-mode[`+++quarkus.hibernate-orm.flush.mode+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.flush.mode+++[]\n"
@@ -5542,7 +5732,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_FLUSH_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-hibernate-orm_quarkus-hibernate-orm-flush-mode[quarkus.hibernate-orm.flush.mode] config_property_copy_button:quarkus.hibernate-orm.flush.mode[]"
 
 #, fuzzy
 msgid ""

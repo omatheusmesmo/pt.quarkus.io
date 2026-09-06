@@ -1194,11 +1194,13 @@ msgstr "A anotação `@QuarkusTest` pode ser agrupada com outras anotações, de
 msgid "The `@QuarkusSecurityTest` annotation can be used instead of the `@QuarkusTest` annotation."
 msgstr "A anotação `@QuarkusSecurityTest` pode ser usada em vez da anotação `@QuarkusTest` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "If the meta-annotation is shipped in a separate dependency, that dependency must be part of the\n"
 "application index (a Jandex index, a `META-INF/beans.xml`, or `quarkus.index-dependency`) — otherwise\n"
 "the test class is not registered as a CDI bean."
-msgstr ""
+msgstr "Se a meta-anotação for fornecida em uma dependência separada, essa dependência deverá fazer parte do índice da aplicação (um índice Jandex, um arquivo `META-INF/beans.xml` ou `um arquivo quarkus.index-dependency` ) — caso contrário, a classe de teste não será registrada como um bean CDI."
 
 #, fuzzy
 msgid "Testing Components"

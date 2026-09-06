@@ -240,8 +240,10 @@ msgstr "Se o objetivo for apenas simular determinados valores de configuração 
 msgid "The `AppConfig` can be injected as a mock into a Quarkus test class with `@Inject`:"
 msgstr "O `AppConfig` pode ser injetado como uma simulação em uma classe de teste do Quarkus com `@Inject`:"
 
+#. mt: deepl
+#, fuzzy
 msgid "<span class=\"line-through\"><code>@ConfigProperties</code></span> (Deprecated)"
-msgstr ""
+msgstr "<span class=\"line-through\"><code>@ConfigProperties</code></span> (Obsoleto)"
 
 #, fuzzy
 msgid ""

@@ -102,10 +102,12 @@ msgstr "O código-fonte completo do arquivo `kubernetes.json` é mais ou menos a
 msgid "The generated manifest can be applied to the cluster from the project root using `kubectl`:"
 msgstr "O manifesto gerado pode ser aplicado ao cluster a partir da raiz do projeto usando `kubectl` :"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "An important thing to note about the `Deployment` (or `StatefulSet`) is that it uses `yourDockerUsername/test-quarkus-app:1.0.0-SNAPSHOT` as the container image of the `Pod`.\n"
 "The name of the image is controlled by the Jib extension and can be customized using the usual `application.properties`."
-msgstr ""
+msgstr "Um ponto importante a ser observado sobre a `Implantação` (ou `StatefulSet` ) é que ela utiliza `yourDockerUsername/test-quarkus-app:1.0.0-SNAPSHOT` como imagem de contêiner do `Pod` . O nome da imagem é controlado pela extensão Jib e pode ser personalizado por meio do arquivo `application.properties` , como de costume."
 
 #, fuzzy
 msgid "For example with a configuration like:"
@@ -276,8 +278,10 @@ msgstr "De imediato, os recursos gerados serão anotados com informações relac
 msgid "Custom Annotations"
 msgstr "Anotações personalizadas"
 
+#. mt: deepl
+#, fuzzy
 msgid "Custom annotations can be added in a way similar to labels. For example to add the annotation `foo=bar` and `app.quarkus/id=42` just apply the following configuration:"
-msgstr ""
+msgstr "É possível adicionar anotações personalizadas de maneira semelhante às etiquetas. Por exemplo, para adicionar as anotações `“foo=bar”` e `“app.quarkus/id=42”` , basta aplicar a seguinte configuração:"
 
 #, fuzzy
 msgid "Environment variables"
@@ -434,8 +438,10 @@ msgstr "montar o volume"
 msgid "create an environment variable for `SMALLRYE_CONFIG_LOCATIONS`"
 msgstr "criar uma variável de ambiente para `SMALLRYE_CONFIG_LOCATIONS`"
 
+#. mt: deepl
+#, fuzzy
 msgid "To simplify things, Quarkus provides a single-step alternative:"
-msgstr ""
+msgstr "Para simplificar, o Quarkus oferece uma alternativa em uma única etapa:"
 
 #, fuzzy
 msgid "or"

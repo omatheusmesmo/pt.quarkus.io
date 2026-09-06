@@ -499,6 +499,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-enabled]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-enabled[`+++quarkus.smallrye-health.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.enabled+++[]\n"
@@ -511,7 +513,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-enabled[quarkus.smallrye-health.enabled] config_property_copy_button:quarkus.smallrye-health.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -538,6 +540,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-extensions-enabled]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-extensions-enabled[`+++quarkus.smallrye-health.extensions.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.extensions.enabled+++[]\n"
@@ -550,7 +554,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_EXTENSIONS_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-extensions-enabled[quarkus.smallrye-health.extensions.enabled] config_property_copy_button:quarkus.smallrye-health.extensions.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -566,6 +570,8 @@ msgstr "Se a verificação de integridade publicada pelas extensões deve ser at
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_EXTENSIONS_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_EXTENSIONS_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-openapi-included]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-openapi-included[`+++quarkus.smallrye-health.openapi.included+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.openapi.included+++[]\n"
@@ -578,7 +584,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_OPENAPI_INCLUDED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-openapi-included[quarkus.smallrye-health.openapi.included] config_property_copy_button:quarkus.smallrye-health.openapi.included[]"
 
 #, fuzzy
 msgid ""
@@ -598,6 +604,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-root-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-root-path[`+++quarkus.smallrye-health.root-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.root-path+++[]\n"
@@ -610,7 +618,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_ROOT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-root-path[quarkus.smallrye-health.root-path] config_property_copy_button:quarkus.smallrye-health.root-path[]"
 
 #, fuzzy
 msgid ""
@@ -633,6 +641,8 @@ msgstr "string"
 msgid "`+++health+++`"
 msgstr "`saúde`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-liveness-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-liveness-path[`+++quarkus.smallrye-health.liveness-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.liveness-path+++[]\n"
@@ -645,7 +655,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_LIVENESS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-liveness-path[quarkus.smallrye-health.liveness-path] config_property_copy_button:quarkus.smallrye-health.liveness-path[]"
 
 #, fuzzy
 msgid ""
@@ -665,6 +675,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++live+++`"
 msgstr "`ao vivo`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-readiness-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-readiness-path[`+++quarkus.smallrye-health.readiness-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.readiness-path+++[]\n"
@@ -677,7 +689,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_READINESS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-readiness-path[quarkus.smallrye-health.readiness-path] config_property_copy_button:quarkus.smallrye-health.readiness-path[]"
 
 #, fuzzy
 msgid ""
@@ -697,6 +709,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++ready+++`"
 msgstr "`pronto`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-group-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-group-path[`+++quarkus.smallrye-health.group-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.group-path+++[]\n"
@@ -709,7 +723,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_GROUP_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-group-path[quarkus.smallrye-health.group-path] config_property_copy_button:quarkus.smallrye-health.group-path[]"
 
 #, fuzzy
 msgid ""
@@ -729,6 +743,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++group+++`"
 msgstr "`grupo`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-wellness-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-wellness-path[`+++quarkus.smallrye-health.wellness-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.wellness-path+++[]\n"
@@ -741,7 +757,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_WELLNESS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-wellness-path[quarkus.smallrye-health.wellness-path] config_property_copy_button:quarkus.smallrye-health.wellness-path[]"
 
 #, fuzzy
 msgid ""
@@ -761,6 +777,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++well+++`"
 msgstr "`bem`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-startup-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-startup-path[`+++quarkus.smallrye-health.startup-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.startup-path+++[]\n"
@@ -773,7 +791,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_STARTUP_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-startup-path[quarkus.smallrye-health.startup-path] config_property_copy_button:quarkus.smallrye-health.startup-path[]"
 
 #, fuzzy
 msgid ""
@@ -793,6 +811,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++started+++`"
 msgstr "`começou`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-max-group-registries-count]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-max-group-registries-count[`+++quarkus.smallrye-health.max-group-registries-count+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.max-group-registries-count+++[]\n"
@@ -805,7 +825,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_MAX_GROUP_REGISTRIES_COUNT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-max-group-registries-count[quarkus.smallrye-health.max-group-registries-count] config_property_copy_button:quarkus.smallrye-health.max-group-registries-count[]"
 
 #, fuzzy
 msgid ""
@@ -824,6 +844,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "int"
 msgstr "int"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-default-health-group]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-default-health-group[`+++quarkus.smallrye-health.default-health-group+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.default-health-group+++[]\n"
@@ -836,7 +858,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_DEFAULT_HEALTH_GROUP+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-default-health-group[quarkus.smallrye-health.default-health-group] config_property_copy_button:quarkus.smallrye-health.default-health-group[]"
 
 #, fuzzy
 msgid ""
@@ -852,6 +874,8 @@ msgstr "O nome do grupo de integridade padrão utilizado quando nenhum outro gru
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_DEFAULT_HEALTH_GROUP+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_DEFAULT_HEALTH_GROUP[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-management-enabled]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-management-enabled[`+++quarkus.smallrye-health.management.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.management.enabled+++[]\n"
@@ -864,7 +888,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_MANAGEMENT_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-management-enabled[quarkus.smallrye-health.management.enabled] config_property_copy_button:quarkus.smallrye-health.management.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -880,6 +904,8 @@ msgstr "Se a interface de gerenciamento estiver ativada, os endpoints de integri
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_MANAGEMENT_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_MANAGEMENT_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-include-problem-details]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-include-problem-details[`+++quarkus.smallrye-health.include-problem-details+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.include-problem-details+++[]\n"
@@ -892,7 +918,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_INCLUDE_PROBLEM_DETAILS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-include-problem-details[quarkus.smallrye-health.include-problem-details] config_property_copy_button:quarkus.smallrye-health.include-problem-details[]"
 
 #, fuzzy
 msgid ""
@@ -908,6 +934,8 @@ msgstr "Especifique que as respostas DOWN relatadas devem estar em conformidade 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_INCLUDE_PROBLEM_DETAILS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_INCLUDE_PROBLEM_DETAILS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-smallrye-health_quarkus-smallrye-health-ui-enabled]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-ui-enabled[`+++quarkus.smallrye-health.ui.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.ui.enabled+++[]\n"
@@ -920,7 +948,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_UI_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-smallrye-health_quarkus-smallrye-health-ui-enabled[quarkus.smallrye-health.ui.enabled] config_property_copy_button:quarkus.smallrye-health.ui.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -936,6 +964,8 @@ msgstr "Se a interface de usuário do Health deve ser ativada. Por padrão, a in
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_UI_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_UI_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-smallrye-health_quarkus-smallrye-health-additional-property-property-name]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-additional-property-property-name[`+++quarkus.smallrye-health.additional.property.\"property-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.additional.property.\"property-name\"+++[]\n"
@@ -948,7 +978,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_ADDITIONAL_PROPERTY__PROPERTY_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-smallrye-health_quarkus-smallrye-health-additional-property-property-name[quarkus.smallrye-health.additional.property.\"property-name\"] config_property_copy_button:quarkus.smallrye-health.additional.property.\"property-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -968,6 +998,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "Map<String,String>"
 msgstr "Map<String, String>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-smallrye-health_quarkus-smallrye-health-check-check-classname-enabled]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-check-check-classname-enabled[`+++quarkus.smallrye-health.check.\"check-classname\".enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.check.\"check-classname\".enabled+++[]\n"
@@ -980,7 +1012,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_CHECK__CHECK_CLASSNAME__ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-smallrye-health_quarkus-smallrye-health-check-check-classname-enabled[quarkus.smallrye-health.check.\"check-classname\".enabled] config_property_copy_button:quarkus.smallrye-health.check.\"check-classname\".enabled[]"
 
 #, fuzzy
 msgid ""
@@ -1000,6 +1032,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "[[quarkus-smallrye-health_section_quarkus-smallrye-health-ui]] [.section-name.section-level0]##link:#quarkus-smallrye-health_section_quarkus-smallrye-health-ui[SmallRye Health UI configuration]##"
 msgstr " link:#quarkus-smallrye-health_section_quarkus-smallrye-health-ui[Configuração da interface do usuário do SmallRye Health]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-ui-root-path]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-ui-root-path[`+++quarkus.smallrye-health.ui.root-path+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.ui.root-path+++[]\n"
@@ -1012,7 +1046,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_UI_ROOT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-ui-root-path[quarkus.smallrye-health.ui.root-path] config_property_copy_button:quarkus.smallrye-health.ui.root-path[]"
 
 #, fuzzy
 msgid ""
@@ -1032,6 +1066,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_HEALTH_
 msgid "`+++health-ui+++`"
 msgstr "`health-ui`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-health_quarkus-smallrye-health-ui-always-include]] [.property-path]##link:#quarkus-smallrye-health_quarkus-smallrye-health-ui-always-include[`+++quarkus.smallrye-health.ui.always-include+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-health.ui.always-include+++[]\n"
@@ -1044,7 +1080,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_HEALTH_UI_ALWAYS_INCLUDE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-ui-always-include[quarkus.smallrye-health.ui.always-include] config_property_copy_button:quarkus.smallrye-health.ui.always-include[]"
 
 #, fuzzy
 msgid ""

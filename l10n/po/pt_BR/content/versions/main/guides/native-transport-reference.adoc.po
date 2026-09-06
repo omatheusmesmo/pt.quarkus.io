@@ -304,15 +304,19 @@ msgid ""
 "Quarkus checks the actual transport status at startup:"
 msgstr "Mesmo quando uma dependência de transporte está no classpath, a biblioteca nativa pode não ser carregada em tempo de execução (por exemplo, ao ser executada em uma plataforma diferente ou se o kernel não oferecer suporte a io_uring). O Quarkus verifica o status real do transporte na inicialização:"
 
+#. mt: deepl
+#, fuzzy
 msgid "When <code>native-transport=if-available</code>"
-msgstr ""
+msgstr "Quando <code>native-transport=if-available</code>"
 
 #, fuzzy
 msgid "If the transport fails to load, Quarkus logs a warning and falls back to Java NIO."
 msgstr "Caso o transporte não consiga carregar, o Quarkus registra um aviso e recorre ao Java NIO."
 
+#. mt: deepl
+#, fuzzy
 msgid "When <code>native-transport=required</code>"
-msgstr ""
+msgstr "Quando <code>native-transport=required</code>"
 
 #, fuzzy
 msgid "If the transport fails to load, the application fails to start with an `IllegalStateException`."

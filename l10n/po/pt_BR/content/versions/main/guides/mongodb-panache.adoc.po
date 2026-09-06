@@ -115,10 +115,12 @@ msgstr "Opcionalmente, use a anotação `@MongoEntity` para especificar o nome d
 msgid "Then add the relevant configuration properties in `{config-file}`."
 msgstr "Em seguida, adicione as propriedades de configuração relevantes em `{config-file}` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The `quarkus.mongodb.database` property will be used by MongoDB with Panache to determine the name of the database where your entities will be persisted (if not overridden by `@MongoEntity`).\n"
 "If this property is not set, MongoDB with Panache uses the database from the connection string if any."
-msgstr ""
+msgstr "A propriedade ` `quarkus.mongodb.database` ` será utilizada pelo MongoDB com o Panache para determinar o nome do banco de dados no qual suas entidades serão armazenadas (a menos que seja substituída pela `anotação `@MongoEntity`` ). Caso essa propriedade não esteja definida, o MongoDB com o Panache utiliza o banco de dados indicado na string de conexão, se houver."
 
 #, fuzzy
 msgid "The `@MongoEntity` annotation allows configuring:"
@@ -128,8 +130,10 @@ msgstr "A anotação `@MongoEntity` permite a configuração:"
 msgid "the name of the client for multitenant application, see xref:mongodb.adoc#multiple-mongodb-clients[Multiple MongoDB Clients]. Otherwise, the default client will be used."
 msgstr "o nome do cliente para aplicativo multilocatário, consulte xref:mongodb.adoc#multiple-mongodb-clients[Vários clientes MongoDB] . Caso contrário, será usado o cliente padrão."
 
+#. mt: deepl
+#, fuzzy
 msgid "the name of the database, otherwise a link:{mongodb-doc-root-url}#multitenancy[`MongoDatabaseResolver`] implementation, the `quarkus.mongodb.database` property, or the database from the connection string will be used."
-msgstr ""
+msgstr "o nome do banco de dados; caso contrário, será utilizada uma implementação link:{mongodb-doc-root-url}#multitenancy[de MongoDatabaseResolver] , a propriedade `quarkus.mongodb.database` ou o banco de dados indicado na string de conexão."
 
 #, fuzzy
 msgid "the name of the collection, otherwise the simple name of the class will be used."
@@ -837,10 +841,12 @@ msgstr "Para resolver o locatário das solicitações recebidas e mapeá-lo para
 msgid "The bean is made `@RequestScoped` as the tenant resolution depends on the incoming request."
 msgstr "O bean é feito `@RequestScoped`, pois a resolução do tenant depende da requisição recebida."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The database selection priority order is as follows: `@MongoEntity(database=\"mizain\")`, `MongoDatabaseResolver`,\n"
 "the `quarkus.mongodb.database` property, and then the database from the connection string."
-msgstr ""
+msgstr "A ordem de prioridade na seleção do banco de dados é a seguinte: `@MongoEntity(database=\"mizain\")` , `MongoDatabaseResolver` , a propriedade `quarkus.mongodb.database` e, por fim, o banco de dados indicado na string de conexão."
 
 #, fuzzy
 msgid ""

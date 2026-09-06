@@ -382,6 +382,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.devservices.enabled]`\n"
 "\n"
@@ -397,13 +399,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.devservices.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.devservices.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.devservices.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.\"datasource-name\".devservices.enabled]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.enabled]`"
 
 #, fuzzy
 msgid "Whether this Dev Service should start with the application in dev mode or tests."
@@ -426,6 +432,8 @@ msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 msgid "boolean"
 msgstr "booleano"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.devservices.image-name]`\n"
 "\n"
@@ -440,13 +448,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.devservices.image-name]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.devservices.image-name]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.devservices.image-name]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.\"datasource-name\".devservices.image-name]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem]`"
 
 #, fuzzy
 msgid "The container image name for container-based Dev Service providers."
@@ -463,6 +475,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSE
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.devservices.container-env]`\n"
 "\n"
@@ -475,25 +489,33 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_ENV+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.devservices.container-env]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.devservices.container-env]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.devservices.container-env]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.\"datasource-name\".devservices.container-env]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.container-env]`"
 
 #, fuzzy
 msgid "Environment variables that are passed to the container."
 msgstr "Variáveis de ambiente que são passadas ao contêiner."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_ENV+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_ENV[]"
 
 #, fuzzy
 msgid "`Map<String,String>`"
 msgstr "`Map<String, String>`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.devservices.container-properties]`\n"
 "\n"
@@ -508,13 +530,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.devservices.container-properties]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.devservices.container-properties]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.devservices.container-properties]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.\"datasource-name\".devservices.container-properties]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.propriedades-do-contêiner]`"
 
 #, fuzzy
 msgid "Generic properties that are passed for additional container configuration."
@@ -528,6 +554,8 @@ msgstr "As propriedades definidas aqui são específicas de cada banco de dados 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.devservices.properties]`\n"
 "\n"
@@ -540,13 +568,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.devservices.properties]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.devservices.properties]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.devservices.properties]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.\"datasource-name\".devservices.properties]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.properties]`"
 
 #, fuzzy
 msgid "Generic properties that are added to the database connection URL."
@@ -556,6 +588,8 @@ msgstr "Propriedades genéricas que são adicionadas à URL de conexão com o ba
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.devservices.port]`\n"
 "\n"
@@ -570,13 +604,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.devservices.port]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.devservices.port]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.devservices.port]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.\"datasource-name\".devservices.port]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.port]`"
 
 #, fuzzy
 msgid "Optional fixed port the dev service will listen to."
@@ -593,6 +631,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSE
 msgid "int"
 msgstr "int"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.devservices.command]`\n"
 "\n"
@@ -607,13 +647,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.devservices.command]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.devservices.command]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.devservices.command]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.\"datasource-name\".devservices.command]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.command]`"
 
 #, fuzzy
 msgid "The container start command to use for container-based Dev Service providers."
@@ -623,6 +667,8 @@ msgstr "O comando de inicialização do contêiner a ser utilizado por provedore
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_COMMAND+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_COMMAND[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.devservices.db-name]`\n"
 "\n"
@@ -635,13 +681,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.devservices.db-name]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.devservices.db-name]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.devservices.db-name]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.\"datasource-name\".devservices.db-name]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-do-banco-de-dados]`"
 
 #, fuzzy
 msgid "The database name to use if this Dev Service supports overriding it."
@@ -651,6 +701,8 @@ msgstr "O nome do banco de dados a ser utilizado caso este Serviço de Desenvolv
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.devservices.username]`\n"
 "\n"
@@ -663,13 +715,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.devservices.username]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.devservices.username]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.devservices.username]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.\"datasource-name\".devservices.username]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-de-usuário]`"
 
 #, fuzzy
 msgid "The username to use if this Dev Service supports overriding it."
@@ -679,6 +735,8 @@ msgstr "O nome de usuário a ser utilizado, caso este Serviço de Desenvolviment
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_USERNAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_USERNAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.devservices.password]`\n"
 "\n"
@@ -691,13 +749,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.devservices.password]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.devservices.password]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.devservices.password]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.\"datasource-name\".devservices.password]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.senha]`"
 
 #, fuzzy
 msgid "The password to use if this Dev Service supports overriding it."
@@ -707,6 +769,8 @@ msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita su
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.devservices.init-script-path]`\n"
 "\n"
@@ -721,21 +785,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.devservices.init-script-path]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.devservices.init-script-path]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.devservices.init-script-path]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.\"datasource-name\".devservices.init-script-path]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.caminho-do-script-de-inicialização]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "The path to a SQL script to be loaded from the classpath and applied to the Dev Service database."
-msgstr ""
+msgstr "O caminho para um script SQL a ser carregado a partir do classpath e aplicado ao banco de dados do Dev Service."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.devservices.volumes]`\n"
 "\n"
@@ -754,13 +826,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.devservices.volumes]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.devservices.volumes]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.devservices.volumes]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.\"datasource-name\".devservices.volumes]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.volumes]`"
 
 #, fuzzy
 msgid "The volumes to be mapped to the container."
@@ -774,9 +850,13 @@ msgstr "A chave do mapa corresponde à localização do host; o valor do mapa é
 msgid "When using a file system location, the volume will be generated with read-write permission, potentially leading to data loss or modification in your file system."
 msgstr "Ao utilizar um caminho no sistema de arquivos, o volume será gerado com permissão de leitura e gravação, o que pode resultar em perda ou alteração de dados no seu sistema de arquivos."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.devservices.reuse]`\n"
 "\n"
@@ -806,13 +886,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_REUSE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.devservices.reuse]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.devservices.reuse]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.devservices.reuse]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.\"datasource-name\".devservices.reuse]`"
-msgstr ""
+msgstr "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.reuse]`"
 
 #, fuzzy
 msgid ""

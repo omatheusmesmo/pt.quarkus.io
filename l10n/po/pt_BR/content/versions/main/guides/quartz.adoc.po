@@ -390,6 +390,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-clustered]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-clustered[`+++quarkus.quartz.clustered+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.clustered+++[]\n"
@@ -404,7 +406,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_CLUSTERED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-clustered[quarkus.quartz.clustered] config_property_copy_button:quarkus.quartz.clustered[]"
 
 #, fuzzy
 msgid ""
@@ -435,6 +437,8 @@ msgstr "booleano"
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-cluster-checkin-interval]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-cluster-checkin-interval[`+++quarkus.quartz.cluster-checkin-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.cluster-checkin-interval+++[]\n"
@@ -449,7 +453,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_CLUSTER_CHECKIN_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-cluster-checkin-interval[quarkus.quartz.cluster-checkin-interval] config_property_copy_button:quarkus.quartz.cluster-checkin-interval[]"
 
 #, fuzzy
 msgid ""
@@ -476,6 +480,8 @@ msgstr "long"
 msgid "`+++15000+++`"
 msgstr "`15.000`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-store-type]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-store-type[`+++quarkus.quartz.store-type+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.store-type+++[]\n"
@@ -492,7 +498,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_STORE_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-store-type[quarkus.quartz.store-type] config_property_copy_button:quarkus.quartz.store-type[]"
 
 #, fuzzy
 msgid ""
@@ -524,6 +530,8 @@ msgstr "`ram` , `jdbc-tx` , `jdbc-cmt`"
 msgid "`+++ram+++`"
 msgstr "`ram`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-thread-pool-class]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-thread-pool-class[`+++quarkus.quartz.thread-pool-class+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.thread-pool-class+++[]\n"
@@ -538,7 +546,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_THREAD_POOL_CLASS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-thread-pool-class[quarkus.quartz.thread-pool-class] config_property_copy_button:quarkus.quartz.thread-pool-class[]"
 
 #, fuzzy
 msgid ""
@@ -565,6 +573,8 @@ msgstr "string"
 msgid "`+++org.quartz.simpl.SimpleThreadPool+++`"
 msgstr "`org.quartz.simpl.SimpleThreadPool`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-datasource]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-datasource[`+++quarkus.quartz.datasource+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.datasource+++[]\n"
@@ -581,7 +591,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DATASOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-datasource[quarkus.quartz.datasource] config_property_copy_button:quarkus.quartz.datasource[]"
 
 #, fuzzy
 msgid ""
@@ -601,6 +611,8 @@ msgstr "Opcionalmente necessário ao utilizar os tipos de armazenamento `jdbc-tx
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DATASOURCE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_DATASOURCE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-defer-datasource-check]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-defer-datasource-check[`+++quarkus.quartz.defer-datasource-check+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.defer-datasource-check+++[]\n"
@@ -617,7 +629,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DEFER_DATASOURCE_CHECK+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-defer-datasource-check[quarkus.quartz.defer-datasource-check] config_property_copy_button:quarkus.quartz.defer-datasource-check[]"
 
 #, fuzzy
 msgid ""
@@ -641,6 +653,8 @@ msgstr "É considerado um erro de configuração especificar uma fonte de dados 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DEFER_DATASOURCE_CHECK+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_DEFER_DATASOURCE_CHECK[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-table-prefix]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-table-prefix[`+++quarkus.quartz.table-prefix+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.table-prefix+++[]\n"
@@ -655,7 +669,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_TABLE_PREFIX+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-table-prefix[quarkus.quartz.table-prefix] config_property_copy_button:quarkus.quartz.table-prefix[]"
 
 #, fuzzy
 msgid ""
@@ -679,6 +693,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_TABLE_PRE
 msgid "`+++QRTZ_+++`"
 msgstr "`QRTZ_`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-select-with-lock-sql]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-select-with-lock-sql[`+++quarkus.quartz.select-with-lock-sql+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.select-with-lock-sql+++[]\n"
@@ -697,7 +713,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_SELECT_WITH_LOCK_SQL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-select-with-lock-sql[quarkus.quartz.select-with-lock-sql] config_property_copy_button:quarkus.quartz.select-with-lock-sql[]"
 
 #, fuzzy
 msgid ""
@@ -721,6 +737,8 @@ msgstr "Um exemplo de string SQL: `SELECT * FROM {0}LOCKS WHERE SCHED_NAME = {1}
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_SELECT_WITH_LOCK_SQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_SELECT_WITH_LOCK_SQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-driver-delegate]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-driver-delegate[`+++quarkus.quartz.driver-delegate+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.driver-delegate+++[]\n"
@@ -737,7 +755,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DRIVER_DELEGATE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-driver-delegate[quarkus.quartz.driver-delegate] config_property_copy_button:quarkus.quartz.driver-delegate[]"
 
 #, fuzzy
 msgid ""
@@ -761,6 +779,8 @@ msgstr "Observe que qualquer implementação personalizada deve ser uma subclass
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DRIVER_DELEGATE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_DRIVER_DELEGATE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-serialize-job-data]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-serialize-job-data[`+++quarkus.quartz.serialize-job-data+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.serialize-job-data+++[]\n"
@@ -779,7 +799,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_SERIALIZE_JOB_DATA+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-serialize-job-data[quarkus.quartz.serialize-job-data] config_property_copy_button:quarkus.quartz.serialize-job-data[]"
 
 #, fuzzy
 msgid ""
@@ -803,6 +823,8 @@ msgstr "Se este parâmetro estiver definido como `false` (padrão), os valores p
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_SERIALIZE_JOB_DATA+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_SERIALIZE_JOB_DATA[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-instance-name]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-instance-name[`+++quarkus.quartz.instance-name+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.instance-name+++[]\n"
@@ -815,7 +837,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_INSTANCE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-instance-name[quarkus.quartz.instance-name] config_property_copy_button:quarkus.quartz.instance-name[]"
 
 #, fuzzy
 msgid ""
@@ -835,6 +857,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_INSTANCE_
 msgid "`+++QuarkusQuartzScheduler+++`"
 msgstr "`QuarkusQuartzScheduler`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-instance-id]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-instance-id[`+++quarkus.quartz.instance-id+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.instance-id+++[]\n"
@@ -847,7 +871,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_INSTANCE_ID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-instance-id[quarkus.quartz.instance-id] config_property_copy_button:quarkus.quartz.instance-id[]"
 
 #, fuzzy
 msgid ""
@@ -867,6 +891,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_INSTANCE_
 msgid "`+++AUTO+++`"
 msgstr "`AUTO`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-batch-trigger-acquisition-fire-ahead-time-window]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-batch-trigger-acquisition-fire-ahead-time-window[`+++quarkus.quartz.batch-trigger-acquisition-fire-ahead-time-window+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.batch-trigger-acquisition-fire-ahead-time-window+++[]\n"
@@ -879,7 +905,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_BATCH_TRIGGER_ACQUISITION_FIRE_AHEAD_TIME_WINDOW+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-batch-trigger-acquisition-fire-ahead-time-window[quarkus.quartz.batch-trigger-acquisition-fire-ahead-time-window] config_property_copy_button:quarkus.quartz.batch-trigger-acquisition-fire-ahead-time-window[]"
 
 #, fuzzy
 msgid ""
@@ -899,6 +925,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_BATCH_TRI
 msgid "`+++0+++`"
 msgstr "`0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-batch-trigger-acquisition-max-count]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-batch-trigger-acquisition-max-count[`+++quarkus.quartz.batch-trigger-acquisition-max-count+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.batch-trigger-acquisition-max-count+++[]\n"
@@ -911,7 +939,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_BATCH_TRIGGER_ACQUISITION_MAX_COUNT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-batch-trigger-acquisition-max-count[quarkus.quartz.batch-trigger-acquisition-max-count] config_property_copy_button:quarkus.quartz.batch-trigger-acquisition-max-count[]"
 
 #, fuzzy
 msgid ""
@@ -934,6 +962,8 @@ msgstr "int"
 msgid "`+++1+++`"
 msgstr "`1`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-thread-count]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-thread-count[`+++quarkus.quartz.thread-count+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.thread-count+++[]\n"
@@ -948,7 +978,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_THREAD_COUNT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-thread-count[quarkus.quartz.thread-count] config_property_copy_button:quarkus.quartz.thread-count[]"
 
 #, fuzzy
 msgid ""
@@ -968,6 +998,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_THREAD_CO
 msgid "`+++10+++`"
 msgstr "`10`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-thread-priority]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-thread-priority[`+++quarkus.quartz.thread-priority+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.thread-priority+++[]\n"
@@ -980,7 +1012,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_THREAD_PRIORITY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-thread-priority[quarkus.quartz.thread-priority] config_property_copy_button:quarkus.quartz.thread-priority[]"
 
 #, fuzzy
 msgid ""
@@ -1000,6 +1032,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_THREAD_PR
 msgid "`+++5+++`"
 msgstr "`5`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-misfire-threshold]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-misfire-threshold[`+++quarkus.quartz.misfire-threshold+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.misfire-threshold+++[]\n"
@@ -1012,7 +1046,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_MISFIRE_THRESHOLD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-misfire-threshold[quarkus.quartz.misfire-threshold] config_property_copy_button:quarkus.quartz.misfire-threshold[]"
 
 #, fuzzy
 msgid ""
@@ -1036,6 +1070,8 @@ msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/t
 msgid "`+++60S+++`"
 msgstr "`anos 60`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-shutdown-wait-time]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-shutdown-wait-time[`+++quarkus.quartz.shutdown-wait-time+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.shutdown-wait-time+++[]\n"
@@ -1048,7 +1084,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_SHUTDOWN_WAIT_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-shutdown-wait-time[quarkus.quartz.shutdown-wait-time] config_property_copy_button:quarkus.quartz.shutdown-wait-time[]"
 
 #, fuzzy
 msgid ""
@@ -1068,6 +1104,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_SHUTDOWN_
 msgid "`+++10S+++`"
 msgstr "`10S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-simple-trigger-misfire-policy]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-simple-trigger-misfire-policy[`+++quarkus.quartz.simple-trigger.misfire-policy+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.simple-trigger.misfire-policy+++[]\n"
@@ -1080,7 +1118,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_SIMPLE_TRIGGER_MISFIRE_POLICY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-simple-trigger-misfire-policy[quarkus.quartz.simple-trigger.misfire-policy] config_property_copy_button:quarkus.quartz.simple-trigger.misfire-policy[]"
 
 #, fuzzy
 msgid ""
@@ -1104,6 +1142,8 @@ msgstr "`política-inteligente` , `política-de-ignorar-falhas-de-disparo` , `di
 msgid "`+++smart-policy+++`"
 msgstr "`política inteligente`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-cron-trigger-misfire-policy]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-cron-trigger-misfire-policy[`+++quarkus.quartz.cron-trigger.misfire-policy+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.cron-trigger.misfire-policy+++[]\n"
@@ -1116,7 +1156,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_CRON_TRIGGER_MISFIRE_POLICY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-cron-trigger-misfire-policy[quarkus.quartz.cron-trigger.misfire-policy] config_property_copy_button:quarkus.quartz.cron-trigger.misfire-policy[]"
 
 #, fuzzy
 msgid ""
@@ -1128,6 +1168,8 @@ msgstr " link:#quarkus-quartz_quarkus-quartz-cron-trigger-misfire-policy[quarkus
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_CRON_TRIGGER_MISFIRE_POLICY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_CRON_TRIGGER_MISFIRE_POLICY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-unsupported-properties-full-property-key]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-unsupported-properties-full-property-key[`+++quarkus.quartz.unsupported-properties.\"full-property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.unsupported-properties.\"full-property-key\"+++[]\n"
@@ -1144,7 +1186,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_UNSUPPORTED_PROPERTIES__FULL_PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-unsupported-properties-full-property-key[quarkus.quartz.unsupported-properties.\"full-property-key\"] config_property_copy_button:quarkus.quartz.unsupported-properties.\"full-property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -1172,6 +1214,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_UNSUPPORT
 msgid "Map<String,String>"
 msgstr "Map<String, String>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-run-blocking-scheduled-method-on-quartz-thread]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-run-blocking-scheduled-method-on-quartz-thread[`+++quarkus.quartz.run-blocking-scheduled-method-on-quartz-thread+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.run-blocking-scheduled-method-on-quartz-thread+++[]\n"
@@ -1186,7 +1230,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_RUN_BLOCKING_SCHEDULED_METHOD_ON_QUARTZ_THREAD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-run-blocking-scheduled-method-on-quartz-thread[quarkus.quartz.executar-método-agendado-que-bloqueia-na-thread-do-Quartz] config_property_copy_button:quarkus.quartz.executar-método-agendado-que-bloqueia-na-thread-do-Quartz[]"
 
 #, fuzzy
 msgid ""
@@ -1206,6 +1250,8 @@ msgstr "Quando essa opção estiver ativada, os métodos agendados de bloqueio n
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_RUN_BLOCKING_SCHEDULED_METHOD_ON_QUARTZ_THREAD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_RUN_BLOCKING_SCHEDULED_METHOD_ON_QUARTZ_THREAD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-deferred-datasource-name]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-deferred-datasource-name[`+++quarkus.quartz.deferred-datasource-name+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.deferred-datasource-name+++[]\n"
@@ -1220,7 +1266,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_DEFERRED_DATASOURCE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-deferred-datasource-name[quarkus.quartz.deferred-datasource-name] config_property_copy_button:quarkus.quartz.deferred-datasource-name[]"
 
 #, fuzzy
 msgid ""
@@ -1240,6 +1286,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_DEFERRED_
 msgid "[[quarkus-quartz_section_quarkus-quartz-instance-id-generators]] [.section-name.section-level0]##link:#quarkus-quartz_section_quarkus-quartz-instance-id-generators[Instance ID generators]##"
 msgstr " link:#quarkus-quartz_section_quarkus-quartz-instance-id-generators[Geradores de IDs de instância]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-instance-id-generators-generator-name-class]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-instance-id-generators-generator-name-class[`+++quarkus.quartz.instance-id-generators.\"generator-name\".class+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.instance-id-generators.\"generator-name\".class+++[]\n"
@@ -1252,7 +1300,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_INSTANCE_ID_GENERATORS__GENERATOR_NAME__CLASS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-instance-id-generators-generator-name-class[quarkus.quartz.instance-id-generators.\"generator-name\".class] config_property_copy_button:quarkus.quartz.instance-id-generators.\"generator-name\".class[]"
 
 #, fuzzy
 msgid ""
@@ -1272,6 +1320,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_INSTANCE_
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
 msgstr "obrigatório [círculo de exclamação]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-instance-id-generators-generator-name-properties-property-key]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-instance-id-generators-generator-name-properties-property-key[`+++quarkus.quartz.instance-id-generators.\"generator-name\".properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.instance-id-generators.\"generator-name\".properties.\"property-key\"+++[]\n"
@@ -1284,7 +1334,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_INSTANCE_ID_GENERATORS__GENERATOR_NAME__PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-instance-id-generators-generator-name-properties-property-key[quarkus.quartz.instance-id-generators.\"nome-do-gerador\".properties.\"chave-da-propriedade\"] config_property_copy_button:quarkus.quartz.instance-id-generators.\"nome-do-gerador\".properties.\"chave-da-propriedade\"[]"
 
 #, fuzzy
 msgid ""
@@ -1304,6 +1354,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_INSTANCE_
 msgid "[[quarkus-quartz_section_quarkus-quartz-trigger-listeners]] [.section-name.section-level0]##link:#quarkus-quartz_section_quarkus-quartz-trigger-listeners[Trigger listeners]##"
 msgstr " link:#quarkus-quartz_section_quarkus-quartz-trigger-listeners[Ouvintes de gatilho]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-trigger-listeners-listener-name-class]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-trigger-listeners-listener-name-class[`+++quarkus.quartz.trigger-listeners.\"listener-name\".class+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.trigger-listeners.\"listener-name\".class+++[]\n"
@@ -1316,7 +1368,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_TRIGGER_LISTENERS__LISTENER_NAME__CLASS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-trigger-listeners-listener-name-class[quarkus.quartz.trigger-listeners.\"listener-name\".class] config_property_copy_button:quarkus.quartz.trigger-listeners.\"listener-name\".class[]"
 
 #, fuzzy
 msgid ""
@@ -1328,6 +1380,8 @@ msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-trigger-listeners-listener-n
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_TRIGGER_LISTENERS__LISTENER_NAME__CLASS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_TRIGGER_LISTENERS__LISTENER_NAME__CLASS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-trigger-listeners-listener-name-properties-property-key]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-trigger-listeners-listener-name-properties-property-key[`+++quarkus.quartz.trigger-listeners.\"listener-name\".properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.trigger-listeners.\"listener-name\".properties.\"property-key\"+++[]\n"
@@ -1340,7 +1394,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_TRIGGER_LISTENERS__LISTENER_NAME__PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-trigger-listeners-listener-name-properties-property-key[quarkus.quartz.trigger-listeners.\"listener-name\".properties.\"property-key\"] config_property_copy_button:quarkus.quartz.trigger-listeners.\"listener-name\".properties.\"property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -1356,6 +1410,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_TRIGGER_L
 msgid "[[quarkus-quartz_section_quarkus-quartz-job-listeners]] [.section-name.section-level0]##link:#quarkus-quartz_section_quarkus-quartz-job-listeners[Job listeners]##"
 msgstr " link:#quarkus-quartz_section_quarkus-quartz-job-listeners[Ouvintes de tarefas]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-job-listeners-listener-name-class]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-job-listeners-listener-name-class[`+++quarkus.quartz.job-listeners.\"listener-name\".class+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.job-listeners.\"listener-name\".class+++[]\n"
@@ -1368,7 +1424,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_JOB_LISTENERS__LISTENER_NAME__CLASS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-job-listeners-listener-name-class[quarkus.quartz.job-listeners.\"listener-name\".class] config_property_copy_button:quarkus.quartz.job-listeners.\"listener-name\".class[]"
 
 #, fuzzy
 msgid ""
@@ -1380,6 +1436,8 @@ msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-job-listeners-listener-name-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_JOB_LISTENERS__LISTENER_NAME__CLASS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_JOB_LISTENERS__LISTENER_NAME__CLASS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-job-listeners-listener-name-properties-property-key]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-job-listeners-listener-name-properties-property-key[`+++quarkus.quartz.job-listeners.\"listener-name\".properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.job-listeners.\"listener-name\".properties.\"property-key\"+++[]\n"
@@ -1392,7 +1450,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_JOB_LISTENERS__LISTENER_NAME__PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-job-listeners-listener-name-properties-property-key[quarkus.quartz.job-listeners.\"listener-name\".properties.\"property-key\"] config_property_copy_button:quarkus.quartz.job-listeners.\"listener-name\".properties.\"property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -1408,6 +1466,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_JOB_LISTE
 msgid "[[quarkus-quartz_section_quarkus-quartz-plugins]] [.section-name.section-level0]##link:#quarkus-quartz_section_quarkus-quartz-plugins[Plugins]##"
 msgstr " link:#quarkus-quartz_section_quarkus-quartz-plugins[Plug-ins]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-plugins-plugin-name-class]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-plugins-plugin-name-class[`+++quarkus.quartz.plugins.\"plugin-name\".class+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.plugins.\"plugin-name\".class+++[]\n"
@@ -1420,7 +1480,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_PLUGINS__PLUGIN_NAME__CLASS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-plugins-plugin-name-class[quarkus.quartz.plugins.\"plugin-name\".class] config_property_copy_button:quarkus.quartz.plugins.\"plugin-name\".class[]"
 
 #, fuzzy
 msgid ""
@@ -1432,6 +1492,8 @@ msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-plugins-plugin-name-class[qu
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_PLUGINS__PLUGIN_NAME__CLASS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_PLUGINS__PLUGIN_NAME__CLASS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-quartz_quarkus-quartz-plugins-plugin-name-properties-property-key]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-plugins-plugin-name-properties-property-key[`+++quarkus.quartz.plugins.\"plugin-name\".properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.plugins.\"plugin-name\".properties.\"property-key\"+++[]\n"
@@ -1444,7 +1506,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_PLUGINS__PLUGIN_NAME__PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-quartz_quarkus-quartz-plugins-plugin-name-properties-property-key[quarkus.quartz.plugins.\"nome-do-plugin\".properties.\"chave-da-propriedade\"] config_property_copy_button:quarkus.quartz.plugins.\"nome-do-plugin\".properties.\"chave-da-propriedade\"[]"
 
 #, fuzzy
 msgid ""
@@ -1460,6 +1522,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_PLUGINS__
 msgid "[[quarkus-quartz_section_quarkus-quartz-misfire-policy]] [.section-name.section-level0]##link:#quarkus-quartz_section_quarkus-quartz-misfire-policy[Misfire policy per job configuration]##"
 msgstr " link:#quarkus-quartz_section_quarkus-quartz-misfire-policy[Política de falhas de ignição por configuração de trabalho]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-quartz_quarkus-quartz-misfire-policy-identity]] [.property-path]##link:#quarkus-quartz_quarkus-quartz-misfire-policy-identity[`+++quarkus.quartz.misfire-policy.\"identity\"+++`]##\n"
 "config_property_copy_button:+++quarkus.quartz.misfire-policy.\"identity\"+++[]\n"
@@ -1472,7 +1536,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_QUARTZ_MISFIRE_POLICY__IDENTITY_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-quartz_quarkus-quartz-misfire-policy-identity[quarkus.quartz.misfire-policy.\"identity\"] config_property_copy_button:quarkus.quartz.misfire-policy.\"identity\"[]"
 
 #, fuzzy
 msgid ""

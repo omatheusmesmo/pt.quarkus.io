@@ -217,6 +217,8 @@ msgstr "string"
 msgid "`docker.elastic.co/elasticsearch/elasticsearch:7.17.0`"
 msgstr "`docker.elastic.co/elasticsearch/elasticsearch:7.17.0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`\n"
 "\n"
@@ -226,21 +228,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 msgstr "[lock] `link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "The value for the ES_JAVA_OPTS env variable. Defaults to setting the heap to 1GB."
-msgstr ""
+msgstr "O valor da variável de ambiente ES_JAVA_OPTS. Por padrão, define o heap em 1 GB."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`-Xmx1g`"
-msgstr ""
+msgstr "`-Xmx1g`"
 
 #, fuzzy
 msgid ""

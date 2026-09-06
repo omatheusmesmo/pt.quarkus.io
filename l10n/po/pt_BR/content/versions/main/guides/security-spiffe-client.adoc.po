@@ -10,11 +10,13 @@ msgstr ""
 msgid "SPIFFE Client"
 msgstr "Cliente SPIFFE"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "https://spiffe.io/[SPIFFE] (Secure Production Identity Framework for Everyone) provides cryptographic workload identities in zero-trust environments.\n"
 "The SPIFFE client extension uses the https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_API.md[Workload API] to retrieve https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md[JWT-SVIDs] and https://github.com/spiffe/spiffe/blob/main/standards/X509-SVID.md[X.509-SVIDs] for Quarkus workloads directly from the local https://spiffe.io/docs/latest/spire-about/spire-concepts/[SPIRE Agent].\n"
 "It simplifies deployment by eliminating the need for a SPIFFE client sidecar that stores SVIDs on a mounted file path for Quarkus to read."
-msgstr ""
+msgstr "link:https://spiffe.io/[O SPIFFE] (Secure Production Identity Framework for Everyone) fornece identidades criptográficas para cargas de trabalho em ambientes de confiança zero. A extensão do cliente SPIFFE utiliza a link:https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_API.md[API de Cargas de Trabalho] para recuperar link:https://github.com/spiffe/spiffe/blob/main/standards/JWT-SVID.md[JWT-SVIDs] e link:https://github.com/spiffe/spiffe/blob/main/standards/X509-SVID.md[X.509-SVIDs] para cargas de trabalho do Quarkus diretamente do link:https://spiffe.io/docs/latest/spire-about/spire-concepts/[SPIRE Agent] local. Isso simplifica a implantação, eliminando a necessidade de um sidecar do cliente SPIFFE que armazene SVIDs em um caminho de arquivo montado para que o Quarkus possa lê-los."
 
 msgid "This technology is considered {extension-status}."
 msgstr "Essa tecnologia é considerada {extension-status}."
@@ -76,10 +78,12 @@ msgstr "No Windows, atualmente apenas o esquema `tcp://` é compatível."
 msgid "Retrieve JWT-SVID"
 msgstr "Recuperar o JWT-SVID"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Inject the `JwtSvidClient` CDI bean to retrieve JWT-SVIDs from the SPIRE Agent.\n"
 "The following example retrieves a single JWT-SVID for one audience:"
-msgstr ""
+msgstr "Injete o bean CDI ` `JwtSvidClient` ` para recuperar JWT-SVIDs do SPIRE Agent. O exemplo a seguir recupera um único JWT-SVID para um destinatário:"
 
 #, fuzzy
 msgid "To specify multiple audiences:"
@@ -115,29 +119,45 @@ msgid ""
 "Please see the xref:security-oidc-code-flow-authentication.adoc#oidc-provider-client-authentication[OIDC provider client authentication] section of the OIDC code flow authentication guide and the xref:security-openid-connect-client-reference.adoc#oidc-client-authentication[OIDC Client authentication] section of the OIDC client guide for more information."
 msgstr "Quando esta extensão é combinada com as extensões `quarkus-oidc` ou `quarkus-oidc-client` , os JWT-SVIDs podem ser fornecidos automaticamente e utilizados como asserções de autenticação de cliente OIDC. Consulte a seção xref:security-oidc-code-flow-authentication.adoc#oidc-provider-client-authentication[“Autenticação do cliente do provedor OIDC”] do guia de autenticação por fluxo de código OIDC e a seção xref:security-openid-connect-client-reference.adoc#oidc-client-authentication[“Autenticação do cliente OIDC”] do guia do cliente OIDC para obter mais informações."
 
+#. mt: deepl
+#, fuzzy
 msgid "Retrieve X.509-SVID"
-msgstr ""
+msgstr "Recuperar X.509-SVID"
 
+#. mt: deepl
+#, fuzzy
 msgid "X.509-SVID is an X.509 workload certificate document which includes a client certificate chain and private key, as well as a server trust bundle."
-msgstr ""
+msgstr "O X.509-SVID é um documento de certificado de carga de trabalho X.509 que inclui uma cadeia de certificados do cliente e uma chave privada, bem como um pacote de confiança do servidor."
 
+#. mt: deepl
+#, fuzzy
 msgid "To retrieve an X.509-SVID from the SPIFFE Agent, inject the `X509SvidClient` CDI bean:"
-msgstr ""
+msgstr "Para recuperar um X.509-SVID do SPIFFE Agent, insira o bean CDI `X509SvidClient` :"
 
+#. mt: deepl
+#, fuzzy
 msgid "Quarkus REST Client"
-msgstr ""
+msgstr "Cliente REST do Quarkus"
 
+#. mt: deepl
+#, fuzzy
 msgid "The following example shows how to configure a Quarkus REST client with a retrieved X.509-SVID:"
-msgstr ""
+msgstr "O exemplo a seguir mostra como configurar um cliente REST do Quarkus com um X.509-SVID recuperado:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Creates a REST client per request, fetching a fresh X.509-SVID from the SPIFFE Workload API. In practice, clients should consider caching SVIDs until close to expiration."
-msgstr ""
+msgstr "Cria um cliente REST por solicitação, obtendo um X.509-SVID atualizado da API de Carga de Trabalho do SPIFFE. Na prática, os clientes devem considerar o armazenamento em cache dos SVIDs até próximo do prazo de validade."
 
+#. mt: deepl
+#, fuzzy
 msgid "Builds PEM key-cert options from the SPIFFE certificate chain and private key."
-msgstr ""
+msgstr "Gera opções de chave e certificado PEM a partir da cadeia de certificados SPIFFE e da chave privada."
 
+#. mt: deepl
+#, fuzzy
 msgid "Builds PEM trust options from the trust bundle CA certificates. The server certificate must be issued by a CA in the SPIFFE trust bundle for the TLS handshake to succeed."
-msgstr ""
+msgstr "Cria opções de confiança PEM a partir dos certificados de autoridade certificadora (CA) do pacote de confiança. O certificado do servidor deve ser emitido por uma CA incluída no pacote de confiança SPIFFE para que o handshake TLS seja bem-sucedido."
 
 msgid "Testing"
 msgstr "Testando"
@@ -205,6 +225,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-enabled]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-enabled[`+++quarkus.spiffe-client.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.enabled+++[]\n"
@@ -217,18 +239,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-enabled[quarkus.spiffe-client.enabled] config_property_copy_button:quarkus.spiffe-client.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-enabled]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-enabled[`+++quarkus.spiffe-client.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.enabled+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-enabled[quarkus.spiffe-client.enabled] config_property_copy_button:quarkus.spiffe-client.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "If SPIFFE Workload API client is enabled."
-msgstr ""
+msgstr "Se o cliente da API de carga de trabalho do SPIFFE estiver habilitado."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SPIFFE_CLIENT_ENABLED[]"
 
 #, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
@@ -241,6 +269,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled[`+++quarkus.spiffe-client.devservices.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.devservices.enabled+++[]\n"
@@ -253,19 +283,27 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_DEVSERVICES_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled[quarkus.spiffe-client.devservices.enabled] config_property_copy_button:quarkus.spiffe-client.devservices.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled[`+++quarkus.spiffe-client.devservices.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.devservices.enabled+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled[quarkus.spiffe-client.devservices.enabled] config_property_copy_button:quarkus.spiffe-client.devservices.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Flag to enable (default) or disable Dev Services."
-msgstr ""
+msgstr "Sinalizador para ativar (padrão) ou desativar os Serviços de Desenvolvimento."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SPIFFE_CLIENT_DEVSERVICES_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-transport]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-transport[`+++quarkus.spiffe-client.devservices.transport+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.devservices.transport+++[]\n"
@@ -278,25 +316,37 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_DEVSERVICES_TRANSPORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-transport[quarkus.spiffe-client.devservices.transport] config_property_copy_button:quarkus.spiffe-client.devservices.transport[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-transport]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-transport[`+++quarkus.spiffe-client.devservices.transport+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.devservices.transport+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-transport[quarkus.spiffe-client.devservices.transport] config_property_copy_button:quarkus.spiffe-client.devservices.transport[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Transport protocol for the SPIFFE Workload API server."
-msgstr ""
+msgstr "Protocolo de transporte para o servidor da API de carga de trabalho SPIFFE."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_DEVSERVICES_TRANSPORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SPIFFE_CLIENT_DEVSERVICES_TRANSPORT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`tcp`, `unix`"
-msgstr ""
+msgstr "`tcp` , `unix`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++Defaults to `tcp` on Windows and `unix` on all other platforms.+++`"
-msgstr ""
+msgstr "`O valor padrão é `tcp` no Windows e `unix` em todas as outras plataformas.`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-http-port]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-http-port[`+++quarkus.spiffe-client.devservices.http-port+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.devservices.http-port+++[]\n"
@@ -309,25 +359,35 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_DEVSERVICES_HTTP_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-http-port[quarkus.spiffe-client.devservices.http-port] config_property_copy_button:quarkus.spiffe-client.devservices.http-port[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-http-port]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-http-port[`+++quarkus.spiffe-client.devservices.http-port+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.devservices.http-port+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-http-port[quarkus.spiffe-client.devservices.http-port] config_property_copy_button:quarkus.spiffe-client.devservices.http-port[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The port for the bundle HTTP server to listen on."
-msgstr ""
+msgstr "A porta na qual o servidor HTTP do pacote ficará à escuta."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_DEVSERVICES_HTTP_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SPIFFE_CLIENT_DEVSERVICES_HTTP_PORT[]"
 
 msgid "int"
 msgstr "int"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++18443+++`"
-msgstr ""
+msgstr "`18443`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-spiffe-client_quarkus-spiffe-client-endpoint-socket]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-endpoint-socket[`+++quarkus.spiffe-client.endpoint-socket+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.endpoint-socket+++[]\n"
@@ -344,31 +404,47 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_ENDPOINT_SOCKET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-spiffe-client_quarkus-spiffe-client-endpoint-socket[quarkus.spiffe-client.endpoint-socket] config_property_copy_button:quarkus.spiffe-client.endpoint-socket[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-spiffe-client_quarkus-spiffe-client-endpoint-socket]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-endpoint-socket[`+++quarkus.spiffe-client.endpoint-socket+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.endpoint-socket+++[]"
-msgstr ""
+msgstr " link:#quarkus-spiffe-client_quarkus-spiffe-client-endpoint-socket[quarkus.spiffe-client.endpoint-socket] config_property_copy_button:quarkus.spiffe-client.endpoint-socket[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "SPIFFE Workload Endpoint socket URI. Supports `unix://` for Unix Domain Socket and `tcp://` for TCP transport as defined by the link:https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_Endpoint.md[SPIFFE Workload Endpoint] specification."
-msgstr ""
+msgstr "URI do soquete do ponto de extremidade da carga de trabalho SPIFFE. Suporta `unix://` para soquetes de domínio Unix e `tcp://` para transporte TCP, conforme definido pela especificação link:https://github.com/spiffe/spiffe/blob/main/standards/SPIFFE_Workload_Endpoint.md[do ponto de extremidade da carga de trabalho SPIFFE] ."
 
+#. mt: deepl
+#, fuzzy
 msgid "If not set, the standard `SPIFFE_ENDPOINT_SOCKET` environment variable is used as a fallback, as defined by the link:https://spiffe.io/docs/latest/spiffe-specs/spiffe_workload_endpoint/#4-locating-the-endpoint[SPIFFE Workload Endpoint §4 – Locating the Endpoint] specification."
-msgstr ""
+msgstr "Caso não seja definida, a variável de ambiente padrão `SPIFFE_ENDPOINT_SOCKET` será utilizada como alternativa, conforme definido na especificação link:https://spiffe.io/docs/latest/spiffe-specs/spiffe_workload_endpoint/#4-locating-the-endpoint[“SPIFFE Workload Endpoint §4 – Localização do Endpoint] ”."
 
+#. mt: deepl
+#, fuzzy
 msgid "Example values: `unix:///run/spire/sockets/agent.sock`, `tcp://127.0.0.1:8080`"
-msgstr ""
+msgstr "Exemplos de valores: `unix:///run/spire/sockets/agent.sock` , `tcp://127.0.0.1:8080`"
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_ENDPOINT_SOCKET+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SPIFFE_CLIENT_ENDPOINT_SOCKET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/net/URI.html[URI]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/net/URI.html[URI]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++${SPIFFE_ENDPOINT_SOCKET:}+++`"
-msgstr ""
+msgstr "`${SPIFFE_ENDPOINT_SOCKET:}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-spiffe-client_quarkus-spiffe-client-audiences]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-audiences[`+++quarkus.spiffe-client.audiences+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.audiences+++[]\n"
@@ -381,18 +457,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_AUDIENCES+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-spiffe-client_quarkus-spiffe-client-audiences[quarkus.spiffe-client.audiences] config_property_copy_button:quarkus.spiffe-client.audiences[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-spiffe-client_quarkus-spiffe-client-audiences]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-audiences[`+++quarkus.spiffe-client.audiences+++`]##\n"
 "config_property_copy_button:+++quarkus.spiffe-client.audiences+++[]"
-msgstr ""
+msgstr " link:#quarkus-spiffe-client_quarkus-spiffe-client-audiences[quarkus.spiffe-client.audiences] config_property_copy_button:quarkus.spiffe-client.audiences[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Default audience values that a SPIFFE JSON Web Token (JWT-SVID) is required to contain in its audience `aud` claim. These audiences are supplied to the Workload API when no audiences are directly provided to `SpiffeClient` methods for retrieving workload tokens."
-msgstr ""
+msgstr "Valores padrão de público-alvo que um token JSON da Web SPIFFE (JWT-SVID) deve conter em sua reivindicação `audience `aud`` . Esses públicos-alvo são fornecidos à API de Carga de Trabalho quando nenhum público-alvo é fornecido diretamente aos métodos `do SpiffeClient` para a recuperação de tokens de carga de trabalho."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_AUDIENCES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SPIFFE_CLIENT_AUDIENCES[]"
 
 #, fuzzy
 msgid "list of string"

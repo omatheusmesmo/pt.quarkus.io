@@ -829,10 +829,12 @@ msgstr "Tempo limite para aguardar o retorno dos nomes dos tópicos pelo cliente
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_STREAMS_TOPICS_TIMEOUT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_STREAMS_TOPICS_TIMEOUT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duração] link:#duration-note-anchor-{summaryTableId}[[círculo de pergunta]]"
 
 #, fuzzy
 msgid "`10S`"

@@ -692,111 +692,169 @@ msgstr "Os comandos do modo de execução são executados uma única vez e são 
 msgid "Testing console mode commands (REPL)"
 msgstr "Testando comandos no modo console (REPL)"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Console mode commands run in an interactive shell.\n"
 "Use `AeshLauncher` to send commands and assert on their output:"
-msgstr ""
+msgstr "Os comandos do modo console são executados em um shell interativo. Utilize `o AeshLauncher` para enviar comandos e verificar sua saída:"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The REPL is auto-launched on the first `execute()` call and auto-closed after each\n"
 "test method. No explicit `launch()` or `exit()` calls are needed for typical tests."
-msgstr ""
+msgstr "O REPL é iniciado automaticamente na primeira chamada a ``execute()`` e encerrado automaticamente após cada método de teste. Não são necessárias chamadas explícitas `a `launch()`` ou ``exit()`` para testes comuns."
 
+#. mt: deepl
+#, fuzzy
 msgid "Clean command output"
-msgstr ""
+msgstr "Saída do comando “clean”"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`getCommandOutput()` returns only what the command wrote via `invocation.println()` --\n"
 "no prompt, no command echo, no ANSI sequences. This enables exact assertions with `isEqualTo()`\n"
 "instead of fuzzy `contains()` matching."
-msgstr ""
+msgstr "`A função getCommandOutput()` retorna apenas o que o comando escreveu por meio `da invocação de println()` — sem prompt, sem eco do comando, sem sequências ANSI. Isso permite realizar verificações exatas com `isEqualTo()` , em vez da correspondência aproximada `com contains()` ."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`getOutput()` accumulates command output across multiple `execute()` calls within a test.\n"
 "Use `resetOutput()` to clear the accumulator between test phases:"
-msgstr ""
+msgstr "`A função getOutput()` acumula a saída dos comandos ao longo de várias chamadas `à função execute()` dentro de um teste. Utilize `a função resetOutput()` para zerar o acumulador entre as fases do teste:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Exit code assertions"
-msgstr ""
+msgstr "Verificações de código de saída"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`execute()` asserts that the command returns `CommandResult.SUCCESS` (exit code 0) by default.\n"
 "If a command is expected to fail, pass the expected `CommandResult`:"
-msgstr ""
+msgstr "`A` função ``execute()`` verifica se o comando retorna ``CommandResult.SUCCESS` ` (código de saída 0) por padrão. Caso se espere que um comando falhe, forneça o ``CommandResult`` esperado:"
 
+#. mt: deepl
+#, fuzzy
 msgid "For more control (custom timeout, pre-canned input), use `ExecuteOptions`:"
-msgstr ""
+msgstr "Para obter maior controle (tempo limite personalizado, entradas pré-definidas), utilize `ExecuteOptions` :"
 
+#. mt: deepl
+#, fuzzy
 msgid "Error capture"
-msgstr ""
+msgstr "Captura de erros"
 
+#. mt: deepl
+#, fuzzy
 msgid "When a command throws an exception, it is captured and available via `getLastError()`:"
-msgstr ""
+msgstr "Quando um comando lança uma exceção, ela é capturada e fica disponível por meio da função `getLastError()` :"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Errors are cleared between commands -- a successful command after a failing one\n"
 "resets `getLastError()` to `null`."
-msgstr ""
+msgstr "Os erros são apagados entre os comandos — um comando bem-sucedido após um comando com falha redefine `getLastError()` como `nulo` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "Quoting arguments"
-msgstr ""
+msgstr "Citação de argumentos"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Arguments containing spaces or special characters should be quoted the same way\n"
 "as in a terminal:"
-msgstr ""
+msgstr "Os argumentos que contêm espaços ou caracteres especiais devem ser colocados entre aspas da mesma forma que em um terminal:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Interactive input"
-msgstr ""
+msgstr "Entrada interativa"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "For commands that prompt for input during execution (e.g., confirmation prompts),\n"
 "use `ExecuteOptions.input()` to provide pre-canned responses:"
-msgstr ""
+msgstr "Para comandos que solicitam entrada durante a execução (por exemplo, solicitações de confirmação), utilize `ExecuteOptions.input()` para fornecer respostas pré-definidas:"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "For more complex interactive scenarios, `sendInput()` provides low-level\n"
 "access to the REPL's stdin:"
-msgstr ""
+msgstr "Para cenários interativos mais complexos, `o `sendInput()`` oferece acesso de baixo nível à entrada padrão (stdin) do REPL:"
 
+#. mt: deepl
+#, fuzzy
 msgid "AeshLauncher API summary"
-msgstr ""
+msgstr "Resumo da API do AeshLauncher"
 
+#. mt: deepl
+#, fuzzy
 msgid "`execute(String command)` -- executes and asserts `SUCCESS`"
-msgstr ""
+msgstr "`execute(String comando)`  — executa e verifica se houve `SUCESSO`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`execute(String command, CommandResult expected)` -- executes and asserts the given result"
-msgstr ""
+msgstr "`execute(String command, CommandResult expected)` — executa e verifica se o resultado fornecido está correto"
 
+#. mt: deepl
+#, fuzzy
 msgid "`execute(String command, ExecuteOptions options)` -- full control (timeout, expected result, input)"
-msgstr ""
+msgstr "`execute(String comando, ExecuteOptions opções)` — controle total (tempo limite, resultado esperado, entrada)"
 
+#. mt: deepl
+#, fuzzy
 msgid "`sendInput(String input)` -- send raw input for interactive commands"
-msgstr ""
+msgstr "`sendInput(String input)`  — envia a entrada bruta para comandos interativos"
 
+#. mt: deepl
+#, fuzzy
 msgid "`getCommandOutput()` -- clean output from the last command"
-msgstr ""
+msgstr "`getCommandOutput()` — limpa a saída do último comando"
 
+#. mt: deepl
+#, fuzzy
 msgid "`getOutput()` / `resetOutput()` -- accumulated command output"
-msgstr ""
+msgstr "`getOutput()` / `resetOutput()` — saída acumulada do comando"
 
+#. mt: deepl
+#, fuzzy
 msgid "`getLastExitCode()` -- exit code from the last command"
-msgstr ""
+msgstr "`getLastExitCode()` — código de saída do último comando"
 
+#. mt: deepl
+#, fuzzy
 msgid "`getLastError()` / `getErrorOutput()` -- exception from the last failed command"
-msgstr ""
+msgstr "`getLastError()` / `getErrorOutput()` — exceção do último comando com falha"
 
+#. mt: deepl
+#, fuzzy
 msgid "`isRunning()` / `waitForExit(Duration)` -- REPL lifecycle state"
-msgstr ""
+msgstr "`isRunning()` / `waitForExit(Duration)` — estado do ciclo de vida do REPL"
 
+#. mt: deepl
+#, fuzzy
 msgid "`getLaunchResult()` -- launch result after REPL exits"
-msgstr ""
+msgstr "`getLaunchResult()` — resultado da execução após o encerramento do REPL"
 
+#. mt: deepl
+#, fuzzy
 msgid "`launch(String... args)` -- explicit launch with initial arguments (optional)"
-msgstr ""
+msgstr "`launch(String…​ args)`  — inicialização explícita com argumentos iniciais (opcional)"
 
+#. mt: deepl
+#, fuzzy
 msgid "`exit()` -- explicit shutdown (optional, auto-closed after each test)"
-msgstr ""
+msgstr "`exit()` — encerramento explícito (opcional; o programa é encerrado automaticamente após cada teste)"
 
 #, fuzzy
 msgid "Packaging your application"
@@ -842,6 +900,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh_quarkus-aesh-mode]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-mode[`+++quarkus.aesh.mode+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.mode+++[]\n"
@@ -858,7 +918,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh_quarkus-aesh-mode[quarkus.aesh.mode] config_property_copy_button:quarkus.aesh.mode[]"
 
 #, fuzzy
 msgid ""
@@ -898,6 +958,8 @@ msgstr "`auto` , `tempo de execução` , `console`"
 msgid "`+++auto+++`"
 msgstr "`auto`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh_quarkus-aesh-start-console]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-start-console[`+++quarkus.aesh.start-console+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.start-console+++[]\n"
@@ -916,7 +978,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_START_CONSOLE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh_quarkus-aesh-start-console[quarkus.aesh.start-console] config_property_copy_button:quarkus.aesh.start-console[]"
 
 #, fuzzy
 msgid ""
@@ -947,6 +1009,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_START_CONSO
 msgid "boolean"
 msgstr "booleano"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-top-command]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-top-command[`+++quarkus.aesh.top-command+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.top-command+++[]\n"
@@ -959,7 +1023,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_TOP_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-top-command[quarkus.aesh.top-command] config_property_copy_button:quarkus.aesh.top-command[]"
 
 #, fuzzy
 msgid ""
@@ -978,6 +1042,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_TOP_COMMAND
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-prompt]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-prompt[`+++quarkus.aesh.prompt+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.prompt+++[]\n"
@@ -990,7 +1056,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_PROMPT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-prompt[quarkus.aesh.prompt] config_property_copy_button:quarkus.aesh.prompt[]"
 
 #, fuzzy
 msgid ""
@@ -1010,6 +1076,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_PROMPT[]"
 msgid "`+++[quarkus]$ +++`"
 msgstr "`[quarkus]$`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-add-exit-command]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-add-exit-command[`+++quarkus.aesh.add-exit-command+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.add-exit-command+++[]\n"
@@ -1022,7 +1090,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_ADD_EXIT_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-add-exit-command[quarkus.aesh.add-exit-command] config_property_copy_button:quarkus.aesh.add-exit-command[]"
 
 #, fuzzy
 msgid ""
@@ -1042,6 +1110,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_ADD_EXIT_CO
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-enable-alias]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-enable-alias[`+++quarkus.aesh.enable-alias+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.enable-alias+++[]\n"
@@ -1054,7 +1124,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_ENABLE_ALIAS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-enable-alias[quarkus.aesh.enable-alias] config_property_copy_button:quarkus.aesh.enable-alias[]"
 
 #, fuzzy
 msgid ""
@@ -1074,6 +1144,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_ENABLE_ALIA
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-enable-export]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-enable-export[`+++quarkus.aesh.enable-export+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.enable-export+++[]\n"
@@ -1086,7 +1158,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_ENABLE_EXPORT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-enable-export[quarkus.aesh.enable-export] config_property_copy_button:quarkus.aesh.enable-export[]"
 
 #, fuzzy
 msgid ""
@@ -1102,6 +1174,8 @@ msgstr "Habilite o comando “export”. Quando habilitado, o comando “export�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_ENABLE_EXPORT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_ENABLE_EXPORT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-enable-man]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-enable-man[`+++quarkus.aesh.enable-man+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.enable-man+++[]\n"
@@ -1114,7 +1188,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_ENABLE_MAN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-enable-man[quarkus.aesh.enable-man] config_property_copy_button:quarkus.aesh.enable-man[]"
 
 #, fuzzy
 msgid ""
@@ -1130,6 +1204,8 @@ msgstr "Ativar o suporte às páginas de manual. Quando ativado, o comando 'man'
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_ENABLE_MAN+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_ENABLE_MAN[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-persist-history]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-persist-history[`+++quarkus.aesh.persist-history+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.persist-history+++[]\n"
@@ -1142,7 +1218,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_PERSIST_HISTORY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-persist-history[quarkus.aesh.persist-history] config_property_copy_button:quarkus.aesh.persist-history[]"
 
 #, fuzzy
 msgid ""
@@ -1158,6 +1234,8 @@ msgstr "Ativar a persistência do histórico de comandos. Quando ativada, o hist
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_PERSIST_HISTORY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_PERSIST_HISTORY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-history-file]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-history-file[`+++quarkus.aesh.history-file+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.history-file+++[]\n"
@@ -1170,7 +1248,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_HISTORY_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-history-file[quarkus.aesh.history-file] config_property_copy_button:quarkus.aesh.history-file[]"
 
 #, fuzzy
 msgid ""
@@ -1186,6 +1264,8 @@ msgstr "Caminho para o arquivo de histórico. Utilizado apenas quando a opção 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_HISTORY_FILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_HISTORY_FILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-history-size]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-history-size[`+++quarkus.aesh.history-size+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.history-size+++[]\n"
@@ -1198,7 +1278,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_HISTORY_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-history-size[quarkus.aesh.history-size] config_property_copy_button:quarkus.aesh.history-size[]"
 
 #, fuzzy
 msgid ""
@@ -1221,6 +1301,8 @@ msgstr "int"
 msgid "`+++500+++`"
 msgstr "`500`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-logging]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-logging[`+++quarkus.aesh.logging+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.logging+++[]\n"
@@ -1233,7 +1315,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_LOGGING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-logging[quarkus.aesh.logging] config_property_copy_button:quarkus.aesh.logging[]"
 
 #, fuzzy
 msgid ""
@@ -1249,6 +1331,8 @@ msgstr "Ativar o registro em log das operações internas do aesh."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_LOGGING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_LOGGING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-sub-command-mode-enabled]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-sub-command-mode-enabled[`+++quarkus.aesh.sub-command-mode.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.sub-command-mode.enabled+++[]\n"
@@ -1271,7 +1355,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-sub-command-mode-enabled[quarkus.aesh.sub-command-mode.enabled] config_property_copy_button:quarkus.aesh.sub-command-mode.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -1290,6 +1374,8 @@ msgstr "Exemplo:"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SUB_COMMAND_MODE_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-sub-command-mode-exit-command]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-sub-command-mode-exit-command[`+++quarkus.aesh.sub-command-mode.exit-command+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.sub-command-mode.exit-command+++[]\n"
@@ -1302,7 +1388,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_EXIT_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-sub-command-mode-exit-command[quarkus.aesh.sub-command-mode.exit-command] config_property_copy_button:quarkus.aesh.sub-command-mode.exit-command[]"
 
 #, fuzzy
 msgid ""
@@ -1322,6 +1408,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SUB_COMMAND
 msgid "`+++exit+++`"
 msgstr "`sair`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-sub-command-mode-alternative-exit-command]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-sub-command-mode-alternative-exit-command[`+++quarkus.aesh.sub-command-mode.alternative-exit-command+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.sub-command-mode.alternative-exit-command+++[]\n"
@@ -1334,7 +1422,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_ALTERNATIVE_EXIT_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-sub-command-mode-alternative-exit-command[quarkus.aesh.sub-command-mode.alternative-exit-command] config_property_copy_button:quarkus.aesh.sub-command-mode.alternative-exit-command[]"
 
 #, fuzzy
 msgid ""
@@ -1354,6 +1442,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SUB_COMMAND
 msgid "`+++..+++`"
 msgstr "`..`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-sub-command-mode-context-separator]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-sub-command-mode-context-separator[`+++quarkus.aesh.sub-command-mode.context-separator+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.sub-command-mode.context-separator+++[]\n"
@@ -1366,7 +1456,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_CONTEXT_SEPARATOR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-sub-command-mode-context-separator[quarkus.aesh.sub-command-mode.context-separator] config_property_copy_button:quarkus.aesh.sub-command-mode.context-separator[]"
 
 #, fuzzy
 msgid ""
@@ -1386,6 +1476,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SUB_COMMAND
 msgid "`+++:+++`"
 msgstr "`:`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-sub-command-mode-show-context-on-entry]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-sub-command-mode-show-context-on-entry[`+++quarkus.aesh.sub-command-mode.show-context-on-entry+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.sub-command-mode.show-context-on-entry+++[]\n"
@@ -1398,7 +1490,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_SHOW_CONTEXT_ON_ENTRY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-sub-command-mode-show-context-on-entry[quarkus.aesh.sub-command-mode.show-context-on-entry] config_property_copy_button:quarkus.aesh.sub-command-mode.show-context-on-entry[]"
 
 #, fuzzy
 msgid ""
@@ -1414,6 +1506,8 @@ msgstr "Mostrar os valores das opções/argumentos ao entrar no modo de subcoman
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_SHOW_CONTEXT_ON_ENTRY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SUB_COMMAND_MODE_SHOW_CONTEXT_ON_ENTRY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh_quarkus-aesh-sub-command-mode-show-argument-in-prompt]] [.property-path]##link:#quarkus-aesh_quarkus-aesh-sub-command-mode-show-argument-in-prompt[`+++quarkus.aesh.sub-command-mode.show-argument-in-prompt+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.sub-command-mode.show-argument-in-prompt+++[]\n"
@@ -1426,7 +1520,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SUB_COMMAND_MODE_SHOW_ARGUMENT_IN_PROMPT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh_quarkus-aesh-sub-command-mode-show-argument-in-prompt[quarkus.aesh.sub-command-mode.show-argument-in-prompt] config_property_copy_button:quarkus.aesh.sub-command-mode.show-argument-in-prompt[]"
 
 #, fuzzy
 msgid ""
@@ -1446,6 +1540,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SUB_COMMAND
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada em tempo de compilação - Todas as outras propriedades de configuração podem ser substituídas em tempo de execução <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-websocket_quarkus-aesh-websocket-enabled]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-enabled[`+++quarkus.aesh.websocket.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.enabled+++[]\n"
@@ -1458,7 +1554,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-websocket_quarkus-aesh-websocket-enabled[quarkus.aesh.websocket.enabled] config_property_copy_button:quarkus.aesh.websocket.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -1474,6 +1570,8 @@ msgstr "Se o ponto de extremidade do terminal WebSocket está habilitado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_WEBSOCKET_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-websocket_quarkus-aesh-websocket-roles-allowed]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-roles-allowed[`+++quarkus.aesh.websocket.roles-allowed+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.roles-allowed+++[]\n"
@@ -1486,7 +1584,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_ROLES_ALLOWED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-websocket_quarkus-aesh-websocket-roles-allowed[quarkus.aesh.websocket.roles-allowed] config_property_copy_button:quarkus.aesh.websocket.roles-allowed[]"
 
 #, fuzzy
 msgid ""
@@ -1506,6 +1604,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_WEBSOCKET_R
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-websocket_quarkus-aesh-websocket-authenticated]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-authenticated[`+++quarkus.aesh.websocket.authenticated+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.authenticated+++[]\n"
@@ -1518,7 +1618,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_AUTHENTICATED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-websocket_quarkus-aesh-websocket-authenticated[quarkus.aesh.websocket.authenticated] config_property_copy_button:quarkus.aesh.websocket.authenticated[]"
 
 #, fuzzy
 msgid ""
@@ -1534,6 +1634,8 @@ msgstr "Se o terminal WebSocket exige um usuário autenticado (qualquer função
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_AUTHENTICATED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_WEBSOCKET_AUTHENTICATED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-websocket_quarkus-aesh-websocket-path]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-path[`+++quarkus.aesh.websocket.path+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.path+++[]\n"
@@ -1546,7 +1648,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-websocket_quarkus-aesh-websocket-path[quarkus.aesh.websocket.path] config_property_copy_button:quarkus.aesh.websocket.path[]"
 
 #, fuzzy
 msgid ""
@@ -1566,6 +1668,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_WEBSOCKET_P
 msgid "`+++/aesh/terminal+++`"
 msgstr "`/aesh/terminal`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-websocket_quarkus-aesh-websocket-health-enabled]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-health-enabled[`+++quarkus.aesh.websocket.health.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.health.enabled+++[]\n"
@@ -1578,7 +1682,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_HEALTH_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-websocket_quarkus-aesh-websocket-health-enabled[quarkus.aesh.websocket.health.enabled] config_property_copy_button:quarkus.aesh.websocket.health.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -1594,6 +1698,8 @@ msgstr "Se a verificação de integridade será publicada quando a extensão “
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_HEALTH_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_WEBSOCKET_HEALTH_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-websocket_quarkus-aesh-websocket-max-connections]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-max-connections[`+++quarkus.aesh.websocket.max-connections+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.max-connections+++[]\n"
@@ -1606,7 +1712,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_MAX_CONNECTIONS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-websocket_quarkus-aesh-websocket-max-connections[quarkus.aesh.websocket.max-connections] botão_para_copiar_propriedade_de_configuração:quarkus.aesh.websocket.max-connections[]"
 
 #, fuzzy
 msgid ""
@@ -1626,6 +1732,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_WEBSOCKET_M
 msgid "`+++0+++`"
 msgstr "`0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-websocket_quarkus-aesh-websocket-idle-timeout]] [.property-path]##link:#quarkus-aesh-websocket_quarkus-aesh-websocket-idle-timeout[`+++quarkus.aesh.websocket.idle-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.websocket.idle-timeout+++[]\n"
@@ -1638,7 +1746,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_WEBSOCKET_IDLE_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-websocket_quarkus-aesh-websocket-idle-timeout[quarkus.aesh.websocket.idle-timeout] config_property_copy_button:quarkus.aesh.websocket.idle-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -1690,6 +1798,8 @@ msgstr "Se o valor for um número seguido de 'd', ele é prefixado com 'P'."
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-3\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-3\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-ssh_quarkus-aesh-ssh-enabled]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-enabled[`+++quarkus.aesh.ssh.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.enabled+++[]\n"
@@ -1702,12 +1812,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-ssh_quarkus-aesh-ssh-enabled[quarkus.aesh.ssh.enabled] config_property_copy_button:quarkus.aesh.ssh.enabled[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-ssh_quarkus-aesh-ssh-enabled]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-enabled[`+++quarkus.aesh.ssh.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.enabled+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-ssh_quarkus-aesh-ssh-enabled[quarkus.aesh.ssh.enabled] config_property_copy_button:quarkus.aesh.ssh.enabled[]"
 
 #, fuzzy
 msgid "Whether the SSH terminal server is enabled."
@@ -1717,6 +1829,8 @@ msgstr "Se o servidor de terminal SSH está ativado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-aesh-ssh_quarkus-aesh-ssh-health-enabled]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-health-enabled[`+++quarkus.aesh.ssh.health.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.health.enabled+++[]\n"
@@ -1729,7 +1843,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_HEALTH_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-aesh-ssh_quarkus-aesh-ssh-health-enabled[quarkus.aesh.ssh.health.enabled] config_property_copy_button:quarkus.aesh.ssh.health.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -1741,6 +1855,8 @@ msgstr "[lock]  link:#quarkus-aesh-ssh_quarkus-aesh-ssh-health-enabled[quarkus.a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_HEALTH_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_HEALTH_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-port]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-port[`+++quarkus.aesh.ssh.port+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.port+++[]\n"
@@ -1753,7 +1869,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-port[quarkus.aesh.ssh.port] config_property_copy_button:quarkus.aesh.ssh.port[]"
 
 #, fuzzy
 msgid ""
@@ -1773,6 +1889,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_PORT[]"
 msgid "`+++2222+++`"
 msgstr "`2222`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-host]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-host[`+++quarkus.aesh.ssh.host+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.host+++[]\n"
@@ -1785,7 +1903,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_HOST+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-host[quarkus.aesh.ssh.host] config_property_copy_button:quarkus.aesh.ssh.host[]"
 
 #, fuzzy
 msgid ""
@@ -1805,6 +1923,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_HOST[]"
 msgid "`+++localhost+++`"
 msgstr "`localhost`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-host-key-file]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-host-key-file[`+++quarkus.aesh.ssh.host-key-file+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.host-key-file+++[]\n"
@@ -1817,7 +1937,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_HOST_KEY_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-host-key-file[quarkus.aesh.ssh.host-key-file] config_property_copy_button:quarkus.aesh.ssh.host-key-file[]"
 
 #, fuzzy
 msgid ""
@@ -1837,6 +1957,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_HOST_KE
 msgid "`+++hostkey.ser+++`"
 msgstr "`hostkey.ser`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-password]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-password[`+++quarkus.aesh.ssh.password+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.password+++[]\n"
@@ -1855,7 +1977,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-password[quarkus.aesh.ssh.password] config_property_copy_button:quarkus.aesh.ssh.password[]"
 
 #, fuzzy
 msgid ""
@@ -1875,6 +1997,8 @@ msgstr "Para o ambiente de produção, utilize a autenticação por chave públi
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-authorized-keys-file]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-authorized-keys-file[`+++quarkus.aesh.ssh.authorized-keys-file+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.authorized-keys-file+++[]\n"
@@ -1887,7 +2011,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_AUTHORIZED_KEYS_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-authorized-keys-file[quarkus.aesh.ssh.authorized-keys-file] config_property_copy_button:quarkus.aesh.ssh.authorized-keys-file[]"
 
 #, fuzzy
 msgid ""
@@ -1903,6 +2027,8 @@ msgstr "Caminho para um arquivo `authorized_keys` no formato OpenSSH para autent
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_AUTHORIZED_KEYS_FILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_AUTHORIZED_KEYS_FILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-max-connections]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-max-connections[`+++quarkus.aesh.ssh.max-connections+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.max-connections+++[]\n"
@@ -1915,7 +2041,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_MAX_CONNECTIONS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-max-connections[quarkus.aesh.ssh.max-connections] botão_para_copiar_propriedade_de_configuração:quarkus.aesh.ssh.max-connections[]"
 
 #, fuzzy
 msgid ""
@@ -1931,6 +2057,8 @@ msgstr "Número máximo de sessões SSH simultâneas. O valor zero significa que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_MAX_CONNECTIONS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AESH_SSH_MAX_CONNECTIONS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-aesh-ssh_quarkus-aesh-ssh-idle-timeout]] [.property-path]##link:#quarkus-aesh-ssh_quarkus-aesh-ssh-idle-timeout[`+++quarkus.aesh.ssh.idle-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.aesh.ssh.idle-timeout+++[]\n"
@@ -1943,7 +2071,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_AESH_SSH_IDLE_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-aesh-ssh_quarkus-aesh-ssh-idle-timeout[quarkus.aesh.ssh.idle-timeout] config_property_copy_button:quarkus.aesh.ssh.idle-timeout[]"
 
 #, fuzzy
 msgid ""

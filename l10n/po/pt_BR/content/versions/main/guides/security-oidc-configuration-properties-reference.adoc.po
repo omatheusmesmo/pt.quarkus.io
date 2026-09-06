@@ -28,6 +28,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-enabled[`+++quarkus.oidc.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.enabled+++[]\n"
@@ -40,7 +42,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-enabled[quarkus.oidc.enabled] config_property_copy_button:quarkus.oidc.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -67,6 +69,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-default-token-cache-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-default-token-cache-enabled[`+++quarkus.oidc.default-token-cache-enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.default-token-cache-enabled+++[]\n"
@@ -79,7 +83,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DEFAULT_TOKEN_CACHE_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-default-token-cache-enabled[quarkus.oidc.default-token-cache-enabled] config_property_copy_button:quarkus.oidc.default-token-cache-enabled[]"
 
 #, fuzzy
 msgid ""
@@ -95,6 +99,8 @@ msgstr "Habilite o registro do bean de implementação padrão do TokenIntrospec
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DEFAULT_TOKEN_CACHE_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_DEFAULT_TOKEN_CACHE_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-health-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-health-enabled[`+++quarkus.oidc.health.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.health.enabled+++[]\n"
@@ -107,7 +113,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_HEALTH_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-health-enabled[quarkus.oidc.health.enabled] config_property_copy_button:quarkus.oidc.health.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -127,6 +133,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_HEALTH_ENAB
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-allowed-routes]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-allowed-routes[`+++quarkus.oidc.allowed-routes+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.allowed-routes+++[]\n"
@@ -139,25 +147,37 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ALLOWED_ROUTES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-allowed-routes[quarkus.oidc.allowed-routes] config_property_copy_button:quarkus.oidc.allowed-routes[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-allowed-routes]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-allowed-routes[`+++quarkus.oidc.allowed-routes+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.allowed-routes+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-allowed-routes[quarkus.oidc.allowed-routes] config_property_copy_button:quarkus.oidc.allowed-routes[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Supported HTTP routes for OIDC tenant features. To avoid unnecessary overhead, remove routes that are not required by any of the OIDC tenants."
-msgstr ""
+msgstr "Rotas HTTP compatíveis com os recursos dos locatários OIDC. Para evitar sobrecarga desnecessária, remova as rotas que não sejam necessárias para nenhum dos locatários OIDC."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ALLOWED_ROUTES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_ALLOWED_ROUTES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "list of `backchannel-logout`, `resource-metadata`"
-msgstr ""
+msgstr "lista de `backchannel-logout` , `resource-metadata`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++backchannel-logout+++`, `+++resource-metadata+++`"
-msgstr ""
+msgstr "`logout pelo canal secundário` , `metadados do recurso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-resolve-tenants-with-issuer]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-resolve-tenants-with-issuer[`+++quarkus.oidc.resolve-tenants-with-issuer+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.resolve-tenants-with-issuer+++[]\n"
@@ -170,7 +190,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOLVE_TENANTS_WITH_ISSUER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-resolve-tenants-with-issuer[quarkus.oidc.resolve-tenants-with-issuer] config_property_copy_button:quarkus.oidc.resolve-tenants-with-issuer[]"
 
 #, fuzzy
 msgid ""
@@ -186,6 +206,8 @@ msgstr "Se os locatários do OIDC devem ser resolvidos utilizando o valor da rei
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOLVE_TENANTS_WITH_ISSUER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_RESOLVE_TENANTS_WITH_ISSUER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-priority]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-priority[`+++quarkus.oidc.priority+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.priority+++[]\n"
@@ -198,7 +220,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_PRIORITY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-priority[quarkus.oidc.priority] config_property_copy_button:quarkus.oidc.priority[]"
 
 #, fuzzy
 msgid ""
@@ -221,6 +243,8 @@ msgstr "int"
 msgid "`+++1001+++`"
 msgstr "`1001`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-auth-server-url]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-auth-server-url[`+++quarkus.oidc.auth-server-url+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.auth-server-url+++[]\n"
@@ -240,7 +264,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTH_SERVER_URL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-auth-server-url[quarkus.oidc.auth-server-url] botão_para_copiar_propriedade_de_configuração:quarkus.oidc.auth-server-url[]"
 
 #, fuzzy
 msgid ""
@@ -273,6 +297,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTH_SERVER
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-discovery-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-discovery-enabled[`+++quarkus.oidc.discovery-enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.discovery-enabled+++[]\n"
@@ -288,7 +314,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DISCOVERY_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-discovery-enabled[quarkus.oidc.discovery-enabled] config_property_copy_button:quarkus.oidc.discovery-enabled[]"
 
 #, fuzzy
 msgid ""
@@ -310,6 +336,8 @@ msgstr "Habilite a descoberta dos endpoints OIDC. Caso não esteja habilitado, s
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DISCOVERY_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_DISCOVERY_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-discovery-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-discovery-path[`+++quarkus.oidc.discovery-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.discovery-path+++[]\n"
@@ -325,7 +353,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DISCOVERY_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-discovery-path[quarkus.oidc.discovery-path] config_property_copy_button:quarkus.oidc.discovery-path[]"
 
 #, fuzzy
 msgid ""
@@ -351,6 +379,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_DISCOVERY_P
 msgid "`+++.well-known/openid-configuration+++`"
 msgstr "`.well-known/openid-configuration`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-registration-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-registration-path[`+++quarkus.oidc.registration-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.registration-path+++[]\n"
@@ -366,7 +396,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_REGISTRATION_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-registration-path[quarkus.oidc.registration-path] config_property_copy_button:quarkus.oidc.registration-path[]"
 
 #, fuzzy
 msgid ""
@@ -388,6 +418,8 @@ msgstr "O caminho relativo ou a URL absoluta do endpoint de registro dinâmico d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_REGISTRATION_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_REGISTRATION_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-connection-delay]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-connection-delay[`+++quarkus.oidc.connection-delay+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.connection-delay+++[]\n"
@@ -403,7 +435,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CONNECTION_DELAY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-connection-delay[quarkus.oidc.connection-delay] config_property_copy_button:quarkus.oidc.connection-delay[]"
 
 #, fuzzy
 msgid ""
@@ -429,6 +461,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CONNECTION_
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-oidc_quarkus-oidc[icon:question-circle[title=More information about the Duration format]]"
 msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-oidc_quarkus-oidc[[círculo de pergunta]]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-connection-retry-count]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-connection-retry-count[`+++quarkus.oidc.connection-retry-count+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.connection-retry-count+++[]\n"
@@ -444,7 +478,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CONNECTION_RETRY_COUNT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-connection-retry-count[quarkus.oidc.connection-retry-count] config_property_copy_button:quarkus.oidc.connection-retry-count[]"
 
 #, fuzzy
 msgid ""
@@ -470,6 +504,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CONNECTION_
 msgid "`+++3+++`"
 msgstr "`3`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-connection-timeout]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-connection-timeout[`+++quarkus.oidc.connection-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.connection-timeout+++[]\n"
@@ -485,7 +521,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CONNECTION_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-connection-timeout[quarkus.oidc.connection-timeout] config_property_copy_button:quarkus.oidc.connection-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -511,6 +547,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CONNECTION_
 msgid "`+++10S+++`"
 msgstr "`10S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-use-blocking-dns-lookup]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-use-blocking-dns-lookup[`+++quarkus.oidc.use-blocking-dns-lookup+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.use-blocking-dns-lookup+++[]\n"
@@ -526,7 +564,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_USE_BLOCKING_DNS_LOOKUP+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-use-blocking-dns-lookup[quarkus.oidc.use-blocking-dns-lookup] config_property_copy_button:quarkus.oidc.use-blocking-dns-lookup[]"
 
 #, fuzzy
 msgid ""
@@ -548,6 +586,8 @@ msgstr "Se a consulta de DNS deve ser realizada na thread de trabalho. Utilize e
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_USE_BLOCKING_DNS_LOOKUP+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_USE_BLOCKING_DNS_LOOKUP[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-max-pool-size]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-max-pool-size[`+++quarkus.oidc.max-pool-size+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.max-pool-size+++[]\n"
@@ -563,7 +603,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_MAX_POOL_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-max-pool-size[quarkus.oidc.max-pool-size] config_property_copy_button:quarkus.oidc.max-pool-size[]"
 
 #, fuzzy
 msgid ""
@@ -585,6 +625,8 @@ msgstr "O tamanho máximo do conjunto de conexões utilizado pelo WebClient."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_MAX_POOL_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_MAX_POOL_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-follow-redirects]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-follow-redirects[`+++quarkus.oidc.follow-redirects+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.follow-redirects+++[]\n"
@@ -600,7 +642,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_FOLLOW_REDIRECTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-follow-redirects[quarkus.oidc.follow-redirects] config_property_copy_button:quarkus.oidc.follow-redirects[]"
 
 #, fuzzy
 msgid ""
@@ -622,6 +664,8 @@ msgstr "Siga os redirecionamentos automaticamente quando o WebClient receber um 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_FOLLOW_REDIRECTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_FOLLOW_REDIRECTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-path[`+++quarkus.oidc.token-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-path+++[]\n"
@@ -637,7 +681,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-path[quarkus.oidc.token-path] config_property_copy_button:quarkus.oidc.token-path[]"
 
 #, fuzzy
 msgid ""
@@ -659,6 +703,8 @@ msgstr "O endpoint do token OIDC que emite tokens de acesso e de atualização; 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-revoke-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-revoke-path[`+++quarkus.oidc.revoke-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.revoke-path+++[]\n"
@@ -674,7 +720,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_REVOKE_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-revoke-path[quarkus.oidc.revoke-path] config_property_copy_button:quarkus.oidc.revoke-path[]"
 
 #, fuzzy
 msgid ""
@@ -696,6 +742,8 @@ msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de revogaç
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_REVOKE_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_REVOKE_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-client-id]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-client-id[`+++quarkus.oidc.client-id+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.client-id+++[]\n"
@@ -711,7 +759,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CLIENT_ID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-client-id[quarkus.oidc.client-id] config_property_copy_button:quarkus.oidc.client-id[]"
 
 #, fuzzy
 msgid ""
@@ -733,6 +781,8 @@ msgstr "O ID do cliente do aplicativo. Cada aplicativo possui um ID de cliente q
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CLIENT_ID+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CLIENT_ID[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-client-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-client-name[`+++quarkus.oidc.client-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.client-name+++[]\n"
@@ -748,7 +798,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CLIENT_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-client-name[quarkus.oidc.client-name] config_property_copy_button:quarkus.oidc.client-name[]"
 
 #, fuzzy
 msgid ""
@@ -770,6 +820,8 @@ msgstr "O nome do cliente do aplicativo. Destina-se a representar uma descriçã
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CLIENT_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CLIENT_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-id]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-tenant-id[`+++quarkus.oidc.tenant-id+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.tenant-id+++[]\n"
@@ -785,7 +837,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TENANT_ID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-tenant-id[quarkus.oidc.tenant-id] config_property_copy_button:quarkus.oidc.tenant-id[]"
 
 #, fuzzy
 msgid ""
@@ -807,6 +859,8 @@ msgstr "Um identificador exclusivo do locatário. Ele pode ser definido por prov
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TENANT_ID+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TENANT_ID[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-tenant-enabled[`+++quarkus.oidc.tenant-enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.tenant-enabled+++[]\n"
@@ -822,7 +876,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TENANT_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-tenant-enabled[quarkus.oidc.tenant-enabled] config_property_copy_button:quarkus.oidc.tenant-enabled[]"
 
 #, fuzzy
 msgid ""
@@ -844,6 +898,8 @@ msgstr "Se essa configuração de locatário estiver habilitada. O locatário pa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TENANT_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TENANT_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-application-type]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-application-type[`+++quarkus.oidc.application-type+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.application-type+++[]\n"
@@ -859,7 +915,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_APPLICATION_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-application-type[quarkus.oidc.application-type] config_property_copy_button:quarkus.oidc.application-type[]"
 
 #, fuzzy
 msgid ""
@@ -889,6 +945,8 @@ msgstr "tooltip:web-app[Um `WEB_APP` é um cliente que serve páginas, geralment
 msgid "tooltip:service[A {@code SERVICE} is a client that has a set of protected HTTP resources, usually a backend application following the RESTful Architectural Design. For this type of client, the Bearer Authorization method is defined as the preferred method for authenticating and authorizing users.]"
 msgstr "tooltip:service[Um {@code SERVICE} é um cliente que possui um conjunto de recursos HTTP protegidos, geralmente um aplicativo de back-end que segue o projeto arquitetônico RESTful. Para esse tipo de cliente, o método de autorização Bearer é definido como o método preferencial para autenticar e autorizar usuários.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authorization-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authorization-path[`+++quarkus.oidc.authorization-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authorization-path+++[]\n"
@@ -904,7 +962,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHORIZATION_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authorization-path[quarkus.oidc.authorization-path] config_property_copy_button:quarkus.oidc.authorization-path[]"
 
 #, fuzzy
 msgid ""
@@ -926,6 +984,8 @@ msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de autoriza
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHORIZATION_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHORIZATION_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-user-info-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-user-info-path[`+++quarkus.oidc.user-info-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.user-info-path+++[]\n"
@@ -941,7 +1001,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_USER_INFO_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-user-info-path[quarkus.oidc.user-info-path] config_property_copy_button:quarkus.oidc.user-info-path[]"
 
 #, fuzzy
 msgid ""
@@ -963,6 +1023,8 @@ msgstr "O caminho relativo ou a URL absoluta do endpoint UserInfo do OIDC. É ne
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_USER_INFO_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_USER_INFO_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-introspection-path[`+++quarkus.oidc.introspection-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.introspection-path+++[]\n"
@@ -978,7 +1040,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-introspection-path[quarkus.oidc.introspection-path] config_property_copy_button:quarkus.oidc.introspection-path[]"
 
 #, fuzzy
 msgid ""
@@ -1000,6 +1062,8 @@ msgstr "Caminho relativo ou URL absoluto do ponto de extremidade de introspecç�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_INTROSPECTION_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-jwks-path[`+++quarkus.oidc.jwks-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.jwks-path+++[]\n"
@@ -1015,7 +1079,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-jwks-path[quarkus.oidc.jwks-path] config_property_copy_button:quarkus.oidc.jwks-path[]"
 
 #, fuzzy
 msgid ""
@@ -1037,6 +1101,8 @@ msgstr "Caminho relativo ou URL absoluto do ponto de extremidade OIDC JSON Web K
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_JWKS_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-end-session-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-end-session-path[`+++quarkus.oidc.end-session-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.end-session-path+++[]\n"
@@ -1052,7 +1118,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_END_SESSION_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-end-session-path[quarkus.oidc.end-session-path] config_property_copy_button:quarkus.oidc.end-session-path[]"
 
 #, fuzzy
 msgid ""
@@ -1074,6 +1140,8 @@ msgstr "Caminho relativo ou URL absoluto do end_session_endpoint do OIDC. Esta p
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_END_SESSION_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_END_SESSION_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tenant-paths]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-tenant-paths[`+++quarkus.oidc.tenant-paths+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.tenant-paths+++[]\n"
@@ -1091,7 +1159,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TENANT_PATHS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-tenant-paths[quarkus.oidc.tenant-paths] config_property_copy_button:quarkus.oidc.tenant-paths[]"
 
 #, fuzzy
 msgid ""
@@ -1120,6 +1188,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TENANT_PATH
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-public-key]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-public-key[`+++quarkus.oidc.public-key+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.public-key+++[]\n"
@@ -1135,7 +1205,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_PUBLIC_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-public-key[quarkus.oidc.public-key] config_property_copy_button:quarkus.oidc.public-key[]"
 
 #, fuzzy
 msgid ""
@@ -1157,6 +1227,8 @@ msgstr "A chave pública para a verificação do token JWT local. A conexão com
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_PUBLIC_KEY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_PUBLIC_KEY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-allow-token-introspection-cache]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-allow-token-introspection-cache[`+++quarkus.oidc.allow-token-introspection-cache+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.allow-token-introspection-cache+++[]\n"
@@ -1172,7 +1244,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ALLOW_TOKEN_INTROSPECTION_CACHE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-allow-token-introspection-cache[quarkus.oidc.allow-token-introspection-cache] config_property_copy_button:quarkus.oidc.allow-token-introspection-cache[]"
 
 #, fuzzy
 msgid ""
@@ -1194,6 +1266,8 @@ msgstr "Permita o armazenamento em cache dos dados de introspecção do token. O
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ALLOW_TOKEN_INTROSPECTION_CACHE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_ALLOW_TOKEN_INTROSPECTION_CACHE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-allow-user-info-cache]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-allow-user-info-cache[`+++quarkus.oidc.allow-user-info-cache+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.allow-user-info-cache+++[]\n"
@@ -1209,7 +1283,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ALLOW_USER_INFO_CACHE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-allow-user-info-cache[quarkus.oidc.allow-user-info-cache] config_property_copy_button:quarkus.oidc.allow-user-info-cache[]"
 
 #, fuzzy
 msgid ""
@@ -1231,6 +1305,8 @@ msgstr "Permita o armazenamento em cache dos dados de informações do usuário.
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ALLOW_USER_INFO_CACHE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_ALLOW_USER_INFO_CACHE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-cache-user-info-in-idtoken]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-cache-user-info-in-idtoken[`+++quarkus.oidc.cache-user-info-in-idtoken+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.cache-user-info-in-idtoken+++[]\n"
@@ -1248,7 +1324,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CACHE_USER_INFO_IN_IDTOKEN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-cache-user-info-in-idtoken[quarkus.oidc.cache-user-info-in-idtoken] config_property_copy_button:quarkus.oidc.cache-user-info-in-idtoken[]"
 
 #, fuzzy
 msgid ""
@@ -1274,6 +1350,8 @@ msgstr "A inclusão do UserInfo no IdToken gerado é ativada se o cookie de sess
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CACHE_USER_INFO_IN_IDTOKEN+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CACHE_USER_INFO_IN_IDTOKEN[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-provider]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-provider[`+++quarkus.oidc.provider+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.provider+++[]\n"
@@ -1289,7 +1367,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_PROVIDER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-provider[quarkus.oidc.provider] config_property_copy_button:quarkus.oidc.provider[]"
 
 #, fuzzy
 msgid ""
@@ -1319,6 +1397,8 @@ msgstr "`Apple` , `Discord` , `Facebook` , `GitHub` , `Google` , `LinkedIn` , `M
 msgid "[[quarkus-oidc_section_quarkus-oidc-devui]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-devui[OIDC Dev UI configuration which is effective in dev mode only]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-devui[Configuração da interface de usuário do OIDC Dev, válida apenas no modo de desenvolvimento]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-devui-grant-type]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-devui-grant-type[`+++quarkus.oidc.devui.grant.type+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.devui.grant.type+++[]\n"
@@ -1331,7 +1411,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DEVUI_GRANT_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-devui-grant-type[quarkus.oidc.devui.grant.type] config_property_copy_button:quarkus.oidc.devui.grant.type[]"
 
 #, fuzzy
 msgid ""
@@ -1351,6 +1431,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_DEVUI_GRANT
 msgid "tooltip:client['client_credentials' grant], tooltip:password['password' grant], tooltip:code['authorization_code' grant], tooltip:implicit['implicit' grant]"
 msgstr "tooltip:client['client_credentials' grant], tooltip:password['password' grant], tooltip:code['authorization_code' grant], tooltip:implicit['implicit' grant]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-devui-grant-options-option-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-devui-grant-options-option-name[`+++quarkus.oidc.devui.grant-options.\"option-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.devui.grant-options.\"option-name\"+++[]\n"
@@ -1363,7 +1445,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DEVUI_GRANT_OPTIONS__OPTION_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-devui-grant-options-option-name[quarkus.oidc.devui.grant-options.\"option-name\"] config_property_copy_button:quarkus.oidc.devui.grant-options.\"option-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -1383,6 +1465,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_DEVUI_GRANT
 msgid "Map<String,Map<String,String>>"
 msgstr "Map<String, Map<String, String>>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-oidc_quarkus-oidc-devui-web-client-timeout]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-devui-web-client-timeout[`+++quarkus.oidc.devui.web-client-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.devui.web-client-timeout+++[]\n"
@@ -1395,7 +1479,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_DEVUI_WEB_CLIENT_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-oidc_quarkus-oidc-devui-web-client-timeout[quarkus.oidc.devui.web-client-timeout] config_property_copy_button:quarkus.oidc.devui.web-client-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -1419,6 +1503,8 @@ msgstr "`4S`"
 msgid "[[quarkus-oidc_section_quarkus-oidc-proxy]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-proxy[HTTP proxy configuration]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-proxy[Configuração do proxy HTTP]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-proxy-proxy-configuration-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-proxy-proxy-configuration-name[`+++quarkus.oidc.proxy.proxy-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.proxy.proxy-configuration-name+++[]\n"
@@ -1438,7 +1524,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_PROXY_PROXY_CONFIGURATION_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-proxy-proxy-configuration-name[quarkus.oidc.proxy.proxy-configuration-name] config_property_copy_button:quarkus.oidc.proxy.proxy-configuration-name[]"
 
 #, fuzzy
 msgid ""
@@ -1472,6 +1558,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_PROXY_PROXY
 msgid "[[quarkus-oidc_section_quarkus-oidc-tls]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-tls[TLS configuration]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-tls[Configuração do TLS]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-tls-tls-configuration-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-tls-tls-configuration-name[`+++quarkus.oidc.tls.tls-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.tls.tls-configuration-name+++[]\n"
@@ -1491,7 +1579,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TLS_TLS_CONFIGURATION_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-tls-tls-configuration-name[quarkus.oidc.tls.tls-configuration-name] config_property_copy_button:quarkus.oidc.tls.tls-configuration-name[]"
 
 #, fuzzy
 msgid ""
@@ -1525,6 +1613,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TLS_TLS_CON
 msgid "[[quarkus-oidc_section_quarkus-oidc-credentials]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-credentials[Different authentication options for OIDC client to access OIDC token and other secured endpoints]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-credentials[Diferentes opções de autenticação para o cliente OIDC acessar o token OIDC e outros pontos de conexão protegidos]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-secret]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-secret[`+++quarkus.oidc.credentials.secret+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.secret+++[]\n"
@@ -1540,7 +1630,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_SECRET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-secret[quarkus.oidc.credentials.secret] config_property_copy_button:quarkus.oidc.credentials.secret[]"
 
 #, fuzzy
 msgid ""
@@ -1562,6 +1652,8 @@ msgstr "O segredo do cliente utilizado pelo método de autenticação ` `client_
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_SECRET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_SECRET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-value]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-value[`+++quarkus.oidc.credentials.client-secret.value+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.client-secret.value+++[]\n"
@@ -1577,7 +1669,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_VALUE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-value[quarkus.oidc.credentials.client-secret.value] config_property_copy_button:quarkus.oidc.credentials.client-secret.value[]"
 
 #, fuzzy
 msgid ""
@@ -1599,6 +1691,8 @@ msgstr "O valor do segredo do cliente. Esse valor é ignorado se a variável ``c
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_VALUE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_VALUE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-name[`+++quarkus.oidc.credentials.client-secret.provider.name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.client-secret.provider.name+++[]\n"
@@ -1614,7 +1708,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-name[quarkus.oidc.credentials.client-secret.provider.name] config_property_copy_button:quarkus.oidc.credentials.client-secret.provider.name[]"
 
 #, fuzzy
 msgid ""
@@ -1636,6 +1730,8 @@ msgstr "O nome do bean CredentialsProvider, que só deve ser definido caso haja 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-keyring-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-keyring-name[`+++quarkus.oidc.credentials.client-secret.provider.keyring-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.client-secret.provider.keyring-name+++[]\n"
@@ -1651,7 +1747,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_KEYRING_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-keyring-name[quarkus.oidc.credentials.client-secret.provider.keyring-name] config_property_copy_button:quarkus.oidc.credentials.client-secret.provider.keyring-name[]"
 
 #, fuzzy
 msgid ""
@@ -1673,6 +1769,8 @@ msgstr "O nome do chaveiro do CredentialsProvider. O nome do chaveiro só é nec
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_KEYRING_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_KEYRING_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-key]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-key[`+++quarkus.oidc.credentials.client-secret.provider.key+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.client-secret.provider.key+++[]\n"
@@ -1688,7 +1786,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-key[quarkus.oidc.credentials.client-secret.provider.key] config_property_copy_button:quarkus.oidc.credentials.client-secret.provider.key[]"
 
 #, fuzzy
 msgid ""
@@ -1710,6 +1808,8 @@ msgstr "A chave secreta do cliente do CredentialsProvider"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_KEY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_PROVIDER_KEY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-client-secret-method]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-method[`+++quarkus.oidc.credentials.client-secret.method+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.client-secret.method+++[]\n"
@@ -1725,7 +1825,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_CLIENT_SECRET_METHOD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-method[quarkus.oidc.credentials.client-secret.method] botão_para_copiar_propriedade_de_configuração:quarkus.oidc.credentials.client-secret.method[]"
 
 #, fuzzy
 msgid ""
@@ -1751,6 +1851,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS
 msgid "tooltip:basic[`client_secret_basic` (default)\\: The client id and secret are submitted with the HTTP Authorization Basic scheme.], tooltip:post[`client_secret_post`\\: The client id and secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:post-jwt[`client_secret_jwt`\\: The client id and generated JWT secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:query[client id and secret are submitted as HTTP query parameters. This option is only supported by the OIDC extension.]"
 msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados com o esquema HTTP Authorization Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-source]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-source[`+++quarkus.oidc.credentials.jwt.source+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.source+++[]\n"
@@ -1766,7 +1868,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-source[quarkus.oidc.credentials.jwt.source] config_property_copy_button:quarkus.oidc.credentials.jwt.source[]"
 
 #, fuzzy
 msgid ""
@@ -1796,6 +1898,8 @@ msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para 
 msgid "tooltip:client[JWT token is generated by the OIDC provider client to support `client_secret_jwt` and `private_key_jwt` authentication methods.]"
 msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para dar suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-token-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-path[`+++quarkus.oidc.credentials.jwt.token-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.token-path+++[]\n"
@@ -1811,7 +1915,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_TOKEN_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-path[quarkus.oidc.credentials.jwt.token-path] botão_para_copiar_propriedade_de_configuração:quarkus.oidc.credentials.jwt.token-path[]"
 
 #, fuzzy
 msgid ""
@@ -1837,6 +1941,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS
 msgid "path"
 msgstr "caminho"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret[`+++quarkus.oidc.credentials.jwt.secret+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.secret+++[]\n"
@@ -1852,7 +1958,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret[quarkus.oidc.credentials.jwt.secret] config_property_copy_button:quarkus.oidc.credentials.jwt.secret[]"
 
 #, fuzzy
 msgid ""
@@ -1874,6 +1980,8 @@ msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave sec
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_SECRET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-name[`+++quarkus.oidc.credentials.jwt.secret-provider.name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.secret-provider.name+++[]\n"
@@ -1889,7 +1997,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-name[quarkus.oidc.credentials.jwt.secret-provider.name] config_property_copy_button:quarkus.oidc.credentials.jwt.secret-provider.name[]"
 
 #, fuzzy
 msgid ""
@@ -1907,6 +2015,8 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.secret-provider.name` config_pr
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-keyring-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-keyring-name[`+++quarkus.oidc.credentials.jwt.secret-provider.keyring-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.secret-provider.keyring-name+++[]\n"
@@ -1922,7 +2032,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_KEYRING_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-keyring-name[quarkus.oidc.credentials.jwt.secret-provider.keyring-name] config_property_copy_button:quarkus.oidc.credentials.jwt.secret-provider.keyring-name[]"
 
 #, fuzzy
 msgid ""
@@ -1940,6 +2050,8 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.secret-provider.keyring-name` c
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_KEYRING_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_KEYRING_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-key]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-key[`+++quarkus.oidc.credentials.jwt.secret-provider.key+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.secret-provider.key+++[]\n"
@@ -1955,7 +2067,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-secret-provider-key[quarkus.oidc.credentials.jwt.secret-provider.key] config_property_copy_button:quarkus.oidc.credentials.jwt.secret-provider.key[]"
 
 #, fuzzy
 msgid ""
@@ -1973,6 +2085,8 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.secret-provider.key` config_pro
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_KEY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_SECRET_PROVIDER_KEY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key[`+++quarkus.oidc.credentials.jwt.key+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key+++[]\n"
@@ -1988,7 +2102,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key[quarkus.oidc.credentials.jwt.key] config_property_copy_button:quarkus.oidc.credentials.jwt.key[]"
 
 #, fuzzy
 msgid ""
@@ -2010,6 +2124,8 @@ msgstr "Representação em string de uma chave privada. Se fornecida, indica que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-file]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[`+++quarkus.oidc.credentials.jwt.key-file+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key-file+++[]\n"
@@ -2025,7 +2141,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[quarkus.oidc.credentials.jwt.key-file] botão_para_copiar_propriedade_de_configuração:quarkus.oidc.credentials.jwt.key-file[]"
 
 #, fuzzy
 msgid ""
@@ -2047,6 +2163,8 @@ msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_FILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEY_FILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-file]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-file[`+++quarkus.oidc.credentials.jwt.key-store-file+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key-store-file+++[]\n"
@@ -2062,7 +2180,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_STORE_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-file[quarkus.oidc.credentials.jwt.key-store-file] config_property_copy_button:quarkus.oidc.credentials.jwt.key-store-file[]"
 
 #, fuzzy
 msgid ""
@@ -2084,6 +2202,8 @@ msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave pri
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_STORE_FILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEY_STORE_FILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-password]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-password[`+++quarkus.oidc.credentials.jwt.key-store-password+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key-store-password+++[]\n"
@@ -2099,7 +2219,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_STORE_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-store-password[quarkus.oidc.credentials.jwt.key-store-password] config_property_copy_button:quarkus.oidc.credentials.jwt.key-store-password[]"
 
 #, fuzzy
 msgid ""
@@ -2121,6 +2241,8 @@ msgstr "Um parâmetro para especificar a senha do arquivo de armazenamento de ch
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_STORE_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEY_STORE_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-id]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-id[`+++quarkus.oidc.credentials.jwt.key-id+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key-id+++[]\n"
@@ -2136,7 +2258,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_ID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-id[quarkus.oidc.credentials.jwt.key-id] config_property_copy_button:quarkus.oidc.credentials.jwt.key-id[]"
 
 #, fuzzy
 msgid ""
@@ -2158,6 +2280,8 @@ msgstr "O ID ou apelido da chave privada."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_ID+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEY_ID[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-password]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-password[`+++quarkus.oidc.credentials.jwt.key-password+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key-password+++[]\n"
@@ -2173,7 +2297,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-password[quarkus.oidc.credentials.jwt.key-password] config_property_copy_button:quarkus.oidc.credentials.jwt.key-password[]"
 
 #, fuzzy
 msgid ""
@@ -2195,6 +2319,8 @@ msgstr "A senha da chave privada."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEY_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEY_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-audience]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-audience[`+++quarkus.oidc.credentials.jwt.audience+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.audience+++[]\n"
@@ -2210,7 +2336,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_AUDIENCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-audience[quarkus.oidc.credentials.jwt.audience] config_property_copy_button:quarkus.oidc.credentials.jwt.audience[]"
 
 #, fuzzy
 msgid ""
@@ -2224,13 +2350,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".credentials.jwt.audience+++[]"
 msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.audience` config_property_copy_button:quarkus.oidc.\"tenant\".credentials.jwt.audience[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The JWT audience (`aud`) claim value. By default, the audience is set to the address of the OpenId Connect Provider's token endpoint. When the JWT `source()` is `Source++#++SPIFFE_JWT`, the audience defaults to the `OidcCommonConfig++#++authServerUrl() auth-server-url` instead. If the OIDC provider's issuer URL differs from the `auth-server-url`, set this property explicitly."
-msgstr ""
+msgstr "O valor da reivindicação “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de token do provedor do OpenID Connect. Quando o parâmetro ``source()` ` do JWT é ``Source#SPIFFE_JWT`` , o valor de `audience` passa a ser, por padrão, o ``auth-server-url`` definido em ``OidcCommonConfig#authServerUrl()`` . Caso a URL do emissor do provedor OIDC seja diferente do ` `auth-server-url`` , defina esta propriedade explicitamente."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_AUDIENCE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_AUDIENCE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-keep-audience-trailing-slash]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-keep-audience-trailing-slash[`+++quarkus.oidc.credentials.jwt.keep-audience-trailing-slash+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.keep-audience-trailing-slash+++[]\n"
@@ -2246,7 +2376,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEEP_AUDIENCE_TRAILING_SLASH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-keep-audience-trailing-slash[quarkus.oidc.credentials.jwt.keep-audience-trailing-slash] config_property_copy_button:quarkus.oidc.credentials.jwt.keep-audience-trailing-slash[]"
 
 #, fuzzy
 msgid ""
@@ -2268,6 +2398,8 @@ msgstr "Se deve-se manter uma barra final `/` no valor de `audience()` ."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_KEEP_AUDIENCE_TRAILING_SLASH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_KEEP_AUDIENCE_TRAILING_SLASH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-token-key-id]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-key-id[`+++quarkus.oidc.credentials.jwt.token-key-id+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.token-key-id+++[]\n"
@@ -2283,7 +2415,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_TOKEN_KEY_ID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-key-id[quarkus.oidc.credentials.jwt.token-key-id] botão_para_copiar_propriedade_de_configuração:quarkus.oidc.credentials.jwt.token-key-id[]"
 
 #, fuzzy
 msgid ""
@@ -2305,6 +2437,8 @@ msgstr "O identificador da chave de assinatura adicionado como um cabeçalho `�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_TOKEN_KEY_ID+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_TOKEN_KEY_ID[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-issuer]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-issuer[`+++quarkus.oidc.credentials.jwt.issuer+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.issuer+++[]\n"
@@ -2320,7 +2454,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_ISSUER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-issuer[quarkus.oidc.credentials.jwt.issuer] config_property_copy_button:quarkus.oidc.credentials.jwt.issuer[]"
 
 #, fuzzy
 msgid ""
@@ -2342,6 +2476,8 @@ msgstr "O emissor da chave de assinatura adicionado como uma reivindicação `�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_ISSUER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_ISSUER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-subject]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-subject[`+++quarkus.oidc.credentials.jwt.subject+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.subject+++[]\n"
@@ -2357,7 +2493,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SUBJECT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-subject[quarkus.oidc.credentials.jwt.subject] config_property_copy_button:quarkus.oidc.credentials.jwt.subject[]"
 
 #, fuzzy
 msgid ""
@@ -2379,6 +2515,8 @@ msgstr "Assunto da chave de assinatura adicionado como uma `sub-declaração` do
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SUBJECT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_SUBJECT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-claims-claim-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-claims-claim-name[`+++quarkus.oidc.credentials.jwt.claims.\"claim-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.claims.\"claim-name\"+++[]\n"
@@ -2394,7 +2532,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_CLAIMS__CLAIM_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-claims-claim-name[quarkus.oidc.credentials.jwt.claims.\"nome-da-reivindicação\"] config_property_copy_button:quarkus.oidc.credentials.jwt.claims.\"nome-da-reivindicação\"[]"
 
 #, fuzzy
 msgid ""
@@ -2420,6 +2558,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS
 msgid "Map<String,String>"
 msgstr "Map<String, String>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-signature-algorithm]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-signature-algorithm[`+++quarkus.oidc.credentials.jwt.signature-algorithm+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.signature-algorithm+++[]\n"
@@ -2435,7 +2575,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SIGNATURE_ALGORITHM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-signature-algorithm[quarkus.oidc.credentials.jwt.signature-algorithm] config_property_copy_button:quarkus.oidc.credentials.jwt.signature-algorithm[]"
 
 #, fuzzy
 msgid ""
@@ -2457,6 +2597,8 @@ msgstr "O algoritmo de assinatura utilizado para a propriedade `do arquivo de ch
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_SIGNATURE_ALGORITHM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_SIGNATURE_ALGORITHM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-lifespan]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-lifespan[`+++quarkus.oidc.credentials.jwt.lifespan+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.lifespan+++[]\n"
@@ -2472,7 +2614,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_LIFESPAN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-lifespan[quarkus.oidc.credentials.jwt.lifespan] config_property_copy_button:quarkus.oidc.credentials.jwt.lifespan[]"
 
 #, fuzzy
 msgid ""
@@ -2498,6 +2640,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS
 msgid "`+++10+++`"
 msgstr "`10`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-assertion]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-assertion[`+++quarkus.oidc.credentials.jwt.assertion+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.assertion+++[]\n"
@@ -2513,7 +2657,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_ASSERTION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-assertion[quarkus.oidc.credentials.jwt.assertion] config_property_copy_button:quarkus.oidc.credentials.jwt.assertion[]"
 
 #, fuzzy
 msgid ""
@@ -2535,6 +2679,8 @@ msgstr "Se for verdadeiro, o token de autenticação do cliente é uma asserçã
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_JWT_ASSERTION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS_JWT_ASSERTION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-for-all-endpoints]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-for-all-endpoints[`+++quarkus.oidc.credentials.for-all-endpoints+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.for-all-endpoints+++[]\n"
@@ -2555,7 +2701,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CREDENTIALS_FOR_ALL_ENDPOINTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-for-all-endpoints[quarkus.oidc.credentials.for-all-endpoints] config_property_copy_button:quarkus.oidc.credentials.for-all-endpoints[]"
 
 #, fuzzy
 msgid ""
@@ -2593,6 +2739,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS
 msgid "[[quarkus-oidc_section_quarkus-oidc-introspection-credentials]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-introspection-credentials[Optional introspection endpoint-specific basic authentication configuration]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-introspection-credentials[Configuração opcional de autenticação básica específica para o endpoint de introspecção]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-credentials-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-introspection-credentials-name[`+++quarkus.oidc.introspection-credentials.name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.introspection-credentials.name+++[]\n"
@@ -2608,7 +2756,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-introspection-credentials-name[quarkus.oidc.introspection-credentials.name] config_property_copy_button:quarkus.oidc.introspection-credentials.name[]"
 
 #, fuzzy
 msgid ""
@@ -2630,6 +2778,8 @@ msgstr "Nome"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-credentials-secret]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-introspection-credentials-secret[`+++quarkus.oidc.introspection-credentials.secret+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.introspection-credentials.secret+++[]\n"
@@ -2645,7 +2795,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_SECRET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-introspection-credentials-secret[quarkus.oidc.introspection-credentials.secret] config_property_copy_button:quarkus.oidc.introspection-credentials.secret[]"
 
 #, fuzzy
 msgid ""
@@ -2667,6 +2817,8 @@ msgstr "Segredo"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_SECRET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_SECRET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-introspection-credentials-include-client-id]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-introspection-credentials-include-client-id[`+++quarkus.oidc.introspection-credentials.include-client-id+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.introspection-credentials.include-client-id+++[]\n"
@@ -2682,7 +2834,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_INTROSPECTION_CREDENTIALS_INCLUDE_CLIENT_ID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-introspection-credentials-include-client-id[quarkus.oidc.introspection-credentials.include-client-id] config_property_copy_button:quarkus.oidc.introspection-credentials.include-client-id[]"
 
 #, fuzzy
 msgid ""
@@ -2708,6 +2860,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_INTROSPECTI
 msgid "[[quarkus-oidc_section_quarkus-oidc-roles]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-roles[Configuration to find and parse custom claims which contain roles]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-roles[Configuração para localizar e analisar reivindicações personalizadas que contenham funções]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-roles-role-claim-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-roles-role-claim-path[`+++quarkus.oidc.roles.role-claim-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.roles.role-claim-path+++[]\n"
@@ -2723,7 +2877,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ROLES_ROLE_CLAIM_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-roles-role-claim-path[quarkus.oidc.roles.role-claim-path] config_property_copy_button:quarkus.oidc.roles.role-claim-path[]"
 
 #, fuzzy
 msgid ""
@@ -2745,6 +2899,8 @@ msgstr "Uma lista de caminhos para claims que contêm uma matriz de grupos. Cada
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ROLES_ROLE_CLAIM_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_ROLES_ROLE_CLAIM_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-roles-role-claim-separator]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-roles-role-claim-separator[`+++quarkus.oidc.roles.role-claim-separator+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.roles.role-claim-separator+++[]\n"
@@ -2760,7 +2916,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ROLES_ROLE_CLAIM_SEPARATOR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-roles-role-claim-separator[quarkus.oidc.roles.role-claim-separator] config_property_copy_button:quarkus.oidc.roles.role-claim-separator[]"
 
 #, fuzzy
 msgid ""
@@ -2782,6 +2938,8 @@ msgstr "O separador para dividir cadeias de caracteres que contêm vários valor
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ROLES_ROLE_CLAIM_SEPARATOR+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_ROLES_ROLE_CLAIM_SEPARATOR[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-roles-source]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-roles-source[`+++quarkus.oidc.roles.source+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.roles.source+++[]\n"
@@ -2797,7 +2955,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_ROLES_SOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-roles-source[quarkus.oidc.roles.source] config_property_copy_button:quarkus.oidc.roles.source[]"
 
 #, fuzzy
 msgid ""
@@ -2827,6 +2985,8 @@ msgstr "tooltip:idtoken[Token de identificação — o valor padrão para os apl
 msgid "[[quarkus-oidc_section_quarkus-oidc-resource-metadata]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-resource-metadata[Configuration to provide protected resource metadata]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-resource-metadata[Configuração para fornecer metadados de recursos protegidos]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-resource-metadata-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-resource-metadata-enabled[`+++quarkus.oidc.resource-metadata.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.resource-metadata.enabled+++[]\n"
@@ -2842,7 +3002,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-resource-metadata-enabled[quarkus.oidc.resource-metadata.enabled] config_property_copy_button:quarkus.oidc.resource-metadata.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -2864,6 +3024,8 @@ msgstr "Caso seja possível fornecer os metadados do recurso."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_RESOURCE_METADATA_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-resource-metadata-resource]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-resource-metadata-resource[`+++quarkus.oidc.resource-metadata.resource+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.resource-metadata.resource+++[]\n"
@@ -2879,7 +3041,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_RESOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-resource-metadata-resource[quarkus.oidc.resource-metadata.resource] config_property_copy_button:quarkus.oidc.resource-metadata.resource[]"
 
 #, fuzzy
 msgid ""
@@ -2901,6 +3063,8 @@ msgstr "Identificador de recurso protegido."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_RESOURCE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_RESOURCE_METADATA_RESOURCE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-resource-metadata-scopes]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-resource-metadata-scopes[`+++quarkus.oidc.resource-metadata.scopes+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.resource-metadata.scopes+++[]\n"
@@ -2916,7 +3080,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_SCOPES+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-resource-metadata-scopes[quarkus.oidc.resource-metadata.scopes] config_property_copy_button:quarkus.oidc.resource-metadata.scopes[]"
 
 #, fuzzy
 msgid ""
@@ -2938,6 +3102,8 @@ msgstr "Escopos compatíveis."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_SCOPES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_RESOURCE_METADATA_SCOPES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-resource-metadata-authorization-server]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-resource-metadata-authorization-server[`+++quarkus.oidc.resource-metadata.authorization-server+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.resource-metadata.authorization-server+++[]\n"
@@ -2953,7 +3119,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_AUTHORIZATION_SERVER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-resource-metadata-authorization-server[quarkus.oidc.resource-metadata.authorization-server] config_property_copy_button:quarkus.oidc.resource-metadata.authorization-server[]"
 
 #, fuzzy
 msgid ""
@@ -2975,6 +3141,8 @@ msgstr "URL do servidor de autorização. O valor da propriedade 'quarkus.oidc.a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_AUTHORIZATION_SERVER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_RESOURCE_METADATA_AUTHORIZATION_SERVER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-resource-metadata-force-https-scheme]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-resource-metadata-force-https-scheme[`+++quarkus.oidc.resource-metadata.force-https-scheme+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.resource-metadata.force-https-scheme+++[]\n"
@@ -2990,7 +3158,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_RESOURCE_METADATA_FORCE_HTTPS_SCHEME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-resource-metadata-force-https-scheme[quarkus.oidc.resource-metadata.force-https-scheme] config_property_copy_button:quarkus.oidc.resource-metadata.force-https-scheme[]"
 
 #, fuzzy
 msgid ""
@@ -3016,6 +3184,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_RESOURCE_ME
 msgid "[[quarkus-oidc_section_quarkus-oidc-token]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-token[Configuration to customize validation of token claims]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-token[Configuração para personalizar a validação das reivindicações do token]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-issuer]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-issuer[`+++quarkus.oidc.token.issuer+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.issuer+++[]\n"
@@ -3031,7 +3201,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ISSUER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-issuer[quarkus.oidc.token.issuer] config_property_copy_button:quarkus.oidc.token.issuer[]"
 
 #, fuzzy
 msgid ""
@@ -3053,6 +3223,8 @@ msgstr "O valor esperado da reivindicação `“iss”` do emissor. Essa proprie
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ISSUER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_ISSUER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-audience]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-audience[`+++quarkus.oidc.token.audience+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.audience+++[]\n"
@@ -3068,7 +3240,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_AUDIENCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-audience[quarkus.oidc.token.audience] config_property_copy_button:quarkus.oidc.token.audience[]"
 
 #, fuzzy
 msgid ""
@@ -3090,6 +3262,8 @@ msgstr "O valor esperado `da reivindicação “audience”` , que pode ser uma 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_AUDIENCE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_AUDIENCE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-subject-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-subject-required[`+++quarkus.oidc.token.subject-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.subject-required+++[]\n"
@@ -3105,7 +3279,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_SUBJECT_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-subject-required[quarkus.oidc.token.subject-required] config_property_copy_button:quarkus.oidc.token.subject-required[]"
 
 #, fuzzy
 msgid ""
@@ -3127,6 +3301,8 @@ msgstr "Exija que o token inclua uma reivindicação `“sub”` (assunto), que 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_SUBJECT_REQUIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_SUBJECT_REQUIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-required-claims-claim-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[`+++quarkus.oidc.token.required-claims.\"claim-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.required-claims.\"claim-name\"+++[]\n"
@@ -3142,7 +3318,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REQUIRED_CLAIMS__CLAIM_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[quarkus.oidc.token.required-claims.\"nome-da-reivindicação\"] config_property_copy_button:quarkus.oidc.token.required-claims.\"nome-da-reivindicação\"[]"
 
 #, fuzzy
 msgid ""
@@ -3168,6 +3344,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_REQUI
 msgid "Map<String,Set<String>>"
 msgstr "Map<String, Set<String>>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-token-type]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-token-type[`+++quarkus.oidc.token.token-type+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.token-type+++[]\n"
@@ -3183,7 +3361,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_TOKEN_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-token-type[quarkus.oidc.token.token-type] config_property_copy_button:quarkus.oidc.token.token-type[]"
 
 #, fuzzy
 msgid ""
@@ -3205,6 +3383,8 @@ msgstr "Tipo de token esperado"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_TOKEN_TYPE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_TOKEN_TYPE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-lifespan-grace]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-lifespan-grace[`+++quarkus.oidc.token.lifespan-grace+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.lifespan-grace+++[]\n"
@@ -3220,7 +3400,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_LIFESPAN_GRACE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-lifespan-grace[quarkus.oidc.token.lifespan-grace] config_property_copy_button:quarkus.oidc.token.lifespan-grace[]"
 
 #, fuzzy
 msgid ""
@@ -3242,6 +3422,8 @@ msgstr "Período de tolerância da validade, em segundos. Ao verificar a expira�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_LIFESPAN_GRACE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_LIFESPAN_GRACE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-age]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-age[`+++quarkus.oidc.token.age+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.age+++[]\n"
@@ -3257,7 +3439,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_AGE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-age[quarkus.oidc.token.age] config_property_copy_button:quarkus.oidc.token.age[]"
 
 #, fuzzy
 msgid ""
@@ -3279,6 +3461,8 @@ msgstr "Idade do token. Permite especificar o número de segundos que não devem
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_AGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_AGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-issued-at-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-issued-at-required[`+++quarkus.oidc.token.issued-at-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.issued-at-required+++[]\n"
@@ -3294,7 +3478,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ISSUED_AT_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-issued-at-required[quarkus.oidc.token.issued-at-required] config_property_copy_button:quarkus.oidc.token.issued-at-required[]"
 
 #, fuzzy
 msgid ""
@@ -3316,6 +3500,8 @@ msgstr "Exija que o token inclua uma reivindicação `iat` (data de emissão). D
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ISSUED_AT_REQUIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_ISSUED_AT_REQUIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-principal-claim]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-principal-claim[`+++quarkus.oidc.token.principal-claim+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.principal-claim+++[]\n"
@@ -3331,7 +3517,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_PRINCIPAL_CLAIM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-principal-claim[quarkus.oidc.token.principal-claim] config_property_copy_button:quarkus.oidc.token.principal-claim[]"
 
 #, fuzzy
 msgid ""
@@ -3353,6 +3539,8 @@ msgstr "Nome da reivindicação que contém um nome principal. Por padrão, as r
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_PRINCIPAL_CLAIM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_PRINCIPAL_CLAIM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-refresh-expired]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-refresh-expired[`+++quarkus.oidc.token.refresh-expired+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.refresh-expired+++[]\n"
@@ -3368,7 +3556,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REFRESH_EXPIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-refresh-expired[quarkus.oidc.token.refresh-expired] config_property_copy_button:quarkus.oidc.token.refresh-expired[]"
 
 #, fuzzy
 msgid ""
@@ -3390,6 +3578,8 @@ msgstr "Atualizar o ID do fluxo do código de autorização ou os tokens de aces
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REFRESH_EXPIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_REFRESH_EXPIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-refresh-token-time-skew]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-refresh-token-time-skew[`+++quarkus.oidc.token.refresh-token-time-skew+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.refresh-token-time-skew+++[]\n"
@@ -3405,7 +3595,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REFRESH_TOKEN_TIME_SKEW+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-refresh-token-time-skew[quarkus.oidc.token.refresh-token-time-skew] config_property_copy_button:quarkus.oidc.token.refresh-token-time-skew[]"
 
 #, fuzzy
 msgid ""
@@ -3427,6 +3617,8 @@ msgstr "O deslocamento temporal do token de atualização, em segundos. Se esta 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REFRESH_TOKEN_TIME_SKEW+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_REFRESH_TOKEN_TIME_SKEW[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-refresh-token-cache-time-to-live]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-refresh-token-cache-time-to-live[`+++quarkus.oidc.token.refresh-token-cache-time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.refresh-token-cache-time-to-live+++[]\n"
@@ -3450,7 +3642,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REFRESH_TOKEN_CACHE_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-refresh-token-cache-time-to-live[quarkus.oidc.token.refresh-token-cache-time-to-live] config_property_copy_button:quarkus.oidc.token.refresh-token-cache-time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -3492,6 +3684,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_REFRE
 msgid "`+++0S+++`"
 msgstr "`0S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-forced-jwk-refresh-interval]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-forced-jwk-refresh-interval[`+++quarkus.oidc.token.forced-jwk-refresh-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.forced-jwk-refresh-interval+++[]\n"
@@ -3507,7 +3701,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_FORCED_JWK_REFRESH_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-forced-jwk-refresh-interval[quarkus.oidc.token.forced-jwk-refresh-interval] config_property_copy_button:quarkus.oidc.token.forced-jwk-refresh-interval[]"
 
 #, fuzzy
 msgid ""
@@ -3533,6 +3727,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_FORCE
 msgid "`+++10M+++`"
 msgstr "`10 milhões`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-header]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-header[`+++quarkus.oidc.token.header+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.header+++[]\n"
@@ -3548,7 +3744,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_HEADER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-header[quarkus.oidc.token.header] config_property_copy_button:quarkus.oidc.token.header[]"
 
 #, fuzzy
 msgid ""
@@ -3570,6 +3766,8 @@ msgstr "Cabeçalho HTTP personalizado que contém um token de portador. Essa op�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_HEADER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_HEADER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-authorization-scheme]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-authorization-scheme[`+++quarkus.oidc.token.authorization-scheme+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.authorization-scheme+++[]\n"
@@ -3585,7 +3783,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_AUTHORIZATION_SCHEME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-authorization-scheme[quarkus.oidc.token.authorization-scheme] config_property_copy_button:quarkus.oidc.token.authorization-scheme[]"
 
 #, fuzzy
 msgid ""
@@ -3611,6 +3809,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_AUTHO
 msgid "`+++Bearer+++`"
 msgstr "`Ao portador`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-signature-algorithm]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-signature-algorithm[`+++quarkus.oidc.token.signature-algorithm+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.signature-algorithm+++[]\n"
@@ -3626,7 +3826,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_SIGNATURE_ALGORITHM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-signature-algorithm[quarkus.oidc.token.signature-algorithm] config_property_copy_button:quarkus.oidc.token.signature-algorithm[]"
 
 #, fuzzy
 msgid ""
@@ -3652,6 +3852,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_SIGNA
 msgid "`rs256`, `rs384`, `rs512`, `ps256`, `ps384`, `ps512`, `es256`, `es384`, `es512`, `eddsa`"
 msgstr "`rs256` , `rs384` , `rs512` , `ps256` , `ps384` , `ps512` , `es256` , `es384` , `es512` , `eddsa`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-decryption-key-location]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-decryption-key-location[`+++quarkus.oidc.token.decryption-key-location+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.decryption-key-location+++[]\n"
@@ -3667,7 +3869,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_DECRYPTION_KEY_LOCATION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-decryption-key-location[quarkus.oidc.token.decryption-key-location] config_property_copy_button:quarkus.oidc.token.decryption-key-location[]"
 
 #, fuzzy
 msgid ""
@@ -3689,6 +3891,8 @@ msgstr "Localização da chave de descriptografia para tokens de identificação
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_DECRYPTION_KEY_LOCATION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_DECRYPTION_KEY_LOCATION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-decrypt-id-token]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-decrypt-id-token[`+++quarkus.oidc.token.decrypt-id-token+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.decrypt-id-token+++[]\n"
@@ -3704,7 +3908,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_DECRYPT_ID_TOKEN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-decrypt-id-token[quarkus.oidc.token.decrypt-id-token] config_property_copy_button:quarkus.oidc.token.decrypt-id-token[]"
 
 #, fuzzy
 msgid ""
@@ -3726,6 +3930,8 @@ msgstr "Descriptografar o token de identificação. Se a propriedade `Token#decr
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_DECRYPT_ID_TOKEN+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_DECRYPT_ID_TOKEN[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-decrypt-access-token]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-decrypt-access-token[`+++quarkus.oidc.token.decrypt-access-token+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.decrypt-access-token+++[]\n"
@@ -3741,7 +3947,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_DECRYPT_ACCESS_TOKEN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-decrypt-access-token[quarkus.oidc.token.decrypt-access-token] config_property_copy_button:quarkus.oidc.token.decrypt-access-token[]"
 
 #, fuzzy
 msgid ""
@@ -3763,6 +3969,8 @@ msgstr "Descriptografar o token de acesso. Se a propriedade `Token#decryptionKey
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_DECRYPT_ACCESS_TOKEN+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_DECRYPT_ACCESS_TOKEN[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-allow-jwt-introspection]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-allow-jwt-introspection[`+++quarkus.oidc.token.allow-jwt-introspection+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.allow-jwt-introspection+++[]\n"
@@ -3778,7 +3986,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ALLOW_JWT_INTROSPECTION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-allow-jwt-introspection[quarkus.oidc.token.allow-jwt-introspection] config_property_copy_button:quarkus.oidc.token.allow-jwt-introspection[]"
 
 #, fuzzy
 msgid ""
@@ -3800,6 +4008,8 @@ msgstr "Permita a introspecção remota de tokens JWT quando não houver uma cha
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ALLOW_JWT_INTROSPECTION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_ALLOW_JWT_INTROSPECTION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-require-jwt-introspection-only]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-require-jwt-introspection-only[`+++quarkus.oidc.token.require-jwt-introspection-only+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.require-jwt-introspection-only+++[]\n"
@@ -3815,7 +4025,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REQUIRE_JWT_INTROSPECTION_ONLY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-require-jwt-introspection-only[quarkus.oidc.token.require-jwt-introspection-only] config_property_copy_button:quarkus.oidc.token.require-jwt-introspection-only[]"
 
 #, fuzzy
 msgid ""
@@ -3837,6 +4047,8 @@ msgstr "Exija que os tokens JWT sejam inspecionados apenas remotamente."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_REQUIRE_JWT_INTROSPECTION_ONLY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_REQUIRE_JWT_INTROSPECTION_ONLY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-allow-opaque-token-introspection]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-allow-opaque-token-introspection[`+++quarkus.oidc.token.allow-opaque-token-introspection+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.allow-opaque-token-introspection+++[]\n"
@@ -3852,7 +4064,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ALLOW_OPAQUE_TOKEN_INTROSPECTION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-allow-opaque-token-introspection[quarkus.oidc.token.allow-opaque-token-introspection] config_property_copy_button:quarkus.oidc.token.allow-opaque-token-introspection[]"
 
 #, fuzzy
 msgid ""
@@ -3874,6 +4086,8 @@ msgstr "Permita a introspecção remota dos tokens opacos. Defina esta proprieda
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_ALLOW_OPAQUE_TOKEN_INTROSPECTION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_ALLOW_OPAQUE_TOKEN_INTROSPECTION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-customizer-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-customizer-name[`+++quarkus.oidc.token.customizer-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.customizer-name+++[]\n"
@@ -3889,7 +4103,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_CUSTOMIZER_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-customizer-name[quarkus.oidc.token.customizer-name] config_property_copy_button:quarkus.oidc.token.customizer-name[]"
 
 #, fuzzy
 msgid ""
@@ -3911,6 +4125,8 @@ msgstr "Nome do personalizador de tokens. Permite selecionar um personalizador d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_CUSTOMIZER_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_CUSTOMIZER_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-verify-access-token-with-user-info]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-verify-access-token-with-user-info[`+++quarkus.oidc.token.verify-access-token-with-user-info+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.verify-access-token-with-user-info+++[]\n"
@@ -3926,7 +4142,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_VERIFY_ACCESS_TOKEN_WITH_USER_INFO+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-verify-access-token-with-user-info[quarkus.oidc.token.verify-access-token-with-user-info] config_property_copy_button:quarkus.oidc.token.verify-access-token-with-user-info[]"
 
 #, fuzzy
 msgid ""
@@ -3948,6 +4164,8 @@ msgstr "Verifique indiretamente se o token de acesso opaco (binário) é válido
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_VERIFY_ACCESS_TOKEN_WITH_USER_INFO+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_VERIFY_ACCESS_TOKEN_WITH_USER_INFO[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-binding-certificate]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-binding-certificate[`+++quarkus.oidc.token.binding.certificate+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.binding.certificate+++[]\n"
@@ -3965,7 +4183,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_BINDING_CERTIFICATE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-binding-certificate[quarkus.oidc.token.binding.certificate] config_property_copy_button:quarkus.oidc.token.binding.certificate[]"
 
 #, fuzzy
 msgid ""
@@ -3995,6 +4213,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_BINDI
 msgid "[[quarkus-oidc_section_quarkus-oidc-logout]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-logout[RP-initiated, back-channel and front-channel logout configuration]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-logout[Configuração de logout iniciada por RP, no canal secundário e no canal principal]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-path[`+++quarkus.oidc.logout.path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.path+++[]\n"
@@ -4010,7 +4230,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-path[quarkus.oidc.logout.path] config_property_copy_button:quarkus.oidc.logout.path[]"
 
 #, fuzzy
 msgid ""
@@ -4032,6 +4252,8 @@ msgstr "O caminho relativo do endpoint de logout no aplicativo. Se fornecido, o 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-post-logout-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-post-logout-path[`+++quarkus.oidc.logout.post-logout-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.post-logout-path+++[]\n"
@@ -4047,7 +4269,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_POST_LOGOUT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-post-logout-path[quarkus.oidc.logout.post-logout-path] config_property_copy_button:quarkus.oidc.logout.post-logout-path[]"
 
 #, fuzzy
 msgid ""
@@ -4069,6 +4291,8 @@ msgstr "Caminho relativo do endpoint do aplicativo para o qual o usuário deve s
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_POST_LOGOUT_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_POST_LOGOUT_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-post-logout-uri-param]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-post-logout-uri-param[`+++quarkus.oidc.logout.post-logout-uri-param+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.post-logout-uri-param+++[]\n"
@@ -4084,7 +4308,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_POST_LOGOUT_URI_PARAM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-post-logout-uri-param[quarkus.oidc.logout.post-logout-uri-param] config_property_copy_button:quarkus.oidc.logout.post-logout-uri-param[]"
 
 #, fuzzy
 msgid ""
@@ -4110,6 +4334,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_POST
 msgid "`+++post_logout_redirect_uri+++`"
 msgstr "`post_logout_redirect_uri`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-extra-params-query-parameter-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-extra-params-query-parameter-name[`+++quarkus.oidc.logout.extra-params.\"query-parameter-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.extra-params.\"query-parameter-name\"+++[]\n"
@@ -4125,7 +4351,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_EXTRA_PARAMS__QUERY_PARAMETER_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-extra-params-query-parameter-name[quarkus.oidc.logout.extra-params.\"query-parameter-name\"] config_property_copy_button:quarkus.oidc.logout.extra-params.\"query-parameter-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -4147,6 +4373,8 @@ msgstr "Propriedades adicionais que são incluídas como parâmetros de consulta
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_EXTRA_PARAMS__QUERY_PARAMETER_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_EXTRA_PARAMS__QUERY_PARAMETER_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-backchannel-path[`+++quarkus.oidc.logout.backchannel.path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.backchannel.path+++[]\n"
@@ -4162,7 +4390,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-backchannel-path[quarkus.oidc.logout.backchannel.path] config_property_copy_button:quarkus.oidc.logout.backchannel.path[]"
 
 #, fuzzy
 msgid ""
@@ -4184,6 +4412,8 @@ msgstr "O caminho relativo do endpoint de logout do canal de retorno no aplicati
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_BACKCHANNEL_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-size]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-size[`+++quarkus.oidc.logout.backchannel.token-cache-size+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.backchannel.token-cache-size+++[]\n"
@@ -4199,7 +4429,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_TOKEN_CACHE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-size[quarkus.oidc.logout.backchannel.token-cache-size] config_property_copy_button:quarkus.oidc.logout.backchannel.token-cache-size[]"
 
 #, fuzzy
 msgid ""
@@ -4221,6 +4451,8 @@ msgstr "Número máximo de tokens de logout que podem ser armazenados em cache a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_TOKEN_CACHE_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_BACKCHANNEL_TOKEN_CACHE_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-time-to-live]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-time-to-live[`+++quarkus.oidc.logout.backchannel.token-cache-time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.backchannel.token-cache-time-to-live+++[]\n"
@@ -4236,7 +4468,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_TOKEN_CACHE_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-backchannel-token-cache-time-to-live[quarkus.oidc.logout.backchannel.token-cache-time-to-live] config_property_copy_button:quarkus.oidc.logout.backchannel.token-cache-time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -4258,6 +4490,8 @@ msgstr "Número de minutos durante os quais um token de logout pode permanecer e
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_TOKEN_CACHE_TIME_TO_LIVE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_BACKCHANNEL_TOKEN_CACHE_TIME_TO_LIVE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-clean-up-timer-interval]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-backchannel-clean-up-timer-interval[`+++quarkus.oidc.logout.backchannel.clean-up-timer-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.backchannel.clean-up-timer-interval+++[]\n"
@@ -4273,7 +4507,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_CLEAN_UP_TIMER_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-backchannel-clean-up-timer-interval[quarkus.oidc.logout.backchannel.clean-up-timer-interval] config_property_copy_button:quarkus.oidc.logout.backchannel.clean-up-timer-interval[]"
 
 #, fuzzy
 msgid ""
@@ -4295,6 +4529,8 @@ msgstr "Intervalo do temporizador do cache de tokens. Se essa propriedade estive
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_CLEAN_UP_TIMER_INTERVAL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_BACKCHANNEL_CLEAN_UP_TIMER_INTERVAL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-backchannel-logout-token-key]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-backchannel-logout-token-key[`+++quarkus.oidc.logout.backchannel.logout-token-key+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.backchannel.logout-token-key+++[]\n"
@@ -4310,7 +4546,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_BACKCHANNEL_LOGOUT_TOKEN_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-backchannel-logout-token-key[quarkus.oidc.logout.backchannel.logout-token-key] config_property_copy_button:quarkus.oidc.logout.backchannel.logout-token-key[]"
 
 #, fuzzy
 msgid ""
@@ -4336,6 +4572,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_BACK
 msgid "`+++sub+++`"
 msgstr "`sub`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-frontchannel-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-frontchannel-path[`+++quarkus.oidc.logout.frontchannel.path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.frontchannel.path+++[]\n"
@@ -4351,7 +4589,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_FRONTCHANNEL_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-frontchannel-path[quarkus.oidc.logout.frontchannel.path] config_property_copy_button:quarkus.oidc.logout.frontchannel.path[]"
 
 #, fuzzy
 msgid ""
@@ -4373,6 +4611,8 @@ msgstr "O caminho relativo do endpoint de logout do Front-Channel no aplicativo.
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_FRONTCHANNEL_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_FRONTCHANNEL_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-clear-site-data]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-clear-site-data[`+++quarkus.oidc.logout.clear-site-data+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.clear-site-data+++[]\n"
@@ -4388,7 +4628,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_CLEAR_SITE_DATA+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-clear-site-data[quarkus.oidc.logout.clear-site-data] config_property_copy_button:quarkus.oidc.logout.clear-site-data[]"
 
 #, fuzzy
 msgid ""
@@ -4414,6 +4654,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_LOGOUT_CLEA
 msgid "list of tooltip:cache[Clear cache], tooltip:client-hints[Clear client hints.], tooltip:cookies[Clear cookies.], tooltip:execution-contexts[Clear execution contexts], tooltip:storage[Clear storage], tooltip:wildcard[Clear all types of data]"
 msgstr "lista de tooltip:cache[Limpar cache], tooltip:client-hints[Limpar dicas do cliente.], tooltip:cookies[Limpar cookies.], tooltip:execution-contexts[Limpar contextos de execução], tooltip:storage[Limpar armazenamento], tooltip:wildcard[Limpar todos os tipos de dados]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-logout-logout-mode]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-logout-logout-mode[`+++quarkus.oidc.logout.logout-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.logout.logout-mode+++[]\n"
@@ -4429,7 +4671,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_LOGOUT_LOGOUT_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-logout-logout-mode[quarkus.oidc.logout.logout-mode] config_property_copy_button:quarkus.oidc.logout.logout-mode[]"
 
 #, fuzzy
 msgid ""
@@ -4463,6 +4705,8 @@ msgstr "dica de ferramenta: consulta [Os parâmetros de logout estão codificado
 msgid "[[quarkus-oidc_section_quarkus-oidc-certificate-chain]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-certificate-chain[Configuration of the certificate chain which can be used to verify tokens]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-certificate-chain[Configuração da cadeia de certificados que pode ser utilizada para verificar tokens]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-certificate-chain-leaf-certificate-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-certificate-chain-leaf-certificate-name[`+++quarkus.oidc.certificate-chain.leaf-certificate-name+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.certificate-chain.leaf-certificate-name+++[]\n"
@@ -4478,7 +4722,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_LEAF_CERTIFICATE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-certificate-chain-leaf-certificate-name[quarkus.oidc.certificate-chain.leaf-certificate-name] config_property_copy_button:quarkus.oidc.certificate-chain.leaf-certificate-name[]"
 
 #, fuzzy
 msgid ""
@@ -4500,6 +4744,8 @@ msgstr "Nome comum do certificado de folha. Deve ser definido caso o `arquivo de
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_LEAF_CERTIFICATE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CERTIFICATE_CHAIN_LEAF_CERTIFICATE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-file]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-file[`+++quarkus.oidc.certificate-chain.trust-store-file+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.certificate-chain.trust-store-file+++[]\n"
@@ -4515,7 +4761,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-file[quarkus.oidc.certificate-chain.trust-store-file] config_property_copy_button:quarkus.oidc.certificate-chain.trust-store-file[]"
 
 #, fuzzy
 msgid ""
@@ -4537,6 +4783,8 @@ msgstr "Arquivo do Truststore que armazena as impressões digitais dos certifica
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_FILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_FILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-password]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-password[`+++quarkus.oidc.certificate-chain.trust-store-password+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.certificate-chain.trust-store-password+++[]\n"
@@ -4552,7 +4800,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-password[quarkus.oidc.certificate-chain.trust-store-password] config_property_copy_button:quarkus.oidc.certificate-chain.trust-store-password[]"
 
 #, fuzzy
 msgid ""
@@ -4574,6 +4822,8 @@ msgstr "Um parâmetro para especificar a senha do arquivo do truststore, caso es
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-cert-alias]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-cert-alias[`+++quarkus.oidc.certificate-chain.trust-store-cert-alias+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.certificate-chain.trust-store-cert-alias+++[]\n"
@@ -4589,7 +4839,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_CERT_ALIAS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-cert-alias[quarkus.oidc.certificate-chain.trust-store-cert-alias] config_property_copy_button:quarkus.oidc.certificate-chain.trust-store-cert-alias[]"
 
 #, fuzzy
 msgid ""
@@ -4611,6 +4861,8 @@ msgstr "Um parâmetro para especificar o alias do certificado do truststore."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_CERT_ALIAS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_CERT_ALIAS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-file-type]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-file-type[`+++quarkus.oidc.certificate-chain.trust-store-file-type+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.certificate-chain.trust-store-file-type+++[]\n"
@@ -4626,7 +4878,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CERTIFICATE_CHAIN_TRUST_STORE_FILE_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-certificate-chain-trust-store-file-type[quarkus.oidc.certificate-chain.trust-store-file-type] config_property_copy_button:quarkus.oidc.certificate-chain.trust-store-file-type[]"
 
 #, fuzzy
 msgid ""
@@ -4652,6 +4904,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CERTIFICATE
 msgid "[[quarkus-oidc_section_quarkus-oidc-authentication]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-authentication[Configuration for managing an authorization code flow]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-authentication[Configuração para gerenciamento de um fluxo de código de autorização]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-response-mode]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-response-mode[`+++quarkus.oidc.authentication.response-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.response-mode+++[]\n"
@@ -4667,7 +4921,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RESPONSE_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-response-mode[quarkus.oidc.authentication.response-mode] config_property_copy_button:quarkus.oidc.authentication.response-mode[]"
 
 #, fuzzy
 msgid ""
@@ -4697,6 +4951,8 @@ msgstr "tooltip:query[Os parâmetros da resposta de autorização são codificad
 msgid "tooltip:query[Authorization response parameters are encoded in the query string added to the `redirect_uri`]"
 msgstr "dica de ferramenta:query[Os parâmetros da resposta de autorização são codificados na string de consulta adicionada ao `redirect_uri` ]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cache-control]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cache-control[`+++quarkus.oidc.authentication.cache-control+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cache-control+++[]\n"
@@ -4714,7 +4970,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_CACHE_CONTROL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cache-control[quarkus.oidc.authentication.cache-control] config_property_copy_button:quarkus.oidc.authentication.cache-control[]"
 
 #, fuzzy
 msgid ""
@@ -4744,6 +5000,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "list of `no-store`"
 msgstr "lista de `produtos que não podem ser comprados em lojas físicas`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-redirect-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-redirect-path[`+++quarkus.oidc.authentication.redirect-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.redirect-path+++[]\n"
@@ -4759,7 +5017,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_REDIRECT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-redirect-path[quarkus.oidc.authentication.redirect-path] config_property_copy_button:quarkus.oidc.authentication.redirect-path[]"
 
 #, fuzzy
 msgid ""
@@ -4781,6 +5039,8 @@ msgstr "O caminho relativo para o cálculo do parâmetro de consulta ``redirect_
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_REDIRECT_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_REDIRECT_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-restore-path-after-redirect]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-restore-path-after-redirect[`+++quarkus.oidc.authentication.restore-path-after-redirect+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.restore-path-after-redirect+++[]\n"
@@ -4796,7 +5056,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RESTORE_PATH_AFTER_REDIRECT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-restore-path-after-redirect[quarkus.oidc.authentication.restore-path-after-redirect] config_property_copy_button:quarkus.oidc.authentication.restore-path-after-redirect[]"
 
 #, fuzzy
 msgid ""
@@ -4818,6 +5078,8 @@ msgstr "Se esta propriedade for definida como `“true”` , a URI da solicitaç
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RESTORE_PATH_AFTER_REDIRECT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_RESTORE_PATH_AFTER_REDIRECT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-remove-redirect-parameters]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-remove-redirect-parameters[`+++quarkus.oidc.authentication.remove-redirect-parameters+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.remove-redirect-parameters+++[]\n"
@@ -4833,7 +5095,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_REMOVE_REDIRECT_PARAMETERS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-remove-redirect-parameters[quarkus.oidc.authentication.remove-redirect-parameters] config_property_copy_button:quarkus.oidc.authentication.remove-redirect-parameters[]"
 
 #, fuzzy
 msgid ""
@@ -4855,6 +5117,8 @@ msgstr "Remova os parâmetros de consulta, como `“code”` e `“state”` , d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_REMOVE_REDIRECT_PARAMETERS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_REMOVE_REDIRECT_PARAMETERS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-error-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-error-path[`+++quarkus.oidc.authentication.error-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.error-path+++[]\n"
@@ -4870,7 +5134,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ERROR_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-error-path[quarkus.oidc.authentication.error-path] config_property_copy_button:quarkus.oidc.authentication.error-path[]"
 
 #, fuzzy
 msgid ""
@@ -4892,6 +5156,8 @@ msgstr "Caminho relativo para o endpoint público que processa a resposta de err
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ERROR_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_ERROR_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-session-expired-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-session-expired-path[`+++quarkus.oidc.authentication.session-expired-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.session-expired-path+++[]\n"
@@ -4911,7 +5177,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SESSION_EXPIRED_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-session-expired-path[quarkus.oidc.authentication.session-expired-path] config_property_copy_button:quarkus.oidc.authentication.session-expired-path[]"
 
 #, fuzzy
 msgid ""
@@ -4941,6 +5207,8 @@ msgstr "Defina esta propriedade caso deseje que o usuário cuja sessão tenha ex
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SESSION_EXPIRED_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_SESSION_EXPIRED_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-verify-access-token]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-verify-access-token[`+++quarkus.oidc.authentication.verify-access-token+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.verify-access-token+++[]\n"
@@ -4964,7 +5232,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_VERIFY_ACCESS_TOKEN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-verify-access-token[quarkus.oidc.authentication.verify-access-token] config_property_copy_button:quarkus.oidc.authentication.verify-access-token[]"
 
 #, fuzzy
 msgid ""
@@ -5006,6 +5274,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "`+++true when access token is injected as the JsonWebToken bean, false otherwise+++`"
 msgstr "`verdadeiro quando o token de acesso é injetado como o bean JsonWebToken; falso, caso contrário`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-force-redirect-https-scheme]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-force-redirect-https-scheme[`+++quarkus.oidc.authentication.force-redirect-https-scheme+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.force-redirect-https-scheme+++[]\n"
@@ -5021,7 +5291,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FORCE_REDIRECT_HTTPS_SCHEME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-force-redirect-https-scheme[quarkus.oidc.authentication.force-redirect-https-scheme] config_property_copy_button:quarkus.oidc.authentication.force-redirect-https-scheme[]"
 
 #, fuzzy
 msgid ""
@@ -5043,6 +5313,8 @@ msgstr "Força o uso de `https` como esquema do parâmetro `redirect_uri` ao ope
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FORCE_REDIRECT_HTTPS_SCHEME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_FORCE_REDIRECT_HTTPS_SCHEME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-scopes]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-scopes[`+++quarkus.oidc.authentication.scopes+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.scopes+++[]\n"
@@ -5058,7 +5330,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SCOPES+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-scopes[quarkus.oidc.authentication.scopes] config_property_copy_button:quarkus.oidc.authentication.scopes[]"
 
 #, fuzzy
 msgid ""
@@ -5080,6 +5352,8 @@ msgstr "Lista de escopos"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SCOPES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_SCOPES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-scope-separator]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-scope-separator[`+++quarkus.oidc.authentication.scope-separator+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.scope-separator+++[]\n"
@@ -5095,7 +5369,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SCOPE_SEPARATOR+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-scope-separator[quarkus.oidc.authentication.scope-separator] config_property_copy_button:quarkus.oidc.authentication.scope-separator[]"
 
 #, fuzzy
 msgid ""
@@ -5117,6 +5391,8 @@ msgstr "O separador utilizado quando há mais de um escopo configurado. Por padr
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SCOPE_SEPARATOR+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_SCOPE_SEPARATOR[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-nonce-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-nonce-required[`+++quarkus.oidc.authentication.nonce-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.nonce-required+++[]\n"
@@ -5132,7 +5408,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_NONCE_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-nonce-required[quarkus.oidc.authentication.nonce-required] config_property_copy_button:quarkus.oidc.authentication.nonce-required[]"
 
 #, fuzzy
 msgid ""
@@ -5154,6 +5430,8 @@ msgstr "Exija que o token de identificação inclua uma reivindicação `de nonc
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_NONCE_REQUIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_NONCE_REQUIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-add-openid-scope]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-add-openid-scope[`+++quarkus.oidc.authentication.add-openid-scope+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.add-openid-scope+++[]\n"
@@ -5169,7 +5447,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ADD_OPENID_SCOPE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-add-openid-scope[quarkus.oidc.authentication.add-openid-scope] config_property_copy_button:quarkus.oidc.authentication.add-openid-scope[]"
 
 #, fuzzy
 msgid ""
@@ -5191,6 +5469,8 @@ msgstr "Adicione automaticamente o escopo `“openid”` à lista de escopos. Is
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ADD_OPENID_SCOPE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_ADD_OPENID_SCOPE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-extra-params-parameter-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-extra-params-parameter-name[`+++quarkus.oidc.authentication.extra-params.\"parameter-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.extra-params.\"parameter-name\"+++[]\n"
@@ -5206,7 +5486,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_EXTRA_PARAMS__PARAMETER_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-extra-params-parameter-name[quarkus.oidc.authentication.extra-params.\"nome-do-parâmetro\"] config_property_copy_button:quarkus.oidc.authentication.extra-params.\"nome-do-parâmetro\"[]"
 
 #, fuzzy
 msgid ""
@@ -5228,6 +5508,8 @@ msgstr "Propriedades adicionais incluídas como parâmetros de consulta no URI d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_EXTRA_PARAMS__PARAMETER_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_EXTRA_PARAMS__PARAMETER_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-forward-params]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-forward-params[`+++quarkus.oidc.authentication.forward-params+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.forward-params+++[]\n"
@@ -5243,7 +5525,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FORWARD_PARAMS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-forward-params[quarkus.oidc.authentication.forward-params] config_property_copy_button:quarkus.oidc.authentication.forward-params[]"
 
 #, fuzzy
 msgid ""
@@ -5265,6 +5547,8 @@ msgstr "Parâmetros de consulta da URL da solicitação que, se estiverem presen
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FORWARD_PARAMS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_FORWARD_PARAMS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-force-secure]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cookie-force-secure[`+++quarkus.oidc.authentication.cookie-force-secure+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cookie-force-secure+++[]\n"
@@ -5280,7 +5564,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_FORCE_SECURE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-force-secure[quarkus.oidc.authentication.cookie-force-secure] config_property_copy_button:quarkus.oidc.authentication.cookie-force-secure[]"
 
 #, fuzzy
 msgid ""
@@ -5302,6 +5586,8 @@ msgstr "Se ativada, os cookies de estado, de sessão e pós-logout terão seu pa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_FORCE_SECURE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_COOKIE_FORCE_SECURE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-suffix]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cookie-suffix[`+++quarkus.oidc.authentication.cookie-suffix+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cookie-suffix+++[]\n"
@@ -5317,7 +5603,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_SUFFIX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-suffix[quarkus.oidc.authentication.cookie-suffix] config_property_copy_button:quarkus.oidc.authentication.cookie-suffix[]"
 
 #, fuzzy
 msgid ""
@@ -5339,6 +5625,8 @@ msgstr "Sufixo do nome do cookie. Por exemplo, o nome de um cookie de sessão pa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_SUFFIX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_COOKIE_SUFFIX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path[`+++quarkus.oidc.authentication.cookie-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cookie-path+++[]\n"
@@ -5354,7 +5642,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path[quarkus.oidc.authentication.cookie-path] config_property_copy_button:quarkus.oidc.authentication.cookie-path[]"
 
 #, fuzzy
 msgid ""
@@ -5380,6 +5668,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "`+++/+++`"
 msgstr "`/`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-path-header]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path-header[`+++quarkus.oidc.authentication.cookie-path-header+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cookie-path-header+++[]\n"
@@ -5395,7 +5685,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_PATH_HEADER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path-header[quarkus.oidc.authentication.cookie-path-header] config_property_copy_button:quarkus.oidc.authentication.cookie-path-header[]"
 
 #, fuzzy
 msgid ""
@@ -5417,6 +5707,8 @@ msgstr "Valor do parâmetro de cabeçalho “cookie-path” que, quando definido
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_PATH_HEADER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_COOKIE_PATH_HEADER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-domain]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cookie-domain[`+++quarkus.oidc.authentication.cookie-domain+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cookie-domain+++[]\n"
@@ -5432,7 +5724,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_DOMAIN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-domain[quarkus.oidc.authentication.cookie-domain] config_property_copy_button:quarkus.oidc.authentication.cookie-domain[]"
 
 #, fuzzy
 msgid ""
@@ -5454,6 +5746,8 @@ msgstr "Valor do parâmetro de domínio do cookie que, se definido, é utilizado
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_DOMAIN+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_COOKIE_DOMAIN[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-cookie-same-site]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-cookie-same-site[`+++quarkus.oidc.authentication.cookie-same-site+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.cookie-same-site+++[]\n"
@@ -5469,7 +5763,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_COOKIE_SAME_SITE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-same-site[quarkus.oidc.authentication.cookie-same-site] config_property_copy_button:quarkus.oidc.authentication.cookie-same-site[]"
 
 #, fuzzy
 msgid ""
@@ -5499,6 +5793,8 @@ msgstr "`rigoroso` , `flexível` , `nenhum`"
 msgid "`+++lax+++`"
 msgstr "`lax`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-state-cookie-same-site]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-state-cookie-same-site[`+++quarkus.oidc.authentication.state-cookie-same-site+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.state-cookie-same-site+++[]\n"
@@ -5514,7 +5810,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_STATE_COOKIE_SAME_SITE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-state-cookie-same-site[quarkus.oidc.authentication.state-cookie-same-site] config_property_copy_button:quarkus.oidc.authentication.state-cookie-same-site[]"
 
 #, fuzzy
 msgid ""
@@ -5536,6 +5832,8 @@ msgstr "Atributo SameSite para o cookie de estado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_STATE_COOKIE_SAME_SITE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_STATE_COOKIE_SAME_SITE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-allow-multiple-code-flows]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-allow-multiple-code-flows[`+++quarkus.oidc.authentication.allow-multiple-code-flows+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.allow-multiple-code-flows+++[]\n"
@@ -5551,7 +5849,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ALLOW_MULTIPLE_CODE_FLOWS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-allow-multiple-code-flows[quarkus.oidc.authentication.allow-multiple-code-flows] config_property_copy_button:quarkus.oidc.authentication.allow-multiple-code-flows[]"
 
 #, fuzzy
 msgid ""
@@ -5573,6 +5871,8 @@ msgstr "Se houver um cookie de estado, também deve haver um parâmetro de consu
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ALLOW_MULTIPLE_CODE_FLOWS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_ALLOW_MULTIPLE_CODE_FLOWS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-fail-on-missing-state-param]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-fail-on-missing-state-param[`+++quarkus.oidc.authentication.fail-on-missing-state-param+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.fail-on-missing-state-param+++[]\n"
@@ -5594,7 +5894,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FAIL_ON_MISSING_STATE_PARAM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-fail-on-missing-state-param[quarkus.oidc.authentication.fail-on-missing-state-param] config_property_copy_button:quarkus.oidc.authentication.fail-on-missing-state-param[]"
 
 #, fuzzy
 msgid ""
@@ -5628,6 +5928,8 @@ msgstr "No entanto, definir essa propriedade como `“false”` pode ser útil c
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FAIL_ON_MISSING_STATE_PARAM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_FAIL_ON_MISSING_STATE_PARAM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-fail-on-unresolved-kid]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-fail-on-unresolved-kid[`+++quarkus.oidc.authentication.fail-on-unresolved-kid+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.fail-on-unresolved-kid+++[]\n"
@@ -5645,7 +5947,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FAIL_ON_UNRESOLVED_KID+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-fail-on-unresolved-kid[quarkus.oidc.authentication.fail-on-unresolved-kid] config_property_copy_button:quarkus.oidc.authentication.fail-on-unresolved-kid[]"
 
 #, fuzzy
 msgid ""
@@ -5671,6 +5973,8 @@ msgstr "Pode ser necessário desativar essa propriedade quando forem permitidas 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_FAIL_ON_UNRESOLVED_KID+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_FAIL_ON_UNRESOLVED_KID[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-user-info-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-user-info-required[`+++quarkus.oidc.authentication.user-info-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.user-info-required+++[]\n"
@@ -5690,7 +5994,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_USER_INFO_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-user-info-required[quarkus.oidc.authentication.user-info-required] config_property_copy_button:quarkus.oidc.authentication.user-info-required[]"
 
 #, fuzzy
 msgid ""
@@ -5724,6 +6028,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "`+++true when UserInfo bean is injected, false otherwise+++`"
 msgstr "`verdadeiro quando o bean UserInfo é injetado; falso, caso contrário`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-session-age-extension]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-session-age-extension[`+++quarkus.oidc.authentication.session-age-extension+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.session-age-extension+++[]\n"
@@ -5739,7 +6045,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_SESSION_AGE_EXTENSION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-session-age-extension[quarkus.oidc.authentication.session-age-extension] config_property_copy_button:quarkus.oidc.authentication.session-age-extension[]"
 
 #, fuzzy
 msgid ""
@@ -5765,6 +6071,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "`+++5M+++`"
 msgstr "`5 milhões`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-state-cookie-age]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-state-cookie-age[`+++quarkus.oidc.authentication.state-cookie-age+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.state-cookie-age+++[]\n"
@@ -5780,7 +6088,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_STATE_COOKIE_AGE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-state-cookie-age[quarkus.oidc.authentication.state-cookie-age] config_property_copy_button:quarkus.oidc.authentication.state-cookie-age[]"
 
 #, fuzzy
 msgid ""
@@ -5802,6 +6110,8 @@ msgstr "Indique a validade do cookie de estado em minutos. O cookie de estado é
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_STATE_COOKIE_AGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_STATE_COOKIE_AGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-java-script-auto-redirect]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-java-script-auto-redirect[`+++quarkus.oidc.authentication.java-script-auto-redirect+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.java-script-auto-redirect+++[]\n"
@@ -5819,7 +6129,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_JAVA_SCRIPT_AUTO_REDIRECT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-java-script-auto-redirect[quarkus.oidc.authentication.java-script-auto-redirect] config_property_copy_button:quarkus.oidc.authentication.java-script-auto-redirect[]"
 
 #, fuzzy
 msgid ""
@@ -5845,6 +6155,8 @@ msgstr "Se esta propriedade for definida como `“false”` , um código de stat
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_JAVA_SCRIPT_AUTO_REDIRECT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_JAVA_SCRIPT_AUTO_REDIRECT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-id-token-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-id-token-required[`+++quarkus.oidc.authentication.id-token-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.id-token-required+++[]\n"
@@ -5860,7 +6172,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ID_TOKEN_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-id-token-required[quarkus.oidc.authentication.id-token-required] config_property_copy_button:quarkus.oidc.authentication.id-token-required[]"
 
 #, fuzzy
 msgid ""
@@ -5882,6 +6194,8 @@ msgstr "Exige que o token de identificação esteja disponível quando o fluxo d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_ID_TOKEN_REQUIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_ID_TOKEN_REQUIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-internal-id-token-lifespan]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-internal-id-token-lifespan[`+++quarkus.oidc.authentication.internal-id-token-lifespan+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.internal-id-token-lifespan+++[]\n"
@@ -5897,7 +6211,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_INTERNAL_ID_TOKEN_LIFESPAN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-internal-id-token-lifespan[quarkus.oidc.authentication.internal-id-token-lifespan] config_property_copy_button:quarkus.oidc.authentication.internal-id-token-lifespan[]"
 
 #, fuzzy
 msgid ""
@@ -5919,6 +6233,8 @@ msgstr "Vigência do token de identificação interno. Essa propriedade é verif
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_INTERNAL_ID_TOKEN_LIFESPAN+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_INTERNAL_ID_TOKEN_LIFESPAN[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-pkce-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-pkce-required[`+++quarkus.oidc.authentication.pkce-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.pkce-required+++[]\n"
@@ -5934,7 +6250,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_PKCE_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-pkce-required[quarkus.oidc.authentication.pkce-required] config_property_copy_button:quarkus.oidc.authentication.pkce-required[]"
 
 #, fuzzy
 msgid ""
@@ -5956,6 +6272,8 @@ msgstr "Exige que seja utilizada uma Chave de Prova para Troca de Código (PKCE)
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_PKCE_REQUIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_PKCE_REQUIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-state-secret]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-state-secret[`+++quarkus.oidc.authentication.state-secret+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.state-secret+++[]\n"
@@ -5975,7 +6293,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_STATE_SECRET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-state-secret[quarkus.oidc.authentication.state-secret] config_property_copy_button:quarkus.oidc.authentication.state-secret[]"
 
 #, fuzzy
 msgid ""
@@ -6009,6 +6327,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "[[quarkus-oidc_section_quarkus-oidc-authentication-par]] [.section-name.section-level1]##link:#quarkus-oidc_section_quarkus-oidc-authentication-par[Configuration for the pushed authorization request (PAR)]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-authentication-par[Configuração para a solicitação de autorização enviada (PAR)]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-par-enabled]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-par-enabled[`+++quarkus.oidc.authentication.par.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.par.enabled+++[]\n"
@@ -6024,7 +6344,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_PAR_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-par-enabled[quarkus.oidc.authentication.par.enabled] config_property_copy_button:quarkus.oidc.authentication.par.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -6050,6 +6370,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "`+++enabled if the discovered Authorization Server Metadata parameter 'require_pushed_authorization_requests' is 'true'+++`"
 msgstr "`ativado se o parâmetro “require_pushed_authorization_requests” dos metadados do servidor de autorização detectado for “true”`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-par-path]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-par-path[`+++quarkus.oidc.authentication.par.path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.par.path+++[]\n"
@@ -6065,7 +6387,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_PAR_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-par-path[quarkus.oidc.authentication.par.path] config_property_copy_button:quarkus.oidc.authentication.par.path[]"
 
 #, fuzzy
 msgid ""
@@ -6091,6 +6413,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "[[quarkus-oidc_section_quarkus-oidc-authentication-rar]] [.section-name.section-level1]##link:#quarkus-oidc_section_quarkus-oidc-authentication-rar[Configuration for the rich authorization requests (RAR)]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-authentication-rar[Configuração para as solicitações de autorização avançadas (RAR)]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-rar-simple-field]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-rar-simple-field[`+++quarkus.oidc.authentication.rar.simple.\"field\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.rar.simple.\"field\"+++[]\n"
@@ -6114,7 +6438,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RAR_SIMPLE__FIELD_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-rar-simple-field[quarkus.oidc.authentication.rar.simple.\"field\"] config_property_copy_button:quarkus.oidc.authentication.rar.simple.\"field\"[]"
 
 #, fuzzy
 msgid ""
@@ -6136,6 +6460,8 @@ msgstr "Configura os campos de string do parâmetro de solicitação ``authoriza
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RAR_SIMPLE__FIELD_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICATION_RAR_SIMPLE__FIELD_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-rar-array-field]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-rar-array-field[`+++quarkus.oidc.authentication.rar.array.\"field\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.rar.array.\"field\"+++[]\n"
@@ -6159,7 +6485,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RAR_ARRAY__FIELD_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-rar-array-field[quarkus.oidc.authentication.rar.array.\"field\"] config_property_copy_button:quarkus.oidc.authentication.rar.array.\"field\"[]"
 
 #, fuzzy
 msgid ""
@@ -6185,6 +6511,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 msgid "Map<String,List<String>>"
 msgstr "Map<String, List<String>>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-authentication-rar-type]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-authentication-rar-type[`+++quarkus.oidc.authentication.rar.type+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.authentication.rar.type+++[]\n"
@@ -6200,7 +6528,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_AUTHENTICATION_RAR_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-rar-type[quarkus.oidc.authentication.rar.type] config_property_copy_button:quarkus.oidc.authentication.rar.type[]"
 
 #, fuzzy
 msgid ""
@@ -6230,6 +6558,8 @@ msgstr "obrigatório [círculo de exclamação]"
 msgid "[[quarkus-oidc_section_quarkus-oidc-code-grant]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-code-grant[Configuration to complete an authorization code flow grant]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-code-grant[Configuração para concluir uma concessão de fluxo de código de autorização]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-code-grant-extra-params-parameter-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-code-grant-extra-params-parameter-name[`+++quarkus.oidc.code-grant.extra-params.\"parameter-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.code-grant.extra-params.\"parameter-name\"+++[]\n"
@@ -6245,7 +6575,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CODE_GRANT_EXTRA_PARAMS__PARAMETER_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-code-grant-extra-params-parameter-name[quarkus.oidc.code-grant.extra-params.\"nome-do-parâmetro\"] config_property_copy_button:quarkus.oidc.code-grant.extra-params.\"nome-do-parâmetro\"[]"
 
 #, fuzzy
 msgid ""
@@ -6267,6 +6597,8 @@ msgstr "Parâmetros adicionais, além dos parâmetros `“code”` e `“redirec
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CODE_GRANT_EXTRA_PARAMS__PARAMETER_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CODE_GRANT_EXTRA_PARAMS__PARAMETER_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-code-grant-headers-header-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-code-grant-headers-header-name[`+++quarkus.oidc.code-grant.headers.\"header-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.code-grant.headers.\"header-name\"+++[]\n"
@@ -6282,7 +6614,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_CODE_GRANT_HEADERS__HEADER_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-code-grant-headers-header-name[quarkus.oidc.code-grant.headers.\"nome-do-cabeçalho\"] config_property_copy_button:quarkus.oidc.code-grant.headers.\"nome-do-cabeçalho\"[]"
 
 #, fuzzy
 msgid ""
@@ -6308,6 +6640,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CODE_GRANT_
 msgid "[[quarkus-oidc_section_quarkus-oidc-token-state-manager]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-token-state-manager[Token state manager configuration]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-token-state-manager[Configuração do gerenciador de estado de tokens]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-strategy]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-state-manager-strategy[`+++quarkus.oidc.token-state-manager.strategy+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-state-manager.strategy+++[]\n"
@@ -6323,7 +6657,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_STRATEGY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-state-manager-strategy[quarkus.oidc.token-state-manager.strategy] config_property_copy_button:quarkus.oidc.token-state-manager.strategy[]"
 
 #, fuzzy
 msgid ""
@@ -6353,6 +6687,8 @@ msgstr "tooltip:keep-all-tokens[Manter tokens de identificação, de acesso e de
 msgid "tooltip:keep-all-tokens[Keep ID, access and refresh tokens.]"
 msgstr "dica de ferramenta:keep-all-tokens[Manter tokens de identificação, de acesso e de atualização.]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-split-tokens]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-state-manager-split-tokens[`+++quarkus.oidc.token-state-manager.split-tokens+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-state-manager.split-tokens+++[]\n"
@@ -6368,7 +6704,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_SPLIT_TOKENS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-state-manager-split-tokens[quarkus.oidc.token-state-manager.split-tokens] config_property_copy_button:quarkus.oidc.token-state-manager.split-tokens[]"
 
 #, fuzzy
 msgid ""
@@ -6390,6 +6726,8 @@ msgstr "Por padrão, o TokenStateManager mantém todos os tokens (ID, acesso e a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_SPLIT_TOKENS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_STATE_MANAGER_SPLIT_TOKENS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-encryption-required]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-required[`+++quarkus.oidc.token-state-manager.encryption-required+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-state-manager.encryption-required+++[]\n"
@@ -6405,7 +6743,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_REQUIRED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-required[quarkus.oidc.token-state-manager.encryption-required] config_property_copy_button:quarkus.oidc.token-state-manager.encryption-required[]"
 
 #, fuzzy
 msgid ""
@@ -6427,6 +6765,8 @@ msgstr "Determina que o TokenStateManager armazene os tokens de forma criptograf
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_REQUIRED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_REQUIRED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-encryption-secret]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-secret[`+++quarkus.oidc.token-state-manager.encryption-secret+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-state-manager.encryption-secret+++[]\n"
@@ -6446,7 +6786,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_SECRET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-secret[quarkus.oidc.token-state-manager.encryption-secret] config_property_copy_button:quarkus.oidc.token-state-manager.encryption-secret[]"
 
 #, fuzzy
 msgid ""
@@ -6476,6 +6816,8 @@ msgstr "O comprimento do segredo utilizado para criptografar os tokens deve ter,
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_SECRET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_SECRET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-state-manager-encryption-algorithm]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-algorithm[`+++quarkus.oidc.token-state-manager.encryption-algorithm+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-state-manager.encryption-algorithm+++[]\n"
@@ -6491,7 +6833,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_STATE_MANAGER_ENCRYPTION_ALGORITHM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-state-manager-encryption-algorithm[quarkus.oidc.token-state-manager.encryption-algorithm] config_property_copy_button:quarkus.oidc.token-state-manager.encryption-algorithm[]"
 
 #, fuzzy
 msgid ""
@@ -6525,6 +6867,8 @@ msgstr "dica de ferramenta:a256-gcmkw[A chave de criptografia de conteúdo será
 msgid "[[quarkus-oidc_section_quarkus-oidc-jwks]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-jwks[How JsonWebKey verification key set should be acquired and managed]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-jwks[Como o conjunto de chaves de verificação do JsonWebKey deve ser obtido e gerenciado]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-resolve-early]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-jwks-resolve-early[`+++quarkus.oidc.jwks.resolve-early+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.jwks.resolve-early+++[]\n"
@@ -6542,7 +6886,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_RESOLVE_EARLY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-jwks-resolve-early[quarkus.oidc.jwks.resolve-early] config_property_copy_button:quarkus.oidc.jwks.resolve-early[]"
 
 #, fuzzy
 msgid ""
@@ -6568,6 +6912,8 @@ msgstr "A desativação desta propriedade adia a aquisição da chave até o mom
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_RESOLVE_EARLY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_JWKS_RESOLVE_EARLY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-cache-size]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-jwks-cache-size[`+++quarkus.oidc.jwks.cache-size+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.jwks.cache-size+++[]\n"
@@ -6583,7 +6929,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_CACHE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-jwks-cache-size[quarkus.oidc.jwks.cache-size] config_property_copy_button:quarkus.oidc.jwks.cache-size[]"
 
 #, fuzzy
 msgid ""
@@ -6605,6 +6951,8 @@ msgstr "Número máximo de chaves JWK que podem ser armazenadas em cache. Essa p
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_CACHE_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_JWKS_CACHE_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-cache-time-to-live]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-jwks-cache-time-to-live[`+++quarkus.oidc.jwks.cache-time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.jwks.cache-time-to-live+++[]\n"
@@ -6620,7 +6968,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_CACHE_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-jwks-cache-time-to-live[quarkus.oidc.jwks.cache-time-to-live] config_property_copy_button:quarkus.oidc.jwks.cache-time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -6642,6 +6990,8 @@ msgstr "Número de minutos durante os quais uma chave JWK pode permanecer em cac
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_CACHE_TIME_TO_LIVE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_JWKS_CACHE_TIME_TO_LIVE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-clean-up-timer-interval]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-jwks-clean-up-timer-interval[`+++quarkus.oidc.jwks.clean-up-timer-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.jwks.clean-up-timer-interval+++[]\n"
@@ -6657,7 +7007,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_CLEAN_UP_TIMER_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-jwks-clean-up-timer-interval[quarkus.oidc.jwks.clean-up-timer-interval] config_property_copy_button:quarkus.oidc.jwks.clean-up-timer-interval[]"
 
 #, fuzzy
 msgid ""
@@ -6679,6 +7029,8 @@ msgstr "Intervalo do temporizador de cache. Se esta propriedade estiver definida
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_CLEAN_UP_TIMER_INTERVAL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_JWKS_CLEAN_UP_TIMER_INTERVAL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-jwks-try-all]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-jwks-try-all[`+++quarkus.oidc.jwks.try-all+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.jwks.try-all+++[]\n"
@@ -6694,7 +7046,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_JWKS_TRY_ALL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-jwks-try-all[quarkus.oidc.jwks.try-all] config_property_copy_button:quarkus.oidc.jwks.try-all[]"
 
 #, fuzzy
 msgid ""
@@ -6720,6 +7072,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_JWKS_TRY_AL
 msgid "[[quarkus-oidc_section_quarkus-oidc-token-cache]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-token-cache[Default TokenIntrospection and UserInfo Cache configuration]##"
 msgstr " link:#quarkus-oidc_section_quarkus-oidc-token-cache[Configuração padrão do TokenIntrospection e do cache do UserInfo]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-cache-max-size]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-cache-max-size[`+++quarkus.oidc.token-cache.max-size+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-cache.max-size+++[]\n"
@@ -6732,7 +7086,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_CACHE_MAX_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-cache-max-size[quarkus.oidc.token-cache.max-size] config_property_copy_button:quarkus.oidc.token-cache.max-size[]"
 
 #, fuzzy
 msgid ""
@@ -6752,6 +7106,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_CACHE
 msgid "`+++0+++`"
 msgstr "`0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-cache-time-to-live]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-cache-time-to-live[`+++quarkus.oidc.token-cache.time-to-live+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-cache.time-to-live+++[]\n"
@@ -6764,7 +7120,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_CACHE_TIME_TO_LIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-cache-time-to-live[quarkus.oidc.token-cache.time-to-live] config_property_copy_button:quarkus.oidc.token-cache.time-to-live[]"
 
 #, fuzzy
 msgid ""
@@ -6784,6 +7140,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_CACHE
 msgid "`+++3M+++`"
 msgstr "`3M`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-cache-clean-up-timer-interval]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-cache-clean-up-timer-interval[`+++quarkus.oidc.token-cache.clean-up-timer-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token-cache.clean-up-timer-interval+++[]\n"
@@ -6796,7 +7154,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OIDC_TOKEN_CACHE_CLEAN_UP_TIMER_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-cache-clean-up-timer-interval[quarkus.oidc.token-cache.clean-up-timer-interval] config_property_copy_button:quarkus.oidc.token-cache.clean-up-timer-interval[]"
 
 #, fuzzy
 msgid ""
@@ -6851,6 +7209,8 @@ msgstr "Configuração dos serviços de desenvolvimento do Keycloak"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada em tempo de compilação - Todas as outras propriedades de configuração podem ser substituídas em tempo de execução <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-enabled]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-enabled[`+++quarkus.keycloak.devservices.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.enabled+++[]\n"
@@ -6863,7 +7223,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-enabled[quarkus.keycloak.devservices.enabled] config_property_copy_button:quarkus.keycloak.devservices.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -6879,6 +7239,8 @@ msgstr "Opção para ativar (padrão) ou desativar o Dev Services. Quando ativad
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-image-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-image-name[`+++quarkus.keycloak.devservices.image-name+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.image-name+++[]\n"
@@ -6891,7 +7253,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-image-name[quarkus.keycloak.devservices.image-name] config_property_copy_button:quarkus.keycloak.devservices.image-name[]"
 
 #, fuzzy
 msgid ""
@@ -6911,6 +7273,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERV
 msgid "`{keycloak-image}`"
 msgstr "`{keycloak-image}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-keycloak-x-image]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-keycloak-x-image[`+++quarkus.keycloak.devservices.keycloak-x-image+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.keycloak-x-image+++[]\n"
@@ -6923,7 +7287,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-keycloak-x-image[quarkus.keycloak.devservices.keycloak-x-image] config_property_copy_button:quarkus.keycloak.devservices.keycloak-x-image[]"
 
 #, fuzzy
 msgid ""
@@ -6939,6 +7303,8 @@ msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem �
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-shared]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-shared[`+++quarkus.keycloak.devservices.shared+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.shared+++[]\n"
@@ -6951,7 +7317,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHARED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-shared[quarkus.keycloak.devservices.shared] config_property_copy_button:quarkus.keycloak.devservices.shared[]"
 
 #, fuzzy
 msgid ""
@@ -6967,6 +7333,8 @@ msgstr "Determina se o contêiner do Keycloak é compartilhado. Quando compartil
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHARED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SHARED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-service-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-service-name[`+++quarkus.keycloak.devservices.service-name+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.service-name+++[]\n"
@@ -6979,7 +7347,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SERVICE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-service-name[quarkus.keycloak.devservices.service-name] config_property_copy_button:quarkus.keycloak.devservices.service-name[]"
 
 #, fuzzy
 msgid ""
@@ -6999,6 +7367,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERV
 msgid "`+++keycloak+++`"
 msgstr "`Keycloak`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-path]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-path[`+++quarkus.keycloak.devservices.realm-path+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.realm-path+++[]\n"
@@ -7013,7 +7383,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-path[quarkus.keycloak.devservices.realm-path] config_property_copy_button:quarkus.keycloak.devservices.realm-path[]"
 
 #, fuzzy
 msgid ""
@@ -7033,6 +7403,8 @@ msgstr "Para saber mais sobre os arquivos de realm do Keycloak, consulte a link:
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-aliases-alias-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-aliases-alias-name[`+++quarkus.keycloak.devservices.resource-aliases.\"alias-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.resource-aliases.\"alias-name\"+++[]\n"
@@ -7045,7 +7417,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_ALIASES__ALIAS_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-aliases-alias-name[quarkus.keycloak.devservices.resource-aliases.\"alias-name\"] config_property_copy_button:quarkus.keycloak.devservices.resource-aliases.\"alias-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -7061,6 +7433,8 @@ msgstr "Aliases para recursos adicionais de classe ou do sistema de arquivos uti
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_ALIASES__ALIAS_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_ALIASES__ALIAS_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-mappings-resource-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-mappings-resource-name[`+++quarkus.keycloak.devservices.resource-mappings.\"resource-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.resource-mappings.\"resource-name\"+++[]\n"
@@ -7073,7 +7447,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_MAPPINGS__RESOURCE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-mappings-resource-name[quarkus.keycloak.devservices.resource-mappings.\"resource-name\"] config_property_copy_button:quarkus.keycloak.devservices.resource-mappings.\"resource-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -7089,6 +7463,8 @@ msgstr "Recursos adicionais de classe ou do sistema de arquivos utilizados para 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_MAPPINGS__RESOURCE_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_MAPPINGS__RESOURCE_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-java-opts]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-java-opts[`+++quarkus.keycloak.devservices.java-opts+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.java-opts+++[]\n"
@@ -7101,7 +7477,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-java-opts[quarkus.keycloak.devservices.java-opts] config_property_copy_button:quarkus.keycloak.devservices.java-opts[]"
 
 #, fuzzy
 msgid ""
@@ -7117,6 +7493,8 @@ msgstr "As variáveis `JAVA_OPTS` passadas à JVM do Keycloak"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-show-logs]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-show-logs[`+++quarkus.keycloak.devservices.show-logs+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.show-logs+++[]\n"
@@ -7129,7 +7507,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-show-logs[quarkus.keycloak.devservices.show-logs] config_property_copy_button:quarkus.keycloak.devservices.show-logs[]"
 
 #, fuzzy
 msgid ""
@@ -7145,6 +7523,8 @@ msgstr "Exiba as mensagens de log do Keycloak com o prefixo “Keycloak:”."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-command]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-command[`+++quarkus.keycloak.devservices.start-command+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.start-command+++[]\n"
@@ -7157,7 +7537,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-command[quarkus.keycloak.devservices.start-command] config_property_copy_button:quarkus.keycloak.devservices.start-command[]"
 
 #, fuzzy
 msgid ""
@@ -7173,6 +7553,8 @@ msgstr "Comando de inicialização do Keycloak. Utilize esta propriedade para te
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-features]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-features[`+++quarkus.keycloak.devservices.features+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.features+++[]\n"
@@ -7185,7 +7567,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_FEATURES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-features[quarkus.keycloak.devservices.features] config_property_copy_button:quarkus.keycloak.devservices.features[]"
 
 #, fuzzy
 msgid ""
@@ -7201,6 +7583,8 @@ msgstr "Recursos do Keycloak. Utilize esta propriedade para habilitar um ou mais
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_FEATURES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_FEATURES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-name[`+++quarkus.keycloak.devservices.realm-name+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.realm-name+++[]\n"
@@ -7213,7 +7597,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-name[quarkus.keycloak.devservices.realm-name] config_property_copy_button:quarkus.keycloak.devservices.realm-name[]"
 
 #, fuzzy
 msgid ""
@@ -7229,6 +7613,8 @@ msgstr "O nome do reino do Keycloak. Essa propriedade é utilizada para criar o 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-realm]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-realm[`+++quarkus.keycloak.devservices.create-realm+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.create-realm+++[]\n"
@@ -7241,7 +7627,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-realm[quarkus.keycloak.devservices.create-realm] config_property_copy_button:quarkus.keycloak.devservices.create-realm[]"
 
 #, fuzzy
 msgid ""
@@ -7257,6 +7643,8 @@ msgstr "Especifica se o reino do Keycloak deve ser criado quando nenhum arquivo 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-client]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-client[`+++quarkus.keycloak.devservices.create-client+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.create-client+++[]\n"
@@ -7269,7 +7657,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_CLIENT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-client[quarkus.keycloak.devservices.create-client] config_property_copy_button:quarkus.keycloak.devservices.create-client[]"
 
 #, fuzzy
 msgid ""
@@ -7285,6 +7673,8 @@ msgstr "Especifica se deve criar o ID de cliente padrão ``quarkus-app` ` com um
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_CLIENT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_CLIENT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-with-disabled-tenant]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-with-disabled-tenant[`+++quarkus.keycloak.devservices.start-with-disabled-tenant+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.start-with-disabled-tenant+++[]\n"
@@ -7297,7 +7687,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_WITH_DISABLED_TENANT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-with-disabled-tenant[quarkus.keycloak.devservices.start-with-disabled-tenant] config_property_copy_button:quarkus.keycloak.devservices.start-with-disabled-tenant[]"
 
 #, fuzzy
 msgid ""
@@ -7313,6 +7703,8 @@ msgstr "Especifica se o contêiner deve ser iniciado mesmo que o locatário OIDC
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_WITH_DISABLED_TENANT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_START_WITH_DISABLED_TENANT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-users-users]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-users-users[`+++quarkus.keycloak.devservices.users.\"users\"+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.users.\"users\"+++[]\n"
@@ -7325,7 +7717,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_USERS__USERS_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-users-users[quarkus.keycloak.devservices.users.\"users\"] config_property_copy_button:quarkus.keycloak.devservices.users.\"users\"[]"
 
 #, fuzzy
 msgid ""
@@ -7341,6 +7733,8 @@ msgstr "Um mapeamento entre nomes de usuário e senhas do Keycloak. Se estiver v
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_USERS__USERS_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_USERS__USERS_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-roles-role-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-roles-role-name[`+++quarkus.keycloak.devservices.roles.\"role-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.roles.\"role-name\"+++[]\n"
@@ -7353,7 +7747,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ROLES__ROLE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-roles-role-name[quarkus.keycloak.devservices.roles.\"role-name\"] config_property_copy_button:quarkus.keycloak.devservices.roles.\"role-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -7369,6 +7763,8 @@ msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, são 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ROLES__ROLE_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ROLES__ROLE_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-port]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-port[`+++quarkus.keycloak.devservices.port+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.port+++[]\n"
@@ -7383,7 +7779,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-port[quarkus.keycloak.devservices.port] config_property_copy_button:quarkus.keycloak.devservices.port[]"
 
 #, fuzzy
 msgid ""
@@ -7403,6 +7799,8 @@ msgstr "Caso não seja especificado, é selecionada uma porta aleatória."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_PORT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_PORT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-env-environment-variable-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-env-environment-variable-name[`+++quarkus.keycloak.devservices.container-env.\"environment-variable-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.container-env.\"environment-variable-name\"+++[]\n"
@@ -7415,7 +7813,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-env-environment-variable-name[quarkus.keycloak.devservices.container-env.\"nome-da-variável-de-ambiente\"] config_property_copy_button:quarkus.keycloak.devservices.container-env.\"nome-da-variável-de-ambiente\"[]"
 
 #, fuzzy
 msgid ""
@@ -7431,6 +7829,8 @@ msgstr "Variáveis de ambiente a serem passadas ao contêiner."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-memory-limit]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-memory-limit[`+++quarkus.keycloak.devservices.container-memory-limit+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.container-memory-limit+++[]\n"
@@ -7445,7 +7845,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_MEMORY_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-memory-limit[quarkus.keycloak.devservices.container-memory-limit] config_property_copy_button:quarkus.keycloak.devservices.container-memory-limit[]"
 
 #, fuzzy
 msgid ""
@@ -7473,6 +7873,8 @@ msgstr "MemorySize link:#memory-size-note-anchor-quarkus-devservices-keycloak_qu
 msgid "`+++1250M+++`"
 msgstr "`1.250 m`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-web-client-timeout]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-web-client-timeout[`+++quarkus.keycloak.devservices.web-client-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.web-client-timeout+++[]\n"
@@ -7485,7 +7887,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_WEB_CLIENT_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-web-client-timeout[quarkus.keycloak.devservices.web-client-timeout] config_property_copy_button:quarkus.keycloak.devservices.web-client-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -7505,6 +7907,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERV
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-devservices-keycloak_quarkus-keycloak[icon:question-circle[title=More information about the Duration format]]"
 msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-devservices-keycloak_quarkus-keycloak[[círculo de pergunta]]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-disable-https]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-disable-https[`+++quarkus.keycloak.devservices.disable-https+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.disable-https+++[]\n"
@@ -7517,7 +7921,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_DISABLE_HTTPS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-disable-https[quarkus.keycloak.devservices.disable-https] config_property_copy_button:quarkus.keycloak.devservices.disable-https[]"
 
 #, fuzzy
 msgid ""
@@ -7533,6 +7937,8 @@ msgstr "Especifica se o HTTPS deve ser desativado no reino mestre, definindo `ss
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_DISABLE_HTTPS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_DISABLE_HTTPS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-host-accessible-ports]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-host-accessible-ports[`+++quarkus.keycloak.devservices.host-accessible-ports+++`]##\n"
 "config_property_copy_button:+++quarkus.keycloak.devservices.host-accessible-ports+++[]\n"
@@ -7545,7 +7951,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_HOST_ACCESSIBLE_PORTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-host-accessible-ports[quarkus.keycloak.devservices.host-accessible-ports] config_property_copy_button:quarkus.keycloak.devservices.host-accessible-ports[]"
 
 #, fuzzy
 msgid ""

@@ -149,8 +149,10 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-configuration-configuration-for-the-service]]link:#quarkus-stork_quarkus-stork-service-configuration-configuration-for-the-service[Configuration for the service]"
-msgstr ""
+msgstr "link:#quarkus-stork_quarkus-stork-service-configuration-configuration-for-the-service[Configuração do serviço]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -158,6 +160,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-service-discovery-type]]`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-type[quarkus.stork.\"service-name\".service-discovery.type]`\n"
 "\n"
@@ -168,10 +172,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_DISCOVERY_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-type[quarkus.stork.\"nome-do-serviço\".descoberta-de-serviços.tipo]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-name-service-discovery-type]]`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-type[quarkus.stork.\"service-name\".service-discovery.type]`"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-type[quarkus.stork.\"nome-do-serviço\".descoberta-de-serviços.tipo]`"
 
 #, fuzzy
 msgid "Configures the service discovery type, e.g. \"consul\". ServiceDiscoveryProvider for the type has to be available"
@@ -192,6 +198,8 @@ msgstr "string"
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
 msgstr "obrigatório [círculo de exclamação]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-service-discovery-params]]`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-params[quarkus.stork.\"service-name\".service-discovery]`\n"
 "\n"
@@ -202,22 +210,28 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_DISCOVERY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-params[quarkus.stork.\"nome-do-serviço\".descoberta-de-serviços]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-name-service-discovery-params]]`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-params[quarkus.stork.\"service-name\".service-discovery]`"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-discovery-params[quarkus.stork.\"nome-do-serviço\".descoberta-de-serviços]`"
 
 #, fuzzy
 msgid "ServiceDiscovery parameters. Check the documentation of the selected service discovery type for available parameters."
 msgstr "Parâmetros do ServiceDiscovery. Consulte a documentação do tipo de descoberta de serviço selecionado para conhecer os parâmetros disponíveis."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_DISCOVERY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_STORK__SERVICE_NAME__SERVICE_DISCOVERY[]"
 
 #, fuzzy
 msgid "`Map<String,String>`"
 msgstr "`Map<String, String>`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-load-balancer-type]]`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-type[quarkus.stork.\"service-name\".load-balancer.type]`\n"
 "\n"
@@ -228,10 +242,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__LOAD_BALANCER_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-type[quarkus.stork.\"nome-do-serviço\".balanceador-de-carga.tipo]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-name-load-balancer-type]]`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-type[quarkus.stork.\"service-name\".load-balancer.type]`"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-type[quarkus.stork.\"nome-do-serviço\".balanceador-de-carga.tipo]`"
 
 #, fuzzy
 msgid "Configures load balancer type, e.g. \"round-robin\". A LoadBalancerProvider for the type has to be available"
@@ -241,9 +257,13 @@ msgstr "Configura o tipo de balanceador de carga, por exemplo, “round-robin”
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__LOAD_BALANCER_TYPE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_STORK__SERVICE_NAME__LOAD_BALANCER_TYPE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`round-robin`"
-msgstr ""
+msgstr "`rodízio`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-load-balancer-parameters]]`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-parameters[quarkus.stork.\"service-name\".load-balancer]`\n"
 "\n"
@@ -254,23 +274,31 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__LOAD_BALANCER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-parameters[quarkus.stork.\"nome-do-serviço\".balanceador-de-carga]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-name-load-balancer-parameters]]`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-parameters[quarkus.stork.\"service-name\".load-balancer]`"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-load-balancer-parameters[quarkus.stork.\"nome-do-serviço\".balanceador-de-carga]`"
 
 #, fuzzy
 msgid "Load Balancer parameters. Check the documentation of the selected load balancer type for available parameters"
 msgstr "Parâmetros do balanceador de carga. Consulte a documentação do tipo de balanceador de carga selecionado para conhecer os parâmetros disponíveis"
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__LOAD_BALANCER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_STORK__SERVICE_NAME__LOAD_BALANCER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-service-registrar-serviceregistrar-configuration-for-the-service]]link:#quarkus-stork_quarkus-stork-service-name-service-registrar-serviceregistrar-configuration-for-the-service[ServiceRegistrar configuration for the service]\n"
 "This configuration section is optional"
-msgstr ""
+msgstr "link:#quarkus-stork_quarkus-stork-service-name-service-registrar-serviceregistrar-configuration-for-the-service[Configuração do ServiceRegistrar para o serviço] . Esta seção de configuração é opcional"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-service-registrar-type]]`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-type[quarkus.stork.\"service-name\".service-registrar.type]`\n"
 "\n"
@@ -281,10 +309,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_REGISTRAR_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-type[quarkus.stork.\"nome-do-serviço\".registrador-de-serviços.tipo]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-name-service-registrar-type]]`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-type[quarkus.stork.\"service-name\".service-registrar.type]`"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-type[quarkus.stork.\"nome-do-serviço\".registrador-de-serviços.tipo]`"
 
 #, fuzzy
 msgid "Configures service registrar type, e.g. \"consul\". A ServiceRegistrarProvider for the type has to be available"
@@ -294,6 +324,8 @@ msgstr "Configura o tipo de registrador de serviços, por exemplo, “consul”.
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_REGISTRAR_TYPE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_STORK__SERVICE_NAME__SERVICE_REGISTRAR_TYPE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-stork_quarkus-stork-service-name-service-registrar-parameters]]`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-parameters[quarkus.stork.\"service-name\".service-registrar]`\n"
 "\n"
@@ -304,14 +336,18 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_REGISTRAR+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-parameters[quarkus.stork.\"nome-do-serviço\".registro-de-serviços]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "[[quarkus-stork_quarkus-stork-service-name-service-registrar-parameters]]`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-parameters[quarkus.stork.\"service-name\".service-registrar]`"
-msgstr ""
+msgstr "`link:#quarkus-stork_quarkus-stork-service-name-service-registrar-parameters[quarkus.stork.\"nome-do-serviço\".registro-de-serviços]`"
 
 #, fuzzy
 msgid "Service Registrar parameters. Check the documentation of the selected registrar type for available parameters"
 msgstr "Parâmetros do registrador de serviços. Verifique a documentação do tipo de registrador selecionado para conhecer os parâmetros disponíveis"
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_STORK__SERVICE_NAME__SERVICE_REGISTRAR+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_STORK__SERVICE_NAME__SERVICE_REGISTRAR[]"

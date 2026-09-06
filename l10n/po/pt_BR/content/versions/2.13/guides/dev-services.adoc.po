@@ -872,6 +872,8 @@ msgstr "[lock] `link:#quarkus-kafka-client-config-group-kafka-dev-services-build
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_PORT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_PORT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.image-name]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.image-name[quarkus.kafka.devservices.image-name]`\n"
 "\n"
@@ -885,26 +887,30 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.image-name[quarkus.kafka.devservices.image-name]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.image-name]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.image-name[quarkus.kafka.devservices.image-name]`"
 msgstr "[lock] `link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.image-name[quarkus.kafka.devservices.image-name]`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The Kafka container image to use.\n"
 "Only Redpanda and Strimzi images are supported. Default image is Redpanda.\n"
 "Note that Strimzi images are launched in Kraft mode. In order to use a Strimzi image you need to set a compatible image name such as `quay.io/strimzi-test-container/test-container:0.100.0-kafka-3.1.0` or `quay.io/strimzi/kafka:0.27.1-kafka-3.0.0`\n"
 "For Redpanda: See https://vectorized.io/docs/quick-start-docker/ and https://hub.docker.com/r/vectorized/redpanda\n"
 "For Strimzi: See https://github.com/strimzi/test-container and https://quay.io/repository/strimzi-test-container/test-container"
-msgstr ""
+msgstr "A imagem de contêiner do Kafka a ser utilizada. Apenas as imagens Redpanda e Strimzi são compatíveis. A imagem padrão é a Redpanda. Observe que as imagens Strimzi são iniciadas no modo Kraft. Para utilizar uma imagem Strimzi, é necessário definir um nome de imagem compatível, como `quay.io/strimzi-test-container/test-container:0.100.0-kafka-3.1.0` ou `quay.io/strimzi/kafka:0.27.1-kafka-3.0.0` Para Redpanda: Consulte https://vectorized.io/docs/quick-start-docker/ e https://hub.docker.com/r/vectorized/redpanda Para Strimzi: Consulte https://github.com/strimzi/test-container e https://quay.io/repository/strimzi-test-container/test-container"
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_IMAGE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_IMAGE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`docker.io/vectorized/redpanda:v22.1.7`"
-msgstr ""
+msgstr "`docker.io/vectorized/redpanda:v22.1.7`"
 
 #, fuzzy
 msgid ""
@@ -993,15 +999,19 @@ msgstr "Tempo limite para chamadas do cliente de administração utilizadas na c
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_TOPIC_PARTITIONS_TIMEOUT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_TOPIC_PARTITIONS_TIMEOUT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duração] link:#duration-note-anchor-{summaryTableId}[[círculo de pergunta]]"
 
 #, fuzzy
 msgid "`2S`"
 msgstr "`2S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.redpanda.transaction-enabled]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.redpanda.transaction-enabled[quarkus.kafka.devservices.redpanda.transaction-enabled]`\n"
 "\n"
@@ -1011,14 +1021,16 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_REDPANDA_TRANSACTION_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.redpanda.transaction-enabled[quarkus.kafka.devservices.redpanda.transaction-enabled]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.redpanda.transaction-enabled]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.redpanda.transaction-enabled[quarkus.kafka.devservices.redpanda.transaction-enabled]`"
 msgstr "[lock] `link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus.kafka.devservices.redpanda.transaction-enabled[quarkus.kafka.devservices.redpanda.transaction-enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "Enables transaction support. Also enables the producer idempotence. Find more info about Red Panda transaction support on link:https://vectorized.io/blog/fast-transactions/[https://vectorized.io/blog/fast-transactions/]. Notice that link:https://cwiki.apache.org/confluence/display/KAFKA/KIP-447%3A+Producer+scalability+for+exactly+once+semantics[KIP-447 (producer scalability for exactly once semantic)] and link:https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=89068820[KIP-360 (Improve reliability of idempotent/transactional producer)] are *not* supported."
-msgstr ""
+msgstr "Habilita o suporte a transações. Habilita também a idempotência do produtor. Encontre mais informações sobre o suporte a transações do Red Panda em https://vectorized.io/blog/fast-transactions/ . Observe que link:https://cwiki.apache.org/confluence/display/KAFKA/KIP-447%3A+Producer+scalability+for+exactly+once+semantics[o KIP-447 (escalabilidade do produtor para a semântica “exatamente uma vez”)] e link:https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=89068820[o KIP-360 (melhoria da confiabilidade do produtor idempotente/transacional)] *não* são suportados."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_REDPANDA_TRANSACTION_ENABLED+++[]"
@@ -1113,6 +1125,8 @@ msgstr "Se o DevServices foi explicitamente ativado ou desativado. Quando o DevS
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.image-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.image-name[quarkus.keycloak.devservices.image-name]`\n"
 "\n"
@@ -1123,23 +1137,27 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.image-name[quarkus.keycloak.devservices.image-name]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.image-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.image-name[quarkus.keycloak.devservices.image-name]`"
 msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.image-name[quarkus.keycloak.devservices.image-name]`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "The container image name to use, for container based DevServices providers. Image with a Quarkus based distribution is used by default. Image with a WildFly based distribution can be selected instead, for example: 'quay.io/keycloak/keycloak:19.0.1-legacy'.\n"
 "Note Keycloak Quarkus and Keycloak WildFly images are initialized differently. By default, Dev Services for Keycloak will assume it is a Keycloak Quarkus image if the image version does not end with a '-legacy' string. Set 'quarkus.keycloak.devservices.keycloak-x-image' to override this check."
-msgstr ""
+msgstr "O nome da imagem de contêiner a ser utilizada, para provedores de DevServices baseados em contêineres. Por padrão, é utilizada uma imagem com uma distribuição baseada em Quarkus. Em vez disso, é possível selecionar uma imagem com uma distribuição baseada em WildFly, por exemplo: 'quay.io/keycloak/keycloak:19.0.1-legacy'. Observação: as imagens do Keycloak Quarkus e do Keycloak WildFly são inicializadas de maneira diferente. Por padrão, o Dev Services for Keycloak presumirá que se trata de uma imagem do Keycloak Quarkus se a versão da imagem não terminar com a sequência “-legacy”. Defina “quarkus.keycloak.devservices.keycloak-x-image” para substituir essa verificação."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`quay.io/keycloak/keycloak:19.0.1`"
-msgstr ""
+msgstr "`quay.io/keycloak/keycloak:19.0.1`"
 
 #, fuzzy
 msgid ""
@@ -1225,6 +1243,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERV
 msgid "`quarkus`"
 msgstr "`quarkus`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.realm-path]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.realm-path[quarkus.keycloak.devservices.realm-path]`\n"
 "\n"
@@ -1234,14 +1254,16 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.realm-path[quarkus.keycloak.devservices.realm-path]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.realm-path]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.realm-path[quarkus.keycloak.devservices.realm-path]`"
 msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus.keycloak.devservices.realm-path[quarkus.keycloak.devservices.realm-path]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "The class or file system path to a Keycloak realm file which will be used to initialize Keycloak."
-msgstr ""
+msgstr "A classe ou o caminho no sistema de arquivos para um arquivo de reino do Keycloak que será utilizado para inicializar o Keycloak."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH+++[]"
@@ -2176,6 +2198,8 @@ msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-client-config-group-dev-services-config_quarkus.redis.devservices.image-name]]`link:#quarkus-redis-client-config-group-dev-services-config_quarkus.redis.devservices.image-name[quarkus.redis.devservices.image-name]`\n"
 "\n"
@@ -2185,7 +2209,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-redis-client-config-group-dev-services-config_quarkus.redis.devservices.image-name[quarkus.redis.devservices.image-name]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-client-config-group-dev-services-config_quarkus.redis.devservices.image-name]]`link:#quarkus-redis-client-config-group-dev-services-config_quarkus.redis.devservices.image-name[quarkus.redis.devservices.image-name]`"
@@ -2297,6 +2321,8 @@ msgstr "[lock] `link:#quarkus-redis-client-config-group-dev-services-config_quar
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-client-config-group-dev-services-config_quarkus.redis.-additional-redis-clients-.devservices.image-name]]`link:#quarkus-redis-client-config-group-dev-services-config_quarkus.redis.-additional-redis-clients-.devservices.image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`\n"
 "\n"
@@ -2306,7 +2332,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-redis-client-config-group-dev-services-config_quarkus.redis.-additional-redis-clients-.devservices.image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-client-config-group-dev-services-config_quarkus.redis.-additional-redis-clients-.devservices.image-name]]`link:#quarkus-redis-client-config-group-dev-services-config_quarkus.redis.-additional-redis-clients-.devservices.image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`"
@@ -2660,6 +2686,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DE
 msgid "`docker.elastic.co/elasticsearch/elasticsearch:7.17.0`"
 msgstr "`docker.elastic.co/elasticsearch/elasticsearch:7.17.0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`\n"
 "\n"
@@ -2669,21 +2697,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 msgstr "[lock] `link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus.elasticsearch.devservices.java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "The value for the ES_JAVA_OPTS env variable. Defaults to setting the heap to 1GB."
-msgstr ""
+msgstr "O valor da variável de ambiente ES_JAVA_OPTS. Por padrão, define o heap em 1 GB."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`-Xmx1g`"
-msgstr ""
+msgstr "`-Xmx1g`"
 
 #, fuzzy
 msgid ""

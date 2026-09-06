@@ -174,8 +174,10 @@ msgid ""
 "an instance of our only DAO, `FruitDao`."
 msgstr "A anotação `@Mapper` é mais uma anotação reconhecida pelo DataStax Object Mapper. Um mapeador é responsável pela construção de instâncias de DAOs - nesse caso, nosso mapeador está construindo uma instância de nosso único DAO, `FruitDao` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "Creating a Service &amp; JSON REST Endpoint"
-msgstr ""
+msgstr "Criação de um serviço e de um endpoint REST em JSON"
 
 #, fuzzy
 msgid ""

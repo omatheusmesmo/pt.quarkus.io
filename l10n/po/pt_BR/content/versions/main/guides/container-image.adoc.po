@@ -286,6 +286,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-group]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-group[`+++quarkus.container-image.group+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.group+++[]\n"
@@ -298,7 +300,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_GROUP+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-group[quarkus.container-image.group] config_property_copy_button:quarkus.container-image.group[]"
 
 #, fuzzy
 msgid ""
@@ -321,6 +323,8 @@ msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-name]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-name[`+++quarkus.container-image.name+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.name+++[]\n"
@@ -333,7 +337,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-name[quarkus.container-image.name] config_property_copy_button:quarkus.container-image.name[]"
 
 #, fuzzy
 msgid ""
@@ -353,6 +357,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_
 msgid "`+++${quarkus.application.name:unset}+++`"
 msgstr "`${quarkus.application.name:unset}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-tag]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-tag[`+++quarkus.container-image.tag+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.tag+++[]\n"
@@ -365,7 +371,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_TAG+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-tag[quarkus.container-image.tag] config_property_copy_button:quarkus.container-image.tag[]"
 
 #, fuzzy
 msgid ""
@@ -381,6 +387,8 @@ msgstr "A tag da imagem do contêiner. Se não for definida, o padrão será a v
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_TAG+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_TAG[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-additional-tags]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-additional-tags[`+++quarkus.container-image.additional-tags+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.additional-tags+++[]\n"
@@ -393,7 +401,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_ADDITIONAL_TAGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-additional-tags[quarkus.container-image.additional-tags] config_property_copy_button:quarkus.container-image.additional-tags[]"
 
 #, fuzzy
 msgid ""
@@ -413,6 +421,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-labels-label-name]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-labels-label-name[`+++quarkus.container-image.labels.\"label-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.labels.\"label-name\"+++[]\n"
@@ -425,7 +435,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_LABELS__LABEL_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-labels-label-name[quarkus.container-image.labels.\"label-name\"] config_property_copy_button:quarkus.container-image.labels.\"label-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -445,6 +455,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_
 msgid "Map<String,String>"
 msgstr "Map<String, String>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-registry]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-registry[`+++quarkus.container-image.registry+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.registry+++[]\n"
@@ -457,7 +469,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_REGISTRY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-registry[quarkus.container-image.registry] config_property_copy_button:quarkus.container-image.registry[]"
 
 #, fuzzy
 msgid ""
@@ -473,6 +485,8 @@ msgstr "O registro de contêineres a ser utilizado"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_REGISTRY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_REGISTRY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-image]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-image[`+++quarkus.container-image.image+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.image+++[]\n"
@@ -485,7 +499,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-image[quarkus.container-image.image] config_property_copy_button:quarkus.container-image.image[]"
 
 #, fuzzy
 msgid ""
@@ -501,6 +515,8 @@ msgstr "Representa a sequência completa da imagem. Se definido, os campos `“g
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-username]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-username[`+++quarkus.container-image.username+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.username+++[]\n"
@@ -513,7 +529,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-username[quarkus.container-image.username] config_property_copy_button:quarkus.container-image.username[]"
 
 #, fuzzy
 msgid ""
@@ -529,6 +545,8 @@ msgstr "O nome de usuário a ser utilizado para autenticação no repositório p
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_USERNAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_USERNAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-password]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-password[`+++quarkus.container-image.password+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.password+++[]\n"
@@ -541,7 +559,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-password[quarkus.container-image.password] config_property_copy_button:quarkus.container-image.password[]"
 
 #, fuzzy
 msgid ""
@@ -557,6 +575,8 @@ msgstr "A senha a ser utilizada para autenticação no repositório para o qual 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-insecure]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-insecure[`+++quarkus.container-image.insecure+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.insecure+++[]\n"
@@ -569,7 +589,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_INSECURE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-insecure[quarkus.container-image.insecure] config_property_copy_button:quarkus.container-image.insecure[]"
 
 #, fuzzy
 msgid ""
@@ -592,6 +612,8 @@ msgstr "booleano"
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-build]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-build[`+++quarkus.container-image.build+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.build+++[]\n"
@@ -604,7 +626,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_BUILD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-build[quarkus.container-image.build] config_property_copy_button:quarkus.container-image.build[]"
 
 #, fuzzy
 msgid ""
@@ -620,6 +642,8 @@ msgstr "Se será ou não realizada a criação de uma imagem."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_BUILD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_BUILD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-push]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-push[`+++quarkus.container-image.push+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.push+++[]\n"
@@ -632,7 +656,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_PUSH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-push[quarkus.container-image.push] config_property_copy_button:quarkus.container-image.push[]"
 
 #, fuzzy
 msgid ""
@@ -648,6 +672,8 @@ msgstr "Se a transferência da imagem será ou não realizada."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_PUSH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_PUSH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-builder]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-builder[`+++quarkus.container-image.builder+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.builder+++[]\n"
@@ -660,7 +686,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_BUILDER+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-builder[quarkus.container-image.builder] config_property_copy_button:quarkus.container-image.builder[]"
 
 #, fuzzy
 msgid ""
@@ -676,6 +702,8 @@ msgstr "O nome da extensão da imagem de contêiner a ser utilizada (por exemplo
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_BUILDER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONTAINER_IMAGE_BUILDER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image_quarkus-container-image-aot-image-suffix]] [.property-path]##link:#quarkus-container-image_quarkus-container-image-aot-image-suffix[`+++quarkus.container-image.aot-image-suffix+++`]##\n"
 "config_property_copy_button:+++quarkus.container-image.aot-image-suffix+++[]\n"
@@ -688,7 +716,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_CONTAINER_IMAGE_AOT_IMAGE_SUFFIX+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-aot-image-suffix[quarkus.container-image.aot-image-suffix] config_property_copy_button:quarkus.container-image.aot-image-suffix[]"
 
 #, fuzzy
 msgid ""
@@ -737,6 +765,8 @@ msgstr "Além das opções genéricas de imagem de contêiner, o site `container
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada em tempo de compilação - Todas as outras propriedades de configuração podem ser substituídas em tempo de execução <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-base-jvm-image]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-base-jvm-image[`+++quarkus.jib.base-jvm-image+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.base-jvm-image+++[]\n"
@@ -749,7 +779,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_JVM_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-jvm-image[quarkus.jib.base-jvm-image] config_property_copy_button:quarkus.jib.base-jvm-image[]"
 
 #, fuzzy
 msgid ""
@@ -757,13 +787,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.jib.base-jvm-image+++[]"
 msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-jvm-image[quarkus.jib.base-jvm-image] config_property_copy_button:quarkus.jib.base-jvm-image[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The base image to be used when a container image is being produced for the jar build. When the application is built against Java 25 or higher, `registry.access.redhat.com/ubi10/openjdk-25-runtime:1.24` is used as the default. Otherwise, when the application is built against Java 21 to Java 24, `registry.access.redhat.com/ubi10/openjdk-21-runtime:1.24` is used as the default. Otherwise `registry.access.redhat.com/ubi9/openjdk-17-runtime:1.24` is used as the default."
-msgstr ""
+msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo gerada para a compilação do jar. Quando a aplicação é compilada com base no Java 25 ou superior, `registry.access.redhat.com/ubi10/openjdk-25-runtime:1.24` é utilizada como padrão. Caso contrário, quando a aplicação for compilada com Java 21 a Java 24, `registry.access.redhat.com/ubi10/openjdk-21-runtime:1.24` é utilizada como padrão. Caso contrário, `registry.access.redhat.com/ubi9/openjdk-17-runtime:1.24` é utilizado como padrão."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_JVM_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_BASE_JVM_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-base-native-image]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-base-native-image[`+++quarkus.jib.base-native-image+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.base-native-image+++[]\n"
@@ -776,7 +810,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_NATIVE_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-native-image[quarkus.jib.base-native-image] config_property_copy_button:quarkus.jib.base-native-image[]"
 
 #, fuzzy
 msgid ""
@@ -784,16 +818,22 @@ msgid ""
 "config_property_copy_button:+++quarkus.jib.base-native-image+++[]"
 msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-native-image[quarkus.jib.base-native-image] config_property_copy_button:quarkus.jib.base-native-image[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The base image to be used when a container image is being produced for the native binary build. The default is \"quay.io/quarkus/ubi10-quarkus-micro-image:2.0\". You can also use \"registry.access.redhat.com/ubi10/ubi-minimal\" which is a bigger base image, but provide more built-in utilities such as the microdnf package manager."
-msgstr ""
+msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo gerada para a compilação binária nativa. O padrão é “quay.io/quarkus/ubi10-quarkus-micro-image:2.0”. Você também pode utilizar “registry.access.redhat.com/ubi10/ubi-minimal”, que é uma imagem base maior, mas oferece mais utilitários integrados, como o gerenciador de pacotes microdnf."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_NATIVE_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_BASE_NATIVE_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++quay.io/quarkus/ubi10-quarkus-micro-image:2.0+++`"
-msgstr ""
+msgstr "`quay.io/quarkus/ubi10-quarkus-micro-image:2.0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-jvm-arguments]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-jvm-arguments[`+++quarkus.jib.jvm-arguments+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.jvm-arguments+++[]\n"
@@ -806,7 +846,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_JVM_ARGUMENTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-jvm-arguments[quarkus.jib.jvm-arguments] config_property_copy_button:quarkus.jib.jvm-arguments[]"
 
 #, fuzzy
 msgid ""
@@ -826,6 +866,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_JVM_ARGUMENT
 msgid "`+++-Djava.util.logging.manager=org.jboss.logmanager.LogManager+++`"
 msgstr "`-Djava.util.logging.manager=org.jboss.logmanager.LogManager`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-jvm-additional-arguments]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-jvm-additional-arguments[`+++quarkus.jib.jvm-additional-arguments+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.jvm-additional-arguments+++[]\n"
@@ -838,7 +880,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_JVM_ADDITIONAL_ARGUMENTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-jvm-additional-arguments[quarkus.jib.jvm-additional-arguments] config_property_copy_button:quarkus.jib.jvm-additional-arguments[]"
 
 #, fuzzy
 msgid ""
@@ -854,6 +896,8 @@ msgstr "Argumentos adicionais da JVM a serem passados à JVM ao iniciar o aplica
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_JVM_ADDITIONAL_ARGUMENTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_JVM_ADDITIONAL_ARGUMENTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-native-arguments]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-native-arguments[`+++quarkus.jib.native-arguments+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.native-arguments+++[]\n"
@@ -866,7 +910,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_NATIVE_ARGUMENTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-native-arguments[quarkus.jib.native-arguments] config_property_copy_button:quarkus.jib.native-arguments[]"
 
 #, fuzzy
 msgid ""
@@ -882,6 +926,8 @@ msgstr "Argumentos adicionais a serem passados ao iniciar o aplicativo nativo"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_NATIVE_ARGUMENTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_NATIVE_ARGUMENTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-jvm-entrypoint]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-jvm-entrypoint[`+++quarkus.jib.jvm-entrypoint+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.jvm-entrypoint+++[]\n"
@@ -901,7 +947,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_JVM_ENTRYPOINT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-jvm-entrypoint[quarkus.jib.jvm-entrypoint] config_property_copy_button:quarkus.jib.jvm-entrypoint[]"
 
 #, fuzzy
 msgid ""
@@ -937,6 +983,8 @@ msgstr "Quando essa opção não estiver definida, um ponto de entrada padrão a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_JVM_ENTRYPOINT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_JVM_ENTRYPOINT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-native-entrypoint]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-native-entrypoint[`+++quarkus.jib.native-entrypoint+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.native-entrypoint+++[]\n"
@@ -955,7 +1003,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_NATIVE_ENTRYPOINT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-native-entrypoint[quarkus.jib.native-entrypoint] config_property_copy_button:quarkus.jib.native-entrypoint[]"
 
 #, fuzzy
 msgid ""
@@ -979,6 +1027,8 @@ msgstr "Mesmo que o campo ` `nativeArguments` ` esteja definido, ele será total
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_NATIVE_ENTRYPOINT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_NATIVE_ENTRYPOINT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-environment-variables-environment-variable-name]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-environment-variables-environment-variable-name[`+++quarkus.jib.environment-variables.\"environment-variable-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.environment-variables.\"environment-variable-name\"+++[]\n"
@@ -991,7 +1041,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_ENVIRONMENT_VARIABLES__ENVIRONMENT_VARIABLE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-environment-variables-environment-variable-name[quarkus.jib.environment-variables.\"nome-da-variável-de-ambiente\"] config_property_copy_button:quarkus.jib.environment-variables.\"nome-da-variável-de-ambiente\"[]"
 
 #, fuzzy
 msgid ""
@@ -1007,6 +1057,8 @@ msgstr "Variáveis de ambiente a serem adicionadas à imagem do contêiner"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_ENVIRONMENT_VARIABLES__ENVIRONMENT_VARIABLE_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_ENVIRONMENT_VARIABLES__ENVIRONMENT_VARIABLE_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-base-registry-username]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-base-registry-username[`+++quarkus.jib.base-registry-username+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.base-registry-username+++[]\n"
@@ -1019,7 +1071,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_REGISTRY_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-registry-username[quarkus.jib.base-registry-username] config_property_copy_button:quarkus.jib.base-registry-username[]"
 
 #, fuzzy
 msgid ""
@@ -1035,6 +1087,8 @@ msgstr "O nome de usuário a ser utilizado para autenticação no registro usado
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_REGISTRY_USERNAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_BASE_REGISTRY_USERNAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-base-registry-password]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-base-registry-password[`+++quarkus.jib.base-registry-password+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.base-registry-password+++[]\n"
@@ -1047,7 +1101,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_REGISTRY_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-registry-password[quarkus.jib.base-registry-password] config_property_copy_button:quarkus.jib.base-registry-password[]"
 
 #, fuzzy
 msgid ""
@@ -1063,6 +1117,8 @@ msgstr "A senha a ser utilizada para autenticação no registro usado para baixa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_REGISTRY_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_BASE_REGISTRY_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-ports]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-ports[`+++quarkus.jib.ports+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.ports+++[]\n"
@@ -1075,7 +1131,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_PORTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-ports[quarkus.jib.ports] config_property_copy_button:quarkus.jib.ports[]"
 
 #, fuzzy
 msgid ""
@@ -1099,6 +1155,8 @@ msgstr "lista de int"
 msgid "`+++${quarkus.http.port:8080}+++`"
 msgstr "`${quarkus.http.port:8080}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-user]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-user[`+++quarkus.jib.user+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.user+++[]\n"
@@ -1111,7 +1169,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_USER+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-user[quarkus.jib.user] config_property_copy_button:quarkus.jib.user[]"
 
 #, fuzzy
 msgid ""
@@ -1127,6 +1185,8 @@ msgstr "O usuário a ser utilizado na imagem gerada"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_USER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_USER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-working-directory]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-working-directory[`+++quarkus.jib.working-directory+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.working-directory+++[]\n"
@@ -1139,7 +1199,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_WORKING_DIRECTORY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-working-directory[quarkus.jib.working-directory] config_property_copy_button:quarkus.jib.working-directory[]"
 
 #, fuzzy
 msgid ""
@@ -1159,6 +1219,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_WORKING_DIRE
 msgid "`+++/home/jboss+++`"
 msgstr "`/home/jboss`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-always-cache-base-image]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-always-cache-base-image[`+++quarkus.jib.always-cache-base-image+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.always-cache-base-image+++[]\n"
@@ -1171,7 +1233,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_ALWAYS_CACHE_BASE_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-always-cache-base-image[quarkus.jib.always-cache-base-image] config_property_copy_button:quarkus.jib.always-cache-base-image[]"
 
 #, fuzzy
 msgid ""
@@ -1187,6 +1249,8 @@ msgstr "Controla a otimização que ignora o download de camadas de imagem base 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_ALWAYS_CACHE_BASE_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_ALWAYS_CACHE_BASE_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-platforms]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-platforms[`+++quarkus.jib.platforms+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.platforms+++[]\n"
@@ -1211,7 +1275,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_PLATFORMS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-platforms[quarkus.jib.platforms] config_property_copy_button:quarkus.jib.platforms[]"
 
 #, fuzzy
 msgid ""
@@ -1235,6 +1299,8 @@ msgstr "Caso não seja especificado, o padrão do sistema operacional é o Linux
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_PLATFORMS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_PLATFORMS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-image-digest-file]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-image-digest-file[`+++quarkus.jib.image-digest-file+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.image-digest-file+++[]\n"
@@ -1247,7 +1313,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_IMAGE_DIGEST_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-image-digest-file[quarkus.jib.image-digest-file] config_property_copy_button:quarkus.jib.image-digest-file[]"
 
 #, fuzzy
 msgid ""
@@ -1267,6 +1333,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_IMAGE_DIGEST
 msgid "`+++jib-image.digest+++`"
 msgstr "`jib-image.digest`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-image-id-file]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-image-id-file[`+++quarkus.jib.image-id-file+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.image-id-file+++[]\n"
@@ -1279,7 +1347,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_IMAGE_ID_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-image-id-file[quarkus.jib.image-id-file] config_property_copy_button:quarkus.jib.image-id-file[]"
 
 #, fuzzy
 msgid ""
@@ -1299,6 +1367,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_IMAGE_ID_FIL
 msgid "`+++jib-image.id+++`"
 msgstr "`jib-image.id`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-offline-mode]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-offline-mode[`+++quarkus.jib.offline-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.offline-mode+++[]\n"
@@ -1311,7 +1381,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_OFFLINE_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-offline-mode[quarkus.jib.offline-mode] config_property_copy_button:quarkus.jib.offline-mode[]"
 
 #, fuzzy
 msgid ""
@@ -1327,6 +1397,8 @@ msgstr "Se deve ou não operar offline."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_OFFLINE_MODE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_OFFLINE_MODE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-docker-executable-name]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-docker-executable-name[`+++quarkus.jib.docker-executable-name+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.docker-executable-name+++[]\n"
@@ -1339,7 +1411,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_DOCKER_EXECUTABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-docker-executable-name[quarkus.jib.docker-executable-name] config_property_copy_button:quarkus.jib.docker-executable-name[]"
 
 #, fuzzy
 msgid ""
@@ -1355,6 +1427,8 @@ msgstr "Nome do binário utilizado para executar os comandos do Docker. Isso só
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_DOCKER_EXECUTABLE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_DOCKER_EXECUTABLE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-docker-environment-environment-variable-name]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-docker-environment-environment-variable-name[`+++quarkus.jib.docker-environment.\"environment-variable-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.docker-environment.\"environment-variable-name\"+++[]\n"
@@ -1367,7 +1441,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_DOCKER_ENVIRONMENT__ENVIRONMENT_VARIABLE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-docker-environment-environment-variable-name[quarkus.jib.docker-environment.\"nome-da-variável-de-ambiente\"] config_property_copy_button:quarkus.jib.docker-environment.\"nome-da-variável-de-ambiente\"[]"
 
 #, fuzzy
 msgid ""
@@ -1383,6 +1457,8 @@ msgstr "Define as variáveis de ambiente utilizadas pelo executável do Docker. 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_DOCKER_ENVIRONMENT__ENVIRONMENT_VARIABLE_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_DOCKER_ENVIRONMENT__ENVIRONMENT_VARIABLE_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-use-current-timestamp]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-use-current-timestamp[`+++quarkus.jib.use-current-timestamp+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.use-current-timestamp+++[]\n"
@@ -1395,7 +1471,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_USE_CURRENT_TIMESTAMP+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-use-current-timestamp[quarkus.jib.use-current-timestamp] config_property_copy_button:quarkus.jib.use-current-timestamp[]"
 
 #, fuzzy
 msgid ""
@@ -1415,6 +1491,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_USE_CURRENT_
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-use-current-timestamp-file-modification]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-use-current-timestamp-file-modification[`+++quarkus.jib.use-current-timestamp-file-modification+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.use-current-timestamp-file-modification+++[]\n"
@@ -1427,7 +1505,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_USE_CURRENT_TIMESTAMP_FILE_MODIFICATION+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-use-current-timestamp-file-modification[quarkus.jib.use-current-timestamp-file-modification] config_property_copy_button:quarkus.jib.use-current-timestamp-file-modification[]"
 
 #, fuzzy
 msgid ""
@@ -1443,6 +1521,8 @@ msgstr "Determina se a data de modificação (hora da última modificação) dos
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_USE_CURRENT_TIMESTAMP_FILE_MODIFICATION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_USE_CURRENT_TIMESTAMP_FILE_MODIFICATION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-base-image-layers-cache]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-base-image-layers-cache[`+++quarkus.jib.base-image-layers-cache+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.base-image-layers-cache+++[]\n"
@@ -1455,7 +1535,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_IMAGE_LAYERS_CACHE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-image-layers-cache[quarkus.jib.base-image-layers-cache] config_property_copy_button:quarkus.jib.base-image-layers-cache[]"
 
 #, fuzzy
 msgid ""
@@ -1471,6 +1551,8 @@ msgstr "O diretório a ser utilizado para armazenar em cache as camadas de image
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_BASE_IMAGE_LAYERS_CACHE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JIB_BASE_IMAGE_LAYERS_CACHE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-jib_quarkus-jib-application-layers-cache]] [.property-path]##link:#quarkus-container-image-jib_quarkus-jib-application-layers-cache[`+++quarkus.jib.application-layers-cache+++`]##\n"
 "config_property_copy_button:+++quarkus.jib.application-layers-cache+++[]\n"
@@ -1483,7 +1565,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_JIB_APPLICATION_LAYERS_CACHE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-application-layers-cache[quarkus.jib.application-layers-cache] config_property_copy_button:quarkus.jib.application-layers-cache[]"
 
 #, fuzzy
 msgid ""
@@ -1511,6 +1593,8 @@ msgstr "Além das opções genéricas de imagem de contêiner, o site `container
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-3\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-3\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-dockerfile-jvm-path]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-dockerfile-jvm-path[`+++quarkus.docker.dockerfile-jvm-path+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.dockerfile-jvm-path+++[]\n"
@@ -1523,7 +1607,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_DOCKERFILE_JVM_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-dockerfile-jvm-path[quarkus.docker.dockerfile-jvm-path] config_property_copy_button:quarkus.docker.dockerfile-jvm-path[]"
 
 #, fuzzy
 msgid ""
@@ -1543,6 +1627,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_DOCKERFIL
 msgid "`+++src/main/docker/Dockerfile.jvm+++`"
 msgstr "`src/main/docker/Dockerfile.jvm`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-dockerfile-native-path]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-dockerfile-native-path[`+++quarkus.docker.dockerfile-native-path+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.dockerfile-native-path+++[]\n"
@@ -1555,7 +1641,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_DOCKERFILE_NATIVE_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-dockerfile-native-path[quarkus.docker.dockerfile-native-path] config_property_copy_button:quarkus.docker.dockerfile-native-path[]"
 
 #, fuzzy
 msgid ""
@@ -1575,6 +1661,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_DOCKERFIL
 msgid "`+++src/main/docker/Dockerfile.native+++`"
 msgstr "`src/main/docker/Dockerfile.native`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-build-args-arg-name]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-build-args-arg-name[`+++quarkus.docker.build-args.\"arg-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.build-args.\"arg-name\"+++[]\n"
@@ -1587,7 +1675,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILD_ARGS__ARG_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-build-args-arg-name[quarkus.docker.build-args.\"arg-name\"] config_property_copy_button:quarkus.docker.build-args.\"arg-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -1603,6 +1691,8 @@ msgstr "Argumentos de compilação passados ao Docker por meio de `--build-arg`"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILD_ARGS__ARG_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_BUILD_ARGS__ARG_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-cache-from]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-cache-from[`+++quarkus.docker.cache-from+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.cache-from+++[]\n"
@@ -1615,7 +1705,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_CACHE_FROM+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-cache-from[quarkus.docker.cache-from] config_property_copy_button:quarkus.docker.cache-from[]"
 
 #, fuzzy
 msgid ""
@@ -1631,6 +1721,8 @@ msgstr "Imagens a serem consideradas como fontes de cache. Os valores são passa
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_CACHE_FROM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_CACHE_FROM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-network]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-network[`+++quarkus.docker.network+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.network+++[]\n"
@@ -1643,7 +1735,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_NETWORK+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-network[quarkus.docker.network] config_property_copy_button:quarkus.docker.network[]"
 
 #, fuzzy
 msgid ""
@@ -1659,6 +1751,8 @@ msgstr "O modo de rede para as instruções RUN durante a compilação"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_NETWORK+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_NETWORK[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-executable-name]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-executable-name[`+++quarkus.docker.executable-name+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.executable-name+++[]\n"
@@ -1671,7 +1765,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_EXECUTABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-executable-name[quarkus.docker.executable-name] config_property_copy_button:quarkus.docker.executable-name[]"
 
 #, fuzzy
 msgid ""
@@ -1687,6 +1781,8 @@ msgstr "Nome do binário utilizado para executar os comandos do Docker/Podman. E
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_EXECUTABLE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_EXECUTABLE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-additional-args]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-additional-args[`+++quarkus.docker.additional-args+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.additional-args+++[]\n"
@@ -1699,7 +1795,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_ADDITIONAL_ARGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-additional-args[quarkus.docker.additional-args] config_property_copy_button:quarkus.docker.additional-args[]"
 
 #, fuzzy
 msgid ""
@@ -1719,6 +1815,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_ADDITIONA
 msgid "[[quarkus-container-image-docker_section_quarkus-docker-buildx]] [.section-name.section-level0]##link:#quarkus-container-image-docker_section_quarkus-docker-buildx[Configuration for Docker Buildx options]##"
 msgstr " link:#quarkus-container-image-docker_section_quarkus-docker-buildx[Configuração das opções do Docker Buildx]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-buildx-platform]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-buildx-platform[`+++quarkus.docker.buildx.platform+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.buildx.platform+++[]\n"
@@ -1731,7 +1829,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILDX_PLATFORM+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-buildx-platform[quarkus.docker.buildx.platform] config_property_copy_button:quarkus.docker.buildx.platform[]"
 
 #, fuzzy
 msgid ""
@@ -1747,6 +1845,8 @@ msgstr "Quais plataformas devem ser visadas durante a compilação. Consulte htt
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILDX_PLATFORM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_BUILDX_PLATFORM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-buildx-output]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-buildx-output[`+++quarkus.docker.buildx.output+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.buildx.output+++[]\n"
@@ -1759,7 +1859,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILDX_OUTPUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-buildx-output[quarkus.docker.buildx.output] config_property_copy_button:quarkus.docker.buildx.output[]"
 
 #, fuzzy
 msgid ""
@@ -1775,6 +1875,8 @@ msgstr "Define a ação de exportação para o resultado da compilação. Consul
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILDX_OUTPUT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DOCKER_BUILDX_OUTPUT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-docker_quarkus-docker-buildx-progress]] [.property-path]##link:#quarkus-container-image-docker_quarkus-docker-buildx-progress[`+++quarkus.docker.buildx.progress+++`]##\n"
 "config_property_copy_button:+++quarkus.docker.buildx.progress+++[]\n"
@@ -1787,7 +1889,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DOCKER_BUILDX_PROGRESS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-buildx-progress[quarkus.docker.buildx.progress] config_property_copy_button:quarkus.docker.buildx.progress[]"
 
 #, fuzzy
 msgid ""
@@ -1815,6 +1917,8 @@ msgstr "Além das opções genéricas de imagem de contêiner, o site `container
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-4\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-4\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-dockerfile-jvm-path]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-dockerfile-jvm-path[`+++quarkus.podman.dockerfile-jvm-path+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.dockerfile-jvm-path+++[]\n"
@@ -1827,7 +1931,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_DOCKERFILE_JVM_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-dockerfile-jvm-path[quarkus.podman.dockerfile-jvm-path] config_property_copy_button:quarkus.podman.dockerfile-jvm-path[]"
 
 #, fuzzy
 msgid ""
@@ -1839,6 +1943,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-dockerfile-j
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_DOCKERFILE_JVM_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_DOCKERFILE_JVM_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-dockerfile-native-path]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-dockerfile-native-path[`+++quarkus.podman.dockerfile-native-path+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.dockerfile-native-path+++[]\n"
@@ -1851,7 +1957,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_DOCKERFILE_NATIVE_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-dockerfile-native-path[quarkus.podman.dockerfile-native-path] config_property_copy_button:quarkus.podman.dockerfile-native-path[]"
 
 #, fuzzy
 msgid ""
@@ -1863,6 +1969,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-dockerfile-n
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_DOCKERFILE_NATIVE_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_DOCKERFILE_NATIVE_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-build-args-arg-name]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-build-args-arg-name[`+++quarkus.podman.build-args.\"arg-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.build-args.\"arg-name\"+++[]\n"
@@ -1875,7 +1983,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_BUILD_ARGS__ARG_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-build-args-arg-name[quarkus.podman.build-args.\"arg-name\"] config_property_copy_button:quarkus.podman.build-args.\"arg-name\"[]"
 
 #, fuzzy
 msgid ""
@@ -1887,6 +1995,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-build-args-a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_BUILD_ARGS__ARG_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_BUILD_ARGS__ARG_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-cache-from]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-cache-from[`+++quarkus.podman.cache-from+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.cache-from+++[]\n"
@@ -1899,7 +2009,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_CACHE_FROM+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-cache-from[quarkus.podman.cache-from] config_property_copy_button:quarkus.podman.cache-from[]"
 
 #, fuzzy
 msgid ""
@@ -1911,6 +2021,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-cache-from[q
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_CACHE_FROM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_CACHE_FROM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-network]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-network[`+++quarkus.podman.network+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.network+++[]\n"
@@ -1923,7 +2035,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_NETWORK+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-network[quarkus.podman.network] config_property_copy_button:quarkus.podman.network[]"
 
 #, fuzzy
 msgid ""
@@ -1935,6 +2047,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-network[quar
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_NETWORK+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_NETWORK[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-executable-name]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-executable-name[`+++quarkus.podman.executable-name+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.executable-name+++[]\n"
@@ -1947,7 +2061,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_EXECUTABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-executable-name[quarkus.podman.executable-name] config_property_copy_button:quarkus.podman.executable-name[]"
 
 #, fuzzy
 msgid ""
@@ -1959,6 +2073,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-executable-n
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_EXECUTABLE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_EXECUTABLE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-additional-args]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-additional-args[`+++quarkus.podman.additional-args+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.additional-args+++[]\n"
@@ -1971,7 +2087,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_ADDITIONAL_ARGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-additional-args[quarkus.podman.additional-args] config_property_copy_button:quarkus.podman.additional-args[]"
 
 #, fuzzy
 msgid ""
@@ -1983,6 +2099,8 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-additional-a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_ADDITIONAL_ARGS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_ADDITIONAL_ARGS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-platform]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-platform[`+++quarkus.podman.platform+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.platform+++[]\n"
@@ -1995,7 +2113,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_PLATFORM+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-platform[quarkus.podman.platform] config_property_copy_button:quarkus.podman.platform[]"
 
 #, fuzzy
 msgid ""
@@ -2011,6 +2129,8 @@ msgstr "Quais plataformas devem ser visadas durante a compilação. Consulte htt
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_PLATFORM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PODMAN_PLATFORM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-podman_quarkus-podman-tls-verify]] [.property-path]##link:#quarkus-container-image-podman_quarkus-podman-tls-verify[`+++quarkus.podman.tls-verify+++`]##\n"
 "config_property_copy_button:+++quarkus.podman.tls-verify+++[]\n"
@@ -2023,7 +2143,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_PODMAN_TLS_VERIFY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-tls-verify[quarkus.podman.tls-verify] config_property_copy_button:quarkus.podman.tls-verify[]"
 
 #, fuzzy
 msgid ""
@@ -2051,6 +2171,8 @@ msgstr "Além das opções genéricas de imagem de contêiner, o site `container
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-5\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-5\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-build-strategy]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-build-strategy[`+++quarkus.openshift.build-strategy+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.build-strategy+++[]\n"
@@ -2063,7 +2185,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BUILD_STRATEGY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-build-strategy[quarkus.openshift.build-strategy] config_property_copy_button:quarkus.openshift.build-strategy[]"
 
 #, fuzzy
 msgid ""
@@ -2087,6 +2209,8 @@ msgstr "`binário` , `Docker`"
 msgid "`+++binary+++`"
 msgstr "`binário`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-base-jvm-image]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-base-jvm-image[`+++quarkus.openshift.base-jvm-image+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.base-jvm-image+++[]\n"
@@ -2099,7 +2223,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BASE_JVM_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-base-jvm-image[quarkus.openshift.base-jvm-image] config_property_copy_button:quarkus.openshift.base-jvm-image[]"
 
 #, fuzzy
 msgid ""
@@ -2107,13 +2231,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.openshift.base-jvm-image+++[]"
 msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-base-jvm-image[quarkus.openshift.base-jvm-image] config_property_copy_button:quarkus.openshift.base-jvm-image[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The base image to be used when a container image is being produced for the jar build. The value of this property is used to create an ImageStream for the builder image used in the OpenShift build. When it references images already available in the internal OpenShift registry, the corresponding streams are used instead. When the application is built against Java 25 or higher, `registry.access.redhat.com/ubi10/openjdk-25:1.24` is used as the default. Otherwise `registry.access.redhat.com/ubi10/openjdk-21:1.24` is used as the default."
-msgstr ""
+msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo produzida para a compilação do JAR. O valor dessa propriedade é utilizado para criar um ImageStream para a imagem do construtor utilizada na compilação do OpenShift. Quando ela faz referência a imagens já disponíveis no registro interno do OpenShift, os streams correspondentes são utilizados em seu lugar. Quando o aplicativo é compilado com base no Java 25 ou superior, `registry.access.redhat.com/ubi10/openjdk-25:1.24` é utilizado como padrão. Caso contrário, `registry.access.redhat.com/ubi10/openjdk-21:1.24` é utilizado como padrão."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BASE_JVM_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_BASE_JVM_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-base-native-image]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-base-native-image[`+++quarkus.openshift.base-native-image+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.base-native-image+++[]\n"
@@ -2126,7 +2254,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BASE_NATIVE_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-base-native-image[quarkus.openshift.base-native-image] config_property_copy_button:quarkus.openshift.base-native-image[]"
 
 #, fuzzy
 msgid ""
@@ -2142,9 +2270,13 @@ msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está send
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BASE_NATIVE_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_BASE_NATIVE_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++quay.io/quarkus/ubi10-quarkus-native-binary-s2i:2.0+++`"
-msgstr ""
+msgstr "`quay.io/quarkus/ubi10-quarkus-native-binary-s2i:2.0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-jvm-dockerfile]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-jvm-dockerfile[`+++quarkus.openshift.jvm-dockerfile+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.jvm-dockerfile+++[]\n"
@@ -2157,7 +2289,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JVM_DOCKERFILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-jvm-dockerfile[quarkus.openshift.jvm-dockerfile] config_property_copy_button:quarkus.openshift.jvm-dockerfile[]"
 
 #, fuzzy
 msgid ""
@@ -2173,6 +2305,8 @@ msgstr "O arquivo Dockerfile padrão a ser utilizado para compilações da JVM"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JVM_DOCKERFILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_JVM_DOCKERFILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-native-dockerfile]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-native-dockerfile[`+++quarkus.openshift.native-dockerfile+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.native-dockerfile+++[]\n"
@@ -2185,7 +2319,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_DOCKERFILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-native-dockerfile[quarkus.openshift.native-dockerfile] config_property_copy_button:quarkus.openshift.native-dockerfile[]"
 
 #, fuzzy
 msgid ""
@@ -2201,6 +2335,8 @@ msgstr "O arquivo Dockerfile padrão a ser utilizado para compilações nativas"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_DOCKERFILE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_NATIVE_DOCKERFILE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-jvm-arguments]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-jvm-arguments[`+++quarkus.openshift.jvm-arguments+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.jvm-arguments+++[]\n"
@@ -2213,7 +2349,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JVM_ARGUMENTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-jvm-arguments[quarkus.openshift.jvm-arguments] config_property_copy_button:quarkus.openshift.jvm-arguments[]"
 
 #, fuzzy
 msgid ""
@@ -2225,6 +2361,8 @@ msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-jvm-ar
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JVM_ARGUMENTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_JVM_ARGUMENTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-native-arguments]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-native-arguments[`+++quarkus.openshift.native-arguments+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.native-arguments+++[]\n"
@@ -2237,7 +2375,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_ARGUMENTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-native-arguments[quarkus.openshift.native-arguments] config_property_copy_button:quarkus.openshift.native-arguments[]"
 
 #, fuzzy
 msgid ""
@@ -2249,6 +2387,8 @@ msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-native
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_ARGUMENTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_NATIVE_ARGUMENTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-jar-directory]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-jar-directory[`+++quarkus.openshift.jar-directory+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.jar-directory+++[]\n"
@@ -2261,7 +2401,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JAR_DIRECTORY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-jar-directory[quarkus.openshift.jar-directory] config_property_copy_button:quarkus.openshift.jar-directory[]"
 
 #, fuzzy
 msgid ""
@@ -2277,6 +2417,8 @@ msgstr "O diretório no qual o arquivo JAR é adicionado durante a fase de monta
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JAR_DIRECTORY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_JAR_DIRECTORY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-jar-file-name]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-jar-file-name[`+++quarkus.openshift.jar-file-name+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.jar-file-name+++[]\n"
@@ -2289,7 +2431,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JAR_FILE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-jar-file-name[quarkus.openshift.jar-nome-do-arquivo] botão-para-copiar-propriedade-de-configuração:quarkus.openshift.jar-nome-do-arquivo[]"
 
 #, fuzzy
 msgid ""
@@ -2305,6 +2447,8 @@ msgstr "O nome do arquivo .jar resultante na imagem S2I. Essa opção pode ser u
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_JAR_FILE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_JAR_FILE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-native-binary-directory]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-native-binary-directory[`+++quarkus.openshift.native-binary-directory+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.native-binary-directory+++[]\n"
@@ -2317,7 +2461,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_BINARY_DIRECTORY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-native-binary-directory[quarkus.openshift.native-binary-directory] config_property_copy_button:quarkus.openshift.native-binary-directory[]"
 
 #, fuzzy
 msgid ""
@@ -2333,6 +2477,8 @@ msgstr "O diretório no qual o binário nativo é adicionado durante a fase de m
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_BINARY_DIRECTORY+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_NATIVE_BINARY_DIRECTORY[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-native-binary-file-name]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-native-binary-file-name[`+++quarkus.openshift.native-binary-file-name+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.native-binary-file-name+++[]\n"
@@ -2345,7 +2491,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_BINARY_FILE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-native-binary-file-name[quarkus.openshift.native-binary-file-name] config_property_copy_button:quarkus.openshift.native-binary-file-name[]"
 
 #, fuzzy
 msgid ""
@@ -2361,6 +2507,8 @@ msgstr "O nome do arquivo resultante do binário nativo na imagem S2I. Esta opç
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_NATIVE_BINARY_FILE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_NATIVE_BINARY_FILE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-build-timeout]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-build-timeout[`+++quarkus.openshift.build-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.build-timeout+++[]\n"
@@ -2373,7 +2521,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BUILD_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-build-timeout[quarkus.openshift.build-timeout] config_property_copy_button:quarkus.openshift.build-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -2397,6 +2545,8 @@ msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/t
 msgid "`+++5M+++`"
 msgstr "`5 milhões`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-build-log-level]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-build-log-level[`+++quarkus.openshift.build-log-level+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.build-log-level+++[]\n"
@@ -2409,7 +2559,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_BUILD_LOG_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-build-log-level[quarkus.openshift.build-log-level] config_property_copy_button:quarkus.openshift.build-log-level[]"
 
 #, fuzzy
 msgid ""
@@ -2433,6 +2583,8 @@ msgstr "`fatal` , `erro` , `aviso` , `informação` , `depuração` , `rastreame
 msgid "`+++info+++`"
 msgstr "`informações`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-openshift_quarkus-openshift-image-push-secret]] [.property-path]##link:#quarkus-container-image-openshift_quarkus-openshift-image-push-secret[`+++quarkus.openshift.image-push-secret+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.image-push-secret+++[]\n"
@@ -2445,7 +2597,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_OPENSHIFT_IMAGE_PUSH_SECRET+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-image-push-secret[quarkus.openshift.image-push-secret] config_property_copy_button:quarkus.openshift.image-push-secret[]"
 
 #, fuzzy
 msgid ""
@@ -2501,6 +2653,8 @@ msgstr "Além das opções genéricas de imagem de contêiner, o site `container
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-6\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-6\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-jvm-builder-image]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-jvm-builder-image[`+++quarkus.buildpack.jvm-builder-image+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.jvm-builder-image+++[]\n"
@@ -2513,7 +2667,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_JVM_BUILDER_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-jvm-builder-image[quarkus.buildpack.jvm-builder-image] config_property_copy_button:quarkus.buildpack.jvm-builder-image[]"
 
 #, fuzzy
 msgid ""
@@ -2529,9 +2683,13 @@ msgstr "A imagem do construtor dos buildpacks a ser utilizada na compilação do
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_JVM_BUILDER_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_JVM_BUILDER_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++docker.io/paketobuildpacks/ubi-9-builder+++`"
-msgstr ""
+msgstr "`docker.io/paketobuildpacks/ubi-9-builder`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-native-builder-image]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-native-builder-image[`+++quarkus.buildpack.native-builder-image+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.native-builder-image+++[]\n"
@@ -2544,7 +2702,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_NATIVE_BUILDER_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-native-builder-image[quarkus.buildpack.native-builder-image] config_property_copy_button:quarkus.buildpack.native-builder-image[]"
 
 #, fuzzy
 msgid ""
@@ -2560,6 +2718,8 @@ msgstr "A imagem do construtor dos buildpacks a ser utilizada na compilação do
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_NATIVE_BUILDER_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_NATIVE_BUILDER_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-lifecycle-image]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-lifecycle-image[`+++quarkus.buildpack.lifecycle-image+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.lifecycle-image+++[]\n"
@@ -2572,7 +2732,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_LIFECYCLE_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-lifecycle-image[quarkus.buildpack.lifecycle-image] config_property_copy_button:quarkus.buildpack.lifecycle-image[]"
 
 #, fuzzy
 msgid ""
@@ -2588,6 +2748,8 @@ msgstr "A imagem de ciclo de vida a ser utilizada na compilação do projeto. Is
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_LIFECYCLE_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_LIFECYCLE_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-platform-level]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-platform-level[`+++quarkus.buildpack.platform-level+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.platform-level+++[]\n"
@@ -2600,7 +2762,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_PLATFORM_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-platform-level[quarkus.buildpack.platform-level] config_property_copy_button:quarkus.buildpack.platform-level[]"
 
 #, fuzzy
 msgid ""
@@ -2616,6 +2778,8 @@ msgstr "O nível da plataforma a ser imposto para a compilação. Normalmente, o
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_PLATFORM_LEVEL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_PLATFORM_LEVEL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-trust-builder-image]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-trust-builder-image[`+++quarkus.buildpack.trust-builder-image+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.trust-builder-image+++[]\n"
@@ -2628,7 +2792,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_TRUST_BUILDER_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-trust-builder-image[quarkus.buildpack.trust-builder-image] config_property_copy_button:quarkus.buildpack.trust-builder-image[]"
 
 #, fuzzy
 msgid ""
@@ -2644,6 +2808,8 @@ msgstr "A imagem do construtor deve ser considerada “confiável”? Construtor
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_TRUST_BUILDER_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_TRUST_BUILDER_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-builder-env-environment-variable-name]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-builder-env-environment-variable-name[`+++quarkus.buildpack.builder-env.\"environment-variable-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.builder-env.\"environment-variable-name\"+++[]\n"
@@ -2656,7 +2822,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_BUILDER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-builder-env-environment-variable-name[quarkus.buildpack.builder-env.\"nome-da-variável-de-ambiente\"] config_property_copy_button:quarkus.buildpack.builder-env.\"nome-da-variável-de-ambiente\"[]"
 
 #, fuzzy
 msgid ""
@@ -2672,6 +2838,8 @@ msgstr "Chaves/valores de ambiente a serem passados aos buildpacks."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_BUILDER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_BUILDER_ENV__ENVIRONMENT_VARIABLE_NAME_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-registry-user-registry-host]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-registry-user-registry-host[`+++quarkus.buildpack.registry-user.\"registry-host\"+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.registry-user.\"registry-host\"+++[]\n"
@@ -2684,7 +2852,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_REGISTRY_USER__REGISTRY_HOST_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-registry-user-registry-host[quarkus.buildpack.registry-user.\"registry-host\"] config_property_copy_button:quarkus.buildpack.registry-user.\"registry-host\"[]"
 
 #, fuzzy
 msgid ""
@@ -2700,6 +2868,8 @@ msgstr "Nomes de usuário a serem utilizados com hosts do registro"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_REGISTRY_USER__REGISTRY_HOST_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_REGISTRY_USER__REGISTRY_HOST_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-registry-password-registry-host]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-registry-password-registry-host[`+++quarkus.buildpack.registry-password.\"registry-host\"+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.registry-password.\"registry-host\"+++[]\n"
@@ -2712,7 +2882,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_REGISTRY_PASSWORD__REGISTRY_HOST_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-registry-password-registry-host[quarkus.buildpack.registry-password.\"registry-host\"] config_property_copy_button:quarkus.buildpack.registry-password.\"registry-host\"[]"
 
 #, fuzzy
 msgid ""
@@ -2728,6 +2898,8 @@ msgstr "Senhas a serem utilizadas com os hosts do registro"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_REGISTRY_PASSWORD__REGISTRY_HOST_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_REGISTRY_PASSWORD__REGISTRY_HOST_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-registry-token-registry-host]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-registry-token-registry-host[`+++quarkus.buildpack.registry-token.\"registry-host\"+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.registry-token.\"registry-host\"+++[]\n"
@@ -2740,7 +2912,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_REGISTRY_TOKEN__REGISTRY_HOST_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-registry-token-registry-host[quarkus.buildpack.registry-token.\"registry-host\"] config_property_copy_button:quarkus.buildpack.registry-token.\"registry-host\"[]"
 
 #, fuzzy
 msgid ""
@@ -2756,6 +2928,8 @@ msgstr "Tokens a serem utilizados com hosts de registro"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_REGISTRY_TOKEN__REGISTRY_HOST_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_REGISTRY_TOKEN__REGISTRY_HOST_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-run-image]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-run-image[`+++quarkus.buildpack.run-image+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.run-image+++[]\n"
@@ -2768,7 +2942,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_RUN_IMAGE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-run-image[quarkus.buildpack.run-image] config_property_copy_button:quarkus.buildpack.run-image[]"
 
 #, fuzzy
 msgid ""
@@ -2784,6 +2958,8 @@ msgstr "Os buildpacks definem a imagem de execução a ser utilizada na compila�
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_RUN_IMAGE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_RUN_IMAGE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-pull-timeout-seconds]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-pull-timeout-seconds[`+++quarkus.buildpack.pull-timeout-seconds+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.pull-timeout-seconds+++[]\n"
@@ -2796,7 +2972,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_PULL_TIMEOUT_SECONDS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-pull-timeout-seconds[quarkus.buildpack.pull-timeout-seconds] config_property_copy_button:quarkus.buildpack.pull-timeout-seconds[]"
 
 #, fuzzy
 msgid ""
@@ -2819,6 +2995,8 @@ msgstr "int"
 msgid "`+++300+++`"
 msgstr "`300`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-pull-timeout-increase-seconds]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-pull-timeout-increase-seconds[`+++quarkus.buildpack.pull-timeout-increase-seconds+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.pull-timeout-increase-seconds+++[]\n"
@@ -2831,7 +3009,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_PULL_TIMEOUT_INCREASE_SECONDS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-pull-timeout-increase-seconds[quarkus.buildpack.pull-timeout-increase-seconds] config_property_copy_button:quarkus.buildpack.pull-timeout-increase-seconds[]"
 
 #, fuzzy
 msgid ""
@@ -2851,6 +3029,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_PULL_T
 msgid "`+++15+++`"
 msgstr "`15`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-pull-retry-count]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-pull-retry-count[`+++quarkus.buildpack.pull-retry-count+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.pull-retry-count+++[]\n"
@@ -2863,7 +3043,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_PULL_RETRY_COUNT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-pull-retry-count[quarkus.buildpack.pull-retry-count] config_property_copy_button:quarkus.buildpack.pull-retry-count[]"
 
 #, fuzzy
 msgid ""
@@ -2883,6 +3063,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_PULL_R
 msgid "`+++3+++`"
 msgstr "`3`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-docker-host]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-docker-host[`+++quarkus.buildpack.docker-host+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.docker-host+++[]\n"
@@ -2895,7 +3077,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_DOCKER_HOST+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-docker-host[quarkus.buildpack.docker-host] config_property_copy_button:quarkus.buildpack.docker-host[]"
 
 #, fuzzy
 msgid ""
@@ -2911,6 +3093,8 @@ msgstr "Valor de DOCKER_HOST a ser utilizado. Esse valor é normalmente determin
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_DOCKER_HOST+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_DOCKER_HOST[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-docker-socket]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-docker-socket[`+++quarkus.buildpack.docker-socket+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.docker-socket+++[]\n"
@@ -2923,7 +3107,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_DOCKER_SOCKET+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-docker-socket[quarkus.buildpack.docker-socket] config_property_copy_button:quarkus.buildpack.docker-socket[]"
 
 #, fuzzy
 msgid ""
@@ -2939,6 +3123,8 @@ msgstr "Caminho para o soquete do Docker a ser utilizado. Esse valor é normalme
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_DOCKER_SOCKET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_DOCKER_SOCKET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-use-daemon]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-use-daemon[`+++quarkus.buildpack.use-daemon+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.use-daemon+++[]\n"
@@ -2951,7 +3137,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_USE_DAEMON+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-use-daemon[quarkus.buildpack.use-daemon] config_property_copy_button:quarkus.buildpack.use-daemon[]"
 
 #, fuzzy
 msgid ""
@@ -2967,6 +3153,8 @@ msgstr "Utilizar o modo Daemon? A compilação do buildpack deve ter o soquete d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_USE_DAEMON+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_USE_DAEMON[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-docker-network]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-docker-network[`+++quarkus.buildpack.docker-network+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.docker-network+++[]\n"
@@ -2979,7 +3167,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_DOCKER_NETWORK+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-docker-network[quarkus.buildpack.docker-network] config_property_copy_button:quarkus.buildpack.docker-network[]"
 
 #, fuzzy
 msgid ""
@@ -2995,6 +3183,8 @@ msgstr "Utilizar a rede Docker especificada durante a compilação. Isso pode se
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_DOCKER_NETWORK+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_DOCKER_NETWORK[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-log-level]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-log-level[`+++quarkus.buildpack.log-level+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.log-level+++[]\n"
@@ -3007,7 +3197,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_LOG_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-log-level[quarkus.buildpack.log-level] config_property_copy_button:quarkus.buildpack.log-level[]"
 
 #, fuzzy
 msgid ""
@@ -3023,6 +3213,8 @@ msgstr "Nível de log a ser utilizado. O nível de log a ser utilizado durante a
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_LOG_LEVEL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_BUILDPACK_LOG_LEVEL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-container-image-buildpack_quarkus-buildpack-get-use-timestamps]] [.property-path]##link:#quarkus-container-image-buildpack_quarkus-buildpack-get-use-timestamps[`+++quarkus.buildpack.get-use-timestamps+++`]##\n"
 "config_property_copy_button:+++quarkus.buildpack.get-use-timestamps+++[]\n"
@@ -3035,7 +3227,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_BUILDPACK_GET_USE_TIMESTAMPS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-get-use-timestamps[quarkus.buildpack.get-use-timestamps] config_property_copy_button:quarkus.buildpack.get-use-timestamps[]"
 
 #, fuzzy
 msgid ""

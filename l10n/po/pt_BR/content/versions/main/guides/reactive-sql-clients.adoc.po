@@ -609,8 +609,10 @@ msgstr "Além do `idle-timeout` , os recursos de dados reativos também podem se
 msgid "For example, you could ensure connections are recycled after 60 minutes:"
 msgstr "Por exemplo, o senhor pode garantir que as conexões sejam recicladas após 60 minutos:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Pool <code>connection-timeout</code>"
-msgstr ""
+msgstr "Pool <code>timeout de conexão</code>"
 
 #, fuzzy
 msgid "The `connection-timeout` controls how long a request waits for a connection from the pool before failing."
@@ -620,8 +622,10 @@ msgstr "O `tempo limite de conexão` determina por quanto tempo uma solicitaçã
 msgid "For example, you could set a 5-second timeout:"
 msgstr "Por exemplo, você poderia definir um tempo limite de 5 segundos:"
 
+#. mt: deepl
+#, fuzzy
 msgid "Pool <code>max-wait-queue-size</code>"
-msgstr ""
+msgstr "Pool <code>max-wait-queue-size</code>"
 
 #, fuzzy
 msgid ""
@@ -629,8 +633,10 @@ msgid ""
 "Further requests are rejected immediately when the queue is full."
 msgstr "É possível limitar o número de solicitações que ficam na fila quando todas as conexões do pool estão em uso. As solicitações adicionais são rejeitadas imediatamente quando a fila estiver cheia."
 
+#. mt: deepl
+#, fuzzy
 msgid "Pool <code>pool-cleaner-period</code>"
-msgstr ""
+msgstr "Piscina <code>pool-cleaner-period</code>"
 
 #, fuzzy
 msgid ""
@@ -766,6 +772,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-health-enabled]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-health-enabled[`+++quarkus.datasource.health.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.health.enabled+++[]\n"
@@ -780,7 +788,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_HEALTH_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-health-enabled[quarkus.datasource.health.enabled] config_property_copy_button:quarkus.datasource.health.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -811,6 +819,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-metrics-enabled]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-metrics-enabled[`+++quarkus.datasource.metrics.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.metrics.enabled+++[]\n"
@@ -827,7 +837,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_METRICS_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-metrics-enabled[quarkus.datasource.metrics.enabled] config_property_copy_button:quarkus.datasource.metrics.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -847,6 +857,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_METRI
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-db-version-defaults]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-db-version-defaults[`+++quarkus.datasource.db-version-defaults+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.db-version-defaults+++[]\n"
@@ -865,31 +877,47 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DB_VERSION_DEFAULTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-db-version-defaults[quarkus.datasource.db-version-defaults] config_property_copy_button:quarkus.datasource.db-version-defaults[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-db-version-defaults]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-db-version-defaults[`+++quarkus.datasource.db-version-defaults+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.db-version-defaults+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-db-version-defaults[quarkus.datasource.db-version-defaults] config_property_copy_button:quarkus.datasource.db-version-defaults[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Controls whether default database versions are applied when not explicitly configured."
-msgstr ""
+msgstr "Determina se as versões padrão do banco de dados serão aplicadas quando não houver uma configuração explícita."
 
+#. mt: deepl
+#, fuzzy
 msgid "When set to `recent` (the default), Quarkus will use recent stable versions as defaults for each database kind. This optimizes for performance and features but requires your database to be reasonably up-to-date."
-msgstr ""
+msgstr "Quando configurado como `“recente”` (padrão), o Quarkus utilizará as versões estáveis mais recentes como padrões para cada tipo de banco de dados. Isso otimiza o desempenho e os recursos, mas exige que seu banco de dados esteja razoavelmente atualizado."
 
+#. mt: deepl
+#, fuzzy
 msgid "When set to `compatible`, no default versions are applied. You must explicitly set `quarkus.datasource.db-version` (or `quarkus.datasource.\"datasource-name\".db-version`) for each datasource."
-msgstr ""
+msgstr "Quando definido como `“compatível”` , nenhuma versão padrão é aplicada. É necessário definir explicitamente `quarkus.datasource.db-version` (ou `quarkus.datasource.\"nome-da-fonte-de-dados\".db-version` ) para cada fonte de dados."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DB_VERSION_DEFAULTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DB_VERSION_DEFAULTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`recent`, `compatible`"
-msgstr ""
+msgstr "`recente` , `compatível`"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++recent+++`"
-msgstr ""
+msgstr "`recente`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-db-kind]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-db-kind[`+++quarkus.datasource.db-kind+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.db-kind+++[]\n"
@@ -905,7 +933,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DB_KIND+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-db-kind[quarkus.datasource.db-kind] config_property_copy_button:quarkus.datasource.db-kind[]"
 
 #, fuzzy
 msgid ""
@@ -930,6 +958,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DB_KI
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-db-version]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-db-version[`+++quarkus.datasource.db-version+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.db-version+++[]\n"
@@ -978,7 +1008,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DB_VERSION+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-db-version[quarkus.datasource.db-version] config_property_copy_button:quarkus.datasource.db-version[]"
 
 #, fuzzy
 msgid ""
@@ -1021,6 +1051,8 @@ msgid ""
 "or simply a warning in case the database cannot be reached."
 msgstr "Algumas extensões (como a extensão ORM do Hibernate) tentarão comparar essa versão com a versão real do banco de dados no momento da inicialização, o que resultará em uma falha na inicialização caso a versão real seja inferior ou, simplesmente, em um aviso caso não seja possível acessar o banco de dados."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "If not set, the default depends on the `db-kind`:\n"
 "* DB2: `{db2-default-version}`\n"
@@ -1029,20 +1061,26 @@ msgid ""
 "* MySQL: `{mysql-default-version}`\n"
 "* Oracle: `{oracle-default-version}`\n"
 "* PostgreSQL: `{postgres-default-version}`"
-msgstr ""
+msgstr "Caso não seja definido, o padrão depende do `tipo de banco de dados` : * DB2: `{db2-default-version}` * MariaDB: `{mariadb-default-version}` * Microsoft SQL Server: `{mssql-default-version}` * MySQL: `{mysql-default-version}` * Oracle: `{oracle-default-version}` * PostgreSQL: `{postgres-default-version}`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "If you are connecting to an older database version, you must explicitly set this property\n"
 "to match your actual database version to avoid runtime errors."
-msgstr ""
+msgstr "Caso esteja se conectando a uma versão mais antiga do banco de dados, é necessário definir explicitamente essa propriedade de modo que corresponda à versão real do seu banco de dados, a fim de evitar erros de execução."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DB_VERSION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DB_VERSION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`+++Depends on `db-kind`, see description.+++`"
-msgstr ""
+msgstr "`Depende de `db-kind`; consulte a descrição.`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-health-exclude]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-health-exclude[`+++quarkus.datasource.health-exclude+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.health-exclude+++[]\n"
@@ -1060,7 +1098,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_HEALTH_EXCLUDE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-health-exclude[quarkus.datasource.health-exclude] config_property_copy_button:quarkus.datasource.health-exclude[]"
 
 #, fuzzy
 msgid ""
@@ -1086,6 +1124,8 @@ msgstr "Por padrão, a verificação de integridade inclui todas as fontes de da
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_HEALTH_EXCLUDE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_HEALTH_EXCLUDE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-datasource_quarkus-datasource-active]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-active[`+++quarkus.datasource.active+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.active+++[]\n"
@@ -1103,7 +1143,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_ACTIVE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-datasource_quarkus-datasource-active[quarkus.datasource.active] config_property_copy_button:quarkus.datasource.active[]"
 
 #, fuzzy
 msgid ""
@@ -1133,6 +1173,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_ACTIV
 msgid "`+++`true` if the URL is set, `false` otherwise+++`"
 msgstr "``true` se a URL estiver definida; caso contrário, `false``"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-datasource_quarkus-datasource-username]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-username[`+++quarkus.datasource.username+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.username+++[]\n"
@@ -1148,7 +1190,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-datasource_quarkus-datasource-username[quarkus.datasource.username] config_property_copy_button:quarkus.datasource.username[]"
 
 #, fuzzy
 msgid ""
@@ -1170,6 +1212,8 @@ msgstr "O nome de usuário da fonte de dados"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_USERNAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_USERNAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-datasource_quarkus-datasource-password]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-password[`+++quarkus.datasource.password+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.password+++[]\n"
@@ -1185,7 +1229,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-datasource_quarkus-datasource-password[quarkus.datasource.password] config_property_copy_button:quarkus.datasource.password[]"
 
 #, fuzzy
 msgid ""
@@ -1207,6 +1251,8 @@ msgstr "A senha da fonte de dados"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-datasource_quarkus-datasource-credentials-provider]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-credentials-provider[`+++quarkus.datasource.credentials-provider+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.credentials-provider+++[]\n"
@@ -1222,7 +1268,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_CREDENTIALS_PROVIDER+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-datasource_quarkus-datasource-credentials-provider[quarkus.datasource.credentials-provider] config_property_copy_button:quarkus.datasource.credentials-provider[]"
 
 #, fuzzy
 msgid ""
@@ -1244,6 +1290,8 @@ msgstr "O nome do provedor de credenciais"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_CREDENTIALS_PROVIDER+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_CREDENTIALS_PROVIDER[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-datasource_quarkus-datasource-credentials-provider-name]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-credentials-provider-name[`+++quarkus.datasource.credentials-provider-name+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.credentials-provider-name+++[]\n"
@@ -1263,7 +1311,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_CREDENTIALS_PROVIDER_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-datasource_quarkus-datasource-credentials-provider-name[quarkus.datasource.credentials-provider-name] config_property_copy_button:quarkus.datasource.credentials-provider-name[]"
 
 #, fuzzy
 msgid ""
@@ -1297,6 +1345,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_CREDE
 msgid "[[quarkus-datasource_section_quarkus-datasource-devservices]] [.section-name.section-level0]##link:#quarkus-datasource_section_quarkus-datasource-devservices[Dev Services]##"
 msgstr " link:#quarkus-datasource_section_quarkus-datasource-devservices[Serviços de Desenvolvimento]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-enabled]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-enabled[`+++quarkus.datasource.devservices.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.enabled+++[]\n"
@@ -1315,7 +1365,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-enabled[quarkus.datasource.devservices.enabled] config_property_copy_button:quarkus.datasource.devservices.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -1343,6 +1393,8 @@ msgstr "Os Serviços de Desenvolvimento estão habilitados por padrão, a menos 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-image-name]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-image-name[`+++quarkus.datasource.devservices.image-name+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.image-name+++[]\n"
@@ -1373,7 +1425,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-image-name[quarkus.datasource.devservices.image-name] config_property_copy_button:quarkus.datasource.devservices.image-name[]"
 
 #, fuzzy
 msgid ""
@@ -1439,6 +1491,8 @@ msgstr "Para determinados bancos de dados, a imagem padrão pode ser ajustada au
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-container-env-environment-variable-name]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-container-env-environment-variable-name[`+++quarkus.datasource.devservices.container-env.\"environment-variable-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.container-env.\"environment-variable-name\"+++[]\n"
@@ -1454,7 +1508,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-container-env-environment-variable-name[quarkus.datasource.devservices.container-env.\"nome-da-variável-de-ambiente\"] config_property_copy_button:quarkus.datasource.devservices.container-env.\"nome-da-variável-de-ambiente\"[]"
 
 #, fuzzy
 msgid ""
@@ -1480,6 +1534,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSE
 msgid "Map<String,String>"
 msgstr "Map<String, String>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-container-properties-property-key]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-container-properties-property-key[`+++quarkus.datasource.devservices.container-properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.container-properties.\"property-key\"+++[]\n"
@@ -1497,7 +1553,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-container-properties-property-key[quarkus.datasource.devservices.container-properties.\"property-key\"] config_property_copy_button:quarkus.datasource.devservices.container-properties.\"property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -1523,6 +1579,8 @@ msgstr "As propriedades definidas aqui são específicas de cada banco de dados 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES__PROPERTY_KEY_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES__PROPERTY_KEY_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-properties-property-key]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-properties-property-key[`+++quarkus.datasource.devservices.properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.properties.\"property-key\"+++[]\n"
@@ -1538,7 +1596,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-properties-property-key[quarkus.datasource.devservices.properties.\"property-key\"] config_property_copy_button:quarkus.datasource.devservices.properties.\"property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -1560,6 +1618,8 @@ msgstr "Propriedades genéricas que são adicionadas à URL de conexão com o ba
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES__PROPERTY_KEY_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES__PROPERTY_KEY_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-port]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-port[`+++quarkus.datasource.devservices.port+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.port+++[]\n"
@@ -1577,7 +1637,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-port[quarkus.datasource.devservices.port] config_property_copy_button:quarkus.datasource.devservices.port[]"
 
 #, fuzzy
 msgid ""
@@ -1606,6 +1666,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSE
 msgid "int"
 msgstr "int"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-command]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-command[`+++quarkus.datasource.devservices.command+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.command+++[]\n"
@@ -1623,7 +1685,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_COMMAND+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-command[quarkus.datasource.devservices.command] config_property_copy_button:quarkus.datasource.devservices.command[]"
 
 #, fuzzy
 msgid ""
@@ -1645,6 +1707,8 @@ msgstr "O comando de inicialização do contêiner a ser utilizado por provedore
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_COMMAND+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_COMMAND[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-db-name]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-db-name[`+++quarkus.datasource.devservices.db-name+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.db-name+++[]\n"
@@ -1660,7 +1724,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-db-name[quarkus.datasource.devservices.db-name] config_property_copy_button:quarkus.datasource.devservices.db-name[]"
 
 #, fuzzy
 msgid ""
@@ -1682,6 +1746,8 @@ msgstr "O nome do banco de dados a ser utilizado caso este Serviço de Desenvolv
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-username]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-username[`+++quarkus.datasource.devservices.username+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.username+++[]\n"
@@ -1697,7 +1763,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-username[quarkus.datasource.devservices.username] config_property_copy_button:quarkus.datasource.devservices.username[]"
 
 #, fuzzy
 msgid ""
@@ -1719,6 +1785,8 @@ msgstr "O nome de usuário a ser utilizado, caso este Serviço de Desenvolviment
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_USERNAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_USERNAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-password]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-password[`+++quarkus.datasource.devservices.password+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.password+++[]\n"
@@ -1734,7 +1802,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-password[quarkus.datasource.devservices.password] config_property_copy_button:quarkus.datasource.devservices.password[]"
 
 #, fuzzy
 msgid ""
@@ -1756,6 +1824,8 @@ msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita su
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-init-script-path]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-init-script-path[`+++quarkus.datasource.devservices.init-script-path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.init-script-path+++[]\n"
@@ -1773,7 +1843,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-init-script-path[quarkus.datasource.devservices.init-script-path] config_property_copy_button:quarkus.datasource.devservices.init-script-path[]"
 
 #, fuzzy
 msgid ""
@@ -1799,6 +1869,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSE
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-init-privileged-script-path]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-init-privileged-script-path[`+++quarkus.datasource.devservices.init-privileged-script-path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.init-privileged-script-path+++[]\n"
@@ -1814,7 +1886,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_PRIVILEGED_SCRIPT_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-init-privileged-script-path[quarkus.datasource.devservices.init-privileged-script-path] config_property_copy_button:quarkus.datasource.devservices.init-privileged-script-path[]"
 
 #, fuzzy
 msgid ""
@@ -1836,6 +1908,8 @@ msgstr "Os caminhos para os scripts SQL a serem carregados a partir do classpath
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_PRIVILEGED_SCRIPT_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_INIT_PRIVILEGED_SCRIPT_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-volumes-host-path]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-volumes-host-path[`+++quarkus.datasource.devservices.volumes.\"host-path\"+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.volumes.\"host-path\"+++[]\n"
@@ -1857,7 +1931,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES__HOST_PATH_+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-volumes-host-path[quarkus.datasource.devservices.volumes.\"host-path\"] config_property_copy_button:quarkus.datasource.devservices.volumes.\"host-path\"[]"
 
 #, fuzzy
 msgid ""
@@ -1887,6 +1961,8 @@ msgstr "Ao utilizar um caminho no sistema de arquivos, o volume será gerado com
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES__HOST_PATH_+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES__HOST_PATH_[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-reuse]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-reuse[`+++quarkus.datasource.devservices.reuse+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.reuse+++[]\n"
@@ -1919,7 +1995,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_REUSE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-reuse[quarkus.datasource.devservices.reuse] config_property_copy_button:quarkus.datasource.devservices.reuse[]"
 
 #, fuzzy
 msgid ""
@@ -1960,6 +2036,8 @@ msgstr "Essa propriedade de configuração está definida como `“true”` por 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_REUSE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_REUSE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices-show-logs]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices-show-logs[`+++quarkus.datasource.devservices.show-logs+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.devservices.show-logs+++[]\n"
@@ -1977,7 +2055,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_SHOW_LOGS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-show-logs[quarkus.datasource.devservices.show-logs] config_property_copy_button:quarkus.datasource.devservices.show-logs[]"
 
 #, fuzzy
 msgid ""
@@ -2007,6 +2085,8 @@ msgstr "Fonte de dados reativa"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada em tempo de compilação - Todas as outras propriedades de configuração podem ser substituídas em tempo de execução <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-reactive-datasource_quarkus-datasource-reactive]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive[`+++quarkus.datasource.reactive+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive+++[]\n"
@@ -2022,7 +2102,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-reactive-datasource_quarkus-datasource-reactive[quarkus.datasource.reactive] config_property_copy_button:quarkus.datasource.reactive[]"
 
 #, fuzzy
 msgid ""
@@ -2044,6 +2124,8 @@ msgstr "Se criarmos uma fonte de dados reativa para esta fonte de dados."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-cache-prepared-statements]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-cache-prepared-statements[`+++quarkus.datasource.reactive.cache-prepared-statements+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.cache-prepared-statements+++[]\n"
@@ -2059,7 +2141,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_CACHE_PREPARED_STATEMENTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-cache-prepared-statements[quarkus.datasource.reactive.cache-prepared-statements] config_property_copy_button:quarkus.datasource.reactive.cache-prepared-statements[]"
 
 #, fuzzy
 msgid ""
@@ -2085,6 +2167,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACT
 msgid "`+++true for PostgreSQL/MySQL/MariaDB/Db2, false otherwise+++`"
 msgstr "`verdadeiro para PostgreSQL/MySQL/MariaDB/Db2; falso nos demais casos`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-max-size]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-max-size[`+++quarkus.datasource.reactive.prepared-statement-cache-max-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.prepared-statement-cache-max-size+++[]\n"
@@ -2102,31 +2186,43 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_PREPARED_STATEMENT_CACHE_MAX_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-max-size[quarkus.datasource.reactive.prepared-statement-cache-max-size] config_property_copy_button:quarkus.datasource.reactive.prepared-statement-cache-max-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-max-size]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-max-size[`+++quarkus.datasource.reactive.prepared-statement-cache-max-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.prepared-statement-cache-max-size+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-max-size[quarkus.datasource.reactive.prepared-statement-cache-max-size] config_property_copy_button:quarkus.datasource.reactive.prepared-statement-cache-max-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.prepared-statement-cache-max-size+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.prepared-statement-cache-max-size+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.prepared-statement-cache-max-size` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.prepared-statement-cache-max-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The maximum number of prepared statements that the client will cache."
-msgstr ""
+msgstr "O número máximo de instruções preparadas que o cliente armazenará em cache."
 
+#. mt: deepl
+#, fuzzy
 msgid "Only effective when `cache-prepared-statements` is enabled (PostgreSQL, MySQL/MariaDB, Db2)."
-msgstr ""
+msgstr "Só é eficaz quando a opção ` `cache-prepared-statements`` estiver ativada (PostgreSQL, MySQL/MariaDB, Db2)."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_PREPARED_STATEMENT_CACHE_MAX_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_PREPARED_STATEMENT_CACHE_MAX_SIZE[]"
 
 #, fuzzy
 msgid "`+++256+++`"
 msgstr "`256`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-sql-limit]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-sql-limit[`+++quarkus.datasource.reactive.prepared-statement-cache-sql-limit+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.prepared-statement-cache-sql-limit+++[]\n"
@@ -2144,28 +2240,38 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_PREPARED_STATEMENT_CACHE_SQL_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-sql-limit[quarkus.datasource.reactive.prepared-statement-cache-sql-limit] config_property_copy_button:quarkus.datasource.reactive.prepared-statement-cache-sql-limit[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-sql-limit]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-sql-limit[`+++quarkus.datasource.reactive.prepared-statement-cache-sql-limit+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.prepared-statement-cache-sql-limit+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-prepared-statement-cache-sql-limit[quarkus.datasource.reactive.prepared-statement-cache-sql-limit] config_property_copy_button:quarkus.datasource.reactive.prepared-statement-cache-sql-limit[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.prepared-statement-cache-sql-limit+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.prepared-statement-cache-sql-limit+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.prepared-statement-cache-sql-limit` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.prepared-statement-cache-sql-limit[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The maximum length of SQL text that the client will cache in a prepared statement. Queries exceeding this limit are not cached."
-msgstr ""
+msgstr "O comprimento máximo do texto SQL que o cliente armazenará em cache em uma instrução preparada. As consultas que excederem esse limite não serão armazenadas em cache."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_PREPARED_STATEMENT_CACHE_SQL_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_PREPARED_STATEMENT_CACHE_SQL_LIMIT[]"
 
 #, fuzzy
 msgid "`+++2048+++`"
 msgstr "`2048`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-url]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-url[`+++quarkus.datasource.reactive.url+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.url+++[]\n"
@@ -2183,7 +2289,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_URL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-url[quarkus.datasource.reactive.url] config_property_copy_button:quarkus.datasource.reactive.url[]"
 
 #, fuzzy
 msgid ""
@@ -2209,6 +2315,8 @@ msgstr "Caso sejam definidos vários valores, esta fonte de dados criará um con
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_URL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_URL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-max-size]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-size[`+++quarkus.datasource.reactive.max-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.max-size+++[]\n"
@@ -2224,7 +2332,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MAX_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-size[quarkus.datasource.reactive.max-size] config_property_copy_button:quarkus.datasource.reactive.max-size[]"
 
 #, fuzzy
 msgid ""
@@ -2250,6 +2358,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACT
 msgid "`+++20+++`"
 msgstr "`20`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-event-loop-size]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-event-loop-size[`+++quarkus.datasource.reactive.event-loop-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.event-loop-size+++[]\n"
@@ -2267,7 +2377,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_EVENT_LOOP_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-event-loop-size[quarkus.datasource.reactive.event-loop-size] config_property_copy_button:quarkus.datasource.reactive.event-loop-size[]"
 
 #, fuzzy
 msgid ""
@@ -2293,6 +2403,8 @@ msgstr "Quando `#event-loop-size` é definido como um valor estritamente positiv
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_EVENT_LOOP_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_EVENT_LOOP_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-all]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-all[`+++quarkus.datasource.reactive.trust-all+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-all+++[]\n"
@@ -2308,7 +2420,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_ALL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-all[quarkus.datasource.reactive.trust-all] config_property_copy_button:quarkus.datasource.reactive.trust-all[]"
 
 #, fuzzy
 msgid ""
@@ -2330,6 +2442,8 @@ msgstr "Se todos os certificados de servidor devem ser considerados confiáveis.
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_ALL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_ALL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pem]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pem[`+++quarkus.datasource.reactive.trust-certificate-pem+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-pem+++[]\n"
@@ -2345,7 +2459,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PEM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pem[quarkus.datasource.reactive.trust-certificate-pem] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-pem[]"
 
 #, fuzzy
 msgid ""
@@ -2367,6 +2481,8 @@ msgstr "A configuração do PEM Trust está desativada por padrão."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PEM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PEM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pem-certs]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pem-certs[`+++quarkus.datasource.reactive.trust-certificate-pem.certs+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-pem.certs+++[]\n"
@@ -2382,7 +2498,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PEM_CERTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pem-certs[quarkus.datasource.reactive.trust-certificate-pem.certs] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-pem.certs[]"
 
 #, fuzzy
 msgid ""
@@ -2404,6 +2520,8 @@ msgstr "Lista separada por vírgulas dos arquivos de certificados de confiança 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PEM_CERTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PEM_CERTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks[`+++quarkus.datasource.reactive.trust-certificate-jks+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-jks+++[]\n"
@@ -2419,7 +2537,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks[quarkus.datasource.reactive.trust-certificate-jks] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-jks[]"
 
 #, fuzzy
 msgid ""
@@ -2441,6 +2559,8 @@ msgstr "A configuração do JKS está desativada por padrão."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks-path]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks-path[`+++quarkus.datasource.reactive.trust-certificate-jks.path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-jks.path+++[]\n"
@@ -2456,7 +2576,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks-path[quarkus.datasource.reactive.trust-certificate-jks.path] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-jks.path[]"
 
 #, fuzzy
 msgid ""
@@ -2478,6 +2598,8 @@ msgstr "Caminho do arquivo de chave (formato JKS)."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks-password]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks-password[`+++quarkus.datasource.reactive.trust-certificate-jks.password+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-jks.password+++[]\n"
@@ -2493,7 +2615,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-jks-password[quarkus.datasource.reactive.trust-certificate-jks.password] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-jks.password[]"
 
 #, fuzzy
 msgid ""
@@ -2515,6 +2637,8 @@ msgstr "Senha do arquivo de chave."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_JKS_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx[`+++quarkus.datasource.reactive.trust-certificate-pfx+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-pfx+++[]\n"
@@ -2530,7 +2654,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx[quarkus.datasource.reactive.trust-certificate-pfx] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-pfx[]"
 
 #, fuzzy
 msgid ""
@@ -2552,6 +2676,8 @@ msgstr "A configuração do PFX está desativada por padrão."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx-path]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx-path[`+++quarkus.datasource.reactive.trust-certificate-pfx.path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-pfx.path+++[]\n"
@@ -2567,7 +2693,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx-path[quarkus.datasource.reactive.trust-certificate-pfx.path] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-pfx.path[]"
 
 #, fuzzy
 msgid ""
@@ -2589,6 +2715,8 @@ msgstr "Caminho para o arquivo de chave (formato PFX)."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx-password]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx-password[`+++quarkus.datasource.reactive.trust-certificate-pfx.password+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.trust-certificate-pfx.password+++[]\n"
@@ -2604,7 +2732,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-certificate-pfx-password[quarkus.datasource.reactive.trust-certificate-pfx.password] config_property_copy_button:quarkus.datasource.reactive.trust-certificate-pfx.password[]"
 
 #, fuzzy
 msgid ""
@@ -2626,6 +2754,8 @@ msgstr "Senha da chave."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TRUST_CERTIFICATE_PFX_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem[`+++quarkus.datasource.reactive.key-certificate-pem+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-pem+++[]\n"
@@ -2641,7 +2771,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem[quarkus.datasource.reactive.key-certificate-pem] config_property_copy_button:quarkus.datasource.reactive.key-certificate-pem[]"
 
 #, fuzzy
 msgid ""
@@ -2663,6 +2793,8 @@ msgstr "A configuração de chave/certificado PEM está desativada por padrão."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem-keys]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem-keys[`+++quarkus.datasource.reactive.key-certificate-pem.keys+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-pem.keys+++[]\n"
@@ -2678,7 +2810,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM_KEYS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem-keys[quarkus.datasource.reactive.key-certificate-pem.keys] config_property_copy_button:quarkus.datasource.reactive.key-certificate-pem.keys[]"
 
 #, fuzzy
 msgid ""
@@ -2700,6 +2832,8 @@ msgstr "Lista separada por vírgulas dos caminhos para os arquivos de chave (for
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM_KEYS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM_KEYS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem-certs]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem-certs[`+++quarkus.datasource.reactive.key-certificate-pem.certs+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-pem.certs+++[]\n"
@@ -2715,7 +2849,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM_CERTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pem-certs[quarkus.datasource.reactive.key-certificate-pem.certs] config_property_copy_button:quarkus.datasource.reactive.key-certificate-pem.certs[]"
 
 #, fuzzy
 msgid ""
@@ -2737,6 +2871,8 @@ msgstr "Lista separada por vírgulas do caminho para os arquivos de certificados
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM_CERTS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PEM_CERTS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks[`+++quarkus.datasource.reactive.key-certificate-jks+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-jks+++[]\n"
@@ -2752,7 +2888,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks[quarkus.datasource.reactive.key-certificate-jks] config_property_copy_button:quarkus.datasource.reactive.key-certificate-jks[]"
 
 #, fuzzy
 msgid ""
@@ -2770,6 +2906,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks-path]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks-path[`+++quarkus.datasource.reactive.key-certificate-jks.path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-jks.path+++[]\n"
@@ -2785,7 +2923,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks-path[quarkus.datasource.reactive.key-certificate-jks.path] config_property_copy_button:quarkus.datasource.reactive.key-certificate-jks.path[]"
 
 #, fuzzy
 msgid ""
@@ -2803,6 +2941,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks-password]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks-password[`+++quarkus.datasource.reactive.key-certificate-jks.password+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-jks.password+++[]\n"
@@ -2818,7 +2958,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-jks-password[quarkus.datasource.reactive.key-certificate-jks.password] config_property_copy_button:quarkus.datasource.reactive.key-certificate-jks.password[]"
 
 #, fuzzy
 msgid ""
@@ -2836,6 +2976,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_JKS_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx[`+++quarkus.datasource.reactive.key-certificate-pfx+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-pfx+++[]\n"
@@ -2851,7 +2993,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx[quarkus.datasource.reactive.key-certificate-pfx] config_property_copy_button:quarkus.datasource.reactive.key-certificate-pfx[]"
 
 #, fuzzy
 msgid ""
@@ -2869,6 +3011,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx-path]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx-path[`+++quarkus.datasource.reactive.key-certificate-pfx.path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-pfx.path+++[]\n"
@@ -2884,7 +3028,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx-path[quarkus.datasource.reactive.key-certificate-pfx.path] config_property_copy_button:quarkus.datasource.reactive.key-certificate-pfx.path[]"
 
 #, fuzzy
 msgid ""
@@ -2902,6 +3046,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX_PATH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx-password]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx-password[`+++quarkus.datasource.reactive.key-certificate-pfx.password+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.key-certificate-pfx.password+++[]\n"
@@ -2917,7 +3063,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certificate-pfx-password[quarkus.datasource.reactive.key-certificate-pfx.password] config_property_copy_button:quarkus.datasource.reactive.key-certificate-pfx.password[]"
 
 #, fuzzy
 msgid ""
@@ -2935,6 +3081,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX_PASSWORD+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_KEY_CERTIFICATE_PFX_PASSWORD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect-attempts]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect-attempts[`+++quarkus.datasource.reactive.reconnect-attempts+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.reconnect-attempts+++[]\n"
@@ -2950,7 +3098,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_RECONNECT_ATTEMPTS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect-attempts[quarkus.datasource.reactive.reconnect-attempts] config_property_copy_button:quarkus.datasource.reactive.reconnect-attempts[]"
 
 #, fuzzy
 msgid ""
@@ -2976,6 +3124,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACT
 msgid "`+++0+++`"
 msgstr "`0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect-interval]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect-interval[`+++quarkus.datasource.reactive.reconnect-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.reconnect-interval+++[]\n"
@@ -2991,7 +3141,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_RECONNECT_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect-interval[quarkus.datasource.reactive.reconnect-interval] config_property_copy_button:quarkus.datasource.reactive.reconnect-interval[]"
 
 #, fuzzy
 msgid ""
@@ -3021,6 +3171,8 @@ msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/t
 msgid "`+++1S+++`"
 msgstr "`1S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-hostname-verification-algorithm]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-hostname-verification-algorithm[`+++quarkus.datasource.reactive.hostname-verification-algorithm+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.hostname-verification-algorithm+++[]\n"
@@ -3036,7 +3188,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_HOSTNAME_VERIFICATION_ALGORITHM+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-hostname-verification-algorithm[quarkus.datasource.reactive.hostname-verification-algorithm] config_property_copy_button:quarkus.datasource.reactive.hostname-verification-algorithm[]"
 
 #, fuzzy
 msgid ""
@@ -3062,6 +3214,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACT
 msgid "`+++NONE+++`"
 msgstr "`NENHUM`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-tls-configuration-name]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-tls-configuration-name[`+++quarkus.datasource.reactive.tls-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.tls-configuration-name+++[]\n"
@@ -3079,28 +3233,38 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TLS_CONFIGURATION_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-tls-configuration-name[quarkus.datasource.reactive.tls-configuration-name] config_property_copy_button:quarkus.datasource.reactive.tls-configuration-name[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-tls-configuration-name]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-tls-configuration-name[`+++quarkus.datasource.reactive.tls-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.tls-configuration-name+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-tls-configuration-name[quarkus.datasource.reactive.tls-configuration-name] config_property_copy_button:quarkus.datasource.reactive.tls-configuration-name[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.tls-configuration-name+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.tls-configuration-name+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.nome-da-configuração-tls` botão-para-copiar-propriedade-de-configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.nome-da-configuração-tls[]"
 
 #, fuzzy
 msgid "The name of the TLS configuration to use."
 msgstr "O nome da configuração TLS a ser utilizada."
 
+#. mt: deepl
+#, fuzzy
 msgid "If set, the TLS configuration with the given name is used for SSL/TLS. When set, manual trust/key certificate properties are ignored."
-msgstr ""
+msgstr "Se definida, a configuração TLS com o nome indicado será utilizada para SSL/TLS. Quando definida, as propriedades manuais de confiança e de certificado são ignoradas."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_TLS_CONFIGURATION_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-connection-timeout]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-connection-timeout[`+++quarkus.datasource.reactive.connection-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.connection-timeout+++[]\n"
@@ -3116,28 +3280,38 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_CONNECTION_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-connection-timeout[quarkus.datasource.reactive.connection-timeout] config_property_copy_button:quarkus.datasource.reactive.connection-timeout[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-connection-timeout]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-connection-timeout[`+++quarkus.datasource.reactive.connection-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.connection-timeout+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-connection-timeout[quarkus.datasource.reactive.connection-timeout] config_property_copy_button:quarkus.datasource.reactive.connection-timeout[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.connection-timeout+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.connection-timeout+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"datasource-name\".reactive.connection-timeout` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.connection-timeout[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The maximum time to wait for a connection from the pool."
-msgstr ""
+msgstr "O tempo máximo de espera por uma conexão do pool."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_CONNECTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_CONNECTION_TIMEOUT[]"
 
 #, fuzzy
 msgid "`+++30S+++`"
 msgstr "`30S`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-max-wait-queue-size]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-wait-queue-size[`+++quarkus.datasource.reactive.max-wait-queue-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.max-wait-queue-size+++[]\n"
@@ -3155,31 +3329,43 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MAX_WAIT_QUEUE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-wait-queue-size[quarkus.datasource.reactive.max-wait-queue-size] config_property_copy_button:quarkus.datasource.reactive.max-wait-queue-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-max-wait-queue-size]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-wait-queue-size[`+++quarkus.datasource.reactive.max-wait-queue-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.max-wait-queue-size+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-wait-queue-size[quarkus.datasource.reactive.max-wait-queue-size] config_property_copy_button:quarkus.datasource.reactive.max-wait-queue-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.max-wait-queue-size+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.max-wait-queue-size+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.max-wait-queue-size` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.max-wait-queue-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The maximum number of requests allowed in the wait queue of the pool. If the queue is full, further requests are rejected."
-msgstr ""
+msgstr "O número máximo de solicitações permitidas na fila de espera do pool. Se a fila estiver cheia, as solicitações adicionais serão rejeitadas."
 
+#. mt: deepl
+#, fuzzy
 msgid "A value of -1 means there is no limit."
-msgstr ""
+msgstr "Um valor igual a -1 significa que não há limite."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MAX_WAIT_QUEUE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MAX_WAIT_QUEUE_SIZE[]"
 
 #, fuzzy
 msgid "`+++-1+++`"
 msgstr "`-1`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-pool-cleaner-period]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-pool-cleaner-period[`+++quarkus.datasource.reactive.pool-cleaner-period+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.pool-cleaner-period+++[]\n"
@@ -3195,24 +3381,34 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POOL_CLEANER_PERIOD+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-pool-cleaner-period[quarkus.datasource.reactive.pool-cleaner-period] config_property_copy_button:quarkus.datasource.reactive.pool-cleaner-period[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-pool-cleaner-period]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-pool-cleaner-period[`+++quarkus.datasource.reactive.pool-cleaner-period+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.pool-cleaner-period+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-pool-cleaner-period[quarkus.datasource.reactive.pool-cleaner-period] config_property_copy_button:quarkus.datasource.reactive.pool-cleaner-period[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.pool-cleaner-period+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.pool-cleaner-period+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"datasource-name\".reactive.pool-cleaner-period` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.pool-cleaner-period[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "How often the pool is checked for idle connections eligible for removal."
-msgstr ""
+msgstr "Com que frequência o conjunto é verificado em busca de conexões inativas passíveis de remoção."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POOL_CLEANER_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_POOL_CLEANER_PERIOD[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-idle-timeout]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-idle-timeout[`+++quarkus.datasource.reactive.idle-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.idle-timeout+++[]\n"
@@ -3228,7 +3424,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_IDLE_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-idle-timeout[quarkus.datasource.reactive.idle-timeout] config_property_copy_button:quarkus.datasource.reactive.idle-timeout[]"
 
 #, fuzzy
 msgid ""
@@ -3254,6 +3450,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACT
 msgid "`+++no timeout+++`"
 msgstr "`sem tempo limite`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-max-lifetime]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-lifetime[`+++quarkus.datasource.reactive.max-lifetime+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.max-lifetime+++[]\n"
@@ -3269,7 +3467,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MAX_LIFETIME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-max-lifetime[quarkus.datasource.reactive.max-lifetime] config_property_copy_button:quarkus.datasource.reactive.max-lifetime[]"
 
 #, fuzzy
 msgid ""
@@ -3291,6 +3489,8 @@ msgstr "O tempo máximo durante o qual uma conexão permanece no pool; após ess
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MAX_LIFETIME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MAX_LIFETIME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-shared]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-shared[`+++quarkus.datasource.reactive.shared+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.shared+++[]\n"
@@ -3306,7 +3506,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_SHARED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-shared[quarkus.datasource.reactive.shared] config_property_copy_button:quarkus.datasource.reactive.shared[]"
 
 #, fuzzy
 msgid ""
@@ -3328,6 +3528,8 @@ msgstr "Defina como “true” para compartilhar o pool entre as fontes de dados
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_SHARED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_SHARED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-name]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-name[`+++quarkus.datasource.reactive.name+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.name+++[]\n"
@@ -3343,7 +3545,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-name[quarkus.datasource.reactive.name] config_property_copy_button:quarkus.datasource.reactive.name[]"
 
 #, fuzzy
 msgid ""
@@ -3365,6 +3567,8 @@ msgstr "Defina o nome do conjunto, utilizado quando o conjunto é compartilhado 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_NAME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_NAME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-datasource_quarkus-datasource-reactive-additional-properties-property-key]] [.property-path]##link:#quarkus-reactive-datasource_quarkus-datasource-reactive-additional-properties-property-key[`+++quarkus.datasource.reactive.additional-properties.\"property-key\"+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.additional-properties.\"property-key\"+++[]\n"
@@ -3380,7 +3584,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_ADDITIONAL_PROPERTIES__PROPERTY_KEY_+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-additional-properties-property-key[quarkus.datasource.reactive.additional-properties.\"property-key\"] config_property_copy_button:quarkus.datasource.reactive.additional-properties.\"property-key\"[]"
 
 #, fuzzy
 msgid ""
@@ -3438,6 +3642,8 @@ msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time
 msgid "[[quarkus-reactive-db2-client_section_quarkus-datasource]] [.section-name.section-level0]##link:#quarkus-reactive-db2-client_section_quarkus-datasource[Datasources]##"
 msgstr " link:#quarkus-reactive-db2-client_section_quarkus-datasource[Fontes de dados]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-db2-client_quarkus-datasource-reactive-db2-ssl]] [.property-path]##link:#quarkus-reactive-db2-client_quarkus-datasource-reactive-db2-ssl[`+++quarkus.datasource.reactive.db2.ssl+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.db2.ssl+++[]\n"
@@ -3453,7 +3659,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_DB2_SSL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-db2-client_quarkus-datasource-reactive-db2-ssl[quarkus.datasource.reactive.db2.ssl] config_property_copy_button:quarkus.datasource.reactive.db2.ssl[]"
 
 #, fuzzy
 msgid ""
@@ -3483,6 +3689,8 @@ msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time
 msgid "[[quarkus-reactive-mysql-client_section_quarkus-datasource]] [.section-name.section-level0]##link:#quarkus-reactive-mysql-client_section_quarkus-datasource[Additional named datasources]##"
 msgstr " link:#quarkus-reactive-mysql-client_section_quarkus-datasource[Fontes de dados adicionais nomeadas]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-charset]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-charset[`+++quarkus.datasource.reactive.mysql.charset+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.charset+++[]\n"
@@ -3498,7 +3706,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_CHARSET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-charset[quarkus.datasource.reactive.mysql.charset] config_property_copy_button:quarkus.datasource.reactive.mysql.charset[]"
 
 #, fuzzy
 msgid ""
@@ -3520,6 +3728,8 @@ msgstr "Conjunto de caracteres para conexões."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_CHARSET+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_CHARSET[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-collation]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-collation[`+++quarkus.datasource.reactive.mysql.collation+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.collation+++[]\n"
@@ -3535,7 +3745,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_COLLATION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-collation[quarkus.datasource.reactive.mysql.collation] config_property_copy_button:quarkus.datasource.reactive.mysql.collation[]"
 
 #, fuzzy
 msgid ""
@@ -3557,6 +3767,8 @@ msgstr "Ordenação para conexões."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_COLLATION+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_COLLATION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-ssl-mode]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-ssl-mode[`+++quarkus.datasource.reactive.mysql.ssl-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.ssl-mode+++[]\n"
@@ -3574,7 +3786,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_SSL_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-ssl-mode[quarkus.datasource.reactive.mysql.ssl-mode] config_property_copy_button:quarkus.datasource.reactive.mysql.ssl-mode[]"
 
 #, fuzzy
 msgid ""
@@ -3608,6 +3820,8 @@ msgstr "`desativado` , `preferencial` , `obrigatório` , `verificar-ca` , `verif
 msgid "`+++disabled+++`"
 msgstr "`desativado`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-authentication-plugin]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-authentication-plugin[`+++quarkus.datasource.reactive.mysql.authentication-plugin+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.authentication-plugin+++[]\n"
@@ -3623,7 +3837,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_AUTHENTICATION_PLUGIN+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-authentication-plugin[quarkus.datasource.reactive.mysql.authentication-plugin] config_property_copy_button:quarkus.datasource.reactive.mysql.authentication-plugin[]"
 
 #, fuzzy
 msgid ""
@@ -3653,6 +3867,8 @@ msgstr "`padrão` , `mysql-clear-password` , `mysql-native-password` , `sha256-p
 msgid "`+++default+++`"
 msgstr "`padrão`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-pipelining-limit]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-pipelining-limit[`+++quarkus.datasource.reactive.mysql.pipelining-limit+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.pipelining-limit+++[]\n"
@@ -3668,7 +3884,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_PIPELINING_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-pipelining-limit[quarkus.datasource.reactive.mysql.pipelining-limit] config_property_copy_button:quarkus.datasource.reactive.mysql.pipelining-limit[]"
 
 #, fuzzy
 msgid ""
@@ -3690,6 +3906,8 @@ msgstr "O número máximo de comandos de banco de dados em tempo de execução q
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_PIPELINING_LIMIT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_PIPELINING_LIMIT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-use-affected-rows]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-use-affected-rows[`+++quarkus.datasource.reactive.mysql.use-affected-rows+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.use-affected-rows+++[]\n"
@@ -3705,7 +3923,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_USE_AFFECTED_ROWS+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-use-affected-rows[quarkus.datasource.reactive.mysql.use-affected-rows] config_property_copy_button:quarkus.datasource.reactive.mysql.use-affected-rows[]"
 
 #, fuzzy
 msgid ""
@@ -3727,6 +3945,8 @@ msgstr "Se deve retornar o número de linhas correspondentes à cláusula _WHERE
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_USE_AFFECTED_ROWS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_USE_AFFECTED_ROWS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-character-encoding]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-character-encoding[`+++quarkus.datasource.reactive.mysql.character-encoding+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.character-encoding+++[]\n"
@@ -3742,28 +3962,38 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_CHARACTER_ENCODING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-character-encoding[quarkus.datasource.reactive.mysql.character-encoding] config_property_copy_button:quarkus.datasource.reactive.mysql.character-encoding[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-character-encoding]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-character-encoding[`+++quarkus.datasource.reactive.mysql.character-encoding+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.character-encoding+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-character-encoding[quarkus.datasource.reactive.mysql.character-encoding] config_property_copy_button:quarkus.datasource.reactive.mysql.character-encoding[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.mysql.character-encoding+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.mysql.character-encoding+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.character-encoding` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.character-encoding[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Set the Java charset to use to encode query string and parameter values. The charset is UTF-8 by default."
-msgstr ""
+msgstr "Defina o conjunto de caracteres Java a ser utilizado para codificar a string de consulta e os valores dos parâmetros. O conjunto de caracteres padrão é o UTF-8."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_CHARACTER_ENCODING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_CHARACTER_ENCODING[]"
 
 #, fuzzy
 msgid "`+++UTF-8+++`"
 msgstr "`UTF-8`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-path]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-path[`+++quarkus.datasource.reactive.mysql.server-rsa-public-key-path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.server-rsa-public-key-path+++[]\n"
@@ -3781,27 +4011,39 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_SERVER_RSA_PUBLIC_KEY_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-path[quarkus.datasource.reactive.mysql.server-rsa-public-key-path] config_property_copy_button:quarkus.datasource.reactive.mysql.server-rsa-public-key-path[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-path]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-path[`+++quarkus.datasource.reactive.mysql.server-rsa-public-key-path+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.server-rsa-public-key-path+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-path[quarkus.datasource.reactive.mysql.server-rsa-public-key-path] config_property_copy_button:quarkus.datasource.reactive.mysql.server-rsa-public-key-path[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.mysql.server-rsa-public-key-path+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.mysql.server-rsa-public-key-path+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.server-rsa-public-key-path` botão-para-copiar-propriedade-de-configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.server-rsa-public-key-path[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "Path to the server RSA public key file."
-msgstr ""
+msgstr "Caminho para o arquivo da chave pública RSA do servidor."
 
+#. mt: deepl
+#, fuzzy
 msgid "Used to securely encrypt the password during login when using SHA-256 authentication plugins (e.g., `caching_sha2_password`) over unencrypted (non-TLS) connections. Specifying this locally prevents Man-in-the-Middle attacks by avoiding automatic public key retrieval from the server."
-msgstr ""
+msgstr "Utilizado para criptografar com segurança a senha durante o login ao utilizar plug-ins de autenticação SHA-256 (por exemplo, `caching_sha2_password` ) em conexões não criptografadas (sem TLS). A especificação dessa opção localmente impede ataques do tipo “man-in-the-middle”, evitando a recuperação automática da chave pública do servidor."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_SERVER_RSA_PUBLIC_KEY_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_SERVER_RSA_PUBLIC_KEY_PATH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-value]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-value[`+++quarkus.datasource.reactive.mysql.server-rsa-public-key-value+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.server-rsa-public-key-value+++[]\n"
@@ -3821,26 +4063,36 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_SERVER_RSA_PUBLIC_KEY_VALUE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-value[quarkus.datasource.reactive.mysql.server-rsa-public-key-value] config_property_copy_button:quarkus.datasource.reactive.mysql.server-rsa-public-key-value[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-value]] [.property-path]##link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-value[`+++quarkus.datasource.reactive.mysql.server-rsa-public-key-value+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mysql.server-rsa-public-key-value+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-server-rsa-public-key-value[quarkus.datasource.reactive.mysql.server-rsa-public-key-value] config_property_copy_button:quarkus.datasource.reactive.mysql.server-rsa-public-key-value[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.mysql.server-rsa-public-key-value+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.mysql.server-rsa-public-key-value+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.server-rsa-public-key-value` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.server-rsa-public-key-value[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The server RSA public key content."
-msgstr ""
+msgstr "O conteúdo da chave pública RSA do servidor."
 
+#. mt: deepl
+#, fuzzy
 msgid "If set, takes precedence over `server-rsa-public-key-path`."
-msgstr ""
+msgstr "Se definido, tem precedência sobre o parâmetro ` `server-rsa-public-key-path` `."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_SERVER_RSA_PUBLIC_KEY_VALUE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MYSQL_SERVER_RSA_PUBLIC_KEY_VALUE[]"
 
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-5\" placeholder=\"FILTER CONFIGURATION\" disabled>"
@@ -3850,6 +4102,8 @@ msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time
 msgid "[[quarkus-reactive-mssql-client_section_quarkus-datasource]] [.section-name.section-level0]##link:#quarkus-reactive-mssql-client_section_quarkus-datasource[Datasources]##"
 msgstr " link:#quarkus-reactive-mssql-client_section_quarkus-datasource[Fontes de dados]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-packet-size]] [.property-path]##link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-packet-size[`+++quarkus.datasource.reactive.mssql.packet-size+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mssql.packet-size+++[]\n"
@@ -3865,7 +4119,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MSSQL_PACKET_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-packet-size[quarkus.datasource.reactive.mssql.packet-size] config_property_copy_button:quarkus.datasource.reactive.mssql.packet-size[]"
 
 #, fuzzy
 msgid ""
@@ -3887,6 +4141,8 @@ msgstr "O tamanho desejado (em bytes) para os pacotes TDS."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MSSQL_PACKET_SIZE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MSSQL_PACKET_SIZE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-ssl]] [.property-path]##link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-ssl[`+++quarkus.datasource.reactive.mssql.ssl+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mssql.ssl+++[]\n"
@@ -3902,7 +4158,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MSSQL_SSL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-ssl[quarkus.datasource.reactive.mssql.ssl] config_property_copy_button:quarkus.datasource.reactive.mssql.ssl[]"
 
 #, fuzzy
 msgid ""
@@ -3920,6 +4176,8 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.ssl` confi
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MSSQL_SSL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MSSQL_SSL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-encryption-mode]] [.property-path]##link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-encryption-mode[`+++quarkus.datasource.reactive.mssql.encryption-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mssql.encryption-mode+++[]\n"
@@ -3943,41 +4201,61 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MSSQL_ENCRYPTION_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-encryption-mode[quarkus.datasource.reactive.mssql.encryption-mode] config_property_copy_button:quarkus.datasource.reactive.mssql.encryption-mode[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-encryption-mode]] [.property-path]##link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-encryption-mode[`+++quarkus.datasource.reactive.mssql.encryption-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.mssql.encryption-mode+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-encryption-mode[quarkus.datasource.reactive.mssql.encryption-mode] config_property_copy_button:quarkus.datasource.reactive.mssql.encryption-mode[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.mssql.encryption-mode+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.mssql.encryption-mode+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.encryption-mode` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.encryption-mode[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "The encryption mode for the connection."
-msgstr ""
+msgstr "O modo de criptografia da conexão."
 
+#. mt: deepl
+#, fuzzy
 msgid "Determines the TDS protocol version and whether TLS encryption is used:"
-msgstr ""
+msgstr "Determina a versão do protocolo TDS e se a criptografia TLS é utilizada:"
 
+#. mt: deepl
+#, fuzzy
 msgid "`EncryptionMode++#++OFF` — no encryption, TDS 7.x."
-msgstr ""
+msgstr "`EncryptionMode#OFF` — sem criptografia, TDS 7.x."
 
+#. mt: deepl
+#, fuzzy
 msgid "`EncryptionMode++#++ON` — optional encryption, TDS 7.x. Equivalent to setting `ssl=true`."
-msgstr ""
+msgstr "`EncryptionMode#ON` — criptografia opcional, TDS 7.x. Equivalente à configuração `ssl=true` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "`EncryptionMode++#++STRICT` — mandatory encryption, TDS 8.0."
-msgstr ""
+msgstr "`EncryptionMode#STRICT` — criptografia obrigatória, TDS 8.0."
 
+#. mt: deepl
+#, fuzzy
 msgid "When this option is set it takes precedence over `ssl()`."
-msgstr ""
+msgstr "Quando essa opção estiver definida, ela terá precedência sobre `ssl()` ."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MSSQL_ENCRYPTION_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_MSSQL_ENCRYPTION_MODE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`off`, `on`, `strict`"
-msgstr ""
+msgstr "`desligado` , `ligado` , `restrito`"
 
 #, fuzzy
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-6\" placeholder=\"FILTER CONFIGURATION\" disabled>"
@@ -3995,6 +4273,8 @@ msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time
 msgid "[[quarkus-reactive-pg-client_section_quarkus-datasource]] [.section-name.section-level0]##link:#quarkus-reactive-pg-client_section_quarkus-datasource[Datasources]##"
 msgstr " link:#quarkus-reactive-pg-client_section_quarkus-datasource[Fontes de dados]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-pipelining-limit]] [.property-path]##link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-pipelining-limit[`+++quarkus.datasource.reactive.postgresql.pipelining-limit+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.postgresql.pipelining-limit+++[]\n"
@@ -4010,7 +4290,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_PIPELINING_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-pipelining-limit[quarkus.datasource.reactive.postgresql.pipelining-limit] config_property_copy_button:quarkus.datasource.reactive.postgresql.pipelining-limit[]"
 
 #, fuzzy
 msgid ""
@@ -4032,6 +4312,8 @@ msgstr "O número máximo de comandos de banco de dados em tempo real que podem 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_PIPELINING_LIMIT+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_PIPELINING_LIMIT[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-mode]] [.property-path]##link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-mode[`+++quarkus.datasource.reactive.postgresql.ssl-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.postgresql.ssl-mode+++[]\n"
@@ -4049,7 +4331,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_SSL_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-mode[quarkus.datasource.reactive.postgresql.ssl-mode] config_property_copy_button:quarkus.datasource.reactive.postgresql.ssl-mode[]"
 
 #, fuzzy
 msgid ""
@@ -4083,6 +4365,8 @@ msgstr "`desativar` , `permitir` , `preferir` , `exigir` , `verificar-ca` , `ver
 msgid "`+++disable+++`"
 msgstr "`desativar`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-negotiation]] [.property-path]##link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-negotiation[`+++quarkus.datasource.reactive.postgresql.ssl-negotiation+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.postgresql.ssl-negotiation+++[]\n"
@@ -4105,39 +4389,59 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_SSL_NEGOTIATION+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-negotiation[quarkus.datasource.reactive.postgresql.ssl-negotiation] config_property_copy_button:quarkus.datasource.reactive.postgresql.ssl-negotiation[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-negotiation]] [.property-path]##link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-negotiation[`+++quarkus.datasource.reactive.postgresql.ssl-negotiation+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.postgresql.ssl-negotiation+++[]"
-msgstr ""
+msgstr " link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-ssl-negotiation[quarkus.datasource.reactive.postgresql.ssl-negotiation] config_property_copy_button:quarkus.datasource.reactive.postgresql.ssl-negotiation[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.postgresql.ssl-negotiation+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.postgresql.ssl-negotiation+++[]"
-msgstr ""
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.postgresql.ssl-negotiation` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.postgresql.ssl-negotiation[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "SSL negotiation mode."
-msgstr ""
+msgstr "Modo de negociação SSL."
 
+#. mt: deepl
+#, fuzzy
 msgid "Determines how SSL/TLS negotiation is performed with the PostgreSQL server:"
-msgstr ""
+msgstr "Determina como a negociação SSL/TLS é realizada com o servidor PostgreSQL:"
 
+#. mt: deepl
+#, fuzzy
 msgid "`SslNegotiation++#++POSTGRES` — traditional negotiation; the client sends an SSL request message before the TLS handshake. Compatible with all PostgreSQL versions."
-msgstr ""
+msgstr "`SslNegotiation#POSTGRES` — negociação tradicional; o cliente envia uma mensagem de solicitação SSL antes do handshake TLS. Compatível com todas as versões do PostgreSQL."
 
+#. mt: deepl
+#, fuzzy
 msgid "`SslNegotiation++#++DIRECT` — direct SSL; the TLS handshake starts immediately on connect, with no prior SSL request message. Requires PostgreSQL 17 or later."
-msgstr ""
+msgstr "`SslNegotiation#DIRECT` — SSL direto; o handshake TLS é iniciado imediatamente após a conexão, sem nenhuma mensagem de solicitação SSL prévia. Requer o PostgreSQL 17 ou versão posterior."
 
+#. mt: deepl
+#, fuzzy
 msgid "When not set, the Vert.x client default applies (`SslNegotiation++#++POSTGRES`)."
-msgstr ""
+msgstr "Quando não estiver definido, será aplicada a configuração padrão do cliente Vert.x ( `SslNegotiation#POSTGRES` )."
 
+#. mt: deepl
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_SSL_NEGOTIATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_SSL_NEGOTIATION[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`postgres`, `direct`"
-msgstr ""
+msgstr "`postgres` , `direto`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-use-layer7-proxy]] [.property-path]##link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-use-layer7-proxy[`+++quarkus.datasource.reactive.postgresql.use-layer7-proxy+++`]##\n"
 "config_property_copy_button:+++quarkus.datasource.reactive.postgresql.use-layer7-proxy+++[]\n"
@@ -4153,7 +4457,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_POSTGRESQL_USE_LAYER7_PROXY+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-reactive-pg-client_quarkus-datasource-reactive-postgresql-use-layer7-proxy[quarkus.datasource.reactive.postgresql.use-layer7-proxy] config_property_copy_button:quarkus.datasource.reactive.postgresql.use-layer7-proxy[]"
 
 #, fuzzy
 msgid ""

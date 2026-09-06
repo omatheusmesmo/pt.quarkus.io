@@ -1244,8 +1244,10 @@ msgstr "O ambiente de execução de contêineres (por exemplo, o Docker) utiliza
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_RUNTIME+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_CONTAINER_RUNTIME[]"
 
+#. mt: deepl
+#, fuzzy
 msgid "`docker`, `podman`"
-msgstr ""
+msgstr "`Docker` , `Podman`"
 
 #, fuzzy
 msgid ""
@@ -1271,6 +1273,8 @@ msgstr "Opções a serem passadas ao ambiente de execução do contêiner"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_CONTAINER_RUNTIME_OPTIONS+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_CONTAINER_RUNTIME_OPTIONS[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus.native.enable-vm-inspection]]`link:#quarkus-native-pkg-native-config_quarkus.native.enable-vm-inspection[quarkus.native.enable-vm-inspection]`\n"
 "\n"
@@ -1280,13 +1284,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_VM_INSPECTION+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.enable-vm-inspection[quarkus.native.enable-vm-inspection]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus.native.enable-vm-inspection]]`link:#quarkus-native-pkg-native-config_quarkus.native.enable-vm-inspection[quarkus.native.enable-vm-inspection]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.enable-vm-inspection[quarkus.native.enable-vm-inspection]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "If the resulting image should allow VM introspection"
-msgstr ""
+msgstr "Caso a imagem resultante permita a introspecção da VM"
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_VM_INSPECTION+++[]"
@@ -1412,6 +1420,8 @@ msgstr "Não crie uma imagem nativa se ela já existir. Isso é útil caso você
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_REUSE_EXISTING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_REUSE_EXISTING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus.native.resources.includes]]`link:#quarkus-native-pkg-native-config_quarkus.native.resources.includes[quarkus.native.resources.includes]`\n"
 "\n"
@@ -1430,12 +1440,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_RESOURCES_INCLUDES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.resources.includes[quarkus.native.resources.includes]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus.native.resources.includes]]`link:#quarkus-native-pkg-native-config_quarkus.native.resources.includes[quarkus.native.resources.includes]`"
 msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.resources.includes[quarkus.native.resources.includes]`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "A comma separated list of globs to match resource paths that should be added to the native image.\n"
 "Use slash (`/`) as a path separator on all platforms. Globs must not start with slash.\n"
@@ -1447,7 +1459,7 @@ msgid ""
 " - MicroProfile Config list converter that splits the comma separated list\n"
 " - Glob parser  All three levels use backslash (`++\\++`) as the escaping character. So you need to use an appropriate number of backslashes depending on which level you want to escape.\n"
 "Note that Quarkus extensions typically include the resources they require by themselves. This option is useful in situations when the built-in functionality is not sufficient."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de padrões de correspondência para caminhos de recursos que devem ser adicionados à imagem nativa. Utilize a barra ( `/` ) como separador de caminho em todas as plataformas. Os padrões de correspondência não devem começar com uma barra. Por padrão, nenhum recurso é incluído. Exemplo: Supondo que você tenha os arquivos `src/main/resources/ignored.png` e `src/main/resources/foo/selected.png` em sua árvore de código-fonte e que um de seus JARs de dependência contenha o arquivo `bar/some.txt` , com a seguinte configuração: quarkus.native.resources.includes = foo/**,bar/**/*.txt, os arquivos `src/main/resources/foo/selected.png` e `bar/some.txt` serão incluídos na imagem nativa, enquanto `src/main/resources/ignored.png` não será incluído. Recursos glob suportados Recurso Descrição `*` Corresponde a uma sequência (possivelmente vazia) de caracteres que não contém barra ( `/` ) `**` Corresponde a uma sequência (possivelmente vazia) de caracteres que pode conter barra ( `/` ) `?` Corresponde a um caractere, exceto barra `[abc]` Corresponde a um caractere especificado entre colchetes, exceto barra `[a-z]` Corresponde a um caractere do intervalo especificado entre colchetes, exceto barra `[!abc]` Corresponde a um caractere não mencionado entre colchetes; não corresponde à barra `[a-z]` Corresponde a um caractere fora do intervalo indicado entre colchetes; não corresponde à barra `{um, dois, três}` Corresponde a qualquer um dos tokens alternativos separados por vírgula; os tokens podem conter curingas, alternativas aninhadas e intervalos `\\` O caractere de escape Observe que há três níveis de escape ao passar esta opção por meio `do arquivo application.properties` : . Analisador `do application.properties` - Conversor de lista do MicroProfile Config que divide a lista separada por vírgulas - Analisador de globs Todos os três níveis utilizam a barra invertida ( `\\` ) como caractere de escape. Portanto, é necessário utilizar um número adequado de barras invertidas, dependendo do nível em que se deseja aplicar o escape. Observe que as extensões do Quarkus normalmente incluem os recursos de que necessitam por conta própria. Esta opção é útil em situações em que a funcionalidade integrada não é suficiente."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_RESOURCES_INCLUDES+++[]"
@@ -1534,6 +1546,8 @@ msgstr "Gere os arquivos de relatório para o GraalVM Dashboard."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_ENABLE_DASHBOARD_DUMP+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_ENABLE_DASHBOARD_DUMP[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus.native.compression.level]]`link:#quarkus-native-pkg-native-config_quarkus.native.compression.level[quarkus.native.compression.level]`\n"
 "\n"
@@ -1543,14 +1557,16 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_COMPRESSION_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.compression.level[quarkus.native.compression.level]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-native-pkg-native-config_quarkus.native.compression.level]]`link:#quarkus-native-pkg-native-config_quarkus.native.compression.level[quarkus.native.compression.level]`"
 msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.compression.level[quarkus.native.compression.level]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "The compression level in ++[++1, 10++]++. 10 means *best* Higher compression level requires more time to compress the executable."
-msgstr ""
+msgstr "O nível de compactação está no intervalo [1, 10]. O valor 10 representa *o melhor resultado* . Um nível de compactação mais alto requer mais tempo para compactar o executável."
 
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_NATIVE_COMPRESSION_LEVEL+++[]"

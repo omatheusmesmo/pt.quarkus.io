@@ -2279,6 +2279,8 @@ msgstr "Propriedade de configuração"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-path]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-path[`quarkus.rest.path`]##\n"
 "config_property_copy_button:+++quarkus.rest.path+++[]\n"
@@ -2293,12 +2295,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-path[quarkus.rest.path] config_property_copy_button:quarkus.rest.path[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-path]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-path[`quarkus.rest.path`]##\n"
 "config_property_copy_button:+++quarkus.rest.path+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-path[quarkus.rest.path] config_property_copy_button:quarkus.rest.path[]"
 
 #, fuzzy
 msgid "Set this to define the application path that serves as the base URI for all JAX-RS resource URIs provided by `@Path` annotations when there are no `@ApplicationPath` annotations defined on `Application` classes."
@@ -2319,6 +2323,8 @@ msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 msgid "string"
 msgstr "string"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-input-buffer-size]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-input-buffer-size[`quarkus.rest.input-buffer-size`]##\n"
 "config_property_copy_button:+++quarkus.rest.input-buffer-size+++[]\n"
@@ -2331,12 +2337,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_INPUT_BUFFER_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-input-buffer-size[quarkus.rest.input-buffer-size] config_property_copy_button:quarkus.rest.input-buffer-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-input-buffer-size]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-input-buffer-size[`quarkus.rest.input-buffer-size`]##\n"
 "config_property_copy_button:+++quarkus.rest.input-buffer-size+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-input-buffer-size[quarkus.rest.input-buffer-size] config_property_copy_button:quarkus.rest.input-buffer-size[]"
 
 #, fuzzy
 msgid "The amount of memory that can be used to buffer input before switching to blocking IO, up to `Long.MAX_VALUE` bytes."
@@ -2354,6 +2362,8 @@ msgstr "MemorySize link:#memory-size-note-anchor-quarkus-rest-common_quarkus-res
 msgid "`+++10k+++`"
 msgstr "`10 mil`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-min-chunk-size]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-min-chunk-size[`quarkus.rest.min-chunk-size`]##\n"
 "config_property_copy_button:+++quarkus.rest.min-chunk-size+++[]\n"
@@ -2368,12 +2378,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_MIN_CHUNK_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-min-chunk-size[quarkus.rest.min-chunk-size] config_property_copy_button:quarkus.rest.min-chunk-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-min-chunk-size]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-min-chunk-size[`quarkus.rest.min-chunk-size`]##\n"
 "config_property_copy_button:+++quarkus.rest.min-chunk-size+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-min-chunk-size[quarkus.rest.min-chunk-size] config_property_copy_button:quarkus.rest.min-chunk-size[]"
 
 #, fuzzy
 msgid "The size of the chunks of memory allocated when writing data."
@@ -2394,6 +2406,8 @@ msgstr "int"
 msgid "`+++128+++`"
 msgstr "`128`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-output-buffer-size]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-output-buffer-size[`quarkus.rest.output-buffer-size`]##\n"
 "config_property_copy_button:+++quarkus.rest.output-buffer-size+++[]\n"
@@ -2408,12 +2422,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_OUTPUT_BUFFER_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-output-buffer-size[quarkus.rest.output-buffer-size] config_property_copy_button:quarkus.rest.output-buffer-size[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-output-buffer-size]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-output-buffer-size[`quarkus.rest.output-buffer-size`]##\n"
 "config_property_copy_button:+++quarkus.rest.output-buffer-size+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-output-buffer-size[quarkus.rest.output-buffer-size] config_property_copy_button:quarkus.rest.output-buffer-size[]"
 
 #, fuzzy
 msgid "The size of the output stream response buffer. If a response is larger than this and no content-length is provided then the request will be chunked."
@@ -2431,6 +2447,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_OUTPUT_BUFF
 msgid "`+++8191+++`"
 msgstr "`8191`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-single-default-produces]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-single-default-produces[`quarkus.rest.single-default-produces`]##\n"
 "config_property_copy_button:+++quarkus.rest.single-default-produces+++[]\n"
@@ -2443,12 +2461,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_SINGLE_DEFAULT_PRODUCES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-single-default-produces[quarkus.rest.single-default-produces] config_property_copy_button:quarkus.rest.single-default-produces[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-single-default-produces]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-single-default-produces[`quarkus.rest.single-default-produces`]##\n"
 "config_property_copy_button:+++quarkus.rest.single-default-produces+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-single-default-produces[quarkus.rest.single-default-produces] config_property_copy_button:quarkus.rest.single-default-produces[]"
 
 #, fuzzy
 msgid "By default, we assume a default produced media type of \"text/plain\" for String endpoint return types. If this is disabled, the default produced media type will be \"++[++text/plain, ++*++/++*]++\" which is more expensive due to negotiation."
@@ -2465,6 +2485,8 @@ msgstr "booleano"
 msgid "`+++true+++`"
 msgstr "`verdadeiro`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-default-produces]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-default-produces[`quarkus.rest.default-produces`]##\n"
 "config_property_copy_button:+++quarkus.rest.default-produces+++[]\n"
@@ -2477,12 +2499,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_DEFAULT_PRODUCES+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-default-produces[quarkus.rest.default-produces] config_property_copy_button:quarkus.rest.default-produces[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-default-produces]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-default-produces[`quarkus.rest.default-produces`]##\n"
 "config_property_copy_button:+++quarkus.rest.default-produces+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-default-produces[quarkus.rest.default-produces] config_property_copy_button:quarkus.rest.default-produces[]"
 
 #, fuzzy
 msgid "When one of the quarkus-rest-jackson or quarkus-rest-jsonb extension are active and the result type of an endpoint is an application class or one of `Collection`, `List`, `Set` or `Map`, we assume the default return type is \"application/json\" if this configuration is enabled."
@@ -2492,6 +2516,8 @@ msgstr "Quando uma das extensões quarkus-rest-jackson ou quarkus-rest-jsonb est
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_DEFAULT_PRODUCES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_DEFAULT_PRODUCES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-build-time-condition-aware]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-build-time-condition-aware[`quarkus.rest.build-time-condition-aware`]##\n"
 "config_property_copy_button:+++quarkus.rest.build-time-condition-aware+++[]\n"
@@ -2504,12 +2530,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_BUILD_TIME_CONDITION_AWARE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-build-time-condition-aware[quarkus.rest.build-time-condition-aware] config_property_copy_button:quarkus.rest.build-time-condition-aware[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-build-time-condition-aware]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-build-time-condition-aware[`quarkus.rest.build-time-condition-aware`]##\n"
 "config_property_copy_button:+++quarkus.rest.build-time-condition-aware+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-build-time-condition-aware[quarkus.rest.build-time-condition-aware] config_property_copy_button:quarkus.rest.build-time-condition-aware[]"
 
 #, fuzzy
 msgid "Whether annotations such `@IfBuildTimeProfile`, `@IfBuildTimeProperty` and friends will be taken into account when used on JAX-RS classes."
@@ -2519,6 +2547,8 @@ msgstr "Se anotações como `@IfBuildTimeProfile` , `@IfBuildTimeProperty` e out
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_BUILD_TIME_CONDITION_AWARE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_BUILD_TIME_CONDITION_AWARE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-fail-on-duplicate]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-fail-on-duplicate[`quarkus.rest.fail-on-duplicate`]##\n"
 "config_property_copy_button:+++quarkus.rest.fail-on-duplicate+++[]\n"
@@ -2531,12 +2561,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_FAIL_ON_DUPLICATE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-fail-on-duplicate[quarkus.rest.fail-on-duplicate] config_property_copy_button:quarkus.rest.fail-on-duplicate[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-fail-on-duplicate]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-fail-on-duplicate[`quarkus.rest.fail-on-duplicate`]##\n"
 "config_property_copy_button:+++quarkus.rest.fail-on-duplicate+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-fail-on-duplicate[quarkus.rest.fail-on-duplicate] config_property_copy_button:quarkus.rest.fail-on-duplicate[]"
 
 #, fuzzy
 msgid "Whether duplicate endpoints should trigger error at startup"
@@ -2546,6 +2578,8 @@ msgstr "Se a existência de endpoints duplicados deve gerar um erro na inicializ
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_FAIL_ON_DUPLICATE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_FAIL_ON_DUPLICATE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-resume-on404]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-resume-on404[`quarkus.rest.resume-on404`]##\n"
 "config_property_copy_button:+++quarkus.rest.resume-on404+++[]\n"
@@ -2558,12 +2592,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_RESUME_ON404+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-resume-on404[quarkus.rest.resume-on404] config_property_copy_button:quarkus.rest.resume-on404[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-resume-on404]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-resume-on404[`quarkus.rest.resume-on404`]##\n"
 "config_property_copy_button:+++quarkus.rest.resume-on404+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-resume-on404[quarkus.rest.resume-on404] config_property_copy_button:quarkus.rest.resume-on404[]"
 
 #, fuzzy
 msgid "An advanced option that can be set when they RESTEasy Reactive should NOT reply with 404 when it does not match the URL path and instead just pass control onto the next Vert.x handler (if any)"
@@ -2577,6 +2613,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_RESUME_ON40
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-removes-trailing-slash]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-removes-trailing-slash[`quarkus.rest.removes-trailing-slash`]##\n"
 "config_property_copy_button:+++quarkus.rest.removes-trailing-slash+++[]\n"
@@ -2589,12 +2627,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_REMOVES_TRAILING_SLASH+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-removes-trailing-slash[quarkus.rest.removes-trailing-slash] config_property_copy_button:quarkus.rest.removes-trailing-slash[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-common_quarkus-rest-removes-trailing-slash]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-removes-trailing-slash[`quarkus.rest.removes-trailing-slash`]##\n"
 "config_property_copy_button:+++quarkus.rest.removes-trailing-slash+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-removes-trailing-slash[quarkus.rest.removes-trailing-slash] config_property_copy_button:quarkus.rest.removes-trailing-slash[]"
 
 #, fuzzy
 msgid "If true, the extension will automatically remove the trailing slash in the paths if any."
@@ -2604,6 +2644,8 @@ msgstr "Se estiver definido como verdadeiro, a extensão removerá automaticamen
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_REMOVES_TRAILING_SLASH+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_REMOVES_TRAILING_SLASH[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-rest-common_quarkus-rest-multipart-input-part-default-charset]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-multipart-input-part-default-charset[`quarkus.rest.multipart.input-part.default-charset`]##\n"
 "config_property_copy_button:+++quarkus.rest.multipart.input-part.default-charset+++[]\n"
@@ -2616,12 +2658,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_MULTIPART_INPUT_PART_DEFAULT_CHARSET+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-rest-common_quarkus-rest-multipart-input-part-default-charset[quarkus.rest.multipart.input-part.default-charset] config_property_copy_button:quarkus.rest.multipart.input-part.default-charset[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-rest-common_quarkus-rest-multipart-input-part-default-charset]] [.property-path]##link:#quarkus-rest-common_quarkus-rest-multipart-input-part-default-charset[`quarkus.rest.multipart.input-part.default-charset`]##\n"
 "config_property_copy_button:+++quarkus.rest.multipart.input-part.default-charset+++[]"
-msgstr ""
+msgstr " link:#quarkus-rest-common_quarkus-rest-multipart-input-part-default-charset[quarkus.rest.multipart.input-part.default-charset] config_property_copy_button:quarkus.rest.multipart.input-part.default-charset[]"
 
 #, fuzzy
 msgid "Default charset."
@@ -2655,6 +2699,8 @@ msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada em tempo de compilação - Todas as outras propriedades de configuração podem ser substituídas em tempo de execução <input type=\"search\" id=\"config-search-2\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-jackson_quarkus-rest-jackson-optimization-enable-reflection-free-serializers]] [.property-path]##link:#quarkus-rest-jackson_quarkus-rest-jackson-optimization-enable-reflection-free-serializers[`quarkus.rest.jackson.optimization.enable-reflection-free-serializers`]##\n"
 "config_property_copy_button:+++quarkus.rest.jackson.optimization.enable-reflection-free-serializers+++[]\n"
@@ -2667,12 +2713,14 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_JACKSON_OPTIMIZATION_ENABLE_REFLECTION_FREE_SERIALIZERS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-jackson_quarkus-rest-jackson-optimization-enable-reflection-free-serializers[quarkus.rest.jackson.optimization.enable-reflection-free-serializers] config_property_copy_button:quarkus.rest.jackson.optimization.enable-reflection-free-serializers[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-rest-jackson_quarkus-rest-jackson-optimization-enable-reflection-free-serializers]] [.property-path]##link:#quarkus-rest-jackson_quarkus-rest-jackson-optimization-enable-reflection-free-serializers[`quarkus.rest.jackson.optimization.enable-reflection-free-serializers`]##\n"
 "config_property_copy_button:+++quarkus.rest.jackson.optimization.enable-reflection-free-serializers+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-rest-jackson_quarkus-rest-jackson-optimization-enable-reflection-free-serializers[quarkus.rest.jackson.optimization.enable-reflection-free-serializers] config_property_copy_button:quarkus.rest.jackson.optimization.enable-reflection-free-serializers[]"
 
 #, fuzzy
 msgid "Enable build time generation of reflection-free Jackson serializers."

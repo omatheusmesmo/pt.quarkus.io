@@ -174,6 +174,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus.hibernate-orm.enabled]]`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.enabled[quarkus.hibernate-orm.enabled]`\n"
 "\n"
@@ -187,14 +189,16 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-hibernate-orm_quarkus.hibernate-orm.enabled[quarkus.hibernate-orm.enabled]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus.hibernate-orm.enabled]]`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.enabled[quarkus.hibernate-orm.enabled]`"
 msgstr "[lock] `link:#quarkus-hibernate-orm_quarkus.hibernate-orm.enabled[quarkus.hibernate-orm.enabled]`"
 
+#. mt: deepl
+#, fuzzy
 msgid "Whether Hibernate ORM is enabled <strong>during the build</strong>."
-msgstr ""
+msgstr "Se o ORM do Hibernate está habilitado <strong>durante a compilação</strong>."
 
 #, fuzzy
 msgid ""
@@ -260,6 +264,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_PA
 msgid "list of string"
 msgstr "lista de strings"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus.hibernate-orm.sql-load-script]]`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.sql-load-script[quarkus.hibernate-orm.sql-load-script]`\n"
 "\n"
@@ -299,7 +305,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_SQL_LOAD_SCRIPT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-hibernate-orm_quarkus.hibernate-orm.sql-load-script[quarkus.hibernate-orm.sql-load-script]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus.hibernate-orm.sql-load-script]]`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.sql-load-script[quarkus.hibernate-orm.sql-load-script]`"
@@ -1281,10 +1287,12 @@ msgstr "O tempo máximo após o qual um objeto do cache é considerado expirado.
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM_CACHE__CACHE__EXPIRATION_MAX_IDLE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_CACHE__CACHE__EXPIRATION_MAX_IDLE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duração] link:#duration-note-anchor-{summaryTableId}[[círculo de pergunta]]"
 
 #, fuzzy
 msgid ""
@@ -1381,6 +1389,8 @@ msgstr "[lock] `link:#quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-u
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM__PERSISTENCE_UNIT_NAME__PACKAGES+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM__PERSISTENCE_UNIT_NAME__PACKAGES[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-name-.sql-load-script]]`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-name-.sql-load-script[quarkus.hibernate-orm.\"persistence-unit-name\".sql-load-script]`\n"
 "\n"
@@ -1420,7 +1430,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_ORM__PERSISTENCE_UNIT_NAME__SQL_LOAD_SCRIPT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-name-.sql-load-script[quarkus.hibernate-orm.\"persistence-unit-name\".sql-load-script]`"
 
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-name-.sql-load-script]]`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-name-.sql-load-script[quarkus.hibernate-orm.\"persistence-unit-name\".sql-load-script]`"
@@ -3000,12 +3010,14 @@ msgstr "Para obter mais informações sobre o Hibernate Envers, consulte link:ht
 msgid "Metrics"
 msgstr "Métricas"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Either xref:micrometer.adoc[Micrometer] or xref:microprofile-metrics.adoc[SmallRye Metrics] are\n"
 "capable of exposing metrics that Hibernate ORM collects at runtime. To enable exposure of Hibernate metrics\n"
 "on the `/q/metrics` endpoint, make sure your project depends on a metrics extension and set the configuration property `quarkus.hibernate-orm.metrics.enabled` to `true`.\n"
 "When using xref:microprofile-metrics.adoc[SmallRye Metrics], metrics will be available under the `vendor` scope."
-msgstr ""
+msgstr "Tanto xref:micrometer.adoc[o Micrometer] quanto xref:microprofile-metrics.adoc[o SmallRye Metrics] são capazes de expor as métricas que o Hibernate ORM coleta em tempo de execução. Para habilitar a exposição das métricas do Hibernate no endpoint `/q/metrics` , certifique-se de que seu projeto dependa de uma extensão de métricas e defina a propriedade de configuração `quarkus.hibernate-orm.metrics.enabled` como `true` . Ao utilizar xref:microprofile-metrics.adoc[o SmallRye Metrics] , as métricas estarão disponíveis no escopo `vendor` ."
 
 msgid "Limitations and other things you should know"
 msgstr "Limitações e outras informações importantes"

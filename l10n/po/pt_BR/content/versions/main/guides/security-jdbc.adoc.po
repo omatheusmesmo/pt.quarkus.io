@@ -239,6 +239,8 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elytron-security-jdbc_quarkus-security-jdbc-realm-name]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-realm-name[`+++quarkus.security.jdbc.realm-name+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.realm-name+++[]\n"
@@ -251,7 +253,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_REALM_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-realm-name[quarkus.security.jdbc.realm-name] config_property_copy_button:quarkus.security.jdbc.realm-name[]"
 
 #, fuzzy
 msgid ""
@@ -278,6 +280,8 @@ msgstr "string"
 msgid "`+++Quarkus+++`"
 msgstr "`Quarkus`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elytron-security-jdbc_quarkus-security-jdbc-enabled]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-enabled[`+++quarkus.security.jdbc.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.enabled+++[]\n"
@@ -290,7 +294,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock]  link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-enabled[quarkus.security.jdbc.enabled] config_property_copy_button:quarkus.security.jdbc.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -313,6 +317,8 @@ msgstr "booleano"
 msgid "`+++false+++`"
 msgstr "`falso`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-sql]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-sql[`+++quarkus.security.jdbc.principal-query.sql+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.sql+++[]\n"
@@ -325,7 +331,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_SQL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-sql[quarkus.security.jdbc.principal-query.sql] config_property_copy_button:quarkus.security.jdbc.principal-query.sql[]"
 
 #, fuzzy
 msgid ""
@@ -341,6 +347,8 @@ msgstr "A consulta SQL para localizar a senha"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_SQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_SQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-datasource]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-datasource[`+++quarkus.security.jdbc.principal-query.datasource+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.datasource+++[]\n"
@@ -353,7 +361,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_DATASOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-datasource[quarkus.security.jdbc.principal-query.datasource] config_property_copy_button:quarkus.security.jdbc.principal-query.datasource[]"
 
 #, fuzzy
 msgid ""
@@ -369,6 +377,8 @@ msgstr "A fonte de dados a ser utilizada"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_DATASOURCE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_DATASOURCE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-clear-password-mapper-enabled]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-clear-password-mapper-enabled[`+++quarkus.security.jdbc.principal-query.clear-password-mapper.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.clear-password-mapper.enabled+++[]\n"
@@ -381,7 +391,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_CLEAR_PASSWORD_MAPPER_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-clear-password-mapper-enabled[quarkus.security.jdbc.principal-query.clear-password-mapper.enabled] config_property_copy_button:quarkus.security.jdbc.principal-query.clear-password-mapper.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -397,6 +407,8 @@ msgstr "Caso o clear-password-mapper esteja ativado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_CLEAR_PASSWORD_MAPPER_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_CLEAR_PASSWORD_MAPPER_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-clear-password-mapper-password-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-clear-password-mapper-password-index[`+++quarkus.security.jdbc.principal-query.clear-password-mapper.password-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.clear-password-mapper.password-index+++[]\n"
@@ -409,7 +421,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_CLEAR_PASSWORD_MAPPER_PASSWORD_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-clear-password-mapper-password-index[quarkus.security.jdbc.principal-query.clear-password-mapper.password-index] config_property_copy_button:quarkus.security.jdbc.principal-query.clear-password-mapper.password-index[]"
 
 #, fuzzy
 msgid ""
@@ -432,6 +444,8 @@ msgstr "int"
 msgid "`+++1+++`"
 msgstr "`1`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-enabled]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-enabled[`+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.enabled+++[]\n"
@@ -444,7 +458,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-enabled[quarkus.security.jdbc.principal-query.bcrypt-password-mapper.enabled] config_property_copy_button:quarkus.security.jdbc.principal-query.bcrypt-password-mapper.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -460,6 +474,8 @@ msgstr "Caso o mapeador de senhas bcrypt esteja ativado."
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-password-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-password-index[`+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.password-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.password-index+++[]\n"
@@ -472,7 +488,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_PASSWORD_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-password-index[quarkus.security.jdbc.principal-query.bcrypt-password-mapper.password-index] config_property_copy_button:quarkus.security.jdbc.principal-query.bcrypt-password-mapper.password-index[]"
 
 #, fuzzy
 msgid ""
@@ -492,6 +508,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PR
 msgid "`+++0+++`"
 msgstr "`0`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-hash-encoding]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-hash-encoding[`+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.hash-encoding+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.hash-encoding+++[]\n"
@@ -504,7 +522,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_HASH_ENCODING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-hash-encoding[quarkus.security.jdbc.principal-query.bcrypt-password-mapper.hash-encoding] config_property_copy_button:quarkus.security.jdbc.principal-query.bcrypt-password-mapper.hash-encoding[]"
 
 #, fuzzy
 msgid ""
@@ -528,6 +546,8 @@ msgstr "`base64` , `hexadecimal`"
 msgid "`+++base64+++`"
 msgstr "`base64`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-salt-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-salt-index[`+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-index+++[]\n"
@@ -540,7 +560,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_SALT_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-salt-index[quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-index] config_property_copy_button:quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-index[]"
 
 #, fuzzy
 msgid ""
@@ -560,6 +580,8 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PR
 msgid "`+++-1+++`"
 msgstr "`-1`"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-salt-encoding]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-salt-encoding[`+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-encoding+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-encoding+++[]\n"
@@ -572,7 +594,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_SALT_ENCODING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-salt-encoding[quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-encoding] config_property_copy_button:quarkus.security.jdbc.principal-query.bcrypt-password-mapper.salt-encoding[]"
 
 #, fuzzy
 msgid ""
@@ -588,6 +610,8 @@ msgstr "Uma string que indica a codificação do salt (“BASE64” ou “HEX”
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_SALT_ENCODING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_SALT_ENCODING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-iteration-count-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-iteration-count-index[`+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.iteration-count-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.bcrypt-password-mapper.iteration-count-index+++[]\n"
@@ -600,7 +624,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_ITERATION_COUNT_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-bcrypt-password-mapper-iteration-count-index[quarkus.security.jdbc.principal-query.bcrypt-password-mapper.iteration-count-index] config_property_copy_button:quarkus.security.jdbc.principal-query.bcrypt-password-mapper.iteration-count-index[]"
 
 #, fuzzy
 msgid ""
@@ -616,6 +640,8 @@ msgstr "O índice (numeração a partir de 1) da coluna que contém a contagem d
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_ITERATION_COUNT_INDEX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_BCRYPT_PASSWORD_MAPPER_ITERATION_COUNT_INDEX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-attribute-mappings-attribute-mappings-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-attribute-mappings-attribute-mappings-index[`+++quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".index+++[]\n"
@@ -628,7 +654,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-attribute-mappings-attribute-mappings-index[quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".index] config_property_copy_button:quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".index[]"
 
 #, fuzzy
 msgid ""
@@ -644,6 +670,8 @@ msgstr "O índice (numeração a partir de 1) da coluna a ser mapeada"
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__INDEX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__INDEX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-attribute-mappings-attribute-mappings-to]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-attribute-mappings-attribute-mappings-to[`+++quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".to+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".to+++[]\n"
@@ -656,7 +684,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-attribute-mappings-attribute-mappings-to[quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".to] config_property_copy_button:quarkus.security.jdbc.principal-query.attribute-mappings.\"attribute-mappings\".to[]"
 
 #, fuzzy
 msgid ""
@@ -680,6 +708,8 @@ msgstr "obrigatório [círculo de exclamação]"
 msgid "[[quarkus-elytron-security-jdbc_section_quarkus-security-jdbc-principal-query]] [.section-name.section-level0]##link:#quarkus-elytron-security-jdbc_section_quarkus-security-jdbc-principal-query[Named queries]##"
 msgstr " link:#quarkus-elytron-security-jdbc_section_quarkus-security-jdbc-principal-query[Consultas nomeadas]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-sql]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-sql[`+++quarkus.security.jdbc.principal-query.\"query-name\".sql+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".sql+++[]\n"
@@ -692,7 +722,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__SQL+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-sql[quarkus.security.jdbc.principal-query.\"query-name\".sql] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".sql[]"
 
 #, fuzzy
 msgid ""
@@ -704,6 +734,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__SQL+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__SQL[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource[`+++quarkus.security.jdbc.principal-query.\"query-name\".datasource+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".datasource+++[]\n"
@@ -716,7 +748,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__DATASOURCE+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource[quarkus.security.jdbc.principal-query.\"query-name\".datasource] botão_para_copiar_propriedade_de_configuração:quarkus.security.jdbc.principal-query.\"query-name\".datasource[]"
 
 #, fuzzy
 msgid ""
@@ -728,6 +760,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__DATASOURCE+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__DATASOURCE[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index+++[]\n"
@@ -740,7 +774,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index[quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".mapeamentos-de-atributos\".mapeamentos-de-atributos\".índice[]"
 
 #, fuzzy
 msgid ""
@@ -752,6 +786,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__INDEX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__INDEX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-to]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-to[`+++quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".to+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".to+++[]\n"
@@ -764,7 +800,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-to[quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".to] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".to[]"
 
 #, fuzzy
 msgid ""
@@ -776,6 +812,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-clear-password-mapper-enabled]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-clear-password-mapper-enabled[`+++quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.enabled+++[]\n"
@@ -788,7 +826,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__CLEAR_PASSWORD_MAPPER_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-clear-password-mapper-enabled[quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.enabled] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -800,6 +838,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__CLEAR_PASSWORD_MAPPER_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__CLEAR_PASSWORD_MAPPER_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-clear-password-mapper-password-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-clear-password-mapper-password-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.password-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.password-index+++[]\n"
@@ -812,7 +852,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__CLEAR_PASSWORD_MAPPER_PASSWORD_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-clear-password-mapper-password-index[quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.password-index] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".clear-password-mapper.password-index[]"
 
 #, fuzzy
 msgid ""
@@ -824,6 +864,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__CLEAR_PASSWORD_MAPPER_PASSWORD_INDEX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__CLEAR_PASSWORD_MAPPER_PASSWORD_INDEX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-enabled]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-enabled[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.enabled+++[]\n"
@@ -836,7 +878,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-enabled[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.enabled] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.enabled[]"
 
 #, fuzzy
 msgid ""
@@ -848,6 +890,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_ENABLED+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_ENABLED[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index+++[]\n"
@@ -860,7 +904,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_PASSWORD_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index] botão_de_cópia_de_propriedade_de_configuração:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index[]"
 
 #, fuzzy
 msgid ""
@@ -872,6 +916,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_PASSWORD_INDEX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_PASSWORD_INDEX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-hash-encoding]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-hash-encoding[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.hash-encoding+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.hash-encoding+++[]\n"
@@ -884,7 +930,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_HASH_ENCODING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-hash-encoding[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.hash-encoding] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.hash-encoding[]"
 
 #, fuzzy
 msgid ""
@@ -896,6 +942,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_HASH_ENCODING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_HASH_ENCODING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-salt-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-salt-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-index+++[]\n"
@@ -908,7 +956,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_SALT_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-salt-index[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-index] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-index[]"
 
 #, fuzzy
 msgid ""
@@ -920,6 +968,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_SALT_INDEX+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_SALT_INDEX[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-salt-encoding]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-salt-encoding[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-encoding+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-encoding+++[]\n"
@@ -932,7 +982,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_SALT_ENCODING+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-salt-encoding[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-encoding] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.salt-encoding[]"
 
 #, fuzzy
 msgid ""
@@ -944,6 +994,8 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_SALT_ENCODING+++[]"
 msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_SALT_ENCODING[]"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-iteration-count-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-iteration-count-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.iteration-count-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.iteration-count-index+++[]\n"
@@ -956,7 +1008,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_JDBC_PRINCIPAL_QUERY__QUERY_NAME__BCRYPT_PASSWORD_MAPPER_ITERATION_COUNT_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-iteration-count-index[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.iteration-count-index] botão_para_copiar_propriedade_de_configuração:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.iteration-count-index[]"
 
 #, fuzzy
 msgid ""

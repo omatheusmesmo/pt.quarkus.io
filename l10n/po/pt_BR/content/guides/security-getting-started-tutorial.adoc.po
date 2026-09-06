@@ -236,10 +236,12 @@ msgstr "Indica o campo usado para a senha. Por padrão, ele usa senhas com hash 
 msgid "Indicates the comma-separated list of roles added to the target principal representation attributes."
 msgstr "Indica a lista separada por vírgulas de funções adicionadas aos atributos de representação do principal de destino."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "Provides a helper method to add users with bcrypt-hashed passwords.\n"
 "The `BcryptUtil.bcryptHash()` method:"
-msgstr ""
+msgstr "Fornece um método auxiliar para adicionar usuários com senhas com hash bcrypt. O método `BcryptUtil.bcryptHash()` :"
 
 #, fuzzy
 msgid "Automatically generates a random salt for each password."
@@ -327,12 +329,14 @@ msgid ""
 "configuration property and not the `quarkus.datasource.jdbc.url` configuration property typically used by JDBC datasources."
 msgstr "Os URLs dos recursos de dados reativos que são usados pela extensão `quarkus-security-jpa-reactive` são definidos com a propriedade de configuração `quarkus.datasource.reactive.url` e não com a propriedade de configuração `quarkus.datasource.jdbc.url` , normalmente usada pelos recursos de dados JDBC."
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "In this tutorial, a PostgreSQL database is used for the identity store.\n"
 "link:https://hibernate.org/orm/[Hibernate ORM] automatically creates the database schema on startup.\n"
 "This approach is suitable for development but not for production.\n"
 "Therefore, adjustments are needed in a production environment."
-msgstr ""
+msgstr "Neste tutorial, é utilizado um banco de dados PostgreSQL como repositório de identidades. link:https://hibernate.org/orm/[O ORM do Hibernate] cria automaticamente o esquema do banco de dados na inicialização. Essa abordagem é adequada para o desenvolvimento, mas não para a produção. Portanto, são necessários ajustes em um ambiente de produção."
 
 msgid "The preceding example demonstrates how the application can be protected and identities provided by the specified database."
 msgstr "O exemplo anterior demonstra como a aplicação pode ser protegida e as identidades fornecidas pelo banco de dados especificado."
@@ -388,10 +392,12 @@ msgstr "Como alternativa, o senhor pode executar esses testes usando o Maven:"
 msgid "Test your application in production mode by using Curl or browser"
 msgstr "Teste seu aplicativo no modo de produção usando o Curl ou o navegador"
 
+#. mt: deepl
+#, fuzzy
 msgid ""
 "To test your application using Curl or a browser, start a PostgreSQL server first.\n"
 "Then, compile and run your application in either JVM or native mode."
-msgstr ""
+msgstr "Para testar sua aplicação usando o Curl ou um navegador, inicie primeiro um servidor PostgreSQL. Em seguida, compile e execute sua aplicação no modo JVM ou no modo nativo."
 
 #, fuzzy
 msgid "Start the PostgreSQL server"
