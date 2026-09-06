@@ -1,6 +1,6 @@
 Filename, Fuzzy Messages, Total Messages, Fuzzy Words, Total Words, Achievement
 all-config.adoc.po, 19754, 19775, 272962, 273158, 1%
-deploying-to-kubernetes.adoc.po, 3864, 3888, 47235, 47374, 1%
+deploying-to-kubernetes.adoc.po, 3864, 3888, 47236, 47375, 1%
 all-builditems.adoc.po, 3729, 3741, 44620, 44648, 1%
 security-oidc-configuration-properties-reference.adoc.po, 1064, 1083, 18679, 18834, 1%
 deploying-to-openshift.adoc.po, 1385, 1403, 16158, 16283, 1%
@@ -14,7 +14,7 @@ security-oidc-expanded-configuration.adoc.po, 748, 757, 12444, 12457, 1%
 datasource.adoc.po, 955, 971, 11121, 11271, 2%
 management-interface-reference.adoc.po, 665, 686, 10990, 11117, 2%
 native-reference.adoc.po, 370, 381, 10454, 10531, 1%
-security-oidc-code-flow-authentication.adoc.po, 464, 471, 10309, 10333, 1%
+security-oidc-code-flow-authentication.adoc.po, 465, 472, 10376, 10400, 1%
 hibernate-orm.adoc.po, 635, 933, 10116, 15491, 35%
 hibernate-reactive.adoc.po, 602, 635, 9585, 9872, 3%
 rest-client.adoc.po, 552, 765, 9304, 12484, 26%
@@ -51,13 +51,13 @@ aesh.adoc.po, 325, 344, 4548, 4682, 3%
 mongodb.adoc.po, 301, 463, 4396, 6904, 37%
 smallrye-fault-tolerance.adoc.po, 362, 391, 4251, 4479, 6%
 gradle-tooling.adoc.po, 236, 255, 3996, 4130, 4%
+security-authorize-web-endpoints-reference.adoc.po, 212, 218, 3995, 4016, 1%
 kafka-streams.adoc.po, 298, 336, 3994, 4331, 8%
 kafka.adoc.po, 288, 934, 3833, 15816, 76%
-security-authorize-web-endpoints-reference.adoc.po, 207, 213, 3831, 3852, 1%
 cache.adoc.po, 201, 249, 3796, 4342, 13%
 transaction.adoc.po, 169, 227, 3722, 4343, 15%
 cyclonedx.adoc.po, 199, 208, 3643, 3683, 2%
-security-keycloak-authorization.adoc.po, 308, 345, 3556, 3782, 6%
+security-keycloak-authorization.adoc.po, 309, 345, 3579, 3778, 6%
 messaging.adoc.po, 186, 202, 3519, 3628, 4%
 security-openid-connect-multitenancy.adoc.po, 192, 218, 3489, 3656, 5%
 continuous-testing.adoc.po, 200, 224, 3441, 3627, 6%
@@ -100,6 +100,7 @@ reactive-routes.adoc.po, 145, 152, 1944, 1972, 2%
 mutiny-primer.adoc.po, 125, 125, 1922, 1922, 0%
 centralized-log-management.adoc.po, 155, 181, 1886, 2060, 9%
 rabbitmq-dev-services.adoc.po, 138, 146, 1859, 1872, 1%
+signals.adoc.po, 138, 144, 1853, 1895, 3%
 elasticsearch-dev-services.adoc.po, 94, 101, 1726, 1737, 1%
 security-csrf-prevention.adoc.po, 113, 139, 1723, 1941, 12%
 kafka-schema-registry-avro.adoc.po, 100, 127, 1711, 1923, 12%
@@ -115,7 +116,6 @@ kafka-dev-services.adoc.po, 92, 117, 1604, 1799, 11%
 tests-with-coverage.adoc.po, 122, 149, 1598, 1770, 10%
 extension-metadata.adoc.po, 84, 85, 1597, 1598, 1%
 performance-measure.adoc.po, 110, 115, 1578, 1585, 1%
-signals.adoc.po, 106, 112, 1561, 1603, 3%
 blaze-persistence.adoc.po, 61, 71, 1557, 1616, 4%
 security-oauth2.adoc.po, 103, 134, 1552, 1816, 15%
 proxy-registry.adoc.po, 142, 156, 1509, 1630, 8%
@@ -139,7 +139,7 @@ testing-components.adoc.po, 68, 70, 1391, 1393, 1%
 smallrye-graphql-client.adoc.po, 48, 73, 1375, 1573, 13%
 spring-cloud-config-client.adoc.po, 122, 169, 1371, 1727, 21%
 liquibase.adoc.po, 136, 154, 1350, 1496, 10%
-deploying-to-google-cloud.adoc.po, 80, 89, 1305, 1341, 3%
+deploying-to-google-cloud.adoc.po, 80, 89, 1304, 1340, 3%
 security-ldap.adoc.po, 123, 166, 1304, 1629, 20%
 load-shedding-reference.adoc.po, 94, 103, 1296, 1348, 4%
 web.adoc.po, 70, 70, 1288, 1288, 0%
@@ -153,8 +153,8 @@ getting-started-dev-services.adoc.po, 77, 100, 1194, 1346, 12%
 funqy-gcp-functions.adoc.po, 67, 90, 1169, 1317, 12%
 aot.adoc.po, 98, 103, 1127, 1133, 1%
 assistant.adoc.po, 103, 103, 1111, 1111, 0%
-security-getting-started-tutorial.adoc.po, 59, 129, 1110, 1812, 39%
 jar-tree-shaking.adoc.po, 57, 58, 1108, 1109, 1%
+security-getting-started-tutorial.adoc.po, 59, 129, 1107, 1809, 39%
 grpc-generation-reference.adoc.po, 97, 99, 1090, 1094, 1%
 rest-migration.adoc.po, 93, 93, 1079, 1079, 0%
 scripting.adoc.po, 65, 81, 1063, 1170, 10%
