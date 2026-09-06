@@ -10,7 +10,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Yaml Front Matter Hash Value: layout
-#. mt: deepl
 #: content/foundation-faq.md:1
 #, fuzzy, no-wrap
 msgid "usage"
@@ -29,35 +28,30 @@ msgid "Frequently Asked Questions"
 msgstr "Perguntas frequentes"
 
 #. type: Yaml Front Matter Hash Value: title
-#. mt: deepl
 #: content/foundation-faq.md:1
 #, fuzzy, no-wrap
 msgid "Quarkus at Commonhaus FAQ"
 msgstr "Perguntas frequentes sobre o Quarkus na Commonhaus"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:8
 #, fuzzy, no-wrap
 msgid "Why move to a foundation?"
 msgstr "Por que migrar para uma fundação?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:11
 #, fuzzy, no-wrap
 msgid "Enable us to welcome more contributions from a diverse range of developers and organisations.\n"
 msgstr "Permita-nos receber mais contribuições de um leque diversificado de desenvolvedores e organizações.\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:12
 #, fuzzy, no-wrap
 msgid "Which Quarkus projects are moving to a foundation?"
 msgstr "Quais projetos do Quarkus estão migrando para uma fundação?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:16
 #, fuzzy, no-wrap
 msgid ""
@@ -68,14 +62,12 @@ msgstr ""
 "No futuro, tal consideração se aplicaria a partes ou à totalidade dos projetos Quarkiverse e Quarkus Tools. \n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:17
 #, fuzzy, no-wrap
 msgid "What is Commonhaus?"
 msgstr "O que é o Commonhaus?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:20
 #, fuzzy, no-wrap
 msgid "See https://www.commonhaus.org/.\n"
@@ -88,7 +80,6 @@ msgid "Why Commonhaus?"
 msgstr "Por que a Commonhaus?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:25
 #, fuzzy, no-wrap
 msgid ""
@@ -99,28 +90,24 @@ msgstr ""
 "Consulte, em particular, seus princípios orientadores.\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:26
 #, fuzzy, no-wrap
 msgid "Why not [put your favourite foundation here]?"
 msgstr "Por que não [colocar aqui sua base favorita]?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:29
 #, fuzzy, no-wrap
 msgid "See Commonhaus’ own [FAQ](https://www.commonhaus.org/about/faq.html).\n"
 msgstr "Consulte a seção [Perguntas Frequentes](https://www.commonhaus.org/about/faq.html) da própria Commonhaus.\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:30
 #, fuzzy, no-wrap
 msgid "What does the move consist of exactly?"
 msgstr "Em que consiste exatamente essa medida?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:34
 #, fuzzy, no-wrap
 msgid ""
@@ -131,98 +118,84 @@ msgstr ""
 "A propriedade intelectual doada inclui, em particular:\n"
 
 #. type: Bullet: ' * '
-#. mt: deepl
 #: content/foundation-faq.md:37
 #, fuzzy, no-wrap
 msgid "the Quarkus trademark\n"
 msgstr "a marca registrada Quarkus\n"
 
 #. type: Bullet: ' * '
-#. mt: deepl
 #: content/foundation-faq.md:37
 #, fuzzy, no-wrap
 msgid "related domain names\n"
 msgstr "nomes de domínio relacionados\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:39
 #, fuzzy, no-wrap
 msgid "It does not include copyright, since Red Hat does not have exclusive claims to copyright on Quarkus code.\n"
 msgstr "Isso não inclui direitos autorais, uma vez que a Red Hat não detém direitos exclusivos sobre o código do Quarkus.\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:40
 #, fuzzy, no-wrap
 msgid "Is Red Hat reducing funding for Quarkus development?"
 msgstr "A Red Hat está reduzindo o financiamento para o desenvolvimento do Quarkus?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:43
 #, fuzzy, no-wrap
 msgid "No.\n"
 msgstr "Não.\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:44
 #, fuzzy, no-wrap
 msgid "How is Red Hat’s involvement in Quarkus changing?"
 msgstr "Como está mudando o envolvimento da Red Hat no Quarkus?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:47
 #, fuzzy, no-wrap
 msgid "Red Hat’s involvement in Quarkus remains as strong as ever.\n"
 msgstr "O envolvimento da Red Hat no Quarkus continua tão forte como sempre.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:49
 #, fuzzy, no-wrap
 msgid "The Quarkus team is expecting increased collaboration between Red Hat and other companies, which may require setting time aside to get new contributors on board.\n"
 msgstr "A equipe do Quarkus espera um aumento na colaboração entre a Red Hat e outras empresas, o que pode exigir que se reserve tempo para integrar novos colaboradores.\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/foundation-faq.md:50
 #, fuzzy, no-wrap
 msgid "What is changing in practice for contributors to Quarkus projects?"
 msgstr "O que está mudando na prática para os colaboradores dos projetos do Quarkus?"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:53
 #, fuzzy, no-wrap
 msgid "Commonhaus requires Quarkus to adhere to its [policies](https://www.commonhaus.org/policies/), including in particular its [intellectual property policy](https://www.commonhaus.org/policies/ip-policy/) and [trademark policy](https://www.commonhaus.org/policies/trademark-policy/).\n"
 msgstr "A Commonhaus exige que o Quarkus cumpra suas [políticas](https://www.commonhaus.org/policies/), incluindo, em particular, sua [política de propriedade intelectual](https://www.commonhaus.org/policies/ip-policy/) e [política de marcas registradas](https://www.commonhaus.org/policies/trademark-policy/).\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:55
 #, fuzzy, no-wrap
 msgid "This is great news for you all, as it legally binds the project to remain open source forever.\n"
 msgstr "Essa é uma ótima notícia para todos vocês, pois isso vincula legalmente o projeto a permanecer como código aberto para sempre.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:57
 #, fuzzy, no-wrap
 msgid "Commonhaus also requires having a code of conduct, and provides a recommended one, but each project has flexibility on such details so we could decide to customise it.\n"
 msgstr "A Commonhaus também exige a existência de um código de conduta e fornece um modelo recomendado, mas cada projeto tem flexibilidade quanto a esses detalhes, de modo que poderíamos decidir adaptá-lo.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:59
 #, fuzzy, no-wrap
 msgid "Quarkus contributors can opt to become Commonhaus Members; this is not a requirement to participate in the Quarkus project but is a requirement to help define Commonhaus.\n"
 msgstr "Os colaboradores do Quarkus podem optar por se tornar membros do Commonhaus; isso não é um requisito para participar do projeto Quarkus, mas é um requisito para ajudar a definir o Commonhaus.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/foundation-faq.md:60
 #, fuzzy, no-wrap
 msgid "The project’s core contributors, internal governance and processes remain the same.\n"

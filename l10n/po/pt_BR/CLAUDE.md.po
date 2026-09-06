@@ -165,13 +165,13 @@ msgstr ""
 #. type: Bullet: '- '
 #: CLAUDE.md:51
 #, no-wrap
-msgid "Location: `content/posts/YYYY-MM-DD-slug.adoc` (date must match front matter `date`)\n"
+msgid "Location: `content/posts/YYYY-MM-DD-slug.adoc`\n"
 msgstr ""
 
 #. type: Bullet: '- '
 #: CLAUDE.md:51
 #, no-wrap
-msgid "Front matter: `layout: post`, `title`, `date`, `tags`, `synopsis`, `author`\n"
+msgid "Front matter: `layout: post`, `title`, `tags`, `synopsis`, `author`\n"
 msgstr ""
 
 #. type: Bullet: '- '

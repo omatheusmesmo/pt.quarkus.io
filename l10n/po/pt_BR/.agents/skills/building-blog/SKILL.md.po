@@ -191,7 +191,7 @@ msgstr ""
 #. type: Bullet: '- '
 #: .agents/skills/building-blog/SKILL.md:81
 #, no-wrap
-msgid "Front matter fields: `layout: post`, `title`, `date`, `tags`, `synopsis`, `author`\n"
+msgid "Front matter fields: `layout: post`, `title`, `tags`, `synopsis`, `author`\n"
 msgstr ""
 
 #. type: Bullet: '- '

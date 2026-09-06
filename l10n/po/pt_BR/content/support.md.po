@@ -10,14 +10,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Yaml Front Matter Hash Value: layout
-#. mt: deepl
 #: content/support.md:1
 #, fuzzy, no-wrap
 msgid "support"
 msgstr "apoio"
 
 #. type: Yaml Front Matter Hash Value: title
-#. mt: deepl
 #: content/support.md:1
 #, fuzzy, no-wrap
 msgid "Support When You Need It"

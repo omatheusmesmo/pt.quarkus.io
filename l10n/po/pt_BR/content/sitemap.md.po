@@ -10,14 +10,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Yaml Front Matter Hash Value: layout
-#. mt: deepl
 #: content/sitemap.md:1
 #, fuzzy, no-wrap
 msgid "sitemap"
 msgstr "mapa do site"
 
 #. type: Yaml Front Matter Hash Value: subtitle
-#. mt: deepl
 #: content/sitemap.md:1
 #, fuzzy, no-wrap
 msgid "Complete navigation guide to all Quarkus content"
@@ -30,35 +28,30 @@ msgid "Sitemap"
 msgstr "Mapa do site"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:8
 #, fuzzy, no-wrap
 msgid "**Note:** This sitemap was generated using AI and reviewed by humans. If you notice any missing or incorrect links, please [open an issue](https://github.com/quarkusio/quarkusio.github.io/issues) on GitHub.\n"
 msgstr "**Observação:** Este mapa do site foi gerado por meio de IA e revisado por pessoas. Caso você identifique algum link ausente ou incorreto, por favor, [abra uma solicitação](https://github.com/quarkusio/quarkusio.github.io/issues) no GitHub.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:10
 #, fuzzy, no-wrap
 msgid "This sitemap provides a comprehensive overview of all content available on the Quarkus website, organized by category for easy navigation by both humans and search engines.\n"
 msgstr "Este mapa do site oferece uma visão geral abrangente de todo o conteúdo disponível no site do Quarkus, organizado por categoria para facilitar a navegação tanto por usuários quanto por mecanismos de busca.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:12
 #, fuzzy, no-wrap
 msgid "{% for section in site.data.sitemap-links.sections %}\n"
 msgstr "{% for section in site.data.sitemap-links.sections %}\n"
 
 #. type: Title ##
-#. mt: deepl
 #: content/sitemap.md:12
 #, fuzzy, no-wrap
 msgid "{{ section.title }}"
 msgstr "{{ section.title }}"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:17
 #, fuzzy, no-wrap
 msgid ""
@@ -71,7 +64,6 @@ msgstr ""
 "{% endfor %}\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:20
 #, fuzzy, no-wrap
 msgid ""
@@ -82,14 +74,12 @@ msgstr ""
 "{% para cada subsection em section.subsections %}\n"
 
 #. type: Title ###
-#. mt: deepl
 #: content/sitemap.md:20
 #, fuzzy, no-wrap
 msgid "{{ subsection.title }}"
 msgstr "{{ subsection.title }}"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:26
 #, fuzzy, no-wrap
 msgid ""
@@ -112,28 +102,24 @@ msgid "{% endfor %}\n"
 msgstr "{% endfor %}"
 
 #. type: Title ##
-#. mt: deepl
 #: content/sitemap.md:31
 #, fuzzy, no-wrap
 msgid "For Search Engines & LLMs"
 msgstr "Para mecanismos de busca e LLMs"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:34
 #, fuzzy, no-wrap
 msgid "This sitemap is designed to be easily crawlable and indexable. All links are relative to the root domain (https://quarkus.io) and follow a consistent structure. The content is organized hierarchically to reflect the information architecture of the Quarkus website.\n"
 msgstr "Este mapa do site foi projetado para facilitar o rastreamento e a indexação. Todos os links são relativos ao domínio raiz (https://quarkus.io) e seguem uma estrutura consistente. O conteúdo está organizado hierarquicamente para refletir a arquitetura de informação do site do Quarkus.\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:36
 #, fuzzy, no-wrap
 msgid "**Last Updated:** May 2026\n"
 msgstr "**Última atualização:** maio de 2026\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:43
 #, fuzzy, no-wrap
 msgid ""
@@ -152,7 +138,6 @@ msgstr ""
 "- Fundação (governança, segurança, uso)\n"
 
 #. type: Plain text
-#. mt: deepl
 #: content/sitemap.md:44
 #, fuzzy, no-wrap
 msgid "For questions or suggestions about this sitemap, please [open an issue](https://github.com/quarkusio/quarkusio.github.io/issues) on GitHub.\n"
