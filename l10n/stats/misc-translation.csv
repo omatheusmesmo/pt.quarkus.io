@@ -414,8 +414,8 @@ l10n/po/pt_BR/content/versions/3.34/guides/security-jwt.adoc.po, 334, 373, 4674,
 l10n/po/pt_BR/content/versions/3.27/guides/getting-started-testing.adoc.po, 219, 234, 4664, 4766, 3%
 l10n/po/pt_BR/content/versions/3.27/guides/security-jwt.adoc.po, 328, 366, 4633, 4824, 4%
 l10n/po/pt_BR/content/versions/3.20/guides/security-oidc-bearer-token-authentication.adoc.po, 222, 229, 4624, 4655, 1%
-l10n/po/pt_BR/_data/versioned/main/index/categories.yaml.po, 942, 1793, 4607, 6751, 32%
 l10n/po/pt_BR/content/versions/3.8/guides/vertx-reference.adoc.po, 463, 480, 4607, 4731, 3%
+l10n/po/pt_BR/_data/versioned/main/index/categories.yaml.po, 941, 1793, 4590, 6751, 33%
 l10n/po/pt_BR/content/versions/3.20/guides/building-native-image.adoc.po, 246, 444, 4589, 7943, 43%
 l10n/po/pt_BR/content/guides/aesh.adoc.po, 325, 344, 4548, 4682, 3%
 l10n/po/pt_BR/_data/versioned/latest/index/categories.yaml.po, 919, 1765, 4530, 6683, 33%
@@ -957,7 +957,6 @@ l10n/po/pt_BR/content/versions/3.8/guides/reactive-routes.adoc.po, 145, 152, 194
 l10n/po/pt_BR/content/posts/2026-06-30-quarkus-insights-253-build-analytics.adoc.po, 98, 98, 1942, 1942, 0%
 l10n/po/pt_BR/content/versions/2.13/guides/rabbitmq-reference.adoc.po, 208, 224, 1939, 2094, 8%
 l10n/po/pt_BR/content/versions/2.13/guides/writing-extensions.adoc.po, 72, 544, 1935, 11399, 84%
-l10n/po/pt_BR/content/versions/main/guides/quarkus-data-hibernate-getting-started.adoc.po, 98, 98, 1934, 1934, 0%
 l10n/po/pt_BR/content/versions/3.15/guides/smallrye-fault-tolerance.adoc.po, 82, 104, 1929, 2122, 10%
 l10n/po/pt_BR/content/posts/2026-07-14-quarkus-insights-254-ddd-hexagonal-architecture-part2.adoc.po, 87, 87, 1925, 1925, 0%
 l10n/po/pt_BR/content/guides/mutiny-primer.adoc.po, 125, 125, 1922, 1922, 0%
@@ -995,8 +994,8 @@ l10n/po/pt_BR/content/versions/3.33/guides/rabbitmq-dev-services.adoc.po, 138, 1
 l10n/po/pt_BR/content/versions/3.34/guides/rabbitmq-dev-services.adoc.po, 138, 146, 1859, 1872, 1%
 l10n/po/pt_BR/content/versions/main/guides/rabbitmq-dev-services.adoc.po, 138, 146, 1859, 1872, 1%
 l10n/po/pt_BR/content/versions/3.20/guides/rabbitmq-dev-services.adoc.po, 137, 146, 1858, 1872, 1%
-l10n/po/pt_BR/content/guides/signals.adoc.po, 138, 144, 1853, 1895, 3%
 l10n/po/pt_BR/content/versions/3.27/guides/opentelemetry-tracing.adoc.po, 138, 169, 1852, 2066, 11%
+l10n/po/pt_BR/content/guides/signals.adoc.po, 137, 144, 1851, 1895, 3%
 l10n/po/pt_BR/content/versions/main/guides/signals.adoc.po, 137, 144, 1851, 1895, 3%
 l10n/po/pt_BR/content/versions/3.20/guides/opentelemetry-tracing.adoc.po, 138, 169, 1850, 2064, 11%
 l10n/po/pt_BR/content/versions/3.20/guides/transaction.adoc.po, 52, 106, 1849, 2474, 26%
@@ -1009,6 +1008,7 @@ l10n/po/pt_BR/content/versions/3.20/guides/writing-extensions.adoc.po, 83, 585, 
 l10n/po/pt_BR/content/versions/2.16/guides/databases-dev-services.adoc.po, 124, 130, 1826, 1833, 1%
 l10n/po/pt_BR/content/versions/3.15/guides/rest-client.adoc.po, 84, 299, 1825, 5117, 65%
 l10n/po/pt_BR/content/posts/2020-05-06-sedona-rewrites-insurance-premium.adoc.po, 50, 50, 1811, 1811, 0%
+l10n/po/pt_BR/content/versions/main/guides/quarkus-data-hibernate-getting-started.adoc.po, 77, 98, 1811, 1934, 7%
 l10n/po/pt_BR/content/versions/3.27/guides/qute.adoc.po, 100, 175, 1793, 2944, 40%
 l10n/po/pt_BR/content/versions/main/guides/grpc-service-consumption.adoc.po, 166, 236, 1793, 2633, 32%
 l10n/po/pt_BR/content/versions/2.13/guides/quartz.adoc.po, 151, 190, 1789, 2055, 13%
