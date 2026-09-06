@@ -73,7 +73,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-
 #. mt: deepl
 #, fuzzy
 msgid "If Dev Services for AMQP has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For AMQP, Dev Services starts a broker unless `amqp-host` or `amqp-port` are set or if all the Reactive Messaging AMQP channel are configured with `host` or `port`."
-msgstr "Se os Serviços de Desenvolvimento para AMQP foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que exista uma configuração prévia. Para AMQP, os Serviços de Desenvolvimento iniciam um broker, a menos que `os parâmetros `amqp-host`` ou ``amqp-port`` estejam definidos ou se todos os canais AMQP do Reactive Messaging estiverem configurados com `host` ou `porta` ."
+msgstr "Se os Serviços de Desenvolvimento para AMQP foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que exista uma configuração prévia. Para AMQP, os Serviços de Desenvolvimento iniciam um broker, a menos que `os parâmetros `amqp-host`` ou ``amqp-port`` estejam definidos ou que todos os canais AMQP do Reactive Messaging estejam configurados com `host` ou `porta` ."
 
 #. mt: deepl
 #, fuzzy
@@ -589,7 +589,7 @@ msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-co
 #. mt: deepl
 #, fuzzy
 msgid "The name of the database to use if this Dev Service supports overriding it."
-msgstr "O nome do banco de dados a ser utilizado, caso este Dev Service permita sua substituição."
+msgstr "O nome do banco de dados a ser utilizado, caso este Serviço de Desenvolvimento permita a sua substituição."
 
 #. mt: deepl
 #, fuzzy
@@ -645,7 +645,7 @@ msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-co
 #. mt: deepl
 #, fuzzy
 msgid "The password to use if this Dev Service supports overriding it."
-msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita a sua substituição."
+msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita sua substituição."
 
 #. mt: deepl
 #, fuzzy
@@ -673,7 +673,7 @@ msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-co
 #. mt: deepl
 #, fuzzy
 msgid "Path to a SQL script that will be loaded from the classpath and applied to the Dev Service database If the provider is not container based (e.g. a H2 or Derby Database) then this has no effect."
-msgstr "Caminho para um script SQL que será carregado a partir do classpath e aplicado ao banco de dados do Dev Service. Se o provedor não for baseado em contêiner (por exemplo, um banco de dados H2 ou Derby), isso não terá efeito."
+msgstr "Caminho para um script SQL que será carregado a partir do classpath e aplicado ao banco de dados do Dev Service. Caso o provedor não seja baseado em contêiner (por exemplo, um banco de dados H2 ou Derby), isso não terá efeito."
 
 #. mt: deepl
 #, fuzzy
@@ -941,7 +941,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE__DATASOURCE_NAME__DEVSERVICES_PASSWORD+++[]\n"
 "--"
-msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus.datasource.-datasource-name-.devservices.password[quarkus.datasource.\"datasource-name\".devservices.password]`"
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus.datasource.-datasource-name-.devservices.password[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.password]`"
 
 #. mt: deepl
 #, fuzzy
@@ -964,7 +964,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE__DATASOURCE_NAME__DEVSERVICES_INIT_SCRIPT_PATH+++[]\n"
 "--"
-msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus.datasource.-datasource-name-.devservices.init-script-path[quarkus.datasource.\"datasource-name\".devservices.init-script-path]`"
+msgstr "[lock] `link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus.datasource.-datasource-name-.devservices.init-script-path[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.caminho-do-script-de-inicialização]`"
 
 #. mt: deepl
 #, fuzzy
@@ -1418,7 +1418,7 @@ msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-
 #. mt: deepl
 #, fuzzy
 msgid "If Keycloak-X image is used. By default, Dev Services for Keycloak will assume a Keycloak-X image is used if the image name contains a 'keycloak-x' string. Set 'quarkus.keycloak.devservices.keycloak-x-image' to override this check which may be necessary if you build custom Keycloak-X or Keycloak images. You do not need to set this property if the default check works."
-msgstr "Caso seja utilizada uma imagem do Keycloak-X. Por padrão, o Dev Services for Keycloak presumirá que está sendo utilizada uma imagem do Keycloak-X se o nome da imagem contiver a sequência “keycloak-x”. Defina “quarkus.keycloak.devservices.keycloak-x-image” para substituir essa verificação, o que pode ser necessário caso você crie imagens personalizadas do Keycloak-X ou do Keycloak. Não é necessário definir essa propriedade se a verificação padrão funcionar corretamente."
+msgstr "Caso seja utilizada uma imagem do Keycloak-X. Por padrão, o Dev Services for Keycloak presumirá que uma imagem do Keycloak-X está sendo utilizada se o nome da imagem contiver a sequência “keycloak-x”. Defina “quarkus.keycloak.devservices.keycloak-x-image” para substituir essa verificação, o que pode ser necessário caso você crie imagens personalizadas do Keycloak-X ou do Keycloak. Não é necessário definir essa propriedade se a verificação padrão funcionar corretamente."
 
 #. mt: deepl
 #, fuzzy
@@ -1482,7 +1482,7 @@ msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-
 msgid ""
 "The value of the `quarkus-dev-service-keycloak` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Keycloak looks for a container with the `quarkus-dev-service-keycloak` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-keycloak` label set to the specified value.\n"
 "Container sharing is only used in dev mode."
-msgstr "O valor do rótulo ` `quarkus-dev-service-keycloak` ` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Keycloak procura um contêiner com o rótulo ``quarkus-dev-service-keycloak`` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta ``quarkus-dev-service-keycloak` ` definida com o valor especificado. O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
+msgstr "O valor do rótulo ` `quarkus-dev-service-keycloak` ` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Keycloak procura um contêiner com o rótulo ``quarkus-dev-service-keycloak`` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-keycloak”` definida no valor especificado. O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
 
 #. mt: deepl
 #, fuzzy
@@ -1606,7 +1606,7 @@ msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-
 #. mt: deepl
 #, fuzzy
 msgid "Keycloak start command. Use this property to experiment with Keycloak start options, see `https://www.keycloak.org/server/all-config`. Note it will be ignored when loading legacy Keycloak WildFly images."
-msgstr "Comando de inicialização do Keycloak. Utilize esta propriedade para testar as opções de inicialização do Keycloak; consulte `https://www.keycloak.org/server/all-config` . Observe que ela será ignorada ao carregar imagens legadas do Keycloak para o WildFly."
+msgstr "Comando de inicialização do Keycloak. Utilize esta propriedade para testar as opções de inicialização do Keycloak; consulte `https://www.keycloak.org/server/all-config` . Observe que ela será ignorada ao carregar imagens legadas do Keycloak no WildFly."
 
 #. mt: deepl
 #, fuzzy
@@ -1634,7 +1634,7 @@ msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-
 #. mt: deepl
 #, fuzzy
 msgid "The Keycloak realm name. This property will be used to create the realm if the realm file pointed to by the 'realm-path' property does not exist, default value is 'quarkus' in this case. If the realm file pointed to by the 'realm-path' property exists then it is still recommended to set this property for Dev Services for Keycloak to avoid parsing the realm file in order to determine the realm name."
-msgstr "O nome do reino do Keycloak. Essa propriedade será utilizada para criar o reino caso o arquivo de reino indicado pela propriedade 'realm-path' não exista; nesse caso, o valor padrão é 'quarkus'. Caso o arquivo de reino indicado pela propriedade 'realm-path' exista, ainda assim é recomendável definir esta propriedade no Dev Services for Keycloak para evitar que o arquivo de reino seja analisado com o objetivo de determinar o nome do reino."
+msgstr "O nome do reino do Keycloak. Esta propriedade será utilizada para criar o reino caso o arquivo de reino indicado pela propriedade 'realm-path' não exista; neste caso, o valor padrão é 'quarkus'. Caso o arquivo de reino indicado pela propriedade 'realm-path' exista, ainda assim é recomendável definir esta propriedade no Dev Services for Keycloak para evitar que o arquivo de reino seja analisado com o objetivo de determinar o nome do reino."
 
 #. mt: deepl
 #, fuzzy
@@ -1662,7 +1662,7 @@ msgstr "[lock] `link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the Keycloak realm has to be created when the realm file pointed to by the 'realm-path' property does not exist. Disable it if you'd like to create a realm using Keycloak Administration Console or Keycloak Admin API from `io.quarkus.test.common.QuarkusTestResourceLifecycleManager`."
-msgstr "Indica se o reino do Keycloak deve ser criado quando o arquivo de reino indicado pela propriedade 'realm-path' não existir. Desative-a caso deseje criar um reino usando o Console de Administração do Keycloak ou a API de Administração do Keycloak a partir de ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `."
+msgstr "Indica se o reino do Keycloak deve ser criado quando o arquivo de reino indicado pela propriedade 'realm-path' não existir. Desative-a caso deseje criar um reino utilizando o Console de Administração do Keycloak ou a API de Administração do Keycloak a partir de ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `."
 
 #. mt: deepl
 #, fuzzy
@@ -1752,7 +1752,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERV
 #. mt: deepl
 #, fuzzy
 msgid "`Map<String,List<String>>`"
-msgstr "`Map<String, List<String>>`"
+msgstr "`Map<String,List<String>>`"
 
 #, fuzzy
 msgid "Kogito"
@@ -2070,7 +2070,7 @@ msgstr "[lock] `link:#quarkus-kubernetes-client-config-group-kubernetes-dev-serv
 msgid ""
 "The value of the `quarkus-dev-service-kubernetes` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Kubernetes looks for a container with the `quarkus-dev-service-kubernetes` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-kubernetes` label set to the specified value.\n"
 "This property is used when you need multiple shared Kubernetes clusters."
-msgstr "O valor do rótulo ` `quarkus-dev-service-kubernetes`` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Kubernetes procura um contêiner com o rótulo ``quarkus-dev-service-kubernetes`` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo ``quarkus-dev-service-kubernetes` ` definido com o valor especificado. Essa propriedade é utilizada quando são necessários vários clusters compartilhados do Kubernetes."
+msgstr "O valor do rótulo ` `quarkus-dev-service-kubernetes`` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Kubernetes procura um contêiner com o rótulo ``quarkus-dev-service-kubernetes`` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-kubernetes”` definido com o valor especificado. Essa propriedade é utilizada quando são necessários vários clusters compartilhados do Kubernetes."
 
 #. mt: deepl
 #, fuzzy
@@ -2234,7 +2234,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-r
 #. mt: deepl
 #, fuzzy
 msgid "If Dev Services for RabbitMQ has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For RabbitMQ, Dev Services starts a broker unless `rabbitmq-host` or `rabbitmq-port` are set or if all the Reactive Messaging RabbitMQ channel are configured with `host` or `port`."
-msgstr "Se os Serviços de Desenvolvimento para o RabbitMQ foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente vêm ativados por padrão, a menos que exista uma configuração pré-definida. Para o RabbitMQ, os Serviços de Desenvolvimento iniciam um broker, a menos que `rabbitmq-host` ou `rabbitmq-port` estejam definidos ou que todos os canais do RabbitMQ do Reactive Messaging estejam configurados com `host` ou `porta` ."
+msgstr "Se os Serviços de Desenvolvimento para o RabbitMQ foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que haja uma configuração existente. Para o RabbitMQ, os Serviços de Desenvolvimento iniciam um broker, a menos que `rabbitmq-host` ou `rabbitmq-port` estejam definidos ou que todos os canais do RabbitMQ do Reactive Messaging estejam configurados com `host` ou `porta` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2317,7 +2317,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-r
 #. mt: deepl
 #, fuzzy
 msgid "The image to use. Note that only official RabbitMQ images are supported. Specifically, the image repository must end with `rabbitmq`."
-msgstr "A imagem a ser utilizada. Observe que apenas as imagens oficiais do RabbitMQ são compatíveis. Especificamente, o repositório da imagem deve terminar com `rabbitmq` ."
+msgstr "A imagem a ser utilizada. Observe que apenas as imagens oficiais do RabbitMQ são compatíveis. Mais especificamente, o repositório da imagem deve terminar com `rabbitmq` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2507,7 +2507,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-r
 #. mt: deepl
 #, fuzzy
 msgid "Extra arguments for the exchange definition."
-msgstr "Argumentos adicionais para a definição da troca."
+msgstr "Argumentos adicionais para a definição do exchange."
 
 #. mt: deepl
 #, fuzzy
@@ -2535,7 +2535,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-r
 #. mt: deepl
 #, fuzzy
 msgid "Should the queue be deleted when all consumers are finished using it?"
-msgstr "A fila deveria ser excluída quando todos os consumidores tiverem terminado de utilizá-la?"
+msgstr "A fila deveria ser excluída quando todos os consumidores tiverem terminado de usá-la?"
 
 #. mt: deepl
 #, fuzzy
@@ -2870,7 +2870,7 @@ msgid ""
 "Indicates if the Redis server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Redis starts a new container.\n"
 "The discovery uses the `quarkus-dev-service-redis` label. The value is configured using the `service-name` property.\n"
 "Container sharing is only used in dev mode."
-msgstr "Indica se o servidor Redis gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Redis inicia um novo contêiner. A descoberta utiliza a etiqueta `quarkus-dev-service-redis` . O valor é configurado por meio da propriedade `service-name` . O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
+msgstr "Indica se o servidor Redis gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services para Redis inicia um novo contêiner. A descoberta utiliza a etiqueta `quarkus-dev-service-redis` . O valor é configurado por meio da propriedade `service-name` . O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
 
 #. mt: deepl
 #, fuzzy
@@ -2901,7 +2901,7 @@ msgstr "[lock] `link:#quarkus-redis-client-config-group-dev-services-config_quar
 msgid ""
 "The value of the `quarkus-dev-service-redis` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Redis looks for a container with the `quarkus-dev-service-redis` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-redis` label set to the specified value.\n"
 "This property is used when you need multiple shared Redis servers."
-msgstr "O valor do rótulo `“quarkus-dev-service-redis”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Redis procura um contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-redis”` definido no valor especificado. Essa propriedade é utilizada quando são necessários vários servidores Redis compartilhados."
+msgstr "O valor do rótulo `“quarkus-dev-service-redis”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Redis procura um contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor especificado. Essa propriedade é utilizada quando são necessários vários servidores Redis compartilhados."
 
 #. mt: deepl
 #, fuzzy
@@ -3171,7 +3171,7 @@ msgstr "[lock] `link:#quarkus-infinispan-client-infinispan-client-dev-service-bu
 msgid ""
 "The value of the `quarkus-dev-service-infinispan` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Infinispan looks for a container with the `quarkus-dev-service-infinispan` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-infinispan` label set to the specified value.\n"
 "This property is used when you need multiple shared Infinispan servers."
-msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Infinispan procura um contêiner com a etiqueta ``quarkus-dev-service-infinispan`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-infinispan”` definida com o valor especificado. Essa propriedade é utilizada quando são necessários vários servidores Infinispan compartilhados."
+msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Infinispan procura um contêiner com a etiqueta ``quarkus-dev-service-infinispan`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta ``quarkus-dev-service-infinispan` ` definida no valor especificado. Essa propriedade é utilizada quando são necessários vários servidores Infinispan compartilhados."
 
 #. mt: deepl
 #, fuzzy
@@ -3237,7 +3237,7 @@ msgid ""
 "List of the artifacts to automatically download and add to the Infinispan server libraries.\n"
 "For example a Maven coordinate (org.postgresql:postgresql:42.3.1) or a dependency location url.\n"
 "If an invalid value is passed, the Infinispan server will throw an error when trying to start."
-msgstr "Lista dos artefatos a serem baixados automaticamente e adicionados às bibliotecas do servidor Infinispan. Por exemplo, uma coordenada do Maven (org.postgresql:postgresql:42.3.1) ou uma URL de localização da dependência. Caso seja passado um valor inválido, o servidor Infinispan apresentará um erro ao tentar iniciar."
+msgstr "Lista dos artefatos a serem baixados automaticamente e adicionados às bibliotecas do servidor Infinispan. Por exemplo, uma coordenada do Maven (org.postgresql:postgresql:42.3.1) ou uma URL de localização de dependência. Caso seja passado um valor inválido, o servidor Infinispan gerará um erro ao tentar iniciar."
 
 #. mt: deepl
 #, fuzzy

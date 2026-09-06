@@ -348,7 +348,7 @@ msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[quarkus.
 msgid ""
 "[[quarkus-load-shedding_quarkus-load-shedding-alpha-factor]] [.property-path]##link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[`+++quarkus.load-shedding.alpha-factor+++`]##\n"
 "config_property_copy_button:+++quarkus.load-shedding.alpha-factor+++[]"
-msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[quarkus.load-shedding.alpha-factor] botão_para_copiar_propriedade_de_configuração:quarkus.load-shedding.alpha-factor[]"
+msgstr " link:#quarkus-load-shedding_quarkus-load-shedding-alpha-factor[quarkus.load-shedding.alpha-factor] config_property_copy_button:quarkus.load-shedding.alpha-factor[]"
 
 #. mt: deepl
 #, fuzzy

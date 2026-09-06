@@ -113,8 +113,9 @@ msgstr "No seu módulo de xref:writing-extensions.adoc#project-setup[deployment]
 msgid "In your runtime module:"
 msgstr "No seu módulo runtime:"
 
+#, fuzzy
 msgid "Implementing a <code>Startable</code>"
-msgstr ""
+msgstr "Implementação de um <code>Startable</code>"
 
 #, fuzzy
 msgid ""

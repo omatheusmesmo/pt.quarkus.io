@@ -916,7 +916,7 @@ msgid ""
 "but if it is higher than the version of the database you want to connect to,\n"
 "it may lead to runtime exceptions\n"
 "(e.g. Hibernate ORM may generate invalid SQL that your database will reject)."
-msgstr "Uma versão mais recente permitirá melhor desempenho e o uso de mais recursos (por exemplo, o ORM do Hibernate pode gerar SQL mais eficiente, evitar soluções alternativas e aproveitar mais recursos do banco de dados), mas, se for mais recente do que a versão do banco de dados ao qual você deseja se conectar, isso pode resultar em exceções em tempo de execução (por exemplo, o ORM do Hibernate pode gerar SQL inválido que seu banco de dados rejeitará)."
+msgstr "Uma versão mais recente permitirá melhor desempenho e o uso de mais recursos (por exemplo, o ORM do Hibernate pode gerar SQL mais eficiente, evitar soluções alternativas e aproveitar mais recursos do banco de dados), mas, se for mais recente do que a versão do banco de dados ao qual você deseja se conectar, isso pode resultar em exceções em tempo de execução (por exemplo, o ORM do Hibernate pode gerar um código SQL inválido que seu banco de dados rejeitará)."
 
 #. mt: deepl
 #, fuzzy
@@ -925,14 +925,14 @@ msgid ""
 "will try to check this version against the actual database version on startup,\n"
 "leading to a startup failure when the actual version is lower\n"
 "or simply a warning in case the database cannot be reached."
-msgstr "Algumas extensões (como a extensão ORM do Hibernate) tentarão comparar essa versão com a versão real do banco de dados no momento da inicialização, o que resultará em uma falha na inicialização quando a versão real for inferior ou, simplesmente, em um aviso caso não seja possível acessar o banco de dados."
+msgstr "Algumas extensões (como a extensão ORM do Hibernate) tentarão comparar essa versão com a versão real do banco de dados no momento da inicialização, o que resultará em uma falha na inicialização caso a versão real seja inferior ou, simplesmente, em um aviso caso não seja possível acessar o banco de dados."
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "The default for this property is specific to each extension;\n"
 "the Hibernate ORM extension will default to the oldest version it supports."
-msgstr "O valor padrão dessa propriedade é específico para cada extensão; a extensão ORM do Hibernate utilizará, por padrão, a versão mais antiga que ela suporta."
+msgstr "O valor padrão para esta propriedade é específico para cada extensão; a extensão ORM do Hibernate utilizará, por padrão, a versão mais antiga que ela suporta."
 
 #. mt: deepl
 #, fuzzy
@@ -1042,7 +1042,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_ACTIV
 #. mt: deepl
 #, fuzzy
 msgid "`+++`true` if the URL is set, `false` otherwise+++`"
-msgstr "``true` se a URL estiver definida; `false`, caso contrário`"
+msgstr "``true` se a URL estiver definida; caso contrário, `false``"
 
 #. mt: deepl
 #, fuzzy
@@ -1218,7 +1218,7 @@ msgstr "O nome do bean do provedor de credenciais."
 #. mt: deepl
 #, fuzzy
 msgid "This is a bean name (as in `@Named`) of a bean that implements `CredentialsProvider`. It is used to select the credentials provider bean when multiple exist. This is unnecessary when there is only one credentials provider available."
-msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver vários disponíveis. Isso não é necessário quando há apenas um provedor de credenciais disponível."
+msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver mais de um. Isso não é necessário quando há apenas um provedor de credenciais disponível."
 
 #. mt: deepl
 #, fuzzy
@@ -1330,17 +1330,17 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-image-na
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.image-name+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.image-name+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The container image name for container-based Dev Service providers."
-msgstr "O nome da imagem do contêiner para provedores do Dev Service baseados em contêineres."
+msgstr "O nome da imagem do contêiner para provedores de serviços de desenvolvimento baseados em contêineres."
 
 #. mt: deepl
 #, fuzzy
 msgid "This has no effect if the provider is not a container-based database, such as H2 or Derby."
-msgstr "Isso não tem efeito se o provedor não for um banco de dados baseado em contêiner, como o H2 ou o Derby."
+msgstr "Isso não surte efeito se o provedor não for um banco de dados baseado em contêiner, como o H2 ou o Derby."
 
 #. mt: deepl
 #, fuzzy
@@ -1695,7 +1695,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-username
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.username+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.username+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.username` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.username[]"
+msgstr "`quarkus.datasource.\"datasource-name\".devservices.username` config_property_copy_button:quarkus.datasource.\"datasource-name\".devservices.username[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1975,7 +1975,7 @@ msgid ""
 "so it is mostly useful to *disable* reuse,\n"
 "if you enabled it in `testcontainers.properties`\n"
 "but only want to use it for some of your Quarkus applications or datasources."
-msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, é mais útil *desativar* a reutilização caso a tenha habilitado no `arquivo testcontainers.properties` , mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
+msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, ela é útil principalmente para *desativar* a reutilização, caso você a tenha habilitado no `arquivo testcontainers.properties,` mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -2015,7 +2015,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-show-log
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.show-logs+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.show-logs+++[]"
-msgstr "`quarkus.datasource.\"datasource-name\".devservices.show-logs` config_property_copy_button:quarkus.datasource.\"datasource-name\".devservices.show-logs[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.show-logs` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.show-logs[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2071,7 +2071,7 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive` config_property
 #. mt: deepl
 #, fuzzy
 msgid "If we create a Reactive datasource for this datasource."
-msgstr "Se criarmos uma fonte de dados reativa para essa fonte de dados."
+msgstr "Se criarmos uma fonte de dados reativa para esta fonte de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -2257,7 +2257,7 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-event-loo
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.event-loop-size+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.event-loop-size+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.event-loop-size` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.event-loop-size[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.event-loop-size` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.event-loop-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2305,7 +2305,7 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-all
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.trust-all+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.trust-all+++[]"
-msgstr "`quarkus.datasource.\"datasource-name\".reactive.trust-all` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.trust-all[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-all` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-all[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2348,7 +2348,7 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-trust-cer
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.trust-certificate-pem+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.trust-certificate-pem+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pem` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pem[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pem` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pem[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2692,7 +2692,7 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-key-certi
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.key-certificate-pem+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.key-certificate-pem+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-pem` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-pem[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-pem` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-pem[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3049,7 +3049,7 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.reconnect-attempts+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.reconnect-attempts+++[]"
-msgstr "`quarkus.datasource.\"datasource-name\".reactive.reconnect-attempts` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.reconnect-attempts[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.reconnect-attempts` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.reconnect-attempts[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3097,7 +3097,7 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-reconnect
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.reconnect-interval+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.reconnect-interval+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.reconnect-interval` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.reconnect-interval[]"
+msgstr "`quarkus.datasource.\"datasource-name\".reactive.reconnect-interval` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.reconnect-interval[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3198,12 +3198,12 @@ msgstr " link:#quarkus-reactive-datasource_quarkus-datasource-reactive-idle-time
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.idle-timeout+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.idle-timeout+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.idle-timeout` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.idle-timeout[]"
+msgstr "`quarkus.datasource.\"datasource-name\".reactive.idle-timeout` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.idle-timeout[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The maximum time a connection remains unused in the pool before it is closed."
-msgstr "O tempo máximo durante o qual uma conexão permanece ociosa no pool antes de ser encerrada."
+msgstr "O tempo máximo durante o qual uma conexão permanece sem uso no pool antes de ser encerrada."
 
 #. mt: deepl
 #, fuzzy
@@ -3251,7 +3251,7 @@ msgstr "`quarkus.datasource.\"datasource-name\".reactive.max-lifetime` config_pr
 #. mt: deepl
 #, fuzzy
 msgid "The maximum time a connection remains in the pool, after which it will be closed upon return and replaced as necessary."
-msgstr "O tempo máximo durante o qual uma conexão permanece no pool; após esse período, ela será encerrada no momento do retorno e substituída, conforme necessário."
+msgstr "O tempo máximo durante o qual uma conexão permanece no pool; após esse período, ela será encerrada ao retornar e substituída, conforme necessário."
 
 #. mt: deepl
 #, fuzzy
@@ -3397,7 +3397,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java de Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -3751,7 +3751,7 @@ msgstr " link:#quarkus-reactive-mysql-client_quarkus-datasource-reactive-mysql-p
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.mysql.pipelining-limit+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.mysql.pipelining-limit+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.pipelining-limit` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.pipelining-limit[]"
+msgstr "`quarkus.datasource.\"datasource-name\".reactive.mysql.pipelining-limit` config_property_copy_button:quarkus.datasource.\"datasource-name\".reactive.mysql.pipelining-limit[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3799,7 +3799,7 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.use-affect
 #. mt: deepl
 #, fuzzy
 msgid "Whether to return the number of rows matched by the _WHERE_ clause in _UPDATE_ statements, instead of the number of rows actually changed."
-msgstr "Se deve-se retornar o número de linhas correspondentes à cláusula _WHERE_ nas instruções _UPDATE_ , em vez do número de linhas efetivamente alteradas."
+msgstr "Se deve retornar o número de linhas correspondentes à cláusula _WHERE_ nas instruções _UPDATE_ , em vez do número de linhas efetivamente alteradas."
 
 #. mt: deepl
 #, fuzzy
@@ -3889,7 +3889,7 @@ msgstr " link:#quarkus-reactive-mssql-client_quarkus-datasource-reactive-mssql-s
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".reactive.mssql.ssl+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".reactive.mssql.ssl+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.ssl` botão de cópia de propriedade de configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.ssl[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.ssl` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mssql.ssl[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4053,7 +4053,7 @@ msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.postgresql.use-l
 #. mt: deepl
 #, fuzzy
 msgid "Level 7 proxies can load balance queries on several connections to the actual database. When it happens, the client can be confused by the lack of session affinity and unwanted errors can happen like ERROR: unnamed prepared statement does not exist (26000). See link:https://vertx.io/docs/vertx-pg-client/java/#_using_a_level_7_proxy[Using a level 7 proxy]"
-msgstr "Os proxies de nível 7 podem distribuir a carga das consultas por várias conexões com o banco de dados propriamente dito. Quando isso ocorre, o cliente pode ficar confuso devido à falta de afinidade de sessão, e podem ocorrer erros indesejados, como ERROR: instrução preparada sem nome não existe (26000). Consulte link:https://vertx.io/docs/vertx-pg-client/java/#_using_a_level_7_proxy[“Utilização de um proxy de nível 7”]"
+msgstr "Os proxies de nível 7 podem distribuir o balanceamento de carga das consultas por várias conexões com o banco de dados propriamente dito. Quando isso ocorre, o cliente pode ficar confuso devido à falta de afinidade de sessão, e podem ocorrer erros indesejados, como ERROR: instrução preparada sem nome não existe (26000). Consulte link:https://vertx.io/docs/vertx-pg-client/java/#_using_a_level_7_proxy[“Utilização de um proxy de nível 7”]"
 
 #. mt: deepl
 #, fuzzy

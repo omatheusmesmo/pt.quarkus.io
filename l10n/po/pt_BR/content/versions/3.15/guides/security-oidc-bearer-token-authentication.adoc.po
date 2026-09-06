@@ -115,8 +115,9 @@ msgid ""
 "For more information, see the xref:security-jwt.adoc#supported-injection-scopes[Supported injection scopes] section of the Quarkus \"Using JWT RBAC\" guide."
 msgstr "A injeção de `JsonWebToken` é compatível com os escopos `@ApplicationScoped` , `@Singleton` e `@RequestScoped` . No entanto, o uso de `@RequestScoped` é necessário se as declarações individuais forem injetadas como tipos simples. Para obter mais informações, consulte a seção xref:security-jwt.adoc#supported-injection-scopes[Escopos de injeção suportados] do guia Quarkus \"Usando JWT RBAC\"."
 
+#, fuzzy
 msgid "<code>UserInfo</code>"
-msgstr ""
+msgstr "<code>Informações do usuário</code>"
 
 #, fuzzy
 msgid ""
@@ -270,8 +271,9 @@ msgid ""
 "It can be injected or accessed as a `SecurityIdentity` `introspection` attribute, providing either the JWT or opaque token has been successfully introspected."
 msgstr "Será criado o `io.quarkus.oidc.TokenIntrospection` , um objeto simples de `jakarta.json.JsonObject` wrapper. Ele pode ser injetado ou acessado como um atributo `SecurityIdentity` `introspection` , desde que o JWT ou o token opaco tenha sido introspeccionado com êxito."
 
+#, fuzzy
 msgid "Token introspection and <code>UserInfo</code> cache"
-msgstr ""
+msgstr "Introspecção de tokens e cache de <code>UserInfo</code>"
 
 #, fuzzy
 msgid ""
@@ -535,8 +537,9 @@ msgstr "Testar o aplicativo `quarkus-oidc` `service` com `OidcWiremockTestResour
 msgid "`OidcWiremockTestResource` does not work with `@QuarkusIntegrationTest` against Docker containers because the WireMock server runs in the JVM that runs the test, which is inaccessible from the Docker container that runs the Quarkus application."
 msgstr "`OidcWiremockTestResource` não funciona com `@QuarkusIntegrationTest` em contêineres do Docker porque o servidor WireMock é executado no JVM que executa o teste, que é inacessível a partir do contêiner do Docker que executa o aplicativo Quarkus."
 
+#, fuzzy
 msgid "<code>OidcTestClient</code>"
-msgstr ""
+msgstr "<code>OidcTestClient</code>"
 
 #, fuzzy
 msgid "If you use SaaS OIDC providers, such as `Auth0`, and want to run tests against the test (development) domain or to run tests against a remote Keycloak test realm, if you already have `quarkus.oidc.auth-server-url` configured, you can use `OidcTestClient`."
@@ -599,8 +602,9 @@ msgstr "Por fim, escreva seu teste, que será executado no modo JVM, conforme mo
 msgid "For more information about initializing and configuring Dev Services for Keycloak, see the xref:security-openid-connect-dev-services.adoc[Dev Services for Keycloak] guide."
 msgstr "Para obter mais informações sobre como inicializar e configurar o Dev Services for Keycloak, consulte o guia xref:security-openid-connect-dev-services.adoc[Dev Services for Keycloak] ."
 
+#, fuzzy
 msgid "<code>KeycloakTestResourceLifecycleManager</code>"
-msgstr ""
+msgstr "<code>KeycloakTestResourceLifecycleManager</code>"
 
 #, fuzzy
 msgid "You can also use `KeycloakTestResourceLifecycleManager` for integration testing with Keycloak."
@@ -752,8 +756,9 @@ msgid ""
 "If you work with other OIDC providers, refer to your provider's documentation."
 msgstr "Nesses casos, se o senhor trabalha com o Keycloak, inicie-o com a propriedade do sistema `KEYCLOAK_FRONTEND_URL` definida para o URL de base acessível externamente. Se o senhor trabalha com outros provedores de OIDC, consulte a documentação do provedor."
 
+#, fuzzy
 msgid "Using the <code>client-id</code> property"
-msgstr ""
+msgstr "Utilizando a propriedade <code>client-id</code>"
 
 #, fuzzy
 msgid ""

@@ -204,14 +204,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-enabled]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-enabled[quarkus.keycloak.admin-client.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set to true if Keycloak Admin Client injection is supported."
-msgstr ""
+msgstr "Defina como “true” se a injeção do Keycloak Admin Client for compatível."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -237,8 +240,9 @@ msgstr ""
 msgid "Keycloak server URL, for example, `https://host:port`. If this property is not set then the Keycloak Admin Client injection will fail - use `org.keycloak.admin.client.KeycloakBuilder` to create it instead."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_SERVER_URL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_SERVER_URL[]"
 
 msgid "string"
 msgstr "string"
@@ -258,11 +262,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-realm]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-realm[quarkus.keycloak.admin-client.realm]`"
 msgstr ""
 
+#, fuzzy
 msgid "Realm."
-msgstr ""
+msgstr "Reino."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_REALM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_REALM[]"
 
 msgid "`master`"
 msgstr ""
@@ -282,11 +288,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-client-id]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-client-id[quarkus.keycloak.admin-client.client-id]`"
 msgstr ""
 
+#, fuzzy
 msgid "Client id."
-msgstr ""
+msgstr "ID do cliente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_CLIENT_ID+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_CLIENT_ID[]"
 
 msgid "`admin-cli`"
 msgstr ""
@@ -306,11 +314,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-client-secret]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-client-secret[quarkus.keycloak.admin-client.client-secret]`"
 msgstr ""
 
+#, fuzzy
 msgid "Client secret. Required with a `client_credentials` grant type."
-msgstr ""
+msgstr "Segredo do cliente. Obrigatório com o tipo de concessão ` `client_credentials` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_CLIENT_SECRET+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_CLIENT_SECRET[]"
 
 msgid ""
 "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-username]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-username[quarkus.keycloak.admin-client.username]`\n"
@@ -327,14 +337,17 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-username]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-username[quarkus.keycloak.admin-client.username]`"
 msgstr ""
 
+#, fuzzy
 msgid "Username. Required with a `password` grant type."
-msgstr ""
+msgstr "Nome de usuário. Obrigatório no tipo de concessão `de senha` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_USERNAME[]"
 
+#, fuzzy
 msgid "`admin`"
-msgstr ""
+msgstr "`admin`"
 
 msgid ""
 "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-password]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-password[quarkus.keycloak.admin-client.password]`\n"
@@ -351,11 +364,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-password]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-password[quarkus.keycloak.admin-client.password]`"
 msgstr ""
 
+#, fuzzy
 msgid "Password. Required with a `password` grant type."
-msgstr ""
+msgstr "Senha. Obrigatória no caso do tipo de concessão `por senha` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_PASSWORD[]"
 
 msgid ""
 "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-scope]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-scope[quarkus.keycloak.admin-client.scope]`\n"
@@ -372,11 +387,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-scope]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-scope[quarkus.keycloak.admin-client.scope]`"
 msgstr ""
 
+#, fuzzy
 msgid "OAuth 2.0 link:https://datatracker.ietf.org/doc/html/rfc6749#section-3.3[Access Token Scope]."
-msgstr ""
+msgstr "link:https://datatracker.ietf.org/doc/html/rfc6749#section-3.3[Escopo do token de acesso] OAuth 2.0."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_SCOPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_SCOPE[]"
 
 msgid ""
 "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-grant-type]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-grant-type[quarkus.keycloak.admin-client.grant-type]`\n"
@@ -393,14 +410,17 @@ msgstr ""
 msgid "[[quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-grant-type]]`link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-grant-type[quarkus.keycloak.admin-client.grant-type]`"
 msgstr ""
 
+#, fuzzy
 msgid "OAuth Grant Type."
-msgstr ""
+msgstr "Tipo de concessão do OAuth."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_ADMIN_CLIENT_GRANT_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_ADMIN_CLIENT_GRANT_TYPE[]"
 
+#, fuzzy
 msgid "`password`, `client-credentials`"
-msgstr ""
+msgstr "`senha` , `credenciais do cliente`"
 
 #, fuzzy
 msgid "`password`"

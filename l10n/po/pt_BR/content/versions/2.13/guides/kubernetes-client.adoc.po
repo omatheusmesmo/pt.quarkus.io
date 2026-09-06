@@ -209,8 +209,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[[quarkus-kubernetes-client_configuration]]link:#quarkus-kubernetes-client_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-kubernetes-client_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -218,6 +219,7 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.trust-certs]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.trust-certs[quarkus.kubernetes-client.trust-certs]`\n"
 "\n"
@@ -227,23 +229,28 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_TRUST_CERTS+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.trust-certs[quarkus.kubernetes-client.trust-certs]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.trust-certs]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.trust-certs[quarkus.kubernetes-client.trust-certs]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.trust-certs[quarkus.kubernetes-client.trust-certs]`"
 
+#, fuzzy
 msgid "Whether the client should trust a self-signed certificate if so presented by the API server"
-msgstr ""
+msgstr "Se o cliente deve confiar em um certificado autoassinado, caso este seja apresentado pelo servidor da API"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_TRUST_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_TRUST_CERTS[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.master-url]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.master-url[quarkus.kubernetes-client.master-url]`\n"
 "\n"
@@ -253,20 +260,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_MASTER_URL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.master-url[quarkus.kubernetes-client.master-url]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.master-url]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.master-url[quarkus.kubernetes-client.master-url]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.master-url[quarkus.kubernetes-client.master-url]`"
 
+#, fuzzy
 msgid "URL of the Kubernetes API server"
-msgstr ""
+msgstr "URL do servidor da API do Kubernetes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_MASTER_URL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_MASTER_URL[]"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.namespace]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.namespace[quarkus.kubernetes-client.namespace]`\n"
 "\n"
@@ -276,17 +287,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_NAMESPACE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.namespace[quarkus.kubernetes-client.namespace]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.namespace]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.namespace[quarkus.kubernetes-client.namespace]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.namespace[quarkus.kubernetes-client.namespace]`"
 
+#, fuzzy
 msgid "Default namespace to use"
-msgstr ""
+msgstr "Espaço de nomes padrão a ser utilizado"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_NAMESPACE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_NAMESPACE[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-file]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-file[quarkus.kubernetes-client.ca-cert-file]`\n"
 "\n"
@@ -296,17 +311,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CA_CERT_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-file[quarkus.kubernetes-client.ca-cert-file]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-file]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-file[quarkus.kubernetes-client.ca-cert-file]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-file[quarkus.kubernetes-client.ca-cert-file]`"
 
+#, fuzzy
 msgid "CA certificate file"
-msgstr ""
+msgstr "Arquivo de certificado CA"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CA_CERT_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CA_CERT_FILE[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-data]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-data[quarkus.kubernetes-client.ca-cert-data]`\n"
 "\n"
@@ -316,17 +335,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CA_CERT_DATA+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-data[quarkus.kubernetes-client.ca-cert-data]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-data]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-data[quarkus.kubernetes-client.ca-cert-data]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.ca-cert-data[quarkus.kubernetes-client.ca-cert-data]`"
 
+#, fuzzy
 msgid "CA certificate data"
-msgstr ""
+msgstr "Dados do certificado CA"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CA_CERT_DATA+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CA_CERT_DATA[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-file]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-file[quarkus.kubernetes-client.client-cert-file]`\n"
 "\n"
@@ -336,17 +359,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_CERT_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-file[quarkus.kubernetes-client.client-cert-file]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-file]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-file[quarkus.kubernetes-client.client-cert-file]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-file[quarkus.kubernetes-client.client-cert-file]`"
 
+#, fuzzy
 msgid "Client certificate file"
-msgstr ""
+msgstr "Arquivo de certificado do cliente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_CERT_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CLIENT_CERT_FILE[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-data]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-data[quarkus.kubernetes-client.client-cert-data]`\n"
 "\n"
@@ -356,17 +383,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_CERT_DATA+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-data[quarkus.kubernetes-client.client-cert-data]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-data]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-data[quarkus.kubernetes-client.client-cert-data]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-cert-data[quarkus.kubernetes-client.client-cert-data]`"
 
+#, fuzzy
 msgid "Client certificate data"
-msgstr ""
+msgstr "Dados do certificado do cliente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_CERT_DATA+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CLIENT_CERT_DATA[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-file]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-file[quarkus.kubernetes-client.client-key-file]`\n"
 "\n"
@@ -376,17 +407,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_FILE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-file[quarkus.kubernetes-client.client-key-file]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-file]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-file[quarkus.kubernetes-client.client-key-file]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-file[quarkus.kubernetes-client.client-key-file]`"
 
+#, fuzzy
 msgid "Client key file"
-msgstr ""
+msgstr "Arquivo de chave do cliente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_FILE[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-data]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-data[quarkus.kubernetes-client.client-key-data]`\n"
 "\n"
@@ -396,17 +431,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_DATA+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-data[quarkus.kubernetes-client.client-key-data]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-data]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-data[quarkus.kubernetes-client.client-key-data]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-data[quarkus.kubernetes-client.client-key-data]`"
 
+#, fuzzy
 msgid "Client key data"
-msgstr ""
+msgstr "Principais dados do cliente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_DATA+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_DATA[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-algo]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-algo[quarkus.kubernetes-client.client-key-algo]`\n"
 "\n"
@@ -416,17 +455,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_ALGO+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-algo[quarkus.kubernetes-client.client-key-algo]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-algo]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-algo[quarkus.kubernetes-client.client-key-algo]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-algo[quarkus.kubernetes-client.client-key-algo]`"
 
+#, fuzzy
 msgid "Client key algorithm"
-msgstr ""
+msgstr "Algoritmo de chave do cliente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_ALGO+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_ALGO[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-passphrase]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-passphrase[quarkus.kubernetes-client.client-key-passphrase]`\n"
 "\n"
@@ -436,17 +479,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_PASSPHRASE+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-passphrase[quarkus.kubernetes-client.client-key-passphrase]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-passphrase]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-passphrase[quarkus.kubernetes-client.client-key-passphrase]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.client-key-passphrase[quarkus.kubernetes-client.client-key-passphrase]`"
 
+#, fuzzy
 msgid "Client key passphrase"
-msgstr ""
+msgstr "Senha do cliente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_PASSPHRASE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CLIENT_KEY_PASSPHRASE[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.username]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.username[quarkus.kubernetes-client.username]`\n"
 "\n"
@@ -456,17 +503,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.username[quarkus.kubernetes-client.username]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.username]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.username[quarkus.kubernetes-client.username]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.username[quarkus.kubernetes-client.username]`"
 
+#, fuzzy
 msgid "Kubernetes auth username"
-msgstr ""
+msgstr "Nome de usuário para autenticação no Kubernetes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_USERNAME[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.password]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.password[quarkus.kubernetes-client.password]`\n"
 "\n"
@@ -476,17 +527,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.password[quarkus.kubernetes-client.password]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.password]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.password[quarkus.kubernetes-client.password]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.password[quarkus.kubernetes-client.password]`"
 
+#, fuzzy
 msgid "Kubernetes auth password"
-msgstr ""
+msgstr "Senha de autenticação do Kubernetes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_PASSWORD[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.token]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.token[quarkus.kubernetes-client.token]`\n"
 "\n"
@@ -496,17 +551,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_TOKEN+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.token[quarkus.kubernetes-client.token]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.token]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.token[quarkus.kubernetes-client.token]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.token[quarkus.kubernetes-client.token]`"
 
+#, fuzzy
 msgid "Kubernetes oauth token"
-msgstr ""
+msgstr "Token OAuth do Kubernetes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_TOKEN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_TOKEN[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-interval]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-interval[quarkus.kubernetes-client.watch-reconnect-interval]`\n"
 "\n"
@@ -516,25 +575,30 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_WATCH_RECONNECT_INTERVAL+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-interval[quarkus.kubernetes-client.watch-reconnect-interval]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-interval]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-interval[quarkus.kubernetes-client.watch-reconnect-interval]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-interval[quarkus.kubernetes-client.watch-reconnect-interval]`"
 
+#, fuzzy
 msgid "Watch reconnect interval"
-msgstr ""
+msgstr "Intervalo de reconexão do relógio"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_WATCH_RECONNECT_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_WATCH_RECONNECT_INTERVAL[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
 msgstr ""
 
+#, fuzzy
 msgid "`PT1S`"
-msgstr ""
+msgstr "`PT1S`"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-limit]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-limit[quarkus.kubernetes-client.watch-reconnect-limit]`\n"
 "\n"
@@ -544,16 +608,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_WATCH_RECONNECT_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-limit[quarkus.kubernetes-client.watch-reconnect-limit]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-limit]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-limit[quarkus.kubernetes-client.watch-reconnect-limit]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.watch-reconnect-limit[quarkus.kubernetes-client.watch-reconnect-limit]`"
 
+#, fuzzy
 msgid "Maximum reconnect attempts in case of watch failure By default there is no limit to the number of reconnect attempts"
-msgstr ""
+msgstr "Número máximo de tentativas de reconexão em caso de falha do relógio. Por padrão, não há limite para o número de tentativas de reconexão"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_WATCH_RECONNECT_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_WATCH_RECONNECT_LIMIT[]"
 
 msgid "int"
 msgstr "int"
@@ -562,6 +629,7 @@ msgstr "int"
 msgid "`-1`"
 msgstr "`-1`"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.connection-timeout]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.connection-timeout[quarkus.kubernetes-client.connection-timeout]`\n"
 "\n"
@@ -571,20 +639,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CONNECTION_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.connection-timeout[quarkus.kubernetes-client.connection-timeout]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.connection-timeout]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.connection-timeout[quarkus.kubernetes-client.connection-timeout]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.connection-timeout[quarkus.kubernetes-client.connection-timeout]`"
 
+#, fuzzy
 msgid "Maximum amount of time to wait for a connection with the API server to be established"
-msgstr ""
+msgstr "Tempo máximo de espera para que seja estabelecida uma conexão com o servidor da API"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_CONNECTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_CONNECTION_TIMEOUT[]"
 
+#, fuzzy
 msgid "`PT10S`"
-msgstr ""
+msgstr "`PT10S`"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.request-timeout]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.request-timeout[quarkus.kubernetes-client.request-timeout]`\n"
 "\n"
@@ -594,17 +667,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_REQUEST_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.request-timeout[quarkus.kubernetes-client.request-timeout]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.request-timeout]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.request-timeout[quarkus.kubernetes-client.request-timeout]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.request-timeout[quarkus.kubernetes-client.request-timeout]`"
 
+#, fuzzy
 msgid "Maximum amount of time to wait for a request to the API server to be completed"
-msgstr ""
+msgstr "Tempo máximo de espera para que uma solicitação ao servidor da API seja concluída"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_REQUEST_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_REQUEST_TIMEOUT[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.rolling-timeout]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.rolling-timeout[quarkus.kubernetes-client.rolling-timeout]`\n"
 "\n"
@@ -614,20 +691,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_ROLLING_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.rolling-timeout[quarkus.kubernetes-client.rolling-timeout]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.rolling-timeout]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.rolling-timeout[quarkus.kubernetes-client.rolling-timeout]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.rolling-timeout[quarkus.kubernetes-client.rolling-timeout]`"
 
+#, fuzzy
 msgid "Maximum amount of time in milliseconds to wait for a rollout to be completed"
-msgstr ""
+msgstr "Tempo máximo, em milissegundos, para aguardar a conclusão de uma implementação"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_ROLLING_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_ROLLING_TIMEOUT[]"
 
+#, fuzzy
 msgid "`PT15M`"
-msgstr ""
+msgstr "`PT15M`"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.http-proxy]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.http-proxy[quarkus.kubernetes-client.http-proxy]`\n"
 "\n"
@@ -637,17 +719,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_HTTP_PROXY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.http-proxy[quarkus.kubernetes-client.http-proxy]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.http-proxy]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.http-proxy[quarkus.kubernetes-client.http-proxy]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.http-proxy[quarkus.kubernetes-client.http-proxy]`"
 
+#, fuzzy
 msgid "HTTP proxy used to access the Kubernetes API server"
-msgstr ""
+msgstr "Proxy HTTP utilizado para acessar o servidor da API do Kubernetes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_HTTP_PROXY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_HTTP_PROXY[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.https-proxy]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.https-proxy[quarkus.kubernetes-client.https-proxy]`\n"
 "\n"
@@ -657,17 +743,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_HTTPS_PROXY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.https-proxy[quarkus.kubernetes-client.https-proxy]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.https-proxy]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.https-proxy[quarkus.kubernetes-client.https-proxy]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.https-proxy[quarkus.kubernetes-client.https-proxy]`"
 
+#, fuzzy
 msgid "HTTPS proxy used to access the Kubernetes API server"
-msgstr ""
+msgstr "Proxy HTTPS utilizado para acessar o servidor da API do Kubernetes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_HTTPS_PROXY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_HTTPS_PROXY[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-username]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-username[quarkus.kubernetes-client.proxy-username]`\n"
 "\n"
@@ -677,18 +767,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_PROXY_USERNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-username[quarkus.kubernetes-client.proxy-username]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-username]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-username[quarkus.kubernetes-client.proxy-username]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-username[quarkus.kubernetes-client.proxy-username]`"
 
 #, fuzzy
 msgid "Proxy username"
 msgstr "Nome de usuário do proxy"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_PROXY_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_PROXY_USERNAME[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-password]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-password[quarkus.kubernetes-client.proxy-password]`\n"
 "\n"
@@ -698,18 +791,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_PROXY_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-password[quarkus.kubernetes-client.proxy-password]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-password]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-password[quarkus.kubernetes-client.proxy-password]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.proxy-password[quarkus.kubernetes-client.proxy-password]`"
 
 #, fuzzy
 msgid "Proxy password"
 msgstr "Senha do proxy"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_PROXY_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_PROXY_PASSWORD[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.no-proxy]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.no-proxy[quarkus.kubernetes-client.no-proxy]`\n"
 "\n"
@@ -719,21 +815,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_NO_PROXY+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.no-proxy[quarkus.kubernetes-client.no-proxy]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.no-proxy]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.no-proxy[quarkus.kubernetes-client.no-proxy]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.no-proxy[quarkus.kubernetes-client.no-proxy]`"
 
+#, fuzzy
 msgid "IP addresses or hosts to exclude from proxying"
-msgstr ""
+msgstr "Endereços IP ou hosts a serem excluídos do uso do proxy"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_NO_PROXY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_NO_PROXY[]"
 
 #, fuzzy
 msgid "list of string"
 msgstr "lista de strings"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.generate-rbac]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.generate-rbac[quarkus.kubernetes-client.generate-rbac]`\n"
 "\n"
@@ -743,22 +843,26 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_GENERATE_RBAC+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.generate-rbac[quarkus.kubernetes-client.generate-rbac]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client_quarkus.kubernetes-client.generate-rbac]]`link:#quarkus-kubernetes-client_quarkus.kubernetes-client.generate-rbac[quarkus.kubernetes-client.generate-rbac]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-kubernetes-client_quarkus.kubernetes-client.generate-rbac[quarkus.kubernetes-client.generate-rbac]`"
 
+#, fuzzy
 msgid "Enable the generation of the RBAC manifests."
-msgstr ""
+msgstr "Habilite a geração dos manifestos RBAC."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_GENERATE_RBAC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_GENERATE_RBAC[]"
 
 msgid "`true`"
 msgstr "`true`"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

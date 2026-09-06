@@ -157,8 +157,9 @@ msgstr "Configuração do Servidor"
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server-configure-the-grpc-server]]link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server-configure-the-grpc-server[Configure the gRPC server]"
-msgstr ""
+msgstr "link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server-configure-the-grpc-server[Configure o servidor gRPC]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -166,6 +167,7 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.port]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.port[quarkus.grpc.server.port]`\n"
 "\n"
@@ -175,26 +177,32 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.port[quarkus.grpc.server.port]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.port]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.port[quarkus.grpc.server.port]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.port[quarkus.grpc.server.port]`"
 
+#, fuzzy
 msgid "The gRPC Server port."
-msgstr ""
+msgstr "A porta do servidor gRPC."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_PORT[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "int"
 msgstr "int"
 
+#, fuzzy
 msgid "`9000`"
-msgstr ""
+msgstr "`9.000`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.test-port]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.test-port[quarkus.grpc.server.test-port]`\n"
 "\n"
@@ -204,20 +212,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_TEST_PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.test-port[quarkus.grpc.server.porta-de-teste]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.test-port]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.test-port[quarkus.grpc.server.test-port]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.test-port[quarkus.grpc.server.porta-de-teste]`"
 
+#, fuzzy
 msgid "The gRPC Server port used for tests."
-msgstr ""
+msgstr "A porta do servidor gRPC utilizada para os testes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_TEST_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_TEST_PORT[]"
 
+#, fuzzy
 msgid "`9001`"
-msgstr ""
+msgstr "`9001`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.host]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.host[quarkus.grpc.server.host]`\n"
 "\n"
@@ -227,23 +240,28 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_HOST+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.host[quarkus.grpc.server.host]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.host]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.host[quarkus.grpc.server.host]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.host[quarkus.grpc.server.host]`"
 
+#, fuzzy
 msgid "The gRPC server host."
-msgstr ""
+msgstr "O host do servidor gRPC."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_HOST[]"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`0.0.0.0`"
-msgstr ""
+msgstr "`0.0.0.0`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.handshake-timeout]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.handshake-timeout[quarkus.grpc.server.handshake-timeout]`\n"
 "\n"
@@ -253,22 +271,26 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_HANDSHAKE_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.handshake-timeout[quarkus.grpc.server.handshake-timeout]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.handshake-timeout]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.handshake-timeout[quarkus.grpc.server.handshake-timeout]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.handshake-timeout[quarkus.grpc.server.handshake-timeout]`"
 
+#, fuzzy
 msgid "The gRPC handshake timeout."
-msgstr ""
+msgstr "O tempo limite para o handshake do gRPC."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_HANDSHAKE_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_HANDSHAKE_TIMEOUT[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-message-size]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-message-size[quarkus.grpc.server.max-inbound-message-size]`\n"
 "\n"
@@ -278,17 +300,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_MAX_INBOUND_MESSAGE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-message-size[quarkus.grpc.server.max-inbound-message-size]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-message-size]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-message-size[quarkus.grpc.server.max-inbound-message-size]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-message-size[quarkus.grpc.server.max-inbound-message-size]`"
 
+#, fuzzy
 msgid "The max inbound message size in bytes."
-msgstr ""
+msgstr "O tamanho máximo das mensagens recebidas em bytes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_MAX_INBOUND_MESSAGE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_MAX_INBOUND_MESSAGE_SIZE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-metadata-size]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-metadata-size[quarkus.grpc.server.max-inbound-metadata-size]`\n"
 "\n"
@@ -298,17 +324,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_MAX_INBOUND_METADATA_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-metadata-size[quarkus.grpc.server.max-inbound-metadata-size]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-metadata-size]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-metadata-size[quarkus.grpc.server.max-inbound-metadata-size]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.max-inbound-metadata-size[quarkus.grpc.server.max-inbound-metadata-size]`"
 
+#, fuzzy
 msgid "The max inbound metadata size in bytes"
-msgstr ""
+msgstr "O tamanho máximo dos metadados recebidos, em bytes"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_MAX_INBOUND_METADATA_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_MAX_INBOUND_METADATA_SIZE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.certificate]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.certificate[quarkus.grpc.server.ssl.certificate]`\n"
 "\n"
@@ -318,21 +348,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_CERTIFICATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.certificate[quarkus.grpc.server.ssl.certificate]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.certificate]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.certificate[quarkus.grpc.server.ssl.certificate]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.certificate[quarkus.grpc.server.ssl.certificate]`"
 
+#, fuzzy
 msgid "The classpath path or file path to a server certificate or certificate chain in PEM format."
-msgstr ""
+msgstr "O caminho no classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_CERTIFICATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_CERTIFICATE[]"
 
 #, fuzzy
 msgid "path"
 msgstr "caminho"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key[quarkus.grpc.server.ssl.key]`\n"
 "\n"
@@ -342,17 +376,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key[quarkus.grpc.server.ssl.key]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key[quarkus.grpc.server.ssl.key]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key[quarkus.grpc.server.ssl.key]`"
 
+#, fuzzy
 msgid "The classpath path or file path to the corresponding certificate private key file in PEM format."
-msgstr ""
+msgstr "O caminho no classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_KEY[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store[quarkus.grpc.server.ssl.key-store]`\n"
 "\n"
@@ -362,17 +400,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY_STORE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store[quarkus.grpc.server.ssl.key-store]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store[quarkus.grpc.server.ssl.key-store]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store[quarkus.grpc.server.ssl.key-store]`"
 
+#, fuzzy
 msgid "An optional key store which holds the certificate information instead of specifying separate files. The key store can be either on classpath or an external file."
-msgstr ""
+msgstr "Um armazenamento de chaves opcional que contém as informações do certificado, em vez de especificar arquivos separados. O armazenamento de chaves pode estar no classpath ou em um arquivo externo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_KEY_STORE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-type]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-type[quarkus.grpc.server.ssl.key-store-type]`\n"
 "\n"
@@ -382,17 +424,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY_STORE_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-type[quarkus.grpc.server.ssl.key-store-type]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-type]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-type[quarkus.grpc.server.ssl.key-store-type]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-type[quarkus.grpc.server.ssl.key-store-type]`"
 
+#, fuzzy
 msgid "An optional parameter to specify the type of the key store file. If not given, the type is automatically detected based on the file name."
-msgstr ""
+msgstr "Um parâmetro opcional para especificar o tipo do arquivo do armazenamento de chaves. Caso não seja fornecido, o tipo é detectado automaticamente com base no nome do arquivo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_KEY_STORE_TYPE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-password]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-password[quarkus.grpc.server.ssl.key-store-password]`\n"
 "\n"
@@ -402,21 +448,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY_STORE_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-password[quarkus.grpc.server.ssl.key-store-password]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-password]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-password[quarkus.grpc.server.ssl.key-store-password]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.key-store-password[quarkus.grpc.server.ssl.key-store-password]`"
 
+#, fuzzy
 msgid "A parameter to specify the password of the key store file. If not given, the default (\"password\") is used."
-msgstr ""
+msgstr "Um parâmetro para especificar a senha do arquivo do armazenamento de chaves. Caso não seja fornecido, será utilizado o valor padrão (“password”)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_KEY_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_KEY_STORE_PASSWORD[]"
 
 #, fuzzy
 msgid "`password`"
 msgstr "`password`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store[quarkus.grpc.server.ssl.trust-store]`\n"
 "\n"
@@ -426,17 +476,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_TRUST_STORE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store[quarkus.grpc.server.ssl.trust-store]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store[quarkus.grpc.server.ssl.trust-store]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store[quarkus.grpc.server.ssl.trust-store]`"
 
+#, fuzzy
 msgid "An optional trust store which holds the certificate information of the certificates to trust The trust store can be either on classpath or an external file."
-msgstr ""
+msgstr "Um armazenamento de confiança opcional que contém as informações dos certificados considerados confiáveis. O armazenamento de confiança pode estar no classpath ou em um arquivo externo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_TRUST_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_TRUST_STORE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-type]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-type[quarkus.grpc.server.ssl.trust-store-type]`\n"
 "\n"
@@ -446,17 +500,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_TRUST_STORE_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-type[quarkus.grpc.server.ssl.trust-store-type]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-type]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-type[quarkus.grpc.server.ssl.trust-store-type]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-type[quarkus.grpc.server.ssl.trust-store-type]`"
 
+#, fuzzy
 msgid "An optional parameter to specify type of the trust store file. If not given, the type is automatically detected based on the file name."
-msgstr ""
+msgstr "Um parâmetro opcional para especificar o tipo do arquivo do armazenamento de confiança. Caso não seja fornecido, o tipo é detectado automaticamente com base no nome do arquivo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_TRUST_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_TRUST_STORE_TYPE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-password]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-password[quarkus.grpc.server.ssl.trust-store-password]`\n"
 "\n"
@@ -466,17 +524,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_TRUST_STORE_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-password[quarkus.grpc.server.ssl.trust-store-password]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-password]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-password[quarkus.grpc.server.ssl.trust-store-password]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.trust-store-password[quarkus.grpc.server.ssl.trust-store-password]`"
 
+#, fuzzy
 msgid "A parameter to specify the password of the trust store file."
-msgstr ""
+msgstr "Um parâmetro para especificar a senha do arquivo do repositório de confiança."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_TRUST_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_TRUST_STORE_PASSWORD[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.cipher-suites]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.cipher-suites[quarkus.grpc.server.ssl.cipher-suites]`\n"
 "\n"
@@ -486,16 +548,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_CIPHER_SUITES+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.cipher-suites[quarkus.grpc.server.ssl.conjuntos de criptografia]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.cipher-suites]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.cipher-suites[quarkus.grpc.server.ssl.cipher-suites]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.cipher-suites[quarkus.grpc.server.ssl.conjuntos de criptografia]`"
 
+#, fuzzy
 msgid "The cipher suites to use. If none is given, a reasonable default is selected."
-msgstr ""
+msgstr "Os conjuntos de criptografia a serem utilizados. Caso não seja especificado nenhum, será selecionado um padrão adequado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_CIPHER_SUITES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_CIPHER_SUITES[]"
 
 #, fuzzy
 msgid "list of string"
@@ -512,18 +577,22 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.protocols]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.protocols[quarkus.grpc.server.ssl.protocols]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.protocols[quarkus.grpc.server.ssl.protocols]`"
 
 msgid "The list of protocols to explicitly enable."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_PROTOCOLS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_PROTOCOLS[]"
 
+#, fuzzy
 msgid "`TLSv1.3,TLSv1.2`"
-msgstr ""
+msgstr "`TLSv1.3, TLSv1.2`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.client-auth]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.client-auth[quarkus.grpc.server.ssl.client-auth]`\n"
 "\n"
@@ -533,24 +602,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_CLIENT_AUTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.client-auth[quarkus.grpc.server.ssl.client-auth]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.client-auth]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.client-auth[quarkus.grpc.server.ssl.client-auth]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.ssl.client-auth[quarkus.grpc.server.ssl.client-auth]`"
 
+#, fuzzy
 msgid "Configures the engine to require/request client authentication. NONE, REQUEST, REQUIRED"
-msgstr ""
+msgstr "Configura o mecanismo para exigir/solicitar a autenticação do cliente. NENHUMA, SOLICITAR, OBRIGATÓRIA"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_SSL_CLIENT_AUTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_SSL_CLIENT_AUTH[]"
 
+#, fuzzy
 msgid "`none`, `request`, `required`"
-msgstr ""
+msgstr "`nenhum` , `solicitação` , `obrigatório`"
 
 #, fuzzy
 msgid "`none`"
 msgstr "`none`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.plain-text]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.plain-text[quarkus.grpc.server.plain-text]`\n"
 "\n"
@@ -560,16 +634,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_PLAIN_TEXT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.plain-text[quarkus.grpc.server.plain-text]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.plain-text]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.plain-text[quarkus.grpc.server.plain-text]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.plain-text[quarkus.grpc.server.plain-text]`"
 
+#, fuzzy
 msgid "Disables SSL, and uses plain text instead. If disabled, configure the ssl configuration."
-msgstr ""
+msgstr "Desativa o SSL e utiliza texto simples em seu lugar. Caso esteja desativado, configure o SSL."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_PLAIN_TEXT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_PLAIN_TEXT[]"
 
 msgid "boolean"
 msgstr "booleano"
@@ -577,6 +654,7 @@ msgstr "booleano"
 msgid "`true`"
 msgstr "`true`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.alpn]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.alpn[quarkus.grpc.server.alpn]`\n"
 "\n"
@@ -586,17 +664,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_ALPN+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.alpn[quarkus.grpc.server.alpn]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.alpn]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.alpn[quarkus.grpc.server.alpn]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.alpn[quarkus.grpc.server.alpn]`"
 
+#, fuzzy
 msgid "Whether ALPN should be used."
-msgstr ""
+msgstr "Se a ALPN deve ser utilizada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_ALPN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_ALPN[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.certificate]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.certificate[quarkus.grpc.server.transport-security.certificate]`\n"
 "\n"
@@ -606,17 +688,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_TRANSPORT_SECURITY_CERTIFICATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.certificate[quarkus.grpc.server.transport-security.certificate]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.certificate]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.certificate[quarkus.grpc.server.transport-security.certificate]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.certificate[quarkus.grpc.server.transport-security.certificate]`"
 
+#, fuzzy
 msgid "The path to the certificate file."
-msgstr ""
+msgstr "O caminho para o arquivo de certificado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_TRANSPORT_SECURITY_CERTIFICATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_TRANSPORT_SECURITY_CERTIFICATE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.key]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.key[quarkus.grpc.server.transport-security.key]`\n"
 "\n"
@@ -626,17 +712,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_TRANSPORT_SECURITY_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.key[quarkus.grpc.server.transport-security.key]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.key]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.key[quarkus.grpc.server.transport-security.key]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.transport-security.key[quarkus.grpc.server.transport-security.key]`"
 
+#, fuzzy
 msgid "The path to the private key file."
-msgstr ""
+msgstr "O caminho para o arquivo da chave privada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_TRANSPORT_SECURITY_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_TRANSPORT_SECURITY_KEY[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.enable-reflection-service]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.enable-reflection-service[quarkus.grpc.server.enable-reflection-service]`\n"
 "\n"
@@ -646,21 +736,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_ENABLE_REFLECTION_SERVICE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.enable-reflection-service[quarkus.grpc.server.enable-reflection-service]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.enable-reflection-service]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.enable-reflection-service[quarkus.grpc.server.enable-reflection-service]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.enable-reflection-service[quarkus.grpc.server.enable-reflection-service]`"
 
+#, fuzzy
 msgid "Enables the gRPC Reflection Service. By default, the reflection service is only exposed in `dev` mode. This setting allows overriding this choice and enable the reflection service every time."
-msgstr ""
+msgstr "Ativa o Serviço de Reflexão do gRPC. Por padrão, o serviço de reflexão é exposto apenas no modo `de desenvolvimento` . Essa configuração permite substituir essa opção e ativar o serviço de reflexão em todas as ocasiões."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_ENABLE_REFLECTION_SERVICE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_ENABLE_REFLECTION_SERVICE[]"
 
 #, fuzzy
 msgid "`false`"
 msgstr "`false`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.instances]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.instances[quarkus.grpc.server.instances]`\n"
 "\n"
@@ -670,21 +764,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_INSTANCES+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.instances[quarkus.grpc.server.instances]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.instances]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.instances[quarkus.grpc.server.instances]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.instances[quarkus.grpc.server.instances]`"
 
+#, fuzzy
 msgid "Number of gRPC server verticle instances. This is useful for scaling easily across multiple cores. The number should not exceed the amount of event loops."
-msgstr ""
+msgstr "Número de instâncias verticais do servidor gRPC. Isso é útil para facilitar o dimensionamento em vários núcleos. O número não deve exceder a quantidade de loops de eventos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_INSTANCES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_INSTANCES[]"
 
 #, fuzzy
 msgid "`1`"
 msgstr "`1`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.netty.keep-alive-time]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.netty.keep-alive-time[quarkus.grpc.server.netty.keep-alive-time]`\n"
 "\n"
@@ -694,17 +792,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_NETTY_KEEP_ALIVE_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.netty.keep-alive-time[quarkus.grpc.server.netty.keep-alive-time]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.netty.keep-alive-time]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.netty.keep-alive-time[quarkus.grpc.server.netty.keep-alive-time]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.netty.keep-alive-time[quarkus.grpc.server.netty.keep-alive-time]`"
 
+#, fuzzy
 msgid "Sets a custom keep-alive duration. This configures the time before sending a `keepalive` ping when there is no read activity."
-msgstr ""
+msgstr "Define uma duração personalizada para o keep-alive. Isso configura o tempo que deve decorrer antes do envio de um ping `de keep-alive` quando não há atividade de leitura."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_NETTY_KEEP_ALIVE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_NETTY_KEEP_ALIVE_TIME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.compression]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.compression[quarkus.grpc.server.compression]`\n"
 "\n"
@@ -714,19 +816,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_COMPRESSION+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.compression[quarkus.grpc.server.compression]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.compression]]`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.compression[quarkus.grpc.server.compression]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarkus.grpc.server.compression[quarkus.grpc.server.compression]`"
 
+#, fuzzy
 msgid "gRPC compression, e.g. \"gzip\""
-msgstr ""
+msgstr "Compressão gRPC, por exemplo, “gzip”"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_COMPRESSION[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

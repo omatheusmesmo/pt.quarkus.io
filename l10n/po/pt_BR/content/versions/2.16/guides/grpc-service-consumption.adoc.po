@@ -275,7 +275,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The host name / IP on which the service is exposed."
-msgstr "O nome do host/endereço IP no qual o serviço está disponível."
+msgstr "O nome do host / endereço IP no qual o serviço está disponível."
 
 #. mt: deepl
 #, fuzzy
@@ -308,7 +308,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to a server certificate or certificate chain in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -340,7 +340,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to the corresponding certificate private key file in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -396,7 +396,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "Use a name resolver. Defaults to dns. If set to \"stork\", host will be treated as SmallRye Stork service name"
-msgstr "Utilize um resolvedor de nomes. O valor padrão é “dns”. Se definido como “stork”, o host será tratado como o nome do serviço SmallRye Stork"
+msgstr "Utilize um resolvedor de nomes. O valor padrão é “dns”. Se for definido como “stork”, o host será tratado como o nome do serviço SmallRye Stork"
 
 #. mt: deepl
 #, fuzzy
@@ -429,7 +429,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "Whether `plain-text` should be used instead of `TLS`. Enabled by default, except if TLS/SSL is configured. In this case, `plain-text` is disabled."
-msgstr "Se deve ser utilizado `texto simples` em vez de `TLS` . Ativado por padrão, exceto se o TLS/SSL estiver configurado. Nesse caso, `o texto simples` fica desativado."
+msgstr "Se deve ser utilizado `texto simples` em vez de `TLS` . Ativado por padrão, exceto se o TLS/SSL estiver configurado. Nesse caso, `o texto simples` é desativado."
 
 #. mt: deepl
 #, fuzzy
@@ -637,7 +637,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The max number of retry attempts. Retry must be explicitly enabled."
-msgstr "O número máximo de tentativas de repetição. A repetição deve ser ativada explicitamente."
+msgstr "O número máximo de tentativas de repetição. A repetição deve ser explicitamente ativada."
 
 #. mt: deepl
 #, fuzzy
@@ -721,7 +721,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The maximum size of metadata allowed to be received (in bytes). Default is 8192B."
-msgstr "O tamanho máximo de metadados permitido para recepção (em bytes). O valor padrão é 8192 B."
+msgstr "O tamanho máximo de metadados que pode ser recebido (em bytes). O valor padrão é 8192 B."
 
 #. mt: deepl
 #, fuzzy
@@ -1162,7 +1162,7 @@ msgstr "[lock] `link:#quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grp
 #. mt: deepl
 #, fuzzy
 msgid "Start gRPC server in dev mode even if no gRPC services are implemented. By default set to `true` to ease incremental development of new services using dev mode."
-msgstr "Inicie o servidor gRPC no modo de desenvolvimento, mesmo que não haja serviços gRPC implementados. Por padrão, está definido como `“true”` para facilitar o desenvolvimento incremental de novos serviços utilizando o modo de desenvolvimento."
+msgstr "Inicie o servidor gRPC no modo de desenvolvimento, mesmo que não haja serviços gRPC implementados. Por padrão, está definido como ``true`` para facilitar o desenvolvimento incremental de novos serviços utilizando o modo de desenvolvimento."
 
 #. mt: deepl
 #, fuzzy

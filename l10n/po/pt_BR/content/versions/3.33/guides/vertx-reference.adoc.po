@@ -160,7 +160,7 @@ msgstr " link:#quarkus-vertx_quarkus-vertx-cache-directory[quarkus.vertx.cache-d
 #. mt: deepl
 #, fuzzy
 msgid "Configure the file cache directory. When not set, the cache is stored in the system temporary directory (read from the `java.io.tmpdir` system property). If the `java.io.tmpdir` is not set `.` is used."
-msgstr "Configure o diretório do cache de arquivos. Quando não estiver definido, o cache será armazenado no diretório temporário do sistema (obtido a partir da propriedade do sistema `java.io.tmpdir` ). Caso a propriedade `java.io.tmpdir` não esteja definida `,` será utilizado “.”."
+msgstr "Configure o diretório do cache de arquivos. Quando não estiver definido, o cache será armazenado no diretório temporário do sistema (obtido a partir da propriedade de sistema `java.io.tmpdir` ). Caso a propriedade `java.io.tmpdir` não esteja definida `,` será utilizado “.” (ponto)."
 
 #. mt: deepl
 #, fuzzy
@@ -462,7 +462,7 @@ msgstr "A resistência ao crescimento do executor."
 #. mt: deepl
 #, fuzzy
 msgid "A resistance factor applied after the core pool is full; values applied here will cause that fraction of submissions to create new threads when no idle thread is available. A value of `0.0f` implies that threads beyond the core size should be created as aggressively as threads within it; a value of `1.0f` implies that threads beyond the core size should never be created."
-msgstr "Um fator de resistência aplicado após o pool principal estar cheio; os valores aplicados aqui farão com que essa fração de submissões crie novas threads quando não houver nenhuma thread ociosa disponível. Um valor de `0,0f` implica que as threads além do tamanho do núcleo devem ser criadas com a mesma intensidade que as threads dentro dele; um valor de `1,0f` implica que as threads além do tamanho do núcleo nunca devem ser criadas."
+msgstr "Um fator de resistência aplicado após o pool principal estar cheio; os valores aplicados aqui farão com que uma fração das submissões crie novas threads quando não houver nenhuma thread ociosa disponível. Um valor de `0,0f` implica que as threads além do tamanho do núcleo devem ser criadas com a mesma intensidade que as threads dentro dele; um valor de `1,0f` implica que as threads além do tamanho do núcleo nunca devem ser criadas."
 
 #. mt: deepl
 #, fuzzy
@@ -1003,7 +1003,7 @@ msgstr " link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path[q
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path[`+++quarkus.vertx.eventbus.trust-certificate-jks.path+++`]##\n"
 "config_property_copy_button:+++quarkus.vertx.eventbus.trust-certificate-jks.path+++[]"
-msgstr " link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path[quarkus.vertx.eventbus.trust-certificate-jks.path] botão_para_copiar_propriedade_de_configuração:quarkus.vertx.eventbus.trust-certificate-jks.path[]"
+msgstr " link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path[quarkus.vertx.eventbus.trust-certificate-jks.path] config_property_copy_button:quarkus.vertx.eventbus.trust-certificate-jks.path[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2227,7 +2227,7 @@ msgstr " link:#quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "Set to true to enable the automatic inclusion in DNS queries of an optional record that hints the remote DNS server about how much data the resolver can read per response."
-msgstr "Defina como “true” para habilitar a inclusão automática, nas consultas DNS, de um registro opcional que indica ao servidor DNS remoto a quantidade de dados que o resolvedor pode ler por resposta."
+msgstr "Defina como “true” para habilitar a inclusão automática, nas consultas de DNS, de um registro opcional que indica ao servidor DNS remoto a quantidade de dados que o resolvedor pode ler por resposta."
 
 #. mt: deepl
 #, fuzzy

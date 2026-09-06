@@ -287,7 +287,7 @@ msgstr "`link:#quarkus-flyway_quarkus.flyway.password[quarkus.flyway.password]`"
 #. mt: deepl
 #, fuzzy
 msgid "The password that Flyway uses to connect to the database. If no specific JDBC URL is configured, falls back to the datasource password if not specified."
-msgstr "A senha que o Flyway utiliza para se conectar ao banco de dados. Caso não haja nenhuma URL JDBC específica configurada, o sistema recorrerá à senha da fonte de dados, se esta não tiver sido especificada."
+msgstr "A senha que o Flyway utiliza para se conectar ao banco de dados. Caso não haja nenhuma URL JDBC específica configurada, o sistema utilizará a senha da fonte de dados, se esta não tiver sido especificada."
 
 #. mt: deepl
 #, fuzzy
@@ -343,7 +343,7 @@ msgstr "`link:#quarkus-flyway_quarkus.flyway.table[quarkus.flyway.table]`"
 #. mt: deepl
 #, fuzzy
 msgid "The name of Flyway's schema history table. By default (single-schema mode), the schema history table is placed in the default schema for the connection provided by the datasource. When the flyway.schemas property is set (multi-schema mode), the schema history table is placed in the first schema of the list."
-msgstr "O nome da tabela de histórico de esquemas do Flyway. Por padrão (modo de esquema único), a tabela de histórico de esquemas é colocada no esquema padrão da conexão fornecida pela fonte de dados. Quando a propriedade `flyway.schemas` é definida (modo de múltiplos esquemas), a tabela de histórico de esquemas é colocada no primeiro esquema da lista."
+msgstr "O nome da tabela de histórico de esquemas do Flyway. Por padrão (modo de esquema único), a tabela de histórico de esquemas é colocada no esquema padrão da conexão fornecida pela fonte de dados. Quando a propriedade flyway.schemas está definida (modo de múltiplos esquemas), a tabela de histórico de esquemas é colocada no primeiro esquema da lista."
 
 #. mt: deepl
 #, fuzzy
@@ -371,7 +371,7 @@ msgstr "`link:#quarkus-flyway_quarkus.flyway.sql-migration-prefix[quarkus.flyway
 #. mt: deepl
 #, fuzzy
 msgid "The file name prefix for versioned SQL migrations. Versioned SQL migrations have the following file name structure: prefixVERSIONseparatorDESCRIPTIONsuffix , which using the defaults translates to V1.1__My_description.sql"
-msgstr "O prefixo do nome do arquivo para migrações SQL com versão. As migrações SQL com versão possuem a seguinte estrutura de nome de arquivo: prefixoVERSÕESeparadorDESCRIÇÕEsufixo, o que, utilizando os valores padrão, resulta em V1.1__Minha_descrição.sql"
+msgstr "O prefixo do nome do arquivo para migrações SQL com versão. As migrações SQL com versão possuem a seguinte estrutura de nome de arquivo: prefixoVERSÕESeparadorDESCRIÇÕESufixo, o que, utilizando os valores padrão, resulta em V1.1__Minha_descrição.sql"
 
 #. mt: deepl
 #, fuzzy

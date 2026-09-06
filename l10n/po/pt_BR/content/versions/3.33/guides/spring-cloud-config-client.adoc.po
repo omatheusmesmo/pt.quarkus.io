@@ -219,7 +219,7 @@ msgstr " link:#quarkus-spring-cloud-config-client_quarkus-spring-cloud-config-en
 #. mt: deepl
 #, fuzzy
 msgid "If enabled, will try to read the configuration from a Spring Cloud Config Server"
-msgstr "Se estiver ativado, tentará ler a configuração a partir de um Spring Cloud Config Server"
+msgstr "Se ativado, tentará ler a configuração a partir de um Spring Cloud Config Server"
 
 #. mt: deepl
 #, fuzzy
@@ -603,7 +603,7 @@ msgstr " link:#quarkus-spring-cloud-config-client_quarkus-spring-cloud-config-tr
 #. mt: deepl
 #, fuzzy
 msgid "Password of TrustStore to be used containing the SSL certificate used by the Config server"
-msgstr "Senha do TrustStore a ser utilizada, que contém o certificado SSL utilizado pelo servidor de configuração"
+msgstr "Senha do TrustStore a ser utilizado, que contém o certificado SSL usado pelo servidor de configuração"
 
 #. mt: deepl
 #, fuzzy
@@ -702,7 +702,7 @@ msgstr " link:#quarkus-spring-cloud-config-client_quarkus-spring-cloud-config-ke
 #. mt: deepl
 #, fuzzy
 msgid "Password to recover key from KeyStore for SSL client authentication with the Config server If no value is provided, the key-store-password will be used"
-msgstr "Senha para recuperar a chave do KeyStore para a autenticação do cliente SSL junto ao servidor de configuração. Caso não seja fornecido nenhum valor, será utilizada a senha do KeyStore"
+msgstr "Senha para recuperar a chave do KeyStore para a autenticação do cliente SSL com o servidor de configuração. Caso não seja fornecido nenhum valor, será utilizada a senha do KeyStore"
 
 #. mt: deepl
 #, fuzzy
@@ -735,7 +735,7 @@ msgstr " link:#quarkus-spring-cloud-config-client_quarkus-spring-cloud-config-tr
 #. mt: deepl
 #, fuzzy
 msgid "When using HTTPS and no keyStore has been specified, whether to trust all certificates"
-msgstr "Ao utilizar HTTPS e caso não tenha sido especificado nenhum keyStore, se deve-se considerar confiáveis todos os certificados"
+msgstr "Ao utilizar HTTPS e caso não tenha sido especificado nenhum keyStore, se deve confiar em todos os certificados"
 
 #. mt: deepl
 #, fuzzy
@@ -988,7 +988,7 @@ msgstr " link:#quarkus-spring-cloud-config-client_quarkus-spring-cloud-config-di
 #. mt: deepl
 #, fuzzy
 msgid "Indicates how often(in seconds) to fetch the registry information from the eureka server."
-msgstr "Indica com que frequência (em segundos) as informações do registro devem ser obtidas do servidor Eureka."
+msgstr "Indica a frequência (em segundos) com que as informações do registro devem ser obtidas do servidor Eureka."
 
 #. mt: deepl
 #, fuzzy

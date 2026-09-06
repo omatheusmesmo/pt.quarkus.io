@@ -252,8 +252,9 @@ msgstr "Configurar a extensão {extension-name} com as informações necessária
 msgid "Generating a JWT with the appropriate claims to match the configuration."
 msgstr "Geração de um JWT com as reivindicações apropriadas para corresponder à configuração."
 
+#, fuzzy
 msgid "Configuring the SmallRye JWT extension security information"
-msgstr ""
+msgstr "Configurando as informações de segurança da extensão SmallRye JWT"
 
 #, fuzzy
 msgid "Create a `security-jwt-quickstart/src/main/resources/application.properties` with the following content:"
@@ -372,8 +373,9 @@ msgstr "A carga útil, também chamada de \"reivindicações\", que inclui as re
 msgid "The signature, which verifies the token's integrity."
 msgstr "A assinatura, que verifica a integridade do token."
 
+#, fuzzy
 msgid "Finally, secured access to <code>/secured/roles-allowed</code>"
-msgstr ""
+msgstr "Por fim, acesso seguro a <code>/secured/roles-allowed</code>"
 
 #, fuzzy
 msgid ""
@@ -405,8 +407,9 @@ msgstr "Um valor não nulo `JsonWebToken`"
 msgid "The `birthdate` claim value"
 msgstr "O valor da reivindicação `birthdate` "
 
+#, fuzzy
 msgid "Using the <code>JsonWebToken</code> and claim injection"
-msgstr ""
+msgstr "Utilização do <code>JsonWebToken</code> e injeção de reivindicações"
 
 #, fuzzy
 msgid ""
@@ -570,8 +573,9 @@ msgid ""
 "`smallrye.jwt.verify.algorithm` should be set to `HS256`/`HS384`/`HS512`."
 msgstr "Essa chave secreta JWK também deve ser mencionada com `smallrye.jwt.verify.key.location` . `smallrye.jwt.verify.algorithm` deve ser definido como `HS256` / `HS384` / `HS512` ."
 
+#, fuzzy
 msgid "Parse and verify <code>JsonWebToken</code> with <code>JWTParser</code>"
-msgstr ""
+msgstr "Analisar e verificar <code>JsonWebToken</code> com <code>JWTParser</code>"
 
 #, fuzzy
 msgid "If the JWT token can not be injected, for example, if it is embedded in the service request payload or the service endpoint acquires it out of band, then one can use `JWTParser`:"
@@ -751,8 +755,9 @@ msgstr "Chave pública local"
 msgid "You can use the same approach as described in the xref:security-oidc-bearer-token-authentication.adoc#bearer-token-integration-testing[OpenID Connect Bearer Token Integration testing] `Local public key` section but only change the `application.properties` to use MP JWT configuration properties instead:"
 msgstr "O senhor pode usar a mesma abordagem descrita na seção xref:security-oidc-bearer-token-authentication.adoc#bearer-token-integration-testing[OpenID Connect Bearer Token Integration testing] `Local public key` , mas apenas altere o endereço `application.properties` para usar as propriedades de configuração do MP JWT:"
 
+#, fuzzy
 msgid "<code>TestSecurity</code> annotation"
-msgstr ""
+msgstr "Anotação <code>TestSecurity</code>"
 
 #, fuzzy
 msgid "Add the following dependency:"
@@ -834,8 +839,9 @@ msgstr "Configuração do Quarkus"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -857,25 +863,30 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-jwt_quarkus-smallrye-jwt-enabled]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-enabled[`+++quarkus.smallrye-jwt.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-jwt.enabled+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-enabled[quarkus.smallrye-jwt.enabled] config_property_copy_button:quarkus.smallrye-jwt.enabled[]"
 
+#, fuzzy
 msgid "The MP-JWT configuration object"
-msgstr ""
+msgstr "O objeto de configuração MP-JWT"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_JWT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_JWT_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "`+++true+++`"
-msgstr ""
+msgstr "`verdadeiro`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-jwt_quarkus-smallrye-jwt-rsa-sig-provider]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-rsa-sig-provider[`+++quarkus.smallrye-jwt.rsa-sig-provider+++`]##\n"
@@ -891,22 +902,26 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-jwt_quarkus-smallrye-jwt-rsa-sig-provider]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-rsa-sig-provider[`+++quarkus.smallrye-jwt.rsa-sig-provider+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-jwt.rsa-sig-provider+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-rsa-sig-provider[quarkus.smallrye-jwt.rsa-sig-provider] config_property_copy_button:quarkus.smallrye-jwt.rsa-sig-provider[]"
 
+#, fuzzy
 msgid "The name of the `java.security.Provider` that supports SHA256withRSA signatures"
-msgstr ""
+msgstr "O nome do ` `java.security.Provider` ` que suporta assinaturas SHA256 com RSA"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_JWT_RSA_SIG_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_JWT_RSA_SIG_PROVIDER[]"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`+++SunRsaSign+++`"
-msgstr ""
+msgstr "`SunRsaSign`"
 
 msgid ""
 "[[quarkus-smallrye-jwt_quarkus-smallrye-jwt-blocking-authentication]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-blocking-authentication[`+++quarkus.smallrye-jwt.blocking-authentication+++`]##\n"
@@ -922,19 +937,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-smallrye-jwt_quarkus-smallrye-jwt-blocking-authentication]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-blocking-authentication[`+++quarkus.smallrye-jwt.blocking-authentication+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-jwt.blocking-authentication+++[]"
-msgstr ""
+msgstr " link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-blocking-authentication[quarkus.smallrye-jwt.blocking-authentication] config_property_copy_button:quarkus.smallrye-jwt.blocking-authentication[]"
 
+#, fuzzy
 msgid "Enable this property if fetching the remote keys can be a time-consuming operation. Do not enable it if you use the local keys."
-msgstr ""
+msgstr "Ative esta propriedade caso a obtenção das chaves remotas possa ser uma operação demorada. Não a ative caso utilize as chaves locais."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_JWT_BLOCKING_AUTHENTICATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_JWT_BLOCKING_AUTHENTICATION[]"
 
+#, fuzzy
 msgid "`+++'true' if 'mp.jwt.decrypt.key.location' or 'mp.jwt.verify.publickey.location' location is set and the location uses the HTTP or HTTPS protocol+++`"
-msgstr ""
+msgstr "`'true' se a localização de 'mp.jwt.decrypt.key.location' ou 'mp.jwt.verify.publickey.location' estiver definida e essa localização utilizar o protocolo HTTP ou HTTPS`"
 
 msgid ""
 "[[quarkus-smallrye-jwt_quarkus-smallrye-jwt-silent]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-silent[`+++quarkus.smallrye-jwt.silent+++`]##\n"
@@ -950,19 +969,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-smallrye-jwt_quarkus-smallrye-jwt-silent]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-silent[`+++quarkus.smallrye-jwt.silent+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-jwt.silent+++[]"
-msgstr ""
+msgstr " link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-silent[quarkus.smallrye-jwt.silent] config_property_copy_button:quarkus.smallrye-jwt.silent[]"
 
+#, fuzzy
 msgid "Always create HTTP 401 challenge, even for requests containing no authentication credentials. JWT authentication mechanism will return HTTP 401 when an authentication challenge is required. However if it is used alongside one of the interactive authentication mechanisms then returning HTTP 401 to the users accessing the application from a browser may not be desired. If you prefer you can request that JWT authentication mechanism does not create a challenge in such cases by setting this property to 'true'."
-msgstr ""
+msgstr "Crie sempre um desafio HTTP 401, mesmo para solicitações que não contenham credenciais de autenticação. O mecanismo de autenticação JWT retornará um código HTTP 401 quando for necessário um desafio de autenticação. No entanto, se ele for utilizado em conjunto com um dos mecanismos de autenticação interativos, o retorno de um código HTTP 401 aos usuários que acessam o aplicativo por meio de um navegador pode não ser desejável. Se preferir, o senhor pode solicitar que o mecanismo de autenticação JWT não crie um desafio nesses casos, definindo esta propriedade como “true”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_JWT_SILENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_JWT_SILENT[]"
 
+#, fuzzy
 msgid "`+++false+++`"
-msgstr ""
+msgstr "`falso`"
 
 msgid ""
 "[[quarkus-smallrye-jwt_quarkus-smallrye-jwt-priority]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-priority[`+++quarkus.smallrye-jwt.priority+++`]##\n"
@@ -978,22 +1001,26 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-smallrye-jwt_quarkus-smallrye-jwt-priority]] [.property-path]##link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-priority[`+++quarkus.smallrye-jwt.priority+++`]##\n"
 "config_property_copy_button:+++quarkus.smallrye-jwt.priority+++[]"
-msgstr ""
+msgstr " link:#quarkus-smallrye-jwt_quarkus-smallrye-jwt-priority[quarkus.smallrye-jwt.priority] config_property_copy_button:quarkus.smallrye-jwt.priority[]"
 
+#, fuzzy
 msgid "JWT authentication mechanism priority."
-msgstr ""
+msgstr "Prioridade do mecanismo de autenticação JWT."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SMALLRYE_JWT_PRIORITY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SMALLRYE_JWT_PRIORITY[]"
 
 msgid "int"
 msgstr "int"
 
+#, fuzzy
 msgid "`+++1000+++`"
-msgstr ""
+msgstr "`1.000`"
 
 #, fuzzy
 msgid "MicroProfile JWT configuration"

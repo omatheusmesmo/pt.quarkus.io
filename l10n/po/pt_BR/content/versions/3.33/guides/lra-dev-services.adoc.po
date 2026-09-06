@@ -147,7 +147,7 @@ msgstr "[lock]  link:#quarkus-narayana-lra_quarkus-lra-devservices_quarkus-lra-d
 #. mt: deepl
 #, fuzzy
 msgid "If Dev Services for the LRA coordinator has been explicitly enabled or disabled. For the LRA coordinator, the Dev Services is disabled if this property is false or if the `quarkus.lra.coordinator-url` configuration property is defined."
-msgstr "Se os Serviços de Desenvolvimento para o coordenador LRA foram explicitamente ativados ou desativados. Para o coordenador LRA, os Serviços de Desenvolvimento estão desativados se esta propriedade for `false` ou se a propriedade de configuração ``quarkus.lra.coordinator-url` ` estiver definida."
+msgstr "Se os Serviços de Desenvolvimento para o coordenador LRA foram explicitamente ativados ou desativados. Para o coordenador LRA, os Serviços de Desenvolvimento ficam desativados se esta propriedade for “false” ou se a propriedade de configuração `quarkus.lra.coordinator-url` estiver definida."
 
 #. mt: deepl
 #, fuzzy
@@ -326,7 +326,7 @@ msgstr "[lock]  link:#quarkus-narayana-lra_quarkus-lra-devservices_quarkus-lra-d
 #. mt: deepl
 #, fuzzy
 msgid "The value of the `quarkus-dev-service-lra-coordinator` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for LRA coordinator looks for a container with the `quarkus-dev-service-lra-coordinator` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-lra-coordinator` label set to the specified value."
-msgstr "O valor do rótulo `“quarkus-dev-service-lra-coordinator”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o coordenador do Dev Services for LRA procura um contêiner com a etiqueta `“quarkus-dev-service-lra-coordinator”` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-lra-coordinator”` definida com o valor especificado."
+msgstr "O valor do rótulo `“quarkus-dev-service-lra-coordinator”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o coordenador do Dev Services for LRA procura um contêiner com a etiqueta `“quarkus-dev-service-lra-coordinator”` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-lra-coordinator”` definido com o valor especificado."
 
 #. mt: deepl
 #, fuzzy

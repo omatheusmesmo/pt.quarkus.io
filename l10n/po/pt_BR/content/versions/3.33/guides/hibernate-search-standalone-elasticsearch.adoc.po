@@ -1533,7 +1533,7 @@ msgstr "dica de ferramenta:gráfico[As entidades indexadas por meio do Hibernate
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:graph[Entities indexed through Hibernate Search are nodes in an entity graph.  With this structure\\: * An indexed entity is independent of other entities it references through associations, which *can* be updated independently of the indexed entity; in particular they may be passed to {@link org.hibernate.search.mapper.pojo.standalone.work.SearchIndexingPlan#addOrUpdate(Object)}. * Therefore, when an entity changes, Hibernate Search may need to resolve other entities to reindex, which means in particular that associations between entities must be bi-directional\\: specifying the inverse side of associations through `@AssociationInverseSide` *is required*, unless reindexing is disabled for that association through `@IndexingDependency(reindexOnUpdate = ...)`.  See also link\\:{hibernate-search-docs-url}#mapping-reindexing-associationinverseside\\\\]`@AssociationInverseSide`\\] link\\:{hibernate-search-docs-url}#mapping-reindexing-reindexonupdate\\\\]`@IndexingDependency(reindexOnUpdate = ...)`\\].]"
-msgstr "dica de ferramenta:gráfico[As entidades indexadas por meio do Hibernate Search são nós em um gráfico de entidades. Com essa estrutura: * Uma entidade indexada é independente de outras entidades às quais faz referência por meio de associações, as quais *podem* ser atualizadas independentemente da entidade indexada; em particular, elas podem ser passadas para {@link org.hibernate.search.mapper.pojo.standalone.work.SearchIndexingPlan#addOrUpdate(Object)}. * Portanto, quando uma entidade é alterada, o Hibernate Search pode precisar identificar outras entidades para reindexar, o que significa, em particular, que as associações entre entidades devem ser bidirecionais\\: *é necessário* especificar o lado inverso das associações por meio de `@AssociationInverseSide` , a menos que a reindexação esteja desativada para essa associação por meio de `@IndexingDependency(reindexOnUpdate = …​)` . Consulte também o link\\:{hibernate-search-docs-url}#mapping-reindexing-associationinverseside\\\\] `@AssociationInverseSide` \\] link\\:{hibernate-search-docs-url}#mapping-reindexing-reindexonupdate\\\\] `@IndexingDependency(reindexOnUpdate = …​)` \\].]"
+msgstr "dica de ferramenta:gráfico[As entidades indexadas por meio do Hibernate Search são nós em um gráfico de entidades. Com essa estrutura: * Uma entidade indexada é independente de outras entidades às quais faz referência por meio de associações, as quais *podem* ser atualizadas independentemente da entidade indexada; em particular, elas podem ser passadas para {@link org.hibernate.search.mapper.pojo.standalone.work.SearchIndexingPlan#addOrUpdate(Object)}. * Portanto, quando uma entidade é alterada, o Hibernate Search pode precisar identificar outras entidades para reindexação, o que significa, em particular, que as associações entre entidades devem ser bidirecionais\\: *é necessário* especificar o lado inverso das associações por meio de `@AssociationInverseSide` , a menos que a reindexação esteja desativada para essa associação por meio de `@IndexingDependency(reindexOnUpdate = …​)` . Consulte também o link\\:{hibernate-search-docs-url}#mapping-reindexing-associationinverseside\\\\] `@AssociationInverseSide` \\] link\\:{hibernate-search-docs-url}#mapping-reindexing-reindexonupdate\\\\] `@IndexingDependency(reindexOnUpdate = …​)` \\].]"
 
 #. mt: deepl
 #, fuzzy
@@ -1583,7 +1583,7 @@ msgid ""
 "Note that if Hibernate Search Standalone is disabled\n"
 "(i.e. `quarkus.hibernate-search-standalone.enabled` is set to `false`),\n"
 "it won't be active, and setting this property to `true` will fail."
-msgstr "Observe que, se o Hibernate Search Standalone estiver desativado (ou seja, se a propriedade `quarkus.hibernate-search-standalone.enabled` estiver definida como `false` ), ele não estará ativo, e a tentativa de definir essa propriedade como `true` resultará em falha."
+msgstr "Observe que, se o Hibernate Search Standalone estiver desativado (ou seja, se a propriedade `quarkus.hibernate-search-standalone.enabled` estiver definida como `false` ), ele não estará ativo, e a tentativa de definir essa propriedade como `true` falhará."
 
 #. mt: deepl
 #, fuzzy
@@ -1741,7 +1741,7 @@ msgid ""
 "For indexes that already exist, validate that their schema matches Hibernate Search's expectations.\n"
 "\n"
 "If it does not, throw an exception, but make no attempt to fix the problem."
-msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
 #. mt: deepl
 #, fuzzy
@@ -1787,7 +1787,7 @@ msgid ""
 "For indexes that already exist, drop them, then create them along with their schema.\n"
 "\n"
 "Also, drop indexes and their schema on shutdown."
-msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
 #. mt: deepl
 #, fuzzy
@@ -1897,7 +1897,7 @@ msgid ""
 "How to synchronize between application threads and indexing,\n"
 "in particular when relying on (implicit) listener-triggered indexing on entity change,\n"
 "but also when using a `SearchIndexingPlan` explicitly."
-msgstr "Como sincronizar entre as threads do aplicativo e a indexação, especialmente quando se recorre à indexação (implícita) acionada por ouvinte em caso de alteração na entidade, mas também quando se utiliza um `SearchIndexingPlan` explicitamente."
+msgstr "Como sincronizar entre as threads do aplicativo e a indexação, especialmente quando se recorre à indexação (implícita) acionada por ouvinte em caso de alteração na entidade, mas também quando se utiliza explicitamente um `SearchIndexingPlan` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1924,7 +1924,7 @@ msgstr "Alterações aplicadas"
 #. mt: deepl
 #, fuzzy
 msgid "Changes safe from crash/power loss"
-msgstr "Alterações protegidas contra falhas do sistema ou queda de energia"
+msgstr "Alterações protegidas contra falhas de sistema ou queda de energia"
 
 #. mt: deepl
 #, fuzzy
@@ -2077,7 +2077,7 @@ msgid ""
 "It doesn't have to be the exact version (it can be `7` or `7.1` for instance) but it has to be sufficiently precise\n"
 "to choose a model dialect (the one used to generate the schema) compatible with the protocol dialect (the one used\n"
 "to communicate with Elasticsearch)."
-msgstr "Não precisa ser exatamente essa versão (pode ser `a 7` ou `a 7.1` , por exemplo), mas deve ser suficientemente precisa para permitir a escolha de um dialeto de modelo (aquele usado para gerar o esquema) compatível com o dialeto de protocolo (aquele usado para se comunicar com o Elasticsearch)."
+msgstr "Não precisa ser exatamente essa versão (pode ser `a 7` ou `a 7.1` , por exemplo), mas deve ser suficientemente precisa para que se possa escolher um dialeto de modelo (aquele utilizado para gerar o esquema) compatível com o dialeto de protocolo (aquele utilizado para se comunicar com o Elasticsearch)."
 
 #. mt: deepl
 #, fuzzy
@@ -2350,7 +2350,7 @@ msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".host
 #. mt: deepl
 #, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr "A lista de hosts dos servidores do Elasticsearch."
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
 #. mt: deepl
 #, fuzzy
@@ -2966,7 +2966,7 @@ msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".quer
 #. mt: deepl
 #, fuzzy
 msgid "Whether partial shard failures are ignored (`true`) or lead to Hibernate Search throwing an exception (`false`)."
-msgstr "Se as falhas parciais nos shards são ignoradas ( `true` ) ou levam o Hibernate Search a lançar uma exceção ( `false` )."
+msgstr "Se as falhas parciais nos shards serão ignoradas ( `true` ) ou se farão com que o Hibernate Search lance uma exceção ( `false` )."
 
 #. mt: deepl
 #, fuzzy
@@ -3176,7 +3176,7 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de transferência de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
+msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
 #. mt: deepl
 #, fuzzy
@@ -3238,7 +3238,7 @@ msgid ""
 "but values that are too low will reduce the likeliness of reaching the max bulk size\n"
 "and increase the likeliness of application threads blocking because the queue is full,\n"
 "which may lead to lower indexing throughput."
-msgstr "Valores mais baixos podem resultar em menor uso de memória, especialmente se houver muitas filas; no entanto, valores excessivamente baixos reduzirão a probabilidade de atingir o tamanho máximo de lote e aumentarão a probabilidade de bloqueio das threads do aplicativo devido ao esgotamento da fila, o que pode resultar em menor taxa de processamento da indexação."
+msgstr "Valores mais baixos podem resultar em menor uso de memória, especialmente se houver muitas filas; no entanto, valores excessivamente baixos reduzirão a probabilidade de atingir o tamanho máximo de lote e aumentarão a probabilidade de bloqueio das threads do aplicativo devido à fila estar cheia, o que pode resultar em menor rendimento da indexação."
 
 #. mt: deepl
 #, fuzzy
@@ -3307,7 +3307,7 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr "Valores mais altos farão com que mais documentos sejam enviados em cada solicitação HTTP enviada ao Elasticsearch, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de saturar seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas de indexação."
+msgstr "Valores mais altos farão com que mais documentos sejam enviados em cada solicitação HTTP enviada ao Elasticsearch, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de saturar seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
 #. mt: deepl
 #, fuzzy
@@ -3446,7 +3446,7 @@ msgid ""
 "and leave the configuration property unset: Hibernate Search will use the annotated implementation automatically.\n"
 "See xref:#plugging-in-custom-components[this section]\n"
 "for more information."
-msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar sua implementação personalizada `da `IndexLayoutStrategy`` com `@SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará a implementação anotada automaticamente. Consulte xref:plugging-in-custom-components[esta seção] para obter mais informações."
+msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar sua implementação personalizada `de `IndexLayoutStrategy`` com `@SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará a implementação anotada automaticamente. Consulte xref:plugging-in-custom-components[esta seção] para obter mais informações."
 
 #. mt: deepl
 #, fuzzy
@@ -3490,7 +3490,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-settings-file]] [.property-path]##link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-settings-file[`+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.settings-file+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.settings-file+++[]"
-msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-settings-file[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".schema-management.arquivo-de-configurações] botão-para-copiar-propriedade-de-configuração:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.arquivo-de-configuração[]"
+msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-settings-file[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".schema-management.arquivo-de-configurações] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.arquivo-de-configuração[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3535,7 +3535,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-mapping-file]] [.property-path]##link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-mapping-file[`+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.mapping-file+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.mapping-file+++[]"
-msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-mapping-file[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".schema-management.mapping-file] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.mapping-file[]"
+msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-mapping-file[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".schema-management.mapping-file] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3590,14 +3590,14 @@ msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-analysis-configurer]] [.property-path]##link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-analysis-configurer[`+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".analysis.configurer+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".analysis.configurer+++[]"
-msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-analysis-configurer[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".analysis.configurer] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".analysis.configurer[]"
+msgstr "[lock]  link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-analysis-configurer[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".analysis.configurer] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".analysis.configurer[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".analysis.configurer+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".analysis.configurer+++[]"
-msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".análise.configurador` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".análise.configurador[]"
+msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".analysis.configurer` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".análise.configurador[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3667,14 +3667,14 @@ msgstr " link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hiberna
 msgid ""
 "[[quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout]] [.property-path]##link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[`+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout+++[]"
-msgstr " link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".schema-management.required-status-wait-timeout] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.tempo-de-espera-para-status-obrigatório[]"
+msgstr " link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hibernate-search-standalone-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".schema-management.required-status-wait-timeout] config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-do-status-obrigatório[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.required-status-wait-timeout+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.required-status-wait-timeout+++[]"
-msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.required-status-wait-timeout[]"
+msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-do-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.required-status-wait-timeout[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3719,7 +3719,7 @@ msgstr " link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hiberna
 msgid ""
 "`+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-count+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-count+++[]"
-msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".indexing.queue-count[]"
+msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3810,7 +3810,7 @@ msgstr " link:#quarkus-hibernate-search-standalone-elasticsearch_quarkus-hiberna
 msgid ""
 "`+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.max-bulk-size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.max-bulk-size+++[]"
-msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.max-bulk-size` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".indexing.max-bulk-size[]"
+msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.max-bulk-size` config_property_copy_button:quarkus.hibernate-search-standalone.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.max-bulk-size[]"
 
 #. mt: deepl
 #, fuzzy

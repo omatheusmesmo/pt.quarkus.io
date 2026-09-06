@@ -2867,7 +2867,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".devservices.image-name` config_prop
 #. mt: deepl
 #, fuzzy
 msgid "The container image name to use, for container based DevServices providers. If you want to use Redis Stack modules (bloom, graph, search...), use: `redis/redis-stack:latest`."
-msgstr "O nome da imagem do contêiner a ser utilizada, para provedores de DevServices baseados em contêineres. Caso deseje utilizar módulos do Redis Stack (bloom, graph, search…​), utilize: `redis/redis-stack:latest` ."
+msgstr "O nome da imagem do contêiner a ser utilizado, para provedores de DevServices baseados em contêineres. Caso deseje utilizar módulos do Redis Stack (bloom, graph, search…​), utilize: `redis/redis-stack:latest` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3029,7 +3029,7 @@ msgstr "O valor do rótulo `“quarkus-dev-service-redis”` associado ao contê
 #. mt: deepl
 #, fuzzy
 msgid "This property is used when you need multiple shared Redis servers."
-msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Redis compartilhados."
+msgstr "Essa propriedade é utilizada quando for necessário dispor de vários servidores Redis compartilhados."
 
 #. mt: deepl
 #, fuzzy

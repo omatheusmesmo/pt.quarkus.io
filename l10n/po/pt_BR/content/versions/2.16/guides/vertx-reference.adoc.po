@@ -1812,7 +1812,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_PREFER_NAT
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

@@ -1580,7 +1580,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-configuratio
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-proxy-configuration-name]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-proxy-configuration-name[`+++quarkus.rest-client.proxy-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.proxy-configuration-name+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-configuration-name[quarkus.rest-client.proxy-configuration-name] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.proxy-configuration-name[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-configuration-name[quarkus.rest-client.proxy-configuration-name] config_property_copy_button:quarkus.rest-client.proxy-configuration-name[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1635,7 +1635,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-connect-timeout[qu
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-connect-timeout]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-connect-timeout[`+++quarkus.rest-client.connect-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.connect-timeout+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-connect-timeout[quarkus.rest-client.connect-timeout] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.connect-timeout[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-connect-timeout[quarkus.rest-client.connect-timeout] config_property_copy_button:quarkus.rest-client.connect-timeout[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1723,7 +1723,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-disable-contextual
 #. mt: deepl
 #, fuzzy
 msgid "If true, the REST clients will not provide additional contextual information (like REST client class and method names) when exception occurs during a client invocation."
-msgstr "Se for verdade, os clientes REST não fornecerão informações contextuais adicionais (como nomes de classes e métodos do cliente REST) quando ocorrer uma exceção durante uma chamada do cliente."
+msgstr "Se for verdade, os clientes REST não fornecerão informações contextuais adicionais (como nomes de classes e métodos do cliente REST) quando ocorrer uma exceção durante uma invocação do cliente."
 
 #. mt: deepl
 #, fuzzy
@@ -1877,7 +1877,7 @@ msgstr "O tempo, em milissegundos, durante o qual uma conexão permanece ociosa 
 #. mt: deepl
 #, fuzzy
 msgid "Although this is set in milliseconds, the underlying client can only be configured in seconds, meaning that for this value to actually take effect, it must be higher than `1000`; any value less than or equal to `999` is converted to 0 seconds."
-msgstr "Embora esse valor seja definido em milissegundos, o cliente subjacente só pode ser configurado em segundos, o que significa que, para que esse valor entre efetivamente em vigor, ele deve ser superior a `1.000` ; qualquer valor menor ou igual a `999` é convertido para 0 segundos."
+msgstr "Embora essa configuração seja definida em milissegundos, o cliente subjacente só pode ser configurado em segundos, o que significa que, para que esse valor entre efetivamente em vigor, ele deve ser superior a `1.000` ; qualquer valor menor ou igual a `999` é convertido para 0 segundos."
 
 #. mt: deepl
 #, fuzzy
@@ -1920,7 +1920,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-connection-pool-si
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-connection-pool-size]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-connection-pool-size[`+++quarkus.rest-client.connection-pool-size+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.connection-pool-size+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-connection-pool-size[quarkus.rest-client.connection-pool-size] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.connection-pool-size[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-connection-pool-size[quarkus.rest-client.connection-pool-size] config_property_copy_button:quarkus.rest-client.connection-pool-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2182,7 +2182,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-trust-store[quarku
 #. mt: deepl
 #, fuzzy
 msgid "The trust store location. Can point to either a classpath resource or a file."
-msgstr "A localização do repositório de confiança. Pode apontar para um recurso do classpath ou para um arquivo."
+msgstr "A localização do repositório de confiança. Pode indicar um recurso do classpath ou um arquivo."
 
 #. mt: deepl
 #, fuzzy
@@ -2401,7 +2401,7 @@ msgstr "O nome da configuração TLS a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown. The default TLS configuration will be ignored."
-msgstr "Se um nome estiver configurado, ele utilizará a configuração de `quarkus.tls.<nome>.*` Se um nome estiver configurado, mas não for encontrada nenhuma configuração TLS com esse nome, será gerado um erro. A configuração TLS padrão será ignorada."
+msgstr "Se um nome estiver configurado, ele utilizará a configuração de `quarkus.tls.<nome>.*` Se um nome estiver configurado, mas nenhuma configuração TLS for encontrada com esse nome, será gerado um erro. A configuração TLS padrão será ignorada."
 
 #. mt: deepl
 #, fuzzy
@@ -2578,7 +2578,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-enable-compression
 #. mt: deepl
 #, fuzzy
 msgid "Supports receiving compressed messages using GZIP. When this feature is enabled and a server returns a response that includes the header `Content-Encoding: gzip`, REST Client will automatically decode the content and proceed with the message handling."
-msgstr "Suporta o recebimento de mensagens compactadas usando GZIP. Quando esse recurso estiver ativado e um servidor retornar uma resposta que inclua o cabeçalho `Content-Encoding: gzip` , o REST Client descodificará automaticamente o conteúdo e prosseguirá com o processamento da mensagem."
+msgstr "Suporta o recebimento de mensagens compactadas usando GZIP. Quando esse recurso estiver ativado e um servidor retornar uma resposta que inclua o cabeçalho `Content-Encoding: gzip` , o REST Client decodificará automaticamente o conteúdo e prosseguirá com o processamento da mensagem."
 
 #. mt: deepl
 #, fuzzy
@@ -2611,7 +2611,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-alpn[quarkus.rest-
 #. mt: deepl
 #, fuzzy
 msgid "If the Application-Layer Protocol Negotiation is enabled, the client will negotiate which protocol to use over the protocols exposed by the server. By default, it will try to use HTTP/2 first and if it's not enabled, it will use HTTP/1.1. When the property `http2` is enabled, this flag will be automatically enabled."
-msgstr "Se a negociação de protocolo na camada de aplicação estiver habilitada, o cliente negociará qual protocolo utilizar entre os protocolos disponibilizados pelo servidor. Por padrão, ele tentará usar o HTTP/2 primeiro e, caso este não esteja habilitado, utilizará o HTTP/1.1. Quando a propriedade `http2` estiver habilitada, este sinalizador será automaticamente ativado."
+msgstr "Se a negociação de protocolo na camada de aplicação estiver ativada, o cliente negociará qual protocolo utilizar entre os protocolos disponibilizados pelo servidor. Por padrão, ele tentará usar o HTTP/2 primeiro e, caso este não esteja ativado, utilizará o HTTP/1.1. Quando a propriedade `http2` estiver ativada, este sinalizador será ativado automaticamente."
 
 #. mt: deepl
 #, fuzzy
@@ -2689,7 +2689,7 @@ msgid ""
 "WARNING: beware of logging sensitive data  +\n"
 "The possible values are:"
 msgstr ""
-"Escopo do registro de logs para o cliente.\n"
+"Escopo do registro de log para o cliente.\n"
 "\n"
 "\n"
 "AVISO: tenha cuidado ao registrar dados confidenciais\n"
@@ -2873,7 +2873,7 @@ msgstr "[lock]  link:#quarkus-rest-client-config_quarkus-rest-client-client-enab
 #. mt: deepl
 #, fuzzy
 msgid "If set to true, then Quarkus will ensure that all calls from the REST client go through a local proxy server (that is managed by Quarkus). This can be very useful for capturing network traffic to a service that uses HTTPS."
-msgstr "Se definido como “true”, o Quarkus garantirá que todas as chamadas do cliente REST passem por um servidor proxy local (gerenciado pelo Quarkus). Isso pode ser muito útil para capturar o tráfego de rede destinado a um serviço que utilize HTTPS."
+msgstr "Se definido como “true”, o Quarkus garantirá que todas as chamadas do cliente REST passem por um servidor proxy local (gerenciado pelo Quarkus). Isso pode ser muito útil para capturar o tráfego de rede destinado a um serviço que utiliza HTTPS."
 
 #. mt: deepl
 #, fuzzy
@@ -4230,7 +4230,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-user[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "Proxy username, equivalent to the http.proxy or https.proxy JVM settings. Honored only if `quarkus.rest-client.proxy-address` is set."
-msgstr "Nome de usuário do proxy, equivalente às configurações http.proxy ou https.proxy da JVM. Só é considerado se `quarkus.rest-client.proxy-address` estiver definido."
+msgstr "Nome de usuário do proxy, equivalente às configurações http.proxy ou https.proxy da JVM. Só será considerado se `quarkus.rest-client.proxy-address` estiver definido."
 
 #. mt: deepl
 #, fuzzy
@@ -4347,7 +4347,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-connect-time
 #. mt: deepl
 #, fuzzy
 msgid "Proxy connection timeout. Honored only if `quarkus.rest-client.proxy-address` is set."
-msgstr "Tempo limite da conexão de proxy. Só será respeitado se `a` variável `quarkus.rest-client.proxy-address` estiver definida."
+msgstr "Tempo limite da conexão de proxy. Apenas será respeitado se a variável `quarkus.rest-client.proxy-address` estiver definida."
 
 #. mt: deepl
 #, fuzzy
@@ -4515,7 +4515,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-proxy-user[
 #. mt: deepl
 #, fuzzy
 msgid "Proxy username. Honored only if `quarkus.rest-client.\"client\".proxy-address` is set."
-msgstr "Nome de usuário do proxy. Só será considerado se `quarkus.rest-client.\"client\".proxy-address` estiver definido."
+msgstr "Nome de usuário do proxy. Só será considerado se a variável `quarkus.rest-client.\"client\".proxy-address` estiver definida."
 
 #. mt: deepl
 #, fuzzy
@@ -4589,7 +4589,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-non-proxy-h
 #. mt: deepl
 #, fuzzy
 msgid "Hosts to access without proxy. Honored only if `quarkus.rest-client.\"client\".proxy-address` is set."
-msgstr "Servidores aos quais se deve acessar sem proxy. Esta configuração só será aplicada se `quarkus.rest-client.\"client\".proxy-address` estiver definido."
+msgstr "Servidores aos quais se deve acessar sem proxy. Esta configuração só será respeitada se `quarkus.rest-client.\"client\".proxy-address` estiver definido."
 
 #. mt: deepl
 #, fuzzy
@@ -4641,9 +4641,9 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."

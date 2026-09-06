@@ -501,7 +501,7 @@ msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".contexts` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "Comma-separated case-sensitive list of ChangeSet contexts to execute for liquibase."
-msgstr "Lista separada por vírgulas, que diferencia maiúsculas de minúsculas, dos contextos do ChangeSet a serem executados pelo Liquibase."
+msgstr "Lista separada por vírgulas, com distinção entre maiúsculas e minúsculas, dos contextos do ChangeSet a serem executados pelo Liquibase."
 
 #. mt: deepl
 #, fuzzy
@@ -544,7 +544,7 @@ msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".labels` config_property_co
 #. mt: deepl
 #, fuzzy
 msgid "Comma-separated case-sensitive list of expressions defining labeled ChangeSet to execute for liquibase."
-msgstr "Lista de expressões, separadas por vírgulas e com distinção entre maiúsculas e minúsculas, que definem o ChangeSet rotulado a ser executado pelo Liquibase."
+msgstr "Lista de expressões separadas por vírgulas, com distinção entre maiúsculas e minúsculas, que definem o ChangeSet rotulado a ser executado pelo Liquibase."
 
 #. mt: deepl
 #, fuzzy
@@ -683,7 +683,7 @@ msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".nome-da-tabela-de-registro
 #. mt: deepl
 #, fuzzy
 msgid "The liquibase change log table name. Name of table to use for tracking change history."
-msgstr "O nome da tabela do registro de alterações do Liquibase. Nome da tabela a ser utilizada para acompanhar o histórico de alterações."
+msgstr "O nome da tabela de registro de alterações do Liquibase. Nome da tabela a ser utilizada para acompanhar o histórico de alterações."
 
 #. mt: deepl
 #, fuzzy
@@ -817,7 +817,7 @@ msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".username` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "The username that Liquibase uses to connect to the database. If no specific username is configured, falls back to the datasource username and password."
-msgstr "O nome de usuário que o Liquibase utiliza para se conectar ao banco de dados. Caso nenhum nome de usuário específico seja configurado, o sistema recorre ao nome de usuário e à senha da fonte de dados."
+msgstr "O nome de usuário que o Liquibase utiliza para se conectar ao banco de dados. Caso nenhum nome de usuário específico seja configurado, o sistema utilizará o nome de usuário e a senha da fonte de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -855,7 +855,7 @@ msgstr " link:#quarkus-liquibase_quarkus-liquibase-password[quarkus.liquibase.pa
 msgid ""
 "`+++quarkus.liquibase.\"datasource-name\".password+++`\n"
 "config_property_copy_button:+++quarkus.liquibase.\"datasource-name\".password+++[]"
-msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".password` config_property_copy_button:quarkus.liquibase.\"nome-da-fonte-de-dados\".password[]"
+msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".senha` config_property_copy_button:quarkus.liquibase.\"nome-da-fonte-de-dados\".senha[]"
 
 #. mt: deepl
 #, fuzzy

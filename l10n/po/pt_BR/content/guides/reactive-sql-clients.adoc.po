@@ -1271,7 +1271,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-enabled[
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.enabled+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.enabled+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.enabled` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.enabled[]"
+msgstr "`quarkus.datasource.\"datasource-name\".devservices.enabled` config_property_copy_button:quarkus.datasource.\"datasource-name\".devservices.enabled[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1336,7 +1336,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-image-na
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.image-name+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.image-name+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem` botão-para-copiar-propriedade-de-configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1849,7 +1849,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-init-pri
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.init-privileged-script-path+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.init-privileged-script-path+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1908,7 +1908,7 @@ msgstr "Os volumes a serem mapeados para o contêiner."
 #. mt: deepl
 #, fuzzy
 msgid "The map key corresponds to the host location; the map value is the container location. If the host location starts with \"classpath:\", the mapping loads the resource from the classpath with read-only permission."
-msgstr "A chave do mapa corresponde à localização do host; o valor do mapa é a localização do contêiner. Se a localização do host começar com “classpath:”, o mapeamento carrega o recurso a partir do classpath com permissão somente de leitura."
+msgstr "A chave do mapa corresponde à localização do host; o valor do mapa é a localização do contêiner. Se a localização do host começar com “classpath:”, o mapeamento carrega o recurso a partir do classpath com permissão somente para leitura."
 
 #. mt: deepl
 #, fuzzy
@@ -1968,7 +1968,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices-reuse[qu
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.reuse+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.reuse+++[]"
-msgstr "`quarkus.datasource.\"datasource-name\".devservices.reuse` config_property_copy_button:quarkus.datasource.\"datasource-name\".devservices.reuse[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.reuse` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.reuse[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1994,7 +1994,7 @@ msgid ""
 "so it is mostly useful to *disable* reuse,\n"
 "if you enabled it in `testcontainers.properties`\n"
 "but only want to use it for some of your Quarkus applications or datasources."
-msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, é mais útil *desativar* a reutilização caso a tenha habilitado no `arquivo testcontainers.properties` , mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
+msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, ela é útil principalmente para *desativar* a reutilização, caso você a tenha habilitado no `arquivo testcontainers.properties,` mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -3416,7 +3416,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java de Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

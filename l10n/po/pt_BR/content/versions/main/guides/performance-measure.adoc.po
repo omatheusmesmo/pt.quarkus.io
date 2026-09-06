@@ -237,8 +237,9 @@ msgstr "Um ciclo de sondagem em segundo plano tenta estabelecer conexões TCP e 
 msgid "The TTFR is then computed as the difference between the response timestamp and the start timestamp, in nanoseconds."
 msgstr "O TTFR é, então, calculado como a diferença entre o carimbo de data/hora da resposta e o carimbo de data/hora inicial, em nanossegundos."
 
+#, fuzzy
 msgid "Why not just use the framework&#8217;s reported startup time?"
-msgstr ""
+msgstr "Por que não utilizar simplesmente o tempo de inicialização informado pelo framework?"
 
 #, fuzzy
 msgid ""
@@ -431,8 +432,9 @@ msgstr "As extensões do Quarkus podem escolher automaticamente os serviços cer
 msgid "We prefer listing services explicitly as it produces better optimised binaries. Disable it as well by setting `-H:-UseServiceLoaderFeature`."
 msgstr "Preferimos listar os serviços explicitamente, pois isso produz binários mais otimizados. Desative-o também definindo `-H:-UseServiceLoaderFeature` ."
 
+#, fuzzy
 msgid "Others &#8230;&#8203;"
-msgstr ""
+msgstr "Outros …​"
 
 #, fuzzy
 msgid ""

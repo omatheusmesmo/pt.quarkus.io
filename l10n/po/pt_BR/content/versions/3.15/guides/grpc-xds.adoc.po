@@ -25,8 +25,9 @@ msgstr "Configurando servidor"
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -49,14 +50,17 @@ msgstr ""
 msgid "[[quarkus-grpc_quarkus-grpc-server-xds_quarkus-grpc-server-xds-enabled]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server-xds_quarkus-grpc-server-xds-enabled[`quarkus.grpc.server.xds.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Explicitly enable use of XDS."
-msgstr ""
+msgstr "Habilite explicitamente o uso do XDS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_XDS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_XDS_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -80,11 +84,13 @@ msgstr ""
 msgid "[[quarkus-grpc_quarkus-grpc-server-xds_quarkus-grpc-server-xds-secure]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server-xds_quarkus-grpc-server-xds-secure[`quarkus.grpc.server.xds.secure`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Use secure credentials."
-msgstr ""
+msgstr "Utilize credenciais seguras."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_XDS_SECURE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_XDS_SECURE[]"
 
 msgid "Server configuration example"
 msgstr "Exemplo de configuração do servidor"
@@ -116,8 +122,9 @@ msgstr ""
 msgid "[[quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-enabled]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-enabled[`quarkus.grpc.clients.\"client-name\".xds.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__XDS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__XDS_ENABLED[]"
 
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-secure]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-secure[`quarkus.grpc.clients.\"client-name\".xds.secure`]##\n"
@@ -134,8 +141,9 @@ msgstr ""
 msgid "[[quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-secure]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-secure[`quarkus.grpc.clients.\"client-name\".xds.secure`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__XDS_SECURE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__XDS_SECURE[]"
 
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-target]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-target[`quarkus.grpc.clients.\"client-name\".xds.target`]##\n"
@@ -152,11 +160,13 @@ msgstr ""
 msgid "[[quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-target]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients-client-name-xds_quarkus-grpc-clients-client-name-xds-target[`quarkus.grpc.clients.\"client-name\".xds.target`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Optional explicit target."
-msgstr ""
+msgstr "Destino explícito opcional."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__XDS_TARGET+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__XDS_TARGET[]"
 
 msgid "string"
 msgstr "string"

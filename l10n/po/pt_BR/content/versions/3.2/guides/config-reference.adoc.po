@@ -159,8 +159,9 @@ msgid ""
 "`foo.bar-baz` in a source with an ordinal lower than the EnvConfigSource (`300`)."
 msgstr "Para pesquisar corretamente as propriedades `Map` em que `FOO_BAR_BAZ` é o nome da propriedade e `BAR_BAZ` é a chave, adicione `foo.bar-baz` em uma fonte com um ordinal inferior ao EnvConfigSource ( `300` )."
 
+#, fuzzy
 msgid "<code>.env</code> file in the current working directory"
-msgstr ""
+msgstr "Arquivo <code>.env</code> no diretório de trabalho atual"
 
 #, fuzzy
 msgid "The name `QUARKUS_DATASOURCE_PASSWORD` the same conversion rules used for xref:environment-variables[Environment variables]."
@@ -841,8 +842,9 @@ msgid ""
 "It will log the changed options and save the current values of each of the options present in `${project.basedir}/.quarkus/quarkus-prod-config-dump` in `${project.basedir}/target/quarkus-prod-config.check` (the target file name and location can be configured). If the build time configuration has not changed since the last build both `${project.basedir}/.quarkus/quarkus-prod-config-dump` and `${project.basedir}/.quarkus/quarkus-prod-config-dump` will be identical."
 msgstr "A meta `track-config-changes` procura por `${project.basedir}/.quarkus/quarkus-prod-config-dump` (o nome do arquivo e o diretório são configuráveis) e, se o arquivo já existir, verifica se os valores armazenados no dump de configuração foram alterados. Ele registrará as opções alteradas e salvará os valores atuais de cada uma das opções presentes em `${project.basedir}/.quarkus/quarkus-prod-config-dump` em `${project.basedir}/target/quarkus-prod-config.check` (o nome e o local do arquivo de destino podem ser configurados). Se a configuração do tempo de compilação não tiver sido alterada desde a última compilação, tanto `${project.basedir}/.quarkus/quarkus-prod-config-dump` quanto `${project.basedir}/.quarkus/quarkus-prod-config-dump` serão idênticos."
 
+#, fuzzy
 msgid "Dump current build configuration when the recorded configuration isn&#8217;t found"
-msgstr ""
+msgstr "Descartar a configuração atual da compilação caso a configuração registrada não seja encontrada"
 
 #, fuzzy
 msgid ""
@@ -930,8 +932,9 @@ msgstr "Referência de configuração"
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-config-config_configuration]]link:#quarkus-config-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-config-config_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -954,20 +957,24 @@ msgstr ""
 msgid "[[quarkus-config-config_quarkus-profile]]`link:#quarkus-config-config_quarkus-profile[quarkus.profile]`"
 msgstr ""
 
+#, fuzzy
 msgid "Profile that will be active when Quarkus launches."
-msgstr ""
+msgstr "Perfil que estará ativo quando o Quarkus for iniciado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_PROFILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PROFILE[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`prod`"
-msgstr ""
+msgstr "`prod`"
 
 msgid ""
 "[[quarkus-config-config_quarkus-config-profile-parent]]`link:#quarkus-config-config_quarkus-config-profile-parent[quarkus.config.profile.parent]`\n"
@@ -984,11 +991,13 @@ msgstr ""
 msgid "[[quarkus-config-config_quarkus-config-profile-parent]]`link:#quarkus-config-config_quarkus-config-profile-parent[quarkus.config.profile.parent]`"
 msgstr ""
 
+#, fuzzy
 msgid "Accepts a single configuration profile name. If a configuration property cannot be found in the current active profile, the config performs the same lookup in the profile set by this configuration."
-msgstr ""
+msgstr "Aceita um único nome de perfil de configuração. Caso uma propriedade de configuração não seja encontrada no perfil ativo no momento, a configuração realiza a mesma pesquisa no perfil definido por esta configuração."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONFIG_PROFILE_PARENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONFIG_PROFILE_PARENT[]"
 
 msgid ""
 "[[quarkus-config-config_quarkus-config-locations]]`link:#quarkus-config-config_quarkus-config-locations[quarkus.config.locations]`\n"
@@ -1005,14 +1014,17 @@ msgstr ""
 msgid "[[quarkus-config-config_quarkus-config-locations]]`link:#quarkus-config-config_quarkus-config-locations[quarkus.config.locations]`"
 msgstr ""
 
+#, fuzzy
 msgid "Additional config locations to be loaded with the Config. The configuration support multiple locations separated by a comma and each must represent a valid `java.net.URI`."
-msgstr ""
+msgstr "Locais de configuração adicionais a serem carregados com o Config. A configuração suporta vários locais separados por vírgulas, e cada um deles deve representar um `java.net.URI` válido."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CONFIG_LOCATIONS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CONFIG_LOCATIONS[]"
 
+#, fuzzy
 msgid "list of link:https://docs.oracle.com/javase/8/docs/api/java/net/URI.html[URI]"
-msgstr ""
+msgstr "lista de link:https://docs.oracle.com/javase/8/docs/api/java/net/URI.html[URIs]"
 
 msgid ""
 "[[quarkus-config-config_quarkus-uuid]]`link:#quarkus-config-config_quarkus-uuid[quarkus.uuid]`\n"
@@ -1035,5 +1047,6 @@ msgid ""
 "Access this generated UUID using expressions: `$++{++quarkus.uuid++}++`."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_UUID+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_UUID[]"

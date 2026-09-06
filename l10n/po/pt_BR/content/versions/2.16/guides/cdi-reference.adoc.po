@@ -1049,7 +1049,7 @@ msgstr "Se definido como `“all”` (ou `“true”` ), o contêiner tentará r
 #. mt: deepl
 #, fuzzy
 msgid "If set to `none` (or `false`) no beans will ever be removed even if they are unused (according to the criteria set out below)"
-msgstr "Se definido como `“none”` (ou `“false”` ), nenhum bean será removido, mesmo que não esteja sendo utilizado (de acordo com os critérios estabelecidos a seguir)"
+msgstr "Se definido como `“none”` (ou `“false”` ), nenhum bean será removido, mesmo que não esteja sendo utilizado (de acordo com os critérios estabelecidos abaixo)"
 
 #. mt: deepl
 #, fuzzy
@@ -1468,7 +1468,7 @@ msgstr "[lock] `link:#quarkus-arc_quarkus.arc.test.disable-application-lifecycle
 #. mt: deepl
 #, fuzzy
 msgid "If set to true then disable `StartupEvent` and `ShutdownEvent` observers declared on application bean classes during the tests."
-msgstr "Se definido como `true`, desativará os observadores ` `StartupEvent` ` e ``ShutdownEvent` ` declarados nas classes de beans da aplicação durante os testes."
+msgstr "Se definido como “true”, desativa os observadores `StartupEvent` e `ShutdownEvent` declarados nas classes de beans da aplicação durante os testes."
 
 #. mt: deepl
 #, fuzzy

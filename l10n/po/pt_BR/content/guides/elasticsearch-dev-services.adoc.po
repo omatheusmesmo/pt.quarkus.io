@@ -499,7 +499,7 @@ msgstr "Se o servidor Elasticsearch gerenciado pelo Quarkus Dev Services é comp
 #. mt: deepl
 #, fuzzy
 msgid "When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Elasticsearch starts a new container."
-msgstr "Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for Elasticsearch inicia um novo contêiner."
+msgstr "Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Elasticsearch inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy

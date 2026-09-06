@@ -791,7 +791,7 @@ msgstr "Quantidade de memória fixada que não pode ser reutilizada"
 #. mt: deepl
 #, fuzzy
 msgid "<strong>3. Pooled Allocator - Arena Metrics</strong>"
-msgstr "<strong>3. Alocador agrupado – Métricas da Arena</strong>"
+msgstr "<strong>3. Alocador agrupado - Métricas da Arena</strong>"
 
 #, fuzzy
 msgid "Arenas (large size of memory) manage memory allocations efficiently by grouping chunks of memory. So this metric is the number of arenas allocated for a given allocator."
@@ -1179,7 +1179,7 @@ msgstr "[lock]  link:#quarkus-micrometer_quarkus-micrometer-enabled[quarkus.micr
 #. mt: deepl
 #, fuzzy
 msgid "Micrometer metrics support."
-msgstr "Suporte a unidades de medida em micrômetros."
+msgstr "Suporte a métricas em micrômetros."
 
 #. mt: deepl
 #, fuzzy
@@ -1328,7 +1328,7 @@ msgid ""
 "Comma-separated list of additional HTTP methods to allow in the\n"
 "{@code method} metric tag, beyond the standard RFC 9110/5789/9512 methods\n"
 "(GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, QUERY)."
-msgstr "Lista separada por vírgulas de métodos HTTP adicionais a serem permitidos na tag de métrica {@code method}, além dos métodos padrão da RFC 9110/5789/9512 (GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, QUERY)."
+msgstr "Lista separada por vírgulas de métodos HTTP adicionais a serem permitidos na tag de métrica {@code method}, além dos métodos padrão das normas RFC 9110/5789/9512 (GET, HEAD, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, QUERY)."
 
 #. mt: deepl
 #, fuzzy
@@ -1500,12 +1500,12 @@ msgstr "[lock]  link:#quarkus-micrometer_quarkus-micrometer-binder-kafka-enabled
 #. mt: deepl
 #, fuzzy
 msgid "Kafka metrics support."
-msgstr "Suporte às métricas do Kafka."
+msgstr "Suporte a métricas do Kafka."
 
 #. mt: deepl
 #, fuzzy
 msgid "Support for Kafka metrics will be enabled if Micrometer support is enabled, the Kafka Consumer or Producer interface is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr "O suporte às métricas do Kafka será ativado se o suporte ao Micrometer estiver ativado, se a interface do Consumidor ou Produtor do Kafka estiver no classpath e se este valor for “true”, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for “true”."
+msgstr "O suporte às métricas do Kafka será ativado se o suporte ao Micrometer estiver ativado, se a interface do Consumidor ou Produtor do Kafka estiver no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
 #. mt: deepl
 #, fuzzy
@@ -1545,7 +1545,7 @@ msgstr "Suporte a métricas do cliente Redis."
 #. mt: deepl
 #, fuzzy
 msgid "Support for Redis metrics will be enabled if Micrometer support is enabled, the Quarkus Redis client extension is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr "O suporte às métricas do Redis será ativado se o suporte ao Micrometer estiver ativado, se a extensão do cliente Redis do Quarkus estiver no classpath e se este valor for “true”, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for “true”."
+msgstr "O suporte às métricas do Redis será ativado se o suporte ao Micrometer estiver ativado, se a extensão do cliente Redis do Quarkus estiver no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
 #. mt: deepl
 #, fuzzy
@@ -1773,7 +1773,7 @@ msgstr "[lock]  link:#quarkus-micrometer_quarkus-micrometer-binder-virtual-threa
 #. mt: deepl
 #, fuzzy
 msgid "The tags to be added to the metrics. Empty by default. When set, tags are passed as: `key1=value1,key2=value2`."
-msgstr "As tags a serem adicionadas às métricas. Vazio por padrão. Quando definidas, as tags são passadas da seguinte forma: `key1=value1,key2=value2` ."
+msgstr "As tags a serem adicionadas às métricas. Vazio por padrão. Quando definidas, as tags são passadas no formato: `key1=value1,key2=value2` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2093,7 +2093,7 @@ msgstr "[lock]  link:#quarkus-micrometer_quarkus-micrometer-export-json-expiry[q
 #. mt: deepl
 #, fuzzy
 msgid "Statistics like max, percentiles, and histogram counts decay over time to give greater weight to recent samples. Samples are accumulated to such statistics in ring buffers which rotate after this expiry, with a particular buffer length."
-msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas perdem peso ao longo do tempo, a fim de atribuir maior peso às amostras recentes. As amostras são acumuladas nessas estatísticas em buffers em anel, que se renovam após esse prazo, com um comprimento específico de buffer."
+msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas são atualizadas ao longo do tempo para atribuir maior peso às amostras mais recentes. As amostras são acumuladas nessas estatísticas em buffers em anel, que se renovam após esse prazo, com um comprimento específico de buffer."
 
 #. mt: deepl
 #, fuzzy
@@ -2315,7 +2315,7 @@ msgid ""
 "a request to a matching path (`/item/123`) will use the specified\n"
 "replacement value (`/item/custom`) as the value for the uri label.\n"
 "Note that backslashes must be double escaped as `\\\\\\\\`."
-msgstr "Por exemplo, se `/item/\\\\\\\\d+=/item/custom` ou `/item/[0-9]+=/item/custom` for especificado nesta lista, uma solicitação para um caminho correspondente ( `/item/123` ) utilizará o valor de substituição especificado ( `/item/custom` ) como o valor para o rótulo URI. Observe que as barras invertidas devem ser duplamente escapadas como `\\\\\\\\` ."
+msgstr "Por exemplo, se `/item/\\\\\\\\d+=/item/custom` ou `/item/[0-9]+=/item/custom` for especificado nesta lista, uma solicitação para um caminho correspondente ( `/item/123` ) utilizará o valor de substituição especificado ( `/item/custom` ) como o valor para o rótulo da URI. Observe que as barras invertidas devem ser duplamente escapadas como `\\\\\\\\` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2419,7 +2419,7 @@ msgstr " link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags]] [.property-path]##link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags[`+++quarkus.micrometer.binder.http-client.max-uri-tags+++`]##\n"
 "config_property_copy_button:+++quarkus.micrometer.binder.http-client.max-uri-tags+++[]"
-msgstr " link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags[quarkus.micrometer.binder.http-client.max-uri-tags] botão_para_copiar_propriedade_de_configuração:quarkus.micrometer.binder.http-client.max-uri-tags[]"
+msgstr " link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags[quarkus.micrometer.binder.http-client.max-uri-tags] config_property_copy_button:quarkus.micrometer.binder.http-client.max-uri-tags[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2547,7 +2547,7 @@ msgid ""
 "Suppress non-application uris from metrics collection.\n"
 "This will suppress all metrics for non-application endpoints using\n"
 "`${quarkus.http.root-path}/${quarkus.http.non-application-root-path}`."
-msgstr "Omitir URIs que não pertencem ao aplicativo da coleta de métricas. Isso omitirá todas as métricas relacionadas a endpoints que não pertencem ao aplicativo, utilizando `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}` ."
+msgstr "Omitir URIs que não pertencem à aplicação da coleta de métricas. Isso omitirá todas as métricas relativas a endpoints que não pertencem à aplicação, utilizando `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2590,7 +2590,7 @@ msgstr " link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-suppress
 msgid ""
 "Suppress 4xx errors from metrics collection for unmatched templates.\n"
 "This configuration exists to limit cardinality explosion from caller side error. Does not apply to 404 errors."
-msgstr "Suprimir erros 4xx da coleta de métricas para modelos incompatíveis. Essa configuração existe para limitar a explosão de cardinalidade causada por erros do lado do chamador. Não se aplica a erros 404."
+msgstr "Suprimir erros 4xx da coleta de métricas para modelos incompatíveis. Essa configuração existe para limitar a explosão de cardinalidade decorrente de erros do lado do chamador. Não se aplica a erros 404."
 
 #. mt: deepl
 #, fuzzy

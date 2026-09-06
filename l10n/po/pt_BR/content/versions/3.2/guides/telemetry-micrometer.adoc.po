@@ -606,8 +606,9 @@ msgid ""
 "you can revert to the former format by specifying the `Accept` request header to `text/plain` (`curl -H \"Accept: text/plain\" localhost:8080/q/metrics/`)."
 msgstr "Por padrão, as métricas são exportadas usando o formato do Prometheus `application/openmetrics-text` , o senhor pode reverter para o formato anterior especificando o cabeçalho de solicitação `Accept` para `text/plain` ( `curl -H \"Accept: text/plain\" localhost:8080/q/metrics/` )."
 
+#, fuzzy
 msgid "Use <code>MeterFilter</code> to customize emitted tags and metrics"
-msgstr ""
+msgstr "Utilize <code>MeterFilter</code> para personalizar as tags e métricas emitidas"
 
 #, fuzzy
 msgid ""
@@ -700,8 +701,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[[quarkus-micrometer_configuration]]link:#quarkus-micrometer_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-micrometer_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -726,17 +728,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-enabled[quarkus.micrometer.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Micrometer metrics support."
-msgstr ""
+msgstr "Suporte a métricas em micrômetros."
 
+#, fuzzy
 msgid "Micrometer metrics support is enabled by default."
-msgstr ""
+msgstr "O suporte a métricas em micrômetros está ativado por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -761,14 +767,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-registry-enabled-default]]`link:#quarkus-micrometer_quarkus-micrometer-registry-enabled-default[quarkus.micrometer.registry-enabled-default]`"
 msgstr ""
 
+#, fuzzy
 msgid "Micrometer MeterRegistry discovery."
-msgstr ""
+msgstr "Descoberta do registro do micrômetro."
 
+#, fuzzy
 msgid "Micrometer MeterRegistry implementations discovered on the classpath will be enabled automatically by default."
-msgstr ""
+msgstr "As implementações do Micrometer MeterRegistry encontradas no classpath serão ativadas automaticamente por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_REGISTRY_ENABLED_DEFAULT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_REGISTRY_ENABLED_DEFAULT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-enabled-default]]`link:#quarkus-micrometer_quarkus-micrometer-binder-enabled-default[quarkus.micrometer.binder-enabled-default]`\n"
@@ -793,8 +802,9 @@ msgstr ""
 msgid "Micrometer MeterBinder implementations discovered on the classpath will be enabled automatically by default."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_ENABLED_DEFAULT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_ENABLED_DEFAULT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-http-client-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-enabled[quarkus.micrometer.binder.http-client.enabled]`\n"
@@ -813,14 +823,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-http-client-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-enabled[quarkus.micrometer.binder.http-client.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Outbound HTTP request metrics support."
-msgstr ""
+msgstr "Suporte a métricas de solicitações HTTP de saída."
 
+#, fuzzy
 msgid "Support for HTTP client metrics will be enabled if Micrometer support is enabled, the REST client feature is enabled, and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte a métricas do cliente HTTP será ativado se o suporte ao Micrometer estiver ativado, se o recurso de cliente REST estiver ativado e se este valor for “true” ou, caso contrário, se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for “true”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-http-server-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-enabled[quarkus.micrometer.binder.http-server.enabled]`\n"
@@ -839,14 +852,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-http-server-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-enabled[quarkus.micrometer.binder.http-server.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Inbound HTTP metrics support."
-msgstr ""
+msgstr "Suporte a métricas HTTP de entrada."
 
+#, fuzzy
 msgid "Support for HTTP server metrics will be enabled if Micrometer support is enabled, an extension serving HTTP traffic is enabled, and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte a métricas do servidor HTTP será ativado se o suporte ao Micrometer estiver ativado, se uma extensão que atenda ao tráfego HTTP estiver ativada e se este valor for verdadeiro ou, caso contrário, se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_SERVER_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_SERVER_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-jvm]]`link:#quarkus-micrometer_quarkus-micrometer-binder-jvm[quarkus.micrometer.binder.jvm]`\n"
@@ -865,14 +881,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-jvm]]`link:#quarkus-micrometer_quarkus-micrometer-binder-jvm[quarkus.micrometer.binder.jvm]`"
 msgstr ""
 
+#, fuzzy
 msgid "Micrometer JVM metrics support."
-msgstr ""
+msgstr "Suporte às métricas do Micrometer JVM."
 
+#, fuzzy
 msgid "Support for JVM metrics will be enabled if Micrometer support is enabled, and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte a métricas da JVM será ativado se o suporte ao Micrometer estiver ativado e se este valor for “true”, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for “true”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_JVM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_JVM[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-kafka-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-kafka-enabled[quarkus.micrometer.binder.kafka.enabled]`\n"
@@ -891,14 +910,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-kafka-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-kafka-enabled[quarkus.micrometer.binder.kafka.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Kafka metrics support."
-msgstr ""
+msgstr "Suporte a métricas do Kafka."
 
+#, fuzzy
 msgid "Support for Kafka metrics will be enabled if Micrometer support is enabled, the Kafka Consumer or Producer interface is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte às métricas do Kafka será ativado se o suporte ao Micrometer estiver ativado, se a interface do Consumidor ou Produtor do Kafka estiver no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_KAFKA_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_KAFKA_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-redis-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-redis-enabled[quarkus.micrometer.binder.redis.enabled]`\n"
@@ -917,14 +939,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-redis-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-redis-enabled[quarkus.micrometer.binder.redis.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Redis client metrics support."
-msgstr ""
+msgstr "Suporte a métricas do cliente Redis."
 
+#, fuzzy
 msgid "Support for Redis metrics will be enabled if Micrometer support is enabled, the Quarkus Redis client extension is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte às métricas do Redis será ativado se o suporte ao Micrometer estiver ativado, se a extensão do cliente Redis do Quarkus estiver no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_REDIS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_REDIS_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-grpc-server-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-grpc-server-enabled[quarkus.micrometer.binder.grpc-server.enabled]`\n"
@@ -943,14 +968,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-grpc-server-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-grpc-server-enabled[quarkus.micrometer.binder.grpc-server.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "gRPC Server metrics support."
-msgstr ""
+msgstr "Suporte a métricas do servidor gRPC."
 
+#, fuzzy
 msgid "Support for gRPC server metrics will be enabled if Micrometer support is enabled, the gRPC server interfaces are on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte às métricas do servidor gRPC será ativado se o suporte ao Micrometer estiver ativado, se as interfaces do servidor gRPC estiverem no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_GRPC_SERVER_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_GRPC_SERVER_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-grpc-client-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-grpc-client-enabled[quarkus.micrometer.binder.grpc-client.enabled]`\n"
@@ -969,14 +997,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-grpc-client-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-grpc-client-enabled[quarkus.micrometer.binder.grpc-client.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "gRPC Client metrics support."
-msgstr ""
+msgstr "Suporte a métricas do cliente gRPC."
 
+#, fuzzy
 msgid "Support for gRPC client metrics will be enabled if Micrometer support is enabled, the gRPC client interfaces are on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte às métricas do cliente gRPC será ativado se o suporte ao Micrometer estiver ativado, se as interfaces do cliente gRPC estiverem no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_GRPC_CLIENT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_GRPC_CLIENT_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-mp-metrics-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-mp-metrics-enabled[quarkus.micrometer.binder.mp-metrics.enabled]`\n"
@@ -1008,22 +1039,26 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-mp-metrics-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-mp-metrics-enabled[quarkus.micrometer.binder.mp-metrics.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Eclipse MicroProfile Metrics support."
-msgstr ""
+msgstr "Suporte ao Eclipse MicroProfile Metrics."
 
+#, fuzzy
 msgid ""
 "Support for MicroProfile Metrics will be enabled if Micrometer\n"
 "support is enabled and the MicroProfile Metrics dependency is present:"
-msgstr ""
+msgstr "O suporte ao MicroProfile Metrics será ativado se o suporte ao Micrometer estiver ativado e a dependência do MicroProfile Metrics estiver presente:"
 
+#, fuzzy
 msgid ""
 "The Micrometer extension currently provides a compatibility layer that supports the MP Metrics API,\n"
 "but metric names and recorded values will be different.\n"
 "Note that the MP Metrics compatibility layer will move to a different extension in the future."
-msgstr ""
+msgstr "Atualmente, a extensão Micrometer oferece uma camada de compatibilidade que suporta a API do MP Metrics, mas os nomes das métricas e os valores registrados serão diferentes. Observe que, no futuro, a camada de compatibilidade do MP Metrics será transferida para uma extensão diferente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_MP_METRICS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_MP_METRICS_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-system]]`link:#quarkus-micrometer_quarkus-micrometer-binder-system[quarkus.micrometer.binder.system]`\n"
@@ -1042,14 +1077,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-system]]`link:#quarkus-micrometer_quarkus-micrometer-binder-system[quarkus.micrometer.binder.system]`"
 msgstr ""
 
+#, fuzzy
 msgid "Micrometer System metrics support."
-msgstr ""
+msgstr "Suporte às métricas do sistema micrométrico."
 
+#, fuzzy
 msgid "Support for System metrics will be enabled if Micrometer support is enabled, and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte às métricas do sistema será ativado se o suporte ao Micrometer estiver ativado e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_SYSTEM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_SYSTEM[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-vertx-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-vertx-enabled[quarkus.micrometer.binder.vertx.enabled]`\n"
@@ -1068,14 +1106,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-binder-vertx-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-binder-vertx-enabled[quarkus.micrometer.binder.vertx.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Vert.x metrics support."
-msgstr ""
+msgstr "Suporte a métricas do Vert.x."
 
+#, fuzzy
 msgid "Support for Vert.x metrics will be enabled if Micrometer support is enabled, Vert.x MetricsOptions is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.binder-enabled-default` is true."
-msgstr ""
+msgstr "O suporte às métricas do Vert.x será ativado se o suporte ao Micrometer estiver ativado, se o Vert.x MetricsOptions estiver no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.binder-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_VERTX_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_VERTX_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-json-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-export-json-enabled[quarkus.micrometer.export.json.enabled]`\n"
@@ -1092,11 +1133,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-json-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-export-json-enabled[quarkus.micrometer.export.json.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Support for export to JSON format. Off by default."
-msgstr ""
+msgstr "Suporte para exportação para o formato JSON. Desativado por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_JSON_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_JSON_ENABLED[]"
 
 #, fuzzy
 msgid "`false`"
@@ -1117,17 +1160,20 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-json-path]]`link:#quarkus-micrometer_quarkus-micrometer-export-json-path[quarkus.micrometer.export.json.path]`"
 msgstr ""
 
+#, fuzzy
 msgid "The path for the JSON metrics endpoint. The default value is `metrics`. By default, this value will be resolved as a path relative to `$++{++quarkus.http.non-application-root-path++}++`. If the management interface is enabled, the value will be resolved as a path relative to `$++{++quarkus.management.root-path++}++`."
-msgstr ""
+msgstr "O caminho para o endpoint de métricas JSON. O valor padrão é `metrics` . Por padrão, esse valor será interpretado como um caminho relativo a `${quarkus.http.non-application-root-path}` . Se a interface de gerenciamento estiver habilitada, o valor será interpretado como um caminho relativo a `${quarkus.management.root-path}` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_JSON_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_JSON_PATH[]"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`metrics`"
-msgstr ""
+msgstr "`métricas`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-json-buffer-length]]`link:#quarkus-micrometer_quarkus-micrometer-export-json-buffer-length[quarkus.micrometer.export.json.buffer-length]`\n"
@@ -1144,11 +1190,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-json-buffer-length]]`link:#quarkus-micrometer_quarkus-micrometer-export-json-buffer-length[quarkus.micrometer.export.json.buffer-length]`"
 msgstr ""
 
+#, fuzzy
 msgid "Statistics like max, percentiles, and histogram counts decay over time to give greater weight to recent samples. Samples are accumulated to such statistics in ring buffers which rotate after the expiry, with this buffer length."
-msgstr ""
+msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas são atualizadas ao longo do tempo para atribuir maior peso às amostras recentes. As amostras são acumuladas nessas estatísticas em buffers circulares que se renovam após o vencimento, com esse comprimento de buffer."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_JSON_BUFFER_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_JSON_BUFFER_LENGTH[]"
 
 msgid "int"
 msgstr "int"
@@ -1172,19 +1220,22 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-json-expiry]]`link:#quarkus-micrometer_quarkus-micrometer-export-json-expiry[quarkus.micrometer.export.json.expiry]`"
 msgstr ""
 
+#, fuzzy
 msgid "Statistics like max, percentiles, and histogram counts decay over time to give greater weight to recent samples. Samples are accumulated to such statistics in ring buffers which rotate after this expiry, with a particular buffer length."
-msgstr ""
+msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas são atualizadas ao longo do tempo para atribuir maior peso às amostras mais recentes. As amostras são acumuladas nessas estatísticas em buffers em anel, que se renovam após esse prazo, com um comprimento específico de buffer."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_JSON_EXPIRY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_JSON_EXPIRY[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
 
+#, fuzzy
 msgid "`P3D`"
-msgstr ""
+msgstr "`P3D`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-prometheus-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-enabled[quarkus.micrometer.export.prometheus.enabled]`\n"
@@ -1203,14 +1254,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-prometheus-enabled]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-enabled[quarkus.micrometer.export.prometheus.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Support for export to Prometheus."
-msgstr ""
+msgstr "Suporte para exportação para o Prometheus."
 
+#, fuzzy
 msgid "Support for Prometheus will be enabled if Micrometer support is enabled, the PrometheusMeterRegistry is on the classpath and either this value is true, or this value is unset and `quarkus.micrometer.registry-enabled-default` is true."
-msgstr ""
+msgstr "O suporte ao Prometheus será ativado se o suporte ao Micrometer estiver ativado, se o PrometheusMeterRegistry estiver no classpath e se este valor for verdadeiro, ou se este valor não estiver definido e `quarkus.micrometer.registry-enabled-default` for verdadeiro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_PROMETHEUS_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-prometheus-path]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-path[quarkus.micrometer.export.prometheus.path]`\n"
@@ -1237,24 +1291,27 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-prometheus-path]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-path[quarkus.micrometer.export.prometheus.path]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "The path for the prometheus metrics endpoint (produces text/plain). The default value is\n"
 "`metrics` and is resolved relative to the non-application endpoint (`q`), e.g.\n"
 "`${quarkus.http.root-path}/${quarkus.http.non-application-root-path}/metrics`.\n"
 "If an absolute path is specified (`/metrics`), the prometheus endpoint will be served\n"
 "from the configured path."
-msgstr ""
+msgstr "O caminho para o endpoint de métricas do Prometheus (gera texto/simples). O valor padrão é `“metrics”` e é resolvido de forma relativa ao endpoint não pertencente ao aplicativo ( `q` ), por exemplo, `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}/metrics` . Caso seja especificado um caminho absoluto ( `/metrics` ), o endpoint do Prometheus será servido a partir do caminho configurado."
 
+#, fuzzy
 msgid ""
 "If the management interface is enabled, the value will be resolved as a path relative to\n"
 "`${quarkus.management.root-path}` (`q` by default), e.g.\n"
 "`http://${quarkus.management.host}:${quarkus.management.port}/${quarkus.management.root-path}/metrics`.\n"
 "If an absolute path is specified (`/metrics`), the prometheus endpoint will be served from the configured path, e.g.\n"
 "`http://${quarkus.management.host}:${quarkus.management.port}/metrics`."
-msgstr ""
+msgstr "Caso a interface de gerenciamento esteja habilitada, o valor será interpretado como um caminho relativo a `${quarkus.management.root-path}` ( `q` por padrão), por exemplo: `http://${quarkus.management.host}:${quarkus.management.port}/${quarkus.management.root-path}/metrics` . Caso seja especificado um caminho absoluto ( `/metrics` ), o endpoint do Prometheus será servido a partir do caminho configurado, por exemplo, `http://${quarkus.management.host}:${quarkus.management.port}/metrics` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_PROMETHEUS_PATH[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-prometheus-default-registry]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-default-registry[quarkus.micrometer.export.prometheus.default-registry]`\n"
@@ -1273,14 +1330,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-micrometer_quarkus-micrometer-export-prometheus-default-registry]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-default-registry[quarkus.micrometer.export.prometheus.default-registry]`"
 msgstr ""
 
+#, fuzzy
 msgid "By default, this extension will create a Prometheus MeterRegistry instance."
-msgstr ""
+msgstr "Por padrão, esta extensão criará uma instância do Prometheus MeterRegistry."
 
+#, fuzzy
 msgid "Use this attribute to veto the creation of the default Prometheus MeterRegistry."
-msgstr ""
+msgstr "Utilize este atributo para impedir a criação do MeterRegistry padrão do Prometheus."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS_DEFAULT_REGISTRY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_PROMETHEUS_DEFAULT_REGISTRY[]"
 
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-binder-http-client-match-patterns]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-match-patterns[quarkus.micrometer.binder.http-client.match-patterns]`\n"
@@ -1311,32 +1371,37 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-client-match-patterns]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-match-patterns[quarkus.micrometer.binder.http-client.match-patterns]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Comma-separated list of regular expressions used to specify uri\n"
 "labels in http metrics."
-msgstr ""
+msgstr "Lista separada por vírgulas de expressões regulares utilizadas para especificar rótulos de URI em métricas HTTP."
 
+#, fuzzy
 msgid ""
 "Outbount HTTP client instrumentation will attempt to transform parameterized\n"
 "resource paths, `/item/123`, into a generic form, `/item/{id}`,\n"
 "to reduce the cardinality of uri label values."
-msgstr ""
+msgstr "A instrumentação do cliente HTTP de saída tentará transformar caminhos de recursos parametrizados, como `/item/123` , em uma forma genérica, como `/item/{id}` , a fim de reduzir a cardinalidade dos valores dos rótulos de URI."
 
+#, fuzzy
 msgid ""
 "Patterns specified here will take precedence over those computed\n"
 "values."
-msgstr ""
+msgstr "Os padrões aqui especificados terão precedência sobre esses valores calculados."
 
+#, fuzzy
 msgid ""
 "For example, if `/item/\\\\\\\\d+=/item/custom` or\n"
 "`/item/[0-9]+=/item/custom` is specified in this list,\n"
 "a request to a matching path (`/item/123`) will use the specified\n"
 "replacement value (`/item/custom`) as the value for the uri label.\n"
 "Note that backslashes must be double escaped as `\\\\\\\\`."
-msgstr ""
+msgstr "Por exemplo, se `/item/\\\\\\\\d+=/item/custom` ou `/item/[0-9]+=/item/custom` for especificado nesta lista, uma solicitação para um caminho correspondente ( `/item/123` ) utilizará o valor de substituição especificado ( `/item/custom` ) como o valor para o rótulo da URI. Observe que as barras invertidas devem ser duplamente escapadas como `\\\\\\\\` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_MATCH_PATTERNS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_MATCH_PATTERNS[]"
 
 #, fuzzy
 msgid "list of string"
@@ -1357,11 +1422,13 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-client-ignore-patterns]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-ignore-patterns[quarkus.micrometer.binder.http-client.ignore-patterns]`"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of regular expressions defining uri paths that should be ignored (not measured)."
-msgstr ""
+msgstr "Lista separada por vírgulas de expressões regulares que definem caminhos de URI que devem ser ignorados (não medidos)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_IGNORE_PATTERNS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_IGNORE_PATTERNS[]"
 
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags[quarkus.micrometer.binder.http-client.max-uri-tags]`\n"
@@ -1378,11 +1445,13 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-client-max-uri-tags[quarkus.micrometer.binder.http-client.max-uri-tags]`"
 msgstr ""
 
+#, fuzzy
 msgid "Maximum number of unique URI tag values allowed. After the max number of tag values is reached, metrics with additional tag values are denied by filter."
-msgstr ""
+msgstr "Número máximo permitido de valores únicos de tag URI. Após atingir o número máximo de valores de tag, as métricas com valores de tag adicionais são rejeitadas pelo filtro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_MAX_URI_TAGS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_CLIENT_MAX_URI_TAGS[]"
 
 #, fuzzy
 msgid "`100`"
@@ -1417,14 +1486,16 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-match-patterns]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-match-patterns[quarkus.micrometer.binder.http-server.match-patterns]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Vertx instrumentation will attempt to transform parameterized\n"
 "resource paths, `/item/123`, into a generic form, `/item/{id}`,\n"
 "to reduce the cardinality of uri label values."
-msgstr ""
+msgstr "A instrumentação Vertx tentará transformar caminhos de recursos parametrizados, `/item/123` , em uma forma genérica, `/item/{id}` , a fim de reduzir a cardinalidade dos valores dos rótulos de URI."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_SERVER_MATCH_PATTERNS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_SERVER_MATCH_PATTERNS[]"
 
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-ignore-patterns]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-ignore-patterns[quarkus.micrometer.binder.http-server.ignore-patterns]`\n"
@@ -1441,8 +1512,9 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-ignore-patterns]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-ignore-patterns[quarkus.micrometer.binder.http-server.ignore-patterns]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_SERVER_IGNORE_PATTERNS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_SERVER_IGNORE_PATTERNS[]"
 
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-suppress-non-application-uris]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-suppress-non-application-uris[quarkus.micrometer.binder.http-server.suppress-non-application-uris]`\n"
@@ -1463,17 +1535,20 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-suppress-non-application-uris]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-suppress-non-application-uris[quarkus.micrometer.binder.http-server.suppress-non-application-uris]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Suppress non-application uris from metrics collection.\n"
 "This will suppress all metrics for non-application endpoints using\n"
 "`${quarkus.http.root-path}/${quarkus.http.non-application-root-path}`."
-msgstr ""
+msgstr "Omitir URIs que não pertencem à aplicação da coleta de métricas. Isso omitirá todas as métricas relativas a endpoints que não pertencem à aplicação, utilizando `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}` ."
 
+#, fuzzy
 msgid "Suppressing non-application uris is enabled by default."
-msgstr ""
+msgstr "A supressão de URIs que não pertencem a aplicativos está ativada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_SERVER_SUPPRESS_NON_APPLICATION_URIS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_SERVER_SUPPRESS_NON_APPLICATION_URIS[]"
 
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-max-uri-tags]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-max-uri-tags[quarkus.micrometer.binder.http-server.max-uri-tags]`\n"
@@ -1490,8 +1565,9 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-binder-http-server-max-uri-tags]]`link:#quarkus-micrometer_quarkus-micrometer-binder-http-server-max-uri-tags[quarkus.micrometer.binder.http-server.max-uri-tags]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_BINDER_HTTP_SERVER_MAX_URI_TAGS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_BINDER_HTTP_SERVER_MAX_URI_TAGS[]"
 
 msgid ""
 "[[quarkus-micrometer_quarkus-micrometer-export-prometheus-prometheus]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-prometheus[quarkus.micrometer.export.prometheus]`\n"
@@ -1511,22 +1587,27 @@ msgstr ""
 msgid "[[quarkus-micrometer_quarkus-micrometer-export-prometheus-prometheus]]`link:#quarkus-micrometer_quarkus-micrometer-export-prometheus-prometheus[quarkus.micrometer.export.prometheus]`"
 msgstr ""
 
+#, fuzzy
 msgid "Prometheus registry configuration properties."
-msgstr ""
+msgstr "Propriedades de configuração do registro do Prometheus."
 
+#, fuzzy
 msgid ""
 "A property source for configuration of the Prometheus MeterRegistry,\n"
 "see https://micrometer.io/docs/registry/prometheus."
-msgstr ""
+msgstr "Uma fonte de propriedades para a configuração do MeterRegistry do Prometheus; consulte https://micrometer.io/docs/registry/prometheus ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MICROMETER_EXPORT_PROMETHEUS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MICROMETER_EXPORT_PROMETHEUS[]"
 
+#, fuzzy
 msgid "`Map<String,String>`"
-msgstr ""
+msgstr "`Map<String, String>`"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"

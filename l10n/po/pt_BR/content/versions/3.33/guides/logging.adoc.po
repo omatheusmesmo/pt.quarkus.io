@@ -1055,7 +1055,7 @@ msgstr " link:#quarkus-logging-json_quarkus-log-console-json-enabled[quarkus.log
 #. mt: deepl
 #, fuzzy
 msgid "Determine whether to enable the JSON console formatting extension, which disables \"normal\" console formatting."
-msgstr "Determine se deseja ativar a extensão de formatação do console JSON, que desativa a formatação “normal” do console."
+msgstr "Determine se deseja ativar a extensão de formatação do console em JSON, o que desativa a formatação “normal” do console."
 
 #. mt: deepl
 #, fuzzy
@@ -1175,7 +1175,7 @@ msgstr " link:#quarkus-logging-json_quarkus-log-console-json-record-delimiter[qu
 #. mt: deepl
 #, fuzzy
 msgid "The special end-of-record delimiter to be used. By default, newline is used."
-msgstr "O delimitador especial de fim de registro a ser utilizado. Por padrão, é utilizada a quebra de linha."
+msgstr "O delimitador especial de fim de registro a ser utilizado. Por padrão, utiliza-se a quebra de linha."
 
 #. mt: deepl
 #, fuzzy
@@ -1431,7 +1431,7 @@ msgstr " link:#quarkus-logging-json_quarkus-log-console-json-additional-field-fi
 #. mt: deepl
 #, fuzzy
 msgid "Additional field type specification. Supported types: `string`, `int`, and `long`. String is the default if not specified."
-msgstr "Especificação adicional do tipo de campo. Tipos suportados: `string` , `int` e `long` . O tipo string é o padrão, caso não seja especificado."
+msgstr "Especificação adicional do tipo de campo. Tipos suportados: `string` , `int` e `long` . Se não for especificado, o tipo padrão é string."
 
 #. mt: deepl
 #, fuzzy
@@ -2175,7 +2175,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_JSON_
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-logging-json_section_quarkus-log-socket-json]] [.section-name.section-level0]##link:#quarkus-logging-json_section_quarkus-log-socket-json[Socket logging]##"
-msgstr " link:#quarkus-logging-json_section_quarkus-log-socket-json[Registro de logs de soquete]"
+msgstr " link:#quarkus-logging-json_section_quarkus-log-socket-json[Registro de soquetes]"
 
 #. mt: deepl
 #, fuzzy
@@ -3148,7 +3148,7 @@ msgstr "O nível mínimo de registro para esta categoria. Por padrão, todas as 
 #. mt: deepl
 #, fuzzy
 msgid "To get runtime logging below `DEBUG`, e.g., `TRACE`, adjust the minimum level at build time. The right log level needs to be provided at runtime."
-msgstr "Para obter registros de execução em níveis inferiores a `DEBUG` , como, por exemplo, `TRACE` , ajuste o nível mínimo durante a compilação. O nível de registro adequado deve ser especificado durante a execução."
+msgstr "Para obter registros de execução em níveis inferiores a `DEBUG` , por exemplo, `TRACE` , ajuste o nível mínimo na fase de compilação. O nível de registro correto deve ser especificado em tempo de execução."
 
 #. mt: deepl
 #, fuzzy
@@ -3163,7 +3163,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CATEGORY__CA
 #. mt: deepl
 #, fuzzy
 msgid "InheritableLevel"
-msgstr "Nível hereditário"
+msgstr "Nível Hereditário"
 
 #. mt: deepl
 #, fuzzy
@@ -3269,7 +3269,7 @@ msgstr " link:#quarkus-core_quarkus-log-category-categories-use-parent-handlers[
 #. mt: deepl
 #, fuzzy
 msgid "Specify whether this logger should send its output to its parent Logger"
-msgstr "Especifique se este registrador deve enviar sua saída ao seu registrador pai"
+msgstr "Especifique se este registrador deve enviar sua saída para o registrador pai"
 
 #. mt: deepl
 #, fuzzy
@@ -3307,7 +3307,7 @@ msgstr " link:#quarkus-core_quarkus-log-console-enabled[quarkus.log.console.enab
 #. mt: deepl
 #, fuzzy
 msgid "If console logging should be enabled"
-msgstr "Caso seja necessário ativar o registro de log no console"
+msgstr "Caso seja necessário ativar o registro de erros no console"
 
 #. mt: deepl
 #, fuzzy
@@ -3373,7 +3373,7 @@ msgstr " link:#quarkus-core_quarkus-log-console-format[quarkus.log.console.forma
 #. mt: deepl
 #, fuzzy
 msgid "The log format. Note that this value is ignored if an extension is present that takes control of console formatting (e.g., an XML or JSON-format extension)."
-msgstr "O formato do log. Observe que esse valor é ignorado caso haja uma extensão que controle a formatação do console (por exemplo, uma extensão no formato XML ou JSON)."
+msgstr "O formato do log. Observe que esse valor é ignorado caso haja uma extensão que assuma o controle da formatação do console (por exemplo, uma extensão no formato XML ou JSON)."
 
 #. mt: deepl
 #, fuzzy
@@ -3939,7 +3939,7 @@ msgstr " link:#quarkus-core_quarkus-log-file-rotation-enabled[quarkus.log.file.r
 msgid ""
 "[[quarkus-core_quarkus-log-file-rotation-enabled]] [.property-path]##link:#quarkus-core_quarkus-log-file-rotation-enabled[`+++quarkus.log.file.rotation.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.log.file.rotation.enabled+++[]"
-msgstr " link:#quarkus-core_quarkus-log-file-rotation-enabled[quarkus.log.file.rotation.enabled] botão_de_cópia_da_propriedade_de_configuração:quarkus.log.file.rotation.enabled[]"
+msgstr " link:#quarkus-core_quarkus-log-file-rotation-enabled[quarkus.log.file.rotation.enabled] config_property_copy_button:quarkus.log.file.rotation.enabled[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4064,7 +4064,7 @@ msgstr " link:#quarkus-core_quarkus-log-file-rotation-file-suffix[quarkus.log.fi
 #. mt: deepl
 #, fuzzy
 msgid "The file handler rotation file suffix. When used, the file will be rotated based on its suffix."
-msgstr "A extensão do arquivo para a rotação de arquivos pelo manipulador de arquivos. Quando utilizada, o arquivo será submetido à rotação com base em sua extensão."
+msgstr "A extensão do arquivo para a rotação do manipulador de arquivos. Quando utilizada, o arquivo será submetido à rotação com base em sua extensão."
 
 #. mt: deepl
 #, fuzzy
@@ -4109,7 +4109,7 @@ msgstr " link:#quarkus-core_quarkus-log-file-rotation-rotate-on-boot[quarkus.log
 msgid ""
 "[[quarkus-core_quarkus-log-file-rotation-rotate-on-boot]] [.property-path]##link:#quarkus-core_quarkus-log-file-rotation-rotate-on-boot[`+++quarkus.log.file.rotation.rotate-on-boot+++`]##\n"
 "config_property_copy_button:+++quarkus.log.file.rotation.rotate-on-boot+++[]"
-msgstr " link:#quarkus-core_quarkus-log-file-rotation-rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot] botão_para_copiar_propriedade_de_configuração:quarkus.log.file.rotation.rotate-on-boot[]"
+msgstr " link:#quarkus-core_quarkus-log-file-rotation-rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot] config_property_copy_button:quarkus.log.file.rotation.rotate-on-boot[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4233,7 +4233,7 @@ msgstr " link:#quarkus-core_quarkus-log-syslog-app-name[quarkus.log.syslog.app-n
 #. mt: deepl
 #, fuzzy
 msgid "The app name used when formatting the message in RFC5424 format"
-msgstr "O nome do aplicativo utilizado ao formatar a mensagem no formato RFC 5424"
+msgstr "O nome do aplicativo utilizado na formatação da mensagem no formato RFC 5424"
 
 #. mt: deepl
 #, fuzzy
@@ -4261,7 +4261,7 @@ msgstr " link:#quarkus-core_quarkus-log-syslog-hostname[quarkus.log.syslog.hostn
 msgid ""
 "[[quarkus-core_quarkus-log-syslog-hostname]] [.property-path]##link:#quarkus-core_quarkus-log-syslog-hostname[`+++quarkus.log.syslog.hostname+++`]##\n"
 "config_property_copy_button:+++quarkus.log.syslog.hostname+++[]"
-msgstr " link:#quarkus-core_quarkus-log-syslog-hostname[quarkus.log.syslog.hostname] botão_para_copiar_propriedade_de_configuração:quarkus.log.syslog.hostname[]"
+msgstr " link:#quarkus-core_quarkus-log-syslog-hostname[quarkus.log.syslog.hostname] config_property_copy_button:quarkus.log.syslog.hostname[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4309,7 +4309,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_FACIL
 #. mt: deepl
 #, fuzzy
 msgid "`kernel`, `user-level`, `mail-system`, `system-daemons`, `security`, `syslogd`, `line-printer`, `network-news`, `uucp`, `clock-daemon`, `security2`, `ftp-daemon`, `ntp`, `log-audit`, `log-alert`, `clock-daemon2`, `local-use-0`, `local-use-1`, `local-use-2`, `local-use-3`, `local-use-4`, `local-use-5`, `local-use-6`, `local-use-7`"
-msgstr "`kernel` , `nível do usuário` , `sistema de e-mail` , `daemons do sistema` , `segurança` , `syslogd` , `impressora de linha` , `notícias de rede` , `uucp` , `daemon do relógio` , `segurança2` , `daemon ftp` , `ntp` , `log de auditoria` , `log de alerta` , `daemon de relógio 2` , `uso local 0` , `uso local 1` , `uso local 2` , `uso local 3` , `uso local 4` , `uso local 5` , `uso local 6` , `uso local 7`"
+msgstr "`kernel` , `nível do usuário` , `sistema de e-mail` , `daemons do sistema` , `segurança` , `syslogd` , `impressora de linha` , `notícias de rede` , `uucp` , `daemon do relógio` , `segurança2` , `daemon ftp` , `ntp` , `log de auditoria` , `log de alerta` , `daemon de relógio2` , `uso local-0` , `uso local-1` , `uso local-2` , `uso local-3` , `uso local-4` , `uso local-5` , `uso local-6` , `uso local-7`"
 
 #. mt: deepl
 #, fuzzy
@@ -4428,7 +4428,7 @@ msgstr " link:#quarkus-core_quarkus-log-syslog-use-counting-framing[quarkus.log.
 #. mt: deepl
 #, fuzzy
 msgid "If enabled, the message being sent is prefixed with the size of the message"
-msgstr "Se ativada, a mensagem que está sendo enviada terá, no início, o tamanho da mensagem"
+msgstr "Se ativado, o tamanho da mensagem será indicado no início da mensagem a ser enviada"
 
 #. mt: deepl
 #, fuzzy
@@ -4669,7 +4669,7 @@ msgstr " link:#quarkus-core_quarkus-log-syslog-async-enabled[quarkus.log.syslog.
 msgid ""
 "[[quarkus-core_quarkus-log-syslog-async-enabled]] [.property-path]##link:#quarkus-core_quarkus-log-syslog-async-enabled[`+++quarkus.log.syslog.async.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.log.syslog.async.enabled+++[]"
-msgstr " link:#quarkus-core_quarkus-log-syslog-async-enabled[quarkus.log.syslog.async.enabled] config_property_copy_button:quarkus.log.syslog.async.enabled[]"
+msgstr " link:#quarkus-core_quarkus-log-syslog-async-enabled[quarkus.log.syslog.async.enabled] botão_para_copiar_propriedade_de_configuração:quarkus.log.syslog.async.enabled[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4735,7 +4735,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_ASYNC
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-core_section_quarkus-log-socket]] [.section-name.section-level0]##link:#quarkus-core_section_quarkus-log-socket[Socket logging]##"
-msgstr " link:#quarkus-core_section_quarkus-log-socket[Registro de logs de soquete]"
+msgstr " link:#quarkus-core_section_quarkus-log-socket[Registro de atividades do soquete]"
 
 #. mt: deepl
 #, fuzzy
@@ -4791,7 +4791,7 @@ msgstr " link:#quarkus-core_quarkus-log-socket-endpoint[quarkus.log.socket.endpo
 msgid ""
 "[[quarkus-core_quarkus-log-socket-endpoint]] [.property-path]##link:#quarkus-core_quarkus-log-socket-endpoint[`+++quarkus.log.socket.endpoint+++`]##\n"
 "config_property_copy_button:+++quarkus.log.socket.endpoint+++[]"
-msgstr " link:#quarkus-core_quarkus-log-socket-endpoint[quarkus.log.socket.endpoint] config_property_copy_button:quarkus.log.socket.endpoint[]"
+msgstr " link:#quarkus-core_quarkus-log-socket-endpoint[quarkus.log.socket.endpoint] botão_para_copiar_propriedade_de_configuração:quarkus.log.socket.endpoint[]"
 
 #. mt: deepl
 #, fuzzy
@@ -5899,7 +5899,7 @@ msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-protocol[
 msgid ""
 "[[quarkus-core_quarkus-log-handler-syslog-syslog-handlers-protocol]] [.property-path]##link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-protocol[`+++quarkus.log.handler.syslog.\"syslog-handlers\".protocol+++`]##\n"
 "config_property_copy_button:+++quarkus.log.handler.syslog.\"syslog-handlers\".protocol+++[]"
-msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-protocol[quarkus.log.handler.syslog.\"syslog-handlers\".protocol] config_property_copy_button:quarkus.log.handler.syslog.\"syslog-handlers\".protocol[]"
+msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-protocol[quarkus.log.handler.syslog.\"syslog-handlers\".protocol] botão_copiar_propriedade_de_configuração:quarkus.log.handler.syslog.\"syslog-handlers\".protocol[]"
 
 #. mt: deepl
 #, fuzzy
@@ -5927,7 +5927,7 @@ msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-use-count
 msgid ""
 "[[quarkus-core_quarkus-log-handler-syslog-syslog-handlers-use-counting-framing]] [.property-path]##link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-use-counting-framing[`+++quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing+++`]##\n"
 "config_property_copy_button:+++quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing+++[]"
-msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-use-counting-framing[quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing] config_property_copy_button:quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing[]"
+msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-use-counting-framing[quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing] botão_para_copiar_propriedade_de_configuração:quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6098,7 +6098,7 @@ msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-max-lengt
 msgid ""
 "[[quarkus-core_quarkus-log-handler-syslog-syslog-handlers-max-length]] [.property-path]##link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-max-length[`+++quarkus.log.handler.syslog.\"syslog-handlers\".max-length+++`]##\n"
 "config_property_copy_button:+++quarkus.log.handler.syslog.\"syslog-handlers\".max-length+++[]"
-msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-max-length[quarkus.log.handler.syslog.\"syslog-handlers\".max-length] botão_para_copiar_propriedade_de_configuração:quarkus.log.handler.syslog.\"syslog-handlers\".max-length[]"
+msgstr " link:#quarkus-core_quarkus-log-handler-syslog-syslog-handlers-max-length[quarkus.log.handler.syslog.\"syslog-handlers\".max-length] botão de cópia de propriedade de configuração:quarkus.log.handler.syslog.\"syslog-handlers\".max-length[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6506,7 +6506,7 @@ msgstr " link:#quarkus-core_quarkus-log-filter-filters-if-starts-with[quarkus.lo
 #. mt: deepl
 #, fuzzy
 msgid "The message prefix to match"
-msgstr "O prefixo da mensagem a ser correspondido"
+msgstr "O prefixo da mensagem a ser comparado"
 
 #. mt: deepl
 #, fuzzy
@@ -6554,9 +6554,9 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."

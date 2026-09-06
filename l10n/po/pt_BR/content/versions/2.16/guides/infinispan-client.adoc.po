@@ -1089,7 +1089,7 @@ msgstr "`link:#quarkus-infinispan-client_quarkus.infinispan-client.use-auth[quar
 #. mt: deepl
 #, fuzzy
 msgid "Enables or disables authentication. Set it to false when connecting to an Infinispan Server without authentication. deployments. Default is 'true'."
-msgstr "Ativa ou desativa a autenticação. Defina-a como “false” ao se conectar a um servidor Infinispan sem autenticação. implantações. O valor padrão é “true”."
+msgstr "Ativa ou desativa a autenticação. Defina-a como “false” ao se conectar a um servidor Infinispan sem autenticação. Implantações. O valor padrão é “true”."
 
 #. mt: deepl
 #, fuzzy
@@ -1173,7 +1173,7 @@ msgstr "`link:#quarkus-infinispan-client_quarkus.infinispan-client.auth-realm[qu
 #. mt: deepl
 #, fuzzy
 msgid "Sets realm used by authentication"
-msgstr "Define o reino utilizado na autenticação"
+msgstr "Define o reino utilizado pela autenticação"
 
 #. mt: deepl
 #, fuzzy
@@ -1350,7 +1350,7 @@ msgstr "`link:#quarkus-infinispan-client_quarkus.infinispan-client.trust-store-p
 #. mt: deepl
 #, fuzzy
 msgid "Specifies the password needed to open the truststore You also need to specify a trustStore. Setting this property implicitly enables SSL/TLS."
-msgstr "Especifica a senha necessária para abrir o truststore. Você também precisa especificar um trustStore. A configuração dessa propriedade habilita implicitamente o SSL/TLS."
+msgstr "Especifica a senha necessária para abrir o truststore. Você também precisa especificar um trustStore. A definição dessa propriedade habilita implicitamente o SSL/TLS."
 
 #. mt: deepl
 #, fuzzy
@@ -1490,7 +1490,7 @@ msgstr "`link:#quarkus-infinispan-client_quarkus.infinispan-client.cache.-cache-
 #. mt: deepl
 #, fuzzy
 msgid "Cache configuration in inlined XML to create the cache on first access. Will be ignored if the configuration-uri is provided for the same cache name. An example of the user defined property: quarkus.infinispan-client.cache.bookscache.configuration="
-msgstr "Configuração do cache em XML embutido para criar o cache no primeiro acesso. Será ignorada caso seja fornecido um `configuration-uri` para o mesmo nome de cache. Um exemplo da propriedade definida pelo usuário: quarkus.infinispan-client.cache.bookscache.configuration="
+msgstr "Configuração do cache em XML incorporado para criar o cache no primeiro acesso. Será ignorada se for fornecido um `configuration-uri` para o mesmo nome de cache. Um exemplo da propriedade definida pelo usuário: quarkus.infinispan-client.cache.bookscache.configuration="
 
 #. mt: deepl
 #, fuzzy
@@ -1607,7 +1607,7 @@ msgstr "`link:#quarkus-infinispan-client_quarkus.infinispan-client.cache.-cache-
 #. mt: deepl
 #, fuzzy
 msgid "Enables bloom filter for near caching. Bloom filters optimize performance for write operations by reducing the total number of invalidation messages."
-msgstr "Ativa o filtro Bloom para armazenamento em cache de dados próximos. Os filtros Bloom otimizam o desempenho das operações de gravação, reduzindo o número total de mensagens de invalidação."
+msgstr "Ativa o filtro Bloom para o armazenamento em cache de dados próximos. Os filtros Bloom otimizam o desempenho das operações de gravação, reduzindo o número total de mensagens de invalidação."
 
 #. mt: deepl
 #, fuzzy

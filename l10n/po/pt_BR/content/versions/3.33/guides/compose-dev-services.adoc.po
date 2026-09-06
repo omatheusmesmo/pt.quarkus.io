@@ -1108,7 +1108,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-compose-devservices_quarkus-compose-d
 #. mt: deepl
 #, fuzzy
 msgid "Whether to remove volumes on compose down"
-msgstr "Se os volumes devem ser removidos na compilação"
+msgstr "Se os volumes devem ser removidos ao concluir a composição"
 
 #. mt: deepl
 #, fuzzy
@@ -1143,7 +1143,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-compose-devservices_quarkus-compose-d
 #. mt: deepl
 #, fuzzy
 msgid "Which images to remove on compose down"
-msgstr "Quais imagens devem ser removidas ao clicar no botão “Compor”"
+msgstr "Quais imagens devem ser removidas ao redigir o texto"
 
 #. mt: deepl
 #, fuzzy
@@ -1302,7 +1302,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-compose-devservices_quarkus-compose-d
 #. mt: deepl
 #, fuzzy
 msgid "Whether to build images before starting containers."
-msgstr "Se deve ou não criar imagens antes de iniciar os contêineres."
+msgstr "Se as imagens devem ser criadas antes de iniciar os contêineres."
 
 #. mt: deepl
 #, fuzzy
@@ -1393,7 +1393,7 @@ msgstr "`1S`"
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy

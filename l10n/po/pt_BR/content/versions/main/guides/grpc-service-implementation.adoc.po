@@ -156,8 +156,9 @@ msgstr "Configuração do Servidor"
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -179,19 +180,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-max-inbound-message-size]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-max-inbound-message-size[`+++quarkus.grpc.server.max-inbound-message-size+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.server.max-inbound-message-size+++[]"
-msgstr ""
+msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-max-inbound-message-size[quarkus.grpc.server.max-inbound-message-size] config_property_copy_button:quarkus.grpc.server.max-inbound-message-size[]"
 
+#, fuzzy
 msgid "The max inbound message size in bytes."
-msgstr ""
+msgstr "O tamanho máximo das mensagens recebidas em bytes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_MAX_INBOUND_MESSAGE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_MAX_INBOUND_MESSAGE_SIZE[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "int"
 msgstr "int"
@@ -210,22 +215,26 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-enable-reflection-service]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-enable-reflection-service[`+++quarkus.grpc.server.enable-reflection-service+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.server.enable-reflection-service+++[]"
-msgstr ""
+msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-enable-reflection-service[quarkus.grpc.server.enable-reflection-service] config_property_copy_button:quarkus.grpc.server.enable-reflection-service[]"
 
+#, fuzzy
 msgid "Enables the gRPC Reflection Service. By default, the reflection service is only exposed in `dev` mode. This setting allows overriding this choice and enable the reflection service every time."
-msgstr ""
+msgstr "Ativa o Serviço de Reflexão do gRPC. Por padrão, o serviço de reflexão é exposto apenas no modo `de desenvolvimento` . Essa configuração permite substituir essa opção e ativar o serviço de reflexão em todas as ocasiões."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_ENABLE_REFLECTION_SERVICE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_ENABLE_REFLECTION_SERVICE[]"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "`+++false+++`"
-msgstr ""
+msgstr "`falso`"
 
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-compression]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-compression[`+++quarkus.grpc.server.compression+++`]##\n"
@@ -241,16 +250,19 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-compression]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-compression[`+++quarkus.grpc.server.compression+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.server.compression+++[]"
-msgstr ""
+msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-compression[quarkus.grpc.server.compression] config_property_copy_button:quarkus.grpc.server.compression[]"
 
+#, fuzzy
 msgid "gRPC compression, e.g. \"gzip\""
-msgstr ""
+msgstr "Compressão gRPC, por exemplo, “gzip”"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_SERVER_COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_COMPRESSION[]"
 
 msgid "string"
 msgstr "string"

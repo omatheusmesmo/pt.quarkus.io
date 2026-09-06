@@ -140,8 +140,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_configuration]]link:#quarkus-liquibase_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-liquibase_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -149,6 +150,7 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-liquibase_quarkus.liquibase.change-log]]`link:#quarkus-liquibase_quarkus.liquibase.change-log[quarkus.liquibase.change-log]`\n"
 "\n"
@@ -158,26 +160,32 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CHANGE_LOG+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-liquibase_quarkus.liquibase.change-log[quarkus.liquibase.change-log]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-liquibase_quarkus.liquibase.change-log]]`link:#quarkus-liquibase_quarkus.liquibase.change-log[quarkus.liquibase.change-log]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-liquibase_quarkus.liquibase.change-log[quarkus.liquibase.change-log]`"
 
+#, fuzzy
 msgid "The liquibase change log file. All included change log files in this file are scanned and add to the projects."
-msgstr ""
+msgstr "O arquivo de registro de alterações do Liquibase. Todos os arquivos de registro de alterações incluídos neste arquivo são analisados e adicionados aos projetos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CHANGE_LOG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_CHANGE_LOG[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`db/changeLog.xml`"
-msgstr ""
+msgstr "`db/changeLog.xml`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.migrate-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.migrate-at-start[quarkus.liquibase.migrate-at-start]`\n"
 "\n"
@@ -187,16 +195,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_MIGRATE_AT_START+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.migrate-at-start[quarkus.liquibase.migrate-at-start]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.migrate-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.migrate-at-start[quarkus.liquibase.migrate-at-start]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.migrate-at-start[quarkus.liquibase.migrate-at-start]`"
 
+#, fuzzy
 msgid "`true` to execute Liquibase automatically when the application starts, `false` otherwise."
-msgstr ""
+msgstr "`true` para executar o Liquibase automaticamente ao iniciar o aplicativo; `false` , caso contrário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_MIGRATE_AT_START+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_MIGRATE_AT_START[]"
 
 msgid "boolean"
 msgstr "booleano"
@@ -205,6 +216,7 @@ msgstr "booleano"
 msgid "`false`"
 msgstr "`false`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.validate-on-migrate]]`link:#quarkus-liquibase_quarkus.liquibase.validate-on-migrate[quarkus.liquibase.validate-on-migrate]`\n"
 "\n"
@@ -214,20 +226,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_VALIDATE_ON_MIGRATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.validate-on-migrate[quarkus.liquibase.validate-on-migrate]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.validate-on-migrate]]`link:#quarkus-liquibase_quarkus.liquibase.validate-on-migrate[quarkus.liquibase.validate-on-migrate]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.validate-on-migrate[quarkus.liquibase.validate-on-migrate]`"
 
+#, fuzzy
 msgid "`true` to validate the applied changes against the available ones, `false` otherwise. It is only used if `migration-at-start` is `true`"
-msgstr ""
+msgstr "`true` para validar as alterações aplicadas em relação às disponíveis; `false` , caso contrário. É utilizado apenas se `migration-at-start` for `true`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_VALIDATE_ON_MIGRATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_VALIDATE_ON_MIGRATE[]"
 
 msgid "`true`"
 msgstr "`true`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.clean-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.clean-at-start[quarkus.liquibase.clean-at-start]`\n"
 "\n"
@@ -237,17 +253,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CLEAN_AT_START+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.clean-at-start[quarkus.liquibase.clean-at-start]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.clean-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.clean-at-start[quarkus.liquibase.clean-at-start]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.clean-at-start[quarkus.liquibase.clean-at-start]`"
 
+#, fuzzy
 msgid "`true` to execute Liquibase clean command automatically when the application starts, `false` otherwise."
-msgstr ""
+msgstr "`true` para executar o comando “clean” do Liquibase automaticamente ao iniciar o aplicativo; `false` , caso contrário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CLEAN_AT_START+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_CLEAN_AT_START[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.contexts]]`link:#quarkus-liquibase_quarkus.liquibase.contexts[quarkus.liquibase.contexts]`\n"
 "\n"
@@ -257,21 +277,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CONTEXTS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.contexts[quarkus.liquibase.contexts]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.contexts]]`link:#quarkus-liquibase_quarkus.liquibase.contexts[quarkus.liquibase.contexts]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.contexts[quarkus.liquibase.contexts]`"
 
+#, fuzzy
 msgid "Comma-separated case-sensitive list of ChangeSet contexts to execute for liquibase."
-msgstr ""
+msgstr "Lista separada por vírgulas, com distinção entre maiúsculas e minúsculas, dos contextos do ChangeSet a serem executados pelo Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CONTEXTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_CONTEXTS[]"
 
 #, fuzzy
 msgid "list of string"
 msgstr "lista de strings"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.labels]]`link:#quarkus-liquibase_quarkus.liquibase.labels[quarkus.liquibase.labels]`\n"
 "\n"
@@ -281,17 +305,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LABELS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.labels[quarkus.liquibase.labels]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.labels]]`link:#quarkus-liquibase_quarkus.liquibase.labels[quarkus.liquibase.labels]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.labels[quarkus.liquibase.labels]`"
 
+#, fuzzy
 msgid "Comma-separated case-sensitive list of expressions defining labeled ChangeSet to execute for liquibase."
-msgstr ""
+msgstr "Lista de expressões separadas por vírgulas, com distinção entre maiúsculas e minúsculas, que definem o ChangeSet rotulado a ser executado pelo Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LABELS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_LABELS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.database-change-log-lock-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-lock-table-name[quarkus.liquibase.database-change-log-lock-table-name]`\n"
 "\n"
@@ -301,20 +329,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DATABASE_CHANGE_LOG_LOCK_TABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-lock-table-name[quarkus.liquibase.database-change-log-lock-table-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.database-change-log-lock-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-lock-table-name[quarkus.liquibase.database-change-log-lock-table-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-lock-table-name[quarkus.liquibase.database-change-log-lock-table-name]`"
 
+#, fuzzy
 msgid "The liquibase change log lock table name. Name of table to use for tracking concurrent Liquibase usage."
-msgstr ""
+msgstr "O nome da tabela de bloqueio do log de alterações do Liquibase. Nome da tabela a ser utilizada para monitorar o uso simultâneo do Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DATABASE_CHANGE_LOG_LOCK_TABLE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_DATABASE_CHANGE_LOG_LOCK_TABLE_NAME[]"
 
+#, fuzzy
 msgid "`DATABASECHANGELOGLOCK`"
-msgstr ""
+msgstr "`BLOQUEIO DO REGISTRO DE ALTERAÇÕES DO BANCO DE DADOS`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.database-change-log-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-table-name[quarkus.liquibase.database-change-log-table-name]`\n"
 "\n"
@@ -324,20 +357,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DATABASE_CHANGE_LOG_TABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-table-name[quarkus.liquibase.nome-da-tabela-do-registro-de-alterações-no-banco-de-dados]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.database-change-log-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-table-name[quarkus.liquibase.database-change-log-table-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.database-change-log-table-name[quarkus.liquibase.nome-da-tabela-do-registro-de-alterações-no-banco-de-dados]`"
 
+#, fuzzy
 msgid "The liquibase change log table name. Name of table to use for tracking change history."
-msgstr ""
+msgstr "O nome da tabela de registro de alterações do Liquibase. Nome da tabela a ser utilizada para acompanhar o histórico de alterações."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DATABASE_CHANGE_LOG_TABLE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_DATABASE_CHANGE_LOG_TABLE_NAME[]"
 
+#, fuzzy
 msgid "`DATABASECHANGELOG`"
-msgstr ""
+msgstr "`REGISTRO DE ALTERAÇÕES DO BANCO DE DADOS`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.default-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.default-catalog-name[quarkus.liquibase.default-catalog-name]`\n"
 "\n"
@@ -347,17 +385,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DEFAULT_CATALOG_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.default-catalog-name[quarkus.liquibase.nome-padrão-do-catálogo]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.default-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.default-catalog-name[quarkus.liquibase.default-catalog-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.default-catalog-name[quarkus.liquibase.nome-padrão-do-catálogo]`"
 
+#, fuzzy
 msgid "The name of Liquibase's default catalog."
-msgstr ""
+msgstr "O nome do catálogo padrão do Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DEFAULT_CATALOG_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_DEFAULT_CATALOG_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.default-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.default-schema-name[quarkus.liquibase.default-schema-name]`\n"
 "\n"
@@ -367,17 +409,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DEFAULT_SCHEMA_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.default-schema-name[quarkus.liquibase.nome-padrão-do-esquema]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.default-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.default-schema-name[quarkus.liquibase.default-schema-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.default-schema-name[quarkus.liquibase.nome-padrão-do-esquema]`"
 
+#, fuzzy
 msgid "The name of Liquibase's default schema. Overwrites the default schema name (returned by the RDBMS) with a different database schema."
-msgstr ""
+msgstr "O nome do esquema padrão do Liquibase. Substitui o nome do esquema padrão (retornado pelo RDBMS) por um esquema de banco de dados diferente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_DEFAULT_SCHEMA_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_DEFAULT_SCHEMA_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.liquibase-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.liquibase-catalog-name[quarkus.liquibase.liquibase-catalog-name]`\n"
 "\n"
@@ -387,17 +433,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LIQUIBASE_CATALOG_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.liquibase-catalog-name[quarkus.liquibase.liquibase-catalog-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.liquibase-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.liquibase-catalog-name[quarkus.liquibase.liquibase-catalog-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.liquibase-catalog-name[quarkus.liquibase.liquibase-catalog-name]`"
 
+#, fuzzy
 msgid "The name of the catalog with the liquibase tables."
-msgstr ""
+msgstr "O nome do catálogo que contém as tabelas do Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LIQUIBASE_CATALOG_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_LIQUIBASE_CATALOG_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.liquibase-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.liquibase-schema-name[quarkus.liquibase.liquibase-schema-name]`\n"
 "\n"
@@ -407,17 +457,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LIQUIBASE_SCHEMA_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.liquibase-schema-name[quarkus.liquibase.liquibase-schema-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.liquibase-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.liquibase-schema-name[quarkus.liquibase.liquibase-schema-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.liquibase-schema-name[quarkus.liquibase.liquibase-schema-name]`"
 
+#, fuzzy
 msgid "The name of the schema with the liquibase tables."
-msgstr ""
+msgstr "O nome do esquema que contém as tabelas do Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LIQUIBASE_SCHEMA_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_LIQUIBASE_SCHEMA_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.liquibase-tablespace-name]]`link:#quarkus-liquibase_quarkus.liquibase.liquibase-tablespace-name[quarkus.liquibase.liquibase-tablespace-name]`\n"
 "\n"
@@ -427,17 +481,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LIQUIBASE_TABLESPACE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.liquibase-tablespace-name[quarkus.liquibase.liquibase-tablespace-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.liquibase-tablespace-name]]`link:#quarkus-liquibase_quarkus.liquibase.liquibase-tablespace-name[quarkus.liquibase.liquibase-tablespace-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.liquibase-tablespace-name[quarkus.liquibase.liquibase-tablespace-name]`"
 
+#, fuzzy
 msgid "The name of the tablespace where the -LOG and -LOCK tables will be created (if they do not exist yet)."
-msgstr ""
+msgstr "O nome do espaço de tabela onde as tabelas -LOG e -LOCK serão criadas (caso ainda não existam)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_LIQUIBASE_TABLESPACE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_LIQUIBASE_TABLESPACE_NAME[]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log[quarkus.liquibase.\"named-data-sources\".change-log]`\n"
 "\n"
@@ -447,14 +505,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CHANGE_LOG+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log[quarkus.liquibase.\"named-data-sources\".change-log]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log[quarkus.liquibase.\"named-data-sources\".change-log]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log[quarkus.liquibase.\"named-data-sources\".change-log]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CHANGE_LOG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CHANGE_LOG[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.change-log-parameters-change-log-parameters]]`link:#quarkus-liquibase_quarkus.liquibase.change-log-parameters-change-log-parameters[quarkus.liquibase.change-log-parameters]`\n"
 "\n"
@@ -464,20 +525,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CHANGE_LOG_PARAMETERS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.change-log-parameters-change-log-parameters[quarkus.liquibase.parâmetros-do-registro-de-alterações]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.change-log-parameters-change-log-parameters]]`link:#quarkus-liquibase_quarkus.liquibase.change-log-parameters-change-log-parameters[quarkus.liquibase.change-log-parameters]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.change-log-parameters-change-log-parameters[quarkus.liquibase.parâmetros-do-registro-de-alterações]`"
 
+#, fuzzy
 msgid "Map of parameters that can be used inside Liquibase changeLog files."
-msgstr ""
+msgstr "Mapa dos parâmetros que podem ser utilizados nos arquivos changeLog do Liquibase."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE_CHANGE_LOG_PARAMETERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE_CHANGE_LOG_PARAMETERS[]"
 
+#, fuzzy
 msgid "`Map<String,String>`"
-msgstr ""
+msgstr "`Map<String, String>`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.migrate-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.migrate-at-start[quarkus.liquibase.\"named-data-sources\".migrate-at-start]`\n"
 "\n"
@@ -487,14 +553,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__MIGRATE_AT_START+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.migrate-at-start[quarkus.liquibase.\"named-data-sources\".migrate-at-start]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.migrate-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.migrate-at-start[quarkus.liquibase.\"named-data-sources\".migrate-at-start]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.migrate-at-start[quarkus.liquibase.\"named-data-sources\".migrate-at-start]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__MIGRATE_AT_START+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__MIGRATE_AT_START[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.validate-on-migrate]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.validate-on-migrate[quarkus.liquibase.\"named-data-sources\".validate-on-migrate]`\n"
 "\n"
@@ -504,14 +573,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__VALIDATE_ON_MIGRATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.validate-on-migrate[quarkus.liquibase.\"named-data-sources\".validate-on-migrate]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.validate-on-migrate]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.validate-on-migrate[quarkus.liquibase.\"named-data-sources\".validate-on-migrate]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.validate-on-migrate[quarkus.liquibase.\"named-data-sources\".validate-on-migrate]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__VALIDATE_ON_MIGRATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__VALIDATE_ON_MIGRATE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.clean-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.clean-at-start[quarkus.liquibase.\"named-data-sources\".clean-at-start]`\n"
 "\n"
@@ -521,14 +593,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CLEAN_AT_START+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.clean-at-start[quarkus.liquibase.\"named-data-sources\".clean-at-start]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.clean-at-start]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.clean-at-start[quarkus.liquibase.\"named-data-sources\".clean-at-start]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.clean-at-start[quarkus.liquibase.\"named-data-sources\".clean-at-start]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CLEAN_AT_START+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CLEAN_AT_START[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.contexts]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.contexts[quarkus.liquibase.\"named-data-sources\".contexts]`\n"
 "\n"
@@ -538,14 +613,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CONTEXTS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.contexts[quarkus.liquibase.\"named-data-sources\".contexts]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.contexts]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.contexts[quarkus.liquibase.\"named-data-sources\".contexts]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.contexts[quarkus.liquibase.\"named-data-sources\".contexts]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CONTEXTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CONTEXTS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.labels]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.labels[quarkus.liquibase.\"named-data-sources\".labels]`\n"
 "\n"
@@ -555,14 +633,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LABELS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.labels[quarkus.liquibase.\"named-data-sources\".labels]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.labels]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.labels[quarkus.liquibase.\"named-data-sources\".labels]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.labels[quarkus.liquibase.\"named-data-sources\".labels]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LABELS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LABELS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log-parameters-change-log-parameters]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log-parameters-change-log-parameters[quarkus.liquibase.\"named-data-sources\".change-log-parameters]`\n"
 "\n"
@@ -572,14 +653,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CHANGE_LOG_PARAMETERS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log-parameters-change-log-parameters[quarkus.liquibase.\"named-data-sources\".change-log-parameters]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log-parameters-change-log-parameters]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log-parameters-change-log-parameters[quarkus.liquibase.\"named-data-sources\".change-log-parameters]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.change-log-parameters-change-log-parameters[quarkus.liquibase.\"named-data-sources\".change-log-parameters]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CHANGE_LOG_PARAMETERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__CHANGE_LOG_PARAMETERS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-lock-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-lock-table-name[quarkus.liquibase.\"named-data-sources\".database-change-log-lock-table-name]`\n"
 "\n"
@@ -589,14 +673,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DATABASE_CHANGE_LOG_LOCK_TABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-lock-table-name[quarkus.liquibase.\"named-data-sources\".nome-da-tabela-de-bloqueio-do-registro-de-alterações-no-banco-de-dados]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-lock-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-lock-table-name[quarkus.liquibase.\"named-data-sources\".database-change-log-lock-table-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-lock-table-name[quarkus.liquibase.\"named-data-sources\".nome-da-tabela-de-bloqueio-do-registro-de-alterações-no-banco-de-dados]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DATABASE_CHANGE_LOG_LOCK_TABLE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DATABASE_CHANGE_LOG_LOCK_TABLE_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-table-name[quarkus.liquibase.\"named-data-sources\".database-change-log-table-name]`\n"
 "\n"
@@ -606,14 +693,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DATABASE_CHANGE_LOG_TABLE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-table-name[quarkus.liquibase.\"named-data-sources\".nome-da-tabela-do-registro-de-alterações-no-banco-de-dados]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-table-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-table-name[quarkus.liquibase.\"named-data-sources\".database-change-log-table-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.database-change-log-table-name[quarkus.liquibase.\"named-data-sources\".nome-da-tabela-do-registro-de-alterações-no-banco-de-dados]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DATABASE_CHANGE_LOG_TABLE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DATABASE_CHANGE_LOG_TABLE_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-catalog-name[quarkus.liquibase.\"named-data-sources\".default-catalog-name]`\n"
 "\n"
@@ -623,14 +713,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DEFAULT_CATALOG_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-catalog-name[quarkus.liquibase.\"named-data-sources\".default-catalog-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-catalog-name[quarkus.liquibase.\"named-data-sources\".default-catalog-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-catalog-name[quarkus.liquibase.\"named-data-sources\".default-catalog-name]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DEFAULT_CATALOG_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DEFAULT_CATALOG_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-schema-name[quarkus.liquibase.\"named-data-sources\".default-schema-name]`\n"
 "\n"
@@ -640,14 +733,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DEFAULT_SCHEMA_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-schema-name[quarkus.liquibase.\"named-data-sources\".default-schema-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-schema-name[quarkus.liquibase.\"named-data-sources\".default-schema-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.default-schema-name[quarkus.liquibase.\"named-data-sources\".default-schema-name]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DEFAULT_SCHEMA_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__DEFAULT_SCHEMA_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-catalog-name[quarkus.liquibase.\"named-data-sources\".liquibase-catalog-name]`\n"
 "\n"
@@ -657,14 +753,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_CATALOG_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-catalog-name[quarkus.liquibase.\"named-data-sources\".liquibase-catalog-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-catalog-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-catalog-name[quarkus.liquibase.\"named-data-sources\".liquibase-catalog-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-catalog-name[quarkus.liquibase.\"named-data-sources\".liquibase-catalog-name]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_CATALOG_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_CATALOG_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-schema-name[quarkus.liquibase.\"named-data-sources\".liquibase-schema-name]`\n"
 "\n"
@@ -674,14 +773,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_SCHEMA_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-schema-name[quarkus.liquibase.\"named-data-sources\".liquibase-schema-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-schema-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-schema-name[quarkus.liquibase.\"named-data-sources\".liquibase-schema-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-schema-name[quarkus.liquibase.\"named-data-sources\".liquibase-schema-name]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_SCHEMA_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_SCHEMA_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-tablespace-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-tablespace-name[quarkus.liquibase.\"named-data-sources\".liquibase-tablespace-name]`\n"
 "\n"
@@ -691,10 +793,12 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_TABLESPACE_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-tablespace-name[quarkus.liquibase.\"named-data-sources\".liquibase-tablespace-name]`"
 
+#, fuzzy
 msgid "[[quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-tablespace-name]]`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-tablespace-name[quarkus.liquibase.\"named-data-sources\".liquibase-tablespace-name]`"
-msgstr ""
+msgstr "`link:#quarkus-liquibase_quarkus.liquibase.-named-data-sources-.liquibase-tablespace-name[quarkus.liquibase.\"named-data-sources\".liquibase-tablespace-name]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_TABLESPACE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIQUIBASE__NAMED_DATA_SOURCES__LIQUIBASE_TABLESPACE_NAME[]"

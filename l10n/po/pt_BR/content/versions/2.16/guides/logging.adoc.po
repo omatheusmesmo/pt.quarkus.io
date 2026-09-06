@@ -741,7 +741,7 @@ msgstr "`link:#quarkus-logging-json_quarkus.log.console.json[quarkus.log.console
 #. mt: deepl
 #, fuzzy
 msgid "Determine whether to enable the JSON console formatting extension, which disables \"normal\" console formatting."
-msgstr "Determine se deseja ativar a extensão de formatação do console JSON, que desativa a formatação “normal” do console."
+msgstr "Determine se deseja ativar a extensão de formatação do console em JSON, o que desativa a formatação “normal” do console."
 
 #. mt: deepl
 #, fuzzy
@@ -2416,7 +2416,7 @@ msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.app-name[quarku
 #. mt: deepl
 #, fuzzy
 msgid "The app name used when formatting the message in RFC5424 format"
-msgstr "O nome do aplicativo utilizado ao formatar a mensagem no formato RFC 5424"
+msgstr "O nome do aplicativo utilizado na formatação da mensagem no formato RFC 5424"
 
 #. mt: deepl
 #, fuzzy
@@ -2482,7 +2482,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_FACIL
 #. mt: deepl
 #, fuzzy
 msgid "`kernel`, `user-level`, `mail-system`, `system-daemons`, `security`, `syslogd`, `line-printer`, `network-news`, `uucp`, `clock-daemon`, `security2`, `ftp-daemon`, `ntp`, `log-audit`, `log-alert`, `clock-daemon2`, `local-use-0`, `local-use-1`, `local-use-2`, `local-use-3`, `local-use-4`, `local-use-5`, `local-use-6`, `local-use-7`"
-msgstr "`kernel` , `nível do usuário` , `sistema de e-mail` , `daemons do sistema` , `segurança` , `syslogd` , `impressora de linha` , `notícias de rede` , `uucp` , `daemon do relógio` , `segurança2` , `daemon ftp` , `ntp` , `log de auditoria` , `log de alerta` , `daemon de relógio 2` , `uso local 0` , `uso local 1` , `uso local 2` , `uso local 3` , `uso local 4` , `uso local 5` , `uso local 6` , `uso local 7`"
+msgstr "`kernel` , `nível do usuário` , `sistema de e-mail` , `daemons do sistema` , `segurança` , `syslogd` , `impressora de linha` , `notícias de rede` , `uucp` , `daemon do relógio` , `segurança2` , `daemon ftp` , `ntp` , `log de auditoria` , `log de alerta` , `daemon de relógio2` , `uso local-0` , `uso local-1` , `uso local-2` , `uso local-3` , `uso local-4` , `uso local-5` , `uso local-6` , `uso local-7`"
 
 #. mt: deepl
 #, fuzzy
@@ -2836,7 +2836,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CATEGORY__CA
 #. mt: deepl
 #, fuzzy
 msgid "InheritableLevel"
-msgstr "Nível hereditário"
+msgstr "Nível Hereditário"
 
 #. mt: deepl
 #, fuzzy

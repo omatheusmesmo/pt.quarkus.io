@@ -246,7 +246,7 @@ msgstr "Os cabeçalhos HTTP permitidos para solicitações CORS."
 #. mt: deepl
 #, fuzzy
 msgid "A comma-separated list of valid headers, such as `X-Custom,Content-Disposition`. If not set, the filter allows any header by default."
-msgstr "Uma lista separada por vírgulas de cabeçalhos válidos, como `X-Custom,Content-Disposition` . Se não for definida, o filtro permite qualquer cabeçalho por padrão."
+msgstr "Uma lista separada por vírgulas de cabeçalhos válidos, como `X-Custom, Content-Disposition` . Se não for definida, o filtro permite qualquer cabeçalho por padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -407,7 +407,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java sobre Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

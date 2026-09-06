@@ -1416,7 +1416,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hiberna
 #. mt: deepl
 #, fuzzy
 msgid "Whether Hibernate Search is enabled **during the build**."
-msgstr "Se o Hibernate Search está ativado *durante a compilação* ."
+msgstr "Se o Hibernate Search está habilitado *durante a compilação* ."
 
 #. mt: deepl
 #, fuzzy
@@ -1424,7 +1424,7 @@ msgid ""
 "If Hibernate Search is disabled during the build, all processing related to Hibernate Search will be skipped,\n"
 "but it will not be possible to activate Hibernate Search at runtime:\n"
 "`quarkus.hibernate-search-orm.active` will default to `false` and setting it to `true` will lead to an error."
-msgstr "Se o Hibernate Search estiver desativado durante a compilação, todo o processamento relacionado ao Hibernate Search será ignorado, mas não será possível ativar o Hibernate Search em tempo de execução: o parâmetro ` `quarkus.hibernate-search-orm.active` ` terá o valor padrão ` `false`` , e defini-lo como ``true`` resultará em um erro."
+msgstr "Se o Hibernate Search estiver desativado durante a compilação, todo o processamento relacionado ao Hibernate Search será ignorado, mas não será possível ativá-lo em tempo de execução: o parâmetro ` `quarkus.hibernate-search-orm.active` ` terá o valor padrão ` `false`` , e defini-lo como ``true`` resultará em um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -1580,7 +1580,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coord
 msgid ""
 "The strategy to use for coordinating between threads or even separate instances of the application,\n"
 "in particular in automatic indexing."
-msgstr "A estratégia a ser utilizada para a coordenação entre threads ou mesmo entre instâncias distintas do aplicativo, especialmente na indexação automática."
+msgstr "A estratégia a ser utilizada para a coordenação entre threads ou mesmo entre instâncias distintas da aplicação, em particular na indexação automática."
 
 #. mt: deepl
 #, fuzzy
@@ -1676,7 +1676,7 @@ msgid ""
 "and leave the configuration property unset: Hibernate Search will use the annotated implementation automatically.\n"
 "See xref:hibernate-search-orm-elasticsearch.adoc#plugging-in-custom-components[this section]\n"
 "for more information."
-msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar suas implementações personalizadas `de `HibernateOrmSearchMappingConfigurer` ` com `a anotação @SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará a implementação anotada automaticamente. Consulte xref:hibernate-search-orm-elasticsearch.adoc#plugging-in-custom-components[esta seção] para obter mais informações."
+msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar suas implementações personalizadas `de `HibernateOrmSearchMappingConfigurer` ` com `a anotação @SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará automaticamente a implementação anotada. Consulte xref:hibernate-search-orm-elasticsearch.adoc#plugging-in-custom-components[esta seção] para obter mais informações."
 
 #. mt: deepl
 #, fuzzy
@@ -1730,7 +1730,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".activ
 #. mt: deepl
 #, fuzzy
 msgid "Whether Hibernate Search should be active for this persistence unit at runtime."
-msgstr "Se o Hibernate Search deve estar ativo para esta unidade de persistência durante a execução."
+msgstr "Se o Hibernate Search deve estar ativo para esta unidade de persistência em tempo de execução."
 
 #. mt: deepl
 #, fuzzy
@@ -1913,7 +1913,7 @@ msgid ""
 "For indexes that already exist, validate that their schema matches Hibernate Search's expectations.\n"
 "\n"
 "If it does not, throw an exception, but make no attempt to fix the problem."
-msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
 #. mt: deepl
 #, fuzzy
@@ -2072,7 +2072,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".query
 #. mt: deepl
 #, fuzzy
 msgid "The fetch size to use when loading entities during the execution of a search query."
-msgstr "O tamanho do bloco a ser utilizado ao carregar entidades durante a execução de uma consulta de busca."
+msgstr "O tamanho do lote a ser utilizado ao carregar entidades durante a execução de uma consulta de busca."
 
 #. mt: deepl
 #, fuzzy
@@ -2195,14 +2195,14 @@ msgid ""
 "How to synchronize between application threads and indexing,\n"
 "in particular when relying on (implicit) listener-triggered indexing on entity change,\n"
 "but also when using a `SearchIndexingPlan` explicitly."
-msgstr "Como sincronizar entre as threads do aplicativo e a indexação, especialmente quando se recorre à indexação (implícita) acionada por um ouvinte em caso de alteração na entidade, mas também quando se utiliza explicitamente um `SearchIndexingPlan` ."
+msgstr "Como sincronizar entre as threads do aplicativo e a indexação, especialmente quando se recorre à indexação (implícita) acionada por ouvinte em caso de alteração na entidade, mas também quando se utiliza explicitamente um `SearchIndexingPlan` ."
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "Defines how complete indexing should be before resuming the application thread\n"
 "after a database transaction is committed."
-msgstr "Define o grau de conclusão da indexação necessário para que a thread do aplicativo seja retomada após o commit de uma transação do banco de dados."
+msgstr "Define o grau de conclusão da indexação necessário para que a thread do aplicativo seja retomada após a confirmação de uma transação no banco de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -2235,7 +2235,7 @@ msgstr "Alterações aplicadas"
 #. mt: deepl
 #, fuzzy
 msgid "Changes safe from crash/power loss"
-msgstr "Alterações protegidas contra falhas do sistema ou queda de energia"
+msgstr "Alterações protegidas contra falhas de sistema ou queda de energia"
 
 #. mt: deepl
 #, fuzzy
@@ -2365,7 +2365,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".multi
 #. mt: deepl
 #, fuzzy
 msgid "An exhaustive list of all tenant identifiers that may be used by the application when multi-tenancy is enabled."
-msgstr "Uma lista exaustiva de todos os identificadores de locatário que podem ser utilizados pelo aplicativo quando a multilocatária estiver habilitada."
+msgstr "Uma lista exaustiva de todos os identificadores de locatário que podem ser utilizados pelo aplicativo quando a multilocação estiver habilitada."
 
 #. mt: deepl
 #, fuzzy
@@ -2412,7 +2412,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "[.line-through]#`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".automatic-indexing.synchronization.strategy+++`#\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".automatic-indexing.synchronization.strategy+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".indexação-automática.sincronização.estratégia` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".indexação-automática.estratégia-de-sincronização[]\""
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".indexação-automática.sincronização.estratégia` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".indexação-automática.estratégia-de-sincronização[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2469,7 +2469,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".autom
 #. mt: deepl
 #, fuzzy
 msgid "_This property is deprecated: This property is deprecated with no alternative to replace it. In the future, a dirty check will always be performed when considering whether to trigger reindexing._"
-msgstr "_Esta propriedade está obsoleta: esta propriedade está obsoleta e não há alternativa para substituí-la. No futuro, sempre será realizada uma verificação de alterações ao se avaliar se a reindexação deve ser acionada._"
+msgstr "_Esta propriedade está obsoleta: esta propriedade está obsoleta e não há alternativa para substituí-la. No futuro, sempre será realizada uma verificação de alterações ao avaliar se a reindexação deve ser acionada._"
 
 #. mt: deepl
 #, fuzzy
@@ -2569,7 +2569,7 @@ msgid ""
 "It doesn't have to be the exact version (it can be `7` or `7.1` for instance) but it has to be sufficiently precise\n"
 "to choose a model dialect (the one used to generate the schema) compatible with the protocol dialect (the one used\n"
 "to communicate with Elasticsearch)."
-msgstr "Não precisa ser exatamente essa versão (pode ser `a 7` ou `a 7.1` , por exemplo), mas deve ser suficientemente precisa para que se possa escolher um dialeto de modelo (aquele utilizado para gerar o esquema) compatível com o dialeto do protocolo (aquele utilizado para se comunicar com o Elasticsearch)."
+msgstr "Não precisa ser exatamente essa versão (pode ser `a 7` ou `a 7.1` , por exemplo), mas deve ser suficientemente precisa para que se possa escolher um dialeto de modelo (aquele utilizado para gerar o esquema) compatível com o dialeto de protocolo (aquele utilizado para se comunicar com o Elasticsearch)."
 
 #. mt: deepl
 #, fuzzy
@@ -2640,14 +2640,14 @@ msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".schema-mana
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.schema-management.settings-file+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.schema-management.settings-file+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.gestão-de-esquema.arquivo-de-configurações` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.gestão-de-esquema.arquivo-de-configuração[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.gestão-de-esquemas.arquivo-de-configurações` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.gestão-de-esquema.arquivo-de-configuração[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".schema-management.settings-file+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".schema-management.settings-file+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquemas.arquivo-de-configurações` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquemas.arquivo-de-configuração[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquemas.arquivo-de-configurações` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquema.arquivo-de-configuração[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2922,7 +2922,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elast
 #. mt: deepl
 #, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr "A lista de hosts dos servidores do Elasticsearch."
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
 #. mt: deepl
 #, fuzzy
@@ -3177,7 +3177,7 @@ msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".connection-
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.connection-timeout+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.connection-timeout+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.connection-timeout` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.connection-timeout[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.timeout-de-conexão` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.timeout-de-conexão[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3321,7 +3321,7 @@ msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".request-tim
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.request-timeout+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.request-timeout+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.tempo-limite-da-solicitação` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.tempo-limite-da-solicitação[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.request-timeout` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.request-timeout[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3452,7 +3452,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".max-connections-per-route+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".max-connections-per-route+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".max-connections-per-route` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".max-connections-per-route[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".max-connections-per-route` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".max-connections-per-route[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3520,7 +3520,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".discovery.enabled+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".discovery.enabled+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".discovery.enabled` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".discovery.enabled[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".discovery.enabled` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".discovery.enabled[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3669,7 +3669,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".thread-pool.size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".thread-pool.size+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".thread-pool.size` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".thread-pool.size[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".thread-pool.size` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".thread-pool.size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3756,7 +3756,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".query.shard-failure.ignore+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".query.shard-failure.ignore+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".query.shard-failure.ignore` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".query.shard-failure.ignore[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".query.shard-failure.ignore` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".query.shard-failure.ignore[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3775,7 +3775,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elast
 #. mt: deepl
 #, fuzzy
 msgid "Whether partial shard failures are ignored (`true`) or lead to Hibernate Search throwing an exception (`false`)."
-msgstr "Se as falhas parciais nos shards serão ignoradas ( `true` ) ou se levarão o Hibernate Search a lançar uma exceção ( `false` )."
+msgstr "Se as falhas parciais nos shards serão ignoradas ( `true` ) ou se farão com que o Hibernate Search lance uma exceção ( `false` )."
 
 #. mt: deepl
 #, fuzzy
@@ -3890,7 +3890,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".schema-management.required-status+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".schema-management.required-status+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".gestão-de-esquema.status-obrigatório` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".gestão-de-esquema.status-obrigatório[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".schema-management.required-status` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".schema-management.required-status[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3979,7 +3979,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elast
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".schema-management.required-status-wait-timeout+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".schema-management.required-status-wait-timeout+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquema.tempo-limite-de-espera-pelo-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4065,7 +4065,7 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de transferência de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
+msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
 #. mt: deepl
 #, fuzzy
@@ -4126,7 +4126,7 @@ msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexing.qu
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexing.queue-size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexing.queue-size+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.indexing.queue-size` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.indexing.queue-size[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.indexing.queue-size` botão-para-copiar-propriedade-de-configuração:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.indexing.queue-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4236,7 +4236,7 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr "Valores mais altos farão com que mais documentos sejam enviados em cada solicitação HTTP enviada ao Elasticsearch, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas de indexação."
+msgstr "Valores mais altos farão com que mais documentos sejam enviados em cada solicitação HTTP enviada ao Elasticsearch, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de saturar seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
 #. mt: deepl
 #, fuzzy
@@ -4390,7 +4390,7 @@ msgid ""
 "and leave the configuration property unset: Hibernate Search will use the annotated implementation automatically.\n"
 "See xref:#plugging-in-custom-components[this section]\n"
 "for more information."
-msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar sua implementação personalizada `da `IndexLayoutStrategy`` com `@SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará a implementação anotada automaticamente. Consulte xref:plugging-in-custom-components[esta seção] para obter mais informações."
+msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar sua implementação personalizada `de `IndexLayoutStrategy`` com `@SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará a implementação anotada automaticamente. Consulte xref:plugging-in-custom-components[esta seção] para obter mais informações."
 
 #. mt: deepl
 #, fuzzy
@@ -4447,7 +4447,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hiberna
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.settings-file+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.settings-file+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-configuração` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-configuração[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".gestão-de-esquema.arquivo-de-configuração` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-configuração[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4512,14 +4512,14 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hiberna
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.mapping-file+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.mapping-file+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.mapping-file+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.mapping-file+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gestão-de-esquema.arquivo-de-mapeamento[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4697,7 +4697,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout]] [.property-path]##link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[`+++quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout+++[]"
-msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".schema-management.required-status-wait-timeout] config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.tempo-de-espera-para-status-obrigatório[]"
+msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".schema-management.required-status-wait-timeout] config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4711,14 +4711,14 @@ msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-pelo-status-necessário` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-do-status-obrigatório[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gerenciamento-de-esquema.tempo-limite-de-espera-para-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-do-status-obrigatório[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.required-status-wait-timeout+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".indexes.\"index-name\".schema-management.required-status-wait-timeout+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-do-status-obrigatório[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".gestão-de-esquema.tempo-limite-de-espera-para-status-obrigatório[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4769,7 +4769,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-count+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-count+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexação.número-de-fila` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexação.contagem-da-fila` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4783,7 +4783,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elast
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-count+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-count+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count` \" config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-count[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4825,14 +4825,14 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size]] [.property-path]##link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size[`+++quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".indexing.queue-size+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".indexing.queue-size+++[]"
-msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size[quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".indexing.queue-size] botão-para-copiar-propriedade-de-configuração:quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".indexing.queue-size[]"
+msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size[quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".indexing.queue-size] botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-search-orm.elasticsearch.indexes.\"nome-do-índice\".indexing.queue-size[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-size+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexação.tamanho-da-fila` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.queue-size[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.queue-size` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"nome-do-índice\".indexing.queue-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4900,7 +4900,7 @@ msgstr " link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-sear
 msgid ""
 "`+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.max-bulk-size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.elasticsearch.\"backend-name\".indexes.\"index-name\".indexing.max-bulk-size+++[]"
-msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".indexes.\"nome-do-índice\".indexing.max-bulk-size` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.max-bulk-size[]"
+msgstr "`quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.max-bulk-size` config_property_copy_button:quarkus.hibernate-search-orm.elasticsearch.\"nome-do-backend\".índices.\"nome-do-índice\".indexing.max-bulk-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -5013,7 +5013,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java sobre o método Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -5213,7 +5213,7 @@ msgid ""
 "If you want to control explicitly the number and assignment of shards,\n"
 "you must configure static sharding and then setting this property as well as the assigned shards (see `shards.assigned`)\n"
 "is necessary."
-msgstr "Caso deseje controlar explicitamente o número e a atribuição de shards, é necessário configurar o particionamento estático e, em seguida, definir essa propriedade, bem como os shards atribuídos (consulte `shards.assigned` )."
+msgstr "Caso deseje controlar explicitamente o número e a atribuição de shards, é necessário configurar o particionamento estático e, em seguida, definir esta propriedade, bem como os shards atribuídos (consulte `shards.assigned` )."
 
 #. mt: deepl
 #, fuzzy
@@ -5434,7 +5434,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coord
 msgid ""
 "How long the event processor can poll for events before it must perform a \"pulse\",\n"
 "updating and checking registrations in the agents table."
-msgstr "Por quanto tempo o processador de eventos pode verificar a presença de eventos antes de precisar executar um “pulso”, atualizando e verificando os registros na tabela de agentes."
+msgstr "Por quanto tempo o processador de eventos pode verificar se há eventos antes de precisar executar um “pulso”, atualizando e verificando os registros na tabela de agentes."
 
 #. mt: deepl
 #, fuzzy
@@ -5451,7 +5451,7 @@ msgid ""
 "and reduced risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected,\n"
 "but more stress on the database because of more frequent checks of the list of agents."
-msgstr "Valores baixos (mais próximos do intervalo de sondagem) significam menos tempo perdido sem o processamento de eventos quando um nó entra ou sai do cluster, além de menor risco de perda de tempo por não processar eventos devido a um processador de eventos ser incorretamente considerado desconectado; no entanto, isso acarreta maior carga sobre o banco de dados devido às verificações mais frequentes da lista de agentes."
+msgstr "Valores baixos (mais próximos do intervalo de sondagem) significam menos tempo perdido sem o processamento de eventos quando um nó entra ou sai do cluster, além de menor risco de perda de tempo devido à não execução do processamento de eventos por um processador de eventos ter sido incorretamente considerado desconectado; no entanto, isso acarreta maior carga sobre o banco de dados devido às verificações mais frequentes da lista de agentes."
 
 #. mt: deepl
 #, fuzzy
@@ -5461,7 +5461,7 @@ msgid ""
 "and increased risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected,\n"
 "but less stress on the database because of less frequent checks of the list of agents."
-msgstr "Valores elevados (mais próximos do intervalo de expiração) significam mais tempo perdido sem o processamento de eventos quando um nó entra ou sai do cluster, além de um risco maior de perda de tempo devido à falta de processamento de eventos — pois um processador de eventos pode ser considerado, erroneamente, como desconectado —, mas menos sobrecarga no banco de dados devido à menor frequência das verificações da lista de agentes."
+msgstr "Valores elevados (mais próximos do intervalo de expiração) significam mais tempo perdido sem o processamento de eventos quando um nó entra ou sai do cluster, além de um risco maior de perda de tempo devido à falta de processamento de eventos — pois um processador de eventos pode ser considerado incorretamente como desconectado —, mas menos sobrecarga no banco de dados devido à menor frequência das verificações da lista de agentes."
 
 #. mt: deepl
 #, fuzzy
@@ -5533,7 +5533,7 @@ msgstr "Por quanto tempo um “pulso” do processador de eventos permanece vál
 #. mt: deepl
 #, fuzzy
 msgid "The expiration interval must be set to a value at least 3 times larger than the pulse interval."
-msgstr "O intervalo de expiração deve ser definido com um valor pelo menos três vezes maior do que o intervalo de pulso."
+msgstr "O intervalo de expiração deve ser definido com um valor pelo menos três vezes maior que o intervalo de pulso."
 
 #. mt: deepl
 #, fuzzy
@@ -5542,7 +5542,7 @@ msgid ""
 "when a node abruptly leaves the cluster due to a crash or network failure,\n"
 "but increased risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected."
-msgstr "Valores baixos (mais próximos do intervalo de pulso) significam menos tempo perdido sem o processamento de eventos quando um nó sai abruptamente do cluster devido a uma falha de sistema ou de rede, mas um risco maior de perder tempo sem o processamento de eventos porque um processador de eventos é considerado, erroneamente, como desconectado."
+msgstr "Valores baixos (mais próximos do intervalo de pulso) significam menos tempo perdido sem o processamento de eventos quando um nó sai abruptamente do cluster devido a uma falha de sistema ou de rede, mas um risco maior de perder tempo sem o processamento de eventos porque um processador de eventos é incorretamente considerado desconectado."
 
 #. mt: deepl
 #, fuzzy
@@ -5551,7 +5551,7 @@ msgid ""
 "when a node abruptly leaves the cluster due to a crash or network failure,\n"
 "but reduced risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected."
-msgstr "Valores elevados (muito maiores do que o intervalo de pulso) significam mais tempo perdido sem o processamento de eventos quando um nó sai abruptamente do cluster devido a uma falha de sistema ou de rede, mas também um risco reduzido de perder tempo sem processar eventos por um processador de eventos ser considerado, erroneamente, como desconectado."
+msgstr "Valores elevados (muito maiores do que o intervalo de pulso) significam mais tempo perdido sem o processamento de eventos quando um nó sai abruptamente do cluster devido a uma falha de sistema ou de rede, mas também um risco reduzido de perder tempo sem processar eventos porque um processador de eventos é considerado, erroneamente, como desconectado."
 
 #. mt: deepl
 #, fuzzy
@@ -5667,7 +5667,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coord
 #. mt: deepl
 #, fuzzy
 msgid "The timeout for transactions processing outbox events."
-msgstr "O tempo limite para o processamento de eventos da caixa de saída das transações."
+msgstr "O tempo limite para o processamento de eventos da caixa de saída de transações."
 
 #. mt: deepl
 #, fuzzy
@@ -5676,7 +5676,7 @@ msgid ""
 "Hibernate Search will use whatever default transaction timeout is configured in the JTA transaction manager,\n"
 "which may be too low for batch processing and lead to transaction timeouts when processing batches of events.\n"
 "If this happens, set a higher transaction timeout for event processing using this property."
-msgstr "Quando essa propriedade não estiver definida, o Hibernate Search utilizará o tempo limite padrão de transação configurado no gerenciador de transações JTA, o que pode ser muito curto para o processamento em lote e resultar em expiração de transações durante o processamento de lotes de eventos. Caso isso ocorra, defina um tempo limite de transação mais longo para o processamento de eventos por meio dessa propriedade."
+msgstr "Quando essa propriedade não estiver definida, o Hibernate Search utilizará o tempo limite padrão de transação configurado no gerenciador de transações JTA, o que pode ser muito baixo para o processamento em lote e resultar em tempo limite de transação esgotado ao processar lotes de eventos. Caso isso ocorra, defina um tempo limite de transação mais alto para o processamento de eventos por meio dessa propriedade."
 
 #. mt: deepl
 #, fuzzy
@@ -5804,7 +5804,7 @@ msgid ""
 "High values will increase the time it takes for the mass indexer agent to detect\n"
 "that event processors finally suspended themselves,\n"
 "but will reduce the stress on the database while the mass indexer agent is actively waiting."
-msgstr "Valores elevados aumentarão o tempo que o agente de indexação em massa leva para detectar que os processadores de eventos finalmente entraram em suspensão, mas reduzirão a carga sobre o banco de dados enquanto o agente de indexação em massa estiver aguardando ativamente."
+msgstr "Valores elevados aumentarão o tempo que o agente de indexação em massa leva para detectar que os processadores de eventos finalmente entraram em suspensão, mas reduzirão a carga sobre o banco de dados enquanto o agente de indexação em massa estiver ativamente aguardando."
 
 #. mt: deepl
 #, fuzzy
@@ -5868,7 +5868,7 @@ msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-sea
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.mass-indexer.pulse-interval+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.mass-indexer.pulse-interval+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.mass-indexer.pulse-interval` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.indexador-em-massas.intervalo-de-pulsos[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.mass-indexer.pulse-interval` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.indexador-em-massa.intervalo-de-pulsos[]"
 
 #. mt: deepl
 #, fuzzy
@@ -5893,7 +5893,7 @@ msgid ""
 "event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected,\n"
 "but less stress on the database because of less frequent updates of the mass indexer agent's entry in the agent table."
-msgstr "Valores elevados (mais próximos do intervalo de expiração) significam um risco maior de que os processadores de eventos comecem a processar eventos novamente durante a indexação em massa, pois um agente de indexação em massa é considerado, incorretamente, como desconectado; no entanto, isso representa menor carga sobre o banco de dados devido às atualizações menos frequentes da entrada do agente de indexação em massa na tabela de agentes."
+msgstr "Valores elevados (mais próximos do intervalo de expiração) significam um risco maior de que os processadores de eventos comecem a processar eventos novamente durante a indexação em massa, pois um agente de indexação em massa é considerado, erroneamente, como desconectado; no entanto, isso representa menor carga sobre o banco de dados devido às atualizações menos frequentes da entrada do agente de indexação em massa na tabela de agentes."
 
 #. mt: deepl
 #, fuzzy
@@ -5957,7 +5957,7 @@ msgid ""
 "when a mass indexer agent terminates due to a crash,\n"
 "but increased risk of event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected."
-msgstr "Valores baixos (mais próximos do intervalo de pulso) significam menos tempo perdido com os processadores de eventos deixando de processar eventos quando um agente de indexação em massa é encerrado devido a uma falha, mas um risco maior de os processadores de eventos começarem a processar eventos novamente durante a indexação em massa, pois um agente de indexação em massa é considerado, incorretamente, como desconectado."
+msgstr "Valores baixos (mais próximos do intervalo de pulso) significam menos tempo perdido com os processadores de eventos deixando de processar eventos quando um agente de indexação em massa é encerrado devido a uma falha, mas um risco maior de os processadores de eventos voltarem a processar eventos durante a indexação em massa, pois um agente de indexação em massa é considerado, erroneamente, como desconectado."
 
 #. mt: deepl
 #, fuzzy
@@ -5966,7 +5966,7 @@ msgid ""
 "when a mass indexer agent terminates due to a crash,\n"
 "but reduced risk of event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected."
-msgstr "Valores elevados (muito maiores do que o intervalo de pulso) significam mais tempo perdido com os processadores de eventos deixando de processar eventos quando um agente de indexação em massa é encerrado devido a uma falha, mas um risco reduzido de os processadores de eventos começarem a processar eventos novamente durante a indexação em massa, pois o agente de indexação em massa é considerado, erroneamente, como desconectado."
+msgstr "Valores elevados (muito maiores do que o intervalo de pulso) significam mais tempo perdido com os processadores de eventos deixando de processar eventos quando um agente de indexação em massa é encerrado devido a uma falha, mas um risco reduzido de os processadores de eventos voltarem a processar eventos durante a indexação em massa, pois o agente de indexação em massa é considerado, incorretamente, como desconectado."
 
 #. mt: deepl
 #, fuzzy
@@ -6014,7 +6014,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.catalog+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.catalog+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.agent.catalog` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.agent.catalog[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.agent.catalog` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidades.agente.catálogo[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6062,7 +6062,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.schema+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.schema+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.agent.schema` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.agente.esquema[]\""
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.agent.schema` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.agente.esquema[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6158,7 +6158,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.uuid-gen-strategy+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.uuid-gen-strategy+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidades.agente.estratégia-de-geração-de-uuid` botão-de-cópia-de-propriedade-de-configuração:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.agente.estratégia-de-geração-de-uuid[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidades.agente.estratégia-de-geração-de-uuid` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.agente.estratégia-de-geração-de-uuid[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6178,7 +6178,7 @@ msgstr "`auto` (o padrão) é equivalente a `random` , que utiliza `UUID#randomU
 #. mt: deepl
 #, fuzzy
 msgid "`time` is an IP based strategy consistent with IETF RFC 4122."
-msgstr "`O “time”` é uma estratégia baseada em IP, em conformidade com a RFC 4122 da IETF."
+msgstr "`O \"time\"` é uma estratégia baseada em IP, em conformidade com a RFC 4122 da IETF."
 
 #. mt: deepl
 #, fuzzy
@@ -6296,7 +6296,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.catalog+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.catalog+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.catálogo` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.catálogo[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.outbox-event.catalog` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.catálogo[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6339,7 +6339,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.schema+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.schema+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.outbox-event.schema` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.esquema[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.esquema` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.esquema[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6440,7 +6440,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.uuid-gen-strategy+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.uuid-gen-strategy+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.estratégia-de-geração-de-uuid` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.estratégia-de-geração-de-uuid[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.outbox-event.uuid-gen-strategy` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.estratégia-de-geração-de-uuid[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6490,7 +6490,7 @@ msgstr "[lock]  link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibern
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.uuid-type+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.uuid-type+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.entity-mapping.outbox-event.uuid-type` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.tipo-uuid[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.tipo-uuid` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.mapeamento-de-entidade.evento-da-caixa-de-saída.tipo-uuid[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6745,7 +6745,7 @@ msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-sea
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.pulse-interval+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.pulse-interval+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.intervalo-de-pulsos` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.intervalo-de-pulsos[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.tenants.\"id-do-locatário\".processador-de-eventos.intervalo-de-pulsos` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.intervalo-de-pulsos[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6800,7 +6800,7 @@ msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-sea
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.pulse-expiration+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.pulse-expiration+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.tenants.\"id-do-tenant\".processador-de-eventos.expiração-do-pulso` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.expiração-do-pulso[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.tenants.\"id-do-tenant\".processador-de-eventos.expiração-do-pulse` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.expiração-do-pulso[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6846,7 +6846,7 @@ msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-sea
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.batch-size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.batch-size+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.tamanho-do-lote` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.tamanho-do-lote[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.tenants.\"id-do-tenant\".processador-de-eventos.tamanho-do-lote` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".processador-de-eventos.tamanho-do-lote[]"
 
 #. mt: deepl
 #, fuzzy
@@ -7037,7 +7037,7 @@ msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-sea
 msgid ""
 "[[quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval]] [.property-path]##link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval[`+++quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval+++`]##\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval+++[]"
-msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval] config_property_copy_button:quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval[]\""
+msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval] config_property_copy_button:quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval[]"
 
 #. mt: deepl
 #, fuzzy
@@ -7099,7 +7099,7 @@ msgstr " link:#quarkus-hibernate-search-orm-outbox-polling_quarkus-hibernate-sea
 msgid ""
 "`+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".mass-indexer.pulse-expiration+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".mass-indexer.pulse-expiration+++[]"
-msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.tenants.\"id-do-locatário\".mass-indexer.pulse-expiration` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".indexador-em-massa.expiração-do-pulso[]"
+msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordination.tenants.\"id-do-tenant\".mass-indexer.pulse-expiration` config_property_copy_button:quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".coordenação.locatários.\"id-do-locatário\".indexador-em-massas.expiração-do-pulso[]"
 
 #. mt: deepl
 #, fuzzy

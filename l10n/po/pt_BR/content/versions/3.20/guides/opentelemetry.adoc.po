@@ -591,8 +591,9 @@ msgstr "As propriedades de configuração do Quarkus OpenTelemetry agora têm o 
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -620,20 +621,25 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If false, disable the OpenTelemetry usage at build time. All other Otel properties will be ignored at runtime."
-msgstr ""
+msgstr "Se for falso, desative o uso do OpenTelemetry na fase de compilação. Todas as demais propriedades do Otel serão ignoradas na fase de execução."
 
+#, fuzzy
 msgid "Will pick up value from legacy property quarkus.opentelemetry.enabled"
-msgstr ""
+msgstr "Recuperará o valor da propriedade legada `quarkus.opentelemetry.enabled`"
 
+#, fuzzy
 msgid "Defaults to `true`."
-msgstr ""
+msgstr "O valor padrão é `“true` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -662,14 +668,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.simple+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Should we use simple processor for spans and log records. This will disable batch processing and the exporter will send telemetry data right away. This is recommended for serverless applications."
-msgstr ""
+msgstr "Devemos utilizar um processador simples para spans e registros de log? Isso desativará o processamento em lote, e o exportador enviará os dados de telemetria imediatamente. Isso é recomendado para aplicações sem servidor."
 
+#, fuzzy
 msgid "Defaults to `false`."
-msgstr ""
+msgstr "O valor padrão é `“false` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SIMPLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SIMPLE[]"
 
 #, fuzzy
 msgid "`false`"
@@ -698,17 +707,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.exporter+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "List of exporters supported by Quarkus."
-msgstr ""
+msgstr "Lista de exportadores compatíveis com o Quarkus."
 
+#, fuzzy
 msgid "List of exporters to be used for tracing, separated by commas. Has one of the values on `ExporterType` `otlp`, `cdi`, `none` or the full qualified name of a class implementing `io.opentelemetry.sdk.trace.export.SpanExporter`"
-msgstr ""
+msgstr "Lista de exportadores a ser utilizada para rastreamento, separados por vírgulas. Deve conter um dos valores da propriedade `ExporterType` : `otlp` , `cdi` , `none` ou o nome completo e qualificado de uma classe que implemente `io.opentelemetry.sdk.trace.export.SpanExporter`"
 
+#, fuzzy
 msgid "Default on Quarkus is `ExporterType.Constants++#++CDI_VALUE`."
-msgstr ""
+msgstr "O valor padrão no Quarkus é `ExporterType.Constants#CDI_VALUE` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_EXPORTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_EXPORTER[]"
 
 #, fuzzy
 msgid "list of string"
@@ -740,17 +753,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.sampler+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The sampler to use for tracing."
-msgstr ""
+msgstr "O amostrador a ser utilizado para o traçado."
 
+#, fuzzy
 msgid "Has one of the values on `SamplerType` `always_on`, `always_off`, `traceidratio`, `parentbased_always_on`, `parentbased_always_off`, `parentbased_traceidratio` or the Sampler SPI name. This will use the OTel SPI hooks for the `io.opentelemetry.sdk.trace.samplers.Sampler` implementation set in the provider: `io.opentelemetry.sdk.autoconfigure.spi.traces.ConfigurableSamplerProvider`."
-msgstr ""
+msgstr "Um dos valores em `SamplerType` deve ser `always_on` , `always_off` , `traceidratio` , `parentbased_always_on` , `parentbased_always_off` , `parentbased_traceidratio` ou o nome do SPI do Sampler. Isso utilizará os ganchos SPI do OTel para a implementação de ``io.opentelemetry.sdk.trace.samplers.Sampler`` definida no provedor: ``io.opentelemetry.sdk.autoconfigure.spi.traces.ConfigurableSamplerProvider` `."
 
+#, fuzzy
 msgid "Fallbacks to the legacy property `quarkus.opentelemetry.tracer.sampler.sampler.name` or defaults to `SamplerType.Constants++#++PARENT_BASED_ALWAYS_ON`."
-msgstr ""
+msgstr "Recorre à propriedade legada ``quarkus.opentelemetry.tracer.sampler.sampler.name` ` ou utiliza como padrão o valor ` `SamplerType.Constants#PARENT_BASED_ALWAYS_ON` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_SAMPLER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_SAMPLER[]"
 
 msgid "string"
 msgstr "string"
@@ -778,11 +795,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.eusp.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If OpenTelemetry End User attributes should be added as Span attributes on a best-efforts basis."
-msgstr ""
+msgstr "Os atributos do usuário final do OpenTelemetry devem ser adicionados como atributos de Span, na medida do possível."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_EUSP_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_EUSP_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-metrics-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-metrics-enabled[`quarkus.otel.metrics.enabled`]##\n"
@@ -807,17 +826,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.metrics.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enable metrics with OpenTelemetry."
-msgstr ""
+msgstr "Habilite métricas com o OpenTelemetry."
 
+#, fuzzy
 msgid "This property is not available in the Open Telemetry SDK. It's Quarkus specific."
-msgstr ""
+msgstr "Essa propriedade não está disponível no SDK do Open Telemetry. Ela é específica do Quarkus."
 
+#, fuzzy
 msgid "Support for OpenTelemetry Metrics will be enabled if this value is true. The OpenTelemetry SDK ( `io.quarkus.opentelemetry.runtime.config.build.OTelBuildConfig++#++enabled()` ) is enabled by default and if disabled, OpenTelemetry Metrics will also be disabled."
-msgstr ""
+msgstr "O suporte às métricas do OpenTelemetry será ativado se este valor for “true”. O SDK do OpenTelemetry ( `io.quarkus.opentelemetry.runtime.config.build.OTelBuildConfig#enabled()` ) está ativado por padrão e, caso seja desativado, as métricas do OpenTelemetry também serão desativadas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_METRICS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_METRICS_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-metrics-exporter]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-metrics-exporter[`quarkus.otel.metrics.exporter`]##\n"
@@ -838,11 +861,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.metrics.exporter+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Metrics exporter to use."
-msgstr ""
+msgstr "O exportador de métricas a ser utilizado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_METRICS_EXPORTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_METRICS_EXPORTER[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-logs-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-logs-enabled[`quarkus.otel.logs.enabled`]##\n"
@@ -867,14 +892,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.logs.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enable logs with OpenTelemetry."
-msgstr ""
+msgstr "Ative os registros com o OpenTelemetry."
 
+#, fuzzy
 msgid "Support for OpenTelemetry Logs will be enabled if this value is true. The OpenTelemetry SDK ( `io.quarkus.opentelemetry.runtime.config.build.OTelBuildConfig++#++enabled()` ) is enabled by default and if disabled, OpenTelemetry Logs will also be disabled."
-msgstr ""
+msgstr "O suporte aos registros do OpenTelemetry será ativado se este valor for “true”. O SDK do OpenTelemetry ( `io.quarkus.opentelemetry.runtime.config.build.OTelBuildConfig#enabled()` ) está ativado por padrão e, caso seja desativado, os registros do OpenTelemetry também serão desativados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_LOGS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_LOGS_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-logs-exporter]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-logs-exporter[`quarkus.otel.logs.exporter`]##\n"
@@ -895,11 +923,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.logs.exporter+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Logs exporter to use."
-msgstr ""
+msgstr "O exportador de logs a ser utilizado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_LOGS_EXPORTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_LOGS_EXPORTER[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-propagators]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-propagators[`quarkus.otel.propagators`]##\n"
@@ -924,20 +954,25 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.propagators+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The propagators to be used. Use a comma-separated list for multiple propagators."
-msgstr ""
+msgstr "Os propagadores a serem utilizados. Utilize uma lista separada por vírgulas para vários propagadores."
 
+#, fuzzy
 msgid "Has values from `PropagatorType` or the full qualified name of a class implementing `io.opentelemetry.context.propagation.TextMapPropagator`."
-msgstr ""
+msgstr "Possui valores do tipo ` `PropagatorType` ` ou o nome totalmente qualificado de uma classe que implemente ``io.opentelemetry.context.propagation.TextMapPropagator` `."
 
+#, fuzzy
 msgid "Default is `PropagatorType.Constants++#++TRACE_CONTEXT`,`PropagatorType.Constants++#++BAGGAGE` (W3C)."
-msgstr ""
+msgstr "O valor padrão é `PropagatorType.Constants#TRACE_CONTEXT` , `PropagatorType.Constants#BAGGAGE` (W3C)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_PROPAGATORS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_PROPAGATORS[]"
 
+#, fuzzy
 msgid "`tracecontext,baggage`"
-msgstr ""
+msgstr "`tracecontext,bagagem`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-instrument-grpc]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-grpc[`quarkus.otel.instrument.grpc`]##\n"
@@ -958,11 +993,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.grpc+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for gRPC."
-msgstr ""
+msgstr "Habilita a instrumentação para gRPC."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_GRPC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_GRPC[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-instrument-messaging]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-messaging[`quarkus.otel.instrument.messaging`]##\n"
@@ -983,11 +1020,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.messaging+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for Messaging."
-msgstr ""
+msgstr "Habilita a instrumentação para mensagens."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_MESSAGING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_MESSAGING[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-instrument-resteasy-client]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-resteasy-client[`quarkus.otel.instrument.resteasy-client`]##\n"
@@ -1008,11 +1047,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.resteasy-client+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for REST Client backed by RESTEasy Classic."
-msgstr ""
+msgstr "Habilita a instrumentação para o Cliente REST com suporte do RESTEasy Classic."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_RESTEASY_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_RESTEASY_CLIENT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-instrument-rest]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-rest[`quarkus.otel.instrument.rest`]##\n"
@@ -1033,11 +1074,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.rest+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for Quarkus REST."
-msgstr ""
+msgstr "Habilita a instrumentação para o Quarkus REST."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_REST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_REST[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-instrument-resteasy]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-resteasy[`quarkus.otel.instrument.resteasy`]##\n"
@@ -1058,11 +1101,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.resteasy+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for RESTEasy Classic."
-msgstr ""
+msgstr "Habilita a instrumentação para o RESTEasy Classic."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_RESTEASY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_RESTEASY[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-security-events-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-security-events-enabled[`quarkus.otel.security-events.enabled`]##\n"
@@ -1083,11 +1128,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.security-events.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Whether exporting of the security events is enabled."
-msgstr ""
+msgstr "Se a exportação dos eventos de segurança está habilitada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SECURITY_EVENTS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SECURITY_EVENTS_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-opentelemetry_quarkus-otel-security-events-event-types]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-security-events-event-types[`quarkus.otel.security-events.event-types`]##\n"
@@ -1108,11 +1155,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.security-events.event-types+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Selects security event types."
-msgstr ""
+msgstr "Seleciona tipos de eventos de segurança."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SECURITY_EVENTS_EVENT_TYPES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SECURITY_EVENTS_EVENT_TYPES[]"
 
 msgid "list of `all`, `authentication-success`, `authentication-failure`, `authorization-success`, `authorization-failure`, `other`"
 msgstr ""
@@ -1142,11 +1191,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.sdk.disabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If true, disable the OpenTelemetry SDK. Runtime configuration."
-msgstr ""
+msgstr "Se for verdade, desative o SDK do OpenTelemetry. Configuração em tempo de execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SDK_DISABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SDK_DISABLED[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-traces-suppress-non-application-uris]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-traces-suppress-non-application-uris[`quarkus.otel.traces.suppress-non-application-uris`]##\n"
@@ -1173,20 +1224,25 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.suppress-non-application-uris+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Suppress non-application uris from trace collection. This will suppress tracing of `/q` endpoints."
-msgstr ""
+msgstr "Suprimir URIs que não pertencem ao aplicativo da coleta de rastreamento. Isso suprimirá o rastreamento dos endpoints `/q` ."
 
+#, fuzzy
 msgid "Providing a custom `io.opentelemetry.sdk.trace.samplers.Sampler` CDI Bean will ignore this setting."
-msgstr ""
+msgstr "Se for fornecido um bean CDI personalizado do tipo ` `io.opentelemetry.sdk.trace.samplers.Sampler` `, essa configuração será ignorada."
 
+#, fuzzy
 msgid "This is a Quarkus specific property. Suppressing non-application uris is enabled by default."
-msgstr ""
+msgstr "Esta é uma propriedade específica do Quarkus. A supressão de URIs que não pertencem ao aplicativo está ativada por padrão."
 
+#, fuzzy
 msgid "Fallbacks to the legacy property `quarkus.opentelemetry.tracer.suppress-non-application-uris` or defaults to `true`."
-msgstr ""
+msgstr "Recorre à propriedade legada ` `quarkus.opentelemetry.tracer.suppress-non-application-uris` ` ou utiliza o valor padrão ` `true` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_SUPPRESS_NON_APPLICATION_URIS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_SUPPRESS_NON_APPLICATION_URIS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-traces-suppress-application-uris]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-traces-suppress-application-uris[`quarkus.otel.traces.suppress-application-uris`]##\n"
@@ -1211,17 +1267,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.suppress-application-uris+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated, suppress application uris from trace collection."
-msgstr ""
+msgstr "Separados por vírgulas; excluir os URIs de aplicativos da coleta de rastreamento."
 
+#, fuzzy
 msgid "This will suppress all uris set by this property."
-msgstr ""
+msgstr "Isso suprimirá todos os URIs definidos por esta propriedade."
 
+#, fuzzy
 msgid "If you are using `quarkus.http.root-path`, you need to consider it when setting your uris, in other words, you need to configure it using the root-path if necessary."
-msgstr ""
+msgstr "Caso esteja utilizando `o `quarkus.http.root-path`` , é necessário levar isso em consideração ao definir suas URIs; em outras palavras, é necessário configurá-las utilizando o `root-path`, se necessário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_SUPPRESS_APPLICATION_URIS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_SUPPRESS_APPLICATION_URIS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-traces-include-static-resources]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-traces-include-static-resources[`quarkus.otel.traces.include-static-resources`]##\n"
@@ -1246,17 +1306,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.include-static-resources+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Include static resources from trace collection."
-msgstr ""
+msgstr "Incluir recursos estáticos da coleta de rastreamentos."
 
+#, fuzzy
 msgid "This is a Quarkus specific property. Include static resources is disabled by default. Providing a custom `io.opentelemetry.sdk.trace.samplers.Sampler` CDI Bean will ignore this setting."
-msgstr ""
+msgstr "Esta é uma propriedade específica do Quarkus. A opção “Incluir recursos estáticos” está desativada por padrão. Ao fornecer um bean CDI personalizado de tipo ` `io.opentelemetry.sdk.trace.samplers.Sampler` `, essa configuração será ignorada."
 
+#, fuzzy
 msgid "Fallbacks to the legacy property `quarkus.opentelemetry.tracer.include-static-resources` or defaults to `false`."
-msgstr ""
+msgstr "Recorre à propriedade legada ` `quarkus.opentelemetry.tracer.include-static-resources` ` ou assume o valor padrão ` `false` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_INCLUDE_STATIC_RESOURCES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_INCLUDE_STATIC_RESOURCES[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-traces-sampler-arg]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-traces-sampler-arg[`quarkus.otel.traces.sampler.arg`]##\n"
@@ -1281,17 +1345,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.traces.sampler.arg+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Sampler argument. Depends on the `quarkus.otel.traces.sampler` property. Fallbacks to the legacy property `quarkus.opentelemetry.tracer.sampler.ratio`."
-msgstr ""
+msgstr "Argumento do amostrador. Depende da propriedade `quarkus.otel.traces.sampler` . Na ausência desta, recorre à propriedade legada `quarkus.opentelemetry.tracer.sampler.ratio` ."
 
+#, fuzzy
 msgid "When setting the stock sampler to `traceidratio` or `parentbased_traceidratio` you need to set a `double` compatible value between `0.0d` and `1.0d`, like `0.01d` or `0.5d`. It is kept as a `String` to allow the flexible customisation of alternative samplers."
-msgstr ""
+msgstr "Ao configurar o amostrador padrão para `“traceidratio”` ou `“parentbased_traceidratio”` , é necessário definir um valor compatível `com o tipo “double”` entre `0,0d` e `1,0d` , como `0,01d` ou `0,5d` . Esse valor é armazenado como uma `String` para permitir a personalização flexível de amostradores alternativos."
 
+#, fuzzy
 msgid "Defaults to `1.0d`."
-msgstr ""
+msgstr "O valor padrão é `1,0d` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_TRACES_SAMPLER_ARG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_TRACES_SAMPLER_ARG[]"
 
 msgid "`1.0d`"
 msgstr ""
@@ -1317,20 +1385,25 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.metric.export.interval+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The interval, between the start of two metric export attempts."
-msgstr ""
+msgstr "O intervalo entre o início de duas tentativas de exportação de métricas."
 
+#, fuzzy
 msgid "Default is 1min."
-msgstr ""
+msgstr "O valor padrão é de 1 minuto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_METRIC_EXPORT_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_METRIC_EXPORT_INTERVAL[]"
 
+#, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-opentelemetry_quarkus-otel[icon:question-circle[title=More information about the Duration format]]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-opentelemetry_quarkus-otel[[círculo de pergunta]]"
 
+#, fuzzy
 msgid "`60S`"
-msgstr ""
+msgstr "`anos 60`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-logs-handler-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-logs-handler-enabled[`quarkus.otel.logs.handler.enabled`]##\n"
@@ -1353,14 +1426,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.logs.handler.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Determine whether to enable the OpenTelemetry logging handler."
-msgstr ""
+msgstr "Determine se o manipulador de registro do OpenTelemetry deve ser ativado."
 
+#, fuzzy
 msgid "This is a Quarkus specific property. The OpenTelemetry logging handler is enabled by default."
-msgstr ""
+msgstr "Esta é uma propriedade específica do Quarkus. O manipulador de registro do OpenTelemetry está habilitado por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_LOGS_HANDLER_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_LOGS_HANDLER_ENABLED[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-attribute-value-length-limit]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-attribute-value-length-limit[`quarkus.otel.attribute.value.length.limit`]##\n"
@@ -1383,14 +1459,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.attribute.value.length.limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum length of attribute values. Applies to spans and logs."
-msgstr ""
+msgstr "O comprimento máximo dos valores dos atributos. Aplica-se a spans e logs."
 
+#, fuzzy
 msgid "By default, there is no limit."
-msgstr ""
+msgstr "Por padrão, não há limite."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-attribute-count-limit]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-attribute-count-limit[`quarkus.otel.attribute.count.limit`]##\n"
@@ -1413,14 +1492,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.attribute.count.limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of attributes. Applies to spans, span events, span links, and logs."
-msgstr ""
+msgstr "O número máximo de atributos. Aplica-se a spans, eventos de span, links de span e registros."
 
+#, fuzzy
 msgid "Default is `128`."
-msgstr ""
+msgstr "O valor padrão é `128` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_ATTRIBUTE_COUNT_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_ATTRIBUTE_COUNT_LIMIT[]"
 
 msgid "int"
 msgstr "int"
@@ -1450,11 +1532,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.span.attribute.value.length.limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum length of span attribute values. Takes precedence over `otel.attribute.value.length.limit`."
-msgstr ""
+msgstr "O comprimento máximo dos valores do atributo “span”. Tem precedência sobre `otel.attribute.value.length.limit` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SPAN_ATTRIBUTE_VALUE_LENGTH_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SPAN_ATTRIBUTE_VALUE_LENGTH_LIMIT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-span-attribute-count-limit]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-span-attribute-count-limit[`quarkus.otel.span.attribute.count.limit`]##\n"
@@ -1477,11 +1561,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.span.attribute.count.limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of attributes per span. Takes precedence over `otel.attribute.count.limit`."
-msgstr ""
+msgstr "O número máximo de atributos por span. Tem precedência sobre `otel.attribute.count.limit` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SPAN_ATTRIBUTE_COUNT_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SPAN_ATTRIBUTE_COUNT_LIMIT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-span-event-count-limit]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-span-event-count-limit[`quarkus.otel.span.event.count.limit`]##\n"
@@ -1504,11 +1590,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.span.event.count.limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of events per span."
-msgstr ""
+msgstr "O número máximo de eventos por intervalo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SPAN_EVENT_COUNT_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SPAN_EVENT_COUNT_LIMIT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-span-link-count-limit]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-span-link-count-limit[`quarkus.otel.span.link.count.limit`]##\n"
@@ -1531,11 +1619,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.span.link.count.limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of links per span."
-msgstr ""
+msgstr "O número máximo de elos por vão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SPAN_LINK_COUNT_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SPAN_LINK_COUNT_LIMIT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-bsp-schedule-delay]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-bsp-schedule-delay[`quarkus.otel.bsp.schedule.delay`]##\n"
@@ -1558,17 +1648,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.bsp.schedule.delay+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Span Processor interval `Duration` between two consecutive exports."
-msgstr ""
+msgstr "O intervalo do Processador de Intervalo de Lote: `a duração` entre duas exportações consecutivas."
 
+#, fuzzy
 msgid "Default is `5s`."
-msgstr ""
+msgstr "O valor padrão é `5 s` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BSP_SCHEDULE_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BSP_SCHEDULE_DELAY[]"
 
+#, fuzzy
 msgid "`5S`"
-msgstr ""
+msgstr "`5S`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size[`quarkus.otel.bsp.max.queue.size`]##\n"
@@ -1591,17 +1685,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.bsp.max.queue.size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Span Processor maximum queue size."
-msgstr ""
+msgstr "O tamanho máximo da fila do Processador de Intervalos em Lote."
 
+#, fuzzy
 msgid "Default is `2048`."
-msgstr ""
+msgstr "O valor padrão é `2048` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BSP_MAX_QUEUE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BSP_MAX_QUEUE_SIZE[]"
 
+#, fuzzy
 msgid "`2048`"
-msgstr ""
+msgstr "`2048`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-bsp-max-export-batch-size]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-bsp-max-export-batch-size[`quarkus.otel.bsp.max.export.batch.size`]##\n"
@@ -1624,17 +1722,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.bsp.max.export.batch.size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Span Processor maximum batch size."
-msgstr ""
+msgstr "O tamanho máximo do lote do Processador de Intervalo de Lote."
 
+#, fuzzy
 msgid "Default is `512`."
-msgstr ""
+msgstr "O valor padrão é `512` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BSP_MAX_EXPORT_BATCH_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BSP_MAX_EXPORT_BATCH_SIZE[]"
 
+#, fuzzy
 msgid "`512`"
-msgstr ""
+msgstr "`512`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-bsp-export-timeout]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-bsp-export-timeout[`quarkus.otel.bsp.export.timeout`]##\n"
@@ -1657,17 +1759,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.bsp.export.timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Span Processor maximum allowed time `Duration` to export data."
-msgstr ""
+msgstr "`O` tempo máximo permitido para o Batch Span Processor exportar dados."
 
+#, fuzzy
 msgid "Default is `30s`."
-msgstr ""
+msgstr "O valor padrão é de `30 segundos` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BSP_EXPORT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BSP_EXPORT_TIMEOUT[]"
 
+#, fuzzy
 msgid "`30S`"
-msgstr ""
+msgstr "`30S`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-blrp-schedule-delay]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-blrp-schedule-delay[`quarkus.otel.blrp.schedule.delay`]##\n"
@@ -1690,17 +1796,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.blrp.schedule.delay+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Log Record Processor interval `Duration` between two consecutive exports."
-msgstr ""
+msgstr "O intervalo do Processador de Registros de Log em Lote: `o tempo decorrido` entre duas exportações consecutivas."
 
+#, fuzzy
 msgid "Default is `1S`."
-msgstr ""
+msgstr "O valor padrão é `1S` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BLRP_SCHEDULE_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BLRP_SCHEDULE_DELAY[]"
 
+#, fuzzy
 msgid "`1S`"
-msgstr ""
+msgstr "`1S`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size[`quarkus.otel.blrp.max.queue.size`]##\n"
@@ -1723,11 +1833,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.blrp.max.queue.size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Log Record Processor maximum queue size."
-msgstr ""
+msgstr "O tamanho máximo da fila do Processador de Registros de Log em Lote."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BLRP_MAX_QUEUE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BLRP_MAX_QUEUE_SIZE[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-blrp-max-export-batch-size]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-blrp-max-export-batch-size[`quarkus.otel.blrp.max.export.batch.size`]##\n"
@@ -1750,11 +1862,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.blrp.max.export.batch.size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Log Record Processor maximum batch size."
-msgstr ""
+msgstr "O tamanho máximo do lote do Processador de Registros de Log em Lote."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BLRP_MAX_EXPORT_BATCH_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BLRP_MAX_EXPORT_BATCH_SIZE[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-blrp-export-timeout]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-blrp-export-timeout[`quarkus.otel.blrp.export.timeout`]##\n"
@@ -1777,11 +1891,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.blrp.export.timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The Batch Log Record Processor maximum allowed time `Duration` to export data."
-msgstr ""
+msgstr "`O` tempo máximo permitido para o Processador de Registros de Log em Lote exportar os dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_BLRP_EXPORT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_BLRP_EXPORT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-resource-attributes]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-resource-attributes[`quarkus.otel.resource.attributes`]##\n"
@@ -1802,11 +1918,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.resource.attributes+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Specify resource attributes in the following format: `key1=val1,key2=val2,key3=val3`."
-msgstr ""
+msgstr "Especifique os atributos do recurso no seguinte formato: `chave1=val1,chave2=val2,chave3=val3` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_RESOURCE_ATTRIBUTES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_RESOURCE_ATTRIBUTES[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-service-name]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-service-name[`quarkus.otel.service.name`]##\n"
@@ -1829,14 +1947,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.service.name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Specify logical service name. Takes precedence over service.name defined with otel.resource.attributes and from quarkus.application.name."
-msgstr ""
+msgstr "Especifique o nome lógico do serviço. Tem precedência sobre o nome do serviço definido com `otel.resource.attributes` e em `quarkus.application.name`."
 
+#, fuzzy
 msgid "Defaults to `quarkus.application.name`."
-msgstr ""
+msgstr "O valor padrão é `quarkus.application.name` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SERVICE_NAME[]"
 
 msgid "`${quarkus.application.name:unset}`"
 msgstr ""
@@ -1860,11 +1981,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.experimental.resource.disabled-keys+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Specify resource attribute keys that are filtered."
-msgstr ""
+msgstr "Especifique as chaves de atributos dos recursos que serão filtradas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPERIMENTAL_RESOURCE_DISABLED_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPERIMENTAL_RESOURCE_DISABLED_KEYS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-experimental-shutdown-wait-time]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-experimental-shutdown-wait-time[`quarkus.otel.experimental.shutdown-wait-time`]##\n"
@@ -1885,14 +2008,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.experimental.shutdown-wait-time+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum amount of time Quarkus will wait for the OpenTelemetry SDK to flush unsent spans and shutdown."
-msgstr ""
+msgstr "O tempo máximo que o Quarkus aguardará até que o SDK do OpenTelemetry libere os spans não enviados e seja encerrado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPERIMENTAL_SHUTDOWN_WAIT_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPERIMENTAL_SHUTDOWN_WAIT_TIME[]"
 
+#, fuzzy
 msgid "`2S`"
-msgstr ""
+msgstr "`2S`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-instrument-vertx-http]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-vertx-http[`quarkus.otel.instrument.vertx-http`]##\n"
@@ -1913,11 +2039,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.vertx-http+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for Vert.x HTTP."
-msgstr ""
+msgstr "Habilita a instrumentação para o Vert.x HTTP."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_VERTX_HTTP+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_VERTX_HTTP[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-instrument-vertx-event-bus]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-vertx-event-bus[`quarkus.otel.instrument.vertx-event-bus`]##\n"
@@ -1938,11 +2066,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.vertx-event-bus+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for Vert.x Event Bus."
-msgstr ""
+msgstr "Habilita a instrumentação para o Vert.x Event Bus."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_VERTX_EVENT_BUS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_VERTX_EVENT_BUS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-instrument-vertx-sql-client]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-vertx-sql-client[`quarkus.otel.instrument.vertx-sql-client`]##\n"
@@ -1963,11 +2093,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.vertx-sql-client+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for Vert.x SQL Client."
-msgstr ""
+msgstr "Habilita a instrumentação para o Vert.x SQL Client."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_VERTX_SQL_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_VERTX_SQL_CLIENT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-instrument-vertx-redis-client]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-vertx-redis-client[`quarkus.otel.instrument.vertx-redis-client`]##\n"
@@ -1988,11 +2120,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.vertx-redis-client+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for Vert.x Redis Client."
-msgstr ""
+msgstr "Habilita a instrumentação para o cliente Redis do Vert.x."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_VERTX_REDIS_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_VERTX_REDIS_CLIENT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-instrument-jvm-metrics]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-jvm-metrics[`quarkus.otel.instrument.jvm-metrics`]##\n"
@@ -2013,11 +2147,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.jvm-metrics+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for JVM Metrics."
-msgstr ""
+msgstr "Habilita a instrumentação para métricas da JVM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_JVM_METRICS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_JVM_METRICS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-instrument-http-server-metrics]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-instrument-http-server-metrics[`quarkus.otel.instrument.http-server-metrics`]##\n"
@@ -2038,11 +2174,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.instrument.http-server-metrics+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Enables instrumentation for HTTP Server Metrics."
-msgstr ""
+msgstr "Habilita a instrumentação para métricas do servidor HTTP."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_INSTRUMENT_HTTP_SERVER_METRICS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_INSTRUMENT_HTTP_SERVER_METRICS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-mp-compatibility]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-mp-compatibility[`quarkus.otel.mp.compatibility`]##\n"
@@ -2065,14 +2203,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.mp.compatibility+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Prioritize OpenTelemetry configuration `otel.` on top of Quarkus OpenTelemetry configuration `quarkus.otel`."
-msgstr ""
+msgstr "Priorize a configuração do OpenTelemetry `(otel.)` em relação à configuração do Quarkus para o OpenTelemetry ( `quarkus.otel` .)."
 
+#, fuzzy
 msgid "By default, Quarkus configuration has priority over OpenTelemetry configuration."
-msgstr ""
+msgstr "Por padrão, a configuração do Quarkus tem prioridade sobre a configuração do OpenTelemetry."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_MP_COMPATIBILITY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_MP_COMPATIBILITY[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-endpoint]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-endpoint[`quarkus.otel.exporter.otlp.endpoint`]##\n"
@@ -2097,17 +2238,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.endpoint+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the OTLP endpoint to send telemetry data. If unset, defaults to `OtlpExporterRuntimeConfig++#++DEFAULT_GRPC_BASE_URI`."
-msgstr ""
+msgstr "Define o ponto de extremidade OTLP para o envio de dados de telemetria. Se não for definido, o valor padrão será `OtlpExporterRuntimeConfig#DEFAULT_GRPC_BASE_URI` ."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..endpoint` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..endpoint` , em que “endpoint” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "If protocol is `http/protobuf` the version and signal will be appended to the path (e.g. v1/traces or v1/metrics) and the default port will be `OtlpExporterRuntimeConfig++#++DEFAULT_HTTP_BASE_URI`."
-msgstr ""
+msgstr "Se o protocolo for `http/protobuf` , a versão e o sinal serão acrescentados ao caminho (por exemplo, v1/traces ou v1/metrics) e a porta padrão será `OtlpExporterRuntimeConfig#DEFAULT_HTTP_BASE_URI` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_ENDPOINT[]"
 
 msgid "`http://localhost:4317/`"
 msgstr ""
@@ -2133,14 +2278,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.headers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Key-value pairs to be used as headers associated with exporter requests. The format is similar to the `OTEL_EXPORTER_OTLP_HEADERS` environment variable, a list of key-value pairs separated by the \"=\" character. i.e.: key1=value1,key2=value2"
-msgstr ""
+msgstr "Pares chave-valor a serem utilizados como cabeçalhos associados às solicitações do exportador. O formato é semelhante ao da variável de ambiente `OTEL_EXPORTER_OTLP_HEADERS` : uma lista de pares chave-valor separados pelo caractere “=”. Por exemplo: chave1=valor1,chave2=valor2"
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..headers` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..headers` , em que “sinal” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_HEADERS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-compression]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-compression[`quarkus.otel.exporter.otlp.compression`]##\n"
@@ -2163,17 +2311,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.compression+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the method used to compress payloads. If unset, compression is disabled. Currently supported compression methods include `gzip` and `none`."
-msgstr ""
+msgstr "Define o método utilizado para compactar as cargas úteis. Se não for definido, a compactação fica desativada. Os métodos de compactação atualmente suportados incluem `gzip` e `nenhum` ."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..compression` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..compression` , em que “compression” é um dos tipos de sinal suportados, como `“traces”` ou `“metrics` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_COMPRESSION[]"
 
+#, fuzzy
 msgid "`gzip`, `none`"
-msgstr ""
+msgstr "`gzip` , `nenhum`"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-timeout]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-timeout[`quarkus.otel.exporter.otlp.timeout`]##\n"
@@ -2196,14 +2348,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the maximum time to wait for the collector to process an exported batch of telemetry data. If unset, defaults to `OtlpExporterRuntimeConfig++#++DEFAULT_TIMEOUT_SECS`s."
-msgstr ""
+msgstr "Define o tempo máximo de espera para que o coletor processe um lote exportado de dados de telemetria. Se não for definido, o valor padrão é `OtlpExporterRuntimeConfig#DEFAULT_TIMEOUT_SECS`s."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..timeout` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..timeout` , em que “sinal” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TIMEOUT[]"
 
 msgid "`10s`"
 msgstr ""
@@ -2233,20 +2388,25 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.protocol+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "OTLP defines the encoding of telemetry data and the protocol used to exchange data between the client and the server. Depending on the exporter, the available protocols will be different."
-msgstr ""
+msgstr "O OTLP define a codificação dos dados de telemetria e o protocolo utilizado para a troca de dados entre o cliente e o servidor. Dependendo do exportador, os protocolos disponíveis serão diferentes."
 
+#, fuzzy
 msgid "Currently, only `grpc` and `http/protobuf` are allowed."
-msgstr ""
+msgstr "Atualmente, apenas `o gRPC` e `o HTTP/Protobuf` são permitidos."
 
+#, fuzzy
 msgid "Please mind that changing the protocol requires changing the port in the endpoint as well."
-msgstr ""
+msgstr "Lembre-se de que a alteração do protocolo exige também a alteração da porta no ponto de extremidade."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..protocol` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..protocol` , em que “protocol” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_PROTOCOL[]"
 
 msgid "`grpc`"
 msgstr ""
@@ -2270,11 +2430,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.key-cert.keys+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of the path to the key files (Pem format)."
-msgstr ""
+msgstr "Lista separada por vírgulas dos caminhos para os arquivos de chave (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_KEY_CERT_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_KEY_CERT_KEYS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-key-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-key-cert-certs[`quarkus.otel.exporter.otlp.key-cert.certs`]##\n"
@@ -2295,11 +2457,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.key-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of the path to the certificate files (Pem format)."
-msgstr ""
+msgstr "Lista separada por vírgulas do caminho para os arquivos de certificados (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_KEY_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_KEY_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-trust-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-trust-cert-certs[`quarkus.otel.exporter.otlp.trust-cert.certs`]##\n"
@@ -2320,11 +2484,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.trust-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of the trust certificate files (Pem format)."
-msgstr ""
+msgstr "Lista separada por vírgulas dos arquivos de certificados de confiança (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRUST_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRUST_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-tls-configuration-name]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-tls-configuration-name[`quarkus.otel.exporter.otlp.tls-configuration-name`]##\n"
@@ -2349,17 +2515,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.tls-configuration-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the TLS configuration to use."
-msgstr ""
+msgstr "O nome da configuração TLS a ser utilizada."
 
+#, fuzzy
 msgid "If not set and the default TLS configuration is configured (`quarkus.tls.++*++`) then that will be used. If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown."
-msgstr ""
+msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver definido, será utilizada a configuração de `quarkus.tls.<nome>.*.` Se um nome estiver definido, mas não for encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..tls-configuration-name` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..tls-configuration-name` , em que “tls-configuration-name” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TLS_CONFIGURATION_NAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-enabled[`quarkus.otel.exporter.otlp.proxy-options.enabled`]##\n"
@@ -2382,14 +2552,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.proxy-options.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If proxy connection must be used."
-msgstr ""
+msgstr "Caso seja necessário utilizar uma conexão por proxy."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.enabled` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.enabled` , em que “sinal” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_ENABLED[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-username]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-username[`quarkus.otel.exporter.otlp.proxy-options.username`]##\n"
@@ -2412,14 +2585,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.proxy-options.username+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set proxy username."
-msgstr ""
+msgstr "Defina o nome de usuário do proxy."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.username` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.username` , em que “sinal” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_USERNAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-password]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-password[`quarkus.otel.exporter.otlp.proxy-options.password`]##\n"
@@ -2442,14 +2618,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.proxy-options.password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set proxy password."
-msgstr ""
+msgstr "Defina a senha do proxy."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.password` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.password` , em que “sinal” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-port]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-port[`quarkus.otel.exporter.otlp.proxy-options.port`]##\n"
@@ -2472,14 +2651,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.proxy-options.port+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set proxy port."
-msgstr ""
+msgstr "Definir a porta do proxy."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.port` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.port` , em que “port” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_PORT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-host]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-proxy-options-host[`quarkus.otel.exporter.otlp.proxy-options.host`]##\n"
@@ -2502,14 +2684,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.proxy-options.host+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set proxy host."
-msgstr ""
+msgstr "Definir o host do proxy."
 
+#, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.host` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr ""
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.host` , em que “host” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_PROXY_OPTIONS_HOST[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-endpoint]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-endpoint[`quarkus.otel.exporter.otlp.traces.endpoint`]##\n"
@@ -2534,8 +2719,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.endpoint+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_ENDPOINT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-headers]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-headers[`quarkus.otel.exporter.otlp.traces.headers`]##\n"
@@ -2558,8 +2744,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.headers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_HEADERS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-compression]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-compression[`quarkus.otel.exporter.otlp.traces.compression`]##\n"
@@ -2582,8 +2769,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.compression+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_COMPRESSION[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-timeout]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-timeout[`quarkus.otel.exporter.otlp.traces.timeout`]##\n"
@@ -2606,8 +2794,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-protocol]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-protocol[`quarkus.otel.exporter.otlp.traces.protocol`]##\n"
@@ -2634,8 +2823,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.protocol+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROTOCOL[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-key-cert-keys]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-key-cert-keys[`quarkus.otel.exporter.otlp.traces.key-cert.keys`]##\n"
@@ -2656,8 +2846,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.key-cert.keys+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_KEY_CERT_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_KEY_CERT_KEYS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-key-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-key-cert-certs[`quarkus.otel.exporter.otlp.traces.key-cert.certs`]##\n"
@@ -2678,8 +2869,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.key-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_KEY_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_KEY_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-trust-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-trust-cert-certs[`quarkus.otel.exporter.otlp.traces.trust-cert.certs`]##\n"
@@ -2700,8 +2892,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.trust-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_TRUST_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_TRUST_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-tls-configuration-name]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-tls-configuration-name[`quarkus.otel.exporter.otlp.traces.tls-configuration-name`]##\n"
@@ -2726,8 +2919,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.tls-configuration-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_TLS_CONFIGURATION_NAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-enabled[`quarkus.otel.exporter.otlp.traces.proxy-options.enabled`]##\n"
@@ -2750,8 +2944,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.proxy-options.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_ENABLED[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-username]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-username[`quarkus.otel.exporter.otlp.traces.proxy-options.username`]##\n"
@@ -2774,8 +2969,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.proxy-options.username+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_USERNAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-password]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-password[`quarkus.otel.exporter.otlp.traces.proxy-options.password`]##\n"
@@ -2798,8 +2994,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.proxy-options.password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-port]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-port[`quarkus.otel.exporter.otlp.traces.proxy-options.port`]##\n"
@@ -2822,8 +3019,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.proxy-options.port+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_PORT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-host]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-traces-proxy-options-host[`quarkus.otel.exporter.otlp.traces.proxy-options.host`]##\n"
@@ -2846,8 +3044,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.traces.proxy-options.host+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_TRACES_PROXY_OPTIONS_HOST[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-endpoint]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-endpoint[`quarkus.otel.exporter.otlp.metrics.endpoint`]##\n"
@@ -2872,8 +3071,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.endpoint+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_ENDPOINT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-headers]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-headers[`quarkus.otel.exporter.otlp.metrics.headers`]##\n"
@@ -2896,8 +3096,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.headers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_HEADERS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-compression]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-compression[`quarkus.otel.exporter.otlp.metrics.compression`]##\n"
@@ -2920,8 +3121,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.compression+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_COMPRESSION[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-timeout]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-timeout[`quarkus.otel.exporter.otlp.metrics.timeout`]##\n"
@@ -2944,8 +3146,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-protocol]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-protocol[`quarkus.otel.exporter.otlp.metrics.protocol`]##\n"
@@ -2972,8 +3175,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.protocol+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROTOCOL[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-key-cert-keys]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-key-cert-keys[`quarkus.otel.exporter.otlp.metrics.key-cert.keys`]##\n"
@@ -2994,8 +3198,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.key-cert.keys+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_KEY_CERT_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_KEY_CERT_KEYS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-key-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-key-cert-certs[`quarkus.otel.exporter.otlp.metrics.key-cert.certs`]##\n"
@@ -3016,8 +3221,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.key-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_KEY_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_KEY_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-trust-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-trust-cert-certs[`quarkus.otel.exporter.otlp.metrics.trust-cert.certs`]##\n"
@@ -3038,8 +3244,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.trust-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TRUST_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TRUST_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-tls-configuration-name]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-tls-configuration-name[`quarkus.otel.exporter.otlp.metrics.tls-configuration-name`]##\n"
@@ -3064,8 +3271,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.tls-configuration-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TLS_CONFIGURATION_NAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-enabled[`quarkus.otel.exporter.otlp.metrics.proxy-options.enabled`]##\n"
@@ -3088,8 +3296,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.proxy-options.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_ENABLED[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-username]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-username[`quarkus.otel.exporter.otlp.metrics.proxy-options.username`]##\n"
@@ -3112,8 +3321,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.proxy-options.username+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_USERNAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-password]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-password[`quarkus.otel.exporter.otlp.metrics.proxy-options.password`]##\n"
@@ -3136,8 +3346,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.proxy-options.password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-port]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-port[`quarkus.otel.exporter.otlp.metrics.proxy-options.port`]##\n"
@@ -3160,8 +3371,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.proxy-options.port+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_PORT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-host]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-proxy-options-host[`quarkus.otel.exporter.otlp.metrics.proxy-options.host`]##\n"
@@ -3184,8 +3396,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.proxy-options.host+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_PROXY_OPTIONS_HOST[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-temporality-preference]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-temporality-preference[`quarkus.otel.exporter.otlp.metrics.temporality-preference`]##\n"
@@ -3210,17 +3423,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.temporality-preference+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The preferred output aggregation temporality. Options include DELTA, LOWMEMORY, and CUMULATIVE."
-msgstr ""
+msgstr "A temporalidade preferencial para a agregação de saídas. As opções incluem DELTA, LOWMEMORY e CUMULATIVE."
 
+#, fuzzy
 msgid "If CUMULATIVE, all instruments will have cumulative temporality. If DELTA, counter (sync and async) and histograms will be delta, up down counters (sync and async) will be cumulative. If LOWMEMORY, sync counter and histograms will be delta, async counter and up down counters (sync and async) will be cumulative."
-msgstr ""
+msgstr "Se for CUMULATIVO, todos os instrumentos terão temporalidade cumulativa. Se for DELTA, os contadores (síncronos e assíncronos) e os histogramas serão delta, enquanto os contadores de aumento e diminuição (síncronos e assíncronos) serão cumulativos. Se for LOWMEMORY, o contador síncrono e os histogramas serão delta, enquanto o contador assíncrono e os contadores ascendentes e descendentes (síncronos e assíncronos) serão cumulativos."
 
+#, fuzzy
 msgid "Default is CUMULATIVE."
-msgstr ""
+msgstr "O padrão é CUMULATIVO."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE[]"
 
 msgid "`cumulative`"
 msgstr ""
@@ -3248,17 +3465,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.metrics.default-histogram-aggregation+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The preferred default histogram aggregation."
-msgstr ""
+msgstr "A agregação padrão preferida do histograma."
 
+#, fuzzy
 msgid "Options include BASE2_EXPONENTIAL_BUCKET_HISTOGRAM and EXPLICIT_BUCKET_HISTOGRAM."
-msgstr ""
+msgstr "As opções incluem BASE2_EXPONENTIAL_BUCKET_HISTOGRAM e EXPLICIT_BUCKET_HISTOGRAM."
 
+#, fuzzy
 msgid "Default is EXPLICIT_BUCKET_HISTOGRAM."
-msgstr ""
+msgstr "O valor padrão é EXPLICIT_BUCKET_HISTOGRAM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_METRICS_DEFAULT_HISTOGRAM_AGGREGATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_METRICS_DEFAULT_HISTOGRAM_AGGREGATION[]"
 
 msgid "`explicit_bucket_histogram`"
 msgstr ""
@@ -3286,8 +3507,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.endpoint+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_ENDPOINT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-headers]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-headers[`quarkus.otel.exporter.otlp.logs.headers`]##\n"
@@ -3310,8 +3532,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.headers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_HEADERS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-compression]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-compression[`quarkus.otel.exporter.otlp.logs.compression`]##\n"
@@ -3334,8 +3557,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.compression+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_COMPRESSION[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-timeout]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-timeout[`quarkus.otel.exporter.otlp.logs.timeout`]##\n"
@@ -3358,8 +3582,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-protocol]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-protocol[`quarkus.otel.exporter.otlp.logs.protocol`]##\n"
@@ -3386,8 +3611,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.protocol+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROTOCOL[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-key-cert-keys]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-key-cert-keys[`quarkus.otel.exporter.otlp.logs.key-cert.keys`]##\n"
@@ -3408,8 +3634,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.key-cert.keys+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_KEY_CERT_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_KEY_CERT_KEYS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-key-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-key-cert-certs[`quarkus.otel.exporter.otlp.logs.key-cert.certs`]##\n"
@@ -3430,8 +3657,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.key-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_KEY_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_KEY_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-trust-cert-certs]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-trust-cert-certs[`quarkus.otel.exporter.otlp.logs.trust-cert.certs`]##\n"
@@ -3452,8 +3680,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.trust-cert.certs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_TRUST_CERT_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_TRUST_CERT_CERTS[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configuration-name]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configuration-name[`quarkus.otel.exporter.otlp.logs.tls-configuration-name`]##\n"
@@ -3478,8 +3707,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.tls-configuration-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_TLS_CONFIGURATION_NAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-enabled]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-enabled[`quarkus.otel.exporter.otlp.logs.proxy-options.enabled`]##\n"
@@ -3502,8 +3732,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.proxy-options.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_ENABLED[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-username]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-username[`quarkus.otel.exporter.otlp.logs.proxy-options.username`]##\n"
@@ -3526,8 +3757,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.proxy-options.username+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_USERNAME[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-password]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-password[`quarkus.otel.exporter.otlp.logs.proxy-options.password`]##\n"
@@ -3550,8 +3782,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.proxy-options.password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-port]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-port[`quarkus.otel.exporter.otlp.logs.proxy-options.port`]##\n"
@@ -3574,8 +3807,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.proxy-options.port+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_PORT[]"
 
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-host]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-proxy-options-host[`quarkus.otel.exporter.otlp.logs.proxy-options.host`]##\n"
@@ -3598,16 +3832,19 @@ msgid ""
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.proxy-options.host+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_EXPORTER_OTLP_LOGS_PROXY_OPTIONS_HOST[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

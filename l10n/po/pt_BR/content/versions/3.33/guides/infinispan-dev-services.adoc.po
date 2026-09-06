@@ -473,7 +473,7 @@ msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao co
 #. mt: deepl
 #, fuzzy
 msgid "This property is used when you need multiple shared Infinispan servers."
-msgstr "Essa propriedade é utilizada quando for necessário ter vários servidores Infinispan compartilhados."
+msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Infinispan compartilhados."
 
 #. mt: deepl
 #, fuzzy
@@ -636,7 +636,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "If you are running an Infinispan Server already in docker, if the containers use the same mcastPort they will form a cluster. Set a different mcastPort to create a separate cluster in Docker (e. 46656). A common use case in a local Docker development mode, is the need of having two different Infinispan Clusters with Cross Site Replication enabled. see https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
-msgstr "Caso já esteja executando um servidor Infinispan no Docker, se os contêineres utilizarem a mesma porta mcastPort, eles formarão um cluster. Defina uma porta mcastPort diferente para criar um cluster separado no Docker (por exemplo, 46656). Um caso de uso comum no modo de desenvolvimento local do Docker é a necessidade de ter dois clusters Infinispan distintos com a replicação entre sites (Cross Site Replication) habilitada. Consulte https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
+msgstr "Caso já esteja executando um servidor Infinispan no Docker, se os contêineres utilizarem a mesma porta mcastPort, eles formarão um cluster. Defina uma porta mcastPort diferente para criar um cluster separado no Docker (por exemplo, 46656). Um caso de uso comum no modo de desenvolvimento local do Docker é a necessidade de ter dois clusters Infinispan diferentes com a replicação entre sites (Cross Site Replication) habilitada. Consulte https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
 
 #. mt: deepl
 #, fuzzy
@@ -676,7 +676,7 @@ msgstr "_Essa propriedade está obsoleta._"
 #. mt: deepl
 #, fuzzy
 msgid "Runs the Infinispan Server container with tracing enabled. Traces are disabled by default"
-msgstr "Executa o contêiner do Infinispan Server com o rastreamento ativado. O rastreamento está desativado por padrão"
+msgstr "Executa o contêiner do Infinispan Server com o rastreamento ativado. Por padrão, o rastreamento está desativado"
 
 #. mt: deepl
 #, fuzzy

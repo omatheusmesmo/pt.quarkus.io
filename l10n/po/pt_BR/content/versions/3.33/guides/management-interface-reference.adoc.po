@@ -428,7 +428,7 @@ msgstr "[lock]  link:#quarkus-vertx-http_quarkus-management-root-path[quarkus.ma
 #. mt: deepl
 #, fuzzy
 msgid "A common root path for management endpoints. Various extension-provided management endpoints such as metrics and health are deployed under this path by default."
-msgstr "Um caminho raiz comum para pontos de extremidade de gerenciamento. Vários pontos de extremidade de gerenciamento fornecidos por extensões, como métricas e integridade, são implantados nesse caminho por padrão."
+msgstr "Um caminho raiz comum para pontos de extremidade de gerenciamento. Diversos pontos de extremidade de gerenciamento fornecidos por extensões, tais como métricas e integridade, são implantados nesse caminho por padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -563,7 +563,7 @@ msgstr "[lock]  link:#quarkus-vertx-http_quarkus-management-compression-level[qu
 #. mt: deepl
 #, fuzzy
 msgid "The compression level used when compression support is enabled."
-msgstr "O nível de compactação utilizado quando o suporte à compactação está ativado."
+msgstr "O nível de compactação utilizado quando o recurso de compactação está ativado."
 
 #. mt: deepl
 #, fuzzy
@@ -856,7 +856,7 @@ msgstr "O nome do bean do provedor de credenciais."
 #. mt: deepl
 #, fuzzy
 msgid "This is a bean name (as in `@Named`) of a bean that implements `CredentialsProvider`. It is used to select the credentials provider bean when multiple exist. This is unnecessary when there is only one credentials provider available."
-msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando há vários deles. Isso não é necessário quando há apenas um provedor de credenciais disponível."
+msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver mais de um. Isso não é necessário quando há apenas um provedor de credenciais disponível."
 
 #. mt: deepl
 #, fuzzy
@@ -1136,7 +1136,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-key-store-a
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-ssl-certificate-key-store-alias]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-ssl-certificate-key-store-alias[`+++quarkus.management.ssl.certificate.key-store-alias+++`]##\n"
 "config_property_copy_button:+++quarkus.management.ssl.certificate.key-store-alias+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-key-store-alias[quarkus.management.ssl.certificate.key-store-alias] botão_para_copiar_propriedade_de_configuração:quarkus.management.ssl.certificate.key-store-alias[]"
+msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-key-store-alias[quarkus.management.ssl.certificate.key-store-alias] config_property_copy_button:quarkus.management.ssl.certificate.key-store-alias[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1240,7 +1240,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store
 #. mt: deepl
 #, fuzzy
 msgid "An optional trust store that holds the certificate information of the trusted certificates."
-msgstr "Um repositório de confiança opcional que armazena as informações dos certificados confiáveis."
+msgstr "Um armazenamento de confiança opcional que contém as informações dos certificados confiáveis."
 
 #. mt: deepl
 #, fuzzy
@@ -1339,7 +1339,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store
 #. mt: deepl
 #, fuzzy
 msgid "An optional parameter to specify a provider of the trust store file. If not given, the provider is automatically detected based on the trust store file type."
-msgstr "Um parâmetro opcional para especificar um provedor do arquivo do armazenamento de confiança. Se não for fornecido, o provedor é detectado automaticamente com base no tipo do arquivo do armazenamento de confiança."
+msgstr "Um parâmetro opcional para especificar um provedor do arquivo do armazenamento de confiança. Caso não seja fornecido, o provedor é detectado automaticamente com base no tipo do arquivo do armazenamento de confiança."
 
 #. mt: deepl
 #, fuzzy
@@ -1400,7 +1400,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store-password-key]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store-password-key[`+++quarkus.management.ssl.certificate.trust-store-password-key+++`]##\n"
 "config_property_copy_button:+++quarkus.management.ssl.certificate.trust-store-password-key+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store-password-key[quarkus.management.ssl.certificate.trust-store-password-key] config_property_copy_button:quarkus.management.ssl.certificate.trust-store-password-key[]"
+msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store-password-key[quarkus.management.ssl.certificate.trust-store-password-key] botão_para_copiar_propriedade_de_configuração:quarkus.management.ssl.certificate.trust-store-password-key[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1438,7 +1438,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-ssl-certificate-trust-store
 #. mt: deepl
 #, fuzzy
 msgid "An optional parameter to trust a single certificate from the trust store rather than trusting all certificates in the store."
-msgstr "Um parâmetro opcional para confiar em um único certificado do repositório de confiança, em vez de confiar em todos os certificados do repositório."
+msgstr "Um parâmetro opcional para confiar em um único certificado do repositório de confiança, em vez de confiar em todos os certificados contidos no repositório."
 
 #. mt: deepl
 #, fuzzy
@@ -1656,7 +1656,7 @@ msgstr "O nome da configuração TLS a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If not set and the default TLS configuration is configured (`quarkus.tls.++*++`) then that will be used. If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown."
-msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver definido, será utilizada a configuração de `quarkus.tls.<nome>.*` Se um nome estiver definido, mas não for encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
+msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver definido, será utilizada a configuração de `quarkus.tls.<nome>.*.` Se um nome estiver definido, mas não for encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -1841,7 +1841,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-initial-line-len
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-limits-max-initial-line-length]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-limits-max-initial-line-length[`+++quarkus.management.limits.max-initial-line-length+++`]##\n"
 "config_property_copy_button:+++quarkus.management.limits.max-initial-line-length+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-initial-line-length[quarkus.management.limits.max-initial-line-length] config_property_copy_button:quarkus.management.limits.max-initial-line-length[]"
+msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-initial-line-length[quarkus.management.limits.max-initial-line-length] botão_para_copiar_propriedade_de_configuração:quarkus.management.limits.max-initial-line-length[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2083,7 +2083,7 @@ msgstr "Defina a configuração HTTP/2 SETTINGS_HEADER_TABLE_SIZE."
 #. mt: deepl
 #, fuzzy
 msgid "Allows the sender to inform the remote endpoint of the maximum size of the header compression table used to decode header blocks, in octets. The encoder can select any size equal to or less than this value by using signaling specific to the header compression format inside a header block. The initial value is `4,096` octets."
-msgstr "Permite que o remetente informe ao ponto de extremidade remoto o tamanho máximo da tabela de compressão de cabeçalho utilizada para decodificar blocos de cabeçalho, em octetos. O codificador pode selecionar qualquer tamanho igual ou inferior a esse valor, utilizando sinalização específica para o formato de compressão de cabeçalho dentro de um bloco de cabeçalho. O valor inicial é `4.096` octetos."
+msgstr "Permite que o remetente informe ao ponto de extremidade remoto o tamanho máximo da tabela de compressão de cabeçalho utilizada para decodificar blocos de cabeçalho, em octetos. O codificador pode selecionar qualquer tamanho igual ou inferior a esse valor, utilizando sinalização específica do formato de compressão de cabeçalho dentro de um bloco de cabeçalho. O valor inicial é `4.096` octetos."
 
 #. mt: deepl
 #, fuzzy
@@ -2187,7 +2187,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-header-list-size
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-limits-max-header-list-size]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-limits-max-header-list-size[`+++quarkus.management.limits.max-header-list-size+++`]##\n"
 "config_property_copy_button:+++quarkus.management.limits.max-header-list-size+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-header-list-size[quarkus.management.limits.max-header-list-size] config_property_copy_button:quarkus.management.limits.max-header-list-size[]"
+msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-header-list-size[quarkus.management.limits.max-header-list-size] botão_para_copiar_propriedade_de_configuração:quarkus.management.limits.max-header-list-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2258,7 +2258,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-limits-rst-flood-window-dur
 #. mt: deepl
 #, fuzzy
 msgid "Set the duration of the time window when checking the max number of RST frames, this is used to prevent link:https://github.com/netty/netty/security/advisories/GHSA-xpw8-rcwv-8f8p[HTTP/2 RST frame flood DDOS attacks].. The default value is `30 s`, setting zero or a negative value, disables flood protection."
-msgstr "Defina a duração da janela de tempo para a verificação do número máximo de quadros RST; isso é utilizado para prevenir link:https://github.com/netty/netty/security/advisories/GHSA-xpw8-rcwv-8f8p[ataques DDoS do tipo inundação de quadros RST no HTTP/2] . O valor padrão é `30 s` ; definir zero ou um valor negativo desativa a proteção contra inundação."
+msgstr "Defina a duração da janela de tempo para a verificação do número máximo de quadros RST; isso é utilizado para prevenir link:https://github.com/netty/netty/security/advisories/GHSA-xpw8-rcwv-8f8p[ataques DDoS do tipo “flood” de quadros RST no HTTP/2] . O valor padrão é `30 s` ; definir zero ou um valor negativo desativa a proteção contra “flood”."
 
 #. mt: deepl
 #, fuzzy
@@ -2376,7 +2376,7 @@ msgstr "O diretório onde os arquivos enviados por meio do cabeçalho ` `multipa
 #. mt: deepl
 #, fuzzy
 msgid "Either an absolute path or a path relative to the current directory of the application process."
-msgstr "Um caminho absoluto ou um caminho relativo ao diretório atual do processo do aplicativo."
+msgstr "Pode ser um caminho absoluto ou um caminho relativo ao diretório atual do processo do aplicativo."
 
 #. mt: deepl
 #, fuzzy
@@ -2461,7 +2461,7 @@ msgstr "Se os arquivos enviados devem ser removidos após o atendimento da solic
 #. mt: deepl
 #, fuzzy
 msgid "If `true` the uploaded files stored in `quarkus.http.body-handler.uploads-directory` will be removed after handling the request. Otherwise, the files will be left there forever."
-msgstr "Se `for verdadeiro` , os arquivos enviados e armazenados em ` `quarkus.http.body-handler.uploads-directory` ` serão removidos após o processamento da solicitação. Caso contrário, os arquivos permanecerão lá para sempre."
+msgstr "Se `for verdadeiro` , os arquivos enviados e armazenados em ` `quarkus.http.body-handler.uploads-directory` ` serão removidos após o processamento da solicitação. Caso contrário, os arquivos permanecerão lá indefinidamente."
 
 #. mt: deepl
 #, fuzzy
@@ -2685,7 +2685,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-proxy-use-proxy-protocol[qu
 #. mt: deepl
 #, fuzzy
 msgid "Set whether the server should use the HA `PROXY` protocol when serving requests from behind a proxy. (see the link:https://www.haproxy.org/download/1.8/doc/proxy-protocol.txt[PROXY Protocol]). When set to `true`, the remote address returned will be the one from the actual connecting client. If it is set to `false` (default), the remote address returned will be the one from the proxy."
-msgstr "Defina se o servidor deve utilizar o protocolo HA `PROXY` ao atender solicitações por meio de um proxy. (consulte o link:https://www.haproxy.org/download/1.8/doc/proxy-protocol.txt[Protocolo PROXY] ). Quando definido como `“true”` , o endereço remoto retornado será o do cliente que está realmente se conectando. Se estiver definido como `“false”` (padrão), o endereço remoto retornado será o do proxy."
+msgstr "Defina se o servidor deve utilizar o protocolo HA `PROXY` ao atender solicitações por meio de um proxy. (consulte o link:https://www.haproxy.org/download/1.8/doc/proxy-protocol.txt[Protocolo PROXY] ). Quando definido como `“true”` , o endereço remoto retornado será o do cliente que está realmente se conectando. Se for definido como `“false”` (padrão), o endereço remoto retornado será o do proxy."
 
 #. mt: deepl
 #, fuzzy
@@ -2718,7 +2718,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-proxy-proxy-address-forward
 #. mt: deepl
 #, fuzzy
 msgid "If this is true then the address, scheme etc. will be set from headers forwarded by the proxy server, such as `X-Forwarded-For`. This should only be set if you are behind a proxy that sets these headers."
-msgstr "Se isso for verdade, o endereço, o esquema etc. serão definidos a partir dos cabeçalhos encaminhados pelo servidor proxy, como `o X-Forwarded-For` . Esses campos só devem ser preenchidos se o senhor estiver atrás de um proxy que defina esses cabeçalhos."
+msgstr "Se isso for verdade, o endereço, o esquema etc. serão definidos a partir dos cabeçalhos encaminhados pelo servidor proxy, como `o X-Forwarded-For` . Esses valores só devem ser definidos caso o senhor esteja atrás de um proxy que defina esses cabeçalhos."
 
 #. mt: deepl
 #, fuzzy
@@ -2751,7 +2751,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-proxy-allow-forwarded[quark
 #. mt: deepl
 #, fuzzy
 msgid "If this is true and proxy address forwarding is enabled then the standard `Forwarded` header will be used. In case the not standard `X-Forwarded-For` header is enabled and detected on HTTP requests, the standard header has the precedence. Activating this together with `quarkus.http.proxy.allow-x-forwarded` has security implications as clients can forge requests with a forwarded header that is not overwritten by the proxy. Therefore, proxies should strip unexpected `Forwarded` or `X-Forwarded-++*++` headers from the client."
-msgstr "Se isso for verdade e o encaminhamento de endereços por proxy estiver habilitado, o cabeçalho padrão `“Forwarded”` será utilizado. Caso o cabeçalho não padrão `“X-Forwarded-For”` esteja habilitado e seja detectado em solicitações HTTP, o cabeçalho padrão terá precedência. A ativação desta opção em conjunto com ``quarkus.http.proxy.allow-x-forwarded` ` traz implicações de segurança, pois os clientes podem falsificar solicitações com um cabeçalho “Forwarded” que não seja sobrescrito pelo proxy. Portanto, os proxies devem remover cabeçalhos `“Forwarded”` ou `“X-Forwarded-*”` inesperados do cliente."
+msgstr "Se isso for verdade e o encaminhamento de endereços por proxy estiver habilitado, o cabeçalho padrão `“Forwarded”` será utilizado. Caso o cabeçalho não padrão `“X-Forwarded-For”` esteja habilitado e seja detectado em solicitações HTTP, o cabeçalho padrão terá precedência. A ativação dessa opção em conjunto com ``quarkus.http.proxy.allow-x-forwarded` ` traz implicações de segurança, pois os clientes podem falsificar solicitações com um cabeçalho “Forwarded” que não seja sobrescrito pelo proxy. Portanto, os proxies devem remover cabeçalhos `“Forwarded”` ou `“X-Forwarded-*”` inesperados do cliente."
 
 #. mt: deepl
 #, fuzzy
@@ -2817,7 +2817,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-proxy-strict-forwarded-cont
 #. mt: deepl
 #, fuzzy
 msgid "When both Forwarded and X-Forwarded headers are enabled with `allow-forwarded` and `allow-x-forwarded` respectively, enforce that the identical headers must have equal values."
-msgstr "Quando os cabeçalhos “Forwarded” e “X-Forwarded” estiverem habilitados com `“allow-forwarded”` e `“allow-x-forwarded”` , respectivamente, exija que os cabeçalhos idênticos tenham valores iguais."
+msgstr "Quando os cabeçalhos “Forwarded” e “X-Forwarded” estiverem habilitados com `“allow-forwarded”` e `“allow-x-forwarded”` , respectivamente, exija que esses cabeçalhos idênticos tenham valores iguais."
 
 #. mt: deepl
 #, fuzzy
@@ -2857,7 +2857,7 @@ msgstr "Quando os cabeçalhos “Forwarded” e “X-Forwarded” estiverem habi
 #. mt: deepl
 #, fuzzy
 msgid "For example, if Forwarded has a precedence over X-Forwarded, Forwarded scheme is `http` and X-Forwarded scheme is `https`, then the final scheme value is `http`. If X-Forwarded has a precedence, then the final scheme value is 'https'."
-msgstr "Por exemplo, se “Forwarded” tiver precedência sobre “X-Forwarded”, o esquema de “Forwarded” for `http` e o esquema de “X-Forwarded” for `https` , então o valor final do esquema será `http` . Se “X-Forwarded” tiver precedência, então o valor final do esquema será “https”."
+msgstr "Por exemplo, se “Forwarded” tiver precedência sobre “X-Forwarded”, e o esquema de “Forwarded” for `http` enquanto o de “X-Forwarded” for `https` , o valor final do esquema será `http` . Se “X-Forwarded” tiver precedência, o valor final do esquema será “https”."
 
 #. mt: deepl
 #, fuzzy
@@ -3110,7 +3110,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-proxy-trusted-proxies[quark
 #. mt: deepl
 #, fuzzy
 msgid "Configure the list of trusted proxy addresses. Received `Forwarded`, `X-Forwarded` or `X-Forwarded-++*++` headers from any other proxy address will be ignored. The trusted proxy address should be specified as the IP address (IPv4 or IPv6), hostname or Classless Inter-Domain Routing (CIDR) notation. Please note that Quarkus needs to perform DNS lookup for all hostnames during the request. For that reason, using hostnames is not recommended."
-msgstr "Configure a lista de endereços de proxy confiáveis. Os cabeçalhos “Received `Forwarded”` , `“X-Forwarded”` ou `“X-Forwarded-*”` provenientes de qualquer outro endereço de proxy serão ignorados. O endereço de proxy confiável deve ser especificado como endereço IP (IPv4 ou IPv6), nome de host ou na notação CIDR (Classless Inter-Domain Routing). Observe que o Quarkus precisa realizar uma consulta de DNS para todos os nomes de host durante a solicitação. Por esse motivo, não é recomendável utilizar nomes de host."
+msgstr "Configure a lista de endereços de proxy confiáveis. Os cabeçalhos “Received `Forwarded”` , `“X-Forwarded”` ou `“X-Forwarded-*”` provenientes de qualquer outro endereço de proxy serão ignorados. O endereço de proxy confiável deve ser especificado como endereço IP (IPv4 ou IPv6), nome de host ou na notação CIDR (Classless Inter-Domain Routing). Observe que o Quarkus precisa realizar a consulta de DNS para todos os nomes de host durante a solicitação. Por esse motivo, não é recomendado o uso de nomes de host."
 
 #. mt: deepl
 #, fuzzy
@@ -3308,7 +3308,7 @@ msgstr "Observe que, se uma solicitação corresponder a qualquer caminho de qua
 #. mt: deepl
 #, fuzzy
 msgid "Method specific permissions take precedence over matches that do not have any methods set."
-msgstr "As permissões específicas de método têm precedência sobre correspondências que não tenham nenhum método definido."
+msgstr "As permissões específicas de método têm precedência sobre as correspondências que não possuem nenhum método definido."
 
 #. mt: deepl
 #, fuzzy
@@ -3393,7 +3393,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-permission-permissions
 #. mt: deepl
 #, fuzzy
 msgid "One or more path specific authentication mechanisms separated by comma. Every listed value needs to match `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` authentication scheme such as 'basic', 'bearer', 'form', etc. By default, only one of the matching authentication mechanisms will produce a `SecurityIdentity`, and all matching authentication mechanisms will attempt to authenticate when an inclusive authentication is enabled."
-msgstr "Um ou mais mecanismos de autenticação específicos para cada caminho, separados por vírgula. Cada valor listado deve corresponder ao esquema de autenticação definido em `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` , como “basic”, “bearer”, “form”, etc. Por padrão, apenas um dos mecanismos de autenticação compatíveis produzirá uma `SecurityIdentity` , e todos os mecanismos de autenticação compatíveis tentarão autenticar quando a autenticação inclusiva estiver habilitada."
+msgstr "Um ou mais mecanismos de autenticação específicos para cada caminho, separados por vírgula. Cada valor listado deve corresponder ao esquema de autenticação definido em `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` , como 'basic', 'bearer', 'form', etc. Por padrão, apenas um dos mecanismos de autenticação compatíveis produzirá uma `SecurityIdentity` , e todos os mecanismos de autenticação compatíveis tentarão autenticar quando a autenticação inclusiva estiver habilitada."
 
 #. mt: deepl
 #, fuzzy
@@ -3497,12 +3497,12 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-rol
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-auth-policy-role-policy-roles-allowed]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-roles-allowed[`+++quarkus.management.auth.policy.\"role-policy\".roles-allowed+++`]##\n"
 "config_property_copy_button:+++quarkus.management.auth.policy.\"role-policy\".roles-allowed+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-roles-allowed[quarkus.management.auth.policy.\"role-policy\".roles-allowed] config_property_copy_button:quarkus.management.auth.policy.\"role-policy\".roles-allowed[]"
+msgstr " link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-roles-allowed[quarkus.management.auth.policy.\"role-policy\".roles-allowed] botão_para_copiar_propriedade_de_configuração:quarkus.management.auth.policy.\"role-policy\".roles-allowed[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The roles that are allowed to access resources protected by this policy. By default, access is allowed to any authenticated user."
-msgstr "As funções autorizadas a acessar os recursos protegidos por esta política. Por padrão, o acesso é permitido a qualquer usuário autenticado."
+msgstr "As funções que têm permissão para acessar recursos protegidos por esta política. Por padrão, o acesso é permitido a qualquer usuário autenticado."
 
 #. mt: deepl
 #, fuzzy
@@ -3606,7 +3606,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-per
 #. mt: deepl
 #, fuzzy
 msgid "Permissions granted by this policy will be created with a `java.security.Permission` implementation specified by this configuration property. The permission class must declare exactly one constructor that accepts permission name (`String`) or permission name and actions (`String`, `String++[]++`). Permission class must be registered for reflection if you run your application in a native mode."
-msgstr "As permissões concedidas por esta política serão criadas com uma implementação `de `java.security.Permission`` especificada por esta propriedade de configuração. A classe de permissão deve declarar exatamente um construtor que aceite o nome da permissão ( `String` ) ou o nome da permissão e as ações ( `String` , `String[]` ). A classe de permissão deve estar registrada para reflexão caso você execute seu aplicativo no modo nativo."
+msgstr "As permissões concedidas por esta política serão criadas com uma implementação `de `java.security.Permission`` especificada por esta propriedade de configuração. A classe de permissão deve declarar exatamente um construtor que aceite o nome da permissão ( `String` ) ou o nome da permissão e as ações ( `String` , `String[]` ). A classe de permissão deve estar registrada para reflexão caso você execute sua aplicação no modo nativo."
 
 #. mt: deepl
 #, fuzzy
@@ -4009,7 +4009,7 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy

@@ -2515,7 +2515,7 @@ msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-output-buffer-size[quarku
 #. mt: deepl
 #, fuzzy
 msgid "The size of the output stream response buffer. If a response is larger than this and no content-length is provided then the request will be chunked."
-msgstr "O tamanho do buffer de resposta do fluxo de saída. Se uma resposta for maior do que esse valor e não for fornecido nenhum “content-length”, a solicitação será dividida em blocos."
+msgstr "O tamanho do buffer de resposta do fluxo de saída. Se uma resposta for maior do que esse valor e não for fornecido nenhum “content-length”, a solicitação será dividida em partes."
 
 #. mt: deepl
 #, fuzzy
@@ -2558,7 +2558,7 @@ msgstr "[lock]  link:#quarkus-rest-common_quarkus-rest-single-default-produces[q
 #. mt: deepl
 #, fuzzy
 msgid "By default, we assume a default produced media type of \"text/plain\" for String endpoint return types. If this is disabled, the default produced media type will be \"++[++text/plain, ++*++/++*]++\" which is more expensive due to negotiation."
-msgstr "Por padrão, assumimos que o tipo de mídia produzido por padrão é “text/plain” para os tipos de retorno dos endpoints String. Se essa opção estiver desativada, o tipo de mídia produzido por padrão será “[text/plain, */*]”, o que acarreta um custo maior devido à negociação."
+msgstr "Por padrão, assumimos que o tipo de mídia produzido por padrão é “text/plain” para os tipos de retorno dos endpoints de String. Se essa opção estiver desativada, o tipo de mídia produzido por padrão será “[text/plain, */*]”, o que implica um custo maior devido à negociação."
 
 #. mt: deepl
 #, fuzzy
@@ -2794,7 +2794,7 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy

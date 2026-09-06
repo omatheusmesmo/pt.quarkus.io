@@ -204,7 +204,7 @@ msgstr "Comece com um verbo no imperativo, por exemplo, “Crie um …​” ou 
 #. mt: deepl
 #, fuzzy
 msgid "Be action-oriented or task-oriented, rather than feature-oriented"
-msgstr "Seja orientado para a ação ou para as tarefas, em vez de ser orientado para os recursos"
+msgstr "Seja orientado para a ação ou para a tarefa, em vez de ser orientado para os recursos"
 
 #. mt: deepl
 #, fuzzy

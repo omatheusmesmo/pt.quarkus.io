@@ -568,7 +568,7 @@ msgstr "[lock]  link:#quarkus-container-image_quarkus-container-image-username[q
 #. mt: deepl
 #, fuzzy
 msgid "The username to use to authenticate with the registry where the built image will be pushed"
-msgstr "O nome de usuário a ser utilizado para autenticação no registro para o qual a imagem compilada será enviada"
+msgstr "O nome de usuário a ser utilizado para autenticação no repositório para o qual a imagem compilada será enviada"
 
 #. mt: deepl
 #, fuzzy
@@ -841,7 +841,7 @@ msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-jvm-image[qua
 #. mt: deepl
 #, fuzzy
 msgid "The base image to be used when a container image is being produced for the jar build. When the application is built against Java 25 or higher, `registry.access.redhat.com/ubi9/openjdk-25-runtime:1.24` is used as the default. Otherwise, when the application is built against Java 21 to Java 24, `registry.access.redhat.com/ubi9/openjdk-21-runtime:1.24` is used as the default. Otherwise `registry.access.redhat.com/ubi9/openjdk-17-runtime:1.24` is used as the default."
-msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo gerada para a compilação do JAR. Quando o aplicativo é compilado com base no Java 25 ou superior, `registry.access.redhat.com/ubi9/openjdk-25-runtime:1.24` é utilizada como padrão. Caso contrário, quando a aplicação for compilada com Java 21 a Java 24, `registry.access.redhat.com/ubi9/openjdk-21-runtime:1.24` é utilizada como padrão. Caso contrário, `registry.access.redhat.com/ubi9/openjdk-17-runtime:1.24` é utilizado como padrão."
+msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo gerada para a compilação do jar. Quando o aplicativo é compilado com base no Java 25 ou superior, `registry.access.redhat.com/ubi9/openjdk-25-runtime:1.24` é utilizada como padrão. Caso contrário, quando o aplicativo for compilado com o Java 21 a Java 24, `registry.access.redhat.com/ubi9/openjdk-21-runtime:1.24` é utilizado como padrão. Caso contrário, `registry.access.redhat.com/ubi9/openjdk-17-runtime:1.24` é utilizado como padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -874,7 +874,7 @@ msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-base-native-image[
 #. mt: deepl
 #, fuzzy
 msgid "The base image to be used when a container image is being produced for the native binary build. The default is \"quay.io/quarkus/ubi9-quarkus-micro-image:2.0\". You can also use \"registry.access.redhat.com/ubi9/ubi-minimal\" which is a bigger base image, but provide more built-in utilities such as the microdnf package manager."
-msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo produzida para a compilação binária nativa. O padrão é “quay.io/quarkus/ubi9-quarkus-micro-image:2.0”. Você também pode utilizar “registry.access.redhat.com/ubi9/ubi-minimal”, que é uma imagem base maior, mas oferece mais utilitários integrados, como o gerenciador de pacotes microdnf."
+msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo produzida para a compilação de binários nativos. O padrão é “quay.io/quarkus/ubi9-quarkus-micro-image:2.0”. Você também pode utilizar “registry.access.redhat.com/ubi9/ubi-minimal”, que é uma imagem base maior, mas oferece mais utilitários integrados, como o gerenciador de pacotes microdnf."
 
 #. mt: deepl
 #, fuzzy
@@ -1038,7 +1038,7 @@ msgstr "Um ponto de entrada válido é específico do pacote jar (consulte `quar
 #. mt: deepl
 #, fuzzy
 msgid "A valid entrypoint depends on the location of both the launching scripts and the application jar file. To that end it's helpful to remember that when `fast-jar` packaging is used (the default), all necessary application jars are added to the `/work` directory and that the same directory is also used as the working directory. When `legacy-jar` or `uber-jar` are used, the application jars are unpacked under the `/app` directory and that directory is used as the working directory."
-msgstr "Um ponto de entrada válido depende da localização tanto dos scripts de inicialização quanto do arquivo JAR do aplicativo. Nesse sentido, é importante lembrar que, quando se utiliza a empacotamento `fast-jar` (padrão), todos os JARs necessários do aplicativo são adicionados ao diretório `/work` e que esse mesmo diretório também é utilizado como diretório de trabalho. Quando se utilizam `o “legacy-jar”` ou `o “uber-jar”` , os JARs do aplicativo são descompactados no diretório `/app` , e esse diretório é utilizado como diretório de trabalho."
+msgstr "Um ponto de entrada válido depende da localização tanto dos scripts de inicialização quanto do arquivo JAR do aplicativo. Para esse fim, é importante lembrar que, quando se utiliza a empacotamento `fast-jar` (padrão), todos os JARs necessários do aplicativo são adicionados ao diretório `/work` e que esse mesmo diretório também é utilizado como diretório de trabalho. Quando se utilizam `o “legacy-jar”` ou `o “uber-jar”` , os JARs do aplicativo são descompactados no diretório `/app` , e esse diretório é utilizado como diretório de trabalho."
 
 #. mt: deepl
 #, fuzzy
@@ -1398,7 +1398,7 @@ msgstr "por exemplo:"
 #. mt: deepl
 #, fuzzy
 msgid "If not specified, OS default is linux and architecture default is `amd64`. If more than one platform is configured, it is important to note that the base image has to be a Docker manifest or an OCI image index containing a version of each chosen platform. The feature does not work with native images, as cross-compilation is not supported. This configuration is based on an incubating feature of Jib. See link:https://github.com/GoogleContainerTools/jib/blob/master/docs/faq.md#how-do-i-specify-a-platform-in-the-manifest-list-or-oci-index-of-a-base-image[Jib FAQ] for more information."
-msgstr "Caso não seja especificado, o padrão do sistema operacional é o Linux e o padrão da arquitetura é `o amd64` . Se mais de uma plataforma estiver configurada, é importante observar que a imagem base deve ser um manifesto do Docker ou um índice de imagens OCI contendo uma versão de cada plataforma escolhida. O recurso não funciona com imagens nativas, uma vez que a compilação cruzada não é suportada. Esta configuração baseia-se em um recurso em fase de incubação do Jib. Consulte link:https://github.com/GoogleContainerTools/jib/blob/master/docs/faq.md#how-do-i-specify-a-platform-in-the-manifest-list-or-oci-index-of-a-base-image[o FAQ do Jib] para obter mais informações."
+msgstr "Caso não seja especificado, o padrão do sistema operacional é o Linux e o padrão da arquitetura é `o amd64` . Se mais de uma plataforma estiver configurada, é importante observar que a imagem base deve ser um manifesto do Docker ou um índice de imagens OCI contendo uma versão de cada plataforma escolhida. O recurso não funciona com imagens nativas, uma vez que a compilação cruzada não é suportada. Essa configuração baseia-se em um recurso em fase de incubação do Jib. Consulte link:https://github.com/GoogleContainerTools/jib/blob/master/docs/faq.md#how-do-i-specify-a-platform-in-the-manifest-list-or-oci-index-of-a-base-image[o FAQ do Jib] para obter mais informações."
 
 #. mt: deepl
 #, fuzzy
@@ -1540,7 +1540,7 @@ msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-docker-executable-
 #. mt: deepl
 #, fuzzy
 msgid "Name of binary used to execute the docker commands. This is only used by Jib when the container image is being built locally."
-msgstr "Nome do binário utilizado para executar os comandos do Docker. Isso só é utilizado pelo Jib quando a imagem do contêiner está sendo construída localmente."
+msgstr "Nome do binário utilizado para executar os comandos do Docker. Isso só é utilizado pelo Jib quando a imagem do contêiner está sendo compilada localmente."
 
 #. mt: deepl
 #, fuzzy
@@ -1573,7 +1573,7 @@ msgstr "[lock]  link:#quarkus-container-image-jib_quarkus-jib-docker-environment
 #. mt: deepl
 #, fuzzy
 msgid "Sets environment variables used by the Docker executable. This is only used by Jib when the container image is being built locally."
-msgstr "Define as variáveis de ambiente utilizadas pelo executável do Docker. Isso só é utilizado pelo Jib quando a imagem do contêiner está sendo compilada localmente."
+msgstr "Define as variáveis de ambiente utilizadas pelo executável do Docker. Isso só é utilizado pelo Jib quando a imagem do contêiner está sendo criada localmente."
 
 #. mt: deepl
 #, fuzzy
@@ -1831,7 +1831,7 @@ msgstr "[lock]  link:#quarkus-container-image-docker_quarkus-docker-build-args-a
 #. mt: deepl
 #, fuzzy
 msgid "Build args passed to docker via `--build-arg`"
-msgstr "Argumentos de compilação passados ao Docker por meio da `opção --build-arg`"
+msgstr "Argumentos de compilação passados ao Docker por meio de `--build-arg`"
 
 #. mt: deepl
 #, fuzzy
@@ -2341,7 +2341,7 @@ msgstr "[lock]  link:#quarkus-container-image-podman_quarkus-podman-tls-verify[q
 #. mt: deepl
 #, fuzzy
 msgid "Require HTTPS and verify certificates when contacting registries"
-msgstr "Exigir HTTPS e verificar certificados ao entrar em contato com os registros"
+msgstr "Exigir o uso de HTTPS e verificar os certificados ao entrar em contato com os registros"
 
 #. mt: deepl
 #, fuzzy
@@ -2429,7 +2429,7 @@ msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-base-j
 #. mt: deepl
 #, fuzzy
 msgid "The base image to be used when a container image is being produced for the jar build. The value of this property is used to create an ImageStream for the builder image used in the OpenShift build. When it references images already available in the internal OpenShift registry, the corresponding streams are used instead. When the application is built against Java 25 or higher, `registry.access.redhat.com/ubi9/openjdk-25:1.24` is used as the default. Otherwise, when the application is built against Java 21 to Java 24, `registry.access.redhat.com/ubi9/openjdk-21:1.24` is used as the default. Otherwise `registry.access.redhat.com/ubi9/openjdk-17:1.24` is used as the default."
-msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo produzida para a compilação do JAR. O valor desta propriedade é utilizado para criar um ImageStream para a imagem do construtor utilizada na compilação do OpenShift. Quando ela faz referência a imagens já disponíveis no registro interno do OpenShift, os streams correspondentes são utilizados em seu lugar. Quando a aplicação é compilada com base no Java 25 ou superior, `registry.access.redhat.com/ubi9/openjdk-25:1.24` é utilizado como padrão. Caso contrário, quando a aplicação é compilada com Java 21 a Java 24, `registry.access.redhat.com/ubi9/openjdk-21:1.24` é utilizado como padrão. Caso contrário, `o `registry.access.redhat.com/ubi9/openjdk-17:1.24` ` é utilizado como padrão."
+msgstr "A imagem base a ser utilizada quando uma imagem de contêiner está sendo produzida para a compilação do JAR. O valor desta propriedade é utilizado para criar um ImageStream para a imagem do construtor utilizada na compilação do OpenShift. Quando ela faz referência a imagens já disponíveis no registro interno do OpenShift, os streams correspondentes são utilizados em seu lugar. Quando a aplicação é compilada com base no Java 25 ou superior, `registry.access.redhat.com/ubi9/openjdk-25:1.24` é utilizado como padrão. Caso contrário, quando a aplicação é compilada com Java 21 a Java 24, ` `registry.access.redhat.com/ubi9/openjdk-21:1.24`` é utilizado como padrão. Caso contrário, o ` `registry.access.redhat.com/ubi9/openjdk-17:1.24` ` é utilizado como padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -2533,7 +2533,7 @@ msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-native
 #. mt: deepl
 #, fuzzy
 msgid "The default Dockerfile to use for native builds"
-msgstr "O Dockerfile padrão a ser utilizado para compilações nativas"
+msgstr "O arquivo Dockerfile padrão a ser utilizado para compilações nativas"
 
 #. mt: deepl
 #, fuzzy
@@ -2655,7 +2655,7 @@ msgstr "[lock]  link:#quarkus-container-image-openshift_quarkus-openshift-jar-fi
 #. mt: deepl
 #, fuzzy
 msgid "The resulting filename of the jar in the S2I image. This option may be used if the selected S2I image uses a fixed name for the jar."
-msgstr "O nome do arquivo JAR resultante na imagem S2I. Essa opção pode ser utilizada caso a imagem S2I selecionada utilize um nome fixo para o arquivo JAR."
+msgstr "O nome do arquivo .jar resultante na imagem S2I. Essa opção pode ser utilizada caso a imagem S2I selecionada utilize um nome fixo para o arquivo .jar."
 
 #. mt: deepl
 #, fuzzy
@@ -2850,7 +2850,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OPENSHIFT_IMAGE_
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy
@@ -3052,7 +3052,7 @@ msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-trust-
 #. mt: deepl
 #, fuzzy
 msgid "Should the builder image be 'trusted' ? Trusted builders are allowed to attempt to use the `creator` lifecycle, which runs all the build phases within a single container. This is only possible for builders that do not use extensions. Running all phases in one container exposes some phases to information they may not see normally with a container-per-phase."
-msgstr "A imagem do construtor deve ser considerada “confiável”? Construtores confiáveis têm permissão para tentar utilizar o ciclo de vida `do criador` , que executa todas as fases de compilação dentro de um único contêiner. Isso só é possível para construtores que não utilizam extensões. A execução de todas as fases em um único contêiner expõe algumas fases a informações que elas talvez não tenham acesso normalmente no caso de um contêiner por fase."
+msgstr "A imagem do construtor deve ser considerada “confiável”? Construtores confiáveis têm permissão para tentar utilizar o ciclo de vida `do criador` , que executa todas as fases de compilação dentro de um único contêiner. Isso só é possível para construtores que não utilizam extensões. A execução de todas as fases em um único contêiner expõe algumas fases a informações que elas normalmente não teriam acesso ao utilizar um contêiner por fase."
 
 #. mt: deepl
 #, fuzzy
@@ -3184,7 +3184,7 @@ msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-regist
 #. mt: deepl
 #, fuzzy
 msgid "Tokens to use with registry hosts"
-msgstr "Tokens para uso com hosts de registro"
+msgstr "Tokens a serem utilizados com hosts de registro"
 
 #. mt: deepl
 #, fuzzy
@@ -3400,7 +3400,7 @@ msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-docker
 #. mt: deepl
 #, fuzzy
 msgid "Path to the Docker socket to use. This value is normally auto-determined, and is available for override if needed. The path to the socket can vary, especially when the docker/podman daemon is running inside a VM, if useDaemon mode is true, then this path must refer to the path that can be used to mount the socket inside a container, so may refer to the path to the socket in the VM rather than the host."
-msgstr "Caminho para o soquete do Docker a ser utilizado. Esse valor é normalmente determinado automaticamente e pode ser alterado, se necessário. O caminho para o soquete pode variar, especialmente quando o daemon do Docker/Podman está sendo executado dentro de uma VM; se o modo `useDaemon` estiver definido como `true`, esse caminho deve referir-se ao caminho que pode ser usado para montar o soquete dentro de um contêiner, podendo, portanto, referir-se ao caminho do soquete na VM, e não no host."
+msgstr "Caminho para o soquete do Docker a ser utilizado. Esse valor é normalmente determinado automaticamente e pode ser alterado, se necessário. O caminho para o soquete pode variar, especialmente quando o daemon do Docker/Podman está sendo executado dentro de uma VM; se o modo `useDaemon` estiver definido como `true`, esse caminho deve referir-se ao caminho que pode ser usado para montar o soquete dentro de um contêiner, podendo, portanto, referir-se ao caminho para o soquete na VM, em vez de no host."
 
 #. mt: deepl
 #, fuzzy
@@ -3433,7 +3433,7 @@ msgstr "[lock]  link:#quarkus-container-image-buildpack_quarkus-buildpack-use-da
 #. mt: deepl
 #, fuzzy
 msgid "use Daemon mode? Should the buildpack build have the docker socket mounted into the build container(s). If this is false, then the image will be built directly as layers in a remote registry, this will probably require registry credentials to be passed. Defaults to 'true'"
-msgstr "Utilizar o modo Daemon? A compilação do buildpack deve ter o soquete do Docker montado no(s) contêiner(es) de compilação? Se o valor for “false”, a imagem será compilada diretamente como camadas em um registro remoto, o que provavelmente exigirá o fornecimento das credenciais do registro. O valor padrão é “true”."
+msgstr "Utilizar o modo Daemon? A compilação do buildpack deve ter o soquete do Docker montado no(s) contêiner(es) de compilação? Se o valor for “false”, a imagem será compilada diretamente como camadas em um registro remoto, o que provavelmente exigirá que as credenciais do registro sejam fornecidas. O valor padrão é “true”"
 
 #. mt: deepl
 #, fuzzy

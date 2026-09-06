@@ -685,7 +685,7 @@ msgstr "O nome do método a ser chamado antes da nova tentativa. O método perte
 #. mt: deepl
 #, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_FAULT_TOLERANCE___IDENTIFIER___BEFORE_RETRY_METHOD_NAME+++[]"
-msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_FAULT_TOLERANCE___IDENTIFIER___BEFORE_RETRY_METHOD_NAME[]"
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_FAULT_TOLERANCE___IDENTIFICADOR___BEFORE_RETRY_METHOD_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -782,7 +782,7 @@ msgstr " link:#quarkus-smallrye-fault-tolerance_quarkus-fault-tolerance-identifi
 #. mt: deepl
 #, fuzzy
 msgid "The `io.smallrye.common.annotation.Identifier @Identifier` of the `io.smallrye.faulttolerance.api.Guard Guard` or `io.smallrye.faulttolerance.api.TypedGuard TypedGuard` to use on the annotated method."
-msgstr "O `@Identifier io.smallrye.common.annotation.Identifier` do `Guard (io.smallrye.faulttolerance.api.Guard)` ou `do TypedGuard (io.smallrye.faulttolerance.api.TypedGuard` ) a ser utilizado no método anotado."
+msgstr "`O @Identifier` da classe `io.smallrye.common.annotation.Identifier` `do Guard (` `io` `.smallrye.faulttolerance.api.Guard)` ou `do TypedGuard (io.smallrye.faulttolerance.api.TypedGuard` ) a ser utilizado no método anotado."
 
 #. mt: deepl
 #, fuzzy
@@ -1026,7 +1026,7 @@ msgstr " link:#quarkus-smallrye-fault-tolerance_quarkus-fault-tolerance-identifi
 #. mt: deepl
 #, fuzzy
 msgid "The maximum number of queued asynchronous invocations. Asynchronous invocations are queued when the number of concurrent invocations in progress has already reached the maximum. Synchronous invocations are not queued at all and are rejected immediately."
-msgstr "O número máximo de chamadas assíncronas na fila. As chamadas assíncronas são colocadas na fila quando o número de chamadas simultâneas em andamento já atingiu o máximo. As chamadas síncronas não são colocadas na fila e são rejeitadas imediatamente."
+msgstr "O número máximo de chamadas assíncronas na fila. As chamadas assíncronas são colocadas na fila quando o número de chamadas simultâneas em andamento já atingiu o limite máximo. As chamadas síncronas não são colocadas na fila e são rejeitadas imediatamente."
 
 #. mt: deepl
 #, fuzzy
@@ -1545,7 +1545,7 @@ msgstr " link:#quarkus-smallrye-fault-tolerance_quarkus-fault-tolerance-identifi
 #. mt: deepl
 #, fuzzy
 msgid "The unit for `max-delay()`."
-msgstr "A unidade de medida da função ` `max-delay()` `."
+msgstr "A unidade de medida da função `max-delay()` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1611,7 +1611,7 @@ msgstr " link:#quarkus-smallrye-fault-tolerance_quarkus-fault-tolerance-identifi
 #. mt: deepl
 #, fuzzy
 msgid "The exception types that are considered failures and hence should trigger fallback."
-msgstr "Os tipos de exceção que são considerados falhas e, portanto, devem acionar o mecanismo de fallback."
+msgstr "Os tipos de exceção que são considerados falhas e, portanto, devem acionar o plano alternativo."
 
 #. mt: deepl
 #, fuzzy
@@ -1984,7 +1984,7 @@ msgstr " link:#quarkus-smallrye-fault-tolerance_quarkus-fault-tolerance-identifi
 #. mt: deepl
 #, fuzzy
 msgid "The time window length."
-msgstr "A duração do intervalo de tempo."
+msgstr "A duração da janela de tempo."
 
 #. mt: deepl
 #, fuzzy

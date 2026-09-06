@@ -2541,7 +2541,7 @@ msgstr "A lista de sufixos utilizados ao tentar localizar um arquivo de modelo."
 #. mt: deepl
 #, fuzzy
 msgid "By default, `engine.getTemplate(\"foo\")` would result in several lookups: `foo`, `foo.html`, `foo.txt`, etc."
-msgstr "Por padrão, `engine.getTemplate(\"foo\")` resultaria em várias pesquisas: `foo` , `foo.html` , `foo.txt` , etc."
+msgstr "Por padrão, `a chamada engine.getTemplate(\"foo\")` resultaria em várias pesquisas: `foo` , `foo.html` , `foo.txt` , etc."
 
 #. mt: deepl
 #, fuzzy
@@ -2594,7 +2594,7 @@ msgid ""
 " - `org.acme.Foo.name` - exclude the property/method `name` on the `org.acme.Foo` class\n"
 " - `org.acme.Foo.++*++` - exclude any property/method on the `org.acme.Foo` class\n"
 " - `++*++.age` - exclude the property/method `age` on any class"
-msgstr "A lista de regras de exclusão é utilizada para ignorar intencionalmente algumas partes de uma expressão ao realizar a validação com segurança de tipos. O valor de um elemento deve conter pelo menos duas partes separadas por um ponto. A última parte é utilizada para corresponder ao nome da propriedade ou do método. As partes iniciais são utilizadas para corresponder ao nome da classe. O valor `*` pode ser utilizado para corresponder a qualquer nome. Exemplos: - `org.acme.Foo.name` - exclui o `nome` da propriedade/método na classe `org.acme.Foo` - `org.acme.Foo.*` - exclui qualquer propriedade/método na classe `org.acme.Foo` - `*.age` - exclui a propriedade/método `age` em qualquer classe"
+msgstr "A lista de regras de exclusão utilizada para ignorar intencionalmente algumas partes de uma expressão ao realizar a validação com segurança de tipos. O valor de um elemento deve conter pelo menos duas partes separadas por um ponto. A última parte é utilizada para corresponder ao nome da propriedade/método. As partes iniciais são utilizadas para corresponder ao nome da classe. O valor `*` pode ser utilizado para corresponder a qualquer nome. Exemplos: - `org.acme.Foo.name` - exclui o `nome` da propriedade/método na classe `org.acme.Foo` - `org.acme.Foo.*` - exclui qualquer propriedade/método na classe `org.acme.Foo` - `*.age` - exclui a propriedade/método `age` em qualquer classe"
 
 #. mt: deepl
 #, fuzzy
@@ -2674,7 +2674,7 @@ msgid ""
 " - `<alias_>` - the alias of an iterated element suffixed with an underscore is used, e.g. `item_hasNext` and `it_count`\n"
 " - `<alias?>` - the alias of an iterated element suffixed with a question mark is used, e.g. `item?hasNext` and `it?count`\n"
 " - `<none>` - no prefix is used, e.g. `hasNext` and `count`  By default, the `<alias_>` constant is set."
-msgstr "O prefixo é utilizado para acessar os metadados de iteração dentro de uma seção de loop. Um prefixo válido é composto por caracteres alfanuméricos e sublinhados. Três constantes especiais podem ser utilizadas: - `<alias_>` - utiliza-se o alias de um elemento iterado com um sublinhado no final, por exemplo, `item_hasNext` e `it_count` - `<alias?>` - é utilizado o alias de um elemento iterado com um ponto de interrogação no final, por exemplo, `item?hasNext` e `it?count` - `<none>` - nenhum prefixo é utilizado, por exemplo, `hasNext` e `count` Por padrão, a constante `<alias_>` está definida."
+msgstr "O prefixo é utilizado para acessar os metadados de iteração dentro de uma seção de loop. Um prefixo válido é composto por caracteres alfanuméricos e sublinhados. Três constantes especiais podem ser utilizadas: - `<alias_>` - é utilizado o alias de um elemento iterado com um sublinhado no final, por exemplo, `item_hasNext` e `it_count` - `<alias?>` - é utilizado o alias de um elemento iterado com um ponto de interrogação no final, por exemplo, `item?hasNext` e `it?count` - `<none>` - nenhum prefixo é utilizado, por exemplo, `hasNext` e `count` Por padrão, a constante `<alias_>` está definida."
 
 #. mt: deepl
 #, fuzzy
@@ -2783,7 +2783,7 @@ msgid ""
 "The strategy used when a standalone expression evaluates to a \"not found\" value at runtime and the `quarkus.qute.strict-rendering` config property is set to `false`\n"
 "This strategy is never used when evaluating section parameters, e.g. `++{#++if foo.name++}++`. In such case, it's the responsibility of the section to handle this situation appropriately.\n"
 "By default, the `NOT_FOUND` constant is written to the output. However, in the development mode the `PropertyNotFoundStrategy++#++THROW_EXCEPTION` is used by default, i.e. when the strategy is not specified."
-msgstr "A estratégia utilizada quando uma expressão independente resulta em um valor “não encontrado” em tempo de execução e a propriedade de configuração ``quarkus.qute.strict-rendering` ` está definida como ``false`` . Essa estratégia nunca é utilizada na avaliação de parâmetros de seção, por exemplo, ``{#if foo.name}`` . Nesse caso, cabe à seção lidar com essa situação de maneira adequada. Por padrão, a constante `NOT_FOUND` é gravada na saída. No entanto, no modo de desenvolvimento, a `PropertyNotFoundStrategy#THROW_EXCEPTION` é utilizada por padrão, ou seja, quando a estratégia não for especificada."
+msgstr "A estratégia utilizada quando uma expressão independente resulta em um valor “não encontrado” em tempo de execução e a propriedade de configuração ``quarkus.qute.strict-rendering` ` está definida como ``false`` . Essa estratégia nunca é utilizada na avaliação de parâmetros de seção, por exemplo, ``{#if foo.name}`` . Nesse caso, cabe à seção lidar com essa situação de maneira adequada. Por padrão, a constante `NOT_FOUND` é gravada na saída. No entanto, no modo de desenvolvimento, a `PropertyNotFoundStrategy#THROW_EXCEPTION` é utilizada por padrão, ou seja, quando a estratégia não é especificada."
 
 #. mt: deepl
 #, fuzzy
@@ -2878,7 +2878,7 @@ msgstr "`link:#quarkus-qute_quarkus.qute.timeout[quarkus.qute.timeout]`"
 #. mt: deepl
 #, fuzzy
 msgid "The global rendering timeout in milliseconds. It is used if no `timeout` template instance attribute is set."
-msgstr "O tempo limite global de renderização em milissegundos. É utilizado caso não haja nenhum atributo de instância de modelo `de tempo limite` definido."
+msgstr "O tempo limite global de renderização em milissegundos. É utilizado caso nenhum atributo de instância do modelo `de tempo limite` esteja definido."
 
 #. mt: deepl
 #, fuzzy

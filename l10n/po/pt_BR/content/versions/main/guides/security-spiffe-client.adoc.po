@@ -195,8 +195,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -229,14 +230,16 @@ msgstr ""
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SPIFFE_CLIENT_ENABLED+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "`+++true+++`"
-msgstr ""
+msgstr "`verdadeiro`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled]] [.property-path]##link:#quarkus-spiffe-client_quarkus-spiffe-client-devservices-enabled[`+++quarkus.spiffe-client.devservices.enabled+++`]##\n"

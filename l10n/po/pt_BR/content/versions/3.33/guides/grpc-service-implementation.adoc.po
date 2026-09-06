@@ -193,7 +193,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-use-separate
 #. mt: deepl
 #, fuzzy
 msgid "Do we use separate HTTP server to serve gRPC requests. Set this to false if you want to use new Vert.x gRPC support, which uses existing Vert.x HTTP server."
-msgstr "Utilizamos um servidor HTTP separado para atender às solicitações gRPC? Defina este parâmetro como “false” caso deseje utilizar o novo suporte a gRPC do Vert.x, que utiliza o servidor HTTP já existente do Vert.x."
+msgstr "Utilizamos um servidor HTTP separado para atender às solicitações gRPC? Defina este parâmetro como “false” caso deseje utilizar o novo suporte a gRPC do Vert.x, que utiliza o servidor HTTP existente do Vert.x."
 
 #. mt: deepl
 #, fuzzy
@@ -546,7 +546,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-max-inbound-
 #. mt: deepl
 #, fuzzy
 msgid "The max inbound message size in bytes."
-msgstr "O tamanho máximo das mensagens recebidas, em bytes."
+msgstr "O tamanho máximo das mensagens recebidas em bytes."
 
 #. mt: deepl
 #, fuzzy
@@ -617,7 +617,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-certific
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to a server certificate or certificate chain in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -654,7 +654,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-key[quar
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to the corresponding certificate private key file in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -720,7 +720,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-key-stor
 #. mt: deepl
 #, fuzzy
 msgid "An optional parameter to specify the type of the keystore file. If not given, the type is automatically detected based on the file name."
-msgstr "Um parâmetro opcional para especificar o tipo do arquivo de armazenamento de chaves. Se não for fornecido, o tipo é detectado automaticamente com base no nome do arquivo."
+msgstr "Um parâmetro opcional para especificar o tipo do arquivo de armazenamento de chaves. Caso não seja fornecido, o tipo é detectado automaticamente com base no nome do arquivo."
 
 #. mt: deepl
 #, fuzzy
@@ -925,7 +925,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-trust-st
 #. mt: deepl
 #, fuzzy
 msgid "A parameter to specify the password of the trust store file."
-msgstr "Um parâmetro para especificar a senha do arquivo do armazenamento de confiança."
+msgstr "Um parâmetro para especificar a senha do arquivo do repositório de confiança."
 
 #. mt: deepl
 #, fuzzy
@@ -994,7 +994,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-protocol
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-protocols]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-protocols[`+++quarkus.grpc.server.ssl.protocols+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.server.ssl.protocols+++[]"
-msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-protocols[quarkus.grpc.server.ssl.protocols] botão_para_copiar_propriedade_de_configuração:quarkus.grpc.server.ssl.protocols[]"
+msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-ssl-protocols[quarkus.grpc.server.ssl.protocols] config_property_copy_button:quarkus.grpc.server.ssl.protocols[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1255,7 +1255,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-instances[qu
 #. mt: deepl
 #, fuzzy
 msgid "Number of gRPC server verticle instances. This is useful for scaling easily across multiple cores. The number should not exceed the amount of event loops."
-msgstr "Número de instâncias verticais do servidor gRPC. Isso é útil para escalar facilmente em vários núcleos. O número não deve exceder a quantidade de loops de eventos."
+msgstr "Número de instâncias verticais do servidor gRPC. Isso é útil para facilitar o dimensionamento em vários núcleos. O número não deve exceder a quantidade de loops de eventos."
 
 #. mt: deepl
 #, fuzzy
@@ -1293,7 +1293,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-server_quarkus-grpc-server-netty-keep-a
 #. mt: deepl
 #, fuzzy
 msgid "Sets a custom keep-alive duration. This configures the time before sending a `keepalive` ping when there is no read activity."
-msgstr "Define uma duração personalizada para o keep-alive. Isso configura o intervalo de tempo até o envio de um ping `de keep-alive` quando não há atividade de leitura."
+msgstr "Define uma duração personalizada para o keep-alive. Isso configura o tempo que deve decorrer antes do envio de um ping `de keep-alive` quando não há atividade de leitura."
 
 #. mt: deepl
 #, fuzzy

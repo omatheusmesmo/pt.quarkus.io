@@ -497,8 +497,9 @@ msgstr "link:https://openid.net/specs/openid-connect-discovery-1_0.html#Provider
 msgid "The default tenant's `OidcConfigurationMetadata` is injected if the endpoint is public."
 msgstr "O `OidcConfigurationMetadata` do locatário padrão é injetado se o ponto de extremidade for público."
 
+#, fuzzy
 msgid "Mapping token claims and <code>SecurityIdentity</code> roles"
-msgstr ""
+msgstr "Mapeamento de reivindicações de tokens e funções <code>SecurityIdentity</code>"
 
 #, fuzzy
 msgid ""
@@ -1058,8 +1059,9 @@ msgstr "O xref:user-initiated-logout[logout iniciado pelo] usuário fará o logo
 msgid "By using <<oidc-session,OidcSession>>, you can support a local logout, which means that only the local session cookie is cleared, as shown in the following example:"
 msgstr "Ao usar o xref:oidc-session[OidcSession] , o senhor pode dar suporte a um logout local, o que significa que somente o cookie da sessão local é apagado, conforme mostrado no exemplo a seguir:"
 
+#, fuzzy
 msgid "Using <code>OidcSession</code> for local logout"
-msgstr ""
+msgstr "Utilização de <code>OidcSession</code> para o logout local"
 
 #, fuzzy
 msgid ""

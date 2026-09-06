@@ -317,10 +317,11 @@ msgid ""
 "Therefore, `permit1` is selected, and the request is accepted."
 msgstr ""
 
+#, fuzzy
 msgid ""
 "In contrast, `PUT /public/foo` does not match the method permissions of `permit1`.\n"
 "As a result, `deny1` is activated, leading to the rejection of the request."
-msgstr ""
+msgstr "Por outro lado, `PUT /public/foo` não corresponde às permissões de método de `permit1` . Como resultado, `deny1` é ativado, o que leva à rejeição da solicitação."
 
 #, fuzzy
 msgid "Matching multiple paths and methods: both win"
@@ -442,10 +443,11 @@ msgstr ""
 msgid "If all that you need is to map the `SecurityIdentity` roles to the deployment-specific roles regardless of a path, you can also do this:"
 msgstr "Se tudo o que o senhor precisa é mapear as funções de `SecurityIdentity` para as funções específicas da implementação, independentemente de um caminho, também pode fazer isso:"
 
+#, fuzzy
 msgid ""
 "The `/*` path is not secured.\n"
 "You must secure your endpoints with standard security annotations or define HTTP permissions in addition to this configuration property."
-msgstr ""
+msgstr "O caminho `/*` não é seguro. O senhor deve proteger seus endpoints com anotações de segurança padrão ou definir permissões HTTP além dessa propriedade de configuração."
 
 #, fuzzy
 msgid "If you prefer a programmatic configuration, the same mapping can be added with the `io.quarkus.vertx.http.security.HttpSecurity` CDI event:"
@@ -471,10 +473,11 @@ msgstr "<<custom-http-security-policy>> também será aplicada no caminho `/admi
 msgid "Role `root` will be able to access `/secured/user/\\*` and `/secured/admin/*` paths."
 msgstr "A função `root` poderá acessar os caminhos `/secured/user/*` e `/secured/admin/*` ."
 
+#, fuzzy
 msgid ""
 "The `/secured/*` path can only be accessed by authenticated users.\n"
 "This way, you have secured the `/secured/all` path and so on."
-msgstr ""
+msgstr "O caminho `/secured/*` só pode ser acessado por usuários autenticados. Dessa forma, o senhor protegeu o caminho `/secured/all` e assim por diante."
 
 #, fuzzy
 msgid "Shared permissions are always applied before unshared ones, therefore a `SecurityIdentity` with the `root` role will have the `user` role as well."
@@ -938,10 +941,11 @@ msgstr "O verificador de permissão acima requer que a instância `SecurityIdent
 msgid "A CDI bean with the permission checker must be either a normal scoped bean or a `@Singleton` bean."
 msgstr "Um bean CDI com o verificador de permissões deve ser um bean com escopo normal ou um bean `@Singleton` ."
 
+#, fuzzy
 msgid ""
 "The permission checker method must return either `boolean` or `Uni<Boolean>`.\n"
 "Private checker methods are not supported."
-msgstr ""
+msgstr "O método verificador de permissão deve retornar `boolean` ou `Uni<Boolean>` . Não há suporte para métodos privados de verificação."
 
 #, fuzzy
 msgid "Matching between the `@PermissionsAllowed` values and the `@PermissionChecker` value is based on string equality as shown in the example below:"

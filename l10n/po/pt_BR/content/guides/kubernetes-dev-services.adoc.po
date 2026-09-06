@@ -304,7 +304,7 @@ msgstr "[lock]  link:#quarkus-kubernetes-client_quarkus-kubernetes-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "The flavor to use (kind, k3s or api-only)."
-msgstr "A variante a ser utilizada (kind, k3s ou api-only)."
+msgstr "O tipo a ser utilizado (kind, k3s ou apenas API)."
 
 #. mt: deepl
 #, fuzzy
@@ -385,7 +385,7 @@ msgstr "[lock]  link:#quarkus-kubernetes-client_quarkus-kubernetes-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "A list of manifest file paths that should be applied to the Kubernetes cluster Dev Service on startup. If not set, no manifests are applied."
-msgstr "Uma lista de caminhos para arquivos de manifesto que devem ser aplicados ao cluster do Dev Service do Kubernetes na inicialização. Se não for definida, nenhum manifesto será aplicado."
+msgstr "Uma lista de caminhos para arquivos de manifesto que devem ser aplicados ao cluster do Kubernetes do Dev Service na inicialização. Se não for definida, nenhum manifesto será aplicado."
 
 #. mt: deepl
 #, fuzzy
@@ -426,12 +426,12 @@ msgstr "[lock]  link:#quarkus-kubernetes-client_quarkus-kubernetes-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the Kubernetes cluster managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Kubernetes starts a new container."
-msgstr "Indica se o cluster do Kubernetes gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Kubernetes inicia um novo contêiner."
+msgstr "Indica se o cluster do Kubernetes gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for Kubernetes inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-kubernetes` label. The value is configured using the `service-name` property."
-msgstr "A descoberta utiliza o rótulo ` `quarkus-dev-service-kubernetes` `. O valor é configurado por meio da propriedade ` `service-name` `."
+msgstr "A descoberta utiliza o rótulo `“quarkus-dev-service-kubernetes` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
 #. mt: deepl
 #, fuzzy

@@ -888,7 +888,7 @@ msgstr "[lock]  link:#quarkus-smallrye-openapi_quarkus-smallrye-openapi-path[qua
 msgid ""
 "`+++quarkus.smallrye-openapi.\"document-name\".path+++`\n"
 "config_property_copy_button:+++quarkus.smallrye-openapi.\"document-name\".path+++[]"
-msgstr "`quarkus.smallrye-openapi.\"nome-do-documento\".caminho` config_property_copy_button:quarkus.smallrye-openapi.\"nome-do-documento\".caminho[]"
+msgstr "`quarkus.smallrye-openapi.\"nome-do-documento\".path` config_property_copy_button:quarkus.smallrye-openapi.\"nome-do-documento\".path[]"
 
 #. mt: deepl
 #, fuzzy
@@ -898,7 +898,7 @@ msgstr "O caminho no qual o Servlet OpenAPI deve ser registrado."
 #. mt: deepl
 #, fuzzy
 msgid "For the default document, the default value is simply `openapi`. For any named OpenAPI documents, the `-<document-name>` part will be replaced by the document name."
-msgstr "Para o documento padrão, o valor padrão é simplesmente `openapi` . Para quaisquer documentos OpenAPI nomeados, a parte `-<nome-do-documento>` será substituída pelo nome do documento."
+msgstr "Para o documento padrão, o valor padrão é simplesmente `“openapi` ”. Para quaisquer documentos OpenAPI nomeados, a parte `“-<nome-do-documento>”` será substituída pelo nome do documento."
 
 #. mt: deepl
 #, fuzzy
@@ -1819,7 +1819,7 @@ msgstr "`quarkus.smallrye-openapi.\"nome-do-documento\".jwt-bearer-format` confi
 #. mt: deepl
 #, fuzzy
 msgid "Add a bearer format the JWT Security Scheme"
-msgstr "Adicione um formato de portador ao esquema de segurança JWT"
+msgstr "Adicione um formato de portador ao Esquema de Segurança JWT"
 
 #. mt: deepl
 #, fuzzy
@@ -2259,7 +2259,7 @@ msgstr "`quarkus.smallrye-openapi.\"nome-do-documento\".info-description` config
 #. mt: deepl
 #, fuzzy
 msgid "Set the description in Info tag in the Schema document"
-msgstr "Defina a descrição na tag “Info” do documento do esquema"
+msgstr "Defina a descrição na tag “Info” do documento de esquema"
 
 #. mt: deepl
 #, fuzzy
@@ -2345,7 +2345,7 @@ msgstr "`quarkus.smallrye-openapi.\"nome-do-documento\".info-contact-email` conf
 #. mt: deepl
 #, fuzzy
 msgid "Set the contact email in Info tag in the Schema document"
-msgstr "Defina o e-mail de contato na tag “Info” do documento de esquema"
+msgstr "Defina o e-mail de contato na tag “Info” no documento do esquema"
 
 #. mt: deepl
 #, fuzzy
@@ -2757,7 +2757,7 @@ msgstr " link:#quarkus-smallrye-openapi_quarkus-smallrye-openapi-servers[quarkus
 msgid ""
 "`+++quarkus.smallrye-openapi.\"documents\".servers+++`\n"
 "config_property_copy_button:+++quarkus.smallrye-openapi.\"documents\".servers+++[]"
-msgstr "`quarkus.smallrye-openapi.\"documents\".servers` config_property_copy_button:quarkus.smallrye-openapi.\"documents\".servers[]"
+msgstr "`quarkus.smallrye-openapi.\"documentos\".servidores` config_property_copy_button:quarkus.smallrye-openapi.\"documentos\".servidores[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2797,7 +2797,7 @@ msgstr " link:#quarkus-smallrye-openapi_quarkus-smallrye-openapi-enable[quarkus.
 #. mt: deepl
 #, fuzzy
 msgid "_This property is deprecated since `3.26`: use `quarkus.smallrye-openapi.enabled` instead._"
-msgstr "_Esta propriedade está obsoleta desde a versão 3.26: utilize quarkus.smallrye-openapi.enabled em seu lugar._"
+msgstr "_Esta propriedade está obsoleta desde a versão 3.26: utilize, em vez disso, quarkus.smallrye-openapi.enabled._"
 
 #. mt: deepl
 #, fuzzy
@@ -2842,7 +2842,7 @@ msgstr "`quarkus.smallrye-openapi.\"nome-do-documento\".always-run-filter` confi
 #. mt: deepl
 #, fuzzy
 msgid "_This property is deprecated since `3.34`: Use `@OpenApiFilter(stages = RunStage.RUNTIME_PER_REQUEST)` instead to mark individual filters as per-request. This makes the OpenAPI document dynamic automatically without requiring this configuration property._"
-msgstr "_Esta propriedade está obsoleta desde a versão 3.34: utilize @OpenApiFilter(stages = RunStage.RUNTIME_PER_REQUEST) em seu lugar para marcar filtros individuais como “por solicitação”. Isso torna o documento OpenAPI dinâmico automaticamente, sem a necessidade desta propriedade de configuração._"
+msgstr "_Esta propriedade está obsoleta desde a versão 3.34: utilize @OpenApiFilter(stages = RunStage.RUNTIME_PER_REQUEST) em vez disso para marcar filtros individuais como “por solicitação”. Isso torna o documento OpenAPI dinâmico automaticamente, sem a necessidade desta propriedade de configuração._"
 
 #. mt: deepl
 #, fuzzy
@@ -3271,7 +3271,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-default-model-render
 #. mt: deepl
 #, fuzzy
 msgid "Controls how the model is shown when the API is first rendered."
-msgstr "Determina como o modelo é exibido quando a API é renderizada pela primeira vez."
+msgstr "Determina como o modelo é exibido na primeira renderização da API."
 
 #. mt: deepl
 #, fuzzy
@@ -3304,7 +3304,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-display-request-dura
 #. mt: deepl
 #, fuzzy
 msgid "Controls the display of the request duration (in milliseconds) for \"Try it out\" requests."
-msgstr "Controla a exibição da duração da solicitação (em milissegundos) para solicitações do tipo “Experimente”."
+msgstr "Controla a exibição da duração da solicitação (em milissegundos) para as solicitações do tipo “Experimente”."
 
 #. mt: deepl
 #, fuzzy
@@ -3441,7 +3441,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-operations-sorter[qu
 #. mt: deepl
 #, fuzzy
 msgid "Apply a sort to the operation list of each API. It can be 'alpha' (sort by paths alphanumerically), 'method' (sort by HTTP method) or a function (see Array.prototype.sort() to know how sort function works). Default is the order returned by the server unchanged."
-msgstr "Aplique uma ordenação à lista de operações de cada API. Pode ser “alpha” (ordenar os caminhos em ordem alfanumérica), “method” (ordenar por método HTTP) ou uma função (consulte Array.prototype.sort() para saber como funciona a função de ordenação). O padrão é a ordem retornada pelo servidor, sem alterações."
+msgstr "Aplique uma ordenação à lista de operações de cada API. Pode ser “alpha” (ordenar os caminhos em ordem alfanumérica), “method” (ordenar por método HTTP) ou uma função (consulte Array.prototype.sort() para saber como a função de ordenação funciona). O padrão é a ordem retornada pelo servidor, sem alterações."
 
 #. mt: deepl
 #, fuzzy
@@ -3705,7 +3705,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-request-curl-options
 #. mt: deepl
 #, fuzzy
 msgid "If set, MUST be an array of command line options available to the curl command. This can be set on the mutated request in the requestInterceptor function."
-msgstr "Se definido, DEVE ser um array de opções de linha de comando disponíveis para o comando `curl`. Isso pode ser definido na solicitação modificada na função `requestInterceptor`."
+msgstr "Se definido, DEVE ser uma matriz de opções de linha de comando disponíveis para o comando `curl`. Isso pode ser definido na solicitação modificada na função `requestInterceptor`."
 
 #. mt: deepl
 #, fuzzy
@@ -3804,7 +3804,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-supported-submit-met
 #. mt: deepl
 #, fuzzy
 msgid "List of HTTP methods that have the \"Try it out\" feature enabled. An empty array disables \"Try it out\" for all operations. This does not filter the operations from the display."
-msgstr "Lista de métodos HTTP que têm o recurso “Experimente” ativado. Um array vazio desativa o recurso “Experimente” para todas as operações. Isso não filtra as operações exibidas."
+msgstr "Lista de métodos HTTP nos quais o recurso “Experimente” está ativado. Um array vazio desativa o recurso “Experimente” para todas as operações. Isso não filtra as operações exibidas."
 
 #. mt: deepl
 #, fuzzy
@@ -3908,7 +3908,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-model-property-macro
 #. mt: deepl
 #, fuzzy
 msgid "Function to set default values to each property in model. Accepts one argument modelPropertyMacro(property), property is immutable"
-msgstr "Função para definir valores padrão para cada propriedade do modelo. Aceita um argumento: `modelPropertyMacro(property)`, sendo que `property` é imutável"
+msgstr "Função para definir valores padrão para cada propriedade do modelo. Aceita um argumento: modelPropertyMacro(property), sendo que property é imutável"
 
 #. mt: deepl
 #, fuzzy
@@ -4436,7 +4436,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-preauthorize-basic-a
 #. mt: deepl
 #, fuzzy
 msgid "Pre-authorize Basic Auth, programmatically set DefinitionKey for a Basic authorization scheme - Used in the preauthorizeBasic method."
-msgstr "Pré-autorizar a autenticação básica, definir programaticamente a DefinitionKey para um esquema de autorização básica — Utilizado no método preauthorizeBasic."
+msgstr "Pré-autorizar a autenticação básica, definir programaticamente o parâmetro `DefinitionKey` para um esquema de autorização básica — Utilizado no método `preauthorizeBasic`."
 
 #. mt: deepl
 #, fuzzy
@@ -4568,7 +4568,7 @@ msgstr "[lock]  link:#quarkus-swagger-ui_quarkus-swagger-ui-preauthorize-api-key
 #. mt: deepl
 #, fuzzy
 msgid "Pre-authorize ApiKey Auth, programmatically set ApiKeyValue for an API key or Bearer authorization scheme - Used in the preauthorizeApiKey method."
-msgstr "Pré-autorizar a autenticação por ApiKey, definir programaticamente o ApiKeyValue para uma chave de API ou esquema de autorização Bearer — Utilizado no método preauthorizeApiKey."
+msgstr "Pré-autorizar a autenticação por ApiKey; definir programaticamente o ApiKeyValue para uma chave de API ou para o esquema de autorização Bearer — Utilizado no método preauthorizeApiKey."
 
 #. mt: deepl
 #, fuzzy

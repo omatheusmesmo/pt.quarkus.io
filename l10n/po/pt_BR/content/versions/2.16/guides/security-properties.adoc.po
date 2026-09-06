@@ -64,7 +64,7 @@ msgstr "`link:#quarkus-elytron-security_quarkus.security.users.embedded.plain-te
 #. mt: deepl
 #, fuzzy
 msgid "If the properties are stored in plain text. If this is false (the default) then it is expected that the passwords are of the form HEX( MD5( username \":\" realm \":\" password ) )"
-msgstr "Se as propriedades forem armazenadas em texto simples. Se esse valor for falso (padrão), espera-se que as senhas tenham o formato HEX( MD5( nome de usuário \":\" domínio \":\" senha ) )"
+msgstr "Se as propriedades forem armazenadas em texto simples. Se esse valor for falso (padrão), espera-se que as senhas tenham o formato HEX(MD5(nome de usuário \":\" domínio \":\" senha))"
 
 #. mt: deepl
 #, fuzzy
@@ -182,7 +182,7 @@ msgstr "`link:#quarkus-elytron-security_quarkus.security.users.embedded.roles-ro
 #. mt: deepl
 #, fuzzy
 msgid "The realm roles user1=role1,role2,...++\\++nuser2=role1,role2,... mapping See link:#embedded-roles[Embedded Roles]."
-msgstr "O mapeamento de funções do domínio user1=função1,função2,…​\\nuser2=função1,função2,…​. Consulte link:#embedded-roles[“Funções Incorporadas] ”."
+msgstr "O mapeamento de funções do domínio user1=função1,função2,…​\\nuser2=função1,função2,…​ Consulte link:#embedded-roles[“Funções incorporadas] ”."
 
 #. mt: deepl
 #, fuzzy
@@ -396,7 +396,7 @@ msgstr "[lock] `link:#quarkus-elytron-security_quarkus.security.users.embedded.e
 #. mt: deepl
 #, fuzzy
 msgid "Determine whether security via the embedded realm is enabled."
-msgstr "Verifique se a segurança por meio do reino incorporado está habilitada."
+msgstr "Verifique se a segurança por meio do reino incorporado está ativada."
 
 #. mt: deepl
 #, fuzzy

@@ -264,7 +264,7 @@ msgstr "[lock] `link:#quarkus-live-reload-live-reload-config_quarkus.live-reload
 #. mt: deepl
 #, fuzzy
 msgid "Whether Quarkus should enable its ability to not do a full restart when changes to classes are compatible with JVM instrumentation. If this is set to true, Quarkus will perform class redefinition when possible."
-msgstr "Se o Quarkus deve habilitar a capacidade de não realizar uma reinicialização completa quando as alterações nas classes forem compatíveis com a instrumentação da JVM. Se essa opção estiver definida como “true”, o Quarkus realizará a redefinição das classes sempre que possível."
+msgstr "Se o Quarkus deve habilitar a capacidade de não realizar uma reinicialização completa quando as alterações nas classes forem compatíveis com a instrumentação da JVM. Se este parâmetro for definido como “true”, o Quarkus realizará a redefinição das classes sempre que possível."
 
 #. mt: deepl
 #, fuzzy
@@ -304,7 +304,7 @@ msgstr "[lock] `link:#quarkus-live-reload-live-reload-config_quarkus.live-reload
 #. mt: deepl
 #, fuzzy
 msgid "The names of additional resource files to watch for changes, triggering a reload on change. Directories are _not_ supported."
-msgstr "Os nomes dos arquivos de recursos adicionais cujas alterações devem ser monitoradas, o que acionará uma recarga sempre que houver alteração. Diretórios _não_ são suportados."
+msgstr "Os nomes dos arquivos de recursos adicionais cujas alterações devem ser monitoradas, o que acionará uma recarga em caso de alteração. Diretórios _não_ são suportados."
 
 #. mt: deepl
 #, fuzzy
@@ -367,7 +367,7 @@ msgstr "[lock] `link:#quarkus-live-reload-live-reload-config_quarkus.live-reload
 #. mt: deepl
 #, fuzzy
 msgid "URL used to use to connect to the remote dev-mode application"
-msgstr "URL utilizada para se conectar ao aplicativo remoto em modo de desenvolvimento"
+msgstr "URL utilizada para se conectar ao aplicativo remoto no modo de desenvolvimento"
 
 #. mt: deepl
 #, fuzzy
@@ -395,7 +395,7 @@ msgstr "[lock] `link:#quarkus-live-reload-live-reload-config_quarkus.live-reload
 #. mt: deepl
 #, fuzzy
 msgid "The amount of time to wait for a remote dev connect or reconnect"
-msgstr "O tempo de espera para uma conexão ou reconexão remota de desenvolvimento"
+msgstr "O tempo de espera para uma conexão ou reconexão de desenvolvimento remoto"
 
 #. mt: deepl
 #, fuzzy

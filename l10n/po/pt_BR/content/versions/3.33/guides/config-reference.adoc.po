@@ -1439,12 +1439,12 @@ msgstr "Se essa opção estiver configurada para `exibir um aviso` , o aplicativ
 #. mt: deepl
 #, fuzzy
 msgid "If this is set to `fail` the application will fail at start up."
-msgstr "Se essa configuração estiver definida para `falhar` , o aplicativo apresentará falha na inicialização."
+msgstr "Se essa configuração estiver definida para `falhar` , o aplicativo falhará na inicialização."
 
 #. mt: deepl
 #, fuzzy
 msgid "Native tests leveraging`@io.quarkus.test.junit.TestProfile` are always run with `quarkus.config.build-time-mismatch-at-runtime = fail`."
-msgstr "Os testes nativos que utilizam `@io.quarkus.test.junit.TestProfile` são sempre executados com a configuração ` `quarkus.config.build-time-mismatch-at-runtime = fail` `."
+msgstr "Os testes nativos que utilizam `@io.quarkus.test.junit.TestProfile` são sempre executados com ` `quarkus.config.build-time-mismatch-at-runtime = fail` `."
 
 #. mt: deepl
 #, fuzzy

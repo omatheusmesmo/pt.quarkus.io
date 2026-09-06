@@ -1192,7 +1192,7 @@ msgstr "`quarkus.oidc-client.\"id\".discovery-enabled` config_property_copy_butt
 #. mt: deepl
 #, fuzzy
 msgid "Enable discovery of the OIDC endpoints. If not enabled, you must configure the OIDC endpoint URLs individually."
-msgstr "Habilite a descoberta dos endpoints OIDC. Caso não esteja habilitada, será necessário configurar as URLs dos endpoints OIDC individualmente."
+msgstr "Habilite a descoberta dos endpoints OIDC. Caso não esteja habilitado, será necessário configurar as URLs dos endpoints OIDC individualmente."
 
 #. mt: deepl
 #, fuzzy
@@ -1283,7 +1283,7 @@ msgstr "`quarkus.oidc-client.\"id\".registration-path` config_property_copy_butt
 #. mt: deepl
 #, fuzzy
 msgid "The relative path or absolute URL of the OIDC dynamic client registration endpoint. Set if `discovery-enabled` is `false` or a discovered token endpoint path must be customized."
-msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um ponto de extremidade de token descoberto."
+msgstr "O caminho relativo ou a URL absoluta do endpoint de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
 
 #. mt: deepl
 #, fuzzy
@@ -1602,7 +1602,7 @@ msgstr "`quarkus.oidc-client.\"id\".token-path` config_property_copy_button:quar
 #. mt: deepl
 #, fuzzy
 msgid "The OIDC token endpoint that issues access and refresh tokens; specified as a relative path or absolute URL. Set if `discovery-enabled` is `false` or a discovered token endpoint path must be customized."
-msgstr "O endpoint do token OIDC que emite tokens de acesso e de atualização; especificado como um caminho relativo ou uma URL absoluta. Defina-o caso `o parâmetro “discovery-enabled”` esteja definido como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
+msgstr "O endpoint do token OIDC que emite tokens de acesso e de atualização; especificado como um caminho relativo ou uma URL absoluta. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
 
 #. mt: deepl
 #, fuzzy
@@ -1731,7 +1731,7 @@ msgstr "`quarkus.oidc-client.\"id\".client-name` config_property_copy_button:qua
 #. mt: deepl
 #, fuzzy
 msgid "The client name of the application. It is meant to represent a human readable description of the application which you may provide when an application (client) is registered in an OpenId Connect provider's dashboard. For example, you can set this property to have more informative log messages which record an activity of the given client."
-msgstr "O nome do cliente do aplicativo. Destina-se a representar uma descrição legível para o usuário do aplicativo, que o senhor poderá fornecer quando um aplicativo (cliente) for registrado no painel de controle de um provedor do OpenID Connect. Por exemplo, o senhor pode definir essa propriedade para obter mensagens de log mais informativas que registrem a atividade do cliente em questão."
+msgstr "O nome do cliente do aplicativo. Destina-se a representar uma descrição legível por humanos do aplicativo, que o senhor poderá fornecer quando um aplicativo (cliente) for registrado no painel de controle de um provedor do OpenID Connect. Por exemplo, o senhor pode definir essa propriedade para obter mensagens de log mais informativas que registrem a atividade do cliente em questão."
 
 #. mt: deepl
 #, fuzzy
@@ -2563,7 +2563,7 @@ msgstr "O nome da configuração de proxy a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.proxy.<name>.++*++`. Please note that the 'non-proxy-hosts' option is currently not supported. If a name is configured, but no proxy configuration is found with that name then an error will be thrown."
-msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é suportada no momento. Caso um nome seja configurado, mas não seja encontrada nenhuma configuração de proxy com esse nome, será gerado um erro."
+msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é compatível no momento. Caso um nome seja configurado, mas nenhuma configuração de proxy seja encontrada com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -2678,7 +2678,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.secret` config_property_copy_but
 #. mt: deepl
 #, fuzzy
 msgid "The client secret used by the `client_secret_basic` authentication method. Must be set unless a secret is set in `client-secret` or `jwt` client authentication is required. You can use `client-secret.value` instead, but both properties are mutually exclusive."
-msgstr "O segredo do cliente utilizado pelo método de autenticação ` `client_secret_basic` `. Deve ser definido, a menos que um segredo já esteja definido na propriedade ``client-secret`` ou que seja exigida a autenticação do cliente `via JWT` . É possível utilizar ``client-secret.value`` em vez disso, mas ambas as propriedades são mutuamente exclusivas."
+msgstr "O segredo do cliente utilizado pelo método de autenticação ` `client_secret_basic` `. Deve ser definido, a menos que um segredo já esteja definido na propriedade ``client-secret`` ou que seja exigida a autenticação do cliente `via JWT` . É possível utilizar ``client-secret.value`` como alternativa, mas ambas as propriedades são mutuamente exclusivas."
 
 #. mt: deepl
 #, fuzzy
@@ -2903,7 +2903,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CLIENT_CRED
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:basic[`client_secret_basic` (default)\\: The client id and secret are submitted with the HTTP Authorization Basic scheme.], tooltip:post[`client_secret_post`\\: The client id and secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:post-jwt[`client_secret_jwt`\\: The client id and generated JWT secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:query[client id and secret are submitted as HTTP query parameters. This option is only supported by the OIDC extension.]"
-msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados pelo esquema de autorização HTTP Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como os parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como os parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
+msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados com o esquema HTTP Authorization Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
 
 #. mt: deepl
 #, fuzzy
@@ -2956,7 +2956,7 @@ msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para 
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:client[JWT token is generated by the OIDC provider client to support `client_secret_jwt` and `private_key_jwt` authentication methods.]"
-msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para oferecer suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .]"
+msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para dar suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .]"
 
 #. mt: deepl
 #, fuzzy
@@ -2994,7 +2994,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.token-path` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "Path to a file with a JWT bearer token that should be used as a client assertion. This path can only be set when JWT source (`source()`) is set to `Source++#++BEARER`."
-msgstr "Caminho para um arquivo contendo um token JWT do tipo “bearer” que deve ser utilizado como uma asserção do cliente. Esse caminho só pode ser definido quando a fonte do JWT ( `source()` ) estiver configurada como `Source#BEARER` ."
+msgstr "Caminho para um arquivo contendo um token JWT do tipo “bearer” que deve ser utilizado como uma asserção do cliente. Esse caminho só pode ser definido quando a fonte do JWT ( `source()` ) estiver definida como `Source#BEARER` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3198,7 +3198,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.key` config_property_copy_bu
 #. mt: deepl
 #, fuzzy
 msgid "String representation of a private key. If provided, indicates that JWT is signed using a private key in PEM or JWK format. It is mutually exclusive with `secret`, `key-file` and `key-store` properties. You can use the `signature-algorithm` property to override the default key algorithm, `RS256`."
-msgstr "Representação em string de uma chave privada. Se fornecida, indica que o JWT é assinado utilizando uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key-file`` e ``key-store`` . É possível utilizar a propriedade ``signature-algorithm`` para substituir o algoritmo de chave padrão, `RS256` ."
+msgstr "Representação em string de uma chave privada. Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades `secret` , `key-file` e `key-store` . É possível utilizar a propriedade `signature-algorithm` para substituir o algoritmo de chave padrão, `RS256` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3241,7 +3241,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.key-file` config_property_co
 #. mt: deepl
 #, fuzzy
 msgid "If provided, indicates that JWT is signed using a private key in PEM or JWK format. It is mutually exclusive with `secret`, `key` and `key-store` properties. You can use the `signature-algorithm` property to override the default key algorithm, `RS256`."
-msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades `secret` , `key` e `key-store` . É possível utilizar a propriedade `signature-algorithm` para substituir o algoritmo de chave padrão, `RS256` ."
+msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key`` e ``key-store`` . É possível utilizar a propriedade ` `signature-algorithm`` para substituir o algoritmo de chave padrão, `RS256` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3284,7 +3284,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.key-store-file` config_prope
 #. mt: deepl
 #, fuzzy
 msgid "If provided, indicates that JWT is signed using a private key from a keystore. It is mutually exclusive with `secret`, `key` and `key-file` properties."
-msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave privada proveniente de um keystore. É mutuamente exclusiva das propriedades `secret` , `key` e `key-file` ."
+msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave privada proveniente de um keystore. É mutuamente exclusiva das propriedades `“secret”` , `“key”` e `“key-file` ”."
 
 #. mt: deepl
 #, fuzzy
@@ -3456,7 +3456,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.audience` config_property_co
 #. mt: deepl
 #, fuzzy
 msgid "The JWT audience (`aud`) claim value. By default, the audience is set to the address of the OpenId Connect Provider's token endpoint."
-msgstr "O valor do atributo “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de tokens do provedor do OpenID Connect."
+msgstr "O valor do atributo “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de tokens do Provedor do OpenID Connect."
 
 #. mt: deepl
 #, fuzzy
@@ -3885,7 +3885,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java de Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

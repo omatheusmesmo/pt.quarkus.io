@@ -353,7 +353,7 @@ msgid ""
 "Simply add an `import.sql` file in the root of your resources directory\n"
 "and it will be picked up without having to set this property.\n"
 "Pass `no-file` to force Hibernate ORM to ignore the SQL import file."
-msgstr "Nos modos de desenvolvimento e teste, o valor padrão é `import.sql` . Basta adicionar um arquivo `import.sql` na raiz do seu diretório de recursos e ele será reconhecido sem que seja necessário definir essa propriedade. Passe `o valor “no-file”` para forçar o ORM do Hibernate a ignorar o arquivo de importação SQL."
+msgstr "Nos modos de desenvolvimento e teste, o valor padrão é `import.sql` . Basta adicionar um arquivo `import.sql` na raiz do seu diretório de recursos e ele será reconhecido sem a necessidade de definir essa propriedade. Passe `o valor “no-file”` para forçar o ORM do Hibernate a ignorar o arquivo de importação SQL."
 
 #. mt: deepl
 #, fuzzy
@@ -840,7 +840,7 @@ msgid ""
 "Properties that should be passed on directly to Hibernate ORM.\n"
 "Use the full configuration property key here,\n"
 "for instance `quarkus.hibernate-orm.unsupported-properties.\"hibernate.order_inserts\" = true`."
-msgstr "Propriedades que devem ser passadas diretamente para o ORM do Hibernate. Utilize aqui a chave completa da propriedade de configuração; por exemplo, `quarkus.hibernate-orm.unsupported-properties.\"hibernate.order_inserts\" = true` ."
+msgstr "Propriedades que devem ser repassadas diretamente ao ORM do Hibernate. Utilize aqui a chave completa da propriedade de configuração; por exemplo, `quarkus.hibernate-orm.unsupported-properties.\"hibernate.order_inserts\" = true` ."
 
 #. mt: deepl
 #, fuzzy
@@ -850,7 +850,7 @@ msgid ""
 "there is absolutely no guarantee that they will work correctly,\n"
 "and even if they do, that may change when upgrading to a newer version of Quarkus\n"
 "(even just a micro/patch version)."
-msgstr "As propriedades definidas aqui não são de forma alguma suportadas: como o Quarkus geralmente não reconhece essas propriedades nem compreende sua finalidade, não há absolutamente nenhuma garantia de que elas funcionarão corretamente e, mesmo que funcionem, isso pode mudar ao atualizar para uma versão mais recente do Quarkus (mesmo que seja apenas uma versão micro ou de correção)."
+msgstr "As propriedades definidas aqui não são de forma alguma suportadas: como o Quarkus geralmente não reconhece essas propriedades nem sua finalidade, não há absolutamente nenhuma garantia de que elas funcionarão corretamente e, mesmo que funcionem, isso pode mudar ao atualizar para uma versão mais recente do Quarkus (mesmo que seja apenas uma versão micro ou de correção)."
 
 #. mt: deepl
 #, fuzzy
@@ -1442,7 +1442,7 @@ msgstr "[lock] `link:#quarkus-hibernate-orm_quarkus.hibernate-orm.fetch.max-dept
 #. mt: deepl
 #, fuzzy
 msgid "The maximum depth of outer join fetch tree for single-ended associations (one-to-one, many-to-one)."
-msgstr "A profundidade máxima da árvore de recuperação do outer join para associações unilaterais (um-para-um, muitos-para-um)."
+msgstr "A profundidade máxima da árvore de recuperação da junção externa para associações unidirecionais (um-para-um, muitos-para-um)."
 
 #. mt: deepl
 #, fuzzy
@@ -2494,7 +2494,7 @@ msgstr "`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-nam
 #. mt: deepl
 #, fuzzy
 msgid "Filename or URL where the database create DDL file should be generated."
-msgstr "Nome do arquivo ou URL onde o arquivo DDL de criação do banco de dados deve ser gerado."
+msgstr "Nome do arquivo ou URL onde o arquivo DDL para criação do banco de dados deve ser gerado."
 
 #. mt: deepl
 #, fuzzy
@@ -2647,7 +2647,7 @@ msgstr "`link:#quarkus-hibernate-orm_quarkus.hibernate-orm.-persistence-unit-nam
 #. mt: deepl
 #, fuzzy
 msgid "If set, Hibernate will log queries that took more than specified number of milliseconds to execute."
-msgstr "Se essa opção estiver definida, o Hibernate registrará no log as consultas cuja execução demorou mais do que o número especificado de milissegundos."
+msgstr "Se essa opção estiver definida, o Hibernate registrará em log as consultas cuja execução demorou mais do que o número especificado de milissegundos."
 
 #. mt: deepl
 #, fuzzy

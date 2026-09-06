@@ -121,7 +121,7 @@ msgstr "[lock]  link:#quarkus-grpc_quarkus-grpc-client-stork-proactive-connectio
 #. mt: deepl
 #, fuzzy
 msgid "If set to true, and a Stork load balancer is used, connections with all available service instances will be requested proactively. This means better load balancing at the cost of having multiple active connections."
-msgstr "Se definido como “true” e for utilizado um balanceador de carga Stork, serão solicitadas proativamente conexões com todas as instâncias de serviço disponíveis. Isso significa um melhor balanceamento de carga, ao custo de se ter múltiplas conexões ativas."
+msgstr "Se definido como “true” e for utilizado um balanceador de carga Stork, serão solicitadas proativamente conexões com todas as instâncias de serviço disponíveis. Isso significa um melhor balanceamento de carga, em troca de se ter várias conexões ativas."
 
 #. mt: deepl
 #, fuzzy
@@ -214,7 +214,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 #. mt: deepl
 #, fuzzy
 msgid "Use Vert.x event loop(s) for gRPC client, if it's using the previous Java gRPC support."
-msgstr "Utilize o(s) ciclo(s) de eventos do Vert.x para o cliente gRPC, caso ele esteja utilizando o suporte anterior ao gRPC em Java."
+msgstr "Utilize o(s) ciclo(s) de eventos do Vert.x para o cliente gRPC, caso este utilize o suporte anterior ao gRPC em Java."
 
 #. mt: deepl
 #, fuzzy
@@ -507,7 +507,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 #. mt: deepl
 #, fuzzy
 msgid "Number of retries on a gRPC ClientCall"
-msgstr "Número de tentativas de repetição em uma chamada do cliente gRPC"
+msgstr "Número de tentativas de repetição em uma chamada de cliente gRPC"
 
 #. mt: deepl
 #, fuzzy
@@ -616,7 +616,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-port]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-port[`+++quarkus.grpc.clients.\"client-name\".port+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.clients.\"client-name\".port+++[]"
-msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-port[quarkus.grpc.clients.\"nome-do-cliente\".porta] config_property_copy_button:quarkus.grpc.clients.\"nome-do-cliente\".porta[]"
+msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-port[quarkus.grpc.clients.\"nome-do-cliente\".port] config_property_copy_button:quarkus.grpc.clients.\"nome-do-cliente\".port[]"
 
 #. mt: deepl
 #, fuzzy
@@ -687,12 +687,12 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-host]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-host[`+++quarkus.grpc.clients.\"client-name\".host+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.clients.\"client-name\".host+++[]"
-msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-host[quarkus.grpc.clients.\"nome-do-cliente\".host] botão_para_copiar_propriedade_de_configuração:quarkus.grpc.clients.\"nome-do-cliente\".host[]"
+msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-host[quarkus.grpc.clients.\"nome-do-cliente\".host] config_property_copy_button:quarkus.grpc.clients.\"nome-do-cliente\".host[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The host name / IP on which the service is exposed."
-msgstr "O nome do host/endereço IP no qual o serviço está disponível."
+msgstr "O nome do host / endereço IP no qual o serviço está disponível."
 
 #. mt: deepl
 #, fuzzy
@@ -730,7 +730,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to a server certificate or certificate chain in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -767,7 +767,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to the corresponding certificate private key file in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -834,7 +834,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-configuration-name]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-configuration-name[`+++quarkus.grpc.clients.\"client-name\".tls-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.clients.\"client-name\".tls-configuration-name+++[]"
-msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-configuration-name[quarkus.grpc.clients.\"nome-do-cliente\".nome-da-configuração-tls] config_property_copy_button:quarkus.grpc.clients.\"nome-do-cliente\".nome-da-configuração-tls[]"
+msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-configuration-name[quarkus.grpc.clients.\"nome-do-cliente\".nome-da-configuração-tls] botão-para-copiar-propriedade-de-configuração:quarkus.grpc.clients.\"nome-do-cliente\".nome-da-configuração-tls[]"
 
 #. mt: deepl
 #, fuzzy
@@ -844,7 +844,7 @@ msgstr "O nome da configuração TLS a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If not set and the default TLS configuration is configured (`quarkus.tls.++*++`) then that will be used. If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown."
-msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver definido, será utilizada a configuração de `quarkus.tls.<nome>.*` Se um nome estiver definido, mas nenhuma configuração TLS for encontrada com esse nome, será gerado um erro."
+msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver definido, será utilizada a configuração de `quarkus.tls.<nome>.*.` Se um nome estiver definido, mas não for encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -948,7 +948,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-trust-certificate-pem-certs]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-trust-certificate-pem-certs[`+++quarkus.grpc.clients.\"client-name\".tls.trust-certificate-pem.certs+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.clients.\"client-name\".tls.trust-certificate-pem.certs+++[]"
-msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-trust-certificate-pem-certs[quarkus.grpc.clients.\"nome-do-cliente\".tls.trust-certificate-pem.certs] config_property_copy_button:quarkus.grpc.clients.\"nome-do-cliente\".tls.trust-certificate-pem.certs[]"
+msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-tls-trust-certificate-pem-certs[quarkus.grpc.clients.\"nome-do-cliente\".tls.trust-certificate-pem.certs] botão_para_copiar_propriedade_de_configuração:quarkus.grpc.clients.\"nome-do-cliente\".tls.trust-certificate-pem.certs[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1876,7 +1876,7 @@ msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-nam
 msgid ""
 "[[quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-retry-buffer-size]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-retry-buffer-size[`+++quarkus.grpc.clients.\"client-name\".retry-buffer-size+++`]##\n"
 "config_property_copy_button:+++quarkus.grpc.clients.\"client-name\".retry-buffer-size+++[]"
-msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-retry-buffer-size[quarkus.grpc.clients.\"nome-do-cliente\".retry-buffer-size] botão_para_copiar_propriedade_de_configuração:quarkus.grpc.clients.\"nome-do-cliente\".retry-buffer-size[]"
+msgstr " link:#quarkus-grpc_quarkus-grpc-clients_quarkus-grpc-clients-client-name-retry-buffer-size[quarkus.grpc.clients.\"nome-do-cliente\".retry-buffer-size] config_property_copy_button:quarkus.grpc.clients.\"nome-do-cliente\".retry-buffer-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2217,7 +2217,7 @@ msgstr "[lock]  link:#quarkus-grpc_quarkus-grpc-dev-mode_quarkus-grpc-dev-mode-f
 #. mt: deepl
 #, fuzzy
 msgid "Start gRPC server in dev mode even if no gRPC services are implemented. By default set to `true` to ease incremental development of new services using dev mode."
-msgstr "Inicie o servidor gRPC no modo de desenvolvimento, mesmo que não haja serviços gRPC implementados. Por padrão, está definido como `“true”` para facilitar o desenvolvimento incremental de novos serviços utilizando o modo de desenvolvimento."
+msgstr "Inicie o servidor gRPC no modo de desenvolvimento, mesmo que não haja serviços gRPC implementados. Por padrão, está definido como ``true`` para facilitar o desenvolvimento incremental de novos serviços utilizando o modo de desenvolvimento."
 
 #. mt: deepl
 #, fuzzy

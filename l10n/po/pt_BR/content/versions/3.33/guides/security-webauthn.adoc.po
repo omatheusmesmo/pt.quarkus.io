@@ -799,7 +799,7 @@ msgstr " link:#quarkus-security-webauthn_quarkus-webauthn-origins[quarkus.webaut
 #. mt: deepl
 #, fuzzy
 msgid "The origins of the application. The origin is basically protocol, host and port. If you are calling WebAuthn API while your application is located at `https://example.com/login`, then origin will be `https://example.com`. If you are calling from `http://localhost:2823/test`, then the origin will be `http://localhost:2823`. Please note that WebAuthn API will not work on pages loaded over HTTP, unless it is localhost, which is considered secure context. If unspecified, this defaults to whatever URI this application is deployed on. This allows more than one value if you want to allow multiple origins. See https://w3c.github.io/webauthn/++#++sctn-related-origins"
-msgstr "As origens do aplicativo. A origem consiste basicamente no protocolo, no host e na porta. Se o senhor estiver chamando a API WebAuthn enquanto seu aplicativo estiver localizado em `https://example.com/login` , a origem será `https://example.com` . Se você estiver fazendo a chamada a partir de `http://localhost:2823/test` , a origem será `http://localhost:2823` . Observe que a API WebAuthn não funcionará em páginas carregadas via HTTP, a menos que se trate do localhost, que é considerado um contexto seguro. Se não for especificado, o valor padrão será a URI na qual este aplicativo estiver implantado. Isso permite mais de um valor, caso deseje permitir múltiplas origens. Consulte https://w3c.github.io/webauthn/#sctn-related-origins"
+msgstr "As origens do aplicativo. A origem consiste basicamente no protocolo, no host e na porta. Se o senhor estiver chamando a API WebAuthn enquanto seu aplicativo estiver localizado em `https://example.com/login` , a origem será `https://example.com` . Se você estiver fazendo a chamada a partir de `http://localhost:2823/test` , a origem será `http://localhost:2823` . Observe que a API WebAuthn não funcionará em páginas carregadas via HTTP, a menos que se trate do localhost, que é considerado um contexto seguro. Se não for especificado, o padrão será a URI na qual este aplicativo está implantado. Isso permite mais de um valor caso deseje permitir múltiplas origens. Consulte https://w3c.github.io/webauthn/#sctn-related-origins"
 
 #. mt: deepl
 #, fuzzy
@@ -846,7 +846,7 @@ msgstr " link:#quarkus-security-webauthn_quarkus-webauthn-transports[quarkus.web
 #. mt: deepl
 #, fuzzy
 msgid "Authenticator Transports allowed by the application. Authenticators can interact with the user web browser through several transports. Applications may want to restrict the transport protocols for extra security hardening reasons. By default, all transports should be allowed. If your application is to be used by mobile phone users, you may want to restrict only the `INTERNAL` authenticator to be allowed. Permitted values are:"
-msgstr "Protocolos de transporte permitidos pelo aplicativo para os autenticadores. Os autenticadores podem interagir com o navegador do usuário por meio de diversos protocolos de transporte. As aplicações podem querer restringir os protocolos de transporte por motivos de reforço de segurança. Por padrão, todos os protocolos de transporte devem ser permitidos. Caso sua aplicação seja destinada a usuários de telefones celulares, talvez seja recomendável restringir a permissão apenas ao autenticador `INTERNAL` . Os valores permitidos são:"
+msgstr "Protocolos de transporte permitidos pelo aplicativo para os autenticadores. Os autenticadores podem interagir com o navegador da web do usuário por meio de diversos protocolos de transporte. As aplicações podem querer restringir os protocolos de transporte por motivos de reforço de segurança. Por padrão, todos os protocolos de transporte devem ser permitidos. Caso sua aplicação seja destinada a usuários de celulares, talvez seja recomendável restringir a permissão apenas ao autenticador `INTERNAL` . Os valores permitidos são:"
 
 #. mt: deepl
 #, fuzzy
@@ -1008,7 +1008,7 @@ msgstr "`CROSS_PLATFORM` - O autenticador pode ser utilizado em diversos disposi
 #. mt: deepl
 #, fuzzy
 msgid "For security reasons your application may choose to restrict to a specific attachment mode. If omitted, then any mode is permitted."
-msgstr "Por motivos de segurança, seu aplicativo pode optar por restringir o uso a um modo específico de anexo. Caso não seja especificado, qualquer modo é permitido."
+msgstr "Por motivos de segurança, seu aplicativo pode optar por restringir o uso a um modo específico de anexo. Caso seja omitido, qualquer modo será permitido."
 
 #. mt: deepl
 #, fuzzy
@@ -1217,7 +1217,7 @@ msgstr " link:#quarkus-security-webauthn_quarkus-webauthn-timeout[quarkus.webaut
 #. mt: deepl
 #, fuzzy
 msgid "Non-negative User Verification timeout. Authentication must occur within the timeout, this will prevent the user browser from being blocked with a pop-up required user verification, and the whole ceremony must be completed within the timeout period. After the timeout, any previously issued challenge is automatically invalidated."
-msgstr "Tempo limite não negativo para verificação do usuário. A autenticação deve ocorrer dentro desse tempo limite; isso evitará que o navegador do usuário seja bloqueado por uma janela pop-up solicitando a verificação do usuário, e todo o processo deve ser concluído dentro do período de tempo limite. Após o término do tempo limite, qualquer desafio emitido anteriormente é automaticamente invalidado."
+msgstr "Tempo limite não negativo para verificação do usuário. A autenticação deve ocorrer dentro desse tempo limite; isso evitará que o navegador do usuário seja bloqueado por uma janela pop-up solicitando verificação do usuário, e todo o processo deve ser concluído dentro desse período. Após o término do tempo limite, qualquer desafio emitido anteriormente é automaticamente invalidado."
 
 #. mt: deepl
 #, fuzzy
@@ -1683,7 +1683,7 @@ msgstr " link:#quarkus-security-webauthn_quarkus-webauthn-cookie-max-age[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "Max-Age attribute for the session cookie. This is the amount of time the browser will keep the cookie. The default value is empty, which means the cookie will be kept until the browser is closed."
-msgstr "Atributo Max-Age para o cookie de sessão. Esse é o período de tempo durante o qual o navegador manterá o cookie. O valor padrão é vazio, o que significa que o cookie será mantido até que o navegador seja fechado."
+msgstr "Atributo “Max-Age” para o cookie de sessão. Esse é o período de tempo durante o qual o navegador manterá o cookie. O valor padrão é vazio, o que significa que o cookie será mantido até que o navegador seja fechado."
 
 #. mt: deepl
 #, fuzzy

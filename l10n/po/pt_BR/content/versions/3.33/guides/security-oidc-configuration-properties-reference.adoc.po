@@ -345,7 +345,7 @@ msgstr "`quarkus.oidc.\"tenant\".registration-path` config_property_copy_button:
 #. mt: deepl
 #, fuzzy
 msgid "The relative path or absolute URL of the OIDC dynamic client registration endpoint. Set if `discovery-enabled` is `false` or a discovered token endpoint path must be customized."
-msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um ponto de extremidade de token descoberto."
+msgstr "O caminho relativo ou a URL absoluta do endpoint de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
 
 #. mt: deepl
 #, fuzzy
@@ -388,7 +388,7 @@ msgstr "`quarkus.oidc.\"tenant\".connection-delay` config_property_copy_button:q
 #. mt: deepl
 #, fuzzy
 msgid "The duration to attempt the initial connection to an OIDC server. For example, setting the duration to `20S` allows 10 retries, each 2 seconds apart. This property is only effective when the initial OIDC connection is created. For dropped connections, use the `connection-retry-count` property instead."
-msgstr "O tempo disponível para tentar a conexão inicial com um servidor OIDC. Por exemplo, definir esse tempo para `20S` permite 10 tentativas, com intervalos de 2 segundos entre elas. Essa propriedade só tem efeito quando a conexão OIDC inicial é estabelecida. Para conexões interrompidas, utilize a propriedade `connection-retry-count` ."
+msgstr "O tempo disponível para tentar a conexão inicial com um servidor OIDC. Por exemplo, definir esse tempo para `20S` permite 10 tentativas, cada uma com intervalo de 2 segundos. Essa propriedade só tem efeito quando a conexão OIDC inicial é estabelecida. Para conexões interrompidas, utilize a propriedade `connection-retry-count` ."
 
 #. mt: deepl
 #, fuzzy
@@ -436,7 +436,7 @@ msgstr "`quarkus.oidc.\"tenant\".connection-retry-count` botão_para_copiar_prop
 #. mt: deepl
 #, fuzzy
 msgid "The number of times to retry re-establishing an existing OIDC connection if it is temporarily lost. Different from `connection-delay`, which applies only to initial connection attempts. For instance, if a request to the OIDC token endpoint fails due to a connection issue, it will be retried as per this setting."
-msgstr "O número de vezes que se deve tentar restabelecer uma conexão OIDC existente caso ela seja temporariamente perdida. Diferente do `“atraso de conexão”` , que se aplica apenas às tentativas iniciais de conexão. Por exemplo, se uma solicitação ao endpoint do token OIDC falhar devido a um problema de conexão, ela será repetida de acordo com esta configuração."
+msgstr "O número de vezes que se tentará restabelecer uma conexão OIDC existente caso ela seja temporariamente perdida. Diferente do `“connection-delay”` , que se aplica apenas às tentativas iniciais de conexão. Por exemplo, se uma solicitação ao endpoint do token OIDC falhar devido a um problema de conexão, ela será repetida de acordo com esta configuração."
 
 #. mt: deepl
 #, fuzzy
@@ -575,7 +575,7 @@ msgstr "`quarkus.oidc.\"tenant\".max-pool-size` botão_para_copiar_propriedade_d
 #. mt: deepl
 #, fuzzy
 msgid "The maximum size of the connection pool used by the WebClient."
-msgstr "O tamanho máximo do pool de conexões utilizado pelo WebClient."
+msgstr "O tamanho máximo do conjunto de conexões utilizado pelo WebClient."
 
 #. mt: deepl
 #, fuzzy
@@ -929,7 +929,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_APPLICATION
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:web-app[A `WEB_APP` is a client that serves pages, usually a front-end application. For this type of client the Authorization Code Flow is defined as the preferred method for authenticating users.], tooltip:service[A `SERVICE` is a client that has a set of protected HTTP resources, usually a backend application following the RESTful Architectural Design. For this type of client, the Bearer Authorization method is defined as the preferred method for authenticating and authorizing users.], tooltip:hybrid[A combined `SERVICE` and `WEB_APP` client. For this type of client, the Bearer Authorization method is used if the Authorization header is set and Authorization Code Flow - if not.]"
-msgstr "tooltip:web-app[Um `WEB_APP` é um cliente que serve páginas, geralmente um aplicativo front-end. Para esse tipo de cliente, o Fluxo de Código de Autorização é definido como o método preferencial para autenticar usuários.], tooltip:service[Um `SERVICE` é um cliente que possui um conjunto de recursos HTTP protegidos, geralmente um aplicativo de back-end que segue o projeto arquitetônico RESTful. Para esse tipo de cliente, o método de autorização “Bearer” é definido como o método preferencial para autenticar e autorizar usuários.], tooltip:hybrid[Um cliente que combina `SERVIÇO` e `WEB_APP` . Para esse tipo de cliente, o método de autorização por portador é utilizado caso o cabeçalho de autorização esteja definido; caso contrário, é utilizado o Fluxo de Código de Autorização.]"
+msgstr "tooltip:web-app[Um `WEB_APP` é um cliente que serve páginas, geralmente um aplicativo front-end. Para esse tipo de cliente, o Fluxo de Código de Autorização é definido como o método preferencial para autenticar usuários.], tooltip:service[Um `SERVICE` é um cliente que possui um conjunto de recursos HTTP protegidos, geralmente um aplicativo de back-end que segue a arquitetura RESTful. Para esse tipo de cliente, o método de autorização “Bearer” é definido como o método preferencial para autenticar e autorizar usuários.], tooltip:hybrid[Um cliente que combina `SERVIÇO` e `WEB_APP` . Para esse tipo de cliente, o método de autorização “Bearer” é utilizado caso o cabeçalho de autorização esteja definido; caso contrário, é utilizado o Fluxo de Código de Autorização.]"
 
 #. mt: deepl
 #, fuzzy
@@ -1144,7 +1144,7 @@ msgstr "`quarkus.oidc.\"tenant\".end-session-path` config_property_copy_button:q
 #. mt: deepl
 #, fuzzy
 msgid "Relative path or absolute URL of the OIDC end_session_endpoint. This property must be set if OIDC discovery is disabled and RP Initiated Logout support for the `web-app` applications is required. This property is ignored if the discovery is enabled."
-msgstr "Caminho relativo ou URL absoluto do end_session_endpoint do OIDC. Essa propriedade deve ser definida caso a descoberta do OIDC esteja desativada e seja necessário o suporte ao logout iniciado pelo RP (RP Initiated Logout) para os aplicativos `web` . Essa propriedade é ignorada caso a descoberta esteja ativada."
+msgstr "Caminho relativo ou URL absoluto do end_session_endpoint do OIDC. Esta propriedade deve ser definida caso a descoberta do OIDC esteja desativada e seja necessário o suporte ao logout iniciado pelo RP (RP Initiated Logout) para os aplicativos `web` . Esta propriedade é ignorada caso a descoberta esteja ativada."
 
 #. mt: deepl
 #, fuzzy
@@ -1370,7 +1370,7 @@ msgstr "`quarkus.oidc.\"tenant\".cache-user-info-in-idtoken` config_property_cop
 #. mt: deepl
 #, fuzzy
 msgid "Allow inlining UserInfo in IdToken instead of caching it in the token cache. This property is only checked when an internal IdToken is generated when OAuth2 providers do not return IdToken. Inlining UserInfo in the generated IdToken allows to store it in the session cookie and avoids introducing a cached state."
-msgstr "Permita a inclusão direta do UserInfo no IdToken, em vez de armazená-lo no cache de tokens. Esta propriedade é verificada apenas quando um IdToken interno é gerado, caso os provedores OAuth2 não retornem um IdToken. A inclusão direta do UserInfo no IdToken gerado permite armazená-lo no cookie de sessão e evita a criação de um estado em cache."
+msgstr "Permita a inclusão direta do UserInfo no IdToken, em vez de armazená-lo no cache de tokens. Esta propriedade só é verificada quando um IdToken interno é gerado, caso os provedores OAuth2 não retornem um IdToken. A inclusão direta do UserInfo no IdToken gerado permite armazená-lo no cookie de sessão e evita a criação de um estado em cache."
 
 #. mt: deepl
 #, fuzzy
@@ -1599,7 +1599,7 @@ msgstr "O nome da configuração de proxy a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.proxy.<name>.++*++`. Please note that the 'non-proxy-hosts' option is currently not supported. If a name is configured, but no proxy configuration is found with that name then an error will be thrown."
-msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é suportada no momento. Caso um nome seja configurado, mas não seja encontrada nenhuma configuração de proxy com esse nome, será gerado um erro."
+msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é compatível no momento. Caso um nome seja configurado, mas nenhuma configuração de proxy seja encontrada com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -1676,7 +1676,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TLS_TLS_CON
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-oidc_section_quarkus-oidc-credentials]] [.section-name.section-level0]##link:#quarkus-oidc_section_quarkus-oidc-credentials[Different authentication options for OIDC client to access OIDC token and other secured endpoints]##"
-msgstr " link:#quarkus-oidc_section_quarkus-oidc-credentials[Diferentes opções de autenticação para o cliente OIDC acessar o token OIDC e outros pontos de extremidade protegidos]"
+msgstr " link:#quarkus-oidc_section_quarkus-oidc-credentials[Diferentes opções de autenticação para o cliente OIDC acessar o token OIDC e outros pontos de conexão protegidos]"
 
 #. mt: deepl
 #, fuzzy
@@ -1714,7 +1714,7 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.secret` config_property_copy_button
 #. mt: deepl
 #, fuzzy
 msgid "The client secret used by the `client_secret_basic` authentication method. Must be set unless a secret is set in `client-secret` or `jwt` client authentication is required. You can use `client-secret.value` instead, but both properties are mutually exclusive."
-msgstr "O segredo do cliente utilizado pelo método de autenticação ``client_secret_basic` `. Deve ser definido, a menos que um segredo já esteja definido na propriedade ``client-secret`` ou que seja exigida a autenticação do cliente `via JWT` . É possível utilizar ``client-secret.value`` em vez disso, mas ambas as propriedades são mutuamente exclusivas."
+msgstr "O segredo do cliente utilizado pelo método de autenticação ` `client_secret_basic` `. Deve ser definido, a menos que um segredo já esteja definido na propriedade ``client-secret`` ou que seja exigida a autenticação do cliente `via JWT` . É possível utilizar ``client-secret.value`` como alternativa, mas ambas as propriedades são mutuamente exclusivas."
 
 #. mt: deepl
 #, fuzzy
@@ -1838,7 +1838,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-client-secret-provider-keyr
 msgid ""
 "`+++quarkus.oidc.\"tenant\".credentials.client-secret.provider.keyring-name+++`\n"
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".credentials.client-secret.provider.keyring-name+++[]"
-msgstr "`quarkus.oidc.\"tenant\".credentials.client-secret.provider.keyring-name` botão_para_copiar_propriedade_de_configuração:quarkus.oidc.\"tenant\".credentials.client-secret.provider.keyring-name[]"
+msgstr "`quarkus.oidc.\"tenant\".credentials.client-secret.provider.keyring-name` config_property_copy_button:quarkus.oidc.\"tenant\".credentials.client-secret.provider.keyring-name[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1939,7 +1939,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CREDENTIALS
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:basic[`client_secret_basic` (default)\\: The client id and secret are submitted with the HTTP Authorization Basic scheme.], tooltip:post[`client_secret_post`\\: The client id and secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:post-jwt[`client_secret_jwt`\\: The client id and generated JWT secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:query[client id and secret are submitted as HTTP query parameters. This option is only supported by the OIDC extension.]"
-msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados utilizando o esquema de autorização HTTP Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
+msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados com o esquema HTTP Authorization Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
 
 #. mt: deepl
 #, fuzzy
@@ -1992,7 +1992,7 @@ msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para 
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:client[JWT token is generated by the OIDC provider client to support `client_secret_jwt` and `private_key_jwt` authentication methods.]"
-msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para oferecer suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .]"
+msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para dar suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .]"
 
 #. mt: deepl
 #, fuzzy
@@ -2025,12 +2025,12 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-path[quarkus.oidc
 msgid ""
 "`+++quarkus.oidc.\"tenant\".credentials.jwt.token-path+++`\n"
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".credentials.jwt.token-path+++[]"
-msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.token-path` config_property_copy_button:quarkus.oidc.\"tenant\".credentials.jwt.token-path[]"
+msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.token-path` botão_de_cópia_da_propriedade_de_configuração:quarkus.oidc.\"tenant\".credentials.jwt.token-path[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "Path to a file with a JWT bearer token that should be used as a client assertion. This path can only be set when JWT source (`source()`) is set to `Source++#++BEARER`."
-msgstr "Caminho para um arquivo contendo um token JWT do tipo “bearer” que deve ser utilizado como uma asserção do cliente. Esse caminho só pode ser definido quando a fonte do JWT ( `source()` ) estiver configurada como `Source#BEARER` ."
+msgstr "Caminho para um arquivo contendo um token JWT do tipo “bearer” que deve ser utilizado como uma asserção do cliente. Esse caminho só pode ser definido quando a fonte do JWT ( `source()` ) estiver definida como `Source#BEARER` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2234,7 +2234,7 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.key` config_property_copy_butto
 #. mt: deepl
 #, fuzzy
 msgid "String representation of a private key. If provided, indicates that JWT is signed using a private key in PEM or JWK format. It is mutually exclusive with `secret`, `key-file` and `key-store` properties. You can use the `signature-algorithm` property to override the default key algorithm, `RS256`."
-msgstr "Representação em string de uma chave privada. Se fornecida, indica que o JWT é assinado utilizando uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key-file`` e ``key-store`` . É possível utilizar a propriedade ``signature-algorithm`` para substituir o algoritmo de chave padrão, `RS256` ."
+msgstr "Representação em string de uma chave privada. Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades `secret` , `key-file` e `key-store` . É possível utilizar a propriedade `signature-algorithm` para substituir o algoritmo de chave padrão, `RS256` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2265,7 +2265,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[quarkus.oidc.c
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-credentials-jwt-key-file]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[`+++quarkus.oidc.credentials.jwt.key-file+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.credentials.jwt.key-file+++[]"
-msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[quarkus.oidc.credentials.jwt.key-file] config_property_copy_button:quarkus.oidc.credentials.jwt.key-file[]"
+msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-key-file[quarkus.oidc.credentials.jwt.key-file] botão_para_copiar_propriedade_de_configuração:quarkus.oidc.credentials.jwt.key-file[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2277,7 +2277,7 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.key-file` config_property_copy_
 #. mt: deepl
 #, fuzzy
 msgid "If provided, indicates that JWT is signed using a private key in PEM or JWK format. It is mutually exclusive with `secret`, `key` and `key-store` properties. You can use the `signature-algorithm` property to override the default key algorithm, `RS256`."
-msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key`` e ``key-store`` . É possível utilizar a propriedade ` `signature-algorithm`` para substituir o algoritmo de chave padrão, `o RS256` ."
+msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key`` e ``key-store`` . É possível utilizar a propriedade ` `signature-algorithm`` para substituir o algoritmo de chave padrão, `RS256` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2320,7 +2320,7 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.key-store-file` botão_para_cop
 #. mt: deepl
 #, fuzzy
 msgid "If provided, indicates that JWT is signed using a private key from a keystore. It is mutually exclusive with `secret`, `key` and `key-file` properties."
-msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave privada proveniente de um keystore. É mutuamente exclusiva das propriedades `secret` , `key` e `key-file` ."
+msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave privada proveniente de um keystore. É mutuamente exclusiva das propriedades `“secret”` , `“key”` e `“key-file` ”."
 
 #. mt: deepl
 #, fuzzy
@@ -2492,7 +2492,7 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.audience` config_property_copy_
 #. mt: deepl
 #, fuzzy
 msgid "The JWT audience (`aud`) claim value. By default, the audience is set to the address of the OpenId Connect Provider's token endpoint."
-msgstr "O valor do atributo “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de tokens do provedor do OpenID Connect."
+msgstr "O valor do atributo “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de tokens do Provedor do OpenID Connect."
 
 #. mt: deepl
 #, fuzzy
@@ -2573,7 +2573,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-credentials-jwt-token-key-id[quarkus.oi
 msgid ""
 "`+++quarkus.oidc.\"tenant\".credentials.jwt.token-key-id+++`\n"
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".credentials.jwt.token-key-id+++[]"
-msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.token-key-id` botão_para_copiar_propriedade_de_configuração:quarkus.oidc.\"tenant\".credentials.jwt.token-key-id[]"
+msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.token-key-id` config_property_copy_button:quarkus.oidc.\"tenant\".credentials.jwt.token-key-id[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2846,7 +2846,7 @@ msgstr "`quarkus.oidc.\"tenant\".credentials.jwt.assertion` config_property_copy
 #. mt: deepl
 #, fuzzy
 msgid "If true then the client authentication token is a JWT bearer grant assertion. Instead of producing 'client_assertion' and 'client_assertion_type' form properties, only 'assertion' is produced. This option is only supported by the OIDC client extension."
-msgstr "Se for verdadeiro, o token de autenticação do cliente é uma asserção de concessão JWT do tipo “bearer”. Em vez de gerar as propriedades do formulário “client_assertion” e “client_assertion_type”, é gerada apenas a propriedade “assertion”. Esta opção é compatível apenas com a extensão de cliente OIDC."
+msgstr "Se for verdadeiro, o token de autenticação do cliente é uma asserção de concessão JWT do tipo “bearer”. Em vez de gerar as propriedades do formulário “client_assertion” e “client_assertion_type”, apenas “assertion” é gerada. Esta opção é compatível apenas com a extensão de cliente OIDC."
 
 #. mt: deepl
 #, fuzzy
@@ -3385,7 +3385,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.issuer` config_property_copy_button:quark
 #. mt: deepl
 #, fuzzy
 msgid "The expected issuer `iss` claim value. This property overrides the `issuer` property, which might be set in OpenId Connect provider's well-known configuration. If the `iss` claim value varies depending on the host, IP address, or tenant id of the provider, you can skip the issuer verification by setting this property to `any`, but it should be done only when other options (such as configuring the provider to use the fixed `iss` claim value) are not possible."
-msgstr "O valor esperado da reivindicação `“iss”` do emissor. Esta propriedade substitui a propriedade `“issuer”` , que pode estar definida na configuração bem-conhecida do provedor do OpenID Connect. Caso o valor `da` reivindicação `“iss”` varie de acordo com o host, o endereço IP ou o ID do locatário do provedor, é possível ignorar a verificação do emissor definindo esta propriedade como `“any”` ; no entanto, isso deve ser feito apenas quando outras opções (como configurar o provedor para utilizar o valor fixo `da reivindicação “iss”` ) não forem viáveis."
+msgstr "O valor esperado da reivindicação `“iss”` do emissor. Essa propriedade substitui a propriedade `“issuer”` , que pode estar definida na configuração bem conhecida do provedor do OpenID Connect. Caso o valor `da` reivindicação `“iss”` varie dependendo do host, do endereço IP ou do ID do locatário do provedor, é possível ignorar a verificação do emissor definindo esta propriedade como `“any”` ; no entanto, isso deve ser feito somente quando outras opções (como configurar o provedor para utilizar o valor fixo `da reivindicação “iss”` ) não forem viáveis."
 
 #. mt: deepl
 #, fuzzy
@@ -3502,7 +3502,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[quarku
 msgid ""
 "[[quarkus-oidc_quarkus-oidc-token-required-claims-claim-name]] [.property-path]##link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[`+++quarkus.oidc.token.required-claims.\"claim-name\"+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc.token.required-claims.\"claim-name\"+++[]"
-msgstr " link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[quarkus.oidc.token.required-claims.\"claim-name\"] config_property_copy_button:quarkus.oidc.token.required-claims.\"claim-name\"[]"
+msgstr " link:#quarkus-oidc_quarkus-oidc-token-required-claims-claim-name[quarkus.oidc.token.required-claims.\"nome-da-reivindicação\"] config_property_copy_button:quarkus.oidc.token.required-claims.\"nome-da-reivindicação\"[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3648,7 +3648,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.age` config_property_copy_button:quarkus.
 #. mt: deepl
 #, fuzzy
 msgid "Token age. It allows for the number of seconds to be specified that must not elapse since the `iat` (issued at) time. A small leeway to account for clock skew which can be configured with `quarkus.oidc.token.lifespan-grace` to verify the token expiry time can also be used to verify the token age property. Note that setting this property does not relax the requirement that Bearer and Code Flow JWT tokens must have a valid (`exp`) expiry claim value. The only exception where setting this property relaxes the requirement is when a logout token is sent with a back-channel logout request since the current OpenId Connect Back-Channel specification does not explicitly require the logout tokens to contain an `exp` claim. However, even if the current logout token is allowed to have no `exp` claim, the `exp` claim is still verified if the logout token contains it."
-msgstr "Idade do token. Permite especificar o número de segundos que não devem decorrer desde o momento da emissão ( `iat` ). Uma pequena margem de tolerância para compensar o desvio de relógio, que pode ser configurada com `quarkus.oidc.token.lifespan-grace` para verificar a hora de expiração do token, também pode ser utilizada para verificar a propriedade de idade do token. Observe que definir essa propriedade não flexibiliza a exigência de que os tokens JWT do fluxo Bearer e do fluxo de código (Code Flow) devam ter um valor válido de reivindicação de validade ( `exp` ). A única exceção em que a configuração dessa propriedade flexibiliza a exigência é quando um token de logout é enviado com uma solicitação de logout por canal de retorno, uma vez que a especificação atual do OpenId Connect Back-Channel não exige explicitamente que os tokens de logout contenham uma reivindicação `exp` . No entanto, mesmo que o token de logout atual possa não conter uma reivindicação `“exp”` , essa reivindicação ainda será verificada caso o token de logout a contenha."
+msgstr "Idade do token. Permite especificar o número de segundos que não devem decorrer desde o momento da emissão ( `iat` ). Uma pequena margem de tolerância para compensar o desvio de horário, que pode ser configurada com `quarkus.oidc.token.lifespan-grace` para verificar a hora de expiração do token, também pode ser utilizada para verificar a propriedade de idade do token. Observe que definir essa propriedade não flexibiliza a exigência de que os tokens JWT do fluxo Bearer e do fluxo de código (Code Flow) devam ter um valor válido de reivindicação de validade ( `exp` ). A única exceção em que a configuração dessa propriedade flexibiliza a exigência é quando um token de logout é enviado com uma solicitação de logout por canal de retorno, uma vez que a especificação atual do OpenId Connect Back-Channel não exige explicitamente que os tokens de logout contenham uma reivindicação `exp` . No entanto, mesmo que o token de logout atual possa não conter uma reivindicação `“exp”` , essa reivindicação ainda será verificada caso o token de logout a contenha."
 
 #. mt: deepl
 #, fuzzy
@@ -3777,7 +3777,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.refresh-expired` config_property_copy_but
 #. mt: deepl
 #, fuzzy
 msgid "Refresh expired authorization code flow ID or access tokens. If this property is enabled, a refresh token request is performed if the authorization code ID or access token has expired and, if successful, the local session is updated with the new set of tokens. Otherwise, the local session is invalidated and the user redirected to the OpenID Provider to re-authenticate. In this case, the user might not be challenged again if the OIDC provider session is still active. For this option be effective the `authentication.session-age-extension` property should also be set to a nonzero value since the refresh token is currently kept in the user session. This option is valid only when the application is of type `ApplicationType++#++WEB_APP`. This property is enabled if `quarkus.oidc.token.refresh-token-time-skew` is configured, you do not need to enable this property manually in this case."
-msgstr "Atualizar o ID do fluxo do código de autorização ou os tokens de acesso expirados. Se esta propriedade estiver habilitada, uma solicitação de token de atualização será realizada caso o ID do código de autorização ou o token de acesso tenha expirado e, em caso de sucesso, a sessão local será atualizada com o novo conjunto de tokens. Caso contrário, a sessão local será invalidada e o usuário será redirecionado ao Provedor OpenID para se autenticar novamente. Nesse caso, o usuário pode não ser solicitado a se autenticar novamente se a sessão do provedor OIDC ainda estiver ativa. Para que esta opção tenha efeito, a propriedade ``authentication.session-age-extension`` também deve ser definida com um valor diferente de zero, uma vez que o token de atualização é mantido, atualmente, na sessão do usuário. Essa opção é válida apenas quando o aplicativo é do tipo `ApplicationType#WEB_APP` . Essa propriedade é ativada se `quarkus.oidc.token.refresh-token-time-skew` estiver configurado; nesse caso, não é necessário ativá-la manualmente."
+msgstr "Atualizar o ID do fluxo do código de autorização ou os tokens de acesso expirados. Se esta propriedade estiver habilitada, uma solicitação de token de atualização será realizada caso o ID do código de autorização ou o token de acesso tenha expirado e, em caso de sucesso, a sessão local será atualizada com o novo conjunto de tokens. Caso contrário, a sessão local será invalidada e o usuário será redirecionado ao Provedor OpenID para se autenticar novamente. Nesse caso, o usuário pode não ser solicitado a se autenticar novamente se a sessão do provedor OIDC ainda estiver ativa. Para que essa opção tenha efeito, a propriedade ``authentication.session-age-extension`` também deve ser definida com um valor diferente de zero, uma vez que o token de atualização é mantido atualmente na sessão do usuário. Essa opção é válida apenas quando o aplicativo é do tipo `ApplicationType#WEB_APP` . Essa propriedade é ativada se `quarkus.oidc.token.refresh-token-time-skew` estiver configurado; nesse caso, não é necessário ativá-la manualmente."
 
 #. mt: deepl
 #, fuzzy
@@ -3906,12 +3906,12 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-token-header[quarkus.oidc.token.header]
 msgid ""
 "`+++quarkus.oidc.\"tenant\".token.header+++`\n"
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".token.header+++[]"
-msgstr "`quarkus.oidc.\"tenant\".token.header` config_property_copy_button:quarkus.oidc.\"tenant\".token.header[]"
+msgstr "`quarkus.oidc.\"tenant\".token.header` botão_para_copiar_propriedade_de_configuração:quarkus.oidc.\"tenant\".token.header[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "Custom HTTP header that contains a bearer token. This option is valid only when the application is of type `ApplicationType++#++SERVICE`."
-msgstr "Cabeçalho HTTP personalizado que contém um token de portador. Essa opção é válida apenas quando o aplicativo é do tipo `ApplicationType#SERVICE` ."
+msgstr "Cabeçalho HTTP personalizado que contém um token de portador. Essa opção é válida apenas quando a aplicação é do tipo `ApplicationType#SERVICE` ."
 
 #. mt: deepl
 #, fuzzy
@@ -4002,7 +4002,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.signature-algorithm` config_property_copy
 #. mt: deepl
 #, fuzzy
 msgid "Required signature algorithm. OIDC providers support many signature algorithms but if necessary you can restrict Quarkus application to accept tokens signed only using an algorithm configured with this property."
-msgstr "Algoritmo de assinatura obrigatório. Os provedores OIDC oferecem suporte a diversos algoritmos de assinatura, mas, se necessário, é possível restringir o aplicativo Quarkus para que aceite apenas tokens assinados por meio de um algoritmo configurado com esta propriedade."
+msgstr "Algoritmo de assinatura obrigatório. Os provedores OIDC oferecem suporte a diversos algoritmos de assinatura; no entanto, se necessário, é possível restringir o aplicativo Quarkus para que aceite apenas tokens assinados por meio de um algoritmo configurado com esta propriedade."
 
 #. mt: deepl
 #, fuzzy
@@ -4093,7 +4093,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.decrypt-id-token` config_property_copy_bu
 #. mt: deepl
 #, fuzzy
 msgid "Decrypt ID token. If the `Token++#++decryptionKeyLocation()` property is configured then the decryption key will be loaded from this location. Otherwise, if the JWT authentication token key is available, then it will be used to decrypt the token. Finally, if a client secret is configured, it will be used as a secret key to decrypt the token."
-msgstr "Descriptografe o token de identificação. Se a propriedade `Token#decryptionKeyLocation()` estiver configurada, a chave de descriptografia será carregada a partir desse local. Caso contrário, se a chave do token de autenticação JWT estiver disponível, ela será utilizada para descriptografar o token. Por fim, se um segredo de cliente estiver configurado, ele será utilizado como chave secreta para descriptografar o token."
+msgstr "Descriptografar o token de identificação. Se a propriedade `Token#decryptionKeyLocation()` estiver configurada, a chave de descriptografia será carregada a partir desse local. Caso contrário, se a chave do token de autenticação JWT estiver disponível, ela será utilizada para descriptografar o token. Por fim, se um segredo de cliente estiver configurado, ele será utilizado como chave secreta para descriptografar o token."
 
 #. mt: deepl
 #, fuzzy
@@ -4179,7 +4179,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.allow-jwt-introspection` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "Allow the remote introspection of JWT tokens when no matching JWK key is available. This property is set to `true` by default for backward-compatibility reasons. It is planned that this default value will be changed to `false` in an upcoming release. Also note this property is ignored if JWK endpoint URI is not available and introspecting the tokens is the only verification option."
-msgstr "Permita a introspecção remota de tokens JWT quando não houver nenhuma chave JWK correspondente disponível. Essa propriedade está definida como `“true”` por padrão, por motivos de compatibilidade com versões anteriores. Está previsto que esse valor padrão seja alterado para `“false”` em uma versão futura. Observe também que esta propriedade é ignorada se a URI do endpoint JWK não estiver disponível e a introspecção dos tokens for a única opção de verificação."
+msgstr "Permita a introspecção remota de tokens JWT quando não houver uma chave JWK correspondente disponível. Essa propriedade é definida como `“true”` por padrão, por motivos de compatibilidade com versões anteriores. Está previsto que esse valor padrão seja alterado para `“false”` em uma versão futura. Observe também que esta propriedade é ignorada se a URI do endpoint JWK não estiver disponível e a introspecção dos tokens for a única opção de verificação."
 
 #. mt: deepl
 #, fuzzy
@@ -4308,7 +4308,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.customizer-name` config_property_copy_but
 #. mt: deepl
 #, fuzzy
 msgid "Token customizer name. Allows to select a tenant specific token customizer as a named bean. Prefer using `TenantFeature` qualifier when registering custom `TokenCustomizer`. Use this property only to refer to `TokenCustomizer` implementations provided by this extension."
-msgstr "Nome do personalizador de tokens. Permite selecionar um personalizador de tokens específico do locatário como um bean nomeado. Recomenda-se utilizar o qualificador ``TenantFeature`` ao registrar `um `TokenCustomizer`` personalizado. Utilize esta propriedade apenas para se referir a implementações `de `TokenCustomizer`` fornecidas por esta extensão."
+msgstr "Nome do personalizador de tokens. Permite selecionar um personalizador de tokens específico do locatário como um bean nomeado. Recomenda-se utilizar o qualificador ``TenantFeature`` ao registrar `um `TokenCustomizer`` personalizado. Utilize esta propriedade apenas para se referir às implementações `de `TokenCustomizer`` fornecidas por esta extensão."
 
 #. mt: deepl
 #, fuzzy
@@ -4351,7 +4351,7 @@ msgstr "`quarkus.oidc.\"tenant\".token.verify-access-token-with-user-info` confi
 #. mt: deepl
 #, fuzzy
 msgid "Indirectly verify that the opaque (binary) access token is valid by using it to request UserInfo. Opaque access token is considered valid if the provider accepted this token and returned a valid UserInfo. You should only enable this option if the opaque access tokens must be accepted but OpenId Connect provider does not have a token introspection endpoint. This property has no effect when JWT tokens must be verified."
-msgstr "Verifique indiretamente se o token de acesso opaco (binário) é válido, utilizando-o para solicitar o UserInfo. O token de acesso opaco é considerado válido se o provedor tiver aceitado esse token e devolvido um UserInfo válido. Você só deve habilitar esta opção se os tokens de acesso opacos precisarem ser aceitos, mas o provedor OpenID Connect não possuir um endpoint de introspecção de tokens. Essa propriedade não tem efeito quando os tokens JWT devem ser verificados."
+msgstr "Verifique indiretamente se o token de acesso opaco (binário) é válido, utilizando-o para solicitar o UserInfo. O token de acesso opaco é considerado válido se o provedor tiver aceitado esse token e devolvido um UserInfo válido. Você só deve ativar esta opção se os tokens de acesso opacos precisarem ser aceitos, mas o provedor OpenID Connect não possuir um endpoint de introspecção de tokens. Essa propriedade não tem efeito quando os tokens JWT precisam ser verificados."
 
 #. mt: deepl
 #, fuzzy
@@ -4798,7 +4798,7 @@ msgstr "`quarkus.oidc.\"tenant\".logout.backchannel.logout-token-key` config_pro
 #. mt: deepl
 #, fuzzy
 msgid "Logout token claim whose value is used as a key for caching the tokens. Only `sub` (subject) and `sid` (session id) claims can be used as keys. Set it to `sid` only if ID tokens issued by the OIDC provider have no `sub` but have `sid` claim."
-msgstr "Reivindicação de token de logout cujo valor é utilizado como chave para o armazenamento em cache dos tokens. Apenas as reivindicações `sub` (assunto) e `sid` (identificador de sessão) podem ser utilizadas como chaves. Defina-a como `sid` apenas se os tokens de identificação emitidos pelo provedor OIDC não possuírem `a reivindicação sub` , mas possuírem a reivindicação `sid` ."
+msgstr "Reivindicação de token de logout cujo valor é utilizado como chave para armazenar os tokens em cache. Apenas as reivindicações `sub` (assunto) e `sid` (identificador de sessão) podem ser utilizadas como chaves. Defina-a como `sid` somente se os tokens de identificação emitidos pelo provedor OIDC não possuírem `a reivindicação sub` , mas possuírem a reivindicação `sid` ."
 
 #. mt: deepl
 #, fuzzy
@@ -4950,7 +4950,7 @@ msgstr "tooltip:query[Os parâmetros de logout são codificados na string de con
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:query[Logout parameters are encoded in the query string]"
-msgstr "dica de ferramenta:query[Os parâmetros de logout estão codificados na string de consulta]"
+msgstr "dica de ferramenta: consulta [Os parâmetros de logout estão codificados na string de consulta]"
 
 #. mt: deepl
 #, fuzzy
@@ -5165,7 +5165,7 @@ msgstr "`quarkus.oidc.\"tenant\".certificate-chain.trust-store-file-type` config
 #. mt: deepl
 #, fuzzy
 msgid "An optional parameter to specify type of the truststore file. If not given, the type is automatically detected based on the file name."
-msgstr "Um parâmetro opcional para especificar o tipo do arquivo do truststore. Caso não seja fornecido, o tipo é detectado automaticamente com base no nome do arquivo."
+msgstr "Um parâmetro opcional para especificar o tipo do arquivo do truststore. Se não for fornecido, o tipo é detectado automaticamente com base no nome do arquivo."
 
 #. mt: deepl
 #, fuzzy
@@ -5364,7 +5364,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.restore-path-after-redirect` con
 #. mt: deepl
 #, fuzzy
 msgid "If this property is set to `true`, the original request URI which was used before the authentication is restored after the user has been redirected back to the application. Note if `redirectPath` property is not set, the original request URI is restored even if this property is disabled."
-msgstr "Se esta propriedade for definida como `“true”` , a URI da solicitação original, utilizada antes da autenticação, será restaurada após o usuário ter sido redirecionado de volta para o aplicativo. Observe que, se a propriedade `“redirectPath”` não estiver definida, a URI da solicitação original será restaurada mesmo que esta propriedade esteja desativada."
+msgstr "Se esta propriedade for definida como `“true”` , a URI da solicitação original, utilizada antes da autenticação, será restaurada após o usuário ter sido redirecionado de volta para o aplicativo. Observe que, caso a propriedade `redirectPath` não esteja definida, a URI da solicitação original será restaurada mesmo que esta propriedade esteja desativada."
 
 #. mt: deepl
 #, fuzzy
@@ -5502,12 +5502,12 @@ msgstr "Caminho relativo para o endpoint público para o qual um usuário autent
 #. mt: deepl
 #, fuzzy
 msgid "When the OIDC session has expired and the session can not be refreshed, a user is redirected to the OIDC provider to re-authenticate. The user experience may not be ideal in this case as it may not be obvious to the authenticated user why an authentication challenge is returned."
-msgstr "Quando a sessão OIDC expira e não é possível atualizá-la, o usuário é redirecionado ao provedor OIDC para realizar uma nova autenticação. A experiência do usuário pode não ser ideal nesse caso, pois pode não ficar claro para o usuário autenticado o motivo pelo qual é apresentado um desafio de autenticação."
+msgstr "Quando a sessão OIDC expira e não é possível atualizá-la, o usuário é redirecionado ao provedor OIDC para se autenticar novamente. A experiência do usuário pode não ser ideal nesse caso, pois pode não ficar claro para o usuário autenticado o motivo pelo qual é apresentado um desafio de autenticação."
 
 #. mt: deepl
 #, fuzzy
 msgid "Set this property if you would like the user whose session has expired be redirected to a public application specific page instead, which can inform that the session has expired and advise the user to re-authenticated by following a link to the secured initial entry page."
-msgstr "Defina esta propriedade caso deseje que o usuário cuja sessão tenha expirado seja redirecionado para uma página pública específica do aplicativo, na qual seja informado que a sessão expirou e o usuário seja orientado a se autenticar novamente, seguindo um link para a página de entrada inicial protegida."
+msgstr "Defina esta propriedade caso deseje que o usuário cuja sessão tenha expirado seja redirecionado para uma página pública específica do aplicativo, na qual seja informado que a sessão expirou e o usuário seja orientado a se autenticar novamente, seguindo um link para a página de acesso inicial protegida."
 
 #. mt: deepl
 #, fuzzy
@@ -5563,7 +5563,7 @@ msgstr "Tanto o token de identificação quanto o token de acesso são obtidos d
 #. mt: deepl
 #, fuzzy
 msgid "ID token is always verified on every user request as the primary token which is used to represent the principal and extract the roles."
-msgstr "O token de identificação é sempre verificado em todas as solicitações do usuário como o token principal, utilizado para representar o principal e extrair as funções."
+msgstr "O token de identificação é sempre verificado em cada solicitação do usuário como o token principal, utilizado para representar o principal e extrair as funções."
 
 #. mt: deepl
 #, fuzzy
@@ -5573,7 +5573,7 @@ msgstr "O token de acesso do fluxo de código de autorização deve ser transmit
 #. mt: deepl
 #, fuzzy
 msgid "Authorization code flow access token verification is also enabled if this token is injected as JsonWebToken. Set this property to `false` if it is not required."
-msgstr "A verificação do token de acesso no fluxo de código de autorização também é ativada se esse token for injetado como JsonWebToken. Defina esta propriedade como `false` caso não seja necessária."
+msgstr "A verificação do token de acesso no fluxo de código de autorização também é ativada se esse token for injetado como JsonWebToken. Defina esta propriedade como `“false”` caso não seja necessária."
 
 #. mt: deepl
 #, fuzzy
@@ -5755,7 +5755,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.nonce-required` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "Require that ID token includes a `nonce` claim which must match `nonce` authentication request query parameter. Enabling this property can help mitigate replay attacks. Do not enable this property if your OpenId Connect provider does not support setting `nonce` in ID token or if you work with OAuth2 provider such as `GitHub` which does not issue ID tokens."
-msgstr "Exija que o token de identificação inclua uma reivindicação `de nonce` que deve corresponder ao parâmetro de consulta `“nonce”` da solicitação de autenticação. A ativação desta propriedade pode ajudar a mitigar ataques de repetição. Não ative esta propriedade se o seu provedor OpenID Connect não oferecer suporte à configuração `do nonce` no token de identificação ou se você trabalhar com um provedor OAuth2, como `o GitHub` , que não emite tokens de identificação."
+msgstr "Exija que o token de identificação inclua uma reivindicação `de nonce` que deve corresponder ao parâmetro de consulta `“nonce”` da solicitação de autenticação. A ativação desta propriedade pode ajudar a mitigar ataques de repetição. Não ative esta propriedade se o seu provedor OpenID Connect não oferecer suporte à configuração `do nonce` no token de identificação ou se você trabalhar com um provedor OAuth 2, como `o GitHub` , que não emite tokens de identificação."
 
 #. mt: deepl
 #, fuzzy
@@ -5798,7 +5798,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.add-openid-scope` config_propert
 #. mt: deepl
 #, fuzzy
 msgid "Add the `openid` scope automatically to the list of scopes. This is required for OpenId Connect providers, but does not work for OAuth2 providers such as Twitter OAuth2, which do not accept this scope and throw errors."
-msgstr "Adicione automaticamente o escopo `“openid”` à lista de escopos. Isso é necessário para provedores do OpenID Connect, mas não funciona para provedores do OAuth2, como o Twitter OAuth2, que não aceitam esse escopo e geram erros."
+msgstr "Adicione automaticamente o escopo `“openid”` à lista de escopos. Isso é necessário para provedores OpenID Connect, mas não funciona para provedores OAuth2, como o OAuth2 do Twitter, que não aceitam esse escopo e geram erros."
 
 #. mt: deepl
 #, fuzzy
@@ -6056,7 +6056,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-cookie-path-header[quark
 msgid ""
 "`+++quarkus.oidc.\"tenant\".authentication.cookie-path-header+++`\n"
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".authentication.cookie-path-header+++[]"
-msgstr "`quarkus.oidc.\"tenant\".authentication.cookie-path-header` botão de cópia da propriedade de configuração:quarkus.oidc.\"tenant\".authentication.cookie-path-header[]"
+msgstr "`quarkus.oidc.\"tenant\".authentication.cookie-path-header` botão_para_copiar_propriedade_de_configuração:quarkus.oidc.\"tenant\".authentication.cookie-path-header[]"
 
 #. mt: deepl
 #, fuzzy
@@ -6243,7 +6243,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.allow-multiple-code-flows` confi
 #. mt: deepl
 #, fuzzy
 msgid "If a state cookie is present, a `state` query parameter must also be present and both the state cookie name suffix and state cookie value must match the value of the `state` query parameter when the redirect path matches the current path. However, if multiple authentications are attempted from the same browser, for example, from the different browser tabs, then the currently available state cookie might represent the authentication flow initiated from another tab and not related to the current request. Disable this property to permit only a single authorization code flow in the same browser."
-msgstr "Se houver um cookie de estado, também deve haver um parâmetro de consulta `de estado` , e tanto o sufixo do nome do cookie de estado quanto o valor do mesmo devem corresponder ao valor do parâmetro de consulta `de estado` quando o caminho de redirecionamento corresponder ao caminho atual. No entanto, se forem realizadas várias tentativas de autenticação a partir do mesmo navegador — por exemplo, em abas diferentes do navegador —, o cookie de estado disponível no momento poderá representar o fluxo de autenticação iniciado em outra aba e não estar relacionado à solicitação atual. Desative esta propriedade para permitir apenas um único fluxo de código de autorização no mesmo navegador."
+msgstr "Se houver um cookie de estado, também deve haver um parâmetro de consulta `de estado` , e tanto o sufixo do nome do cookie de estado quanto o valor do mesmo devem corresponder ao valor do parâmetro de consulta `de estado` quando o caminho de redirecionamento corresponder ao caminho atual. No entanto, se forem tentadas múltiplas autenticações a partir do mesmo navegador — por exemplo, em abas diferentes do navegador —, o cookie de estado disponível no momento poderá representar o fluxo de autenticação iniciado em outra aba e não estar relacionado à solicitação atual. Desative esta propriedade para permitir apenas um único fluxo de código de autorização no mesmo navegador."
 
 #. mt: deepl
 #, fuzzy
@@ -6297,7 +6297,7 @@ msgstr "Retorne o erro HTTP 401 caso o cookie de estado esteja presente, mas nã
 #. mt: deepl
 #, fuzzy
 msgid "When either multiple authentications are disabled or the redirect URL matches the original request URL, the stale state cookie might remain in the browser cache from the earlier failed redirect to an OpenId Connect provider and be visible during the current request. For example, if Single-page application (SPA) uses XHR to handle redirects to the provider which does not support CORS for its authorization endpoint, the browser blocks it and the state cookie created by Quarkus remains in the browser cache. Quarkus reports an authentication failure when it detects such an old state cookie but find no matching state query parameter."
-msgstr "Quando as autenticações múltiplas estão desativadas ou a URL de redirecionamento corresponde à URL da solicitação original, o cookie de estado obsoleto pode permanecer no cache do navegador, proveniente do redirecionamento anterior malsucedido para um provedor OpenID Connect, e ficar visível durante a solicitação atual. Por exemplo, se um aplicativo de página única (SPA) utilizar XHR para lidar com redirecionamentos para um provedor que não ofereça suporte a CORS para seu endpoint de autorização, o navegador bloqueia a operação e o cookie de estado criado pelo Quarkus permanece no cache do navegador. O Quarkus relata uma falha de autenticação quando detecta esse cookie de estado antigo, mas não encontra nenhum parâmetro de consulta de estado correspondente."
+msgstr "Quando as autenticações múltiplas estão desativadas ou a URL de redirecionamento corresponde à URL da solicitação original, o cookie de estado obsoleto pode permanecer no cache do navegador, proveniente do redirecionamento anterior malsucedido para um provedor OpenID Connect, e ficar visível durante a solicitação atual. Por exemplo, se um aplicativo de página única (SPA) utilizar XHR para lidar com redirecionamentos para um provedor que não ofereça suporte a CORS para seu endpoint de autorização, o navegador bloqueia a operação e o cookie de estado criado pelo Quarkus permanece no cache do navegador. O Quarkus relata uma falha de autenticação quando detecta esse cookie de estado obsoleto, mas não encontra nenhum parâmetro de consulta de estado correspondente."
 
 #. mt: deepl
 #, fuzzy
@@ -6352,12 +6352,12 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.fail-on-unresolved-kid` botão d
 #. mt: deepl
 #, fuzzy
 msgid "Fail with the HTTP 401 error if the ID token signature can not be verified during the re-authentication only due to an unresolved token key identifier (`kid`)."
-msgstr "Deve retornar o erro HTTP 401 caso a assinatura do token de identificação não possa ser verificada durante a reautenticação, exclusivamente devido a um identificador de chave do token ( `kid` ) não resolvido."
+msgstr "Deve retornar o erro HTTP 401 se a assinatura do token de identificação não puder ser verificada durante a reautenticação, exclusivamente devido a um identificador de chave do token ( `kid` ) não resolvido."
 
 #. mt: deepl
 #, fuzzy
 msgid "This property might need to be disabled when multiple tab authentications are allowed, with one of the tabs keeping an expired ID token with its `kid` unresolved due to the verification key set refreshed due to another tab initiating an authorization code flow. In such cases, instead of failing with the HTTP 401 error, redirecting the user to re-authenticate with the HTTP 302 status may provide better user experience."
-msgstr "Pode ser necessário desativar essa propriedade quando forem permitidas autenticações em várias abas, sendo que uma delas mantenha um token de identificação expirado com seu `elemento filho` não resolvido devido à atualização do conjunto de chaves de verificação, causada pelo fato de outra aba ter iniciado um fluxo de código de autorização. Nesses casos, em vez de apresentar o erro HTTP 401, redirecionar o usuário para que ele se autentique novamente com o status HTTP 302 pode proporcionar uma melhor experiência ao usuário."
+msgstr "Pode ser necessário desativar essa propriedade quando forem permitidas autenticações em várias abas, sendo que uma delas mantenha um token de identificação expirado com seu `“kid”` não resolvido devido à atualização do conjunto de chaves de verificação, causada pelo fato de outra aba ter iniciado um fluxo de código de autorização. Nesses casos, em vez de apresentar o erro HTTP 401, redirecionar o usuário para que ele se autentique novamente com o status HTTP 302 pode proporcionar uma melhor experiência ao usuário."
 
 #. mt: deepl
 #, fuzzy
@@ -6409,12 +6409,12 @@ msgstr "Se essa propriedade for definida como `“true”` , um endpoint UserInf
 #. mt: deepl
 #, fuzzy
 msgid "This property is enabled automatically if `quarkus.oidc.roles.source` is set to `userinfo` or `quarkus.oidc.token.verify-access-token-with-user-info` is set to `true` or `quarkus.oidc.authentication.id-token-required` is set to `false`, the current OIDC tenant must support a UserInfo endpoint in these cases."
-msgstr "Essa propriedade é ativada automaticamente se `quarkus.oidc.roles.for` definido como ``userinfo`` , ou `se` ``quarkus.oidc.token.verify-access-token-with-user-info` ` for definido como ``true`` , ou se ``quarkus.oidc.authentication.id-token-required` ` for definido como ``false`` ; nesses casos, o locatário OIDC atual deve oferecer suporte a um endpoint `UserInfo`."
+msgstr "Essa propriedade é ativada automaticamente se `quarkus.oidc.roles.for definido` como `userinfo` , ou `se` `quarkus.oidc.token.verify-access-token-with-user-info` for definido como `true` , ou se `quarkus.oidc.authentication.id-token-required` for definido como `false` ; nesses casos, o locatário OIDC atual deve oferecer suporte a um endpoint UserInfo."
 
 #. mt: deepl
 #, fuzzy
 msgid "It is also enabled automatically if `io.quarkus.oidc.UserInfo` injection point is detected but only if the current OIDC tenant supports a UserInfo endpoint."
-msgstr "Ela também é ativada automaticamente caso seja detectado o ponto de injeção `io.quarkus.oidc.UserInfo` , mas somente se o locatário OIDC atual for compatível com um endpoint UserInfo."
+msgstr "Ela também é ativada automaticamente caso seja detectado o ponto de injeção ``io.quarkus.oidc.UserInfo` `, mas somente se o locatário OIDC atual for compatível com um endpoint `UserInfo`."
 
 #. mt: deepl
 #, fuzzy
@@ -6462,7 +6462,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.session-age-extension` config_pr
 #. mt: deepl
 #, fuzzy
 msgid "Session age extension in minutes. The user session age property is set to the value of the ID token life-span by default and the user is redirected to the OIDC provider to re-authenticate once the session has expired. If this property is set to a nonzero value, then the expired ID token can be refreshed before the session has expired. This property is effective only if the `token.refresh-expired` property is enabled and a refresh token is available. It is set to 5 minutes by default."
-msgstr "Extensão da validade da sessão em minutos. Por padrão, a propriedade de validade da sessão do usuário é definida como o valor da validade do token de identificação, e o usuário é redirecionado ao provedor OIDC para se autenticar novamente assim que a sessão expirar. Se essa propriedade for definida com um valor diferente de zero, o token de identificação expirado poderá ser atualizado antes que a sessão expire. Essa propriedade só terá efeito se a propriedade ``token.refresh-expired`` estiver habilitada e houver um token de atualização disponível. Por padrão, ela é definida como 5 minutos."
+msgstr "Extensão da validade da sessão em minutos. Por padrão, a propriedade de validade da sessão do usuário é definida como o valor da validade do token de identificação, e o usuário é redirecionado ao provedor OIDC para se reautenticar assim que a sessão expirar. Se essa propriedade for definida com um valor diferente de zero, o token de identificação expirado poderá ser atualizado antes que a sessão expire. Essa propriedade só terá efeito se a propriedade ``token.refresh-expired`` estiver habilitada e houver um token de atualização disponível. Por padrão, ela é definida como 5 minutos."
 
 #. mt: deepl
 #, fuzzy
@@ -6472,7 +6472,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_AUTHENTICAT
 #. mt: deepl
 #, fuzzy
 msgid "`+++5M+++`"
-msgstr "`5M`"
+msgstr "`5 milhões`"
 
 #. mt: deepl
 #, fuzzy
@@ -6560,7 +6560,7 @@ msgstr "Se essa propriedade for definida como `“true”` , será retornada uma
 #. mt: deepl
 #, fuzzy
 msgid "If this property is set to `false`, a status code of `499` is returned to allow SPA to handle the redirect manually if a request header identifying current request as a JavaScript request is found. `X-Requested-With` request header with its value set to either `JavaScript` or `XMLHttpRequest` is expected by default if this property is enabled. You can register a custom `JavaScriptRequestChecker` to do a custom JavaScript request check instead."
-msgstr "Se esta propriedade for definida como `“false”` , um código de status `499` será retornado para permitir que o SPA lide com o redirecionamento manualmente caso seja encontrado um cabeçalho de solicitação que identifique a solicitação atual como uma solicitação JavaScript. Por padrão, espera-se que o cabeçalho de solicitação `“X-Requested-With”` tenha seu valor definido como `“JavaScript”` ou `“XMLHttpRequest”` se esta propriedade estiver ativada. Você pode registrar um `JavaScriptRequestChecker` personalizado para realizar uma verificação personalizada de solicitações JavaScript."
+msgstr "Se esta propriedade for definida como `“false”` , um código de status `499` será retornado para permitir que o SPA lide com o redirecionamento manualmente caso seja encontrado um cabeçalho de solicitação que identifique a solicitação atual como uma solicitação JavaScript. Por padrão, espera-se que o cabeçalho de solicitação `“X-Requested-With”` tenha seu valor definido como `“JavaScript”` ou `“XMLHttpRequest”` se esta propriedade estiver habilitada. Você pode registrar um `JavaScriptRequestChecker` personalizado para realizar uma verificação personalizada de solicitações JavaScript."
 
 #. mt: deepl
 #, fuzzy
@@ -6646,7 +6646,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.internal-id-token-lifespan` conf
 #. mt: deepl
 #, fuzzy
 msgid "Internal ID token lifespan. This property is only checked when an internal IdToken is generated when OAuth2 providers do not return IdToken. If this property is not configured then an access token `expires_in` property in the OAuth2 authorization code flow response is used to set an internal IdToken lifespan."
-msgstr "Vigência do token de identificação interno. Essa propriedade é verificada apenas quando um IdToken interno é gerado, caso os provedores OAuth2 não retornem um IdToken. Se essa propriedade não estiver configurada, a propriedade ``expires_in`` do token de acesso na resposta do fluxo de código de autorização OAuth2 será utilizada para definir a vigência do IdToken interno."
+msgstr "Vigência do token de identificação interno. Essa propriedade é verificada apenas quando um IdToken interno é gerado, nos casos em que os provedores OAuth2 não retornam um IdToken. Caso essa propriedade não esteja configurada, a propriedade ``expires_in`` do token de acesso na resposta do fluxo de código de autorização OAuth2 é utilizada para definir a vigência do IdToken interno."
 
 #. mt: deepl
 #, fuzzy
@@ -6738,7 +6738,7 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.state-secret` config_property_co
 #. mt: deepl
 #, fuzzy
 msgid "Secret used to encrypt Proof Key for Code Exchange (PKCE) code verifier and/or nonce in the code flow state. This secret should be at least 32 characters long."
-msgstr "Segredo utilizado para criptografar o verificador de código do Proof Key for Code Exchange (PKCE) e/ou o nonce no estado do fluxo de código. Esse segredo deve ter, no mínimo, 32 caracteres."
+msgstr "Segredo utilizado para criptografar o verificador de código do Proof Key for Code Exchange (PKCE) e/ou o nonce no estado de fluxo de código. Esse segredo deve ter, no mínimo, 32 caracteres."
 
 #. mt: deepl
 #, fuzzy
@@ -6844,7 +6844,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-authentication-par-path[quarkus.oidc.au
 msgid ""
 "`+++quarkus.oidc.\"tenant\".authentication.par.path+++`\n"
 "config_property_copy_button:+++quarkus.oidc.\"tenant\".authentication.par.path+++[]"
-msgstr "`quarkus.oidc.\"tenant\".authentication.par.path` botão_para_copiar_propriedade_de_configuração:quarkus.oidc.\"tenant\".authentication.par.path[]"
+msgstr "`quarkus.oidc.\"tenant\".authentication.par.path` config_property_copy_button:quarkus.oidc.\"tenant\".authentication.par.path[]"
 
 #. mt: deepl
 #, fuzzy
@@ -7495,7 +7495,7 @@ msgstr "`quarkus.oidc.\"tenant\".jwks.cache-time-to-live` config_property_copy_b
 #. mt: deepl
 #, fuzzy
 msgid "Number of minutes a JWK key can be cached for. This property is ignored if the `resolve-early` property is set to true."
-msgstr "Número de minutos durante os quais uma chave JWK pode permanecer em cache. Essa propriedade é ignorada se a propriedade `“resolve-early”` estiver definida como “true”."
+msgstr "Número de minutos durante os quais uma chave JWK pode permanecer em cache. Essa propriedade é ignorada se a propriedade ``resolve-early` ` estiver definida como `true`."
 
 #. mt: deepl
 #, fuzzy
@@ -7695,7 +7695,7 @@ msgstr " link:#quarkus-oidc_quarkus-oidc-token-cache-clean-up-timer-interval[qua
 #. mt: deepl
 #, fuzzy
 msgid "Clean up timer interval. If this property is set then a timer will check and remove the stale entries periodically."
-msgstr "Intervalo do temporizador de limpeza. Se essa propriedade estiver definida, um temporizador verificará e removerá as entradas desatualizadas periodicamente."
+msgstr "Intervalo do temporizador de limpeza. Se essa propriedade estiver definida, um temporizador verificará e removerá as entradas obsoletas periodicamente."
 
 #. mt: deepl
 #, fuzzy
@@ -7840,7 +7840,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if a Keycloak-X image is used. By default, the image is identified by `keycloak-x` in the image name. For custom images, override with `quarkus.keycloak.devservices.keycloak-x-image`. You do not need to set this property if the default check works."
-msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem é identificada pela `expressão “keycloak-x”` no nome da imagem. Para imagens personalizadas, substitua essa configuração por `quarkus.keycloak.devservices.keycloak-x-image` . Não é necessário definir essa propriedade se a verificação padrão funcionar."
+msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem é identificada pela `string “keycloak-x”` no nome da imagem. Para imagens personalizadas, substitua por `quarkus.keycloak.devservices.keycloak-x-image` . Não é necessário definir essa propriedade se a verificação padrão funcionar."
 
 #. mt: deepl
 #, fuzzy
@@ -8017,7 +8017,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Additional class or file system resources that are used to initialize Keycloak. Each map entry represents a mapping between a class or file system resource path alias and the Keycloak container location."
-msgstr "Recursos adicionais de classe ou do sistema de arquivos utilizados para inicializar o Keycloak. Cada entrada do mapa representa um mapeamento entre um alias de caminho de uma classe ou de um recurso do sistema de arquivos e o local do contêiner do Keycloak."
+msgstr "Recursos adicionais de classe ou do sistema de arquivos utilizados para inicializar o Keycloak. Cada entrada do mapa representa um mapeamento entre um alias de caminho de uma classe ou de um recurso do sistema de arquivos e a localização do contêiner do Keycloak."
 
 #. mt: deepl
 #, fuzzy
@@ -8248,7 +8248,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Specifies whether to create the default client id `quarkus-app` with a secret `secret` and register them if the `create-realm` property is set to true. For OIDC extension configuration properties `quarkus.oidc.client.id` and `quarkus.oidc.credentials.secret` will be configured. For OIDC Client extension configuration properties `quarkus.oidc-client.client.id` and `quarkus.oidc-client.credentials.secret` will be configured. Set to `false` if clients have to be created using either the Keycloak Administration Console or the Keycloak Admin API provided by `io.quarkus.test.common.QuarkusTestResourceLifecycleManager` or registered dynamically."
-msgstr "Especifica se deve-se criar o ID de cliente padrão ``quarkus-app` ` com o segredo ``secret`` e registrá-los, caso a propriedade ``create-realm` ` esteja definida como `true`. Para as propriedades de configuração da extensão OIDC, serão configuradas `quarkus.oidc.client.id` e `quarkus.oidc.credentials.secret` . Para as propriedades de configuração da extensão OIDC Client, serão configuradas `quarkus.oidc-client.client.id` e `quarkus.oidc-client.credentials.secret` . Defina como `“false”` se os clientes precisarem ser criados por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `, ou se forem registrados dinamicamente."
+msgstr "Especifica se deve criar o ID de cliente padrão ``quarkus-app` ` com um segredo ``secret`` e registrá-los, caso a propriedade ``create-realm` ` esteja definida como `true`. Para as propriedades de configuração da extensão OIDC, serão configuradas `quarkus.oidc.client.id` e `quarkus.oidc.credentials.secret` . Para as propriedades de configuração da extensão OIDC Client, serão configuradas `quarkus.oidc-client.client.id` e `quarkus.oidc-client.credentials.secret` . Defina como `“false”` se os clientes precisarem ser criados por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `, ou se forem registrados dinamicamente."
 
 #. mt: deepl
 #, fuzzy
@@ -8347,7 +8347,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "A map of roles for Keycloak users. If empty, default roles are assigned: `alice` receives `admin` and `user` roles, while other users receive `user` role. This map is used for role creation when no realm file is found at the `realm-path`."
-msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, serão atribuídas as funções padrão: `a alice` recebe as funções `de administrador` e `usuário` , enquanto os demais usuários recebem a função `de usuário` . Esse mapa é utilizado para a criação de funções quando não é encontrado nenhum arquivo de reino no `caminho do reino` ."
+msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, são atribuídas funções padrão: `a alice` recebe as funções `de administrador` e `usuário` , enquanto os demais usuários recebem a função `de usuário` . Esse mapa é utilizado para a criação de funções quando não é encontrado nenhum arquivo de reino no `caminho do reino` ."
 
 #. mt: deepl
 #, fuzzy
@@ -8387,7 +8387,7 @@ msgstr "A porta específica na qual o serviço de desenvolvimento deve ficar à 
 #. mt: deepl
 #, fuzzy
 msgid "If not specified, a random port is selected."
-msgstr "Caso não seja especificado, será selecionada uma porta aleatória."
+msgstr "Caso não seja especificado, é selecionada uma porta aleatória."
 
 #. mt: deepl
 #, fuzzy
@@ -8420,7 +8420,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Environment variables to be passed to the container."
-msgstr "Variáveis de ambiente a serem passadas para o contêiner."
+msgstr "Variáveis de ambiente a serem passadas ao contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -8503,7 +8503,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "The WebClient timeout. Use this property to configure how long an HTTP client used by OIDC dev service admin client will wait for a response from OpenId Connect Provider when acquiring admin token and creating realm."
-msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelo cliente de administração do serviço de desenvolvimento OIDC aguardará uma resposta do Provedor OpenID Connect ao adquirir um token de administração e criar um reino."
+msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelo cliente de administração do serviço de desenvolvimento OIDC aguardará uma resposta do Provedor OpenID Connect ao adquirir um token de administração e ao criar um reino."
 
 #. mt: deepl
 #, fuzzy
@@ -8556,12 +8556,12 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."
 
 msgid "References"
 msgstr "Referências"

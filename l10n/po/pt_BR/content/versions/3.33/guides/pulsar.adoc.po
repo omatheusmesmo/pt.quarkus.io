@@ -966,7 +966,7 @@ msgstr "[lock]  link:#quarkus-messaging-pulsar_quarkus-pulsar-devservices_quarku
 #. mt: deepl
 #, fuzzy
 msgid "If Dev Services for Pulsar has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For Pulsar, Dev Services starts a broker unless `pulsar.client.serviceUrl` is set or if all the Reactive Messaging Pulsar channel are configured with `serviceUrl`."
-msgstr "Se os Serviços de Desenvolvimento para o Pulsar foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que haja uma configuração existente. Para o Pulsar, os Serviços de Desenvolvimento iniciam um broker, a menos que `pulsar.client.serviceUrl` esteja definido ou que todos os canais do Reactive Messaging Pulsar estejam configurados com `serviceUrl` ."
+msgstr "Se os Serviços de Desenvolvimento para o Pulsar foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente vêm ativados por padrão, a menos que haja uma configuração existente. No caso do Pulsar, os Serviços de Desenvolvimento iniciam um broker, a menos que `pulsar.client.serviceUrl` esteja definido ou que todos os canais do Reactive Messaging Pulsar estejam configurados com `serviceUrl` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1150,7 +1150,7 @@ msgstr "O valor do rótulo `“quarkus-dev-service-pulsar”` associado ao cont�
 #. mt: deepl
 #, fuzzy
 msgid "This property is used when you need multiple shared Pulsar brokers."
-msgstr "Essa propriedade é utilizada quando é necessário ter vários brokers Pulsar compartilhados."
+msgstr "Essa propriedade é utilizada quando há necessidade de vários brokers Pulsar compartilhados."
 
 #. mt: deepl
 #, fuzzy

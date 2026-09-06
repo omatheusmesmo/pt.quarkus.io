@@ -783,7 +783,7 @@ msgstr " link:#quarkus-kafka-streams_quarkus-kafka-streams-bootstrap-servers[qua
 #. mt: deepl
 #, fuzzy
 msgid "A comma-separated list of host:port pairs identifying the Kafka bootstrap server(s). If not set, fallback to `kafka.bootstrap.servers`, and if not set either use `localhost:9092`."
-msgstr "Uma lista separada por vírgulas de pares host:porta que identificam o(s) servidor(es) de inicialização do Kafka. Caso não seja definida, recorre-se à variável ``kafka.bootstrap.servers` ` e, se esta também não estiver definida, utiliza-se ``localhost:9092` `."
+msgstr "Uma lista separada por vírgulas de pares host:porta que identificam o(s) servidor(es) de inicialização do Kafka. Caso não seja definida, recorre-se à variável ``kafka.bootstrap.servers` ` e, caso esta também não esteja definida, utiliza-se ``localhost:9092` `."
 
 #. mt: deepl
 #, fuzzy
@@ -929,7 +929,7 @@ msgstr " link:#quarkus-kafka-streams_quarkus-kafka-streams-topics-timeout[quarku
 #. mt: deepl
 #, fuzzy
 msgid "Timeout to wait for topic names to be returned from admin client. If set to 0 (or negative), `topics` check is ignored."
-msgstr "Tempo limite para aguardar o retorno dos nomes dos tópicos pelo cliente de administração. Se definido como 0 (ou um valor negativo), a verificação `dos tópicos` é ignorada."
+msgstr "Tempo limite para aguardar o retorno dos nomes dos tópicos pelo cliente de administração. Se definido como 0 (ou um valor negativo), a verificação `dos tópicos` será ignorada."
 
 #. mt: deepl
 #, fuzzy
@@ -1474,7 +1474,7 @@ msgstr " link:#quarkus-kafka-streams_quarkus-kafka-streams-sasl-login-refresh-mi
 #. mt: deepl
 #, fuzzy
 msgid "The desired minimum duration for the login refresh thread to wait before refreshing a credential"
-msgstr "A duração mínima desejada que a thread de atualização de login deve aguardar antes de atualizar uma credencial"
+msgstr "O tempo mínimo desejado que o thread de atualização de login deve aguardar antes de atualizar uma credencial"
 
 #. mt: deepl
 #, fuzzy
@@ -1507,7 +1507,7 @@ msgstr " link:#quarkus-kafka-streams_quarkus-kafka-streams-sasl-login-refresh-bu
 #. mt: deepl
 #, fuzzy
 msgid "The amount of buffer duration before credential expiration to maintain when refreshing a credential"
-msgstr "O período de validade do intervalo de segurança antes do vencimento da credencial que deve ser mantido ao atualizar uma credencial"
+msgstr "O período de validade do buffer a ser mantido antes do vencimento da credencial, ao atualizá-la"
 
 #. mt: deepl
 #, fuzzy

@@ -445,8 +445,9 @@ msgstr "O senhor pode agrupar os parâmetros da solicitação em uma classe de c
 msgid "`BeanParam` is required to comply with the Jakarta REST specification so that libraries like OpenAPI can introspect the parameters."
 msgstr "`BeanParam` é necessário para estar em conformidade com a especificação Jakarta REST, de modo que bibliotecas como a OpenAPI possam introspectar os parâmetros."
 
+#, fuzzy
 msgid "<a id=\"declaring-uri-parameters\"></a> Declaring URI parameters"
-msgstr ""
+msgstr "<a id=\"declaring-uri-parameters\"></a> Declaração de parâmetros de URI"
 
 #, fuzzy
 msgid ""

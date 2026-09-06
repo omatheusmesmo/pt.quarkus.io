@@ -1013,7 +1013,7 @@ msgstr "[lock] `link:#quarkus-micrometer_quarkus.micrometer.export.json.buffer-l
 #. mt: deepl
 #, fuzzy
 msgid "Statistics like max, percentiles, and histogram counts decay over time to give greater weight to recent samples. Samples are accumulated to such statistics in ring buffers which rotate after the expiry, with this buffer length."
-msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas são atualizadas ao longo do tempo para atribuir maior peso às amostras recentes. As amostras são acumuladas nessas estatísticas em buffers circulares que se renovam após o término do prazo, com esse comprimento de buffer."
+msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas são atualizadas ao longo do tempo para atribuir maior peso às amostras recentes. As amostras são acumuladas nessas estatísticas em buffers circulares que se renovam após o vencimento, com esse comprimento de buffer."
 
 #. mt: deepl
 #, fuzzy
@@ -1048,7 +1048,7 @@ msgstr "[lock] `link:#quarkus-micrometer_quarkus.micrometer.export.json.expiry[q
 #. mt: deepl
 #, fuzzy
 msgid "Statistics like max, percentiles, and histogram counts decay over time to give greater weight to recent samples. Samples are accumulated to such statistics in ring buffers which rotate after this expiry, with a particular buffer length."
-msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas perdem peso ao longo do tempo, a fim de atribuir maior peso às amostras recentes. As amostras são acumuladas nessas estatísticas em buffers circulares, que se renovam após esse prazo, com um comprimento específico de buffer."
+msgstr "Estatísticas como valor máximo, percentis e contagens de histogramas são atualizadas ao longo do tempo para atribuir maior peso às amostras mais recentes. As amostras são acumuladas nessas estatísticas em buffers em anel, que se renovam após esse prazo, com um comprimento específico de buffer."
 
 #. mt: deepl
 #, fuzzy
@@ -1128,7 +1128,7 @@ msgid ""
 "`${quarkus.http.root-path}/${quarkus.http.non-application-root-path}/metrics`.\n"
 "If an absolute path is specified (`/metrics`), the prometheus endpoint will be served\n"
 "from the configured path."
-msgstr "O caminho para o endpoint de métricas do Prometheus (gera texto/simples). O valor padrão é `metrics` e é resolvido de forma relativa ao endpoint não pertencente ao aplicativo ( `q` ), por exemplo, `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}/metrics` . Caso seja especificado um caminho absoluto ( `/metrics` ), o endpoint do Prometheus será servido a partir do caminho configurado."
+msgstr "O caminho para o endpoint de métricas do Prometheus (gera texto/simples). O valor padrão é `“metrics”` e é resolvido de forma relativa ao endpoint não pertencente ao aplicativo ( `q` ), por exemplo, `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}/metrics` . Caso seja especificado um caminho absoluto ( `/metrics` ), o endpoint do Prometheus será servido a partir do caminho configurado."
 
 #. mt: deepl
 #, fuzzy
@@ -1395,7 +1395,7 @@ msgid ""
 "Suppress non-application uris from metrics collection.\n"
 "This will suppress all metrics for non-application endpoints using\n"
 "`${quarkus.http.root-path}/${quarkus.http.non-application-root-path}`."
-msgstr "Omitir URIs que não pertencem ao aplicativo da coleta de métricas. Isso omitirá todas as métricas relativas a endpoints que não pertencem ao aplicativo, utilizando `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}` ."
+msgstr "Omitir URIs que não pertencem à aplicação da coleta de métricas. Isso omitirá todas as métricas relativas a endpoints que não pertencem à aplicação, utilizando `${quarkus.http.root-path}/${quarkus.http.non-application-root-path}` ."
 
 #. mt: deepl
 #, fuzzy

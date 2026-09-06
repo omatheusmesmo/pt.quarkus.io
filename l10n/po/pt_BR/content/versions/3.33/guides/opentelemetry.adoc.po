@@ -850,7 +850,7 @@ msgstr "Lista de exportadores compatíveis com o Quarkus."
 #. mt: deepl
 #, fuzzy
 msgid "List of exporters to be used for tracing, separated by commas. Has one of the values on `ExporterType` `otlp`, `cdi`, `none` or the full qualified name of a class implementing `io.opentelemetry.sdk.trace.export.SpanExporter`"
-msgstr "Lista de exportadores a ser utilizada para rastreamento, separados por vírgulas. Deve conter um dos valores da propriedade `ExporterType` : `otlp` , `cdi` , `none` ou o nome totalmente qualificado de uma classe que implemente `io.opentelemetry.sdk.trace.export.SpanExporter`"
+msgstr "Lista de exportadores a ser utilizada para rastreamento, separados por vírgulas. Deve conter um dos valores da propriedade `ExporterType` : `otlp` , `cdi` , `none` ou o nome completo e qualificado de uma classe que implemente `io.opentelemetry.sdk.trace.export.SpanExporter`"
 
 #. mt: deepl
 #, fuzzy
@@ -911,7 +911,7 @@ msgstr "Um dos valores em `SamplerType` deve ser `always_on` , `always_off` , `t
 #. mt: deepl
 #, fuzzy
 msgid "Fallbacks to the legacy property `quarkus.opentelemetry.tracer.sampler.sampler.name` or defaults to `SamplerType.Constants++#++PARENT_BASED_ALWAYS_ON`."
-msgstr "Recorre à propriedade legada ``quarkus.opentelemetry.tracer.sampler.sampler.name` ` ou utiliza como padrão ` `SamplerType.Constants#PARENT_BASED_ALWAYS_ON` `."
+msgstr "Recorre à propriedade legada ``quarkus.opentelemetry.tracer.sampler.sampler.name` ` ou utiliza como padrão o valor ` `SamplerType.Constants#PARENT_BASED_ALWAYS_ON` `."
 
 #. mt: deepl
 #, fuzzy
@@ -1385,7 +1385,7 @@ msgstr "[lock]  link:#quarkus-opentelemetry_quarkus-otel-security-events-event-t
 #. mt: deepl
 #, fuzzy
 msgid "Selects security event types."
-msgstr "Seleciona os tipos de eventos de segurança."
+msgstr "Seleciona tipos de eventos de segurança."
 
 #. mt: deepl
 #, fuzzy
@@ -1395,7 +1395,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OTEL_SECURITY_EV
 #. mt: deepl
 #, fuzzy
 msgid "list of tooltip:all[All the security events.], tooltip:authentication-success[Authentication success event.], tooltip:authentication-failure[Authentication failure event.], tooltip:authorization-success[Authorization success event.], tooltip:authorization-failure[Authorization failure event.], tooltip:other[Any other security event. For example the OpenId Connect security event belongs here.]"
-msgstr "lista de tooltip:all[Todos os eventos de segurança.], tooltip:authentication-success[Evento de autenticação bem-sucedida.], tooltip:authentication-failure[Evento de falha na autenticação.], tooltip:authorization-success[Evento de autorização bem-sucedida.], tooltip:falha-na-autorização[Evento de falha na autorização.], tooltip:outros[Qualquer outro evento de segurança. Por exemplo, o evento de segurança do OpenID Connect se enquadra nesta categoria.]"
+msgstr "lista de tooltip:all[Todos os eventos de segurança.], tooltip:authentication-success[Evento de autenticação bem-sucedida.], tooltip:authentication-failure[Evento de falha na autenticação.], tooltip:authorization-success[Evento de autorização bem-sucedida.], tooltip:falha-na-autorização[Evento de falha na autorização.], tooltip:outro[Qualquer outro evento de segurança. Por exemplo, o evento de segurança do OpenID Connect se enquadra nesta categoria.]"
 
 #. mt: deepl
 #, fuzzy
@@ -1512,7 +1512,7 @@ msgstr "Se for fornecido um bean CDI personalizado do tipo ` `io.opentelemetry.s
 #. mt: deepl
 #, fuzzy
 msgid "This is a Quarkus specific property. Suppressing non-application uris is enabled by default."
-msgstr "Esta é uma propriedade específica do Quarkus. A supressão de URIs que não pertencem a aplicativos está ativada por padrão."
+msgstr "Esta é uma propriedade específica do Quarkus. A supressão de URIs que não pertencem ao aplicativo está ativada por padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -1564,7 +1564,7 @@ msgstr "Isso suprimirá todos os URIs definidos por esta propriedade."
 #. mt: deepl
 #, fuzzy
 msgid "If you are using `quarkus.http.root-path`, you need to consider it when setting your uris, in other words, you need to configure it using the root-path if necessary."
-msgstr "Caso esteja utilizando `o `quarkus.http.root-path`` , é necessário levá-lo em consideração ao definir suas URIs; em outras palavras, é necessário configurá-las utilizando o `root-path`, se necessário."
+msgstr "Caso esteja utilizando `o `quarkus.http.root-path`` , é necessário levar isso em consideração ao definir suas URIs; em outras palavras, é necessário configurá-las utilizando o `root-path`, se necessário."
 
 #. mt: deepl
 #, fuzzy
@@ -1653,7 +1653,7 @@ msgstr "Argumento do amostrador. Depende da propriedade `quarkus.otel.traces.sam
 #. mt: deepl
 #, fuzzy
 msgid "When setting the stock sampler to `traceidratio` or `parentbased_traceidratio` you need to set a `double` compatible value between `0.0d` and `1.0d`, like `0.01d` or `0.5d`. It is kept as a `String` to allow the flexible customisation of alternative samplers."
-msgstr "Ao configurar o amostrador padrão para `“traceidratio”` ou `“parentbased_traceidratio”` , é necessário definir um valor compatível `com o tipo double` entre `0,0d` e `1,0d` , como `0,01d` ou `0,5d` . Esse valor é armazenado como uma `String` para permitir a personalização flexível de amostradores alternativos."
+msgstr "Ao configurar o amostrador padrão para `“traceidratio”` ou `“parentbased_traceidratio”` , é necessário definir um valor compatível `com o tipo “double”` entre `0,0d` e `1,0d` , como `0,01d` ou `0,5d` . Esse valor é armazenado como uma `String` para permitir a personalização flexível de amostradores alternativos."
 
 #. mt: deepl
 #, fuzzy
@@ -1793,7 +1793,7 @@ msgstr "O nível de registro a ser utilizado pelo manipulador de registros do Op
 #. mt: deepl
 #, fuzzy
 msgid "This is a Quarkus specific property. The default log level is ALL."
-msgstr "Esta é uma propriedade específica do Quarkus. O nível de registro padrão é ALL."
+msgstr "Esta é uma propriedade específica do Quarkus. O nível de log padrão é ALL."
 
 #. mt: deepl
 #, fuzzy
@@ -2106,7 +2106,7 @@ msgstr " link:#quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size[quarkus.ote
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size[`+++quarkus.otel.bsp.max.queue.size+++`]##\n"
 "config_property_copy_button:+++quarkus.otel.bsp.max.queue.size+++[]"
-msgstr " link:#quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size[quarkus.otel.bsp.max.queue.size] botão_para_copiar_propriedade_de_configuração:quarkus.otel.bsp.max.queue.size[]"
+msgstr " link:#quarkus-opentelemetry_quarkus-otel-bsp-max-queue-size[quarkus.otel.bsp.max.queue.size] config_property_copy_button:quarkus.otel.bsp.max.queue.size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2286,7 +2286,7 @@ msgstr " link:#quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size[quarkus.ot
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size[`+++quarkus.otel.blrp.max.queue.size+++`]##\n"
 "config_property_copy_button:+++quarkus.otel.blrp.max.queue.size+++[]"
-msgstr " link:#quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size[quarkus.otel.blrp.max.queue.size] botão_para_copiar_propriedade_de_configuração:quarkus.otel.blrp.max.queue.size[]"
+msgstr " link:#quarkus-opentelemetry_quarkus-otel-blrp-max-queue-size[quarkus.otel.blrp.max.queue.size] config_property_copy_button:quarkus.otel.blrp.max.queue.size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2429,7 +2429,7 @@ msgstr " link:#quarkus-opentelemetry_quarkus-otel-service-name[quarkus.otel.serv
 #. mt: deepl
 #, fuzzy
 msgid "Specify logical service name. Takes precedence over service.name defined with otel.resource.attributes and from quarkus.application.name."
-msgstr "Especifique o nome lógico do serviço. Tem precedência sobre o nome do serviço definido em `otel.resource.attributes` e em `quarkus.application.name`."
+msgstr "Especifique o nome lógico do serviço. Tem precedência sobre o nome do serviço definido com `otel.resource.attributes` e em `quarkus.application.name`."
 
 #. mt: deepl
 #, fuzzy
@@ -2785,7 +2785,7 @@ msgstr " link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-endpoint[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "Sets the OTLP endpoint to send telemetry data. If unset, defaults to `OtlpExporterRuntimeConfig++#++DEFAULT_GRPC_BASE_URI`."
-msgstr "Define o endpoint OTLP para o envio de dados de telemetria. Se não for definido, o valor padrão será `OtlpExporterRuntimeConfig#DEFAULT_GRPC_BASE_URI` ."
+msgstr "Define o ponto de extremidade OTLP para o envio de dados de telemetria. Se não for definido, o valor padrão será `OtlpExporterRuntimeConfig#DEFAULT_GRPC_BASE_URI` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2880,7 +2880,7 @@ msgstr "Define o método utilizado para compactar as cargas úteis. Se não for 
 #. mt: deepl
 #, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..compression` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..compression` , em que “compression” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..compression` , em que “compression” é um dos tipos de sinal suportados, como `“traces”` ou `“metrics` ”."
 
 #. mt: deepl
 #, fuzzy
@@ -2979,7 +2979,7 @@ msgstr "Atualmente, apenas `o gRPC` e `o HTTP/Protobuf` são permitidos."
 #. mt: deepl
 #, fuzzy
 msgid "Please mind that changing the protocol requires changing the port in the endpoint as well."
-msgstr "Lembre-se de que a alteração do protocolo exige também a alteração da porta no endpoint."
+msgstr "Lembre-se de que a alteração do protocolo exige também a alteração da porta no ponto de extremidade."
 
 #. mt: deepl
 #, fuzzy
@@ -3255,7 +3255,7 @@ msgstr "Defina a senha do proxy."
 #. mt: deepl
 #, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.password` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.password` , em que “sinal” é um dos tipos de sinal compatíveis, como `“traces` ” ou `“metrics` ”."
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.password` , em que “sinal” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3335,7 +3335,7 @@ msgstr "Definir o host do proxy."
 #. mt: deepl
 #, fuzzy
 msgid "There is a generic property, that will apply to all signals and a signal specific one, following the pattern: `quarkus.otel.exporter.otlp..proxy-options.host` where  is one of the supported signal types, like `traces` or `metrics`."
-msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.host` , em que `“host”` é um dos tipos de sinal suportados, como `“traces”` ou `“metrics` ”."
+msgstr "Existe uma propriedade genérica, que se aplica a todos os sinais, e uma propriedade específica para cada sinal, seguindo o padrão: `quarkus.otel.exporter.otlp..proxy-options.host` , em que “host” é um dos tipos de sinal suportados, como `traces` ou `métricas` ."
 
 #. mt: deepl
 #, fuzzy
@@ -4216,7 +4216,7 @@ msgstr " link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-metrics-temporal
 #. mt: deepl
 #, fuzzy
 msgid "The preferred output aggregation temporality. Options include DELTA, LOWMEMORY, and CUMULATIVE."
-msgstr "A temporalidade preferencial para a agregação de resultados. As opções incluem DELTA, LOWMEMORY e CUMULATIVE."
+msgstr "A temporalidade preferencial para a agregação de saídas. As opções incluem DELTA, LOWMEMORY e CUMULATIVE."
 
 #. mt: deepl
 #, fuzzy
@@ -4555,7 +4555,7 @@ msgstr " link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configu
 msgid ""
 "[[quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configuration-name]] [.property-path]##link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configuration-name[`+++quarkus.otel.exporter.otlp.logs.tls-configuration-name+++`]##\n"
 "config_property_copy_button:+++quarkus.otel.exporter.otlp.logs.tls-configuration-name+++[]"
-msgstr " link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configuration-name[quarkus.otel.exporter.otlp.logs.tls-configuration-name] config_property_copy_button:quarkus.otel.exporter.otlp.logs.tls-configuration-name[]"
+msgstr " link:#quarkus-opentelemetry_quarkus-otel-exporter-otlp-logs-tls-configuration-name[quarkus.otel.exporter.otlp.logs.tls-configuration-name] botão_para_copiar_propriedade_de_configuração:quarkus.otel.exporter.otlp.logs.tls-configuration-name[]"
 
 #. mt: deepl
 #, fuzzy

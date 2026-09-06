@@ -902,7 +902,7 @@ msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.devservices.port[qua
 msgid ""
 "Optional fixed port the dev service will listen to.\n"
 "If not defined, the port will be chosen randomly."
-msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Caso não seja definida, a porta será escolhida aleatoriamente."
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Se não for definida, a porta será escolhida aleatoriamente."
 
 #. mt: deepl
 #, fuzzy
@@ -1017,7 +1017,7 @@ msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.devservices.password
 #. mt: deepl
 #, fuzzy
 msgid "The password to use if this Dev Service supports overriding it."
-msgstr "A senha a ser utilizada, caso este Serviço de Desenvolvimento permita sua substituição."
+msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita sua substituição."
 
 #. mt: deepl
 #, fuzzy
@@ -1295,7 +1295,7 @@ msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.devservices.containe
 msgid ""
 "Generic properties that are passed for additional container configuration.\n"
 "Properties defined here are database specific and are interpreted specifically in each database dev service implementation."
-msgstr "Propriedades genéricas que são passadas para configuração adicional do contêiner. As propriedades definidas aqui são específicas do banco de dados e são interpretadas de maneira específica em cada implementação do serviço de desenvolvimento do banco de dados."
+msgstr "Propriedades genéricas que são passadas para configuração adicional do contêiner. As propriedades definidas aqui são específicas do banco de dados e são interpretadas de maneira específica em cada implementação do serviço de desenvolvimento de banco de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -1402,7 +1402,7 @@ msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.-datasource-name-.de
 #. mt: deepl
 #, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus.datasource.-datasource-name-.devservices.image-name]]`link:#quarkus-datasource_quarkus.datasource.-datasource-name-.devservices.image-name[quarkus.datasource.\"datasource-name\".devservices.image-name]`"
-msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.-datasource-name-.devservices.image-name[quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem]`"
+msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.-datasource-name-.devservices.image-name[quarkus.datasource.\"datasource-name\".devservices.image-name]`"
 
 #. mt: deepl
 #, fuzzy
@@ -1676,7 +1676,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE__DATASOURCE_NAME__CREDENTIALS_PROVIDER+++[]\n"
 "--"
-msgstr "`link:#quarkus-datasource_quarkus.datasource.-datasource-name-.credentials-provider[quarkus.datasource.\"nome-da-fonte-de-dados\".provedor-de-credenciais]`"
+msgstr "`link:#quarkus-datasource_quarkus.datasource.-datasource-name-.credentials-provider[quarkus.datasource.\"nome-da-fonte-de-dados\".credentials-provider]`"
 
 #. mt: deepl
 #, fuzzy
@@ -1927,7 +1927,7 @@ msgstr "`link:#quarkus-agroal_quarkus.datasource.jdbc.initial-size[quarkus.datas
 #. mt: deepl
 #, fuzzy
 msgid "The initial size of the pool. Usually you will want to set the initial size to match at least the minimal size, but this is not enforced so to allow for architectures which prefer a lazy initialization of the connections on boot, while being able to sustain a minimal pool size after boot."
-msgstr "O tamanho inicial do pool. Normalmente, é recomendável definir o tamanho inicial para que corresponda, no mínimo, ao tamanho mínimo; no entanto, essa regra não é imposta, a fim de permitir arquiteturas que prefiram uma inicialização diferida das conexões na inicialização do sistema, mantendo, ao mesmo tempo, um tamanho mínimo do pool após a inicialização."
+msgstr "O tamanho inicial do pool. Normalmente, é recomendável definir o tamanho inicial para que corresponda, no mínimo, ao tamanho mínimo; no entanto, essa regra não é obrigatória, a fim de permitir arquiteturas que prefiram uma inicialização diferida das conexões durante a inicialização do sistema, mantendo, ao mesmo tempo, um tamanho mínimo do pool após a inicialização."
 
 #. mt: deepl
 #, fuzzy
@@ -2162,7 +2162,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_JDBC_
 #. mt: deepl
 #, fuzzy
 msgid "`5M`"
-msgstr "`5M`"
+msgstr "`5 milhões`"
 
 #. mt: deepl
 #, fuzzy
@@ -3179,7 +3179,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE__DATA
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""
@@ -3429,7 +3429,7 @@ msgstr "[lock] `link:#quarkus-reactive-datasource_quarkus.datasource.reactive[qu
 #. mt: deepl
 #, fuzzy
 msgid "If we create a Reactive datasource for this datasource."
-msgstr "Se criarmos uma fonte de dados reativa para essa fonte de dados."
+msgstr "Se criarmos uma fonte de dados reativa para esta fonte de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -3544,7 +3544,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.event-loo
 msgid ""
 "When a new connection object is created, the pool assigns it an event loop.\n"
 "When `++#++event-loop-size` is set to a strictly positive value, the pool assigns as many event loops as specified, in a round-robin fashion. By default, the number of event loops configured or calculated by Quarkus is used. If `++#++event-loop-size` is set to zero or a negative value, the pool assigns the current event loop to the new connection."
-msgstr "Quando um novo objeto de conexão é criado, o pool atribui a ele um ciclo de eventos. Quando `#event-loop-size` é definido como um valor estritamente positivo, o pool atribui tantos ciclos de eventos quanto especificado, seguindo o método round-robin. Por padrão, é utilizado o número de ciclos de eventos configurado ou calculado pelo Quarkus. Se `#event-loop-size` for definido como zero ou um valor negativo, o pool atribui o ciclo de eventos atual à nova conexão."
+msgstr "Quando um novo objeto de conexão é criado, o pool atribui a ele um ciclo de eventos. Quando `#event-loop-size` é definido como um valor estritamente positivo, o pool atribui tantos ciclos de eventos quanto o especificado, seguindo o método round-robin. Por padrão, é utilizado o número de ciclos de eventos configurado ou calculado pelo Quarkus. Se `#event-loop-size` for definido como zero ou um valor negativo, o pool atribui o ciclo de eventos atual à nova conexão."
 
 #. mt: deepl
 #, fuzzy
@@ -4106,7 +4106,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.hostname-
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-reactive-datasource_quarkus.datasource.reactive.hostname-verification-algorithm]]`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.hostname-verification-algorithm[quarkus.datasource.reactive.hostname-verification-algorithm]`"
-msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.hostname-verification-algorithm[quarkus.datasource.reactive.algoritmo-de-verificação-de-nome-de-host]`"
+msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.hostname-verification-algorithm[quarkus.datasource.reactive.algoritmo-de-verificação-do-nome-do-servidor]`"
 
 #. mt: deepl
 #, fuzzy
@@ -4139,7 +4139,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.idle-time
 #. mt: deepl
 #, fuzzy
 msgid "The maximum time a connection remains unused in the pool before it is closed."
-msgstr "O tempo máximo durante o qual uma conexão permanece ociosa no pool antes de ser encerrada."
+msgstr "O tempo máximo durante o qual uma conexão permanece sem uso no pool antes de ser encerrada."
 
 #. mt: deepl
 #, fuzzy
@@ -4228,7 +4228,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.additiona
 #. mt: deepl
 #, fuzzy
 msgid "Other unspecified properties to be passed through the Reactive SQL Client directly to the database when new connections are initiated."
-msgstr "Outras propriedades não especificadas que devem ser transmitidas pelo Reactive SQL Client diretamente ao banco de dados quando novas conexões são iniciadas."
+msgstr "Outras propriedades não especificadas que devem ser transmitidas pelo Reactive SQL Client diretamente ao banco de dados quando novas conexões forem iniciadas."
 
 #. mt: deepl
 #, fuzzy
@@ -4390,7 +4390,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE__DATASOURCE_NAME__REACTIVE_TRUST_CERTIFICATE_PEM+++[]\n"
 "--"
-msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.trust-certificate-pem[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pem]`"
+msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.trust-certificate-pem[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.certificado-de-confiança-pem]`"
 
 #. mt: deepl
 #, fuzzy
@@ -4556,7 +4556,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.trust-certificate-pfx.password]]`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.trust-certificate-pfx.password[quarkus.datasource.\"datasource-name\".reactive.trust-certificate-pfx.password]`"
-msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.trust-certificate-pfx.password[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pfx.senha]`"
+msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.trust-certificate-pfx.password[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.trust-certificate-pfx.password]`"
 
 #. mt: deepl
 #, fuzzy
@@ -4694,7 +4694,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.key-certificate-jks.password]]`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.key-certificate-jks.password[quarkus.datasource.\"datasource-name\".reactive.key-certificate-jks.password]`"
-msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.key-certificate-jks.password[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-jks.password]`"
+msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.-datasource-name-.reactive.key-certificate-jks.password[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.key-certificate-jks.senha]`"
 
 #. mt: deepl
 #, fuzzy
@@ -4965,7 +4965,7 @@ msgstr "`link:#quarkus-reactive-db2-client_quarkus.datasource.reactive.db2.ssl[q
 #. mt: deepl
 #, fuzzy
 msgid "Whether SSL/TLS is enabled."
-msgstr "Se o SSL/TLS está habilitado."
+msgstr "Se o SSL/TLS está ativado."
 
 #. mt: deepl
 #, fuzzy
@@ -5148,7 +5148,7 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_REACTIVE_MYSQL_AUTHENTICATION_PLUGIN+++[]\n"
 "--"
-msgstr "`link:#quarkus-reactive-mysql-client_quarkus.datasource.reactive.mysql.authentication-plugin[quarkus.datasource.reactive.mysql.plugin-de-autenticação]`"
+msgstr "`link:#quarkus-reactive-mysql-client_quarkus.datasource.reactive.mysql.authentication-plugin[quarkus.datasource.reactive.mysql.authentication-plugin]`"
 
 #. mt: deepl
 #, fuzzy
@@ -5288,7 +5288,7 @@ msgstr "`link:#quarkus-reactive-mysql-client_quarkus.datasource.-datasource-name
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-reactive-mysql-client_quarkus.datasource.-datasource-name-.reactive.mysql.authentication-plugin]]`link:#quarkus-reactive-mysql-client_quarkus.datasource.-datasource-name-.reactive.mysql.authentication-plugin[quarkus.datasource.\"datasource-name\".reactive.mysql.authentication-plugin]`"
-msgstr "`link:#quarkus-reactive-mysql-client_quarkus.datasource.-datasource-name-.reactive.mysql.authentication-plugin[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.plugin-de-autenticação]`"
+msgstr "`link:#quarkus-reactive-mysql-client_quarkus.datasource.-datasource-name-.reactive.mysql.authentication-plugin[quarkus.datasource.\"nome-da-fonte-de-dados\".reactive.mysql.plug-in-de-autenticação]`"
 
 #. mt: deepl
 #, fuzzy

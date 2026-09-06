@@ -362,12 +362,12 @@ msgstr " link:#quarkus-proxy-registry_quarkus-proxy-credentials-provider-name[qu
 #. mt: deepl
 #, fuzzy
 msgid "Name of the credential bucket to retrieve from the `CredentialsProvider`. If not set, the credentials provider will not be used."
-msgstr "Nome do conjunto de credenciais a ser recuperado do `CredentialsProvider` . Se não for definido, o provedor de credenciais não será utilizado."
+msgstr "Nome do conjunto de credenciais a ser recuperado do `CredentialsProvider` . Caso não seja definido, o provedor de credenciais não será utilizado."
 
 #. mt: deepl
 #, fuzzy
 msgid "A credentials provider offers a way to retrieve the key store password as well as alias password. Note that the credentials provider is only used if the username and password are not set in the configuration."
-msgstr "Um provedor de credenciais oferece uma maneira de recuperar a senha do armazenamento de chaves, bem como a senha do alias. Observe que o provedor de credenciais só é utilizado se o nome de usuário e a senha não estiverem definidos na configuração."
+msgstr "Um provedor de credenciais oferece uma maneira de recuperar a senha do armazenamento de chaves, bem como a senha do alias. Observe que o provedor de credenciais só é utilizado caso o nome de usuário e a senha não estejam definidos na configuração."
 
 #. mt: deepl
 #, fuzzy
@@ -539,7 +539,7 @@ msgstr "Nome de usuário do proxy."
 #. mt: deepl
 #, fuzzy
 msgid "See also `credentials-provider`"
-msgstr "Veja também: `credentials-provider`"
+msgstr "Consulte também: `credentials-provider`"
 
 #. mt: deepl
 #, fuzzy

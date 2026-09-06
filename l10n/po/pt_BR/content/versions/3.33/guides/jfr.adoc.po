@@ -577,7 +577,7 @@ msgstr " link:#quarkus-jfr_quarkus-jfr-enabled[quarkus.jfr.enabled] config_prope
 #. mt: deepl
 #, fuzzy
 msgid "If false, only quarkus-jfr events are not recorded even if JFR is enabled. In this case, Java standard API and virtual machine information will be recorded according to the setting. Default value is `true`"
-msgstr "Se for “false”, apenas os eventos “quarkus-jfr” não serão registrados, mesmo que o JFR esteja habilitado. Nesse caso, as informações da API padrão do Java e da máquina virtual serão registradas de acordo com a configuração. O valor padrão é `“true”`"
+msgstr "Se for “false”, apenas os eventos do quarkus-jfr não serão registrados, mesmo que o JFR esteja habilitado. Nesse caso, as informações da API padrão do Java e da máquina virtual serão registradas de acordo com a configuração. O valor padrão é `“true”`"
 
 #. mt: deepl
 #, fuzzy

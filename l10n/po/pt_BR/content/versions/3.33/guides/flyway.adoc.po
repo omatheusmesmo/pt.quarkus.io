@@ -157,7 +157,7 @@ msgstr "[lock]  link:#quarkus-flyway_quarkus-flyway-locations[quarkus.flyway.loc
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".locations+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".locations+++[]"
-msgstr "`quarkus.flyway.\"datasource-name\".locations` config_property_copy_button:quarkus.flyway.\"datasource-name\".locations[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".locations` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".locations[]"
 
 #. mt: deepl
 #, fuzzy
@@ -262,7 +262,7 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-active[quarkus.flyway.active] confi
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".active+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".active+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".active` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".active[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".ativo` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".ativo[]"
 
 #. mt: deepl
 #, fuzzy
@@ -365,7 +365,7 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-connect-retries-interval[quarkus.fl
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".connect-retries-interval+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".connect-retries-interval+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".intervalo-entre-tentativas-de-conexão` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".intervalo-entre-tentativas-de-conexão[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".intervalo-de-retentativas-de-conexão` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".intervalo-de-retentativas-de-conexão[]"
 
 #. mt: deepl
 #, fuzzy
@@ -433,7 +433,7 @@ msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".esquema-padrão` config_prope
 #. mt: deepl
 #, fuzzy
 msgid "Sets the default schema managed by Flyway. This schema name is case-sensitive. If not specified, but _schemas_ is, Flyway uses the first schema in that list. If that is also not specified, Flyway uses the default schema for the database connection."
-msgstr "Define o esquema padrão gerenciado pelo Flyway. O nome deste esquema diferencia maiúsculas de minúsculas. Caso não seja especificado, mas a lista _de esquemas (schemas)_ for fornecida, o Flyway utilizará o primeiro esquema dessa lista. Caso também não seja especificado, o Flyway utilizará o esquema padrão da conexão com o banco de dados."
+msgstr "Define o esquema padrão gerenciado pelo Flyway. O nome desse esquema diferencia maiúsculas de minúsculas. Caso não seja especificado, mas _a variável `schemas`_ esteja definida, o Flyway utiliza o primeiro esquema dessa lista. Caso também não seja especificado, o Flyway utiliza o esquema padrão da conexão com o banco de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -489,7 +489,7 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-jdbc-url[quarkus.flyway.jdbc-url] c
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".jdbc-url+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".jdbc-url+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".jdbc-url` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".jdbc-url[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".jdbc-url` botão_para_copiar_propriedade_de_configuração:quarkus.flyway.\"nome-da-fonte-de-dados\".jdbc-url[]"
 
 #. mt: deepl
 #, fuzzy
@@ -575,12 +575,12 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-password[quarkus.flyway.password] c
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".password+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".password+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".senha` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".senha[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".password` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".password[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The password that Flyway uses to connect to the database. If no specific JDBC URL is configured, falls back to the datasource password if not specified."
-msgstr "A senha que o Flyway utiliza para se conectar ao banco de dados. Caso não haja nenhuma URL JDBC específica configurada, o sistema recorrerá à senha da fonte de dados, se esta não tiver sido especificada."
+msgstr "A senha que o Flyway utiliza para se conectar ao banco de dados. Caso não haja nenhuma URL JDBC específica configurada, o sistema utilizará a senha da fonte de dados, se esta não tiver sido especificada."
 
 #. mt: deepl
 #, fuzzy
@@ -618,7 +618,7 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-schemas[quarkus.flyway.schemas] con
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".schemas+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".schemas+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".schemas` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".schemas[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".esquemas` botão_para_copiar_propriedade_de_configuração:quarkus.flyway.\"nome-da-fonte-de-dados\".esquemas[]"
 
 #. mt: deepl
 #, fuzzy
@@ -704,12 +704,12 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-sql-migration-prefix[quarkus.flyway
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".sql-migration-prefix+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".sql-migration-prefix+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".prefixo-de-migração-sql` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".prefixo-de-migração-sql[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".prefixo-de-migração-sql-config_property_copy_button` :quarkus.flyway.\"nome-da-fonte-de-dados\".prefixo-de-migração-sql[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The file name prefix for versioned SQL migrations. Versioned SQL migrations have the following file name structure: prefixVERSIONseparatorDESCRIPTIONsuffix , which using the defaults translates to V1.1__My_description.sql"
-msgstr "O prefixo do nome do arquivo para migrações SQL com versão. As migrações SQL com versão possuem a seguinte estrutura de nome de arquivo: prefixoVERSÕAseparadorDESCRIÇÕAsufixo, o que, utilizando os valores padrão, resulta em V1.1__Minha_descrição.sql"
+msgstr "O prefixo do nome do arquivo para migrações SQL com versão. As migrações SQL com versão possuem a seguinte estrutura de nome de arquivo: prefixoVERSÕESeparadorDESCRIÇÕESufixo, o que, utilizando os valores padrão, resulta em V1.1__Minha_descrição.sql"
 
 #. mt: deepl
 #, fuzzy
@@ -1010,7 +1010,7 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-validate-at-start-clean-on-validati
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".validate-at-start.clean-on-validation-error+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".validate-at-start.clean-on-validation-error+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".validate-at-start.clean-on-validation-error` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".validate-at-start.clean-on-validation-error[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".validar-no-início.limpar-em-caso-de-erro-de-validação` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".validar-no-início.limpar-em-caso-de-erro-de-validação[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1058,7 +1058,7 @@ msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".baseline-on-migrate` config_p
 #. mt: deepl
 #, fuzzy
 msgid "true to execute Flyway baseline before migrations This flag is ignored if the flyway_schema_history table exists in the current schema or if the current schema is empty. Note that this will not automatically call migrate, you must either enable baselineAtStart or programmatically call flyway.migrate()."
-msgstr "true para executar a linha de base do Flyway antes das migrações. Este sinalizador é ignorado se a tabela flyway_schema_history existir no esquema atual ou se o esquema atual estiver vazio. Observe que isso não chamará automaticamente o `migrate`; você deve habilitar o `baselineAtStart` ou chamar programaticamente o `flyway.migrate()`."
+msgstr "true para executar a linha de base do Flyway antes das migrações. Este sinalizador é ignorado se a tabela flyway_schema_history existir no esquema atual ou se o esquema atual estiver vazio. Observe que isso não chamará automaticamente o `migrate`; é necessário habilitar o `baselineAtStart` ou chamar programaticamente o `flyway.migrate()`."
 
 #. mt: deepl
 #, fuzzy
@@ -1617,7 +1617,7 @@ msgstr " link:#quarkus-flyway_quarkus-flyway-validate-migration-naming[quarkus.f
 msgid ""
 "`+++quarkus.flyway.\"datasource-name\".validate-migration-naming+++`\n"
 "config_property_copy_button:+++quarkus.flyway.\"datasource-name\".validate-migration-naming+++[]"
-msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".validação-da-nomenclatura-das-migrações` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".validação-da-nomenclatura-das-migrações[]"
+msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".validate-migration-naming` config_property_copy_button:quarkus.flyway.\"nome-da-fonte-de-dados\".validate-migration-naming[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1665,7 +1665,7 @@ msgstr "`quarkus.flyway.\"nome-da-fonte-de-dados\".ignore-migration-patterns` co
 #. mt: deepl
 #, fuzzy
 msgid "Ignore migrations during validate and repair according to a given list of patterns (see https://flywaydb.org/documentation/configuration/parameters/ignoreMigrationPatterns for more information). When this configuration is set, the ignoreFutureMigrations and ignoreMissingMigrations settings are ignored. Patterns are comma separated."
-msgstr "Ignore as migrações durante a validação e a reparação de acordo com uma determinada lista de padrões (consulte https://flywaydb.org/documentation/configuration/parameters/ignoreMigrationPatterns para obter mais informações). Quando essa configuração estiver definida, as configurações `ignoreFutureMigrations` e `ignoreMissingMigrations` serão ignoradas. Os padrões são separados por vírgulas."
+msgstr "Ignore as migrações durante a validação e a reparação de acordo com uma lista específica de padrões (consulte https://flywaydb.org/documentation/configuration/parameters/ignoreMigrationPatterns para obter mais informações). Quando essa configuração estiver definida, as configurações `ignoreFutureMigrations` e `ignoreMissingMigrations` serão ignoradas. Os padrões são separados por vírgulas."
 
 #. mt: deepl
 #, fuzzy

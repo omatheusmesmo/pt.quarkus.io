@@ -1651,7 +1651,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-ports-ports-node-port
 #. mt: deepl
 #, fuzzy
 msgid "The nodePort to which this port should be mapped to. This only takes affect when the serviceType is set to node-port."
-msgstr "O nodePort ao qual esta porta deve ser mapeada. Isso só entra em vigor quando o serviceType está definido como node-port."
+msgstr "O nodePort ao qual esta porta deve ser mapeada. Isso só tem efeito quando o serviceType está definido como node-port."
 
 #. mt: deepl
 #, fuzzy
@@ -1798,7 +1798,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-generate-image-pull-s
 #. mt: deepl
 #, fuzzy
 msgid "Enable generation of image pull secret, when the container image username and password are provided."
-msgstr "Habilite a geração de um segredo para baixar a imagem, quando o nome de usuário e a senha da imagem do contêiner forem fornecidos."
+msgstr "Habilite a geração de um segredo para baixar imagens, quando o nome de usuário e a senha da imagem do contêiner forem fornecidos."
 
 #. mt: deepl
 #, fuzzy
@@ -1904,7 +1904,7 @@ msgstr "O caminho HTTP a ser utilizado para a sonda. Para que isso funcione, a p
 #. mt: deepl
 #, fuzzy
 msgid "Assuming the container port has been set (as per above comment), if execAction or tcpSocketAction are not set, an HTTP probe will be used automatically even if no path is set (which will result in the root path being used). If Smallrye Health is used, the path will automatically be set according to the health check path."
-msgstr "Supondo que o porto do contêiner tenha sido definido (conforme o comentário acima), caso execAction ou tcpSocketAction não estejam definidos, um teste HTTP será utilizado automaticamente, mesmo que nenhum caminho tenha sido definido (o que resultará na utilização do caminho raiz). Caso seja utilizado o Smallrye Health, o caminho será definido automaticamente de acordo com o caminho da verificação de integridade."
+msgstr "Supondo que a porta do contêiner tenha sido definida (conforme o comentário acima), se execAction ou tcpSocketAction não estiverem definidos, um teste HTTP será utilizado automaticamente, mesmo que nenhum caminho tenha sido definido (o que resultará no uso do caminho raiz). Caso seja utilizado o Smallrye Health, o caminho será definido automaticamente de acordo com o caminho da verificação de integridade."
 
 #. mt: deepl
 #, fuzzy
@@ -2036,7 +2036,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-liveness-probe-grpc-a
 #. mt: deepl
 #, fuzzy
 msgid "The gRPC port to use for the probe (the format is either port or port:service)."
-msgstr "A porta gRPC a ser utilizada para a sonda (o formato pode ser “port” ou “port:service”)."
+msgstr "A porta gRPC a ser utilizada para o probe (o formato pode ser “port” ou “port:service”)."
 
 #. mt: deepl
 #, fuzzy
@@ -3026,7 +3026,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-prometheus-annotation
 #. mt: deepl
 #, fuzzy
 msgid "When true (the default), emit a set of annotations to identify services that should be scraped by prometheus for metrics."
-msgstr "Quando estiver definido como “true” (padrão), gera um conjunto de anotações para identificar os serviços que devem ser monitorados pelo Prometheus para a coleta de métricas."
+msgstr "Quando estiver definido como “true” (padrão), emite um conjunto de anotações para identificar os serviços que devem ser monitorados pelo Prometheus para a coleta de métricas."
 
 #. mt: deepl
 #, fuzzy
@@ -3094,7 +3094,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-prometheus-prefix[qua
 #. mt: deepl
 #, fuzzy
 msgid "Define the annotation prefix used for scrape values, this value will be used as the base for other annotation name defaults. Altering the base for generated annotations can make it easier to define re-labeling rules and avoid unexpected knock-on effects. The default value is `prometheus.io` See Prometheus link:https://github.com/prometheus/prometheus/blob/main/documentation/examples/prometheus-kubernetes.yml[example]"
-msgstr "Defina o prefixo de anotação utilizado para valores extraídos; esse valor servirá de base para os nomes padrão de outras anotações. Alterar a base das anotações geradas pode facilitar a definição de regras de renomeação e evitar efeitos em cadeia inesperados. O valor padrão é `prometheus.io` . Consulte link:https://github.com/prometheus/prometheus/blob/main/documentation/examples/prometheus-kubernetes.yml[o exemplo] do Prometheus."
+msgstr "Defina o prefixo de anotação utilizado para valores extraídos; esse valor será usado como base para outros nomes padrão de anotações. Alterar a base das anotações geradas pode facilitar a definição de regras de renomeação e evitar efeitos em cadeia inesperados. O valor padrão é `prometheus.io` . Consulte link:https://github.com/prometheus/prometheus/blob/main/documentation/examples/prometheus-kubernetes.yml[o exemplo] do Prometheus."
 
 #. mt: deepl
 #, fuzzy
@@ -3198,7 +3198,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-prometheus-port[quark
 #. mt: deepl
 #, fuzzy
 msgid "Define the annotation used to indicate the port to scrape. By default, `/port` will be appended to the defined prefix."
-msgstr "Defina a anotação utilizada para indicar a porta a ser verificada. Por padrão, `/port` será acrescentado ao prefixo definido."
+msgstr "Defina a anotação utilizada para indicar a porta a ser rastreada. Por padrão, `/port` será acrescentado ao prefixo definido."
 
 #. mt: deepl
 #, fuzzy
@@ -3467,7 +3467,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-secret-volumes-secret
 #. mt: deepl
 #, fuzzy
 msgid "The path where the file will be mounted."
-msgstr "O caminho no qual o arquivo será montado."
+msgstr "O caminho onde o arquivo será montado."
 
 #. mt: deepl
 #, fuzzy
@@ -3682,7 +3682,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-config-map-volumes-co
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes_quarkus-openshift-config-map-volumes-config-map-volumes-optional]] [.property-path]##link:#quarkus-kubernetes_quarkus-openshift-config-map-volumes-config-map-volumes-optional[`+++quarkus.openshift.config-map-volumes.\"config-map-volumes\".optional+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.config-map-volumes.\"config-map-volumes\".optional+++[]"
-msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-config-map-volumes-config-map-volumes-optional[quarkus.openshift.config-map-volumes.\"config-map-volumes\".opcional] config_property_copy_button:quarkus.openshift.config-map-volumes.\"config-map-volumes\".opcional[]"
+msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-config-map-volumes-config-map-volumes-optional[quarkus.openshift.config-map-volumes.\"config-map-volumes\".optional] config_property_copy_button:quarkus.openshift.config-map-volumes.\"config-map-volumes\".optional[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3997,7 +3997,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-aws-elastic-block-sto
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes_quarkus-openshift-aws-elastic-block-store-volumes-aws-elastic-block-store-volumes-fs-type]] [.property-path]##link:#quarkus-kubernetes_quarkus-openshift-aws-elastic-block-store-volumes-aws-elastic-block-store-volumes-fs-type[`+++quarkus.openshift.aws-elastic-block-store-volumes.\"aws-elastic-block-store-volumes\".fs-type+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.aws-elastic-block-store-volumes.\"aws-elastic-block-store-volumes\".fs-type+++[]"
-msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-aws-elastic-block-store-volumes-aws-elastic-block-store-volumes-fs-type[quarkus.openshift.aws-elastic-block-store-volumes.\"aws-elastic-block-store-volumes\".fs-type] config_property_copy_button:quarkus.openshift.aws-elastic-block-store-volumes.\"aws-elastic-block-store-volumes\".fs-type[]\""
+msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-aws-elastic-block-store-volumes-aws-elastic-block-store-volumes-fs-type[quarkus.openshift.aws-elastic-block-store-volumes.\"aws-elastic-block-store-volumes\".fs-type] config_property_copy_button:quarkus.openshift.aws-elastic-block-store-volumes.\"aws-elastic-block-store-volumes\".fs-type[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4271,7 +4271,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-azure-disk-volumes-az
 #. mt: deepl
 #, fuzzy
 msgid "Disk caching mode."
-msgstr "Modo de armazenamento em cache em disco."
+msgstr "Modo de armazenamento em cache do disco."
 
 #. mt: deepl
 #, fuzzy
@@ -5715,7 +5715,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-init-containers-init-
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes_quarkus-openshift-init-containers-init-containers-readiness-probe-success-threshold]] [.property-path]##link:#quarkus-kubernetes_quarkus-openshift-init-containers-init-containers-readiness-probe-success-threshold[`+++quarkus.openshift.init-containers.\"init-containers\".readiness-probe.success-threshold+++`]##\n"
 "config_property_copy_button:+++quarkus.openshift.init-containers.\"init-containers\".readiness-probe.success-threshold+++[]"
-msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-init-containers-init-containers-readiness-probe-success-threshold[quarkus.openshift.init-containers.\"init-containers\".readiness-probe.success-threshold] config_property_copy_button:quarkus.openshift.init-containers.\"init-containers\".readiness-probe.success-threshold[]"
+msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-init-containers-init-containers-readiness-probe-success-threshold[quarkus.openshift.init-containers.\"init-containers\".readiness-probe.success-threshold] config_property_copy_button:quarkus.openshift.init-containers.\"init-containers\".readiness-probe.success-threshold[]\""
 
 #. mt: deepl
 #, fuzzy
@@ -8052,7 +8052,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-rbac-roles-roles-poli
 #. mt: deepl
 #, fuzzy
 msgid "Non resource URLs of the policy rule."
-msgstr "URLs que não são de recursos da regra da política."
+msgstr "URLs que não são de recursos da regra de política."
 
 #. mt: deepl
 #, fuzzy
@@ -8489,7 +8489,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-rbac-service-accounts
 #. mt: deepl
 #, fuzzy
 msgid "If true, this service account will be used in the generated Deployment resource."
-msgstr "Se for verdade, essa conta de serviço será utilizada no recurso de implantação gerado."
+msgstr "Se for verdadeiro, esta conta de serviço será utilizada no recurso de implantação gerado."
 
 #. mt: deepl
 #, fuzzy
@@ -8522,7 +8522,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-rbac-role-bindings-ro
 #. mt: deepl
 #, fuzzy
 msgid "Name of the RoleBinding resource to be generated. If not provided, it will use the application name plus the role ref name."
-msgstr "Nome do recurso de vinculação de função a ser gerado. Caso não seja fornecido, será utilizado o nome do aplicativo seguido do nome de referência da função."
+msgstr "Nome do recurso RoleBinding a ser gerado. Caso não seja fornecido, será utilizado o nome do aplicativo seguido do nome de referência da função."
 
 #. mt: deepl
 #, fuzzy
@@ -8687,7 +8687,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-rbac-role-bindings-ro
 #. mt: deepl
 #, fuzzy
 msgid "The \"kind\" resource to use by the Subject element in the generated Role Binding resource. By default, it uses the \"ServiceAccount\" kind."
-msgstr "O recurso do tipo “kind” a ser utilizado pelo elemento Subject no recurso Role Binding gerado. Por padrão, utiliza-se o tipo “ServiceAccount”."
+msgstr "O recurso do tipo “kind” a ser utilizado pelo elemento “Subject” no recurso “Role Binding” gerado. Por padrão, utiliza o tipo “ServiceAccount”."
 
 #. mt: deepl
 #, fuzzy
@@ -9030,7 +9030,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-security-context-se-l
 #. mt: deepl
 #, fuzzy
 msgid "The SELinux role label that applies to the container."
-msgstr "O rótulo de função do SELinux que se aplica ao contêiner."
+msgstr "A etiqueta de função do SELinux que se aplica ao contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -9505,7 +9505,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-idempotent[quarkus.op
 #. mt: deepl
 #, fuzzy
 msgid "Switch used to control whether non-idempotent fields are included in generated kubernetes resources to improve git-ops compatibility."
-msgstr "Opção utilizada para controlar se campos não idempotentes são incluídos nos recursos do Kubernetes gerados, a fim de melhorar a compatibilidade com o GitOps."
+msgstr "Opção utilizada para determinar se campos não idempotentes serão incluídos nos recursos do Kubernetes gerados, a fim de melhorar a compatibilidade com o GitOps."
 
 #. mt: deepl
 #, fuzzy
@@ -9687,7 +9687,7 @@ msgstr "_Esta propriedade está obsoleta desde a versão 3.5: utilize, em vez di
 #. mt: deepl
 #, fuzzy
 msgid "The init task image to use by the init container."
-msgstr "A imagem da tarefa de inicialização a ser utilizada pelo contêiner de inicialização."
+msgstr "A imagem de tarefa “init” a ser utilizada pelo contêiner “init”."
 
 #. mt: deepl
 #, fuzzy
@@ -10004,7 +10004,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-job-backoff-limit[qua
 #. mt: deepl
 #, fuzzy
 msgid "Specifies the number of retries before marking this job failed."
-msgstr "Especifica o número de tentativas antes de marcar este trabalho como malsucedido."
+msgstr "Especifica o número de tentativas antes de marcar este trabalho como falho."
 
 #. mt: deepl
 #, fuzzy
@@ -10682,7 +10682,7 @@ msgstr "[lock]  link:#quarkus-kubernetes_quarkus-openshift-remote-debug-suspend[
 #. mt: deepl
 #, fuzzy
 msgid "If enabled, it means the JVM will wait for the debugger to attach before executing the main class. If false, the JVM will immediately execute the main class, while listening for the debugger connection."
-msgstr "Se estiver ativado, isso significa que a JVM aguardará a conexão do depurador antes de executar a classe principal. Se estiver definido como “false”, a JVM executará imediatamente a classe principal, enquanto aguarda a conexão do depurador."
+msgstr "Se estiver ativado, isso significa que a JVM aguardará até que o depurador se conecte antes de executar a classe principal. Se estiver definido como “false”, a JVM executará imediatamente a classe principal, enquanto aguarda a conexão do depurador."
 
 #. mt: deepl
 #, fuzzy

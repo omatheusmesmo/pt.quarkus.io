@@ -471,8 +471,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -499,14 +500,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.jfr.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If false, only quarkus-jfr events are not recorded even if JFR is enabled. In this case, Java standard API and virtual machine information will be recorded according to the setting. Default value is `true`"
-msgstr ""
+msgstr "Se for “false”, apenas os eventos do quarkus-jfr não serão registrados, mesmo que o JFR esteja habilitado. Nesse caso, as informações da API padrão do Java e da máquina virtual serão registradas de acordo com a configuração. O valor padrão é `“true”`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JFR_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JFR_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -533,8 +537,10 @@ msgid ""
 "config_property_copy_button:+++quarkus.jfr.rest.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If false, only REST events in quarkus-jfr are not recorded even if JFR is enabled. In this case, other quarkus-jfr, Java standard API and virtual machine information will be recorded according to the setting. Default value is `true`"
-msgstr ""
+msgstr "Se for “false”, apenas os eventos REST no quarkus-jfr não serão registrados, mesmo que o JFR esteja habilitado. Nesse caso, outras informações do quarkus-jfr, da API padrão do Java e da máquina virtual serão registradas de acordo com a configuração. O valor padrão é `“true”`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_JFR_REST_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_JFR_REST_ENABLED[]"

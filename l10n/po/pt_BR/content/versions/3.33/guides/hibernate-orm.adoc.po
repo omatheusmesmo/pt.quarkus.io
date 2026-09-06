@@ -2109,7 +2109,7 @@ msgid ""
 "If Hibernate ORM is disabled during the build, all processing related to Hibernate ORM will be skipped,\n"
 "but it will not be possible to activate Hibernate ORM at runtime:\n"
 "`quarkus.hibernate-orm.active` will default to `false` and setting it to `true` will lead to an error."
-msgstr "Caso o Hibernate ORM seja desativado durante a compilação, todo o processamento relacionado ao Hibernate ORM será ignorado, mas não será possível ativar o Hibernate ORM em tempo de execução: o parâmetro ` `quarkus.hibernate-orm.active` ` terá como valor padrão ``false`` , e defini-lo como ``true`` resultará em um erro."
+msgstr "Caso o Hibernate ORM seja desativado durante a compilação, todo o processamento relacionado ao Hibernate ORM será ignorado, mas não será possível ativar o Hibernate ORM em tempo de execução: o parâmetro ` `quarkus.hibernate-orm.active` ` terá o valor padrão ` `false`` , e defini-lo como ``true`` resultará em um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -2463,7 +2463,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-packages[quark
 msgid ""
 "`+++quarkus.hibernate-orm.\"persistence-unit-name\".packages+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".packages+++[]"
-msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".pacotes` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".pacotes[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".packages` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".packages[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2567,7 +2567,7 @@ msgid ""
 "Simply add an `import.sql` file in the root of your resources directory\n"
 "and it will be picked up without having to set this property.\n"
 "Pass `no-file` to force Hibernate ORM to ignore the SQL import file."
-msgstr "Nos modos de desenvolvimento e teste, o valor padrão é `import.sql` . Basta adicionar um arquivo `import.sql` na raiz do seu diretório de recursos e ele será reconhecido sem que seja necessário definir essa propriedade. Passe `o valor “no-file”` para forçar o ORM do Hibernate a ignorar o arquivo de importação SQL."
+msgstr "Nos modos de desenvolvimento e teste, o valor padrão é `import.sql` . Basta adicionar um arquivo `import.sql` na raiz do seu diretório de recursos e ele será reconhecido sem a necessidade de definir essa propriedade. Passe `o valor “no-file”` para forçar o ORM do Hibernate a ignorar o arquivo de importação SQL."
 
 #. mt: deepl
 #, fuzzy
@@ -2575,7 +2575,7 @@ msgid ""
 "In production mode, it defaults to `no-file`.\n"
 "It means Hibernate ORM won't try to execute any SQL import file by default.\n"
 "Pass an explicit value to force Hibernate ORM to execute the SQL import file."
-msgstr "No modo de produção, o valor padrão é `“no-file` ”. Isso significa que, por padrão, o ORM do Hibernate não tentará executar nenhum arquivo de importação SQL. Passe um valor explícito para forçar o ORM do Hibernate a executar o arquivo de importação SQL."
+msgstr "No modo de produção, o valor padrão é `“no-file` ”. Isso significa que, por padrão, o ORM do Hibernate não tentará executar nenhum arquivo de importação SQL. Forneça um valor explícito para forçar o ORM do Hibernate a executar o arquivo de importação SQL."
 
 #. mt: deepl
 #, fuzzy
@@ -2853,7 +2853,7 @@ msgstr "Basta selecionar quais entidades devem utilizar o cache."
 #. mt: deepl
 #, fuzzy
 msgid "Set this to false to disable all 2nd level caches."
-msgstr "Defina este parâmetro como “false” para desativar todos os caches de segundo nível."
+msgstr "Defina este parâmetro como “false” para desativar todos os caches de 2º nível."
 
 #. mt: deepl
 #, fuzzy
@@ -2906,7 +2906,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_VA
 #. mt: deepl
 #, fuzzy
 msgid "list of tooltip:auto[If a Bean Validation provider is present then behaves as if both `ValidationMode#CALLBACK` and `ValidationMode#DDL` modes are configured. Otherwise, same as `ValidationMode#NONE`.], tooltip:callback[Bean Validation will perform the lifecycle event validation.], tooltip:ddl[Bean Validation constraints will be considered for the DDL operations.], tooltip:none[Bean Validation integration will be disabled.]"
-msgstr "lista de dicas de ferramenta:auto[Se houver um provedor de Bean Validation, o comportamento será o mesmo que se os modos `ValidationMode#CALLBACK` e `ValidationMode#DDL` estivessem configurados. Caso contrário, o comportamento é o mesmo que `o de ValidationMode#NONE` .], tooltip:callback[A Bean Validation realizará a validação dos eventos do ciclo de vida.], tooltip:ddl[As restrições da Bean Validation serão consideradas nas operações DDL.], tooltip:none[A integração com a Bean Validation será desativada.]"
+msgstr "lista de dicas de ferramenta:auto[Se houver um provedor de Bean Validation, o comportamento será como se os modos `ValidationMode#CALLBACK` e `ValidationMode#DDL` estivessem configurados. Caso contrário, o comportamento é o mesmo que `o do ValidationMode#NONE` .], tooltip:callback[A Bean Validation realizará a validação dos eventos do ciclo de vida.], tooltip:ddl[As restrições da Bean Validation serão consideradas nas operações DDL.], tooltip:none[A integração com a Bean Validation será desativada.]"
 
 #. mt: deepl
 #, fuzzy
@@ -3125,7 +3125,7 @@ msgid ""
 "Properties that should be passed on directly to Hibernate ORM.\n"
 "Use the full configuration property key here,\n"
 "for instance `quarkus.hibernate-orm.unsupported-properties.\"hibernate.order_inserts\" = true`."
-msgstr "Propriedades que devem ser passadas diretamente para o ORM do Hibernate. Utilize aqui a chave completa da propriedade de configuração; por exemplo, `quarkus.hibernate-orm.unsupported-properties.\"hibernate.order_inserts\" = true` ."
+msgstr "Propriedades que devem ser repassadas diretamente ao ORM do Hibernate. Utilize aqui a chave completa da propriedade de configuração; por exemplo, `quarkus.hibernate-orm.unsupported-properties.\"hibernate.order_inserts\" = true` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3135,7 +3135,7 @@ msgid ""
 "there is absolutely no guarantee that they will work correctly,\n"
 "and even if they do, that may change when upgrading to a newer version of Quarkus\n"
 "(even just a micro/patch version)."
-msgstr "As propriedades definidas aqui não têm nenhum suporte: como o Quarkus geralmente não reconhece essas propriedades nem sua finalidade, não há absolutamente nenhuma garantia de que elas funcionarão corretamente e, mesmo que funcionem, isso pode mudar ao atualizar para uma versão mais recente do Quarkus (mesmo que seja apenas uma versão micro ou patch)."
+msgstr "As propriedades definidas aqui não são de forma alguma suportadas: como o Quarkus geralmente não reconhece essas propriedades nem sua finalidade, não há absolutamente nenhuma garantia de que elas funcionarão corretamente e, mesmo que funcionem, isso pode mudar ao atualizar para uma versão mais recente do Quarkus (mesmo que seja apenas uma versão micro ou de correção)."
 
 #. mt: deepl
 #, fuzzy
@@ -3190,7 +3190,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-batch-fetch-si
 msgid ""
 "[.line-through]#`+++quarkus.hibernate-orm.\"persistence-unit-name\".batch-fetch-size+++`#\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".batch-fetch-size+++[]"
-msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".batch-fetch-size` botão-para-copiar-propriedade-de-configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".batch-fetch-size[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".batch-fetch-size` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".batch-fetch-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3388,7 +3388,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-validation-ena
 msgid ""
 "[.line-through]#`+++quarkus.hibernate-orm.\"persistence-unit-name\".validation.enabled+++`#\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".validation.enabled+++[]"
-msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".validação.ativada` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".validação.ativada[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".validation.enabled` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".validation.enabled[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3507,7 +3507,7 @@ msgid ""
 "When set, attempts to exchange data with the database\n"
 "as the given version of Hibernate ORM would have,\n"
 "*on a best-effort basis*."
-msgstr "Quando definido, o sistema tentará trocar dados com o banco de dados da mesma forma que a versão especificada do ORM do Hibernate o faria, *na medida do possível* ."
+msgstr "Quando definido, o sistema tentará trocar dados com o banco de dados da mesma forma que a versão especificada do ORM do Hibernate faria, *na medida do possível* ."
 
 #. mt: deepl
 #, fuzzy
@@ -3856,7 +3856,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-mapping-format
 #. mt: deepl
 #, fuzzy
 msgid "How the default JSON/XML format mappers are configured. Only available to mitigate migration from the current Quarkus-preconfigured format mappers (that will be removed in the future version)."
-msgstr "Como os mapeadores de formato JSON/XML padrão estão configurados. Disponível apenas para facilitar a migração dos atuais mapeadores de formato pré-configurados do Quarkus (que serão removidos na próxima versão)."
+msgstr "Como os mapeadores de formato JSON/XML padrão estão configurados. Disponível apenas para facilitar a migração dos atuais mapeadores de formato pré-configurados pelo Quarkus (que serão removidos na versão futura)."
 
 #. mt: deepl
 #, fuzzy
@@ -3919,7 +3919,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_MA
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:native[Stores the timestamp and timezone in a column of type `timestamp with time zone`. Only available on some databases/dialects; if not supported, an exception will be thrown during static initialization.], tooltip:normalize[Does not store the timezone, and loses timezone information upon persisting. Instead, normalizes the value\\: * upon persisting to the database, to a timestamp in the JDBC timezone set through `quarkus.hibernate-orm.jdbc.timezone`, or the JVM default timezone if not set. * upon reading back from the database, to the JVM default timezone. Use this to get the legacy behavior of Quarkus 2 / Hibernate ORM 5 or older.], tooltip:normalize-utc[Does not store the timezone, and loses timezone information upon persisting. Instead, normalizes the value to a timestamp in the UTC timezone.], tooltip:column[Stores the timezone in a separate column next to the timestamp column. Use `@TimeZoneColumn` on the relevant entity property to customize the timezone column.], tooltip:auto[Equivalent to `native` if supported, `column` otherwise.], tooltip:default[Equivalent to `native` if supported, `normalize-utc` otherwise.]"
-msgstr "tooltip:native[Armazena o carimbo de data/hora e o fuso horário em uma coluna do tipo `“timestamp with time zone` ”. Disponível apenas em alguns bancos de dados/dialetos; caso não seja compatível, será lançada uma exceção durante a inicialização estática.], tooltip:normalize[Não armazena o fuso horário e perde as informações de fuso horário ao persistir. Em vez disso, normaliza o valor\\: * ao persistir no banco de dados, para um timestamp no fuso horário JDBC definido por meio de `quarkus.hibernate-orm.jdbc.timezone` , ou no fuso horário padrão da JVM, caso não esteja definido. * ao ler de volta do banco de dados, para o fuso horário padrão da JVM. Utilize esta opção para obter o comportamento legado do Quarkus 2 / Hibernate ORM 5 ou versões anteriores.], tooltip:normalize-utc[Não armazena o fuso horário e perde as informações de fuso horário ao persistir. Em vez disso, normaliza o valor para um carimbo de data/hora no fuso horário UTC.], tooltip:column[Armazena o fuso horário em uma coluna separada ao lado da coluna de carimbo de data/hora. Utilize `@TimeZoneColumn` na propriedade relevante da entidade para personalizar a coluna de fuso horário.], tooltip:auto[Equivalente a `“nativo”` se compatível; caso contrário, `“coluna` ”.], tooltip:default[Equivalente a `“nativo”` se compatível; caso contrário, `“normalize-utc` ”.]"
+msgstr "tooltip:native[Armazena o carimbo de data/hora e o fuso horário em uma coluna do tipo `“timestamp with time zone` ”. Disponível apenas em alguns bancos de dados/dialetos; caso não seja compatível, será lançada uma exceção durante a inicialização estática.], tooltip:normalize[Não armazena o fuso horário e perde as informações de fuso horário ao persistir. Em vez disso, normaliza o valor\\: * ao persistir no banco de dados, para um timestamp no fuso horário JDBC definido por meio de `quarkus.hibernate-orm.jdbc.timezone` , ou no fuso horário padrão da JVM, caso não esteja definido. * ao ler de volta do banco de dados, para o fuso horário padrão da JVM. Utilize esta opção para obter o comportamento legado do Quarkus 2 / Hibernate ORM 5 ou versões anteriores.], tooltip:normalize-utc[Não armazena o fuso horário e perde as informações de fuso horário ao persistir. Em vez disso, normaliza o valor para um carimbo de data/hora no fuso horário UTC.], tooltip:column[Armazena o fuso horário em uma coluna separada ao lado da coluna de carimbo de data/hora. Utilize `@TimeZoneColumn` na propriedade relevante da entidade para personalizar a coluna de fuso horário.], tooltip:auto[Equivalente a `“nativo”` se houver suporte; caso contrário, `“coluna` ”.], tooltip:default[Equivalente a `“nativo”` se houver suporte; caso contrário, `“normalize-utc` ”.]"
 
 #. mt: deepl
 #, fuzzy
@@ -4230,7 +4230,7 @@ msgid ""
 "<p>\n"
 "Can also specify the name of the SqlTypes constant field,\n"
 "for example, `quarkus.hibernate-orm.mapping.type.uuid_jdbc_type=CHAR`."
-msgstr "O tipo JDBC preferencial a ser utilizado para armazenar valores {@link java.util.UUID}. <p> Pode ser substituído localmente por meio das anotações `@JdbcType` , `@JdbcTypeCode` e outras semelhantes. <p> Também é possível especificar o nome do campo constante de SqlTypes; por exemplo, `quarkus.hibernate-orm.mapping.type.uuid_jdbc_type=CHAR` ."
+msgstr "O tipo JDBC preferencial a ser utilizado para armazenar valores {@link java.util.UUID}. <p> Pode ser substituído localmente por meio das anotações `@JdbcType` , `@JdbcTypeCode` e outras semelhantes. <p> Também é possível especificar o nome do campo constante SqlTypes; por exemplo, `quarkus.hibernate-orm.mapping.type.uuid_jdbc_type=CHAR` ."
 
 #. mt: deepl
 #, fuzzy
@@ -4323,7 +4323,7 @@ msgid ""
 "you *will* need to set this property explicitly.\n"
 "In that case, keep in mind that the JDBC driver and Hibernate ORM dialect\n"
 "may not work properly in GraalVM native executables."
-msgstr "Caso seu banco de dados não possua uma extensão Quarkus correspondente, *será* necessário definir essa propriedade explicitamente. Nesse caso, tenha em mente que o driver JDBC e o dialeto ORM do Hibernate podem não funcionar corretamente nos executáveis nativos do GraalVM."
+msgstr "Caso seu banco de dados não possua uma extensão Quarkus correspondente, *será* necessário definir essa propriedade explicitamente. Nesse caso, tenha em mente que o driver JDBC e o dialeto ORM do Hibernate podem não funcionar corretamente em executáveis nativos do GraalVM."
 
 msgid ""
 "For built-in dialects, the expected value is one of the names\n"
@@ -4376,7 +4376,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariad
 msgid ""
 "`+++quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mariadb.bytes-per-character+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mariadb.bytes-per-character+++[]"
-msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mariadb.bytes-por-caractere` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mariadb.bytes-por-caractere[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mariadb.bytes-por-caractere` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mariadb.bytes-por-caractere[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4424,7 +4424,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mariad
 msgid ""
 "`+++quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mariadb.no-backslash-escapes+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mariadb.no-backslash-escapes+++[]"
-msgstr "`quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mariadb.no-backslash-escapes` config_property_copy_button:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mariadb.sem-escapes-com-barra-invertida[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mariadb.sem-escapes-com-barra-invertida` botão-para-copiar-propriedade-de-configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mariadb.sem-escapes-com-barra-invertida[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4548,7 +4548,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-dialect-mysql-
 msgid ""
 "`+++quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mysql.no-backslash-escapes+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".dialect.mysql.no-backslash-escapes+++[]"
-msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mysql.no-backslash-escapes` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mysql.sem-escapes-com-barra-invertida[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialect.mysql.no-backslash-escapes` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".dialeto.mysql.sem-escapes-de-barra-invertida[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4801,7 +4801,7 @@ msgstr "[lock]  link:#quarkus-hibernate-orm_quarkus-hibernate-orm-query-query-pl
 msgid ""
 "`+++quarkus.hibernate-orm.\"persistence-unit-name\".query.query-plan-cache-max-size+++`\n"
 "config_property_copy_button:+++quarkus.hibernate-orm.\"persistence-unit-name\".query.query-plan-cache-max-size+++[]"
-msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".query.query-plan-cache-max-size` botão_para_copiar_propriedade_de_configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".query.query-plan-cache-max-size[]"
+msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".query.query-plan-cache-max-size` botão-para-copiar-propriedade-de-configuração:quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".query.query-plan-cache-max-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4964,7 +4964,7 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".query.fail-o
 msgid ""
 "When limits cannot be applied on the database side,\n"
 "trigger an exception instead of attempting badly-performing in-memory result set limits."
-msgstr "Quando não for possível aplicar limites no lado do banco de dados, acione uma exceção em vez de tentar aplicar limites ao conjunto de resultados na memória, o que prejudica o desempenho."
+msgstr "Quando não for possível aplicar limites no lado do banco de dados, acione uma exceção em vez de tentar aplicar limites ao conjunto de resultados na memória, o que pode comprometer o desempenho."
 
 #. mt: deepl
 #, fuzzy
@@ -4972,7 +4972,7 @@ msgid ""
 "When pagination is used in combination with a fetch join applied to a collection or many-valued association,\n"
 "the limit must be applied in-memory instead of on the database.\n"
 "This should be avoided as it typically has terrible performance characteristics."
-msgstr "Quando a paginação é utilizada em combinação com uma junção de busca (fetch join) aplicada a uma coleção ou a uma associação multivalor, o limite deve ser aplicado na memória, em vez de no banco de dados. Isso deve ser evitado, pois geralmente apresenta características de desempenho muito ruins."
+msgstr "Quando a paginação é utilizada em combinação com uma junção de busca (fetch join) aplicada a uma coleção ou a uma associação com múltiplos valores, o limite deve ser aplicado na memória, em vez de no banco de dados. Isso deve ser evitado, pois geralmente apresenta características de desempenho muito ruins."
 
 #. mt: deepl
 #, fuzzy
@@ -5338,7 +5338,7 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".discriminado
 #. mt: deepl
 #, fuzzy
 msgid "Existing applications rely (implicitly or explicitly) on Hibernate ignoring any DiscriminatorColumn declarations on joined inheritance hierarchies. This setting allows these applications to maintain the legacy behavior of DiscriminatorColumn annotations being ignored when paired with joined inheritance."
-msgstr "As aplicações existentes dependem (implícita ou explicitamente) de que o Hibernate ignore quaisquer declarações de `DiscriminatorColumn` em hierarquias de herança unidas. Essa configuração permite que essas aplicações mantenham o comportamento legado, em que as anotações `DiscriminatorColumn` são ignoradas quando associadas à herança unida."
+msgstr "As aplicações existentes dependem (implícita ou explicitamente) do fato de o Hibernate ignorar quaisquer declarações de `DiscriminatorColumn` em hierarquias de herança unidas. Essa configuração permite que essas aplicações mantenham o comportamento legado, em que as anotações `DiscriminatorColumn` são ignoradas quando associadas à herança unida."
 
 #. mt: deepl
 #, fuzzy
@@ -5605,7 +5605,7 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".log.consulta
 #. mt: deepl
 #, fuzzy
 msgid "If set, Hibernate will log queries that took more than specified number of milliseconds to execute."
-msgstr "Se essa opção estiver ativada, o Hibernate registrará as consultas cuja execução demorou mais do que o número especificado de milissegundos."
+msgstr "Se essa opção estiver definida, o Hibernate registrará em log as consultas cuja execução demorou mais do que o número especificado de milissegundos."
 
 #. mt: deepl
 #, fuzzy
@@ -5684,7 +5684,7 @@ msgstr "No entanto, se o Dev Services estiver em uso e não houver outras extens
 #. mt: deepl
 #, fuzzy
 msgid "Accepted values: `none`, `create`, `drop-and-create`, `drop`, `update`, `validate`."
-msgstr "Valores aceitos: `nenhum` , `criar` , `excluir e criar` , `excluir` , `atualizar` , `validar` ."
+msgstr "Valores permitidos: `nenhum` , `criar` , `excluir e criar` , `excluir` , `atualizar` , `validar` ."
 
 #. mt: deepl
 #, fuzzy
@@ -5737,7 +5737,7 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".gestão-de-e
 #. mt: deepl
 #, fuzzy
 msgid "If Hibernate ORM should create the schemas automatically (for databases supporting them)."
-msgstr "Se o ORM do Hibernate deve criar os esquemas automaticamente (para bancos de dados que ofereçam suporte a isso)."
+msgstr "Se o ORM do Hibernate deve criar os esquemas automaticamente (para bancos de dados que os suportam)."
 
 #. mt: deepl
 #, fuzzy
@@ -5780,7 +5780,7 @@ msgstr "`quarkus.hibernate-orm.\"nome-da-unidade-de-persistência\".gestão-de-e
 #. mt: deepl
 #, fuzzy
 msgid "Whether we should stop on the first error when applying the schema."
-msgstr "Se devemos interromper ao ocorrer o primeiro erro ao aplicar o esquema."
+msgstr "Se devemos interromper a aplicação do esquema ao ocorrer o primeiro erro."
 
 #. mt: deepl
 #, fuzzy
@@ -6041,7 +6041,7 @@ msgstr "A estratégia padrão de atualização, ou seja, quando as entidades dev
 msgid ""
 "This default can be overridden on a per-session basis with `Session#setHibernateFlushMode()`\n"
 "or on a per-query basis with the hint `HibernateHints#HINT_FLUSH_MODE`."
-msgstr "Esse padrão pode ser substituído por sessão, por meio do `método Session#setHibernateFlushMode()` , ou por consulta, por meio da dica `HibernateHints#HINT_FLUSH_MODE` ."
+msgstr "Esse padrão pode ser substituído por sessão, por meio do `método Session#setHibernateFlushMode()` , ou por consulta, por meio da sugestão `HibernateHints#HINT_FLUSH_MODE` ."
 
 #. mt: deepl
 #, fuzzy
@@ -6056,12 +6056,12 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_ORM_FL
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:manual[The `org.hibernate.Session` is only flushed when `org.hibernate.Session#flush()` is called explicitly. This mode is very efficient for read-only transactions.], tooltip:commit[The `org.hibernate.Session` is flushed when `org.hibernate.Transaction#commit()` is called. It is never automatically flushed before query execution.], tooltip:auto[The `org.hibernate.Session` is flushed when `org.hibernate.Transaction#commit()` is called, and is sometimes flushed before query execution in order to ensure that queries never return stale state. This is the default flush mode.], tooltip:always[The `org.hibernate.Session` is flushed when `org.hibernate.Transaction#commit()` is called and before every query. This is usually unnecessary and inefficient.]"
-msgstr "tooltip:manual[A instância `org.hibernate.Session` só é atualizada quando `o método org.hibernate.Session#flush()` é chamado explicitamente. Esse modo é muito eficiente para transações somente de leitura.], tooltip:commit[A instância `org.hibernate.Session` é atualizada quando `o método org.hibernate.Transaction#commit()` é chamado. Ele nunca é atualizado automaticamente antes da execução da consulta.], tooltip:auto[A instância `de org.hibernate.Session` é atualizada quando `org.hibernate.Transaction#commit()` é chamado e, às vezes, é atualizada antes da execução da consulta, a fim de garantir que as consultas nunca retornem um estado desatualizado. Este é o modo de atualização padrão.], tooltip:always[A sessão `org.hibernate.Session` é atualizada quando `org.hibernate.Transaction#commit()` é chamado e antes de cada consulta. Isso geralmente é desnecessário e ineficiente.]"
+msgstr "tooltip:manual[A instância `org.hibernate.Session` só é atualizada quando `o método org.hibernate.Session#flush()` é chamado explicitamente. Esse modo é muito eficiente para transações somente de leitura.], tooltip:commit[A instância `org.hibernate.Session` é atualizada quando `o método org.hibernate.Transaction#commit()` é chamado. Ele nunca é atualizado automaticamente antes da execução da consulta.], tooltip:auto[A instância `de org.hibernate.Session` é atualizada quando `org.hibernate.Transaction#commit()` é chamado e, às vezes, é atualizada antes da execução da consulta, a fim de garantir que as consultas nunca retornem um estado desatualizado. Este é o modo de atualização padrão.], tooltip:always[A sessão `org.hibernate.Session` é atualizada quando `o método org.hibernate.Transaction#commit()` é chamado e antes de cada consulta. Isso geralmente é desnecessário e ineficiente.]"
 
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:auto[The `org.hibernate.Session` is flushed when `org.hibernate.Transaction#commit()` is called, and is sometimes flushed before query execution in order to ensure that queries never return stale state. This is the default flush mode.]"
-msgstr "tooltip:auto[A instância `org.hibernate.Session` é atualizada quando `o método org.hibernate.Transaction#commit()` é chamado e, às vezes, é atualizada antes da execução da consulta, a fim de garantir que as consultas nunca retornem um estado desatualizado. Este é o modo padrão de atualização.]"
+msgstr "tooltip:auto[A instância `org.hibernate.Session` é atualizada quando `o método org.hibernate.Transaction#commit()` é chamado e, às vezes, é atualizada antes da execução da consulta, a fim de garantir que as consultas nunca retornem um estado desatualizado. Este é o modo de atualização padrão.]"
 
 #. mt: deepl
 #, fuzzy

@@ -779,7 +779,7 @@ msgstr "Nesses casos, se o senhor trabalha com o Keycloak, inicie-o com a propri
 #. mt: deepl
 #, fuzzy
 msgid "Using the <code>client-id</code> property"
-msgstr "Utilização da propriedade <code>client-id</code>"
+msgstr "Utilizando a propriedade <code>client-id</code>"
 
 #, fuzzy
 msgid ""

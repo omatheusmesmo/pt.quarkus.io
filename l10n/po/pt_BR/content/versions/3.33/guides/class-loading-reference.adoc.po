@@ -347,7 +347,7 @@ msgstr "Artefatos carregados seguindo o princípio “parent first”. Isso pode
 #. mt: deepl
 #, fuzzy
 msgid "Artifacts should be configured as a comma separated list of artifact ids, with the group, artifact-id and optional classifier separated by a colon."
-msgstr "Os artefatos devem ser configurados como uma lista de IDs de artefatos separados por vírgulas, com o grupo, o ID do artefato e o classificador opcional separados por dois pontos."
+msgstr "Os artefatos devem ser configurados como uma lista separada por vírgulas de IDs de artefatos, com o grupo, o ID do artefato e o classificador opcional separados por dois pontos."
 
 #. mt: deepl
 #, fuzzy
@@ -499,7 +499,7 @@ msgstr "Ao ser executado nos modos de desenvolvimento e teste, esses recursos fi
 #. mt: deepl
 #, fuzzy
 msgid "Note that if you want to remove a class you need to specify the class file name. e.g. to remove `com.acme.Foo` you would specify `com/acme/Foo.class`."
-msgstr "Observe que, caso deseje remover uma classe, é necessário especificar o nome do arquivo da classe. Por exemplo, para remover `com.acme.Foo` , você deve especificar `com/acme/Foo.class` ."
+msgstr "Observe que, caso deseje remover uma classe, é necessário especificar o nome do arquivo de classe. Por exemplo, para remover `com.acme.Foo` , você deve especificar `com/acme/Foo.class` ."
 
 #. mt: deepl
 #, fuzzy

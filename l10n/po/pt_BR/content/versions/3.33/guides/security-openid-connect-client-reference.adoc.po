@@ -1057,7 +1057,7 @@ msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-auth-server-url[quarkus.o
 msgid ""
 "[[quarkus-oidc-client_quarkus-oidc-client-auth-server-url]] [.property-path]##link:#quarkus-oidc-client_quarkus-oidc-client-auth-server-url[`+++quarkus.oidc-client.auth-server-url+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc-client.auth-server-url+++[]"
-msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-auth-server-url[quarkus.oidc-client.auth-server-url] config_property_copy_button:quarkus.oidc-client.auth-server-url[]"
+msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-auth-server-url[quarkus.oidc-client.auth-server-url] botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client.auth-server-url[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1069,7 +1069,7 @@ msgstr "`quarkus.oidc-client.\"id\".auth-server-url` config_property_copy_button
 #. mt: deepl
 #, fuzzy
 msgid "The base URL of the OpenID Connect (OIDC) server, for example, `https://host:port/auth`. Do not set this property if you use 'quarkus-oidc' and the public key verification (`public-key`) or certificate chain verification only (`certificate-chain`) is required. The OIDC discovery endpoint is called by default by appending a `.well-known/openid-configuration` path to this URL. For Keycloak, use `https://host:port/realms/++{++realm++}++`, replacing `++{++realm++}++` with the Keycloak realm name."
-msgstr "A URL base do servidor OpenID Connect (OIDC), por exemplo, `https://host:port/auth` . Não defina esta propriedade caso utilize o 'quarkus-oidc' e seja exigida a verificação por chave pública ( `public-key` ) ou apenas a verificação da cadeia de certificados ( `certificate-chain` ). O endpoint de descoberta do OIDC é chamado, por padrão, ao acrescentar o caminho `.well-known/openid-configuration` a esta URL. Para o Keycloak, utilize `https://host:port/realms/{realm}` , substituindo `{realm}` pelo nome do reino do Keycloak."
+msgstr "A URL base do servidor OpenID Connect (OIDC), por exemplo, `https://host:port/auth` . Não defina esta propriedade caso utilize o 'quarkus-oidc' e seja exigida a verificação por chave pública ( `public-key` ) ou apenas a verificação da cadeia de certificados ( `certificate-chain` ). O endpoint de descoberta do OIDC é chamado por padrão ao acrescentar o caminho `.well-known/openid-configuration` a esta URL. Para o Keycloak, utilize `https://host:port/realms/{realm}` , substituindo `{realm}` pelo nome do reino do Keycloak."
 
 #. mt: deepl
 #, fuzzy
@@ -1158,7 +1158,7 @@ msgstr "`quarkus.oidc-client.\"id\".registration-path` config_property_copy_butt
 #. mt: deepl
 #, fuzzy
 msgid "The relative path or absolute URL of the OIDC dynamic client registration endpoint. Set if `discovery-enabled` is `false` or a discovered token endpoint path must be customized."
-msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um ponto de extremidade de token descoberto."
+msgstr "O caminho relativo ou a URL absoluta do endpoint de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
 
 #. mt: deepl
 #, fuzzy
@@ -1196,12 +1196,12 @@ msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-connection-delay[quarkus.
 msgid ""
 "`+++quarkus.oidc-client.\"id\".connection-delay+++`\n"
 "config_property_copy_button:+++quarkus.oidc-client.\"id\".connection-delay+++[]"
-msgstr "`quarkus.oidc-client.\"id\".connection-delay` botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client.\"id\".connection-delay[]"
+msgstr "`quarkus.oidc-client.\"id\".connection-delay` config_property_copy_button:quarkus.oidc-client.\"id\".connection-delay[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The duration to attempt the initial connection to an OIDC server. For example, setting the duration to `20S` allows 10 retries, each 2 seconds apart. This property is only effective when the initial OIDC connection is created. For dropped connections, use the `connection-retry-count` property instead."
-msgstr "O tempo disponível para tentar a conexão inicial com um servidor OIDC. Por exemplo, definir esse tempo para `20S` permite 10 tentativas, com intervalos de 2 segundos entre elas. Essa propriedade só tem efeito quando a conexão OIDC inicial é estabelecida. Para conexões interrompidas, utilize a propriedade `connection-retry-count` ."
+msgstr "O tempo disponível para tentar a conexão inicial com um servidor OIDC. Por exemplo, definir esse tempo para `20S` permite 10 tentativas, cada uma com intervalo de 2 segundos. Essa propriedade só tem efeito quando a conexão OIDC inicial é estabelecida. Para conexões interrompidas, utilize a propriedade `connection-retry-count` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1649,7 +1649,7 @@ msgstr "`quarkus.oidc-client.\"id\".id` config_property_copy_button:quarkus.oidc
 #. mt: deepl
 #, fuzzy
 msgid "A unique OIDC client identifier. It must be set when OIDC clients are created dynamically and is optional in all other cases."
-msgstr "Um identificador exclusivo do cliente OIDC. Deve ser definido quando os clientes OIDC são criados dinamicamente e é opcional em todos os demais casos."
+msgstr "Um identificador exclusivo do cliente OIDC. Ele deve ser definido quando os clientes OIDC são criados dinamicamente e é opcional em todos os demais casos."
 
 #. mt: deepl
 #, fuzzy
@@ -1825,7 +1825,7 @@ msgstr "`quarkus.oidc-client.\"id\".refresh-token-time-skew` config_property_cop
 #. mt: deepl
 #, fuzzy
 msgid "Refresh token time skew. If this property is enabled then the configured duration is converted to seconds and is added to the current time when checking whether the access token should be refreshed. If the sum is greater than this access token's expiration time then a refresh is going to happen."
-msgstr "Desvio de tempo do token de atualização. Se esta propriedade estiver ativada, a duração configurada será convertida em segundos e somada à hora atual ao verificar se o token de acesso deve ser atualizado. Se a soma for maior do que o prazo de validade desse token de acesso, ocorrerá uma atualização."
+msgstr "Desvio de tempo do token de atualização. Se esta propriedade estiver ativada, a duração configurada será convertida em segundos e somada à hora atual ao verificar se o token de acesso deve ser atualizado. Se a soma for maior do que o prazo de validade desse token de acesso, será realizada uma atualização."
 
 #. mt: deepl
 #, fuzzy
@@ -1954,7 +1954,7 @@ msgstr "`quarkus.oidc-client.\"id\".absolute-expires-in` config_property_copy_bu
 #. mt: deepl
 #, fuzzy
 msgid "If the access token 'expires_in' property should be checked as an absolute time value as opposed to a duration relative to the current time."
-msgstr "Se a propriedade “expires_in” do token de acesso deve ser interpretada como um valor de tempo absoluto, em vez de um período relativo à hora atual."
+msgstr "Se a propriedade “expires_in” do token de acesso deve ser interpretada como um valor de tempo absoluto, em vez de um período relativo ao momento atual."
 
 #. mt: deepl
 #, fuzzy
@@ -2333,7 +2333,7 @@ msgstr "`quarkus.oidc-client.\"id\".headers.\"headers\"` config_property_copy_bu
 #. mt: deepl
 #, fuzzy
 msgid "Custom HTTP headers which have to be sent to the token endpoint"
-msgstr "Cabeçalhos HTTP personalizados que devem ser enviados ao endpoint de token"
+msgstr "Cabeçalhos HTTP personalizados que devem ser enviados ao endpoint do token"
 
 #. mt: deepl
 #, fuzzy
@@ -2438,7 +2438,7 @@ msgstr "O nome da configuração de proxy a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.proxy.<name>.++*++`. Please note that the 'non-proxy-hosts' option is currently not supported. If a name is configured, but no proxy configuration is found with that name then an error will be thrown."
-msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é suportada no momento. Caso um nome seja configurado, mas nenhuma configuração de proxy seja encontrada com esse nome, será gerado um erro."
+msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é compatível no momento. Caso um nome seja configurado, mas nenhuma configuração de proxy seja encontrada com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -2553,7 +2553,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.secret` config_property_copy_but
 #. mt: deepl
 #, fuzzy
 msgid "The client secret used by the `client_secret_basic` authentication method. Must be set unless a secret is set in `client-secret` or `jwt` client authentication is required. You can use `client-secret.value` instead, but both properties are mutually exclusive."
-msgstr "O segredo do cliente utilizado pelo método de autenticação ` `client_secret_basic` `. Deve ser definido, a menos que um segredo já esteja definido na propriedade ``client-secret`` ou que seja exigida a autenticação do cliente `via JWT` . É possível utilizar ``client-secret.value`` em vez disso, mas ambas as propriedades são mutuamente exclusivas."
+msgstr "O segredo do cliente utilizado pelo método de autenticação ` `client_secret_basic` `. Deve ser definido, a menos que um segredo já esteja definido na propriedade ``client-secret`` ou que seja exigida a autenticação do cliente `via JWT` . É possível utilizar ``client-secret.value`` como alternativa, mas ambas as propriedades são mutuamente exclusivas."
 
 #. mt: deepl
 #, fuzzy
@@ -2677,7 +2677,7 @@ msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-client-secret
 msgid ""
 "`+++quarkus.oidc-client.\"id\".credentials.client-secret.provider.keyring-name+++`\n"
 "config_property_copy_button:+++quarkus.oidc-client.\"id\".credentials.client-secret.provider.keyring-name+++[]"
-msgstr "`quarkus.oidc-client.\"id\".credentials.client-secret.provider.keyring-name` botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client.\"id\".credentials.client-secret.provider.keyring-name[]"
+msgstr "`quarkus.oidc-client.\"id\".credentials.client-secret.provider.keyring-name` config_property_copy_button:quarkus.oidc-client.\"id\".credentials.client-secret.provider.keyring-name[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2778,7 +2778,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CLIENT_CRED
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:basic[`client_secret_basic` (default)\\: The client id and secret are submitted with the HTTP Authorization Basic scheme.], tooltip:post[`client_secret_post`\\: The client id and secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:post-jwt[`client_secret_jwt`\\: The client id and generated JWT secret are submitted as the `client_id` and `client_secret` form parameters.], tooltip:query[client id and secret are submitted as HTTP query parameters. This option is only supported by the OIDC extension.]"
-msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados por meio do esquema de autorização HTTP Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
+msgstr "tooltip:basic[ `client_secret_basic` (padrão)\\: O ID do cliente e o segredo são enviados com o esquema HTTP Authorization Basic.], tooltip:post[ `client_secret_post` \\: O ID do cliente e o segredo são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:post-jwt[ `client_secret_jwt` \\: O ID do cliente e o segredo JWT gerado são enviados como parâmetros de formulário `client_id` e `client_secret` .], tooltip:query[A identificação do cliente e o segredo são enviados como parâmetros de consulta HTTP. Esta opção é compatível apenas com a extensão OIDC.]"
 
 #. mt: deepl
 #, fuzzy
@@ -2826,7 +2826,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_CLIENT_CRED
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:client[JWT token is generated by the OIDC provider client to support `client_secret_jwt` and `private_key_jwt` authentication methods.], tooltip:bearer[JWT bearer token is used as a client assertion\\: https\\://www.rfc-editor.org/rfc/rfc7523++#++section-2.2.]"
-msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para oferecer suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .], tooltip:bearer[O token JWT do tipo “bearer” é utilizado como uma asserção do cliente\\: https://www.rfc-editor.org/rfc/rfc7523#section-2.2.]"
+msgstr "tooltip:client[O token JWT é gerado pelo cliente do provedor OIDC para oferecer suporte aos métodos de autenticação `client_secret_jwt` e `private_key_jwt` .], tooltip:bearer[O token JWT do tipo “bearer” é utilizado como uma asserção do cliente: https://www.rfc-editor.org/rfc/rfc7523#section-2.2.]"
 
 #. mt: deepl
 #, fuzzy
@@ -2857,7 +2857,7 @@ msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-token-pat
 msgid ""
 "[[quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-token-path]] [.property-path]##link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-token-path[`+++quarkus.oidc-client.credentials.jwt.token-path+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc-client.credentials.jwt.token-path+++[]"
-msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-token-path[quarkus.oidc-client.credentials.jwt.token-path] botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client.credentials.jwt.token-path[]"
+msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-token-path[quarkus.oidc-client.credentials.jwt.token-path] config_property_copy_button:quarkus.oidc-client.credentials.jwt.token-path[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2869,7 +2869,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.token-path` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "Path to a file with a JWT bearer token that should be used as a client assertion. This path can only be set when JWT source (`source()`) is set to `Source++#++BEARER`."
-msgstr "Caminho para um arquivo contendo um token JWT do tipo “bearer” que deve ser utilizado como uma asserção do cliente. Esse caminho só pode ser definido quando a origem do JWT ( `source()` ) estiver definida como `Source#BEARER` ."
+msgstr "Caminho para um arquivo contendo um token JWT do tipo “bearer” que deve ser utilizado como uma asserção do cliente. Esse caminho só pode ser definido quando a fonte do JWT ( `source()` ) estiver definida como `Source#BEARER` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3073,7 +3073,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.key` config_property_copy_bu
 #. mt: deepl
 #, fuzzy
 msgid "String representation of a private key. If provided, indicates that JWT is signed using a private key in PEM or JWK format. It is mutually exclusive with `secret`, `key-file` and `key-store` properties. You can use the `signature-algorithm` property to override the default key algorithm, `RS256`."
-msgstr "Representação em string de uma chave privada. Se fornecida, indica que o JWT é assinado utilizando uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key-file`` e ``key-store`` . É possível utilizar a propriedade ``signature-algorithm`` para substituir o algoritmo de chave padrão, `RS256` ."
+msgstr "Representação em string de uma chave privada. Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades `secret` , `key-file` e `key-store` . É possível utilizar a propriedade `signature-algorithm` para substituir o algoritmo de chave padrão, `RS256` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3104,7 +3104,7 @@ msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-key-file[
 msgid ""
 "[[quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-key-file]] [.property-path]##link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-key-file[`+++quarkus.oidc-client.credentials.jwt.key-file+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc-client.credentials.jwt.key-file+++[]"
-msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-key-file[quarkus.oidc-client.credentials.jwt.key-file] botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client.credentials.jwt.key-file[]"
+msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-key-file[quarkus.oidc-client.credentials.jwt.key-file] config_property_copy_button:quarkus.oidc-client.credentials.jwt.key-file[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3116,7 +3116,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.key-file` config_property_co
 #. mt: deepl
 #, fuzzy
 msgid "If provided, indicates that JWT is signed using a private key in PEM or JWK format. It is mutually exclusive with `secret`, `key` and `key-store` properties. You can use the `signature-algorithm` property to override the default key algorithm, `RS256`."
-msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades `secret` , `key` e `key-store` . É possível utilizar a propriedade `signature-algorithm` para substituir o algoritmo de chave padrão, `RS256` ."
+msgstr "Se fornecida, indica que o JWT é assinado por meio de uma chave privada no formato PEM ou JWK. É mutuamente exclusiva das propriedades ``secret`` , ``key`` e ``key-store`` . É possível utilizar a propriedade ` `signature-algorithm`` para substituir o algoritmo de chave padrão, `RS256` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3159,7 +3159,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.key-store-file` config_prope
 #. mt: deepl
 #, fuzzy
 msgid "If provided, indicates that JWT is signed using a private key from a keystore. It is mutually exclusive with `secret`, `key` and `key-file` properties."
-msgstr "Se for fornecida, indica que o JWT é assinado utilizando uma chave privada de um keystore. É mutuamente exclusiva das propriedades `secret` , `key` e `key-file` ."
+msgstr "Se for fornecida, indica que o JWT é assinado por meio de uma chave privada proveniente de um keystore. É mutuamente exclusiva das propriedades `“secret”` , `“key”` e `“key-file` ”."
 
 #. mt: deepl
 #, fuzzy
@@ -3331,7 +3331,7 @@ msgstr "`quarkus.oidc-client.\"id\".credentials.jwt.audience` config_property_co
 #. mt: deepl
 #, fuzzy
 msgid "The JWT audience (`aud`) claim value. By default, the audience is set to the address of the OpenId Connect Provider's token endpoint."
-msgstr "O valor do atributo “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de tokens do provedor do OpenID Connect."
+msgstr "O valor do atributo “audience” ( `aud` ) do JWT. Por padrão, o “audience” é definido como o endereço do endpoint de tokens do Provedor do OpenID Connect."
 
 #. mt: deepl
 #, fuzzy
@@ -3362,7 +3362,7 @@ msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-keep-audi
 msgid ""
 "[[quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-keep-audience-trailing-slash]] [.property-path]##link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-keep-audience-trailing-slash[`+++quarkus.oidc-client.credentials.jwt.keep-audience-trailing-slash+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc-client.credentials.jwt.keep-audience-trailing-slash+++[]"
-msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-keep-audience-trailing-slash[quarkus.oidc-client.credentials.jwt.keep-audience-trailing-slash] botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client.credentials.jwt.keep-audience-trailing-slash[]"
+msgstr " link:#quarkus-oidc-client_quarkus-oidc-client-credentials-jwt-keep-audience-trailing-slash[quarkus.oidc-client.credentials.jwt.keep-audience-trailing-slash] config_property_copy_button:quarkus.oidc-client.credentials.jwt.keep-audience-trailing-slash[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3870,7 +3870,7 @@ msgstr "[lock]  link:#quarkus-rest-client-oidc-token-propagation_quarkus-rest-cl
 #. mt: deepl
 #, fuzzy
 msgid "Name of the configured OidcClient. Note this property is only used if the `exchangeToken` property is enabled."
-msgstr "Nome do OidcClient configurado. Observe que esta propriedade só é utilizada se a propriedade `exchangeToken` estiver habilitada."
+msgstr "Nome do OidcClient configurado. Observe que esta propriedade só é utilizada se a propriedade `exchangeToken` estiver ativada."
 
 #. mt: deepl
 #, fuzzy

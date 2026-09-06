@@ -3267,7 +3267,7 @@ msgstr "A lista de sufixos utilizados ao tentar localizar um arquivo de modelo."
 #. mt: deepl
 #, fuzzy
 msgid "By default, `engine.getTemplate(\"foo\")` would result in several lookups: `foo`, `foo.html`, `foo.txt`, etc."
-msgstr "Por padrão, `a chamada engine.getTemplate(\"foo\")` resultaria em várias tentativas de localização: `foo` , `foo.html` , `foo.txt` , etc."
+msgstr "Por padrão, `a chamada engine.getTemplate(\"foo\")` resultaria em várias pesquisas: `foo` , `foo.html` , `foo.txt` , etc."
 
 #. mt: deepl
 #, fuzzy
@@ -3425,7 +3425,7 @@ msgstr "Essa expressão regular é utilizada para excluir arquivos de modelo enc
 #. mt: deepl
 #, fuzzy
 msgid "The matched input is the file path relative from the root directory and the `/` is used as a path separator."
-msgstr "A entrada correspondente é o caminho do arquivo relativo ao diretório raiz, e o caractere `“/”` é utilizado como separador de caminho."
+msgstr "A entrada correspondente é o caminho do arquivo relativo ao diretório raiz, e o `/` é utilizado como separador de caminho."
 
 #. mt: deepl
 #, fuzzy
@@ -3635,12 +3635,12 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUTE_DUPLICIT_TE
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:prioritize[If multiple templates with the same path are found then determine the highest priority value and eliminate all templates with lowest priority. If there is exactly one template remaining then use this template. Otherwise, fail the build.  Templates from the root application archive have the priority `30`. Templates from other application archives have the priority `10`. Templates from build items can define any priority.], tooltip:fail[Fail the build if multiple templates with the same path are found.]"
-msgstr "dica de ferramenta:priorizar[Se forem encontrados vários modelos com o mesmo caminho, determine o valor de prioridade mais alto e elimine todos os modelos com a prioridade mais baixa. Se restar exatamente um modelo, utilize-o. Caso contrário, a compilação será reprovada. Os modelos do arquivo raiz do aplicativo têm prioridade `30` . Os modelos de outros arquivos do aplicativo têm prioridade `10` . Os modelos de itens de compilação podem definir qualquer prioridade.], tooltip:fail[Rejeite a compilação se forem encontrados vários modelos com o mesmo caminho.]"
+msgstr "dica de ferramenta:priorizar[Se forem encontrados vários modelos com o mesmo caminho, determine o valor de prioridade mais alto e elimine todos os modelos com a prioridade mais baixa. Se restar exatamente um modelo, utilize-o. Caso contrário, a compilação será reprovada. Os modelos do arquivo raiz do aplicativo têm prioridade `30` . Os modelos de outros arquivos de aplicativos têm prioridade `10` . Os modelos de itens de compilação podem definir qualquer prioridade.], tooltip:fail[Interrompa a compilação se forem encontrados vários modelos com o mesmo caminho.]"
 
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:prioritize[If multiple templates with the same path are found then determine the highest priority value and eliminate all templates with lowest priority. If there is exactly one template remaining then use this template. Otherwise, fail the build.  Templates from the root application archive have the priority {@code 30}. Templates from other application archives have the priority {@code 10}. Templates from build items can define any priority.]"
-msgstr "tooltip:prioritize[Caso sejam encontrados vários modelos com o mesmo caminho, determine o valor de prioridade mais alto e elimine todos os modelos com a prioridade mais baixa. Se restar exatamente um modelo, utilize-o. Caso contrário, a compilação será interrompida. Os modelos do arquivo raiz do aplicativo têm prioridade {@code 30}. Os modelos de outros arquivos do aplicativo têm prioridade {@code 10}. Os modelos de itens de compilação podem definir qualquer prioridade.]"
+msgstr "dica de ferramenta:priorizar[Se forem encontrados vários modelos com o mesmo caminho, determine o valor de prioridade mais alto e elimine todos os modelos com a prioridade mais baixa. Se restar exatamente um modelo, utilize-o. Caso contrário, a compilação será interrompida. Os modelos do arquivo raiz do aplicativo têm a prioridade {@code 30}. Os modelos de outros arquivos do aplicativo têm a prioridade {@code 10}. Os modelos de itens de compilação podem definir qualquer prioridade.]"
 
 #. mt: deepl
 #, fuzzy
@@ -3768,7 +3768,7 @@ msgstr "[lock]  link:#quarkus-qute_quarkus-qute-test-mode-record-rendered-result
 #. mt: deepl
 #, fuzzy
 msgid "By default, the rendering results of injected and type-safe templates are recorded in the managed `RenderedResults` which is registered as a CDI bean."
-msgstr "Por padrão, os resultados da renderização de modelos injetados e com segurança de tipos são registrados no objeto ``RenderedResults`` gerenciado, que está registrado como um bean CDI."
+msgstr "Por padrão, os resultados da renderização dos modelos injetados e com segurança de tipos são registrados no objeto gerenciado ` `RenderedResults`` , que está registrado como um bean CDI."
 
 #. mt: deepl
 #, fuzzy

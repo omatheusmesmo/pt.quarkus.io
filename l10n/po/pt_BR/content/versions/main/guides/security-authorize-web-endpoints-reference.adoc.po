@@ -52,8 +52,9 @@ msgid ""
 "If you work with Jakarta RESTful Web Services (JAX-RS) and need to create complex security policies, consider using <<standard-security-annotations>> instead."
 msgstr "Tenha cuidado ao criar expressões de caminho de política de segurança HTTP complexas e possivelmente sobrepostas. Certifique-se de que a configuração da política HTTP seja testada exaustivamente. Se o senhor trabalha com Jakarta RESTful Web Services (JAX-RS) e precisa criar políticas de segurança complexas, considere usar o site <<standard-security-annotations>> ."
 
+#, fuzzy
 msgid "Quarkus policies summary"
-msgstr ""
+msgstr "Resumo das políticas do Quarkus"
 
 #, fuzzy
 msgid "Built-in policy"
@@ -168,8 +169,9 @@ msgid ""
 "Just do not implement the `io.quarkus.vertx.http.runtime.security.HttpSecurityPolicy.name` method and leave the policy nameless."
 msgstr ""
 
+#, fuzzy
 msgid "Inject <code>@RequestScoped</code> beans into <code>HttpSecurityPolicy</code>"
-msgstr ""
+msgstr "Injetar beans <code>@RequestScoped</code> na <code>HttpSecurityPolicy</code>"
 
 msgid ""
 "`@RequestScoped` beans can only be injected when the xref:cdi-reference.adoc#request-context-lifecycle[CDI request context] is active.\n"
@@ -244,8 +246,9 @@ msgstr "As permissões de subcaminho precedem as permissões de caminho raiz, co
 msgid "This rule is further exemplified by a scenario where subpath permission allows access to a public resource while the root path permission necessitates authorization."
 msgstr "Essa regra é ainda mais exemplificada por um cenário em que a permissão de subcaminho permite o acesso a um recurso público, enquanto a permissão do caminho raiz exige autorização."
 
+#, fuzzy
 msgid "Matching multiple sub-paths: longest path to the <code>*</code> wildcard wins"
-msgstr ""
+msgstr "Correspondência de múltiplos subcaminhos: prevalece o caminho mais longo para o curinga <code>*</code>"
 
 #, fuzzy
 msgid ""
@@ -414,8 +417,9 @@ msgstr "Essa configuração afeta apenas os recursos servidos a partir do URL fi
 msgid "For more information, see link:https://quarkus.io/blog/path-resolution-in-quarkus/[Path Resolution in Quarkus]."
 msgstr "Para obter mais informações, consulte link:https://quarkus.io/blog/path-resolution-in-quarkus/[Resolução de caminhos no Quarkus] ."
 
+#, fuzzy
 msgid "Map <code>SecurityIdentity</code> roles"
-msgstr ""
+msgstr "Map <code>Funções de SecurityIdentity</code>"
 
 #, fuzzy
 msgid ""
@@ -560,8 +564,9 @@ msgid ""
 "`@PermitAll` cannot override HTTP-level security configurations, only relax restrictions imposed by other standard security annotations such as `@RolesAllowed`."
 msgstr "As verificações de autorização para configurações `quarkus.http.auth.` são realizadas antes das verificações de segurança para anotações de segurança padrão. Portanto, `@PermitAll` só permite o acesso a caminhos que ainda não estão restritos por permissões HTTP. `O @PermitAll` não pode substituir as configurações de segurança no nível HTTP, apenas relaxar as restrições impostas por outras anotações de segurança padrão, como `@RolesAllowed` ."
 
+#, fuzzy
 msgid "Quarkus annotation types summary"
-msgstr ""
+msgstr "Resumo dos tipos de anotação do Quarkus"
 
 #, fuzzy
 msgid "Annotation type"
@@ -972,8 +977,9 @@ msgstr "`@PermissionsAllowed` também pode ser usado em meta-anotações. Por ex
 msgid "Any method or class annotated with the `@CanWrite` annotation is secured with this `@PermissionsAllowed` annotation instance."
 msgstr "Qualquer método ou classe anotado com a anotação `@CanWrite` é protegido com essa instância de anotação `@PermissionsAllowed` ."
 
+#, fuzzy
 msgid "Pass <code>@BeanParam</code> parameters into a custom permission"
-msgstr ""
+msgstr "Passe os parâmetros <code>@BeanParam</code> para uma permissão personalizada"
 
 #, fuzzy
 msgid ""

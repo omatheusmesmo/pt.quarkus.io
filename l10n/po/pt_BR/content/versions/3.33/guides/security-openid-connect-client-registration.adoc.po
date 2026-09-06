@@ -325,7 +325,7 @@ msgstr " link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration
 msgid ""
 "`+++quarkus.oidc-client-registration.\"id\".auth-server-url+++`\n"
 "config_property_copy_button:+++quarkus.oidc-client-registration.\"id\".auth-server-url+++[]"
-msgstr "`quarkus.oidc-client-registration.\"id\".auth-server-url` botão_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.\"id\".auth-server-url[]"
+msgstr "`quarkus.oidc-client-registration.\"id\".auth-server-url` botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.\"id\".auth-server-url[]"
 
 #. mt: deepl
 #, fuzzy
@@ -419,7 +419,7 @@ msgstr "`quarkus.oidc-client-registration.\"id\".registration-path` config_prope
 #. mt: deepl
 #, fuzzy
 msgid "The relative path or absolute URL of the OIDC dynamic client registration endpoint. Set if `discovery-enabled` is `false` or a discovered token endpoint path must be customized."
-msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de registro dinâmico de clientes OIDC. Defina esse parâmetro se `a opção “discovery-enabled”` estiver definida como `“false”` ou se for necessário personalizar o caminho de um ponto de extremidade de token descoberto."
+msgstr "O caminho relativo ou a URL absoluta do endpoint de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
 
 #. mt: deepl
 #, fuzzy
@@ -457,7 +457,7 @@ msgstr " link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration
 msgid ""
 "`+++quarkus.oidc-client-registration.\"id\".connection-delay+++`\n"
 "config_property_copy_button:+++quarkus.oidc-client-registration.\"id\".connection-delay+++[]"
-msgstr "`quarkus.oidc-client-registration.\"id\".connection-delay` botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.\"id\".connection-delay[]"
+msgstr "`quarkus.oidc-client-registration.\"id\".connection-delay` config_property_copy_button:quarkus.oidc-client-registration.\"id\".connection-delay[]"
 
 #. mt: deepl
 #, fuzzy
@@ -510,7 +510,7 @@ msgstr "`quarkus.oidc-client-registration.\"id\".connection-retry-count` config_
 #. mt: deepl
 #, fuzzy
 msgid "The number of times to retry re-establishing an existing OIDC connection if it is temporarily lost. Different from `connection-delay`, which applies only to initial connection attempts. For instance, if a request to the OIDC token endpoint fails due to a connection issue, it will be retried as per this setting."
-msgstr "O número de vezes que se deve tentar restabelecer uma conexão OIDC existente caso ela seja temporariamente perdida. Diferente do `“atraso de conexão”` , que se aplica apenas às tentativas iniciais de conexão. Por exemplo, se uma solicitação ao endpoint do token OIDC falhar devido a um problema de conexão, ela será repetida de acordo com esta configuração."
+msgstr "O número de vezes que se tentará restabelecer uma conexão OIDC existente caso ela seja temporariamente perdida. Diferente do `“connection-delay”` , que se aplica apenas às tentativas iniciais de conexão. Por exemplo, se uma solicitação ao endpoint do token OIDC falhar devido a um problema de conexão, ela será repetida de acordo com esta configuração."
 
 #. mt: deepl
 #, fuzzy
@@ -645,14 +645,14 @@ msgstr " link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration
 msgid ""
 "[[quarkus-oidc-client-registration_quarkus-oidc-client-registration-max-pool-size]] [.property-path]##link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration-max-pool-size[`+++quarkus.oidc-client-registration.max-pool-size+++`]##\n"
 "config_property_copy_button:+++quarkus.oidc-client-registration.max-pool-size+++[]"
-msgstr " link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration-max-pool-size[quarkus.oidc-client-registration.max-pool-size] botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.max-pool-size[]"
+msgstr " link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration-max-pool-size[quarkus.oidc-client-registration.max-pool-size] config_property_copy_button:quarkus.oidc-client-registration.max-pool-size[]"
 
 #. mt: deepl
 #, fuzzy
 msgid ""
 "`+++quarkus.oidc-client-registration.\"id\".max-pool-size+++`\n"
 "config_property_copy_button:+++quarkus.oidc-client-registration.\"id\".max-pool-size+++[]"
-msgstr "`quarkus.oidc-client-registration.\"id\".max-pool-size` config_property_copy_button:quarkus.oidc-client-registration.\"id\".max-pool-size[]"
+msgstr "`quarkus.oidc-client-registration.\"id\".max-pool-size` botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.\"id\".max-pool-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -743,7 +743,7 @@ msgstr "`quarkus.oidc-client-registration.\"id\".id` config_property_copy_button
 #. mt: deepl
 #, fuzzy
 msgid "OIDC Client Registration id"
-msgstr "ID de registro do cliente no OIDC"
+msgstr "ID de registro do cliente OIDC"
 
 #. mt: deepl
 #, fuzzy
@@ -1095,7 +1095,7 @@ msgstr " link:#quarkus-oidc-client-registration_quarkus-oidc-client-registration
 msgid ""
 "`+++quarkus.oidc-client-registration.\"id\".proxy.proxy-configuration-name+++`\n"
 "config_property_copy_button:+++quarkus.oidc-client-registration.\"id\".proxy.proxy-configuration-name+++[]"
-msgstr "`quarkus.oidc-client-registration.\"id\".proxy.proxy-configuration-name` botão_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.\"id\".proxy.proxy-configuration-name[]"
+msgstr "`quarkus.oidc-client-registration.\"id\".proxy.proxy-configuration-name` botão_para_copiar_propriedade_de_configuração:quarkus.oidc-client-registration.\"id\".proxy.proxy-configuration-name[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1105,7 +1105,7 @@ msgstr "O nome da configuração de proxy a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.proxy.<name>.++*++`. Please note that the 'non-proxy-hosts' option is currently not supported. If a name is configured, but no proxy configuration is found with that name then an error will be thrown."
-msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é suportada no momento. Caso um nome seja configurado, mas não seja encontrada nenhuma configuração de proxy com esse nome, será gerado um erro."
+msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é compatível no momento. Caso um nome seja configurado, mas nenhuma configuração de proxy seja encontrada com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -1189,7 +1189,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java sobre Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

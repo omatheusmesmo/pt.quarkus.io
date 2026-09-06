@@ -304,7 +304,7 @@ msgstr "[lock]  link:#quarkus-kubernetes-client_quarkus-kubernetes-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "The flavor to use (kind, k3s or api-only)."
-msgstr "A variante a ser utilizada (kind, k3s ou api-only)."
+msgstr "O tipo a ser utilizado (kind, k3s ou apenas API)."
 
 #. mt: deepl
 #, fuzzy

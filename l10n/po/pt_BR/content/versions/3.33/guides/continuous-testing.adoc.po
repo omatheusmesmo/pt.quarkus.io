@@ -715,7 +715,7 @@ msgstr "Identificadores de módulos de teste que devem ser excluídos por padrã
 #. mt: deepl
 #, fuzzy
 msgid "This is ignored if include-engines has been set."
-msgstr "Isso será ignorado caso a variável `include-engines` tenha sido definida."
+msgstr "Isso será ignorado se a variável `include-engines` tiver sido definida."
 
 #. mt: deepl
 #, fuzzy
@@ -871,7 +871,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-test-profile-tags[quarkus.test.profil
 #. mt: deepl
 #, fuzzy
 msgid "The tags this profile is associated with. When the `quarkus.test.profile.tags` System property is set (its value is a comma separated list of strings) then Quarkus will only execute tests that are annotated with a `@TestProfile` that has at least one of the supplied (via the aforementioned system property) tags."
-msgstr "As tags associadas a este perfil. Quando a propriedade do sistema ``quarkus.test.profile.tags`` estiver definida (seu valor é uma lista de strings separadas por vírgulas), o Quarkus executará apenas os testes que estiverem anotados com um ``@TestProfile`` que possua pelo menos uma das tags fornecidas (por meio da propriedade do sistema mencionada acima)."
+msgstr "As tags associadas a este perfil. Quando a propriedade do sistema ``quarkus.test.profile.tags`` estiver definida (seu valor é uma lista de strings separadas por vírgulas), o Quarkus executará apenas os testes que estiverem anotados com uma anotação ``@TestProfile`` que contenha pelo menos uma das tags fornecidas (por meio da propriedade do sistema mencionada acima)."
 
 #. mt: deepl
 #, fuzzy
@@ -1190,7 +1190,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-test-hang-detection-timeout[quarkus.t
 #. mt: deepl
 #, fuzzy
 msgid "Configures the hang detection in @QuarkusTest. If no activity happens (i.e. no test callbacks are called) over this period then QuarkusTest will dump all threads stack traces, to help diagnose a potential hang."
-msgstr "Configura a detecção de travamento no @QuarkusTest. Caso não ocorra nenhuma atividade (ou seja, nenhum callback de teste seja chamado) durante esse período, o QuarkusTest irá gerar os rastreamentos de pilha de todas as threads, a fim de auxiliar no diagnóstico de um possível travamento."
+msgstr "Configura a detecção de travamento no @QuarkusTest. Se não houver atividade (ou seja, se nenhum callback de teste for chamado) durante esse período, o QuarkusTest exibirá os rastreamentos de pilha de todas as threads, a fim de auxiliar no diagnóstico de um possível travamento."
 
 #. mt: deepl
 #, fuzzy
@@ -1285,7 +1285,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-test-only-test-application-module[qua
 #. mt: deepl
 #, fuzzy
 msgid "If this is true then only the tests from the main application module will be run (i.e. the module that is currently running mvn quarkus:dev)."
-msgstr "Se isso for verdade, apenas os testes do módulo principal do aplicativo serão executados (ou seja, o módulo no qual está sendo executado, no momento, o comando `mvn quarkus:dev`)."
+msgstr "Se isso for verdade, apenas os testes do módulo principal do aplicativo serão executados (ou seja, o módulo que está executando atualmente o comando `mvn quarkus:dev`)."
 
 #. mt: deepl
 #, fuzzy
@@ -1363,7 +1363,7 @@ msgstr "Módulos que devem ser excluídos dos testes contínuos. Trata-se de uma
 #. mt: deepl
 #, fuzzy
 msgid "This is ignored if include-module-pattern has been set."
-msgstr "Isso será ignorado caso a variável `include-module-pattern` tenha sido definida."
+msgstr "Isso será ignorado caso o parâmetro `include-module-pattern` tenha sido definido."
 
 #. mt: deepl
 #, fuzzy
@@ -1431,7 +1431,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-test-integration-test-artifact-type[q
 #. mt: deepl
 #, fuzzy
 msgid "Used to override the artifact type against which a `@QuarkusIntegrationTest` or `@QuarkusMainIntegrationTest` run. For example, if the application's artifact is a container build from a jar, this property could be used to test the jar instead of the container."
-msgstr "Utilizada para substituir o tipo de artefato com o qual um `@QuarkusIntegrationTest` ou `@QuarkusMainIntegrationTest` é executado. Por exemplo, se o artefato do aplicativo for uma compilação de contêiner a partir de um JAR, essa propriedade poderia ser usada para testar o JAR em vez do contêiner."
+msgstr "Utilizada para substituir o tipo de artefato no qual um `@QuarkusIntegrationTest` ou `@QuarkusMainIntegrationTest` é executado. Por exemplo, se o artefato do aplicativo for uma compilação em contêiner a partir de um jar, essa propriedade poderia ser usada para testar o jar em vez do contêiner."
 
 #. mt: deepl
 #, fuzzy

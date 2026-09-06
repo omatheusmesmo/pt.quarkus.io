@@ -561,7 +561,7 @@ msgstr "appArtifact"
 msgid ""
 "Coordinates of the Maven artifact containing the original Java application to build the native image for. If not provided, the current project is assumed to be the original Java application.\n"
 "The coordinates are expected to be expressed in the following format:"
-msgstr "Coordenadas do artefato Maven que contém a aplicação Java original para a qual se deseja compilar a imagem nativa. Caso não sejam fornecidas, presume-se que o projeto atual seja a aplicação Java original. Espera-se que as coordenadas sejam expressas no seguinte formato:"
+msgstr "Coordenadas do artefato Maven que contém a aplicação Java original a partir da qual se deseja compilar a imagem nativa. Caso não sejam fornecidas, presume-se que o projeto atual seja a aplicação Java original. Espera-se que as coordenadas sejam expressas no seguinte formato:"
 
 #. mt: deepl
 #, fuzzy
@@ -690,7 +690,7 @@ msgstr "quarkusCloseBootstrappedApp"
 #. mt: deepl
 #, fuzzy
 msgid "Whether to close the bootstrapped applications after the execution"
-msgstr "Se as aplicações inicializadas de forma autônoma devem ser encerradas após a execução"
+msgstr "Se as aplicações iniciadas com bootstrap devem ser encerradas após a execução"
 
 #. mt: deepl
 #, fuzzy
@@ -917,7 +917,7 @@ msgstr "reloadPoms"
 #. mt: deepl
 #, fuzzy
 msgid "POM files from the workspace that should be reloaded from the disk instead of taken from the Maven reactor. This parameter is not supposed to be configured by a user."
-msgstr "Arquivos POM da área de trabalho que devem ser recarregados do disco, em vez de serem obtidos do reator do Maven. Este parâmetro não deve ser configurado pelo usuário."
+msgstr "Arquivos POM da área de trabalho que devem ser recarregados do disco, em vez de serem obtidos do Maven Reactor. Este parâmetro não deve ser configurado pelo usuário."
 
 #. mt: deepl
 #, fuzzy
@@ -1374,7 +1374,7 @@ msgid ""
 "More info: https://github.com/quarkusio/quarkus/issues/14437\n"
 "By default, the projectGroupId is used as package for generated classes (you can also use packageName to have them different).\n"
 "className"
-msgstr "O `className` definirá os nomes das classes geradas ao selecionar apenas uma das seguintes extensões: REST, RESTEasy Classic e Spring-Web. Caso sejam selecionadas mais de uma dessas extensões, apenas a parte correspondente ao nome do pacote será utilizada como `packageName`. Mais informações: https://github.com/quarkusio/quarkus/issues/14437 Por padrão, o `projectGroupId` é utilizado como pacote para as classes geradas (você também pode utilizar o `packageName` para que sejam diferentes). `className`"
+msgstr "O `className` definirá os nomes das classes geradas ao selecionar apenas uma das seguintes extensões: REST, RESTEasy Classic e Spring-Web. Caso sejam selecionadas mais de uma dessas extensões, apenas a parte correspondente ao nome do pacote será utilizada como `packageName`. Mais informações: https://github.com/quarkusio/quarkus/issues/14437 Por padrão, o `projectGroupId` é utilizado como pacote para as classes geradas (você também pode utilizar `packageName` para que sejam diferentes). `className`"
 
 #. mt: deepl
 #, fuzzy
@@ -1566,12 +1566,12 @@ msgstr "quarkus:create-extension"
 #. mt: deepl
 #, fuzzy
 msgid "Creates the base of a Quarkus Extension <https://quarkus.io/guides/writing-extensions> in different layout depending on the options and environment."
-msgstr "Cria a base de uma extensão do Quarkus https://quarkus.io/guides/writing-extensions com layouts diferentes, dependendo das opções e do ambiente."
+msgstr "Cria a base de uma extensão do Quarkus https://quarkus.io/guides/writing-extensions com diferentes layouts, dependendo das opções e do ambiente."
 
 #. mt: deepl
 #, fuzzy
 msgid "Create in the quarkus-parent project directory (or the extensions parent dir)"
-msgstr "Crie no diretório do projeto quarkus-parent (ou no diretório raiz das extensões)"
+msgstr "Crie no diretório do projeto pai do Quarkus (ou no diretório pai das extensões)"
 
 #. mt: deepl
 #, fuzzy
@@ -1600,7 +1600,7 @@ msgstr "Criação de uma extensão independente"
 #. mt: deepl
 #, fuzzy
 msgid "generate the new Quarkus extension in the current directory (parent, runtime and deployment), with unit test and devmode test on option."
-msgstr "gerar a nova extensão Quarkus no diretório atual (pai, tempo de execução e implantação), com a opção de incluir testes unitários e testes em modo de desenvolvimento."
+msgstr "gerar a nova extensão Quarkus no diretório atual (pai, tempo de execução e implantação), com a opção de incluir testes unitários e testes no modo de desenvolvimento."
 
 #. mt: deepl
 #, fuzzy
@@ -1738,7 +1738,7 @@ msgstr "nomeDaExtensão"
 #. mt: deepl
 #, fuzzy
 msgid "The extensionName of the runtime module. The extensionNames of the extension parent and deployment modules will be based on this name too."
-msgstr "O nome da extensão (extensionName) do módulo de tempo de execução. Os nomes das extensões (extensionNames) dos módulos pai da extensão e de implantação também serão baseados nesse nome."
+msgstr "O nome da extensão (extensionName) do módulo de tempo de execução. Os nomes das extensões (extensionNames) dos módulos pai da extensão e de implantação também se basearão nesse nome."
 
 #. mt: deepl
 #, fuzzy
@@ -1803,12 +1803,12 @@ msgstr "namespaceId"
 #. mt: deepl
 #, fuzzy
 msgid "A prefix common to all extension artifactIds in the current source tree."
-msgstr "Um prefixo comum a todos os artifactIds das extensões na árvore de código-fonte atual."
+msgstr "Um prefixo comum a todos os artifactIds de extensão na árvore de código-fonte atual."
 
 #. mt: deepl
 #, fuzzy
 msgid "Default: \"quarkus-\" in quarkus Quarkus Core and Quarkiverse else \"\""
-msgstr "Padrão: \"quarkus-\" no Quarkus Core e no Quarkiverse; caso contrário, \"\""
+msgstr "Padrão: “quarkus-” no Quarkus Core e no Quarkiverse; caso contrário, “”"
 
 #. mt: deepl
 #, fuzzy
@@ -1826,12 +1826,12 @@ msgstr "nomeDonamespace"
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-maven-plugin-goal-create-extension-namespaceName]] namespaceName"
-msgstr "nome do namespace"
+msgstr "nomeDoespaçoDeNomes"
 
 #. mt: deepl
 #, fuzzy
 msgid "A prefix common to all extension names in the current source tree."
-msgstr "Um prefixo comum a todos os nomes de extensões na árvore de código-fonte atual."
+msgstr "Um prefixo comum a todos os nomes de extensão na árvore de código-fonte atual."
 
 #. mt: deepl
 #, fuzzy
@@ -1849,7 +1849,7 @@ msgid ""
 "\n"
 "Default: auto-generated out of groupId, namespaceId and extensionId\n"
 "--"
-msgstr "nome do pacote"
+msgstr "nomeDopacote"
 
 #. mt: deepl
 #, fuzzy
@@ -2759,7 +2759,7 @@ msgstr "anexarRunnerComoArtefatoPrincipal"
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-maven-plugin-goal-deploy-attachRunnerAsMainArtifact]] attachRunnerAsMainArtifact"
-msgstr "anexarRunnerComoArtefatoPrincipal"
+msgstr "attachRunnerAsMainArtifact"
 
 #. mt: deepl
 #, fuzzy
@@ -3194,7 +3194,7 @@ msgid ""
 "true The JVM is started in debug mode and will be listening on debugHost:debugPort\n"
 "client The JVM is started in client mode, and will attempt to connect to debugHost:debugPort\n"
 "{port} The JVM is started in debug mode and will be listening on debugHost:{port}. By default, debugHost has the value \"localhost\", and debugPort is 5005."
-msgstr "Se este servidor deve ser iniciado no modo de depuração. O padrão é iniciar no modo de depuração e ficar à escuta na porta 5005. O fato de a JVM ser suspensa enquanto aguarda a conexão de um depurador depende do valor de `suspend`. O `debug` suporta as seguintes opções: Valor Efeito false A JVM não é iniciada no modo de depuração true A JVM é iniciada no modo de depuração e ficará à escuta em debugHost:debugPort client A JVM é iniciada no modo cliente e tentará se conectar a debugHost:debugPort {port} A JVM é iniciada no modo de depuração e ficará à escuta em debugHost:{port}. Por padrão, `debugHost` tem o valor “localhost” e `debugPort` é 5005."
+msgstr "Se este servidor deve ser iniciado no modo de depuração. O padrão é iniciar no modo de depuração e ficar à escuta na porta 5005. O fato de a JVM ser suspensa enquanto aguarda a conexão de um depurador depende do valor de `suspend`. O comando `debug` suporta as seguintes opções: Valor Efeito false A JVM não é iniciada no modo de depuração true A JVM é iniciada no modo de depuração e ficará à escuta em debugHost:debugPort client A JVM é iniciada no modo cliente e tentará se conectar a debugHost:debugPort {port} A JVM é iniciada no modo de depuração e ficará à escuta em debugHost:{port}. Por padrão, `debugHost` tem o valor “localhost” e `debugPort` é 5005."
 
 #. mt: deepl
 #, fuzzy
@@ -3286,7 +3286,7 @@ msgid ""
 "Extension dev mode JVM option filter configuration.\n"
 "Allows disabling all JVM options configured by extensions, for example\n"
 "<extensionJvmOptions> <!-- disable JVM options from all the extensions --> <disableAll>true</disableAll> </extensionJvmOptions>* or specifying a groupId:artifactId:classifier artifact pattern to disable options provided by the matching subset of extensions, for example <extensionJvmOptions> <disableFor> <!-- disable JVM options from all the extensions with groupId org.acme --> <extension>org.acme</extension> <!-- disable JVM options configured by io.quarkiverse:quarkus-magic --> <extension>io.quarkiverse:quarkus-magic</extension> </disableFor> </extensionJvmOptions>"
-msgstr "Configuração do filtro de opções da JVM no modo de desenvolvimento de extensões. Permite desativar todas as opções da JVM configuradas pelas extensões; por exemplo, <extensionJvmOptions> <!-- desativar as opções da JVM de todas as extensões --> <disableAll>true</disableAll> </extensionJvmOptions>* ou especificando um padrão de artefato groupId:artifactId:classifier para desativar as opções fornecidas pelo subconjunto correspondente de extensões, por exemplo <extensionJvmOptions> <disableFor> <!-- desativar opções da JVM de todas as extensões com groupId org.acme -→ <extension>org.acme</extension> <!-- desativar opções da JVM configuradas por io.quarkiverse:quarkus-magic -→ <extension>io.quarkiverse:quarkus-magic</extension> </disableFor> </extensionJvmOptions>"
+msgstr "Configuração do filtro de opções da JVM no modo de desenvolvimento de extensões. Permite desativar todas as opções da JVM configuradas pelas extensões; por exemplo, <extensionJvmOptions> <!-- desativar as opções da JVM de todas as extensões -→ <disableAll>true</disableAll> </extensionJvmOptions>* ou especificando um padrão de artefato groupId:artifactId:classifier para desativar as opções fornecidas pelo subconjunto correspondente de extensões, por exemplo <extensionJvmOptions> <disableFor> <!-- desativar opções da JVM de todas as extensões com groupId org.acme -→ <extension>org.acme</extension> <!-- desativar opções da JVM configuradas por io.quarkiverse:quarkus-magic -→ <extension>io.quarkiverse:quarkus-magic</extension> </disableFor> </extensionJvmOptions>"
 
 #. mt: deepl
 #, fuzzy
@@ -3359,7 +3359,7 @@ msgstr "módulos"
 #. mt: deepl
 #, fuzzy
 msgid "Allows configuring the modules to add to the application. The listed modules will be added using: --add-modules m1,m2...."
-msgstr "Permite configurar os módulos a serem adicionados ao aplicativo. Os módulos listados serão adicionados por meio do comando: --add-modules m1,m2…​."
+msgstr "Permite configurar os módulos a serem adicionados ao aplicativo. Os módulos listados serão adicionados por meio do seguinte comando: --add-modules m1,m2…​."
 
 #. mt: deepl
 #, fuzzy
@@ -3580,7 +3580,7 @@ msgid ""
 "Value Effect\n"
 "y or true The debug mode JVM launch is suspended\n"
 "n or false The debug mode JVM is started without suspending"
-msgstr "Se a inicialização da JVM, no modo de depuração, deve ser suspensa. Este parâmetro só é relevante quando a JVM é inicializada no modo de depuração. Este parâmetro aceita os seguintes valores (todos os valores permitidos não diferenciam maiúsculas de minúsculas): Valor Efeito y ou true A inicialização da JVM no modo de depuração é suspensa n ou false A JVM no modo de depuração é iniciada sem suspensão"
+msgstr "Se a inicialização da JVM, no modo de depuração, deve ser suspensa. Este parâmetro é relevante apenas quando a JVM é inicializada no modo de depuração. Este parâmetro aceita os seguintes valores (todos os valores permitidos não diferenciam maiúsculas de minúsculas): Valor Efeito y ou true A inicialização da JVM no modo de depuração é suspensa n ou false A JVM no modo de depuração é iniciada sem suspensão"
 
 #. mt: deepl
 #, fuzzy
@@ -3649,7 +3649,7 @@ msgstr "teste"
 msgid ""
 "Selects given test(s) for continuous testing. This is an alternative to quarkus.test.include-pattern and quarkus.test.exclude-pattern; if set, the quarkus.test.[include|exclude]-pattern configuration is ignored.\n"
 "The format of this configuration property is the same as the Maven Surefire -Dtest=... format <https://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html#test>. Specifically: it is a comma (,) separated list of globs of class file paths and/or method names. Each glob can potentially be prefixed with an exclamation mark (!), which makes it an exclusion filter instead of an inclusion filter. Exclusions have higher priority than inclusions. The class file path glob is separated from the method name glob by the hash sign (#) and multiple method name globs may be present, separated by the plus sign (+)."
-msgstr "Seleciona os testes especificados para testes contínuos. Esta é uma alternativa às propriedades `quarkus.test.include-pattern` e `quarkus.test.exclude-pattern`; se definida, a configuração `quarkus.test.[include|exclude]-pattern` será ignorada. O formato desta propriedade de configuração é o mesmo do formato do Maven Surefire -Dtest=…​ https://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html#test . Especificamente: trata-se de uma lista separada por vírgulas (,) de padrões de caminhos de arquivos de classe e/ou nomes de métodos. Cada padrão pode, potencialmente, ser precedido por um ponto de exclamação (!), o que o transforma em um filtro de exclusão em vez de um filtro de inclusão. As exclusões têm prioridade maior do que as inclusões. O padrão de caminho do arquivo de classe é separado do padrão de nome de método pelo sinal de cerquilha (#), e podem estar presentes vários padrões de nome de método, separados pelo sinal de mais (+)."
+msgstr "Seleciona os testes especificados para testes contínuos. Esta é uma alternativa às propriedades `quarkus.test.include-pattern` e `quarkus.test.exclude-pattern`; se definida, a configuração `quarkus.test.[include|exclude]-pattern` será ignorada. O formato desta propriedade de configuração é o mesmo do formato do Maven Surefire -Dtest=…​ https://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html#test . Especificamente: trata-se de uma lista separada por vírgulas (,) de padrões de caminhos de arquivos de classe e/ou nomes de métodos. Cada padrão pode, potencialmente, ser precedido por um ponto de exclamação (!), o que o transforma em um filtro de exclusão em vez de um filtro de inclusão. As exclusões têm prioridade maior do que as inclusões. O padrão de caminho de arquivo de classe é separado do padrão de nome de método pelo sinal de cerquilha (#), e podem estar presentes vários padrões de nome de método, separados pelo sinal de mais (+)."
 
 #, fuzzy
 msgid "For example:"
@@ -3673,7 +3673,7 @@ msgstr "!Instável*: todas as classes, exceto aquelas cujo nome começa com “I
 #. mt: deepl
 #, fuzzy
 msgid "pkg/**/Ci*leTest: all classes in the package pkg and subpackages, starting with Ci and ending with leTest"
-msgstr "pkg/**/Ci*leTest: todas as classes do pacote pkg e de seus subpacotes, cujos nomes começam com Ci e terminam com leTest"
+msgstr "pkg/**/Ci*leTest: todas as classes no pacote pkg e nos subpacotes, cujos nomes começam com Ci e terminam com leTest"
 
 #. mt: deepl
 #, fuzzy
@@ -3709,7 +3709,7 @@ msgstr "arquivos monitorados"
 #. mt: deepl
 #, fuzzy
 msgid "Optional list of files to watch for changes that trigger a hot reload in dev mode. This is useful for extensions developers that can set this property to their extension's artifacts in their local repository."
-msgstr "Lista opcional de arquivos cujas alterações acionam uma recarga dinâmica no modo de desenvolvimento. Isso é útil para desenvolvedores de extensões, que podem definir essa propriedade para os artefatos de suas extensões em seu repositório local."
+msgstr "Lista opcional de arquivos cujas alterações acionam uma atualização dinâmica no modo de desenvolvimento. Isso é útil para desenvolvedores de extensões, que podem definir essa propriedade para os artefatos de suas extensões em seus repositórios locais."
 
 #. mt: deepl
 #, fuzzy
@@ -4731,7 +4731,7 @@ msgstr "repositórios"
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-maven-plugin-goal-image-build-repos]] repos"
-msgstr "repositórios"
+msgstr "repos"
 
 #. mt: deepl
 #, fuzzy
@@ -5227,7 +5227,7 @@ msgstr "sessão"
 #. mt: deepl
 #, fuzzy
 msgid "quarkus:list-categories"
-msgstr "quarkus:lista-de-categorias"
+msgstr "quarkus:list-categories"
 
 #. mt: deepl
 #, fuzzy
@@ -5495,7 +5495,7 @@ msgstr "quarkus:listar-plataformas"
 #. mt: deepl
 #, fuzzy
 msgid "List imported and optionally other platforms available for the project."
-msgstr "Liste as plataformas importadas e, opcionalmente, outras plataformas disponíveis para o projeto."
+msgstr "Indique as plataformas importadas e, opcionalmente, outras plataformas disponíveis para o projeto."
 
 #. mt: deepl
 #, fuzzy
@@ -6841,7 +6841,7 @@ msgstr "quarkus:remover-extensões"
 #. mt: deepl
 #, fuzzy
 msgid "Allow removing extensions to an existing pom.xml file. Because you can remove one or several extension in one go, there are 2 mojos: remove-extensions and remove-extension. Both supports the extension and extensions parameters."
-msgstr "Permita a remoção de extensões de um arquivo pom.xml existente. Como é possível remover uma ou várias extensões de uma só vez, existem dois mojos: remove-extensions e remove-extension. Ambos suportam os parâmetros “extension” e “extensions”."
+msgstr "Permita a remoção de extensões de um arquivo pom.xml existente. Como é possível remover uma ou várias extensões de uma só vez, existem dois mojos: remove-extensions e remove-extension. Ambos aceitam os parâmetros “extension” e “extensions”."
 
 #. mt: deepl
 #, fuzzy
@@ -7031,7 +7031,7 @@ msgstr "quarkusCloseBootstrappedApp"
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-maven-plugin-goal-run-quarkusCloseBootstrappedApp]] quarkusCloseBootstrappedApp"
-msgstr "quarkusFecharAplicativoInicializado"
+msgstr "quarkusCloseBootstrappedApp"
 
 #. mt: deepl
 #, fuzzy
@@ -7757,7 +7757,7 @@ msgstr "quarkus.track-config-changes.dependencies-file"
 #. mt: deepl
 #, fuzzy
 msgid "Dependency dump file"
-msgstr "Arquivo de relatório de dependências"
+msgstr "Arquivo de listagem de dependências"
 
 #. mt: deepl
 #, fuzzy
@@ -8081,7 +8081,7 @@ msgstr "versão da plataforma"
 #. mt: deepl
 #, fuzzy
 msgid "Version of the target platform (e.g: 2.0.0.Final) You may instead use stream to target the latest version of a specific platform stream."
-msgstr "Versão da plataforma de destino (por exemplo: 2.0.0.Final). Como alternativa, o senhor pode utilizar o “stream” para direcionar para a versão mais recente de um “stream” específico da plataforma."
+msgstr "Versão da plataforma de destino (por exemplo: 2.0.0.Final). Como alternativa, o senhor pode utilizar o “stream” para direcionar a versão mais recente de um stream de plataforma específico."
 
 #. mt: deepl
 #, fuzzy

@@ -1028,7 +1028,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_PROXY__NAMED_PRO
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy

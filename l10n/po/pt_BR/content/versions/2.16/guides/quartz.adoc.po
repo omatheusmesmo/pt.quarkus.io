@@ -443,7 +443,7 @@ msgstr "[lock] `link:#quarkus-quartz_quarkus.quartz.cluster-checkin-interval[qua
 #. mt: deepl
 #, fuzzy
 msgid "The frequency (in milliseconds) at which the scheduler instance checks-in with other instances of the cluster."
-msgstr "A frequência (em milissegundos) com que a instância do agendador se comunica com outras instâncias do cluster."
+msgstr "A frequência (em milissegundos) com a qual a instância do agendador se comunica com outras instâncias do cluster."
 
 #. mt: deepl
 #, fuzzy
@@ -945,7 +945,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_SIMPLE_TR
 #. mt: deepl
 #, fuzzy
 msgid "`smart-policy`, `ignore-misfire-policy`, `fire-now`, `simple-trigger-reschedule-now-with-existing-repeat-count`, `simple-trigger-reschedule-now-with-remaining-repeat-count`, `simple-trigger-reschedule-next-with-remaining-count`, `simple-trigger-reschedule-next-with-existing-count`, `cron-trigger-do-nothing`"
-msgstr "`política-inteligente` , `política-de-ignorar-falhas-de-disparo` , `disparar-agora` , `reprogramação-simples-do-gatilho-agora-com-contagem-de-repetições-existente` , `reprogramação-simples-do-gatilho-agora-com-contagem-de-repetições-restante` , `acionador-simples-reprogramar-para-a-próxima-com-contagem-restante` , `acionador-simples-reprogramar-para-a-próxima-com-contagem-existente` , `acionador-cron-não-fazer-nada`"
+msgstr "`política-inteligente` , `política-de-ignorar-falhas-de-disparo` , `disparar-agora` , `reescalonamento-imediato-do-gatilho-simples-com-contagem-de-repetições-existente` , `reescalonamento-imediato-do-gatilho-simples-com-contagem-de-repetições-restante` , `acionador-simples-reprogramar-na-próxima-com-contagem-restante` , `acionador-simples-reprogramar-na-próxima-com-contagem-existente` , `acionador-cron-não-fazer-nada`"
 
 #. mt: deepl
 #, fuzzy
@@ -1261,7 +1261,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_QUARTZ_MISFIRE_P
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

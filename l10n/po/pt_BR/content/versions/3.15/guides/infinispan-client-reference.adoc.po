@@ -892,8 +892,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -916,14 +917,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-marshaller-class]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-marshaller-class[`quarkus.infinispan-client.marshaller-class`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the marshallerClass. Default is ProtoStreamMarshaller"
-msgstr ""
+msgstr "Define a classe do marshaller. O valor padrão é ProtoStreamMarshaller"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_MARSHALLER_CLASS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_MARSHALLER_CLASS[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "string"
 msgstr "string"
@@ -945,14 +949,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-health-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-health-enabled[`quarkus.infinispan-client.health.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Whether or not a health check is published in case the smallrye-health extension is present."
-msgstr ""
+msgstr "Se uma verificação de integridade será ou não publicada caso a extensão “smallrye-health” esteja presente."
 
+#, fuzzy
 msgid "This is a global setting and is not specific to an Infinispan Client."
-msgstr ""
+msgstr "Esta é uma configuração global e não é específica a um cliente Infinispan."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_HEALTH_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_HEALTH_ENABLED[]"
 
 msgid "boolean"
 msgstr "booleano"
@@ -975,11 +982,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-uri[`quarkus.infinispan-client.uri`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the URI of the running Infinispan server to connect to. hotrod://localhost:11222@admin:password If provided `hosts`, `username` and `password` will be ignored."
-msgstr ""
+msgstr "Define o URI do servidor Infinispan em execução ao qual se conectar. hotrod://localhost:11222@admin:password Caso sejam fornecidos, `o host` , `o nome de usuário` e `a senha` serão ignorados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_URI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_URI[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-hosts[`quarkus.infinispan-client.hosts`]##\n"
@@ -996,11 +1005,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-hosts[`quarkus.infinispan-client.hosts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the host name/port to connect to. Each one is separated by a semicolon (eg. host1:11222;host2:11222)."
-msgstr ""
+msgstr "Define o nome do host e a porta aos quais se conectar. Cada um deles é separado por um ponto-e-vírgula (por exemplo, host1:11222;host2:11222)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_HOSTS[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-intelligence[`quarkus.infinispan-client.client-intelligence`]##\n"
@@ -1017,14 +1028,17 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-intelligence[`quarkus.infinispan-client.client-intelligence`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets client intelligence used by authentication Available values: ++*++ `BASIC` - Means that the client doesn't handle server topology changes and therefore will only use the list of servers supplied at configuration time. ++*++ `TOPOLOGY_AWARE` - Use this provider if you don't want the client to present any certificates to the remote TLS host. ++*++ `HASH_DISTRIBUTION_AWARE` - Like `TOPOLOGY_AWARE` but with the additional advantage that each request involving keys will be routed to the server who is the primary owner which improves performance greatly. This is the default."
-msgstr ""
+msgstr "Define a inteligência do cliente utilizada pela autenticação. Valores disponíveis: * `BASIC` — Significa que o cliente não lida com alterações na topologia do servidor e, portanto, utilizará apenas a lista de servidores fornecida no momento da configuração. * `TOPOLOGY_AWARE` — Utilize este provedor se não desejar que o cliente apresente quaisquer certificados ao host TLS remoto. * `HASH_DISTRIBUTION_AWARE` — Semelhante `a TOPOLOGY_AWARE` , mas com a vantagem adicional de que cada solicitação envolvendo chaves será encaminhada ao servidor que é o proprietário principal, o que melhora significativamente o desempenho. Esta é a configuração padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CLIENT_INTELLIGENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CLIENT_INTELLIGENCE[]"
 
+#, fuzzy
 msgid "`HASH_DISTRIBUTION_AWARE`"
-msgstr ""
+msgstr "`HASH_DISTRIBUTION_AWARE`"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-use-auth]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-use-auth[`quarkus.infinispan-client.use-auth`]##\n"
@@ -1041,11 +1055,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-use-auth]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-use-auth[`quarkus.infinispan-client.use-auth`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disables authentication. Set it to false when connecting to an Infinispan Server without authentication. deployments. Default is 'true'."
-msgstr ""
+msgstr "Ativa ou desativa a autenticação. Defina-a como “false” ao se conectar a um servidor Infinispan sem autenticação. Implantações. O valor padrão é “true”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_USE_AUTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_USE_AUTH[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-username]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-username[`quarkus.infinispan-client.username`]##\n"
@@ -1062,11 +1078,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-username]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-username[`quarkus.infinispan-client.username`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets username used by authentication."
-msgstr ""
+msgstr "Define o nome de usuário utilizado na autenticação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_USERNAME[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-password[`quarkus.infinispan-client.password`]##\n"
@@ -1083,11 +1101,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-password[`quarkus.infinispan-client.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets password used by authentication."
-msgstr ""
+msgstr "Define a senha utilizada na autenticação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_PASSWORD[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-auth-realm]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-auth-realm[`quarkus.infinispan-client.auth-realm`]##\n"
@@ -1104,11 +1124,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-auth-realm]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-auth-realm[`quarkus.infinispan-client.auth-realm`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets realm used by authentication"
-msgstr ""
+msgstr "Define o reino utilizado pela autenticação"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_AUTH_REALM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_AUTH_REALM[]"
 
 #, fuzzy
 msgid "`default`"
@@ -1129,14 +1151,17 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-auth-server-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-auth-server-name[`quarkus.infinispan-client.auth-server-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets server name used by authentication"
-msgstr ""
+msgstr "Define o nome do servidor utilizado pela autenticação"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_AUTH_SERVER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_AUTH_SERVER_NAME[]"
 
+#, fuzzy
 msgid "`infinispan`"
-msgstr ""
+msgstr "`infinispan`"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-sasl-mechanism]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-sasl-mechanism[`quarkus.infinispan-client.sasl-mechanism`]##\n"
@@ -1153,14 +1178,17 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-sasl-mechanism]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-sasl-mechanism[`quarkus.infinispan-client.sasl-mechanism`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets SASL mechanism used by authentication. Available values: ++*++ `DIGEST-MD5` - Uses the MD5 hashing algorithm in addition to nonces to encrypt credentials. This is the default. ++*++ `EXTERNAL` - Uses client certificates to provide valid identities to Infinispan Server and enable encryption. ++*++ `PLAIN` - Sends credentials in plain text (unencrypted) over the wire in a way that is similar to HTTP BASIC authentication. You should use `PLAIN` authentication only in combination with TLS encryption."
-msgstr ""
+msgstr "Define o mecanismo SASL utilizado pela autenticação. Valores disponíveis: * `DIGEST-MD5` — Utiliza o algoritmo de hash MD5, além de nonces, para criptografar as credenciais. Esta é a configuração padrão. * `EXTERNAL` — Utiliza certificados de cliente para fornecer identidades válidas ao Infinispan Server e habilitar a criptografia. * `PLAIN` — Envia credenciais em texto simples (sem criptografia) pela rede, de maneira semelhante à autenticação HTTP BASIC. Deve-se utilizar a autenticação `PLAIN` apenas em combinação com a criptografia TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SASL_MECHANISM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SASL_MECHANISM[]"
 
+#, fuzzy
 msgid "`DIGEST-MD5`"
-msgstr ""
+msgstr "`DIGEST-MD5`"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-key-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store[`quarkus.infinispan-client.key-store`]##\n"
@@ -1177,11 +1205,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-key-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store[`quarkus.infinispan-client.key-store`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies the filename of a keystore to use to create the `SSLContext`. You also need to specify a keyStorePassword. Setting this property implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Especifica o nome do arquivo de um keystore a ser utilizado para criar o `SSLContext` . É necessário, além disso, especificar uma keyStorePassword. A definição desta propriedade habilita implicitamente o SSL/TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_KEY_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_KEY_STORE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-key-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store-password[`quarkus.infinispan-client.key-store-password`]##\n"
@@ -1198,11 +1228,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-key-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store-password[`quarkus.infinispan-client.key-store-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies the password needed to open the keystore. You also need to specify a keyStore. Setting this property implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Especifica a senha necessária para abrir o keystore. É necessário também especificar um keyStore. A definição desta propriedade habilita implicitamente o SSL/TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_KEY_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_KEY_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-key-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store-type[`quarkus.infinispan-client.key-store-type`]##\n"
@@ -1219,11 +1251,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-key-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store-type[`quarkus.infinispan-client.key-store-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies the type of the keyStore, such as PKCS12."
-msgstr ""
+msgstr "Especifica o tipo do keyStore, como PKCS12."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_KEY_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_KEY_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-key-alias]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-alias[`quarkus.infinispan-client.key-alias`]##\n"
@@ -1240,11 +1274,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-key-alias]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-key-alias[`quarkus.infinispan-client.key-alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the unique name used to identify a specific key pair in a keystore for secure connections."
-msgstr ""
+msgstr "Define o nome exclusivo utilizado para identificar um par de chaves específico em um armazenamento de chaves para conexões seguras."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_KEY_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_KEY_ALIAS[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-trust-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store[`quarkus.infinispan-client.trust-store`]##\n"
@@ -1261,11 +1297,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-trust-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store[`quarkus.infinispan-client.trust-store`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies the filename of a truststore to use to create the `SSLContext`. You also need to specify a trustStorePassword. Setting this property implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Especifica o nome do arquivo de um truststore a ser utilizado para criar o `SSLContext` . É necessário, além disso, especificar uma trustStorePassword. A definição desta propriedade habilita implicitamente o SSL/TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_TRUST_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_TRUST_STORE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-trust-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store-password[`quarkus.infinispan-client.trust-store-password`]##\n"
@@ -1282,11 +1320,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-trust-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store-password[`quarkus.infinispan-client.trust-store-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies the password needed to open the truststore You also need to specify a trustStore. Setting this property implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Especifica a senha necessária para abrir o truststore. Você também precisa especificar um trustStore. A definição dessa propriedade habilita implicitamente o SSL/TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_TRUST_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_TRUST_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-trust-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store-type[`quarkus.infinispan-client.trust-store-type`]##\n"
@@ -1303,11 +1343,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-trust-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store-type[`quarkus.infinispan-client.trust-store-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies the type of the truststore, such as JKS or JCEKS. Defaults to JKS if trustStore is enabled."
-msgstr ""
+msgstr "Especifica o tipo do truststore, como JKS ou JCEKS. O valor padrão é JKS se o trustStore estiver habilitado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_TRUST_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_TRUST_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-protocol]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-protocol[`quarkus.infinispan-client.ssl-protocol`]##\n"
@@ -1324,11 +1366,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-protocol]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-protocol[`quarkus.infinispan-client.ssl-protocol`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the secure socket protocol. Setting this property implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Configura o protocolo Secure Socket. Ao definir esta propriedade, o SSL/TLS é ativado implicitamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SSL_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SSL_PROTOCOL[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-provider]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-provider[`quarkus.infinispan-client.ssl-provider`]##\n"
@@ -1345,11 +1389,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-provider]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-provider[`quarkus.infinispan-client.ssl-provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the ssl provider. For example BCFIPS Setting this implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Define o provedor SSL. Por exemplo, BCFIPS. Ao definir esse parâmetro, o SSL/TLS é ativado implicitamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SSL_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SSL_PROVIDER[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-ciphers]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-ciphers[`quarkus.infinispan-client.ssl-ciphers`]##\n"
@@ -1366,11 +1412,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-ciphers]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-ciphers[`quarkus.infinispan-client.ssl-ciphers`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the ciphers. Setting this property implicitly enables SSL/TLS."
-msgstr ""
+msgstr "Configura os algoritmos de criptografia. A definição desta propriedade habilita implicitamente o SSL/TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SSL_CIPHERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SSL_CIPHERS[]"
 
 #, fuzzy
 msgid "list of string"
@@ -1391,11 +1439,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-ssl-host-name-validation]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-host-name-validation[`quarkus.infinispan-client.ssl-host-name-validation`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Do SSL hostname validation. Defaults to true."
-msgstr ""
+msgstr "Realizar a validação do nome de host por SSL. O valor padrão é “true”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SSL_HOST_NAME_VALIDATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SSL_HOST_NAME_VALIDATION[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-sni-host-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-sni-host-name[`quarkus.infinispan-client.sni-host-name`]##\n"
@@ -1412,11 +1462,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-sni-host-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-sni-host-name[`quarkus.infinispan-client.sni-host-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "SNI host name. Mandatory when SSL is enabled and host name validation is true."
-msgstr ""
+msgstr "Nome do host SNI. Obrigatório quando o SSL estiver habilitado e a validação do nome do host estiver definida como “true”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SNI_HOST_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SNI_HOST_NAME[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-socket-timeout]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-socket-timeout[`quarkus.infinispan-client.socket-timeout`]##\n"
@@ -1433,11 +1485,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-socket-timeout]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-socket-timeout[`quarkus.infinispan-client.socket-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the socket timeout."
-msgstr ""
+msgstr "Configura o tempo limite do soquete."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_SOCKET_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_SOCKET_TIMEOUT[]"
 
 msgid "int"
 msgstr "int"
@@ -1457,11 +1511,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-tracing-propagation-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-tracing-propagation-enabled[`quarkus.infinispan-client.tracing.propagation.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Whether a tracing propagation is enabled in case the Opentelemetry extension is present. By default the propagation of the context is propagated from the client to the Infinispan Server."
-msgstr ""
+msgstr "Se a propagação de rastreamento está habilitada no caso de a extensão Opentelemetry estar presente. Por padrão, o contexto é propagado do cliente para o servidor Infinispan."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_TRACING_PROPAGATION_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_TRACING_PROPAGATION_ENABLED[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-use-schema-registration[`quarkus.infinispan-client.use-schema-registration`]##\n"
@@ -1478,11 +1534,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-use-schema-registration[`quarkus.infinispan-client.use-schema-registration`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disables Protobuf generated schemas upload to the server. Set it to 'false' when you need to handle the lifecycle of the Protobuf Schemas on Server side yourself. Default is 'true'. This is a global setting and is not specific to a Infinispan Client."
-msgstr ""
+msgstr "Ativa ou desativa o envio de esquemas gerados pelo Protobuf para o servidor. Defina-a como “false” quando precisar gerenciar por conta própria o ciclo de vida dos esquemas do Protobuf no lado do servidor. O valor padrão é “true”. Esta é uma configuração global e não é específica de um cliente Infinispan."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_USE_SCHEMA_REGISTRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_USE_SCHEMA_REGISTRATION[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-start-client]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-start-client[`quarkus.infinispan-client.start-client`]##\n"
@@ -1499,11 +1557,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-start-client]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-start-client[`quarkus.infinispan-client.start-client`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Starts the client and connects to the server. If set to false, you'll need to start it yourself."
-msgstr ""
+msgstr "Inicia o cliente e se conecta ao servidor. Se estiver definido como “false”, você precisará iniciá-lo manualmente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_START_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_START_CLIENT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-resource]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-resource[`quarkus.infinispan-client.cache.\"cache\".configuration-resource`]##\n"
@@ -1520,11 +1580,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-resource]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-resource[`quarkus.infinispan-client.cache.\"cache\".configuration-resource`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Cache configuration file in XML, JSON or YAML is defined in build time to create the cache on first access. An example of the user defined property. cacheConfig.xml file is located in the 'resources' folder: quarkus.infinispan-client.cache.bookscache.configuration-resource=cacheConfig.xml"
-msgstr ""
+msgstr "O arquivo de configuração do cache em XML, JSON ou YAML é definido no momento da compilação para criar o cache no primeiro acesso. Um exemplo da propriedade definida pelo usuário. O arquivo cacheConfig.xml está localizado na pasta 'resources': quarkus.infinispan-client.cache.bookscache.configuration-resource=cacheConfig.xml"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__CONFIGURATION_RESOURCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__CONFIGURATION_RESOURCE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration[`quarkus.infinispan-client.cache.\"cache\".configuration`]##\n"
@@ -1541,11 +1603,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration[`quarkus.infinispan-client.cache.\"cache\".configuration`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Cache configuration in inlined XML to create the cache on first access. Will be ignored if the configuration-uri is provided for the same cache name. An example of the user defined property: quarkus.infinispan-client.cache.bookscache.configuration="
-msgstr ""
+msgstr "Configuração do cache em XML incorporado para criar o cache no primeiro acesso. Será ignorada se for fornecido um `configuration-uri` para o mesmo nome de cache. Um exemplo da propriedade definida pelo usuário: quarkus.infinispan-client.cache.bookscache.configuration="
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__CONFIGURATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__CONFIGURATION[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-uri[`quarkus.infinispan-client.cache.\"cache\".configuration-uri`]##\n"
@@ -1562,11 +1626,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-configuration-uri[`quarkus.infinispan-client.cache.\"cache\".configuration-uri`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Cache configuration file in XML, Json or YAML whose path will be converted to URI to create the cache on first access. An example of the user defined property. cacheConfig.xml file is located in the 'resources' folder: quarkus.infinispan-client.cache.bookscache.configuration-uri=cacheConfig.xml"
-msgstr ""
+msgstr "Arquivo de configuração do cache em XML, JSON ou YAML, cujo caminho será convertido em URI para criar o cache no primeiro acesso. Um exemplo da propriedade definida pelo usuário. O arquivo cacheConfig.xml está localizado na pasta “resources”: quarkus.infinispan-client.cache.bookscache.configuration-uri=cacheConfig.xml"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__CONFIGURATION_URI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__CONFIGURATION_URI[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-max-entries]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-max-entries[`quarkus.infinispan-client.cache.\"cache\".near-cache-max-entries`]##\n"
@@ -1583,11 +1649,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-max-entries]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-max-entries[`quarkus.infinispan-client.cache.\"cache\".near-cache-max-entries`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of entries to keep locally for the specified cache."
-msgstr ""
+msgstr "O número máximo de entradas a serem mantidas localmente para o cache especificado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__NEAR_CACHE_MAX_ENTRIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__NEAR_CACHE_MAX_ENTRIES[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-mode]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-mode[`quarkus.infinispan-client.cache.\"cache\".near-cache-mode`]##\n"
@@ -1604,14 +1672,17 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-mode]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-mode[`quarkus.infinispan-client.cache.\"cache\".near-cache-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets near cache mode used by the Infinispan Client Available values: ++*++ `DISABLED` - Means that near caching is disabled. This is the default value. ++*++ `INVALIDATED` - Means is near caching is invalidated, so when entries are updated or removed server-side, invalidation messages will be sent to clients to remove them from the near cache."
-msgstr ""
+msgstr "Configurações do modo de cache próximo utilizado pelo Cliente Infinispan. Valores disponíveis: * `DESATIVADO` – Significa que o cache próximo está desativado. Este é o valor padrão. * `INVALIDADO` – Significa que o cache próximo está invalidado; assim, quando as entradas forem atualizadas ou removidas no lado do servidor, mensagens de invalidação serão enviadas aos clientes para que as removam do cache próximo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__NEAR_CACHE_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__NEAR_CACHE_MODE[]"
 
+#, fuzzy
 msgid "`disabled`, `invalidated`"
-msgstr ""
+msgstr "`desativado` , `invalidado`"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-use-bloom-filter]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-use-bloom-filter[`quarkus.infinispan-client.cache.\"cache\".near-cache-use-bloom-filter`]##\n"
@@ -1628,11 +1699,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-use-bloom-filter]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-near-cache-use-bloom-filter[`quarkus.infinispan-client.cache.\"cache\".near-cache-use-bloom-filter`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables bloom filter for near caching. Bloom filters optimize performance for write operations by reducing the total number of invalidation messages."
-msgstr ""
+msgstr "Ativa o filtro Bloom para o armazenamento em cache de dados próximos. Os filtros Bloom otimizam o desempenho das operações de gravação, reduzindo o número total de mensagens de invalidação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__NEAR_CACHE_USE_BLOOM_FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_CACHE__CACHE__NEAR_CACHE_USE_BLOOM_FILTER[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-hosts[`quarkus.infinispan-client.backup-cluster.\"backup-cluster\".hosts`]##\n"
@@ -1649,14 +1722,17 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-hosts[`quarkus.infinispan-client.backup-cluster.\"backup-cluster\".hosts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the host name/port to connect to. Each one is separated by a semicolon (eg. hostA:11222;hostB:11222)."
-msgstr ""
+msgstr "Define o nome do host e a porta aos quais se conectar. Cada um deles é separado por um ponto-e-vírgula (por exemplo, hostA:11222;hostB:11222)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_BACKUP_CLUSTER__BACKUP_CLUSTER__HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_BACKUP_CLUSTER__BACKUP_CLUSTER__HOSTS[]"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-client-intelligence[`quarkus.infinispan-client.backup-cluster.\"backup-cluster\".client-intelligence`]##\n"
@@ -1673,8 +1749,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-client-intelligence[`quarkus.infinispan-client.backup-cluster.\"backup-cluster\".client-intelligence`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_BACKUP_CLUSTER__BACKUP_CLUSTER__CLIENT_INTELLIGENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_BACKUP_CLUSTER__BACKUP_CLUSTER__CLIENT_INTELLIGENCE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-use-schema-registration[`quarkus.infinispan-client.backup-cluster.\"backup-cluster\".use-schema-registration`]##\n"
@@ -1691,14 +1768,17 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluster-backup-cluster-use-schema-registration[`quarkus.infinispan-client.backup-cluster.\"backup-cluster\".use-schema-registration`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disables Protobuf generated schemas upload to the backup. Set it to 'false' when you need to handle the lifecycle of the Protobuf Schemas on Server side yourself. Default is 'true'. This setting will be ignored if the Global Setting is set up to false."
-msgstr ""
+msgstr "Ativa ou desativa o envio dos esquemas gerados pelo Protobuf para o backup. Defina-a como “false” quando precisar gerenciar você mesmo o ciclo de vida dos esquemas do Protobuf no lado do servidor. O padrão é “true”. Essa configuração será ignorada se a Configuração Global estiver definida como “false”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_BACKUP_CLUSTER__BACKUP_CLUSTER__USE_SCHEMA_REGISTRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_BACKUP_CLUSTER__BACKUP_CLUSTER__USE_SCHEMA_REGISTRATION[]"
 
+#, fuzzy
 msgid "[[quarkus-infinispan-client_section_quarkus-infinispan-client]] [.section-name.section-level0]##link:#quarkus-infinispan-client_section_quarkus-infinispan-client[Named clients]##"
-msgstr ""
+msgstr " link:#quarkus-infinispan-client_section_quarkus-infinispan-client[Clientes citados]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-marshaller-class]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-marshaller-class[`quarkus.infinispan-client.\"client-name\".marshaller-class`]##\n"
@@ -1715,8 +1795,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-marshaller-class]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-marshaller-class[`quarkus.infinispan-client.\"client-name\".marshaller-class`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__MARSHALLER_CLASS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__MARSHALLER_CLASS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-resource`]##\n"
@@ -1733,8 +1814,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-resource`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__CONFIGURATION_RESOURCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__CONFIGURATION_RESOURCE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-uri[`quarkus.infinispan-client.\"client-name\".uri`]##\n"
@@ -1751,8 +1833,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-uri[`quarkus.infinispan-client.\"client-name\".uri`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__URI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__URI[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-hosts[`quarkus.infinispan-client.\"client-name\".hosts`]##\n"
@@ -1769,8 +1852,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-hosts[`quarkus.infinispan-client.\"client-name\".hosts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__HOSTS[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-client-intelligence[`quarkus.infinispan-client.\"client-name\".client-intelligence`]##\n"
@@ -1787,8 +1871,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-client-intelligence[`quarkus.infinispan-client.\"client-name\".client-intelligence`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CLIENT_INTELLIGENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CLIENT_INTELLIGENCE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-use-auth]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-use-auth[`quarkus.infinispan-client.\"client-name\".use-auth`]##\n"
@@ -1805,8 +1890,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-use-auth]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-use-auth[`quarkus.infinispan-client.\"client-name\".use-auth`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__USE_AUTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__USE_AUTH[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-username]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-username[`quarkus.infinispan-client.\"client-name\".username`]##\n"
@@ -1823,8 +1909,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-username]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-username[`quarkus.infinispan-client.\"client-name\".username`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__USERNAME[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-password[`quarkus.infinispan-client.\"client-name\".password`]##\n"
@@ -1841,8 +1928,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-password[`quarkus.infinispan-client.\"client-name\".password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__PASSWORD[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-realm]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-realm[`quarkus.infinispan-client.\"client-name\".auth-realm`]##\n"
@@ -1859,8 +1947,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-realm]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-realm[`quarkus.infinispan-client.\"client-name\".auth-realm`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__AUTH_REALM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__AUTH_REALM[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-server-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-server-name[`quarkus.infinispan-client.\"client-name\".auth-server-name`]##\n"
@@ -1877,8 +1966,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-server-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-auth-server-name[`quarkus.infinispan-client.\"client-name\".auth-server-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__AUTH_SERVER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__AUTH_SERVER_NAME[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-sasl-mechanism]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-sasl-mechanism[`quarkus.infinispan-client.\"client-name\".sasl-mechanism`]##\n"
@@ -1895,8 +1985,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-sasl-mechanism]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-sasl-mechanism[`quarkus.infinispan-client.\"client-name\".sasl-mechanism`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SASL_MECHANISM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SASL_MECHANISM[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store[`quarkus.infinispan-client.\"client-name\".key-store`]##\n"
@@ -1913,8 +2004,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store[`quarkus.infinispan-client.\"client-name\".key-store`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_STORE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-password[`quarkus.infinispan-client.\"client-name\".key-store-password`]##\n"
@@ -1931,8 +2023,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-password[`quarkus.infinispan-client.\"client-name\".key-store-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-type[`quarkus.infinispan-client.\"client-name\".key-store-type`]##\n"
@@ -1949,8 +2042,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-store-type[`quarkus.infinispan-client.\"client-name\".key-store-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias[`quarkus.infinispan-client.\"client-name\".key-alias`]##\n"
@@ -1967,8 +2061,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias[`quarkus.infinispan-client.\"client-name\".key-alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__KEY_ALIAS[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store[`quarkus.infinispan-client.\"client-name\".trust-store`]##\n"
@@ -1985,8 +2080,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store[`quarkus.infinispan-client.\"client-name\".trust-store`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRUST_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRUST_STORE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password[`quarkus.infinispan-client.\"client-name\".trust-store-password`]##\n"
@@ -2003,8 +2099,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password[`quarkus.infinispan-client.\"client-name\".trust-store-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRUST_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRUST_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-type[`quarkus.infinispan-client.\"client-name\".trust-store-type`]##\n"
@@ -2021,8 +2118,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-type]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-type[`quarkus.infinispan-client.\"client-name\".trust-store-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRUST_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRUST_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-protocol]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-protocol[`quarkus.infinispan-client.\"client-name\".ssl-protocol`]##\n"
@@ -2039,8 +2137,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-protocol]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-protocol[`quarkus.infinispan-client.\"client-name\".ssl-protocol`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_PROTOCOL[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider[`quarkus.infinispan-client.\"client-name\".ssl-provider`]##\n"
@@ -2057,8 +2156,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider[`quarkus.infinispan-client.\"client-name\".ssl-provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_PROVIDER[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-ciphers]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-ciphers[`quarkus.infinispan-client.\"client-name\".ssl-ciphers`]##\n"
@@ -2075,8 +2175,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-ciphers]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-ciphers[`quarkus.infinispan-client.\"client-name\".ssl-ciphers`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_CIPHERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_CIPHERS[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation[`quarkus.infinispan-client.\"client-name\".ssl-host-name-validation`]##\n"
@@ -2093,8 +2194,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation[`quarkus.infinispan-client.\"client-name\".ssl-host-name-validation`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_HOST_NAME_VALIDATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SSL_HOST_NAME_VALIDATION[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-sni-host-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-sni-host-name[`quarkus.infinispan-client.\"client-name\".sni-host-name`]##\n"
@@ -2111,8 +2213,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-sni-host-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-sni-host-name[`quarkus.infinispan-client.\"client-name\".sni-host-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SNI_HOST_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SNI_HOST_NAME[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout[`quarkus.infinispan-client.\"client-name\".socket-timeout`]##\n"
@@ -2129,8 +2232,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout[`quarkus.infinispan-client.\"client-name\".socket-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SOCKET_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__SOCKET_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled[`quarkus.infinispan-client.\"client-name\".tracing.propagation.enabled`]##\n"
@@ -2147,8 +2251,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled[`quarkus.infinispan-client.\"client-name\".tracing.propagation.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRACING_PROPAGATION_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__TRACING_PROPAGATION_ENABLED[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration`]##\n"
@@ -2165,8 +2270,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__CONFIGURATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__CONFIGURATION[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-uri`]##\n"
@@ -2183,8 +2289,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-uri`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__CONFIGURATION_URI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__CONFIGURATION_URI[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-max-entries]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-max-entries[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-max-entries`]##\n"
@@ -2201,8 +2308,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-max-entries]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-max-entries[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-max-entries`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__NEAR_CACHE_MAX_ENTRIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__NEAR_CACHE_MAX_ENTRIES[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-mode]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-mode[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-mode`]##\n"
@@ -2219,8 +2327,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-mode]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-mode[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__NEAR_CACHE_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__NEAR_CACHE_MODE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-use-bloom-filter`]##\n"
@@ -2237,8 +2346,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter[`quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-use-bloom-filter`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__NEAR_CACHE_USE_BLOOM_FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__CACHE__CACHE__NEAR_CACHE_USE_BLOOM_FILTER[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-hosts[`quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".hosts`]##\n"
@@ -2255,8 +2365,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-hosts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-hosts[`quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".hosts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__BACKUP_CLUSTER__BACKUP_CLUSTER__HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__BACKUP_CLUSTER__BACKUP_CLUSTER__HOSTS[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-client-intelligence[`quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".client-intelligence`]##\n"
@@ -2273,8 +2384,9 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-client-intelligence]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-client-intelligence[`quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".client-intelligence`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__BACKUP_CLUSTER__BACKUP_CLUSTER__CLIENT_INTELLIGENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__BACKUP_CLUSTER__BACKUP_CLUSTER__CLIENT_INTELLIGENCE[]"
 
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration[`quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".use-schema-registration`]##\n"
@@ -2291,11 +2403,13 @@ msgstr ""
 msgid "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration[`quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".use-schema-registration`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__BACKUP_CLUSTER__BACKUP_CLUSTER__USE_SCHEMA_REGISTRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__BACKUP_CLUSTER__BACKUP_CLUSTER__USE_SCHEMA_REGISTRATION[]"
 
+#, fuzzy
 msgid "[[quarkus-infinispan-client_section_quarkus-infinispan-client-client-name-devservices]] [.section-name.section-level1]##link:#quarkus-infinispan-client_section_quarkus-infinispan-client-client-name-devservices[Dev Services]##"
-msgstr ""
+msgstr " link:#quarkus-infinispan-client_section_quarkus-infinispan-client-client-name-devservices[Serviços de Desenvolvimento]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-enabled[`quarkus.infinispan-client.\"client-name\".devservices.enabled`]##\n"
@@ -2314,14 +2428,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-enabled[`quarkus.infinispan-client.\"client-name\".devservices.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "If DevServices has been explicitly enabled or disabled. DevServices is generally enabled by default, unless there is an existing configuration present."
-msgstr ""
+msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que haja uma configuração existente."
 
+#, fuzzy
 msgid "When DevServices is enabled Quarkus will attempt to automatically configure and start a database when running in Dev or Test mode and when Docker is running."
-msgstr ""
+msgstr "Quando o DevServices estiver ativado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test e quando o Docker estiver em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-create-default-client]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-create-default-client[`quarkus.infinispan-client.\"client-name\".devservices.create-default-client`]##\n"
@@ -2338,11 +2455,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-create-default-client]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-create-default-client[`quarkus.infinispan-client.\"client-name\".devservices.create-default-client`]##"
 msgstr ""
 
+#, fuzzy
 msgid "When the configuration is empty, an Infinispan default client is automatically created to connect to the running dev service. However, there are scenarios where creating this client is unnecessary, yet we still need to spin up an Infinispan Server. In such cases, this property serves to determine whether the client should be created by default or not by the extension."
-msgstr ""
+msgstr "Quando a configuração estiver vazia, um cliente padrão do Infinispan é criado automaticamente para se conectar ao serviço de desenvolvimento em execução. No entanto, há cenários em que a criação desse cliente é desnecessária, mas ainda assim precisamos iniciar um servidor Infinispan. Nesses casos, essa propriedade serve para determinar se o cliente deve ou não ser criado por padrão pela extensão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_CREATE_DEFAULT_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_CREATE_DEFAULT_CLIENT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-port[`quarkus.infinispan-client.\"client-name\".devservices.port`]##\n"
@@ -2361,14 +2480,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-port[`quarkus.infinispan-client.\"client-name\".devservices.port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Optional fixed port the dev service will listen to."
-msgstr ""
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta."
 
+#, fuzzy
 msgid "If not defined, the port will be chosen randomly."
-msgstr ""
+msgstr "Caso não seja definida, a porta será escolhida aleatoriamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-shared]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-shared[`quarkus.infinispan-client.\"client-name\".devservices.shared`]##\n"
@@ -2389,17 +2511,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-shared]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-shared[`quarkus.infinispan-client.\"client-name\".devservices.shared`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Infinispan server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Infinispan starts a new container."
-msgstr ""
+msgstr "Indica se o servidor Infinispan gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services para Infinispan inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-infinispan` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-infinispan` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Container sharing is only used in dev mode."
-msgstr ""
+msgstr "O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-service-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-service-name[`quarkus.infinispan-client.\"client-name\".devservices.service-name`]##\n"
@@ -2418,14 +2544,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-service-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-service-name[`quarkus.infinispan-client.\"client-name\".devservices.service-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-infinispan` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Infinispan looks for a container with the `quarkus-dev-service-infinispan` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-infinispan` label set to the specified value."
-msgstr ""
+msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Infinispan procura um contêiner com a etiqueta ``quarkus-dev-service-infinispan`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-infinispan”` definida com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Infinispan servers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Infinispan compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_SERVICE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-image-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-image-name[`quarkus.infinispan-client.\"client-name\".devservices.image-name`]##\n"
@@ -2442,11 +2571,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-image-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-image-name[`quarkus.infinispan-client.\"client-name\".devservices.image-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The image to use. Note that only official Infinispan images are supported."
-msgstr ""
+msgstr "A imagem a ser utilizada. Observe que apenas as imagens oficiais do Infinispan são compatíveis."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-artifacts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-artifacts[`quarkus.infinispan-client.\"client-name\".devservices.artifacts`]##\n"
@@ -2467,17 +2598,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-artifacts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-artifacts[`quarkus.infinispan-client.\"client-name\".devservices.artifacts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "List of the artifacts to automatically download and add to the Infinispan server libraries."
-msgstr ""
+msgstr "Lista dos artefatos a serem baixados automaticamente e adicionados às bibliotecas do servidor Infinispan."
 
+#, fuzzy
 msgid "For example a Maven coordinate (org.postgresql:postgresql:42.3.1) or a dependency location url."
-msgstr ""
+msgstr "Por exemplo, uma coordenada do Maven (org.postgresql:postgresql:42.3.1) ou uma URL de localização de dependência."
 
+#, fuzzy
 msgid "If an invalid value is passed, the Infinispan server will throw an error when trying to start."
-msgstr ""
+msgstr "Caso seja passado um valor inválido, o servidor Infinispan gerará um erro ao tentar iniciar."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_ARTIFACTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_ARTIFACTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site[`quarkus.infinispan-client.\"client-name\".devservices.site`]##\n"
@@ -2494,11 +2629,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site[`quarkus.infinispan-client.\"client-name\".devservices.site`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Add a site name to start the Infinispan Server Container with Cross Site Replication enabled (ex. lon). Cross Site Replication is the capability to connect two separate Infinispan Server Clusters that might run in different Data Centers, and configure backup caches to copy the data across the clusters with active-active or active-passive replication. See more about Cross Site Replication in the Infinispan Documentation https://infinispan.org/docs/stable/titles/xsite/xsite.html Configure `mcast-port` to avoid forming a cluster with any other running Infinispan Server container."
-msgstr ""
+msgstr "Adicione um nome de site para iniciar o contêiner do servidor Infinispan com a replicação entre sites ativada (por exemplo, lon). A replicação entre sites é a capacidade de conectar dois clusters de servidores Infinispan distintos, que podem estar em operação em diferentes centros de dados, e configurar caches de backup para copiar os dados entre os clusters por meio de replicação ativa-ativa ou ativa-passiva. Saiba mais sobre a replicação entre sites na documentação do Infinispan link:https://infinispan.org/docs/stable/titles/xsite/xsite.html[: https://infinispan.org/docs/stable/titles/xsite/xsite.html] . Configure `a porta mcast` para evitar a formação de um cluster com qualquer outro contêiner do Infinispan Server em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_SITE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_SITE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-mcast-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-mcast-port[`quarkus.infinispan-client.\"client-name\".devservices.mcast-port`]##\n"
@@ -2515,11 +2652,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-mcast-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-mcast-port[`quarkus.infinispan-client.\"client-name\".devservices.mcast-port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "If you are running an Infinispan Server already in docker, if the containers use the same mcastPort they will form a cluster. Set a different mcastPort to create a separate cluster in Docker (e. 46656). A common use case in a local Docker development mode, is the need of having two different Infinispan Clusters with Cross Site Replication enabled. see https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
-msgstr ""
+msgstr "Caso já esteja executando um servidor Infinispan no Docker, se os contêineres utilizarem a mesma porta mcastPort, eles formarão um cluster. Defina uma porta mcastPort diferente para criar um cluster separado no Docker (por exemplo, 46656). Um caso de uso comum no modo de desenvolvimento local do Docker é a necessidade de ter dois clusters Infinispan diferentes com a replicação entre sites (Cross Site Replication) habilitada. Consulte https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_MCAST_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_MCAST_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-container-env-environment-variable-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-container-env-environment-variable-name[`quarkus.infinispan-client.\"client-name\".devservices.container-env.\"environment-variable-name\"`]##\n"
@@ -2536,14 +2675,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-container-env-environment-variable-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-container-env-environment-variable-name[`quarkus.infinispan-client.\"client-name\".devservices.container-env.\"environment-variable-name\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables that are passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente que são passadas ao contêiner."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_[]"
 
+#, fuzzy
 msgid "Map<String,String>"
-msgstr ""
+msgstr "Map<String, String>"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-config-files]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-config-files[`quarkus.infinispan-client.\"client-name\".devservices.config-files`]##\n"
@@ -2560,14 +2702,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-config-files]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-config-files[`quarkus.infinispan-client.\"client-name\".devservices.config-files`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Infinispan Server configuration chunks to be passed to the container."
-msgstr ""
+msgstr "Blocos de configuração do servidor Infinispan a serem repassados ao contêiner."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_CONFIG_FILES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT__CLIENT_NAME__DEVSERVICES_CONFIG_FILES[]"
 
+#, fuzzy
 msgid "[[quarkus-infinispan-client_section_quarkus-infinispan-client-devservices]] [.section-name.section-level0]##link:#quarkus-infinispan-client_section_quarkus-infinispan-client-devservices[Dev Services]##"
-msgstr ""
+msgstr " link:#quarkus-infinispan-client_section_quarkus-infinispan-client-devservices[Serviços de Desenvolvimento]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-enabled[`quarkus.infinispan-client.devservices.enabled`]##\n"
@@ -2586,8 +2731,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-enabled[`quarkus.infinispan-client.devservices.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-create-default-client]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-create-default-client[`quarkus.infinispan-client.devservices.create-default-client`]##\n"
@@ -2604,8 +2750,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-create-default-client]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-create-default-client[`quarkus.infinispan-client.devservices.create-default-client`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CREATE_DEFAULT_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CREATE_DEFAULT_CLIENT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-port[`quarkus.infinispan-client.devservices.port`]##\n"
@@ -2624,8 +2771,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-port[`quarkus.infinispan-client.devservices.port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-shared]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-shared[`quarkus.infinispan-client.devservices.shared`]##\n"
@@ -2646,8 +2794,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-shared]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-shared[`quarkus.infinispan-client.devservices.shared`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-service-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-service-name[`quarkus.infinispan-client.devservices.service-name`]##\n"
@@ -2666,8 +2815,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-service-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-service-name[`quarkus.infinispan-client.devservices.service-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SERVICE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-image-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-image-name[`quarkus.infinispan-client.devservices.image-name`]##\n"
@@ -2684,8 +2834,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-image-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-image-name[`quarkus.infinispan-client.devservices.image-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-artifacts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-artifacts[`quarkus.infinispan-client.devservices.artifacts`]##\n"
@@ -2706,8 +2857,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-artifacts]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-artifacts[`quarkus.infinispan-client.devservices.artifacts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ARTIFACTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ARTIFACTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-site]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-site[`quarkus.infinispan-client.devservices.site`]##\n"
@@ -2724,8 +2876,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-site]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-site[`quarkus.infinispan-client.devservices.site`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SITE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SITE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-mcast-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-mcast-port[`quarkus.infinispan-client.devservices.mcast-port`]##\n"
@@ -2742,8 +2895,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-mcast-port]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-mcast-port[`quarkus.infinispan-client.devservices.mcast-port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_MCAST_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_MCAST_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-container-env-environment-variable-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-container-env-environment-variable-name[`quarkus.infinispan-client.devservices.container-env.\"environment-variable-name\"`]##\n"
@@ -2760,8 +2914,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-container-env-environment-variable-name]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-container-env-environment-variable-name[`quarkus.infinispan-client.devservices.container-env.\"environment-variable-name\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-config-files]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-config-files[`quarkus.infinispan-client.devservices.config-files`]##\n"
@@ -2778,5 +2933,6 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-devservices-config-files]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-devservices-config-files[`quarkus.infinispan-client.devservices.config-files`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CONFIG_FILES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CONFIG_FILES[]"

@@ -356,7 +356,7 @@ msgstr "Por padrão, é utilizada apenas uma implementação `do Scheduler` . Se
 #. mt: deepl
 #, fuzzy
 msgid "Scheduler implementations will be started depending on the value of `quarkus.scheduler.start-mode`, i.e. the scheduler is not started unless a relevant `io.quarkus.scheduler.Scheduled` business method is found."
-msgstr "As implementações do agendador serão iniciadas dependendo do valor de ``quarkus.scheduler.start-mode` `; ou seja, o agendador não será iniciado a menos que seja encontrado um método de negócios ` `io.quarkus.scheduler.Scheduled` ` relevante."
+msgstr "As implementações do agendador serão iniciadas de acordo com o valor de ``quarkus.scheduler.start-mode` `; ou seja, o agendador não será iniciado a menos que seja encontrado um método de negócios ` `io.quarkus.scheduler.Scheduled` ` relevante."
 
 #. mt: deepl
 #, fuzzy
@@ -427,7 +427,7 @@ msgstr " link:#quarkus-scheduler_quarkus-scheduler-overdue-grace-period[quarkus.
 #. mt: deepl
 #, fuzzy
 msgid "Scheduled task will be flagged as overdue if next execution time is exceeded by this period."
-msgstr "A tarefa programada será marcada como atrasada se esse período exceder o horário da próxima execução."
+msgstr "A tarefa programada será marcada como atrasada se esse período for excedido em relação ao próximo horário de execução."
 
 #. mt: deepl
 #, fuzzy
@@ -497,7 +497,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java sobre Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

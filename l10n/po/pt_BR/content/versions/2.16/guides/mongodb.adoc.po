@@ -262,7 +262,7 @@ msgstr "[lock] `link:#quarkus-mongodb-config-group-dev-services-build-time-confi
 msgid ""
 "Optional fixed port the dev service will listen to.\n"
 "If not defined, the port will be chosen randomly."
-msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Caso não seja definida, a porta será escolhida aleatoriamente."
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Se não for definida, a porta será escolhida aleatoriamente."
 
 #. mt: deepl
 #, fuzzy
@@ -1142,7 +1142,7 @@ msgstr "`link:#quarkus-mongodb_quarkus.mongodb.read-timeout[quarkus.mongodb.read
 #. mt: deepl
 #, fuzzy
 msgid "How long a socket read can take before timing out."
-msgstr "Quanto tempo uma leitura de socket pode demorar antes que ocorra um tempo limite."
+msgstr "Quanto tempo uma leitura de socket pode demorar antes de atingir o tempo limite."
 
 #. mt: deepl
 #, fuzzy
@@ -1338,7 +1338,7 @@ msgstr "`link:#quarkus-mongodb_quarkus.mongodb.read-concern[quarkus.mongodb.read
 #. mt: deepl
 #, fuzzy
 msgid "Configures the read concern. Supported values are: `local++|++majority++|++linearizable++|++snapshot++|++available`"
-msgstr "Configura o nível de preocupação de leitura. Os valores suportados são: `local|majority|linearizable|snapshot|available`"
+msgstr "Configura a preocupação de leitura. Os valores suportados são: `local|majority|linearizable|snapshot|available`"
 
 #. mt: deepl
 #, fuzzy
@@ -1521,7 +1521,7 @@ msgstr "`link:#quarkus-mongodb_quarkus.mongodb.dns.log-activity[quarkus.mongodb.
 #. mt: deepl
 #, fuzzy
 msgid "This property enables the logging ot the DNS lookup. It can be useful to understand why the lookup fails."
-msgstr "Esta propriedade permite o registro da consulta de DNS. Isso pode ser útil para entender por que a consulta falha."
+msgstr "Esta propriedade permite o registro em log da consulta de DNS. Isso pode ser útil para entender por que a consulta falha."
 
 #. mt: deepl
 #, fuzzy
@@ -2070,7 +2070,7 @@ msgstr "`link:#quarkus-mongodb_quarkus.mongodb.write-concern.safe[quarkus.mongod
 msgid ""
 "Configures the safety. If set to `true`: the driver ensures that all writes are acknowledged by the MongoDB server, or else throws an exception. (see also `w` and `wtimeoutMS`). If set fo\n"
 " - `false`: the driver does not ensure that all writes are acknowledged by the MongoDB server."
-msgstr "Configura a segurança. Se definido como ``true`` : o driver garante que todas as gravações sejam confirmadas pelo servidor MongoDB; caso contrário, lança uma exceção. (consulte também ``w`` e ``wtimeoutMS`` ). Se definido como ``false`` : o driver não garante que todas as gravações sejam confirmadas pelo servidor MongoDB."
+msgstr "Configura a segurança. Se definido como ``true`` : o driver garante que todas as gravações sejam confirmadas pelo servidor MongoDB; caso contrário, lança uma exceção. (consulte também ``w`` e ``wtimeoutMS`` ). Se definido como ` `false`` : o driver não garante que todas as gravações sejam confirmadas pelo servidor MongoDB."
 
 #. mt: deepl
 #, fuzzy
@@ -2182,7 +2182,7 @@ msgstr "`link:#quarkus-mongodb_quarkus.mongodb.write-concern.w-timeout[quarkus.m
 #. mt: deepl
 #, fuzzy
 msgid "When set, the driver adds `wtimeout : ms` to all write commands. It requires `safe` to be `true`."
-msgstr "Quando definido, o driver adiciona `wtimeout : ms` a todos os comandos de gravação. Isso requer que `a variável safe` esteja definida como `true` ."
+msgstr "Quando definido, o driver adiciona `wtimeout : ms` a todos os comandos de gravação. Isso requer que `safe` esteja definido como `verdadeiro` ."
 
 #. mt: deepl
 #, fuzzy

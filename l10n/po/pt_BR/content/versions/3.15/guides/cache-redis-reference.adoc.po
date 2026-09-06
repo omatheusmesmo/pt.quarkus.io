@@ -84,8 +84,9 @@ msgstr "A tabela seguinte lista as propriedades suportadas:"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -108,14 +109,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-client-name]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-client-name[`quarkus.cache.redis.client-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the named Redis client to be used for communicating with Redis. If not set, use the default Redis client."
-msgstr ""
+msgstr "O nome do cliente Redis especificado a ser utilizado para comunicação com o Redis. Caso não seja definido, será utilizado o cliente Redis padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_CLIENT_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_CLIENT_NAME[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "string"
 msgstr "string"
@@ -135,11 +139,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-value-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-value-type[`quarkus.cache.redis.value-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The default type of the value stored in the cache."
-msgstr ""
+msgstr "O tipo padrão do valor armazenado no cache."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_VALUE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_VALUE_TYPE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-key-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-key-type[`quarkus.cache.redis.key-type`]##\n"
@@ -156,11 +162,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-key-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-key-type[`quarkus.cache.redis.key-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The key type, `String` by default."
-msgstr ""
+msgstr "O tipo da chave, `String` por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_KEY_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_KEY_TYPE[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-expire-after-write]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-expire-after-write[`quarkus.cache.redis.expire-after-write`]##\n"
@@ -177,11 +185,13 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-expire-after-write]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-expire-after-write[`quarkus.cache.redis.expire-after-write`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies that each entry should be automatically removed from the cache once a fixed duration has elapsed after the entry's creation, or the most recent replacement of its value."
-msgstr ""
+msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a última atualização de seu valor."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_EXPIRE_AFTER_WRITE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_EXPIRE_AFTER_WRITE[]"
 
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
@@ -201,11 +211,13 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-expire-after-access]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-expire-after-access[`quarkus.cache.redis.expire-after-access`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies that each entry should be automatically removed from the cache once a fixed duration has elapsed after the last access of its value."
-msgstr ""
+msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após o último acesso ao seu valor."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_EXPIRE_AFTER_ACCESS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_EXPIRE_AFTER_ACCESS[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-prefix]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-prefix[`quarkus.cache.redis.prefix`]##\n"
@@ -225,8 +237,9 @@ msgstr ""
 msgid "the key prefix allowing to identify the keys belonging to the cache. If not set, use \"cache:$cache-name\""
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_PREFIX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_PREFIX[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-use-optimistic-locking]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-use-optimistic-locking[`quarkus.cache.redis.use-optimistic-locking`]##\n"
@@ -243,17 +256,20 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-use-optimistic-locking]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-use-optimistic-locking[`quarkus.cache.redis.use-optimistic-locking`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Whether the access to the cache should be using optimistic locking. See link:https://redis.io/docs/manual/transactions/#optimistic-locking-using-check-and-set[Redis Optimistic Locking] for details. Default is `false`."
-msgstr ""
+msgstr "Se o acesso ao cache deve utilizar bloqueio otimista. Consulte link:https://redis.io/docs/manual/transactions/#optimistic-locking-using-check-and-set[“Bloqueio otimista no Redis”] para obter mais detalhes. O valor padrão é `false` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS_USE_OPTIMISTIC_LOCKING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_USE_OPTIMISTIC_LOCKING[]"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "[[quarkus-redis-cache_section_quarkus-cache-redis]] [.section-name.section-level0]##link:#quarkus-redis-cache_section_quarkus-cache-redis[Additional configuration applied to a specific Redis cache (highest precedence)]##"
-msgstr ""
+msgstr " link:#quarkus-redis-cache_section_quarkus-cache-redis[Configuração adicional aplicada a um cache Redis específico (maior prioridade)]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-cache-name-value-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-value-type[`quarkus.cache.redis.\"cache-name\".value-type`]##\n"
@@ -270,8 +286,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-cache-name-value-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-value-type[`quarkus.cache.redis.\"cache-name\".value-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS__CACHE_NAME__VALUE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS__CACHE_NAME__VALUE_TYPE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-cache-name-key-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-key-type[`quarkus.cache.redis.\"cache-name\".key-type`]##\n"
@@ -288,8 +305,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-cache_quarkus-cache-redis-cache-name-key-type]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-key-type[`quarkus.cache.redis.\"cache-name\".key-type`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS__CACHE_NAME__KEY_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS__CACHE_NAME__KEY_TYPE[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-write]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-write[`quarkus.cache.redis.\"cache-name\".expire-after-write`]##\n"
@@ -306,8 +324,9 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-write]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-write[`quarkus.cache.redis.\"cache-name\".expire-after-write`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS__CACHE_NAME__EXPIRE_AFTER_WRITE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS__CACHE_NAME__EXPIRE_AFTER_WRITE[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-access]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-access[`quarkus.cache.redis.\"cache-name\".expire-after-access`]##\n"
@@ -324,8 +343,9 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-access]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-expire-after-access[`quarkus.cache.redis.\"cache-name\".expire-after-access`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS__CACHE_NAME__EXPIRE_AFTER_ACCESS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS__CACHE_NAME__EXPIRE_AFTER_ACCESS[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-prefix]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-prefix[`quarkus.cache.redis.\"cache-name\".prefix`]##\n"
@@ -342,8 +362,9 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-prefix]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-prefix[`quarkus.cache.redis.\"cache-name\".prefix`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS__CACHE_NAME__PREFIX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS__CACHE_NAME__PREFIX[]"
 
 msgid ""
 "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-use-optimistic-locking]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-use-optimistic-locking[`quarkus.cache.redis.\"cache-name\".use-optimistic-locking`]##\n"
@@ -360,16 +381,19 @@ msgstr ""
 msgid "[[quarkus-redis-cache_quarkus-cache-redis-cache-name-use-optimistic-locking]] [.property-path]##link:#quarkus-redis-cache_quarkus-cache-redis-cache-name-use-optimistic-locking[`quarkus.cache.redis.\"cache-name\".use-optimistic-locking`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CACHE_REDIS__CACHE_NAME__USE_OPTIMISTIC_LOCKING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS__CACHE_NAME__USE_OPTIMISTIC_LOCKING[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

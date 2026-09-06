@@ -651,7 +651,7 @@ msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-root-path[
 #. mt: deepl
 #, fuzzy
 msgid "Root path for health-checking endpoints. By default, this value will be resolved as a path relative to `$++{++quarkus.http.non-application-root-path++}++`. If the management interface is enabled, the value will be resolved as a path relative to `$++{++quarkus.management.root-path++}++`."
-msgstr "Caminho raiz para pontos de verificação de integridade. Por padrão, esse valor será interpretado como um caminho relativo a `${quarkus.http.non-application-root-path}` . Se a interface de gerenciamento estiver habilitada, o valor será interpretado como um caminho relativo a `${quarkus.management.root-path}` ."
+msgstr "Caminho raiz para pontos de verificação de integridade. Por padrão, esse valor será interpretado como um caminho relativo a `${quarkus.http.non-application-root-path}` . Se a interface de gerenciamento estiver ativada, o valor será interpretado como um caminho relativo a `${quarkus.management.root-path}` ."
 
 #. mt: deepl
 #, fuzzy
@@ -951,7 +951,7 @@ msgstr "[lock]  link:#quarkus-smallrye-health_quarkus-smallrye-health-management
 #. mt: deepl
 #, fuzzy
 msgid "If management interface is turned on the health endpoints and ui will be published under the management interface. This allows you to exclude Health from management by setting the value to false"
-msgstr "Se a interface de gerenciamento estiver ativada, os endpoints de integridade e a interface do usuário serão publicados por meio da interface de gerenciamento. Isso permite que você exclua a integridade do gerenciamento, definindo o valor como “false”"
+msgstr "Se a interface de gerenciamento estiver ativada, os endpoints de integridade e a interface do usuário serão publicados na interface de gerenciamento. Isso permite que você exclua a integridade do gerenciamento, definindo o valor como “false”"
 
 #. mt: deepl
 #, fuzzy

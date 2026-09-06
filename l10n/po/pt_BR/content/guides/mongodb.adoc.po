@@ -2348,7 +2348,7 @@ msgstr "[lock]  link:#quarkus-mongodb-client_quarkus-mongodb-devservices-shared[
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the MongoDB server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for MongoDB starts a new container."
-msgstr "Indica se o servidor MongoDB gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for MongoDB inicia um novo contêiner."
+msgstr "Indica se o servidor MongoDB gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for MongoDB inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -2934,7 +2934,7 @@ msgstr "O nome do bean do provedor de credenciais."
 #. mt: deepl
 #, fuzzy
 msgid "This is a bean name (as in `@Named`) of a bean that implements `CredentialsProvider`. It is used to select the credentials provider bean when multiple exist. This is unnecessary when there is only one credentials provider available."
-msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean do provedor de credenciais quando há vários deles. Isso não é necessário quando há apenas um provedor de credenciais disponível."
+msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver mais de um. Isso não é necessário quando há apenas um provedor de credenciais disponível."
 
 #. mt: deepl
 #, fuzzy

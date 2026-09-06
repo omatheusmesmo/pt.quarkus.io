@@ -240,8 +240,9 @@ msgstr "Todas as opções de configuração são mostradas abaixo:"
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-live-reload-live-reload-config_configuration]]link:#quarkus-live-reload-live-reload-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-live-reload-live-reload-config_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -264,14 +265,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-instrumentation]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-instrumentation[quarkus.live-reload.instrumentation]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether Quarkus should enable its ability to not do a full restart when changes to classes are compatible with JVM instrumentation. If this is set to true, Quarkus will perform class redefinition when possible."
-msgstr ""
+msgstr "Se o Quarkus deve habilitar a capacidade de não realizar uma reinicialização completa quando as alterações nas classes forem compatíveis com a instrumentação da JVM. Se este parâmetro for definido como “true”, o Quarkus realizará a redefinição das classes sempre que possível."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_INSTRUMENTATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_INSTRUMENTATION[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -295,11 +299,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-watched-resources]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-watched-resources[quarkus.live-reload.watched-resources]`"
 msgstr ""
 
+#, fuzzy
 msgid "The names of additional resource files to watch for changes, triggering a reload on change. Directories are _not_ supported."
-msgstr ""
+msgstr "Os nomes dos arquivos de recursos adicionais cujas alterações devem ser monitoradas, o que acionará uma recarga em caso de alteração. Diretórios _não_ são suportados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_WATCHED_RESOURCES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_WATCHED_RESOURCES[]"
 
 #, fuzzy
 msgid "list of string"
@@ -320,11 +326,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-password]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-password[quarkus.live-reload.password]`"
 msgstr ""
 
+#, fuzzy
 msgid "Password used to use to connect to the remote dev-mode application"
-msgstr ""
+msgstr "Senha utilizada para se conectar ao aplicativo remoto no modo de desenvolvimento"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_PASSWORD[]"
 
 msgid "string"
 msgstr "string"
@@ -344,11 +352,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-url]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-url[quarkus.live-reload.url]`"
 msgstr ""
 
+#, fuzzy
 msgid "URL used to use to connect to the remote dev-mode application"
-msgstr ""
+msgstr "URL utilizada para se conectar ao aplicativo remoto no modo de desenvolvimento"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_URL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_URL[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-connect-timeout]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-connect-timeout[quarkus.live-reload.connect-timeout]`\n"
@@ -365,19 +375,22 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-connect-timeout]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-connect-timeout[quarkus.live-reload.connect-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "The amount of time to wait for a remote dev connect or reconnect"
-msgstr ""
+msgstr "O tempo de espera para uma conexão ou reconexão de desenvolvimento remoto"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_CONNECT_TIMEOUT[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
 
+#, fuzzy
 msgid "`30S`"
-msgstr ""
+msgstr "`30S`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-interval]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-interval[quarkus.live-reload.retry-interval]`\n"
@@ -394,14 +407,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-interval]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-interval[quarkus.live-reload.retry-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "The amount of time to wait between attempts when connecting to the server side of remote dev"
-msgstr ""
+msgstr "O tempo de espera entre as tentativas ao se conectar ao servidor no ambiente de desenvolvimento remoto"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_RETRY_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_RETRY_INTERVAL[]"
 
+#, fuzzy
 msgid "`2S`"
-msgstr ""
+msgstr "`2S`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-max-attempts]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-max-attempts[quarkus.live-reload.retry-max-attempts]`\n"
@@ -418,11 +434,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-max-attempts]]`link:#quarkus-live-reload-live-reload-config_quarkus-live-reload-retry-max-attempts[quarkus.live-reload.retry-max-attempts]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of attempts when connecting to the server side of remote dev"
-msgstr ""
+msgstr "O número máximo de tentativas ao se conectar ao servidor do ambiente de desenvolvimento remoto"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LIVE_RELOAD_RETRY_MAX_ATTEMPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LIVE_RELOAD_RETRY_MAX_ATTEMPTS[]"
 
 msgid "int"
 msgstr "int"
@@ -431,13 +449,15 @@ msgstr "int"
 msgid "`10`"
 msgstr "`10`"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

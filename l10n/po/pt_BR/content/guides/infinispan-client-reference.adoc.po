@@ -2563,7 +2563,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "The value of the `quarkus-dev-service-infinispan` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Infinispan looks for a container with the `quarkus-dev-service-infinispan` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-infinispan` label set to the specified value."
-msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Infinispan procura um contêiner com a etiqueta ``quarkus-dev-service-infinispan`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-infinispan”` definida no valor especificado."
+msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Infinispan procura um contêiner com a etiqueta ``quarkus-dev-service-infinispan`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-infinispan”` definida com o valor especificado."
 
 #. mt: deepl
 #, fuzzy

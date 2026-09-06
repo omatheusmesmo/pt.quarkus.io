@@ -428,7 +428,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The max inbound message size in bytes."
-msgstr "O tamanho máximo das mensagens recebidas, em bytes."
+msgstr "O tamanho máximo das mensagens recebidas em bytes."
 
 #. mt: deepl
 #, fuzzy
@@ -484,7 +484,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "The classpath path or file path to a server certificate or certificate chain in PEM format."
-msgstr "O caminho do classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
+msgstr "O caminho no classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -691,7 +691,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "A parameter to specify the password of the trust store file."
-msgstr "Um parâmetro para especificar a senha do arquivo do armazenamento de confiança."
+msgstr "Um parâmetro para especificar a senha do arquivo do repositório de confiança."
 
 #. mt: deepl
 #, fuzzy
@@ -966,7 +966,7 @@ msgstr "`link:#quarkus-grpc-config-group-config-grpc-server-configuration_quarku
 #. mt: deepl
 #, fuzzy
 msgid "Number of gRPC server verticle instances. This is useful for scaling easily across multiple cores. The number should not exceed the amount of event loops."
-msgstr "Número de instâncias verticais do servidor gRPC. Isso é útil para escalar facilmente em vários núcleos. O número não deve exceder a quantidade de loops de eventos."
+msgstr "Número de instâncias verticais do servidor gRPC. Isso é útil para facilitar o dimensionamento em vários núcleos. O número não deve exceder a quantidade de loops de eventos."
 
 #. mt: deepl
 #, fuzzy
@@ -1036,7 +1036,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_SERVER_COMP
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

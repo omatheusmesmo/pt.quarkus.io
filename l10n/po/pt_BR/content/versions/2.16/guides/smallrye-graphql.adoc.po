@@ -817,7 +817,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.root-pat
 #. mt: deepl
 #, fuzzy
 msgid "The rootPath under which queries will be served. Default to graphql By default, this value will be resolved as a path relative to `$++{++quarkus.http.root-path++}++`."
-msgstr "O rootPath sob o qual as consultas serão atendidas. O valor padrão é graphql. Por padrão, esse valor será interpretado como um caminho relativo a `${quarkus.http.root-path}` ."
+msgstr "O rootPath sob o qual as consultas serão atendidas. Padrão: graphql. Por padrão, esse valor será interpretado como um caminho relativo a `${quarkus.http.root-path}` ."
 
 #. mt: deepl
 #, fuzzy
@@ -858,7 +858,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.federati
 #. mt: deepl
 #, fuzzy
 msgid "Enable Apollo Federation. If this value is unspecified, then federation will be enabled automatically if any GraphQL Federation annotations are detected in the application."
-msgstr "Ativar a Federação Apollo. Caso esse valor não seja especificado, a federação será ativada automaticamente caso sejam detectadas anotações da Federação GraphQL na aplicação."
+msgstr "Ative a Federação Apollo. Caso esse valor não seja especificado, a federação será ativada automaticamente caso sejam detectadas anotações de Federação GraphQL na aplicação."
 
 #. mt: deepl
 #, fuzzy
@@ -1005,7 +1005,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.nonblock
 #. mt: deepl
 #, fuzzy
 msgid "Enable non-blocking support. Default is true."
-msgstr "Ativar suporte sem bloqueio. O valor padrão é “true”."
+msgstr "Ativar suporte não bloqueante. O valor padrão é `true`."
 
 #. mt: deepl
 #, fuzzy
@@ -1158,7 +1158,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.show-run
 #. mt: deepl
 #, fuzzy
 msgid "List of Runtime Exceptions class names that should show the error message. By default, Runtime Exception messages will be hidden and a generic `Server Error` message will be returned."
-msgstr "Lista dos nomes das classes de exceções de tempo de execução que devem exibir a mensagem de erro. Por padrão, as mensagens de exceções de tempo de execução ficarão ocultas e será retornada uma mensagem genérica `de “Erro do servidor` ”."
+msgstr "Lista de nomes de classes de exceções de tempo de execução que devem exibir a mensagem de erro. Por padrão, as mensagens de exceções de tempo de execução serão ocultadas e será retornada uma mensagem genérica `de erro do servidor` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1242,7 +1242,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.print-da
 #. mt: deepl
 #, fuzzy
 msgid "Print the data fetcher exception to the log file. Default `true` in dev and test mode, default `false` in prod."
-msgstr "Imprima a exceção do coletor de dados no arquivo de log. Padrão: `true` nos modos de desenvolvimento e teste; padrão: `false` no modo de produção."
+msgstr "Imprima a exceção do coletor de dados no arquivo de log. Valor padrão: `true` nos modos de desenvolvimento e teste; valor padrão: `false` no modo de produção."
 
 #. mt: deepl
 #, fuzzy
@@ -1534,7 +1534,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.parser-c
 #. mt: deepl
 #, fuzzy
 msgid "Set to true if ignored chars should be captured as AST nodes. Default to false"
-msgstr "Defina como “true” se os caracteres ignorados deverem ser capturados como nós da AST. O valor padrão é “false”"
+msgstr "Defina como `true` se os caracteres ignorados deverem ser capturados como nós da AST. O valor padrão é `false`"
 
 #. mt: deepl
 #, fuzzy
@@ -1618,7 +1618,7 @@ msgstr "[lock] `link:#quarkus-smallrye-graphql_quarkus.smallrye-graphql.parser-m
 #. mt: deepl
 #, fuzzy
 msgid "The maximum number of raw tokens the parser will accept, after which an exception will be thrown. Default to 15000"
-msgstr "O número máximo de tokens brutos que o analisador aceitará; ultrapassado esse limite, será lançada uma exceção. O valor padrão é 15.000"
+msgstr "O número máximo de tokens brutos que o analisador aceitará; após esse limite, será lançada uma exceção. O valor padrão é 15.000"
 
 #. mt: deepl
 #, fuzzy

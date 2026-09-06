@@ -535,7 +535,7 @@ msgstr "O senhor pode preencher um `CaffeineCache` usando o método `CaffeineCac
 #. mt: deepl
 #, fuzzy
 msgid "Retrieving a value if a key is present from a <code>CaffeineCache</code>"
-msgstr "Recuperação de um valor, caso uma chave esteja presente, do <code>CaffeineCache</code>"
+msgstr "Recuperação de um valor, caso uma chave esteja presente, a partir de um <code>CaffeineCache</code>"
 
 #, fuzzy
 msgid ""
@@ -644,7 +644,7 @@ msgstr "[lock]  link:#quarkus-cache_quarkus-cache-type[quarkus.cache.type] confi
 #. mt: deepl
 #, fuzzy
 msgid "Default cache type (backend provider). If no explicit type is defined for a cache, this type will be used."
-msgstr "Tipo padrão de cache (provedor de back-end). Caso não seja definido nenhum tipo explícito para um cache, esse tipo será utilizado."
+msgstr "Tipo padrão de cache (provedor de back-end). Caso nenhum tipo seja explicitamente definido para um cache, esse tipo será utilizado."
 
 #. mt: deepl
 #, fuzzy
@@ -846,7 +846,7 @@ msgstr " link:#quarkus-cache_quarkus-cache-caffeine-expire-after-write[quarkus.c
 #. mt: deepl
 #, fuzzy
 msgid "Specifies that each entry should be automatically removed from the cache once a fixed duration has elapsed after the entry's creation, or the most recent replacement of its value."
-msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a substituição mais recente de seu valor."
+msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a última atualização de seu valor."
 
 #. mt: deepl
 #, fuzzy
@@ -945,7 +945,7 @@ msgstr " link:#quarkus-cache_quarkus-cache-caffeine-cache-name-initial-capacity[
 msgid ""
 "[[quarkus-cache_quarkus-cache-caffeine-cache-name-initial-capacity]] [.property-path]##link:#quarkus-cache_quarkus-cache-caffeine-cache-name-initial-capacity[`+++quarkus.cache.caffeine.\"cache-name\".initial-capacity+++`]##\n"
 "config_property_copy_button:+++quarkus.cache.caffeine.\"cache-name\".initial-capacity+++[]"
-msgstr " link:#quarkus-cache_quarkus-cache-caffeine-cache-name-initial-capacity[quarkus.cache.caffeine.\"cache-name\".initial-capacity] config_property_copy_button:quarkus.cache.caffeine.\"cache-name\".initial-capacity[]"
+msgstr " link:#quarkus-cache_quarkus-cache-caffeine-cache-name-initial-capacity[quarkus.cache.caffeine.\"cache-name\".initial-capacity] botão_para_copiar_propriedade_de_configuração:quarkus.cache.caffeine.\"cache-name\".initial-capacity[]"
 
 #. mt: deepl
 #, fuzzy

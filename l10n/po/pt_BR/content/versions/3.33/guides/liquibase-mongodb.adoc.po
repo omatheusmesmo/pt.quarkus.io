@@ -784,7 +784,7 @@ msgstr " link:#quarkus-liquibase-mongodb_quarkus-liquibase-mongodb-liquibase-sch
 msgid ""
 "`+++quarkus.liquibase-mongodb.\"client-name\".liquibase-schema-name+++`\n"
 "config_property_copy_button:+++quarkus.liquibase-mongodb.\"client-name\".liquibase-schema-name+++[]"
-msgstr "`quarkus.liquibase-mongodb.\"nome-do-cliente\".liquibase-nome-do-esquema` botão-para-copiar-propriedade-de-configuração:quarkus.liquibase-mongodb.\"nome-do-cliente\".liquibase-nome-do-esquema[]"
+msgstr "`quarkus.liquibase-mongodb.\"nome-do-cliente\".liquibase-nome-do-esquema` config_property_copy_button:quarkus.liquibase-mongodb.\"nome-do-cliente\".liquibase-nome-do-esquema[]"
 
 #. mt: deepl
 #, fuzzy

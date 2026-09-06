@@ -752,7 +752,7 @@ msgstr "Isso é abordado no xref:building-native-image.adoc[Native Executable Gu
 #. mt: deepl
 #, fuzzy
 msgid "Using <code>@QuarkusIntegrationTest</code>"
-msgstr "Utilizando <code>@QuarkusIntegrationTest</code>"
+msgstr "Utilização de <code>@QuarkusIntegrationTest</code>"
 
 #, fuzzy
 msgid ""

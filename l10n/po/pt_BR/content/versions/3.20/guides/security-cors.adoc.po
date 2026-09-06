@@ -46,8 +46,9 @@ msgstr "Para obter opções de configuração detalhadas, consulte a seção Pro
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -76,17 +77,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.cors.origins+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The origins allowed for CORS."
-msgstr ""
+msgstr "As origens permitiram o CORS."
 
+#, fuzzy
 msgid "A comma-separated list of valid URLs, such as `http://www.quarkus.io,http://localhost:3000`. URLs enclosed in forward slashes are interpreted as regular expressions."
-msgstr ""
+msgstr "Uma lista de URLs válidas separadas por vírgulas, como `http://www.quarkus.io,http://localhost:3000` . URLs entre barras são interpretadas como expressões regulares."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_ORIGINS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_ORIGINS[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 #, fuzzy
 msgid "list of string"
@@ -115,17 +120,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.cors.methods+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The HTTP methods allowed for CORS requests."
-msgstr ""
+msgstr "Os métodos HTTP permitidos para solicitações CORS."
 
+#, fuzzy
 msgid "A comma-separated list of valid HTTP methods, such as `GET,PUT,POST`. If not set, the filter allows any HTTP method by default."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de métodos HTTP válidos, como `GET, PUT, POST` . Se não for definida, o filtro permite qualquer método HTTP por padrão."
 
+#, fuzzy
 msgid "Default: Any HTTP request method is allowed."
-msgstr ""
+msgstr "Padrão: Qualquer método de solicitação HTTP é permitido."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_METHODS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_METHODS[]"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-headers]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-headers[`quarkus.http.cors.headers`]##\n"
@@ -150,17 +159,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.cors.headers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The HTTP headers allowed for CORS requests."
-msgstr ""
+msgstr "Os cabeçalhos HTTP permitidos para solicitações CORS."
 
+#, fuzzy
 msgid "A comma-separated list of valid headers, such as `X-Custom,Content-Disposition`. If not set, the filter allows any header by default."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de cabeçalhos válidos, como `X-Custom, Content-Disposition` . Se não for definida, o filtro permite qualquer cabeçalho por padrão."
 
+#, fuzzy
 msgid "Default: Any HTTP request header is allowed."
-msgstr ""
+msgstr "Padrão: Qualquer cabeçalho de solicitação HTTP é permitido."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_HEADERS[]"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-exposed-headers]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-exposed-headers[`quarkus.http.cors.exposed-headers`]##\n"
@@ -185,17 +198,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.cors.exposed-headers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The HTTP headers exposed in CORS responses."
-msgstr ""
+msgstr "Os cabeçalhos HTTP expostos nas respostas CORS."
 
+#, fuzzy
 msgid "A comma-separated list of headers to expose, such as `X-Custom,Content-Disposition`."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de cabeçalhos a serem expostos, como `X-Custom, Content-Disposition` ."
 
+#, fuzzy
 msgid "Default: No headers are exposed."
-msgstr ""
+msgstr "Padrão: Nenhum cabeçalho é exibido."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_EXPOSED_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_EXPOSED_HEADERS[]"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-access-control-max-age]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-access-control-max-age[`quarkus.http.cors.access-control-max-age`]##\n"
@@ -218,17 +235,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.cors.access-control-max-age+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The `Access-Control-Max-Age` response header value in `java.time.Duration` format."
-msgstr ""
+msgstr "O valor do cabeçalho de resposta ` `Access-Control-Max-Age` ` no formato ` `java.time.Duration` `."
 
+#, fuzzy
 msgid "Informs the browser how long it can cache the results of a preflight request."
-msgstr ""
+msgstr "Informa ao navegador por quanto tempo ele pode armazenar em cache os resultados de uma solicitação de pré-verificação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_ACCESS_CONTROL_MAX_AGE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_ACCESS_CONTROL_MAX_AGE[]"
 
+#, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-vertx-http_quarkus-http-cors[icon:question-circle[title=More information about the Duration format]]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-vertx-http_quarkus-http-cors[[círculo de pergunta]]"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-access-control-allow-credentials]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-cors_quarkus-http-cors-access-control-allow-credentials[`quarkus.http.cors.access-control-allow-credentials`]##\n"
@@ -253,28 +274,34 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.cors.access-control-allow-credentials+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The `Access-Control-Allow-Credentials` response header."
-msgstr ""
+msgstr "O cabeçalho de resposta ` `Access-Control-Allow-Credentials` `."
 
+#, fuzzy
 msgid "Tells browsers if front-end JavaScript can be allowed to access credentials when the request's credentials mode, `Request.credentials`, is set to `include`."
-msgstr ""
+msgstr "Informa aos navegadores se o JavaScript do front-end pode ter permissão para acessar credenciais quando o modo de credenciais da solicitação, `Request.credentials` , estiver definido como `“include` ”."
 
+#, fuzzy
 msgid "Default: `true` if the `quarkus.http.cors.origins` property is set and matches the precise `Origin` header value."
-msgstr ""
+msgstr "Padrão: `true` se a propriedade `quarkus.http.cors.origins` estiver definida e corresponder exatamente ao valor do cabeçalho `Origin` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_ACCESS_CONTROL_ALLOW_CREDENTIALS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_ACCESS_CONTROL_ALLOW_CREDENTIALS[]"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

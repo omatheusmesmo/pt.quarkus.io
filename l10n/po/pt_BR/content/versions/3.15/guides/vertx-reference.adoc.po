@@ -75,8 +75,9 @@ msgstr "O senhor pode configurar a instância do Vert.x no arquivo `application.
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -99,14 +100,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-caching]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-caching[`quarkus.vertx.caching`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disables the Vert.x cache."
-msgstr ""
+msgstr "Ativa ou desativa o cache do Vert.x."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CACHING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CACHING[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -131,14 +135,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cache-directory]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cache-directory[`quarkus.vertx.cache-directory`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Configure the file cache directory. When not set, the cache is stored in the system temporary directory (read from the `java.io.tmpdir` system property). If the `java.io.tmpdir` is not set `.` is used."
-msgstr ""
+msgstr "Configure o diretório do cache de arquivos. Quando não estiver definido, o cache será armazenado no diretório temporário do sistema (obtido a partir da propriedade de sistema `java.io.tmpdir` ). Caso a propriedade `java.io.tmpdir` não esteja definida `,` será utilizado “.” (ponto)."
 
+#, fuzzy
 msgid "Note that this property is ignored if the `vertx.cacheDirBase` system property is set."
-msgstr ""
+msgstr "Observe que essa propriedade é ignorada caso a propriedade do sistema ` `vertx.cacheDirBase` ` esteja definida."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CACHE_DIRECTORY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CACHE_DIRECTORY[]"
 
 msgid "string"
 msgstr "string"
@@ -158,11 +165,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-classpath-resolving]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-classpath-resolving[`quarkus.vertx.classpath-resolving`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disabled the Vert.x classpath resource resolver."
-msgstr ""
+msgstr "Ativa ou desativa o resolvedor de recursos do classpath do Vert.x."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLASSPATH_RESOLVING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLASSPATH_RESOLVING[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-event-loops-pool-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-event-loops-pool-size[`quarkus.vertx.event-loops-pool-size`]##\n"
@@ -179,11 +188,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-event-loops-pool-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-event-loops-pool-size[`quarkus.vertx.event-loops-pool-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The number of event loops. By default, it matches the number of CPUs detected on the system."
-msgstr ""
+msgstr "O número de ciclos de eventos. Por padrão, corresponde ao número de CPUs detectadas no sistema."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENT_LOOPS_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENT_LOOPS_POOL_SIZE[]"
 
 msgid "int"
 msgstr "int"
@@ -203,17 +214,20 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-max-event-loop-execute-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-max-event-loop-execute-time[`quarkus.vertx.max-event-loop-execute-time`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum amount of time the event loop can be blocked."
-msgstr ""
+msgstr "O tempo máximo durante o qual o ciclo de eventos pode ficar bloqueado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_MAX_EVENT_LOOP_EXECUTE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_MAX_EVENT_LOOP_EXECUTE_TIME[]"
 
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
 
+#, fuzzy
 msgid "`2S`"
-msgstr ""
+msgstr "`2S`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-warning-exception-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-warning-exception-time[`quarkus.vertx.warning-exception-time`]##\n"
@@ -230,11 +244,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-warning-exception-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-warning-exception-time[`quarkus.vertx.warning-exception-time`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The amount of time before a warning is displayed if the event loop is blocked."
-msgstr ""
+msgstr "O tempo que decorre até que um aviso seja exibido caso o ciclo de eventos seja bloqueado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_WARNING_EXCEPTION_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_WARNING_EXCEPTION_TIME[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-max-worker-execute-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-max-worker-execute-time[`quarkus.vertx.max-worker-execute-time`]##\n"
@@ -251,14 +267,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-max-worker-execute-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-max-worker-execute-time[`quarkus.vertx.max-worker-execute-time`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum amount of time the worker thread can be blocked."
-msgstr ""
+msgstr "O tempo máximo durante o qual a thread de trabalho pode ficar bloqueada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_MAX_WORKER_EXECUTE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_MAX_WORKER_EXECUTE_TIME[]"
 
+#, fuzzy
 msgid "`60S`"
-msgstr ""
+msgstr "`anos 60`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-internal-blocking-pool-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-internal-blocking-pool-size[`quarkus.vertx.internal-blocking-pool-size`]##\n"
@@ -275,14 +294,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-internal-blocking-pool-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-internal-blocking-pool-size[`quarkus.vertx.internal-blocking-pool-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The size of the internal thread pool (used for the file system)."
-msgstr ""
+msgstr "O tamanho do pool interno de threads (utilizado para o sistema de arquivos)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_INTERNAL_BLOCKING_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_INTERNAL_BLOCKING_POOL_SIZE[]"
 
+#, fuzzy
 msgid "`20`"
-msgstr ""
+msgstr "`20`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-queue-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-queue-size[`quarkus.vertx.queue-size`]##\n"
@@ -299,11 +321,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-queue-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-queue-size[`quarkus.vertx.queue-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The queue size. For most applications this should be unbounded"
-msgstr ""
+msgstr "O tamanho da fila. Para a maioria das aplicações, esse valor deve ser ilimitado"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_QUEUE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_QUEUE_SIZE[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-growth-resistance]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-growth-resistance[`quarkus.vertx.growth-resistance`]##\n"
@@ -322,14 +346,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-growth-resistance]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-growth-resistance[`quarkus.vertx.growth-resistance`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The executor growth resistance."
-msgstr ""
+msgstr "A resistência ao crescimento do executor."
 
+#, fuzzy
 msgid "A resistance factor applied after the core pool is full; values applied here will cause that fraction of submissions to create new threads when no idle thread is available. A value of `0.0f` implies that threads beyond the core size should be created as aggressively as threads within it; a value of `1.0f` implies that threads beyond the core size should never be created."
-msgstr ""
+msgstr "Um fator de resistência aplicado após o pool principal estar cheio; os valores aplicados aqui farão com que uma fração das submissões crie novas threads quando não houver nenhuma thread ociosa disponível. Um valor de `0,0f` implica que as threads além do tamanho do núcleo devem ser criadas com a mesma intensidade que as threads dentro dele; um valor de `1,0f` implica que as threads além do tamanho do núcleo nunca devem ser criadas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_GROWTH_RESISTANCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_GROWTH_RESISTANCE[]"
 
 #, fuzzy
 msgid "float"
@@ -354,14 +381,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-keep-alive-time]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-keep-alive-time[`quarkus.vertx.keep-alive-time`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The amount of time a thread will stay alive with no work."
-msgstr ""
+msgstr "O tempo durante o qual um thread permanecerá ativo sem realizar nenhuma tarefa."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_KEEP_ALIVE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_KEEP_ALIVE_TIME[]"
 
+#, fuzzy
 msgid "`30S`"
-msgstr ""
+msgstr "`30S`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-prefill]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-prefill[`quarkus.vertx.prefill`]##\n"
@@ -378,11 +408,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-prefill]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-prefill[`quarkus.vertx.prefill`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Prefill thread pool when creating a new Executor. When `io.vertx.core.spi.ExecutorServiceFactory++#++createExecutor` is called, initialise with the number of defined threads at startup"
-msgstr ""
+msgstr "Preencher previamente o conjunto de threads ao criar um novo Executor. Quando `o método io.vertx.core.spi.ExecutorServiceFactory#createExecutor` for chamado, inicialize-o com o número de threads definido na inicialização"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_PREFILL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_PREFILL[]"
 
 #, fuzzy
 msgid "`false`"
@@ -403,11 +435,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-use-async-dns]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-use-async-dns[`quarkus.vertx.use-async-dns`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables the async DNS resolver."
-msgstr ""
+msgstr "Ativa o resolvedor de DNS assíncrono."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_USE_ASYNC_DNS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_USE_ASYNC_DNS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem[`quarkus.vertx.eventbus.key-certificate-pem`]##\n"
@@ -424,11 +458,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem[`quarkus.vertx.eventbus.key-certificate-pem`]##"
 msgstr ""
 
+#, fuzzy
 msgid "PEM Key/cert config is disabled by default."
-msgstr ""
+msgstr "A configuração de chave/certificado PEM está desativada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PEM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PEM[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem-keys]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem-keys[`quarkus.vertx.eventbus.key-certificate-pem.keys`]##\n"
@@ -445,11 +481,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem-keys]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem-keys[`quarkus.vertx.eventbus.key-certificate-pem.keys`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of the path to the key files (Pem format)."
-msgstr ""
+msgstr "Lista separada por vírgulas dos caminhos para os arquivos de chave (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PEM_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PEM_KEYS[]"
 
 #, fuzzy
 msgid "list of string"
@@ -470,11 +508,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem-certs]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pem-certs[`quarkus.vertx.eventbus.key-certificate-pem.certs`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of the path to the certificate files (Pem format)."
-msgstr ""
+msgstr "Lista separada por vírgulas do caminho para os arquivos de certificados (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PEM_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PEM_CERTS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks[`quarkus.vertx.eventbus.key-certificate-jks`]##\n"
@@ -491,11 +531,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks[`quarkus.vertx.eventbus.key-certificate-jks`]##"
 msgstr ""
 
+#, fuzzy
 msgid "JKS config is disabled by default."
-msgstr ""
+msgstr "A configuração do JKS está desativada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_JKS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_JKS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-path[`quarkus.vertx.eventbus.key-certificate-jks.path`]##\n"
@@ -512,11 +554,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-path[`quarkus.vertx.eventbus.key-certificate-jks.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Path of the key file (JKS format)."
-msgstr ""
+msgstr "Caminho do arquivo de chave (formato JKS)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_JKS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_JKS_PATH[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-password[`quarkus.vertx.eventbus.key-certificate-jks.password`]##\n"
@@ -533,11 +577,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-jks-password[`quarkus.vertx.eventbus.key-certificate-jks.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Password of the key file."
-msgstr ""
+msgstr "Senha do arquivo de chave."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_JKS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_JKS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx[`quarkus.vertx.eventbus.key-certificate-pfx`]##\n"
@@ -554,11 +600,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx[`quarkus.vertx.eventbus.key-certificate-pfx`]##"
 msgstr ""
 
+#, fuzzy
 msgid "PFX config is disabled by default."
-msgstr ""
+msgstr "A configuração do PFX está desativada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PFX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PFX[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-path[`quarkus.vertx.eventbus.key-certificate-pfx.path`]##\n"
@@ -575,11 +623,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-path[`quarkus.vertx.eventbus.key-certificate-pfx.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Path to the key file (PFX format)."
-msgstr ""
+msgstr "Caminho para o arquivo de chave (formato PFX)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PFX_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PFX_PATH[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-password[`quarkus.vertx.eventbus.key-certificate-pfx.password`]##\n"
@@ -596,11 +646,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-key-certificate-pfx-password[`quarkus.vertx.eventbus.key-certificate-pfx.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Password of the key."
-msgstr ""
+msgstr "Senha da chave."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PFX_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_KEY_CERTIFICATE_PFX_PASSWORD[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem[`quarkus.vertx.eventbus.trust-certificate-pem`]##\n"
@@ -617,11 +669,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem[`quarkus.vertx.eventbus.trust-certificate-pem`]##"
 msgstr ""
 
+#, fuzzy
 msgid "PEM Trust config is disabled by default."
-msgstr ""
+msgstr "A configuração do PEM Trust está desativada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PEM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PEM[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem-certs]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem-certs[`quarkus.vertx.eventbus.trust-certificate-pem.certs`]##\n"
@@ -638,11 +692,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem-certs]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pem-certs[`quarkus.vertx.eventbus.trust-certificate-pem.certs`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Comma-separated list of the trust certificate files (Pem format)."
-msgstr ""
+msgstr "Lista separada por vírgulas dos arquivos de certificados de confiança (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PEM_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PEM_CERTS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks[`quarkus.vertx.eventbus.trust-certificate-jks`]##\n"
@@ -659,8 +715,9 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks[`quarkus.vertx.eventbus.trust-certificate-jks`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_JKS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_JKS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path[`quarkus.vertx.eventbus.trust-certificate-jks.path`]##\n"
@@ -677,8 +734,9 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-path[`quarkus.vertx.eventbus.trust-certificate-jks.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_JKS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_JKS_PATH[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-password[`quarkus.vertx.eventbus.trust-certificate-jks.password`]##\n"
@@ -695,8 +753,9 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-jks-password[`quarkus.vertx.eventbus.trust-certificate-jks.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_JKS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_JKS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx[`quarkus.vertx.eventbus.trust-certificate-pfx`]##\n"
@@ -713,8 +772,9 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx[`quarkus.vertx.eventbus.trust-certificate-pfx`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PFX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PFX[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-path[`quarkus.vertx.eventbus.trust-certificate-pfx.path`]##\n"
@@ -731,8 +791,9 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-path[`quarkus.vertx.eventbus.trust-certificate-pfx.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PFX_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PFX_PATH[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-password[`quarkus.vertx.eventbus.trust-certificate-pfx.password`]##\n"
@@ -749,8 +810,9 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-password]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-certificate-pfx-password[`quarkus.vertx.eventbus.trust-certificate-pfx.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PFX_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_CERTIFICATE_PFX_PASSWORD[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-accept-backlog]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-accept-backlog[`quarkus.vertx.eventbus.accept-backlog`]##\n"
@@ -767,11 +829,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-accept-backlog]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-accept-backlog[`quarkus.vertx.eventbus.accept-backlog`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The accept backlog."
-msgstr ""
+msgstr "A carteira de pedidos pendentes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_ACCEPT_BACKLOG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_ACCEPT_BACKLOG[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-client-auth]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-client-auth[`quarkus.vertx.eventbus.client-auth`]##\n"
@@ -788,14 +852,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-client-auth]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-client-auth[`quarkus.vertx.eventbus.client-auth`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The client authentication."
-msgstr ""
+msgstr "A autenticação do cliente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_CLIENT_AUTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_CLIENT_AUTH[]"
 
+#, fuzzy
 msgid "`NONE`"
-msgstr ""
+msgstr "`NENHUM`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-connect-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-connect-timeout[`quarkus.vertx.eventbus.connect-timeout`]##\n"
@@ -812,11 +879,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-connect-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-connect-timeout[`quarkus.vertx.eventbus.connect-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The connect timeout."
-msgstr ""
+msgstr "O tempo limite de conexão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_CONNECT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-idle-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-idle-timeout[`quarkus.vertx.eventbus.idle-timeout`]##\n"
@@ -833,11 +902,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-idle-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-idle-timeout[`quarkus.vertx.eventbus.idle-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The idle timeout in milliseconds."
-msgstr ""
+msgstr "O tempo limite de inatividade em milissegundos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_IDLE_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_IDLE_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-receive-buffer-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-receive-buffer-size[`quarkus.vertx.eventbus.receive-buffer-size`]##\n"
@@ -854,11 +925,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-receive-buffer-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-receive-buffer-size[`quarkus.vertx.eventbus.receive-buffer-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The receive buffer size."
-msgstr ""
+msgstr "O tamanho do buffer de recepção."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_RECEIVE_BUFFER_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_RECEIVE_BUFFER_SIZE[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-reconnect-attempts]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reconnect-attempts[`quarkus.vertx.eventbus.reconnect-attempts`]##\n"
@@ -875,11 +948,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-reconnect-attempts]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reconnect-attempts[`quarkus.vertx.eventbus.reconnect-attempts`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The number of reconnection attempts."
-msgstr ""
+msgstr "O número de tentativas de reconexão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_RECONNECT_ATTEMPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_RECONNECT_ATTEMPTS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-reconnect-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reconnect-interval[`quarkus.vertx.eventbus.reconnect-interval`]##\n"
@@ -896,14 +971,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-reconnect-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reconnect-interval[`quarkus.vertx.eventbus.reconnect-interval`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The reconnection interval in milliseconds."
-msgstr ""
+msgstr "O intervalo de reconexão em milissegundos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_RECONNECT_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_RECONNECT_INTERVAL[]"
 
+#, fuzzy
 msgid "`1S`"
-msgstr ""
+msgstr "`1S`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-reuse-address]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reuse-address[`quarkus.vertx.eventbus.reuse-address`]##\n"
@@ -920,11 +998,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-reuse-address]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reuse-address[`quarkus.vertx.eventbus.reuse-address`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to reuse the address."
-msgstr ""
+msgstr "Se o endereço deve ser reutilizado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_REUSE_ADDRESS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_REUSE_ADDRESS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-reuse-port]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reuse-port[`quarkus.vertx.eventbus.reuse-port`]##\n"
@@ -941,11 +1021,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-reuse-port]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-reuse-port[`quarkus.vertx.eventbus.reuse-port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to reuse the port."
-msgstr ""
+msgstr "Se a porta deve ser reutilizada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_REUSE_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_REUSE_PORT[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-send-buffer-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-send-buffer-size[`quarkus.vertx.eventbus.send-buffer-size`]##\n"
@@ -962,11 +1044,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-send-buffer-size]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-send-buffer-size[`quarkus.vertx.eventbus.send-buffer-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The send buffer size."
-msgstr ""
+msgstr "O tamanho do buffer de envio."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_SEND_BUFFER_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_SEND_BUFFER_SIZE[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-so-linger]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-so-linger[`quarkus.vertx.eventbus.so-linger`]##\n"
@@ -983,11 +1067,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-so-linger]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-so-linger[`quarkus.vertx.eventbus.so-linger`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The so linger."
-msgstr ""
+msgstr "E assim permanecem."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_SO_LINGER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_SO_LINGER[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-ssl]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-ssl[`quarkus.vertx.eventbus.ssl`]##\n"
@@ -1004,11 +1090,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-ssl]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-ssl[`quarkus.vertx.eventbus.ssl`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or Disabled SSL."
-msgstr ""
+msgstr "Ativa ou desativa o SSL."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_SSL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_SSL[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-tcp-keep-alive]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-tcp-keep-alive[`quarkus.vertx.eventbus.tcp-keep-alive`]##\n"
@@ -1025,11 +1113,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-tcp-keep-alive]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-tcp-keep-alive[`quarkus.vertx.eventbus.tcp-keep-alive`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to keep the TCP connection opened (keep-alive)."
-msgstr ""
+msgstr "Se a conexão TCP deve permanecer aberta (keep-alive)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TCP_KEEP_ALIVE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TCP_KEEP_ALIVE[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-tcp-no-delay]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-tcp-no-delay[`quarkus.vertx.eventbus.tcp-no-delay`]##\n"
@@ -1046,11 +1136,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-tcp-no-delay]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-tcp-no-delay[`quarkus.vertx.eventbus.tcp-no-delay`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Configure the TCP no delay."
-msgstr ""
+msgstr "Configure o TCP sem atraso."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TCP_NO_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TCP_NO_DELAY[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-traffic-class]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-traffic-class[`quarkus.vertx.eventbus.traffic-class`]##\n"
@@ -1067,11 +1159,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-traffic-class]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-traffic-class[`quarkus.vertx.eventbus.traffic-class`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Configure the traffic class."
-msgstr ""
+msgstr "Configure a classe de tráfego."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRAFFIC_CLASS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRAFFIC_CLASS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-eventbus-trust-all]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-all[`quarkus.vertx.eventbus.trust-all`]##\n"
@@ -1088,11 +1182,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-eventbus-trust-all]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-eventbus-trust-all[`quarkus.vertx.eventbus.trust-all`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disables the trust all parameter."
-msgstr ""
+msgstr "Ativa ou desativa o parâmetro “confiar em todos”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_EVENTBUS_TRUST_ALL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_EVENTBUS_TRUST_ALL[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cluster-host]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-host[`quarkus.vertx.cluster.host`]##\n"
@@ -1109,11 +1205,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-host]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-host[`quarkus.vertx.cluster.host`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The host name."
-msgstr ""
+msgstr "O nome do host."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_HOST[]"
 
 #, fuzzy
 msgid "`localhost`"
@@ -1134,11 +1232,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-port]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-port[`quarkus.vertx.cluster.port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The port."
-msgstr ""
+msgstr "O porto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_PORT[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cluster-public-host]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-public-host[`quarkus.vertx.cluster.public-host`]##\n"
@@ -1155,11 +1255,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-public-host]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-public-host[`quarkus.vertx.cluster.public-host`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The public host name."
-msgstr ""
+msgstr "O nome de host público."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_PUBLIC_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_PUBLIC_HOST[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cluster-public-port]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-public-port[`quarkus.vertx.cluster.public-port`]##\n"
@@ -1176,11 +1278,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-public-port]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-public-port[`quarkus.vertx.cluster.public-port`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The public port."
-msgstr ""
+msgstr "A porta pública."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_PUBLIC_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_PUBLIC_PORT[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cluster-clustered]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-clustered[`quarkus.vertx.cluster.clustered`]##\n"
@@ -1197,11 +1301,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-clustered]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-clustered[`quarkus.vertx.cluster.clustered`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables or disables the clustering."
-msgstr ""
+msgstr "Ativa ou desativa o clustering."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_CLUSTERED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_CLUSTERED[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cluster-ping-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-ping-interval[`quarkus.vertx.cluster.ping-interval`]##\n"
@@ -1218,14 +1324,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-ping-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-ping-interval[`quarkus.vertx.cluster.ping-interval`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The ping interval."
-msgstr ""
+msgstr "O intervalo de ping."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_PING_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_PING_INTERVAL[]"
 
+#, fuzzy
 msgid "`20S`"
-msgstr ""
+msgstr "`20S`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-cluster-ping-reply-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-ping-reply-interval[`quarkus.vertx.cluster.ping-reply-interval`]##\n"
@@ -1242,11 +1351,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-cluster-ping-reply-interval]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-cluster-ping-reply-interval[`quarkus.vertx.cluster.ping-reply-interval`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The ping reply interval."
-msgstr ""
+msgstr "O intervalo de resposta do ping."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_CLUSTER_PING_REPLY_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_CLUSTER_PING_REPLY_INTERVAL[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live[`quarkus.vertx.resolver.cache-max-time-to-live`]##\n"
@@ -1265,14 +1376,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-max-time-to-live[`quarkus.vertx.resolver.cache-max-time-to-live`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum amount of time in seconds that a successfully resolved address will be cached."
-msgstr ""
+msgstr "O tempo máximo, em segundos, durante o qual um endereço resolvido com sucesso permanecerá armazenado em cache."
 
+#, fuzzy
 msgid "If not set explicitly, resolved addresses may be cached forever."
-msgstr ""
+msgstr "Caso não seja definido explicitamente, os endereços resolvidos poderão permanecer em cache indefinidamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_MAX_TIME_TO_LIVE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_CACHE_MAX_TIME_TO_LIVE[]"
 
 #, fuzzy
 msgid "`2147483647`"
@@ -1293,11 +1407,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-cache-min-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-min-time-to-live[`quarkus.vertx.resolver.cache-min-time-to-live`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The minimum amount of time in seconds that a successfully resolved address will be cached."
-msgstr ""
+msgstr "O tempo mínimo, em segundos, durante o qual um endereço resolvido com sucesso permanecerá armazenado em cache."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_MIN_TIME_TO_LIVE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_CACHE_MIN_TIME_TO_LIVE[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live[`quarkus.vertx.resolver.cache-negative-time-to-live`]##\n"
@@ -1314,11 +1430,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-cache-negative-time-to-live[`quarkus.vertx.resolver.cache-negative-time-to-live`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The amount of time in seconds that an unsuccessful attempt to resolve an address will be cached."
-msgstr ""
+msgstr "O tempo, em segundos, durante o qual uma tentativa malsucedida de resolver um endereço ficará armazenada em cache."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_CACHE_NEGATIVE_TIME_TO_LIVE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_CACHE_NEGATIVE_TIME_TO_LIVE[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-max-queries]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-max-queries[`quarkus.vertx.resolver.max-queries`]##\n"
@@ -1335,14 +1453,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-max-queries]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-max-queries[`quarkus.vertx.resolver.max-queries`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of queries to be sent during a resolution."
-msgstr ""
+msgstr "O número máximo de consultas a serem enviadas durante uma resolução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_MAX_QUERIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_MAX_QUERIES[]"
 
+#, fuzzy
 msgid "`4`"
-msgstr ""
+msgstr "`4`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-query-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-query-timeout[`quarkus.vertx.resolver.query-timeout`]##\n"
@@ -1359,14 +1480,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-query-timeout]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-query-timeout[`quarkus.vertx.resolver.query-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The duration after which a DNS query is considered to be failed."
-msgstr ""
+msgstr "O período após o qual uma consulta DNS é considerada malsucedida."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_QUERY_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_QUERY_TIMEOUT[]"
 
+#, fuzzy
 msgid "`5S`"
-msgstr ""
+msgstr "`5S`"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-hosts-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-hosts-path[`quarkus.vertx.resolver.hosts-path`]##\n"
@@ -1385,14 +1509,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-hosts-path]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-hosts-path[`quarkus.vertx.resolver.hosts-path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set the path of an alternate hosts configuration file to use instead of the one provided by the os."
-msgstr ""
+msgstr "Defina o caminho de um arquivo de configuração de hosts alternativo a ser utilizado em vez daquele fornecido pelo sistema operacional."
 
+#, fuzzy
 msgid "The default value is `null`, so the operating system hosts config (e.g. `/etc/hosts`) is used."
-msgstr ""
+msgstr "O valor padrão é `nulo` ; portanto, é utilizado o arquivo de configuração de hosts do sistema operacional (por exemplo, `/etc/hosts` )."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_HOSTS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_HOSTS_PATH[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-host-refresh-period]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-host-refresh-period[`quarkus.vertx.resolver.host-refresh-period`]##\n"
@@ -1411,14 +1538,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-host-refresh-period]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-host-refresh-period[`quarkus.vertx.resolver.host-refresh-period`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set the hosts configuration refresh period in millis, `0` (default) disables it."
-msgstr ""
+msgstr "Defina o período de atualização da configuração dos hosts em milissegundos; o valor `0` (padrão) desativa essa função."
 
+#, fuzzy
 msgid "The resolver caches the hosts configuration (configured using `quarkus.vertx.resolver.hosts-path` after it has read it. When the content of this file can change, setting a positive refresh period will load the configuration file again when necessary."
-msgstr ""
+msgstr "O resolvedor armazena em cache a configuração dos hosts (configurada por meio de ``quarkus.vertx.resolver.hosts-path`` ) após lê-la. Como o conteúdo desse arquivo pode sofrer alterações, definir um período de atualização positivo fará com que o arquivo de configuração seja carregado novamente quando necessário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_HOST_REFRESH_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_HOST_REFRESH_PERIOD[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-servers]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-servers[`quarkus.vertx.resolver.servers`]##\n"
@@ -1438,8 +1568,9 @@ msgstr ""
 msgid "Set the list of DNS server addresses, an address is the IP of the dns server, followed by an optional colon and a port, e.g `8.8.8.8` or ++{++code 192.168.0.1:40000++}++. When the list is empty, the resolver will use the list of the system DNS server addresses from the environment, if that list cannot be retrieved it will use Google's public DNS servers `\"8.8.8.8\"` and `\"8.8.4.4\"`."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_SERVERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_SERVERS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled[`quarkus.vertx.resolver.opt-resource-enabled`]##\n"
@@ -1456,11 +1587,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-opt-resource-enabled[`quarkus.vertx.resolver.opt-resource-enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set to true to enable the automatic inclusion in DNS queries of an optional record that hints the remote DNS server about how much data the resolver can read per response."
-msgstr ""
+msgstr "Defina como “true” para habilitar a inclusão automática, nas consultas de DNS, de um registro opcional que indica ao servidor DNS remoto a quantidade de dados que o resolvedor pode ler por resposta."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_OPT_RESOURCE_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_OPT_RESOURCE_ENABLED[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-rd-flag]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-rd-flag[`quarkus.vertx.resolver.rd-flag`]##\n"
@@ -1477,11 +1610,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-rd-flag]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-rd-flag[`quarkus.vertx.resolver.rd-flag`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set the DNS queries _Recursion Desired_ flag value."
-msgstr ""
+msgstr "Defina o valor do sinalizador _“Recursão desejada_ ” para as consultas DNS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_RD_FLAG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_RD_FLAG[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-search-domains]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-search-domains[`quarkus.vertx.resolver.search-domains`]##\n"
@@ -1500,14 +1635,17 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-search-domains]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-search-domains[`quarkus.vertx.resolver.search-domains`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set the lists of DNS search domains."
-msgstr ""
+msgstr "Defina as listas de domínios de pesquisa DNS."
 
+#, fuzzy
 msgid "When the search domain list is null, the effective search domain list will be populated using the system DNS search domains."
-msgstr ""
+msgstr "Quando a lista de domínios de pesquisa for nula, a lista efetiva de domínios de pesquisa será preenchida utilizando os domínios de pesquisa DNS do sistema."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_SEARCH_DOMAINS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_SEARCH_DOMAINS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-ndots]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-ndots[`quarkus.vertx.resolver.ndots`]##\n"
@@ -1524,11 +1662,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-ndots]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-ndots[`quarkus.vertx.resolver.ndots`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set the ndots value used when resolving using search domains, the default value is `-1` which determines the value from the OS on Linux or uses the value `1`."
-msgstr ""
+msgstr "Defina o valor de ndots utilizado na resolução por meio de domínios de pesquisa; o valor padrão é `-1` , o que determina o valor a partir do sistema operacional no Linux ou utiliza o valor `1` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_NDOTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_NDOTS[]"
 
 #, fuzzy
 msgid "`-1`"
@@ -1549,11 +1689,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-rotate-servers]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-rotate-servers[`quarkus.vertx.resolver.rotate-servers`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set to `true` to enable round-robin selection of the dns server to use. It spreads the query load among the servers and avoids all lookup to hit the first server of the list."
-msgstr ""
+msgstr "Defina como `“true”` para ativar a seleção no modo round-robin do servidor DNS a ser utilizado. Isso distribui a carga de consultas entre os servidores e evita que todas as consultas sejam direcionadas ao primeiro servidor da lista."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_ROTATE_SERVERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_ROTATE_SERVERS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address[`quarkus.vertx.resolver.round-robin-inet-address`]##\n"
@@ -1570,11 +1712,13 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-resolver-round-robin-inet-address[`quarkus.vertx.resolver.round-robin-inet-address`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set to `true` to enable round-robin inet address selection of the ip address to use."
-msgstr ""
+msgstr "Defina como `“true”` para ativar a seleção de endereço IP por round-robin."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_RESOLVER_ROUND_ROBIN_INET_ADDRESS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_RESOLVER_ROUND_ROBIN_INET_ADDRESS[]"
 
 msgid ""
 "[[quarkus-vertx_quarkus-vertx-prefer-native-transport]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-prefer-native-transport[`quarkus.vertx.prefer-native-transport`]##\n"
@@ -1591,19 +1735,23 @@ msgstr ""
 msgid "[[quarkus-vertx_quarkus-vertx-prefer-native-transport]] [.property-path]##link:#quarkus-vertx_quarkus-vertx-prefer-native-transport[`quarkus.vertx.prefer-native-transport`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enable or disable native transport"
-msgstr ""
+msgstr "Ativar ou desativar o transporte nativo"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_VERTX_PREFER_NATIVE_TRANSPORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_VERTX_PREFER_NATIVE_TRANSPORT[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"

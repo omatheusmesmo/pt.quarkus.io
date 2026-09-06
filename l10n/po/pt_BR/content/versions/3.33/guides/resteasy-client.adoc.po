@@ -606,7 +606,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-configuratio
 #. mt: deepl
 #, fuzzy
 msgid "The name of the proxy configuration to use; ignored if `quarkus.rest-client.proxy-address` is set."
-msgstr "O nome da configuração de proxy a ser utilizada; será ignorado se `quarkus.rest-client.proxy-address` estiver definido."
+msgstr "O nome da configuração de proxy a ser utilizada; será ignorado caso a variável `quarkus.rest-client.proxy-address` esteja definida."
 
 #. mt: deepl
 #, fuzzy
@@ -1208,7 +1208,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-trust-store[quarku
 #. mt: deepl
 #, fuzzy
 msgid "The trust store location. Can point to either a classpath resource or a file."
-msgstr "A localização do repositório de confiança. Pode apontar para um recurso do classpath ou para um arquivo."
+msgstr "A localização do repositório de confiança. Pode indicar um recurso do classpath ou um arquivo."
 
 #. mt: deepl
 #, fuzzy
@@ -1718,7 +1718,7 @@ msgstr ""
 "Escopo do registro de log para o cliente.\n"
 "\n"
 "\n"
-"AVISO: tome cuidado ao registrar dados confidenciais\n"
+"AVISO: tenha cuidado ao registrar dados confidenciais\n"
 "\n"
 "\n"
 "Os valores possíveis são:"
@@ -2057,7 +2057,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[quarkus
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-uri]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[`+++quarkus.rest-client.\"client\".uri+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.\"client\".uri+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[quarkus.rest-client.\"client\".uri] config_property_copy_button:quarkus.rest-client.\"client\".uri[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[quarkus.rest-client.\"client\".uri] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.\"client\".uri[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2097,7 +2097,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-override-ur
 #. mt: deepl
 #, fuzzy
 msgid "This property is only meant to be set by advanced configurations to override whatever value was set for the uri or url. The override is done using the REST Client class name configuration syntax."
-msgstr "Essa propriedade destina-se a ser definida apenas por meio de configurações avançadas, a fim de substituir qualquer valor que tenha sido definido para o uri ou url. A substituição é feita utilizando a sintaxe de configuração com o nome da classe do cliente REST."
+msgstr "Essa propriedade destina-se a ser definida apenas por meio de configurações avançadas, a fim de substituir qualquer valor que tenha sido definido para o uri ou url. A substituição é feita utilizando a sintaxe de configuração do nome da classe do cliente REST."
 
 #. mt: deepl
 #, fuzzy
@@ -2196,7 +2196,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-read-timeou
 #. mt: deepl
 #, fuzzy
 msgid "Timeout specified in milliseconds to wait for a response from the remote endpoint."
-msgstr "Tempo limite, especificado em milissegundos, para aguardar uma resposta do ponto de extremidade remoto."
+msgstr "Tempo limite especificado em milissegundos para aguardar uma resposta do ponto de extremidade remoto."
 
 #. mt: deepl
 #, fuzzy
@@ -2651,7 +2651,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-connection-
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-connection-pool-size]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-connection-pool-size[`+++quarkus.rest-client.\"client\".connection-pool-size+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.\"client\".connection-pool-size+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-connection-pool-size[quarkus.rest-client.\"client\".connection-pool-size] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.\"client\".connection-pool-size[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-connection-pool-size[quarkus.rest-client.\"client\".connection-pool-size] config_property_copy_button:quarkus.rest-client.\"client\".connection-pool-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3295,7 +3295,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-password[qua
 #. mt: deepl
 #, fuzzy
 msgid "Proxy password, equivalent to the http.proxyPassword or https.proxyPassword JVM settings. Honored only if `quarkus.rest-client.proxy-address` is set."
-msgstr "Senha de proxy, equivalente às configurações da JVM http.proxyPassword ou https.proxyPassword. É considerada apenas se `a variável quarkus.rest-client.proxy-address` estiver definida."
+msgstr "Senha de proxy, equivalente às configurações da JVM http.proxyPassword ou https.proxyPassword. É considerada apenas se `quarkus.rest-client.proxy-address` estiver definido."
 
 #. mt: deepl
 #, fuzzy
@@ -3541,7 +3541,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-proxy-user[
 #. mt: deepl
 #, fuzzy
 msgid "Proxy username. Honored only if `quarkus.rest-client.\"client\".proxy-address` is set."
-msgstr "Nome de usuário do proxy. Só será considerado se `quarkus.rest-client.\"client\".proxy-address` estiver definido."
+msgstr "Nome de usuário do proxy. Só será considerado se a variável `quarkus.rest-client.\"client\".proxy-address` estiver definida."
 
 #. mt: deepl
 #, fuzzy
@@ -3667,9 +3667,9 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."

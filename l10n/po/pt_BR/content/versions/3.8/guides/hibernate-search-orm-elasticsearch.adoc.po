@@ -986,8 +986,9 @@ msgid ""
 "see <<configuration-reference-coordination-outbox-polling>>."
 msgstr "Para obter mais informações sobre as opções de configuração relacionadas à coordenação, consulte <<configuration-reference-coordination-outbox-polling>> ."
 
+#, fuzzy
 msgid "<a id=\"configuration-reference-aws\"></a> AWS request signing"
-msgstr ""
+msgstr "<a id=\"configuration-reference-aws\"></a> Assinatura de solicitações na AWS"
 
 #, fuzzy
 msgid ""
@@ -1202,20 +1203,24 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-enabled]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-enabled[quarkus.hibernate-search-orm.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether Hibernate Search is enabled **during the build**."
-msgstr ""
+msgstr "Se o Hibernate Search está habilitado *durante a compilação* ."
 
+#, fuzzy
 msgid ""
 "If Hibernate Search is disabled during the build, all processing related to Hibernate Search will be skipped,\n"
 "but it will not be possible to activate Hibernate Search at runtime:\n"
 "`quarkus.hibernate-search-orm.active` will default to `false` and setting it to `true` will lead to an error."
-msgstr ""
+msgstr "Se o Hibernate Search estiver desativado durante a compilação, todo o processamento relacionado ao Hibernate Search será ignorado, mas não será possível ativá-lo em tempo de execução: o parâmetro ` `quarkus.hibernate-search-orm.active` ` terá o valor padrão ` `false`` , e defini-lo como ``true`` resultará em um erro."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -1255,14 +1260,16 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-background-failure-handler[quarkus.hibernate-search-orm.\"persistence-unit-name\".background-failure-handler]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "A xref:hibernate-search-orm-elasticsearch.adoc#bean-reference-note-anchor[bean reference] to a component\n"
 "that should be notified of any failure occurring in a background process\n"
 "(mainly index operations)."
-msgstr ""
+msgstr "Uma xref:hibernate-search-orm-elasticsearch.adoc#bean-reference-note-anchor[referência Bean] a um componente que deve ser notificado sobre qualquer falha que ocorra em um processo em segundo plano (principalmente operações de indexação)."
 
+#, fuzzy
 msgid "The referenced bean must implement `FailureHandler`."
-msgstr ""
+msgstr "O bean referenciado deve implementar `a interface FailureHandler` ."
 
 msgid ""
 "Instead of setting this configuration property,\n"
@@ -1271,8 +1278,9 @@ msgid ""
 "If this configuration property is set, it takes precedence over any `@SearchExtension` annotation."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_BACKGROUND_FAILURE_HANDLER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_BACKGROUND_FAILURE_HANDLER[]"
 
 msgid "string"
 msgstr "string"
@@ -1300,16 +1308,19 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-coordination-strategy[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.strategy]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "The strategy to use for coordinating between threads or even separate instances of the application,\n"
 "in particular in automatic indexing."
-msgstr ""
+msgstr "A estratégia a ser utilizada para a coordenação entre threads ou mesmo entre instâncias distintas da aplicação, em particular na indexação automática."
 
+#, fuzzy
 msgid "See xref:hibernate-search-orm-elasticsearch.adoc#coordination[coordination] for more information."
-msgstr ""
+msgstr "Consulte a seção xref:hibernate-search-orm-elasticsearch.adoc#coordination[“Coordenação”] para obter mais informações."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_STRATEGY[]"
 
 #, fuzzy
 msgid "`none`"
@@ -1354,13 +1365,15 @@ msgid ""
 "to the component(s) used to configure Hibernate Search mapping."
 msgstr ""
 
+#, fuzzy
 msgid "The referenced beans must implement `HibernateOrmSearchMappingConfigurer`."
-msgstr ""
+msgstr "Os beans referenciados devem implementar a interface ` `HibernateOrmSearchMappingConfigurer` `."
 
+#, fuzzy
 msgid ""
 "See xref:hibernate-search-orm-elasticsearch.adoc#programmatic-mapping[Programmatic mapping] for an example\n"
 "on how mapping configurers can be used to apply programmatic mappings."
-msgstr ""
+msgstr "Consulte xref:hibernate-search-orm-elasticsearch.adoc#programmatic-mapping[“Mapeamento programático] ” para ver um exemplo de como os configuradores de mapeamento podem ser utilizados para aplicar mapeamentos programáticos."
 
 msgid ""
 "Instead of setting this configuration property,\n"
@@ -1369,8 +1382,9 @@ msgid ""
 "If this configuration property is set, it takes precedence over any `@SearchExtension` annotation."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_MAPPING_CONFIGURER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_MAPPING_CONFIGURER[]"
 
 #, fuzzy
 msgid "list of string"
@@ -1403,22 +1417,26 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-active[quarkus.hibernate-search-orm.\"persistence-unit-name\".active]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether Hibernate Search should be active for this persistence unit at runtime."
-msgstr ""
+msgstr "Se o Hibernate Search deve estar ativo para esta unidade de persistência em tempo de execução."
 
+#, fuzzy
 msgid ""
 "If Hibernate Search is not active, it won't index Hibernate ORM entities,\n"
 "and accessing the SearchMapping/SearchSession of the relevant persistence unit\n"
 "for search or other operation will not be possible."
-msgstr ""
+msgstr "Caso o Hibernate Search não esteja ativo, ele não indexará as entidades do Hibernate ORM, e não será possível acessar o SearchMapping/SearchSession da unidade de persistência relevante para realizar pesquisas ou outras operações."
 
+#, fuzzy
 msgid ""
 "Note that if Hibernate Search is disabled (i.e. `quarkus.hibernate-search-orm.enabled` is set to `false`),\n"
 "it won't be active for any persistence unit, and setting this property to `true` will fail."
-msgstr ""
+msgstr "Observe que, se o Hibernate Search estiver desativado (ou seja, se a propriedade ` `quarkus.hibernate-search-orm.enabled` ` estiver definida como ``false`` ), ele não estará ativo para nenhuma unidade de persistência, e definir essa propriedade como ``true`` resultará em falha."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ACTIVE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ACTIVE[]"
 
 msgid "`'true' if Hibernate Search is enabled; 'false' otherwise`"
 msgstr ""
@@ -1497,60 +1515,72 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-schema-management-strategy[quarkus.hibernate-search-orm.\"persistence-unit-name\".schema-management.strategy]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "The schema management strategy, controlling how indexes and their schema\n"
 "are created, updated, validated or dropped on startup and shutdown."
-msgstr ""
+msgstr "A estratégia de gerenciamento de esquema, que controla como os índices e seus esquemas são criados, atualizados, validados ou excluídos na inicialização e no desligamento."
 
+#, fuzzy
 msgid "Available values:"
-msgstr ""
+msgstr "Valores disponíveis:"
 
 #, fuzzy
 msgid "Strategy"
 msgstr "Estratégia"
 
+#, fuzzy
 msgid "Definition"
-msgstr ""
+msgstr "Definição"
 
 #, fuzzy
 msgid "none"
 msgstr "nenhum"
 
+#, fuzzy
 msgid "Do nothing: assume that indexes already exist and that their schema matches Hibernate Search's expectations."
-msgstr ""
+msgstr "Não faça nada: presuma que os índices já existem e que seu esquema está de acordo com as expectativas do Hibernate Search."
 
+#, fuzzy
 msgid "validate"
-msgstr ""
+msgstr "validar"
 
+#, fuzzy
 msgid ""
 "Validate that indexes exist and that their schema matches Hibernate Search's expectations.\n"
 "\n"
 "If it does not, throw an exception, but make no attempt to fix the problem."
-msgstr ""
+msgstr "Verifique se os índices existem e se o esquema deles está de acordo com as especificações do Hibernate Search."
 
+#, fuzzy
 msgid "create"
-msgstr ""
+msgstr "criar"
 
+#, fuzzy
 msgid ""
 "For indexes that do not exist, create them along with their schema.\n"
 "\n"
 "For indexes that already exist, do nothing: assume that their schema matches Hibernate Search's expectations."
-msgstr ""
+msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
 
+#, fuzzy
 msgid "create-or-validate (**default** unless using Dev Services)"
-msgstr ""
+msgstr "create-or-validate ( *padrão* , a menos que se utilize o Dev Services)"
 
+#, fuzzy
 msgid ""
 "For indexes that do not exist, create them along with their schema.\n"
 "\n"
 "For indexes that already exist, validate that their schema matches Hibernate Search's expectations.\n"
 "\n"
 "If it does not, throw an exception, but make no attempt to fix the problem."
-msgstr ""
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
+#, fuzzy
 msgid "create-or-update"
-msgstr ""
+msgstr "criar ou atualizar"
 
+#, fuzzy
 msgid ""
 "For indexes that do not exist, create them along with their schema.\n"
 "\n"
@@ -1560,35 +1590,40 @@ msgid ""
 "**This strategy is unfit for production environments**,\n"
 "due to several important limitations,\n"
 "but can be useful when developing."
-msgstr ""
+msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
 
+#, fuzzy
 msgid "drop-and-create"
-msgstr ""
+msgstr "arrastar e soltar"
 
+#, fuzzy
 msgid ""
 "For indexes that do not exist, create them along with their schema.\n"
 "\n"
 "For indexes that already exist, drop them, then create them along with their schema."
-msgstr ""
+msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
 
+#, fuzzy
 msgid "drop-and-create-and-drop (**default** when using Dev Services)"
-msgstr ""
+msgstr "arrastar, criar e soltar ( *padrão* ao utilizar o Dev Services)"
 
+#, fuzzy
 msgid ""
 "For indexes that do not exist, create them along with their schema.\n"
 "\n"
 "For indexes that already exist, drop them, then create them along with their schema.\n"
 "\n"
 "Also, drop indexes and their schema on shutdown."
-msgstr ""
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
 msgid ""
 "See https://docs.jboss.org/hibernate/stable/search/reference/en-US/html_single/#mapper-orm-schema-management-strategy[this section of the reference documentation]\n"
 "for more information."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_SCHEMA_MANAGEMENT_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_SCHEMA_MANAGEMENT_STRATEGY[]"
 
 msgid "SchemaManagementStrategyName"
 msgstr ""
@@ -1616,14 +1651,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-query-loading-cache-lookup-strategy[quarkus.hibernate-search-orm.\"persistence-unit-name\".query.loading.cache-lookup.strategy]`"
 msgstr ""
 
+#, fuzzy
 msgid "The strategy to use when loading entities during the execution of a search query."
-msgstr ""
+msgstr "A estratégia a ser utilizada ao carregar entidades durante a execução de uma consulta de busca."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_QUERY_LOADING_CACHE_LOOKUP_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_QUERY_LOADING_CACHE_LOOKUP_STRATEGY[]"
 
+#, fuzzy
 msgid "`skip`, `persistence-context`, `persistence-context-then-second-level-cache`"
-msgstr ""
+msgstr "`pular` , `contexto de persistência` , `contexto` de persist `ência` e, em seguida, `cache de segundo nível`"
 
 msgid "`skip`"
 msgstr ""
@@ -1648,11 +1686,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-query-loading-fetch-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".query.loading.fetch-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "The fetch size to use when loading entities during the execution of a search query."
-msgstr ""
+msgstr "O tamanho do lote a ser utilizado ao carregar entidades durante a execução de uma consulta de busca."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_QUERY_LOADING_FETCH_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_QUERY_LOADING_FETCH_SIZE[]"
 
 msgid "int"
 msgstr "int"
@@ -1747,75 +1787,95 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-indexing-plan-synchronization-strategy[quarkus.hibernate-search-orm.\"persistence-unit-name\".indexing.plan.synchronization.strategy]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "How to synchronize between application threads and indexing,\n"
 "in particular when relying on (implicit) listener-triggered indexing on entity change,\n"
 "but also when using a `SearchIndexingPlan` explicitly."
-msgstr ""
+msgstr "Como sincronizar entre as threads do aplicativo e a indexação, especialmente quando se recorre à indexação (implícita) acionada por ouvinte em caso de alteração na entidade, mas também quando se utiliza explicitamente um `SearchIndexingPlan` ."
 
+#, fuzzy
 msgid ""
 "Defines how complete indexing should be before resuming the application thread\n"
 "after a database transaction is committed."
-msgstr ""
+msgstr "Define o grau de conclusão da indexação necessário para que a thread do aplicativo seja retomada após a confirmação de uma transação no banco de dados."
 
+#, fuzzy
 msgid "Indexing synchronization is only relevant when coordination is disabled (which is the default)."
-msgstr ""
+msgstr "A sincronização da indexação só é relevante quando a coordenação está desativada (o que é a configuração padrão)."
 
+#, fuzzy
 msgid ""
 "With the xref:hibernate-search-orm-elasticsearch.adoc#coordination[`outbox-polling` coordination strategy],\n"
 "indexing happens in background threads and is always asynchronous;\n"
 "the behavior is equivalent to the `write-sync` synchronization strategy."
-msgstr ""
+msgstr "Com a xref:hibernate-search-orm-elasticsearch.adoc#coordination[estratégia de coordenação“outbox-polling”] , a indexação ocorre em threads em segundo plano e é sempre assíncrona; o comportamento é equivalente ao da estratégia de sincronização `“write-sync` ”."
 
+#, fuzzy
 msgid "Throughput"
-msgstr ""
+msgstr "Rendimento"
 
+#, fuzzy
 msgid "Guarantees when the application thread resumes"
-msgstr ""
+msgstr "Garantias quando a thread da aplicação é retomada"
 
+#, fuzzy
 msgid "Changes applied"
-msgstr ""
+msgstr "Alterações aplicadas"
 
+#, fuzzy
 msgid "Changes safe from crash/power loss"
-msgstr ""
+msgstr "Alterações protegidas contra falhas de sistema ou queda de energia"
 
+#, fuzzy
 msgid "Changes visible on search"
-msgstr ""
+msgstr "Alterações visíveis na pesquisa"
 
+#, fuzzy
 msgid "async"
-msgstr ""
+msgstr "assíncrono"
 
+#, fuzzy
 msgid "Best"
-msgstr ""
+msgstr "Melhor"
 
+#, fuzzy
 msgid "icon:times[role=red]"
-msgstr ""
+msgstr "[horários]"
 
+#, fuzzy
 msgid "write-sync (**default**)"
-msgstr ""
+msgstr "sincronização de gravação ( *padrão* )"
 
+#, fuzzy
 msgid "Medium"
-msgstr ""
+msgstr "Médio"
 
+#, fuzzy
 msgid "icon:check[role=lime]"
-msgstr ""
+msgstr "[marcar]"
 
+#, fuzzy
 msgid "read-sync"
-msgstr ""
+msgstr "leitura síncrona"
 
+#, fuzzy
 msgid "Medium to worst"
-msgstr ""
+msgstr "De médio a péssimo"
 
+#, fuzzy
 msgid "sync"
-msgstr ""
+msgstr "sincronização"
 
+#, fuzzy
 msgid "Worst"
-msgstr ""
+msgstr "Pior"
 
+#, fuzzy
 msgid ""
 "This property also accepts a xref:hibernate-search-orm-elasticsearch.adoc#bean-reference-note-anchor[bean reference]\n"
 "to a custom implementations of `IndexingPlanSynchronizationStrategy`."
-msgstr ""
+msgstr "Essa propriedade também aceita uma xref:hibernate-search-orm-elasticsearch.adoc#bean-reference-note-anchor[referência] a xref:hibernate-search-orm-elasticsearch.adoc#bean-reference-note-anchor[um bean] que represente uma implementação personalizada da classe ` `IndexingPlanSynchronizationStrategy` `."
 
 #, fuzzy
 msgid ""
@@ -1824,15 +1884,17 @@ msgid ""
 "for more information."
 msgstr "Consulte link:{hibernate-search-docs-url}#indexing-plan-synchronization[esta seção da documentação de referência] para obter mais informações."
 
+#, fuzzy
 msgid ""
 "Instead of setting this configuration property,\n"
 "you can simply annotate your custom `IndexingPlanSynchronizationStrategy` implementation with `@SearchExtension`\n"
 "and leave the configuration property unset: Hibernate Search will use the annotated implementation automatically.\n"
 "If this configuration property is set, it takes precedence over any `@SearchExtension` annotation."
-msgstr ""
+msgstr "Em vez de definir essa propriedade de configuração, o senhor pode simplesmente anotar sua implementação personalizada `de `IndexingPlanSynchronizationStrategy`` com `@SearchExtension` e deixar a propriedade de configuração sem valor: o Hibernate Search utilizará a implementação anotada automaticamente. Caso essa propriedade de configuração seja definida, ela terá precedência sobre qualquer anotação `@SearchExtension` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_INDEXING_PLAN_SYNCHRONIZATION_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_INDEXING_PLAN_SYNCHRONIZATION_STRATEGY[]"
 
 msgid "`write-sync`"
 msgstr ""
@@ -1860,16 +1922,19 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-multi-tenancy-tenant-ids[quarkus.hibernate-search-orm.\"persistence-unit-name\".multi-tenancy.tenant-ids]`"
 msgstr ""
 
+#, fuzzy
 msgid "An exhaustive list of all tenant identifiers that may be used by the application when multi-tenancy is enabled."
-msgstr ""
+msgstr "Uma lista exaustiva de todos os identificadores de locatário que podem ser utilizados pelo aplicativo quando a multilocação estiver habilitada."
 
+#, fuzzy
 msgid ""
 "Mainly useful when using the {@code outbox-polling} coordination strategy,\n"
 "since it involves setting up one background processor per tenant."
-msgstr ""
+msgstr "É útil principalmente ao utilizar a estratégia de coordenação {@code outbox-polling}, uma vez que envolve a configuração de um processador em segundo plano por locatário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_MULTI_TENANCY_TENANT_IDS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_MULTI_TENANCY_TENANT_IDS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-management-root-path]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-management-root-path[quarkus.hibernate-search-orm.management.root-path]`\n"
@@ -1887,13 +1952,15 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-management-root-path]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-management-root-path[quarkus.hibernate-search-orm.management.root-path]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Root path for reindexing endpoints.\n"
 "This value will be resolved as a path relative to `${quarkus.management.root-path}`."
-msgstr ""
+msgstr "Caminho raiz para a reindexação de endpoints. Esse valor será interpretado como um caminho relativo a `${quarkus.management.root-path}` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_MANAGEMENT_ROOT_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_MANAGEMENT_ROOT_PATH[]"
 
 msgid "`hibernate-search/`"
 msgstr ""
@@ -1914,13 +1981,15 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-management-enabled]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-management-enabled[quarkus.hibernate-search-orm.management.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "If management interface is turned on the reindexing endpoints will be published under the management interface.\n"
 "This property allows to enable this functionality by setting it to ``true`."
-msgstr ""
+msgstr "Se a interface de gerenciamento estiver ativada, os endpoints de reindexação serão publicados na interface de gerenciamento. Essa propriedade permite ativar essa funcionalidade definindo-a como ``true`` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_MANAGEMENT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_MANAGEMENT_ENABLED[]"
 
 #, fuzzy
 msgid "`false`"
@@ -1968,28 +2037,34 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-version[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.version]`"
 msgstr ""
 
+#, fuzzy
 msgid "The version of Elasticsearch used in the cluster."
-msgstr ""
+msgstr "A versão do Elasticsearch utilizada no cluster."
 
+#, fuzzy
 msgid "As the schema is generated without a connection to the server, this item is mandatory."
-msgstr ""
+msgstr "Como o esquema é gerado sem uma conexão com o servidor, este campo é obrigatório."
 
+#, fuzzy
 msgid ""
 "It doesn't have to be the exact version (it can be `7` or `7.1` for instance) but it has to be sufficiently precise\n"
 "to choose a model dialect (the one used to generate the schema) compatible with the protocol dialect (the one used\n"
 "to communicate with Elasticsearch)."
-msgstr ""
+msgstr "Não precisa ser exatamente essa versão (pode ser `a 7` ou `a 7.1` , por exemplo), mas deve ser suficientemente precisa para que se possa escolher um dialeto de modelo (aquele utilizado para gerar o esquema) compatível com o dialeto de protocolo (aquele utilizado para se comunicar com o Elasticsearch)."
 
+#, fuzzy
 msgid ""
 "There's no rule of thumb here as it depends on the schema incompatibilities introduced by Elasticsearch versions. In\n"
 "any case, if there is a problem, you will have an error when Hibernate Search tries to connect to the cluster."
-msgstr ""
+msgstr "Não há uma regra geral para isso, pois depende das incompatibilidades de esquema introduzidas pelas versões do Elasticsearch. De qualquer forma, caso haja algum problema, você receberá uma mensagem de erro quando o Hibernate Search tentar se conectar ao cluster."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_VERSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_VERSION[]"
 
+#, fuzzy
 msgid "ElasticsearchVersion"
-msgstr ""
+msgstr "Versão do Elasticsearch"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-layout-strategy]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-layout-strategy[quarkus.hibernate-search-orm.elasticsearch.layout.strategy]`\n"
@@ -2052,29 +2127,35 @@ msgid ""
 "used to configure layout (e.g. index names, index aliases)."
 msgstr ""
 
+#, fuzzy
 msgid "The referenced bean must implement `IndexLayoutStrategy`."
-msgstr ""
+msgstr "O bean referenciado deve implementar `a interface `IndexLayoutStrategy`` ."
 
+#, fuzzy
 msgid "Available built-in implementations:"
-msgstr ""
+msgstr "Implementações integradas disponíveis:"
 
+#, fuzzy
 msgid "`simple`"
-msgstr ""
+msgstr "`simples`"
 
+#, fuzzy
 msgid ""
 "The default, future-proof strategy: if the index name in Hibernate Search is `myIndex`,\n"
 "this strategy will create an index named `myindex-000001`, an alias for write operations named `myindex-write`,\n"
 "and an alias for read operations named `myindex-read`."
-msgstr ""
+msgstr "A estratégia padrão, preparada para o futuro: se o nome do índice no Hibernate Search for `myIndex` , essa estratégia criará um índice chamado `myindex-000001` , um alias para operações de gravação chamado `myindex-write` e um alias para operações de leitura chamado `myindex-read` ."
 
+#, fuzzy
 msgid "`no-alias`"
-msgstr ""
+msgstr "`sem alias`"
 
+#, fuzzy
 msgid ""
 "A strategy without index aliases, mostly useful on legacy clusters:\n"
 "if the index name in Hibernate Search is `myIndex`,\n"
 "this strategy will create an index named `myindex`, and will not use any alias."
-msgstr ""
+msgstr "Uma estratégia sem aliases de índice, útil principalmente em clusters legados: se o nome do índice no Hibernate Search for `myIndex` , essa estratégia criará um índice chamado `myindex` e não utilizará nenhum alias."
 
 #, fuzzy
 msgid ""
@@ -2090,8 +2171,9 @@ msgid ""
 "If this configuration property is set, it takes precedence over any `@SearchExtension` annotation."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_LAYOUT_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_LAYOUT_STRATEGY[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-settings-file]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-settings-file[quarkus.hibernate-search-orm.elasticsearch.schema-management.settings-file]`\n"
@@ -2131,24 +2213,27 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-settings-file[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.schema-management.settings-file]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Path to a file in the classpath holding custom index settings to be included in the index definition\n"
 "when creating an Elasticsearch index."
-msgstr ""
+msgstr "Caminho para um arquivo no classpath que contém configurações personalizadas de índice a serem incluídas na definição do índice ao criar um índice do Elasticsearch."
 
+#, fuzzy
 msgid ""
 "The provided settings will be merged with those generated by Hibernate Search, including analyzer definitions.\n"
 "When analysis is configured both through an analysis configurer and these custom settings, the behavior is undefined;\n"
 "it should not be relied upon."
-msgstr ""
+msgstr "As configurações fornecidas serão combinadas com as geradas pelo Hibernate Search, incluindo as definições dos analisadores. Quando a análise for configurada tanto por meio de um configurador de análise quanto por meio dessas configurações personalizadas, o comportamento é indefinido; não se deve confiar nele."
 
 msgid ""
 "See https://docs.jboss.org/hibernate/stable/search/reference/en-US/html_single/#backend-elasticsearch-configuration-index-settings[this section of the reference documentation]\n"
 "for more information."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_SETTINGS_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_SETTINGS_FILE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-mapping-file]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-mapping-file[quarkus.hibernate-search-orm.elasticsearch.schema-management.mapping-file]`\n"
@@ -2187,23 +2272,26 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-mapping-file[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.schema-management.mapping-file]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Path to a file in the classpath holding a custom index mapping to be included in the index definition\n"
 "when creating an Elasticsearch index."
-msgstr ""
+msgstr "Caminho para um arquivo no classpath que contém um mapeamento de índice personalizado a ser incluído na definição do índice ao criar um índice do Elasticsearch."
 
+#, fuzzy
 msgid ""
 "The file does not need to (and generally shouldn't) contain the full mapping:\n"
 "Hibernate Search will automatically inject missing properties (index fields) in the given mapping."
-msgstr ""
+msgstr "O arquivo não precisa (e, em geral, não deve) conter o mapeamento completo: o Hibernate Search injetará automaticamente as propriedades ausentes (campos de índice) no mapeamento fornecido."
 
 msgid ""
 "See https://docs.jboss.org/hibernate/stable/search/reference/en-US/html_single/#backend-elasticsearch-mapping-custom[this section of the reference documentation]\n"
 "for more information."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_MAPPING_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_MAPPING_FILE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-analysis-configurer]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-analysis-configurer[quarkus.hibernate-search-orm.elasticsearch.analysis.configurer]`\n"
@@ -2254,8 +2342,9 @@ msgid ""
 "to the component(s) used to configure full text analysis (e.g. analyzers, normalizers)."
 msgstr ""
 
+#, fuzzy
 msgid "The referenced beans must implement `ElasticsearchAnalysisConfigurer`."
-msgstr ""
+msgstr "Os beans referenciados devem implementar `a interface ElasticsearchAnalysisConfigurer` ."
 
 msgid ""
 "See xref:hibernate-search-orm-elasticsearch.adoc#analysis-configurer[Setting up the analyzers] for more\n"
@@ -2269,8 +2358,9 @@ msgid ""
 "If this configuration property is set, it takes precedence over any `@SearchExtension` annotation."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_ANALYSIS_CONFIGURER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_ANALYSIS_CONFIGURER[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-hosts]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-hosts[quarkus.hibernate-search-orm.elasticsearch.hosts]`\n"
@@ -2302,14 +2392,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-hosts[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.hosts]`"
 msgstr ""
 
+#, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr ""
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_HOSTS[]"
 
+#, fuzzy
 msgid "`localhost:9200`"
-msgstr ""
+msgstr "`localhost:9200`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-protocol]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-protocol[quarkus.hibernate-search-orm.elasticsearch.protocol]`\n"
@@ -2341,17 +2434,20 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-protocol[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.protocol]`"
 msgstr ""
 
+#, fuzzy
 msgid "The protocol to use when contacting Elasticsearch servers. Set to \"https\" to enable SSL/TLS."
-msgstr ""
+msgstr "O protocolo a ser utilizado ao se conectar aos servidores do Elasticsearch. Defina como “https” para habilitar o SSL/TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_PROTOCOL[]"
 
 msgid "`http`, `https`"
 msgstr ""
 
+#, fuzzy
 msgid "`http`"
-msgstr ""
+msgstr "`http`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-username]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-username[quarkus.hibernate-search-orm.elasticsearch.username]`\n"
@@ -2383,11 +2479,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-username[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.username]`"
 msgstr ""
 
+#, fuzzy
 msgid "The username used for authentication."
-msgstr ""
+msgstr "O nome de usuário utilizado para autenticação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_USERNAME[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-password]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-password[quarkus.hibernate-search-orm.elasticsearch.password]`\n"
@@ -2419,11 +2517,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-password[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.password]`"
 msgstr ""
 
+#, fuzzy
 msgid "The password used for authentication."
-msgstr ""
+msgstr "A senha utilizada para autenticação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_PASSWORD[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-connection-timeout]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-connection-timeout[quarkus.hibernate-search-orm.elasticsearch.connection-timeout]`\n"
@@ -2455,19 +2555,22 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-connection-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.connection-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "The timeout when establishing a connection to an Elasticsearch server."
-msgstr ""
+msgstr "O tempo limite para o estabelecimento de uma conexão com um servidor Elasticsearch."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_CONNECTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_CONNECTION_TIMEOUT[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
 
+#, fuzzy
 msgid "`1S`"
-msgstr ""
+msgstr "`1S`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-read-timeout]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-read-timeout[quarkus.hibernate-search-orm.elasticsearch.read-timeout]`\n"
@@ -2499,14 +2602,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-read-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.read-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "The timeout when reading responses from an Elasticsearch server."
-msgstr ""
+msgstr "O tempo limite para a leitura de respostas de um servidor Elasticsearch."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_READ_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_READ_TIMEOUT[]"
 
+#, fuzzy
 msgid "`30S`"
-msgstr ""
+msgstr "`30S`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-request-timeout]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-request-timeout[quarkus.hibernate-search-orm.elasticsearch.request-timeout]`\n"
@@ -2541,16 +2647,19 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-request-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.request-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "The timeout when executing a request to an Elasticsearch server."
-msgstr ""
+msgstr "O tempo limite para a execução de uma solicitação a um servidor Elasticsearch."
 
+#, fuzzy
 msgid ""
 "This includes the time needed to wait for a connection to be available,\n"
 "send the request and read the response."
-msgstr ""
+msgstr "Isso inclui o tempo necessário para aguardar a disponibilidade de uma conexão, enviar a solicitação e ler a resposta."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_REQUEST_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_REQUEST_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-max-connections]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-max-connections[quarkus.hibernate-search-orm.elasticsearch.max-connections]`\n"
@@ -2582,14 +2691,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-max-connections[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.max-connections]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of connections to all the Elasticsearch servers."
-msgstr ""
+msgstr "O número máximo de conexões com todos os servidores do Elasticsearch."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_MAX_CONNECTIONS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_MAX_CONNECTIONS[]"
 
+#, fuzzy
 msgid "`20`"
-msgstr ""
+msgstr "`20`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-max-connections-per-route]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-max-connections-per-route[quarkus.hibernate-search-orm.elasticsearch.max-connections-per-route]`\n"
@@ -2621,11 +2733,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-max-connections-per-route[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.max-connections-per-route]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of connections per Elasticsearch server."
-msgstr ""
+msgstr "O número máximo de conexões por servidor do Elasticsearch."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_MAX_CONNECTIONS_PER_ROUTE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_MAX_CONNECTIONS_PER_ROUTE[]"
 
 #, fuzzy
 msgid "`10`"
@@ -2661,11 +2775,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-discovery-enabled[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.discovery.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Defines if automatic discovery is enabled."
-msgstr ""
+msgstr "Define se a detecção automática está ativada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_DISCOVERY_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_DISCOVERY_ENABLED[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-discovery-refresh-interval]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-discovery-refresh-interval[quarkus.hibernate-search-orm.elasticsearch.discovery.refresh-interval]`\n"
@@ -2697,14 +2813,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-discovery-refresh-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.discovery.refresh-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "Refresh interval of the node list."
-msgstr ""
+msgstr "Intervalo de atualização da lista de nós."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_DISCOVERY_REFRESH_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_DISCOVERY_REFRESH_INTERVAL[]"
 
+#, fuzzy
 msgid "`10S`"
-msgstr ""
+msgstr "`10S`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-thread-pool-size]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-thread-pool-size[quarkus.hibernate-search-orm.elasticsearch.thread-pool.size]`\n"
@@ -2749,14 +2868,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-thread-pool-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.thread-pool.size]`"
 msgstr ""
 
+#, fuzzy
 msgid "The size of the thread pool assigned to the backend."
-msgstr ""
+msgstr "O tamanho do conjunto de threads atribuído ao backend."
 
+#, fuzzy
 msgid ""
 "Note that number is **per backend**, not per index.\n"
 "Adding more indexes will not add more threads."
-msgstr ""
+msgstr "Observe que esse número se refere *a cada backend* , e não a cada índice. Adicionar mais índices não aumentará o número de threads."
 
+#, fuzzy
 msgid ""
 "As all operations happening in this thread-pool are non-blocking,\n"
 "raising its size above the number of processor cores available to the JVM will not bring noticeable performance\n"
@@ -2765,13 +2887,15 @@ msgid ""
 "for example, in an application with a single index with a single indexing queue,\n"
 "running on a machine with 64 processor cores,\n"
 "you might want to bring down the number of threads."
-msgstr ""
+msgstr "Como todas as operações realizadas neste pool de threads são não-bloqueantes, aumentar seu tamanho para além do número de núcleos de processador disponíveis para a JVM não trará benefício perceptível ao desempenho. A única razão para alterar essa configuração seria reduzir o número de threads; por exemplo, em um aplicativo com um único índice e uma única fila de indexação, em execução em uma máquina com 64 núcleos de processador, talvez seja recomendável diminuir o número de threads."
 
+#, fuzzy
 msgid "Defaults to the number of processor cores available to the JVM on startup."
-msgstr ""
+msgstr "O valor padrão é o número de núcleos de processador disponíveis para a JVM no momento da inicialização."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_THREAD_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_THREAD_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-query-shard-failure-ignore]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-query-shard-failure-ignore[quarkus.hibernate-search-orm.elasticsearch.query.shard-failure.ignore]`\n"
@@ -2803,11 +2927,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-query-shard-failure-ignore[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.query.shard-failure.ignore]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether partial shard failures are ignored (`true`) or lead to Hibernate Search throwing an exception (`false`)."
-msgstr ""
+msgstr "Se as falhas parciais nos shards serão ignoradas ( `true` ) ou se farão com que o Hibernate Search lance uma exceção ( `false` )."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_QUERY_SHARD_FAILURE_IGNORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_QUERY_SHARD_FAILURE_IGNORE[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-version-check-enabled]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-version-check-enabled[quarkus.hibernate-search-orm.elasticsearch.version-check.enabled]`\n"
@@ -2841,14 +2967,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-version-check-enabled[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.version-check.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether Hibernate Search should check the version of the Elasticsearch cluster on startup."
-msgstr ""
+msgstr "Se o Hibernate Search deve verificar a versão do cluster do Elasticsearch na inicialização."
 
+#, fuzzy
 msgid "Set to `false` if the Elasticsearch cluster may not be available on startup."
-msgstr ""
+msgstr "Defina como `“false”` caso o cluster do Elasticsearch possa não estar disponível na inicialização."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_VERSION_CHECK_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_VERSION_CHECK_ENABLED[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-required-status]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-required-status[quarkus.hibernate-search-orm.elasticsearch.schema-management.required-status]`\n"
@@ -2881,16 +3010,19 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-required-status[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.schema-management.required-status]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "The minimal https://www.elastic.co/guide/en/elasticsearch/reference/7.17/cluster-health.html[Elasticsearch cluster\n"
 "status] required on startup."
-msgstr ""
+msgstr "link:https://www.elastic.co/guide/en/elasticsearch/reference/7.17/cluster-health.html[O status] mínimo exigido para link:https://www.elastic.co/guide/en/elasticsearch/reference/7.17/cluster-health.html[o cluster do Elasticsearch] na inicialização."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_REQUIRED_STATUS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_REQUIRED_STATUS[]"
 
+#, fuzzy
 msgid "`green`, `yellow`, `red`"
-msgstr ""
+msgstr "`verde` , `amarelo` , `vermelho`"
 
 msgid "`yellow`"
 msgstr ""
@@ -2925,11 +3057,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-schema-management-required-status-wait-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.schema-management.required-status-wait-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "How long we should wait for the status before failing the bootstrap."
-msgstr ""
+msgstr "Por quanto tempo devemos aguardar a atualização do status antes de interromper o processo de inicialização."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_REQUIRED_STATUS_WAIT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_SCHEMA_MANAGEMENT_REQUIRED_STATUS_WAIT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-queue-count]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-queue-count[quarkus.hibernate-search-orm.elasticsearch.indexing.queue-count]`\n"
@@ -2968,9 +3102,11 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-queue-count[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexing.queue-count]`"
 msgstr ""
 
+#, fuzzy
 msgid "The number of indexing queues assigned to each index."
-msgstr ""
+msgstr "O número de filas de indexação atribuídas a cada índice."
 
+#, fuzzy
 msgid ""
 "Higher values will lead to more connections being used in parallel,\n"
 "which may lead to higher indexing throughput,\n"
@@ -2978,10 +3114,11 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr ""
+msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXING_QUEUE_COUNT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXING_QUEUE_COUNT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-queue-size]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-queue-size[quarkus.hibernate-search-orm.elasticsearch.indexing.queue-size]`\n"
@@ -3018,18 +3155,21 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-queue-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexing.queue-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "The size of indexing queues."
-msgstr ""
+msgstr "O tamanho das filas de indexação."
 
+#, fuzzy
 msgid ""
 "Lower values may lead to lower memory usage, especially if there are many queues,\n"
 "but values that are too low will reduce the likeliness of reaching the max bulk size\n"
 "and increase the likeliness of application threads blocking because the queue is full,\n"
 "which may lead to lower indexing throughput."
-msgstr ""
+msgstr "Valores mais baixos podem resultar em menor uso de memória, especialmente se houver muitas filas; no entanto, valores excessivamente baixos reduzirão a probabilidade de atingir o tamanho máximo de lote e aumentarão a probabilidade de bloqueio das threads do aplicativo devido à fila estar cheia, o que pode resultar em menor rendimento da indexação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXING_QUEUE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXING_QUEUE_SIZE[]"
 
 msgid "`1000`"
 msgstr "`1000`"
@@ -3074,9 +3214,11 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexing-max-bulk-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexing.max-bulk-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum size of bulk requests created when processing indexing queues."
-msgstr ""
+msgstr "O tamanho máximo das solicitações em massa criadas durante o processamento das filas de indexação."
 
+#, fuzzy
 msgid ""
 "Higher values will lead to more documents being sent in each HTTP request sent to Elasticsearch,\n"
 "which may lead to higher indexing throughput,\n"
@@ -3084,15 +3226,17 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr ""
+msgstr "Valores mais altos farão com que mais documentos sejam enviados em cada solicitação HTTP enviada ao Elasticsearch, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de saturar seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
+#, fuzzy
 msgid ""
 "Note that raising this number above the queue size has no effect,\n"
 "as bulks cannot include more requests than are contained in the queue."
-msgstr ""
+msgstr "Observe que aumentar esse número para um valor superior ao tamanho da fila não surte efeito, uma vez que os processamentos em lote não podem incluir mais solicitações do que as contidas na fila."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXING_MAX_BULK_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXING_MAX_BULK_SIZE[]"
 
 msgid "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-per-index-configuration-overrides]]link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-per-index-configuration-overrides[Per-index configuration overrides]"
 msgstr ""
@@ -3135,8 +3279,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-settings-file[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.settings-file]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_SETTINGS_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_SETTINGS_FILE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-mapping-file]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-mapping-file[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".schema-management.mapping-file]`\n"
@@ -3175,8 +3320,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-mapping-file[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.mapping-file]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_MAPPING_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_MAPPING_FILE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-analysis-configurer]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-analysis-configurer[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".analysis.configurer]`\n"
@@ -3222,8 +3368,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-analysis-configurer[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".analysis.configurer]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__ANALYSIS_CONFIGURER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__ANALYSIS_CONFIGURER[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".schema-management.required-status]`\n"
@@ -3256,8 +3403,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.required-status]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_REQUIRED_STATUS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_REQUIRED_STATUS[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout]`\n"
@@ -3289,8 +3437,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-schema-management-required-status-wait-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".schema-management.required-status-wait-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_REQUIRED_STATUS_WAIT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__SCHEMA_MANAGEMENT_REQUIRED_STATUS_WAIT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-count]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-count[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".indexing.queue-count]`\n"
@@ -3329,8 +3478,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-count[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".indexing.queue-count]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__INDEXING_QUEUE_COUNT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__INDEXING_QUEUE_COUNT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".indexing.queue-size]`\n"
@@ -3367,8 +3517,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-queue-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".indexing.queue-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__INDEXING_QUEUE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__INDEXING_QUEUE_SIZE[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-max-bulk-size]]`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-max-bulk-size[quarkus.hibernate-search-orm.elasticsearch.indexes.\"index-name\".indexing.max-bulk-size]`\n"
@@ -3410,16 +3561,19 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-elasticsearch_quarkus-hibernate-search-orm-elasticsearch-indexes-index-name-indexing-max-bulk-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".elasticsearch.indexes.\"index-name\".indexing.max-bulk-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__INDEXING_MAX_BULK_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_ELASTICSEARCH_INDEXES__INDEX_NAME__INDEXING_MAX_BULK_SIZE[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -3518,24 +3672,28 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-enabled[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Whether the event processor is enabled,\n"
 "i.e. whether events will be processed to perform automatic reindexing on this instance of the application."
-msgstr ""
+msgstr "Se o processador de eventos está ativado, ou seja, se os eventos serão processados para realizar a reindexação automática nesta instância do aplicativo."
 
+#, fuzzy
 msgid ""
 "This can be set to `false` to disable event processing on some application nodes,\n"
 "for example to dedicate some nodes to HTTP request processing and other nodes to event processing."
-msgstr ""
+msgstr "É possível definir esse parâmetro como `“false”` para desativar o processamento de eventos em alguns nós da aplicação; por exemplo, para dedicar alguns nós ao processamento de solicitações HTTP e outros nós ao processamento de eventos."
 
+#, fuzzy
 msgid ""
 "See\n"
 "link:{hibernate-search-docs-url}#coordination-outbox-polling-event-processor[this section of the reference documentation]\n"
 "for more information."
-msgstr ""
+msgstr "Consulte link:{hibernate-search-docs-url}#coordination-outbox-polling-event-processor[esta seção da documentação de referência] para obter mais informações."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_ENABLED[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-shards-total-count]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-shards-total-count[quarkus.hibernate-search-orm.coordination.event-processor.shards.total-count]`\n"
@@ -3567,26 +3725,31 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-shards-total-count[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.shards.total-count]`"
 msgstr ""
 
+#, fuzzy
 msgid "The total number of shards that will form a partition of the entity change events to process."
-msgstr ""
+msgstr "O número total de fragmentos que formarão uma partição dos eventos de alteração da entidade a serem processados."
 
+#, fuzzy
 msgid "By default, sharding is dynamic and setting this property is not necessary."
-msgstr ""
+msgstr "Por padrão, o particionamento é dinâmico e não é necessário definir essa propriedade."
 
+#, fuzzy
 msgid ""
 "If you want to control explicitly the number and assignment of shards,\n"
 "you must configure static sharding and then setting this property as well as the assigned shards (see `shards.assigned`)\n"
 "is necessary."
-msgstr ""
+msgstr "Caso deseje controlar explicitamente o número e a atribuição de shards, é necessário configurar o particionamento estático e, em seguida, definir esta propriedade, bem como os shards atribuídos (consulte `shards.assigned` )."
 
+#, fuzzy
 msgid ""
 "See\n"
 "link:{hibernate-search-docs-url}#coordination-outbox-polling-event-processor-sharding[this section of the reference documentation]\n"
 "for more information about event processor sharding."
-msgstr ""
+msgstr "Consulte link:{hibernate-search-docs-url}#coordination-outbox-polling-event-processor-sharding[esta seção da documentação de referência] para obter mais informações sobre o particionamento do processador de eventos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_SHARDS_TOTAL_COUNT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_SHARDS_TOTAL_COUNT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-shards-assigned]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-shards-assigned[quarkus.hibernate-search-orm.coordination.event-processor.shards.assigned]`\n"
@@ -3623,28 +3786,33 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-shards-assigned[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.shards.assigned]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Among shards that will form a partition of the entity change events,\n"
 "the shards that will be processed by this application instance."
-msgstr ""
+msgstr "Entre os fragmentos que formarão uma partição dos eventos de alteração da entidade, os fragmentos que serão processados por esta instância da aplicação."
 
+#, fuzzy
 msgid ""
 "If you want to control explicitly the number and assignment of shards,\n"
 "you must configure static sharding and then setting this property as well as the total shard count\n"
 "is necessary."
-msgstr ""
+msgstr "Caso deseje controlar explicitamente o número e a atribuição dos shards, é necessário configurar o particionamento estático e, em seguida, definir essa propriedade, bem como o número total de shards."
 
+#, fuzzy
 msgid ""
 "Shards are referred to by an index in the range `[0, total_count - 1]` (see `shards.total-count`).\n"
 "A given application node must be assigned at least one shard but may be assigned multiple shards\n"
 "by setting `shards.assigned` to a comma-separated list, e.g. `0,3`."
-msgstr ""
+msgstr "Os fragmentos são referenciados por um índice no intervalo `[0, total_count - 1]` (consulte `shards.total-count` ). Um determinado nó de aplicação deve receber pelo menos um fragmento, mas pode receber vários fragmentos definindo-se `shards.assigned` como uma lista separada por vírgulas, por exemplo, `0,3` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_SHARDS_ASSIGNED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_SHARDS_ASSIGNED[]"
 
+#, fuzzy
 msgid "list of int"
-msgstr ""
+msgstr "lista de int"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-polling-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-polling-interval[quarkus.hibernate-search-orm.coordination.event-processor.polling-interval]`\n"
@@ -3673,16 +3841,19 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-polling-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.polling-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "How long to wait for another query to the outbox events table after a query didn’t return any event."
-msgstr ""
+msgstr "Quanto tempo se deve aguardar para realizar outra consulta à tabela de eventos da caixa de saída após uma consulta não ter retornado nenhum evento."
 
+#, fuzzy
 msgid ""
 "Lower values will reduce the time it takes for a change to be reflected in the index,\n"
 "but will increase the stress on the database when there are no new events."
-msgstr ""
+msgstr "Valores mais baixos reduzirão o tempo necessário para que uma alteração seja refletida no índice, mas aumentarão a carga sobre o banco de dados quando não houver novos eventos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_POLLING_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_POLLING_INTERVAL[]"
 
 msgid "`0.100S`"
 msgstr ""
@@ -3727,37 +3898,43 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-pulse-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.pulse-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "How long the event processor can poll for events before it must perform a \"pulse\",\n"
 "updating and checking registrations in the agents table."
-msgstr ""
+msgstr "Por quanto tempo o processador de eventos pode verificar se há eventos antes de precisar executar um “pulso”, atualizando e verificando os registros na tabela de agentes."
 
+#, fuzzy
 msgid ""
 "The pulse interval must be set to a value between the polling interval\n"
 "and one third (1/3) of the expiration interval."
-msgstr ""
+msgstr "O intervalo de pulso deve ser definido para um valor compreendido entre o intervalo de sondagem e um terço (1/3) do intervalo de expiração."
 
+#, fuzzy
 msgid ""
 "Low values (closer to the polling interval) mean less time wasted not processing events\n"
 "when a node joins or leaves the cluster,\n"
 "and reduced risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected,\n"
 "but more stress on the database because of more frequent checks of the list of agents."
-msgstr ""
+msgstr "Valores baixos (mais próximos do intervalo de sondagem) significam menos tempo perdido sem o processamento de eventos quando um nó entra ou sai do cluster, além de menor risco de perda de tempo devido à não execução do processamento de eventos por um processador de eventos ter sido incorretamente considerado desconectado; no entanto, isso acarreta maior carga sobre o banco de dados devido às verificações mais frequentes da lista de agentes."
 
+#, fuzzy
 msgid ""
 "High values (closer to the expiration interval) mean more time wasted not processing events\n"
 "when a node joins or leaves the cluster,\n"
 "and increased risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected,\n"
 "but less stress on the database because of less frequent checks of the list of agents."
-msgstr ""
+msgstr "Valores elevados (mais próximos do intervalo de expiração) significam mais tempo perdido sem o processamento de eventos quando um nó entra ou sai do cluster, além de um risco maior de perda de tempo devido à falta de processamento de eventos — pois um processador de eventos pode ser considerado incorretamente como desconectado —, mas menos sobrecarga no banco de dados devido à menor frequência das verificações da lista de agentes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_PULSE_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_PULSE_INTERVAL[]"
 
+#, fuzzy
 msgid "`2S`"
-msgstr ""
+msgstr "`2S`"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-pulse-expiration]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-pulse-expiration[quarkus.hibernate-search-orm.coordination.event-processor.pulse-expiration]`\n"
@@ -3796,30 +3973,35 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-pulse-expiration[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.pulse-expiration]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "How long an event processor \"pulse\" remains valid before considering the processor disconnected\n"
 "and forcibly removing it from the cluster."
-msgstr ""
+msgstr "Por quanto tempo um “pulso” do processador de eventos permanece válido antes que o processador seja considerado desconectado e removido à força do cluster."
 
+#, fuzzy
 msgid "The expiration interval must be set to a value at least 3 times larger than the pulse interval."
-msgstr ""
+msgstr "O intervalo de expiração deve ser definido com um valor pelo menos três vezes maior que o intervalo de pulso."
 
+#, fuzzy
 msgid ""
 "Low values (closer to the pulse interval) mean less time wasted not processing events\n"
 "when a node abruptly leaves the cluster due to a crash or network failure,\n"
 "but increased risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected."
-msgstr ""
+msgstr "Valores baixos (mais próximos do intervalo de pulso) significam menos tempo perdido sem o processamento de eventos quando um nó sai abruptamente do cluster devido a uma falha de sistema ou de rede, mas um risco maior de perder tempo sem o processamento de eventos porque um processador de eventos é incorretamente considerado desconectado."
 
+#, fuzzy
 msgid ""
 "High values (much larger than the pulse interval) mean more time wasted not processing events\n"
 "when a node abruptly leaves the cluster due to a crash or network failure,\n"
 "but reduced risk of wasting time not processing events\n"
 "because an event processor is incorrectly considered disconnected."
-msgstr ""
+msgstr "Valores elevados (muito maiores do que o intervalo de pulso) significam mais tempo perdido sem o processamento de eventos quando um nó sai abruptamente do cluster devido a uma falha de sistema ou de rede, mas também um risco reduzido de perder tempo sem processar eventos porque um processador de eventos é considerado, erroneamente, como desconectado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_PULSE_EXPIRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_PULSE_EXPIRATION[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-batch-size]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-batch-size[quarkus.hibernate-search-orm.coordination.event-processor.batch-size]`\n"
@@ -3849,17 +4031,20 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-batch-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.batch-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "How many outbox events, at most, are processed in a single transaction."
-msgstr ""
+msgstr "Qual é o número máximo de eventos da caixa de saída que são processados em uma única transação?"
 
+#, fuzzy
 msgid ""
 "Higher values will reduce the number of transactions opened by the background process\n"
 "and may increase performance thanks to the first-level cache (persistence context),\n"
 "but will increase memory usage and in extreme cases may lead to ``OutOfMemoryError``s."
-msgstr ""
+msgstr "Valores mais altos reduzirão o número de transações abertas pelo processo em segundo plano e poderão aumentar o desempenho graças ao cache de primeiro nível (contexto de persistência), mas aumentarão o uso de memória e, em casos extremos, poderão causar `erros de memória insuficiente (OutOfMemoryErrors)` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_BATCH_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_BATCH_SIZE[]"
 
 msgid "`50`"
 msgstr ""
@@ -3893,18 +4078,21 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-transaction-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.transaction-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "The timeout for transactions processing outbox events."
-msgstr ""
+msgstr "O tempo limite para o processamento de eventos da caixa de saída de transações."
 
+#, fuzzy
 msgid ""
 "When this property is not set,\n"
 "Hibernate Search will use whatever default transaction timeout is configured in the JTA transaction manager,\n"
 "which may be too low for batch processing and lead to transaction timeouts when processing batches of events.\n"
 "If this happens, set a higher transaction timeout for event processing using this property."
-msgstr ""
+msgstr "Quando essa propriedade não estiver definida, o Hibernate Search utilizará o tempo limite padrão de transação configurado no gerenciador de transações JTA, o que pode ser muito baixo para o processamento em lote e resultar em tempo limite de transação esgotado ao processar lotes de eventos. Caso isso ocorra, defina um tempo limite de transação mais alto para o processamento de eventos por meio dessa propriedade."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_TRANSACTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_TRANSACTION_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-retry-delay]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-retry-delay[quarkus.hibernate-search-orm.coordination.event-processor.retry-delay]`\n"
@@ -3932,14 +4120,17 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-event-processor-retry-delay[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.event-processor.retry-delay]`"
 msgstr ""
 
+#, fuzzy
 msgid "How long the event processor must wait before re-processing an event after its previous processing failed."
-msgstr ""
+msgstr "Por quanto tempo o processador de eventos deve aguardar antes de reprocessar um evento após a falha no processamento anterior."
 
+#, fuzzy
 msgid "Use the value `0S` to reprocess failed events as soon as possible, with no delay."
-msgstr ""
+msgstr "Utilize o valor `0S` para reprocessar eventos com falha o mais rápido possível, sem atrasos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_RETRY_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_EVENT_PROCESSOR_RETRY_DELAY[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-polling-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-polling-interval[quarkus.hibernate-search-orm.coordination.mass-indexer.polling-interval]`\n"
@@ -3974,31 +4165,36 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-polling-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.mass-indexer.polling-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "How long to wait for another query to the agent table\n"
 "when actively waiting for event processors to suspend themselves."
-msgstr ""
+msgstr "Quanto tempo se deve aguardar até realizar outra consulta à tabela de agentes quando se está aguardando ativamente que os processadores de eventos se suspendam."
 
+#, fuzzy
 msgid ""
 "Low values will reduce the time it takes for the mass indexer agent to detect\n"
 "that event processors finally suspended themselves,\n"
 "but will increase the stress on the database while the mass indexer agent is actively waiting."
-msgstr ""
+msgstr "Valores baixos reduzirão o tempo que o agente de indexação em massa leva para detectar que os processadores de eventos finalmente entraram em suspensão, mas aumentarão a carga sobre o banco de dados enquanto o agente de indexação em massa estiver aguardando ativamente."
 
+#, fuzzy
 msgid ""
 "High values will increase the time it takes for the mass indexer agent to detect\n"
 "that event processors finally suspended themselves,\n"
 "but will reduce the stress on the database while the mass indexer agent is actively waiting."
-msgstr ""
+msgstr "Valores elevados aumentarão o tempo que o agente de indexação em massa leva para detectar que os processadores de eventos finalmente entraram em suspensão, mas reduzirão a carga sobre o banco de dados enquanto o agente de indexação em massa estiver ativamente aguardando."
 
+#, fuzzy
 msgid ""
 "See\n"
 "link:{hibernate-search-docs-url}#coordination-outbox-polling-mass-indexer[this section of the reference documentation]\n"
 "for more information."
-msgstr ""
+msgstr "Consulte link:{hibernate-search-docs-url}#coordination-outbox-polling-mass-indexer[esta seção da documentação de referência] para obter mais informações."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_MASS_INDEXER_POLLING_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_MASS_INDEXER_POLLING_INTERVAL[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-pulse-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-pulse-interval[quarkus.hibernate-search-orm.coordination.mass-indexer.pulse-interval]`\n"
@@ -4038,27 +4234,31 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-pulse-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.mass-indexer.pulse-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "How long the mass indexer can wait before it must perform a \"pulse\",\n"
 "updating and checking registrations in the agent table."
-msgstr ""
+msgstr "Por quanto tempo o indexador em massa pode aguardar antes de precisar executar um “pulso”, atualizando e verificando os registros na tabela de agentes."
 
+#, fuzzy
 msgid ""
 "Low values (closer to the polling interval) mean reduced risk of\n"
 "event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected,\n"
 "but more stress on the database because of more frequent updates of the mass indexer agent's entry in the agent table."
-msgstr ""
+msgstr "Valores baixos (mais próximos do intervalo de sondagem) significam um risco reduzido de os processadores de eventos voltarem a processar eventos durante a indexação em massa, pois um agente de indexação em massa é considerado, erroneamente, como desconectado; no entanto, isso acarreta maior carga sobre o banco de dados devido às atualizações mais frequentes da entrada do agente de indexação em massa na tabela de agentes."
 
+#, fuzzy
 msgid ""
 "High values (closer to the expiration interval) mean increased risk of\n"
 "event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected,\n"
 "but less stress on the database because of less frequent updates of the mass indexer agent's entry in the agent table."
-msgstr ""
+msgstr "Valores elevados (mais próximos do intervalo de expiração) significam um risco maior de que os processadores de eventos comecem a processar eventos novamente durante a indexação em massa, pois um agente de indexação em massa é considerado, erroneamente, como desconectado; no entanto, isso representa menor carga sobre o banco de dados devido às atualizações menos frequentes da entrada do agente de indexação em massa na tabela de agentes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_MASS_INDEXER_PULSE_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_MASS_INDEXER_PULSE_INTERVAL[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-pulse-expiration]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-pulse-expiration[quarkus.hibernate-search-orm.coordination.mass-indexer.pulse-expiration]`\n"
@@ -4097,22 +4297,25 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-mass-indexer-pulse-expiration[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.mass-indexer.pulse-expiration]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Low values (closer to the pulse interval) mean less time wasted with event processors not processing events\n"
 "when a mass indexer agent terminates due to a crash,\n"
 "but increased risk of event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected."
-msgstr ""
+msgstr "Valores baixos (mais próximos do intervalo de pulso) significam menos tempo perdido com os processadores de eventos deixando de processar eventos quando um agente de indexação em massa é encerrado devido a uma falha, mas um risco maior de os processadores de eventos voltarem a processar eventos durante a indexação em massa, pois um agente de indexação em massa é considerado, erroneamente, como desconectado."
 
+#, fuzzy
 msgid ""
 "High values (much larger than the pulse interval) mean more time wasted with event processors not processing events\n"
 "when a mass indexer agent terminates due to a crash,\n"
 "but reduced risk of event processors starting to process events again during mass indexing\n"
 "because a mass indexer agent is incorrectly considered disconnected."
-msgstr ""
+msgstr "Valores elevados (muito maiores do que o intervalo de pulso) significam mais tempo perdido com os processadores de eventos deixando de processar eventos quando um agente de indexação em massa é encerrado devido a uma falha, mas um risco reduzido de os processadores de eventos voltarem a processar eventos durante a indexação em massa, pois o agente de indexação em massa é considerado, incorretamente, como desconectado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_MASS_INDEXER_PULSE_EXPIRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_MASS_INDEXER_PULSE_EXPIRATION[]"
 
 msgid "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-persistence-units-configuration-for-persistence-units]]link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-persistence-units-configuration-for-persistence-units[Configuration for persistence units]"
 msgstr ""
@@ -4140,11 +4343,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-catalog[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.catalog]`"
 msgstr ""
 
+#, fuzzy
 msgid "The database catalog to use for the agent table."
-msgstr ""
+msgstr "O catálogo do banco de dados a ser utilizado para a tabela de agentes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_CATALOG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_CATALOG[]"
 
 msgid "`Default catalog configured in Hibernate ORM`"
 msgstr ""
@@ -4169,11 +4374,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-schema[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.schema]`"
 msgstr ""
 
+#, fuzzy
 msgid "The schema catalog to use for the agent table."
-msgstr ""
+msgstr "O catálogo de esquemas a ser utilizado para a tabela de agentes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_SCHEMA+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_SCHEMA[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-table]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-table[quarkus.hibernate-search-orm.coordination.entity-mapping.agent.table]`\n"
@@ -4195,11 +4402,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-table[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.table]`"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the agent table."
-msgstr ""
+msgstr "O nome da tabela de agentes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_TABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_TABLE[]"
 
 msgid "`HSEARCH_AGENT`"
 msgstr ""
@@ -4229,23 +4438,29 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-uuid-gen-strategy[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.uuid-gen-strategy]`"
 msgstr ""
 
+#, fuzzy
 msgid "The UUID generator strategy used for the agent table."
-msgstr ""
+msgstr "A estratégia de geração de UUID utilizada para a tabela de agentes."
 
+#, fuzzy
 msgid "Available strategies:"
-msgstr ""
+msgstr "Estratégias disponíveis:"
 
+#, fuzzy
 msgid "`auto` (the default) is the same as `random` which uses `UUID#randomUUID()`."
-msgstr ""
+msgstr "`auto` (o padrão) é equivalente a `random` , que utiliza `UUID#randomUUID()` ."
 
+#, fuzzy
 msgid "`time` is an IP based strategy consistent with IETF RFC 4122."
-msgstr ""
+msgstr "`O \"time\"` é uma estratégia baseada em IP, em conformidade com a RFC 4122 da IETF."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_UUID_GEN_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_UUID_GEN_STRATEGY[]"
 
+#, fuzzy
 msgid "`auto`, `random`, `time`"
-msgstr ""
+msgstr "`automático` , `aleatório` , `tempo`"
 
 #, fuzzy
 msgid "`auto`"
@@ -4278,22 +4493,26 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-agent-uuid-type[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.agent.uuid-type]`"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the Hibernate ORM basic type used for representing an UUID in the outbox event table."
-msgstr ""
+msgstr "O nome do tipo básico do ORM do Hibernate utilizado para representar um UUID na tabela de eventos da caixa de saída."
 
+#, fuzzy
 msgid ""
 "Refer to\n"
 "link:{hibernate-orm-docs-url}#basic-uuid[this section of the Hibernate ORM documentation]\n"
 "to see the possible UUID representations."
-msgstr ""
+msgstr "Consulte link:{hibernate-orm-docs-url}#basic-uuid[esta seção da documentação do ORM do Hibernate] para conhecer as possíveis representações de UUID."
 
+#, fuzzy
 msgid ""
 "Defaults to the special value `default`, which will result into one of `char`/`binary`\n"
 "depending on the database kind."
-msgstr ""
+msgstr "O valor padrão é o valor especial `“default”` , o que resultará em `“char”` ou `“binary”` , dependendo do tipo de banco de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_UUID_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_AGENT_UUID_TYPE[]"
 
 msgid "`char/binary depending on the database kind`"
 msgstr ""
@@ -4318,11 +4537,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-catalog[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.catalog]`"
 msgstr ""
 
+#, fuzzy
 msgid "The database catalog to use for the outbox event table."
-msgstr ""
+msgstr "O catálogo do banco de dados a ser utilizado para a tabela de eventos da caixa de saída."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_CATALOG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_CATALOG[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-schema]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-schema[quarkus.hibernate-search-orm.coordination.entity-mapping.outbox-event.schema]`\n"
@@ -4344,11 +4565,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-schema[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.schema]`"
 msgstr ""
 
+#, fuzzy
 msgid "The schema catalog to use for the outbox event table."
-msgstr ""
+msgstr "O catálogo de esquemas a ser utilizado para a tabela de eventos da caixa de saída."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_SCHEMA+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_SCHEMA[]"
 
 msgid "`Default schema configured in Hibernate ORM`"
 msgstr ""
@@ -4373,11 +4596,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-table[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.table]`"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the outbox event table."
-msgstr ""
+msgstr "O nome da tabela de eventos da caixa de saída."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_TABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_TABLE[]"
 
 msgid "`HSEARCH_OUTBOX_EVENT`"
 msgstr ""
@@ -4407,11 +4632,13 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-uuid-gen-strategy[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.uuid-gen-strategy]`"
 msgstr ""
 
+#, fuzzy
 msgid "The UUID generator strategy used for the outbox event table."
-msgstr ""
+msgstr "A estratégia de geração de UUID utilizada para a tabela de eventos da caixa de saída."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_UUID_GEN_STRATEGY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_UUID_GEN_STRATEGY[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-uuid-type]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-uuid-type[quarkus.hibernate-search-orm.coordination.entity-mapping.outbox-event.uuid-type]`\n"
@@ -4440,8 +4667,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-entity-mapping-outbox-event-uuid-type[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.entity-mapping.outbox-event.uuid-type]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_UUID_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_ENTITY_MAPPING_OUTBOX_EVENT_UUID_TYPE[]"
 
 msgid "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-per-tenant-configuration-overrides]]link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-per-tenant-configuration-overrides[Per-tenant configuration overrides]"
 msgstr ""
@@ -4474,8 +4702,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-enabled[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_ENABLED[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-shards-total-count]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-shards-total-count[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.shards.total-count]`\n"
@@ -4507,8 +4736,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-shards-total-count[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.shards.total-count]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_SHARDS_TOTAL_COUNT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_SHARDS_TOTAL_COUNT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-shards-assigned]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-shards-assigned[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.shards.assigned]`\n"
@@ -4545,8 +4775,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-shards-assigned[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.shards.assigned]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_SHARDS_ASSIGNED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_SHARDS_ASSIGNED[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-polling-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-polling-interval[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.polling-interval]`\n"
@@ -4575,8 +4806,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-polling-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.polling-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_POLLING_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_POLLING_INTERVAL[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-pulse-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-pulse-interval[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.pulse-interval]`\n"
@@ -4618,8 +4850,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-pulse-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.pulse-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_PULSE_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_PULSE_INTERVAL[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-pulse-expiration]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-pulse-expiration[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.pulse-expiration]`\n"
@@ -4658,8 +4891,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-pulse-expiration[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.pulse-expiration]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_PULSE_EXPIRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_PULSE_EXPIRATION[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-batch-size]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-batch-size[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.batch-size]`\n"
@@ -4689,8 +4923,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-batch-size[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.batch-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_BATCH_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_BATCH_SIZE[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-transaction-timeout]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-transaction-timeout[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.transaction-timeout]`\n"
@@ -4721,8 +4956,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-transaction-timeout[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.transaction-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_TRANSACTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_TRANSACTION_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-retry-delay]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-retry-delay[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".event-processor.retry-delay]`\n"
@@ -4750,8 +4986,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-event-processor-retry-delay[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".event-processor.retry-delay]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_RETRY_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__EVENT_PROCESSOR_RETRY_DELAY[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-polling-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-polling-interval[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.polling-interval]`\n"
@@ -4786,8 +5023,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-polling-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".mass-indexer.polling-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__MASS_INDEXER_POLLING_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__MASS_INDEXER_POLLING_INTERVAL[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval]`\n"
@@ -4827,8 +5065,9 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-interval[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".mass-indexer.pulse-interval]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__MASS_INDEXER_PULSE_INTERVAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__MASS_INDEXER_PULSE_INTERVAL[]"
 
 msgid ""
 "[[quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-expiration]]`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-expiration[quarkus.hibernate-search-orm.coordination.tenants.\"tenant-id\".mass-indexer.pulse-expiration]`\n"
@@ -4867,5 +5106,6 @@ msgstr ""
 msgid "`link:#quarkus-hibernate-search-orm-outboxpolling_quarkus-hibernate-search-orm-coordination-tenants-tenant-id-mass-indexer-pulse-expiration[quarkus.hibernate-search-orm.\"persistence-unit-name\".coordination.tenants.\"tenant-id\".mass-indexer.pulse-expiration]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__MASS_INDEXER_PULSE_EXPIRATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HIBERNATE_SEARCH_ORM_COORDINATION_TENANTS__TENANT_ID__MASS_INDEXER_PULSE_EXPIRATION[]"

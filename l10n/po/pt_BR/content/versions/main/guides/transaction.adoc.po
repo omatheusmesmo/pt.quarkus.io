@@ -384,8 +384,9 @@ msgstr "O nome do nó não pode ter mais de 28 bytes. Para encurtar automaticame
 msgid "Shortening is implemented by hashing the node name, encoding the hash to Base64 and then truncating the result. As with all hashes, the resulting shortened node name could potentially conflict with another shortened node name, but it is https://github.com/quarkusio/quarkus/issues/30491#issuecomment-1537247764[very unlikely]."
 msgstr "O encurtamento é implementado por meio do hash do nome do nó, codificando o hash para Base64 e, em seguida, truncando o resultado. Como acontece com todos os hashes, o nome do nó abreviado resultante pode entrar em conflito com outro nome de nó abreviado, mas é link:https://github.com/quarkusio/quarkus/issues/30491#issuecomment-1537247764[muito improvável] ."
 
+#, fuzzy
 msgid "Using <code>@TransactionScoped</code> to bind CDI beans to the transaction lifecycle"
-msgstr ""
+msgstr "Utilização de <code>@TransactionScoped</code> para vincular beans CDI ao ciclo de vida da transação"
 
 #, fuzzy
 msgid ""
@@ -559,8 +560,9 @@ msgstr "Referência de configuração para transações"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -582,25 +584,30 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-node-name]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-node-name[`+++quarkus.transaction-manager.node-name+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.node-name+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-node-name[quarkus.transaction-manager.node-name] config_property_copy_button:quarkus.transaction-manager.node-name[]"
 
+#, fuzzy
 msgid "The node name used by the transaction manager. Must not exceed a length of 28 bytes."
-msgstr ""
+msgstr "O nome do nó utilizado pelo gerenciador de transações. Não deve exceder 28 bytes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_NODE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_NODE_NAME[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`+++quarkus+++`"
-msgstr ""
+msgstr "`quarkus`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-shorten-node-name-if-necessary]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-shorten-node-name-if-necessary[`+++quarkus.transaction-manager.shorten-node-name-if-necessary+++`]##\n"
@@ -616,22 +623,26 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-shorten-node-name-if-necessary]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-shorten-node-name-if-necessary[`+++quarkus.transaction-manager.shorten-node-name-if-necessary+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.shorten-node-name-if-necessary+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-shorten-node-name-if-necessary[quarkus.transaction-manager.shorten-node-name-if-necessary] config_property_copy_button:quarkus.transaction-manager.shorten-node-name-if-necessary[]"
 
+#, fuzzy
 msgid "Whether the node name should be shortened if necessary. The node name must not exceed a length of 28 bytes. If this property is set to `true`, and the node name exceeds 28 bytes, the node name is shortened by calculating the link:https://en.wikipedia.org/wiki/SHA-2[SHA-224] hash, which has a length of 28 bytes, encoded to Base64 format and then shortened to 28 bytes."
-msgstr ""
+msgstr "Se o nome do nó deve ser encurtado, se necessário. O nome do nó não deve exceder 28 bytes. Se esta propriedade for definida como `“true”` e o nome do nó exceder 28 bytes, o nome do nó será encurtado por meio do cálculo do hash link:https://en.wikipedia.org/wiki/SHA-2[SHA-224] , que tem 28 bytes, codificado no formato Base64 e, em seguida, encurtado para 28 bytes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_SHORTEN_NODE_NAME_IF_NECESSARY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_SHORTEN_NODE_NAME_IF_NECESSARY[]"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "`+++false+++`"
-msgstr ""
+msgstr "`falso`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-default-transaction-timeout]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-default-transaction-timeout[`+++quarkus.transaction-manager.default-transaction-timeout+++`]##\n"
@@ -647,22 +658,27 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-default-transaction-timeout]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-default-transaction-timeout[`+++quarkus.transaction-manager.default-transaction-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.default-transaction-timeout+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-default-transaction-timeout[quarkus.transaction-manager.default-transaction-timeout] config_property_copy_button:quarkus.transaction-manager.default-transaction-timeout[]"
 
+#, fuzzy
 msgid "The default transaction timeout."
-msgstr ""
+msgstr "O tempo limite padrão da transação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_DEFAULT_TRANSACTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_DEFAULT_TRANSACTION_TIMEOUT[]"
 
+#, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-narayana-jta_quarkus-transaction-manager[icon:question-circle[title=More information about the Duration format]]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-narayana-jta_quarkus-transaction-manager[[círculo de pergunta]]"
 
+#, fuzzy
 msgid "`+++60S+++`"
-msgstr ""
+msgstr "`anos 60`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-enable-recovery]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-enable-recovery[`+++quarkus.transaction-manager.enable-recovery+++`]##\n"
@@ -680,22 +696,27 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-enable-recovery]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-enable-recovery[`+++quarkus.transaction-manager.enable-recovery+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.enable-recovery+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-enable-recovery[quarkus.transaction-manager.enable-recovery] config_property_copy_button:quarkus.transaction-manager.enable-recovery[]"
 
+#, fuzzy
 msgid "Start the recovery service on startup."
-msgstr ""
+msgstr "Inicie o serviço de recuperação na inicialização."
 
+#, fuzzy
 msgid "If not set, the recovery service will be started automatically if XA datasources are configured. Set to `true` to always enable recovery, or `false` to explicitly disable it."
-msgstr ""
+msgstr "Se não for definido, o serviço de recuperação será iniciado automaticamente caso haja fontes de dados XA configuradas. Defina como `“true”` para habilitar sempre a recuperação ou como `“false”` para desabilitá-la explicitamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_ENABLE_RECOVERY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_ENABLE_RECOVERY[]"
 
+#, fuzzy
 msgid "`+++`true` if XA datasources are configured, `false` otherwise+++`"
-msgstr ""
+msgstr "``true` se houver fontes de dados XA configuradas; `false` caso contrário`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-recovery-modules]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-recovery-modules[`+++quarkus.transaction-manager.recovery-modules+++`]##\n"
@@ -711,23 +732,27 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-recovery-modules]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-recovery-modules[`+++quarkus.transaction-manager.recovery-modules+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.recovery-modules+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-recovery-modules[quarkus.transaction-manager.recovery-modules] config_property_copy_button:quarkus.transaction-manager.recovery-modules[]"
 
+#, fuzzy
 msgid "The list of recovery modules."
-msgstr ""
+msgstr "A lista de módulos de recuperação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_RECOVERY_MODULES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_RECOVERY_MODULES[]"
 
 #, fuzzy
 msgid "list of string"
 msgstr "lista de strings"
 
+#, fuzzy
 msgid "`+++com.arjuna.ats.internal.arjuna.recovery.AtomicActionRecoveryModule+++`, `+++com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule+++`"
-msgstr ""
+msgstr "`com.arjuna.ats.internal.arjuna.recovery.AtomicActionRecoveryModule` , `com.arjuna.ats.internal.jta.recovery.arjunacore.XARecoveryModule`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-expiry-scanners]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-expiry-scanners[`+++quarkus.transaction-manager.expiry-scanners+++`]##\n"
@@ -743,19 +768,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-expiry-scanners]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-expiry-scanners[`+++quarkus.transaction-manager.expiry-scanners+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.expiry-scanners+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-expiry-scanners[quarkus.transaction-manager.expiry-scanners] config_property_copy_button:quarkus.transaction-manager.expiry-scanners[]"
 
+#, fuzzy
 msgid "The list of expiry scanners."
-msgstr ""
+msgstr "A lista de verificadores de validade."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_EXPIRY_SCANNERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_EXPIRY_SCANNERS[]"
 
+#, fuzzy
 msgid "`+++com.arjuna.ats.internal.arjuna.recovery.ExpiredTransactionStatusManagerScanner+++`"
-msgstr ""
+msgstr "`com.arjuna.ats.internal.arjuna.recovery.ExpiredTransactionStatusManagerScanner`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-xa-resource-orphan-filters]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-xa-resource-orphan-filters[`+++quarkus.transaction-manager.xa-resource-orphan-filters+++`]##\n"
@@ -771,19 +800,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-xa-resource-orphan-filters]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-xa-resource-orphan-filters[`+++quarkus.transaction-manager.xa-resource-orphan-filters+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.xa-resource-orphan-filters+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-xa-resource-orphan-filters[quarkus.transaction-manager.xa-resource-orphan-filters] config_property_copy_button:quarkus.transaction-manager.xa-resource-orphan-filters[]"
 
+#, fuzzy
 msgid "The list of orphan filters."
-msgstr ""
+msgstr "A lista de filtros órfãos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_XA_RESOURCE_ORPHAN_FILTERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_XA_RESOURCE_ORPHAN_FILTERS[]"
 
+#, fuzzy
 msgid "`+++com.arjuna.ats.internal.jta.recovery.arjunacore.JTATransactionLogXAResourceOrphanFilter+++`, `+++com.arjuna.ats.internal.jta.recovery.arjunacore.JTANodeNameXAResourceOrphanFilter+++`, `+++com.arjuna.ats.internal.jta.recovery.arjunacore.JTAActionStatusServiceXAResourceOrphanFilter+++`"
-msgstr ""
+msgstr "`com.arjuna.ats.internal.jta.recovery.arjunacore.JTATransactionLogXAResourceOrphanFilter` , `com.arjuna.ats.internal.jta.recovery.arjunacore.JTANodeNameXAResourceOrphanFilter` , `com.arjuna.ats.internal.jta.recovery.arjunacore.JTAActionStatusServiceXAResourceOrphanFilter`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-check-period]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-check-period[`+++quarkus.transaction-manager.reaper.check-period+++`]##\n"
@@ -799,19 +832,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-check-period]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-check-period[`+++quarkus.transaction-manager.reaper.check-period+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.reaper.check-period+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-check-period[quarkus.transaction-manager.reaper.check-period] config_property_copy_button:quarkus.transaction-manager.reaper.check-period[]"
 
+#, fuzzy
 msgid "The interval at which the reaper checks for timed-out transactions."
-msgstr ""
+msgstr "O intervalo em que o reaper verifica se há transações que excederam o tempo limite."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_REAPER_CHECK_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_REAPER_CHECK_PERIOD[]"
 
+#, fuzzy
 msgid "`+++120S+++`"
-msgstr ""
+msgstr "`120S`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-wait-period]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-wait-period[`+++quarkus.transaction-manager.reaper.cancel-wait-period+++`]##\n"
@@ -829,22 +866,27 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-wait-period]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-wait-period[`+++quarkus.transaction-manager.reaper.cancel-wait-period+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.reaper.cancel-wait-period+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-wait-period[quarkus.transaction-manager.reaper.cancel-wait-period] config_property_copy_button:quarkus.transaction-manager.reaper.cancel-wait-period[]"
 
+#, fuzzy
 msgid "The time the reaper waits before interrupting a cancel worker that is rolling back a timed-out transaction."
-msgstr ""
+msgstr "O tempo que o reaper aguarda antes de interromper um processador de cancelamento que está revertendo uma transação cujo tempo limite expirou."
 
+#, fuzzy
 msgid "When a transaction exceeds its timeout, the reaper schedules a cancel and waits this period before interrupting the cancel worker. In CPU-constrained environments (e.g., containers with strict CPU limits), the default of 500ms may be too aggressive, causing premature zombie transaction declarations."
-msgstr ""
+msgstr "Quando uma transação excede seu tempo limite, o reaper agenda um cancelamento e aguarda esse período antes de interromper o trabalhador de cancelamento. Em ambientes com restrições de CPU (por exemplo, contêineres com limites rigorosos de CPU), o valor padrão de 500 ms pode ser excessivamente agressivo, causando declarações prematuras de transações “zumbis”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_REAPER_CANCEL_WAIT_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_REAPER_CANCEL_WAIT_PERIOD[]"
 
+#, fuzzy
 msgid "`+++500MS+++`"
-msgstr ""
+msgstr "`500 ms`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-fail-wait-period]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-fail-wait-period[`+++quarkus.transaction-manager.reaper.cancel-fail-wait-period+++`]##\n"
@@ -862,19 +904,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-fail-wait-period]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-fail-wait-period[`+++quarkus.transaction-manager.reaper.cancel-fail-wait-period+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.reaper.cancel-fail-wait-period+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-cancel-fail-wait-period[quarkus.transaction-manager.reaper.cancel-fail-wait-period] config_property_copy_button:quarkus.transaction-manager.reaper.cancel-fail-wait-period[]"
 
+#, fuzzy
 msgid "The time the reaper waits after interrupting a cancel worker before declaring the transaction a zombie."
-msgstr ""
+msgstr "O tempo que o reaper aguarda após interromper um “cancel worker” antes de declarar a transação como “zombie”."
 
+#, fuzzy
 msgid "After interrupting a cancel worker, the reaper waits this period. If the worker has not completed by then, the transaction is marked as a zombie. In CPU-constrained environments, increasing this value gives the application thread more time to respond to the cancellation."
-msgstr ""
+msgstr "Após interromper um trabalhador de cancelamento, o reaper aguarda esse período. Se o trabalhador não tiver concluído a tarefa até esse momento, a transação é marcada como “zumbi”. Em ambientes com restrições de CPU, aumentar esse valor concede à thread do aplicativo mais tempo para responder ao cancelamento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_REAPER_CANCEL_FAIL_WAIT_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_REAPER_CANCEL_FAIL_WAIT_PERIOD[]"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-zombie-max]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-zombie-max[`+++quarkus.transaction-manager.reaper.zombie-max+++`]##\n"
@@ -892,25 +938,30 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-reaper-zombie-max]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-zombie-max[`+++quarkus.transaction-manager.reaper.zombie-max+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.reaper.zombie-max+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-reaper-zombie-max[quarkus.transaction-manager.reaper.zombie-max] config_property_copy_button:quarkus.transaction-manager.reaper.zombie-max[]"
 
+#, fuzzy
 msgid "The maximum number of zombie transactions before the reaper escalates to ERROR-level logging."
-msgstr ""
+msgstr "O número máximo de transações “zumbis” antes que o “reaper” passe a registrar em nível de ERRO."
 
+#, fuzzy
 msgid "A zombie transaction is one where the cancel worker was unable to roll it back within the configured wait periods. Once this threshold is reached, subsequent zombies are logged at ERROR level instead of WARN."
-msgstr ""
+msgstr "Uma transação “zumbi” é aquela em que o processador de cancelamento não conseguiu revertê-la dentro dos períodos de espera configurados. Uma vez atingido esse limite, as transações “zumbis” subsequentes são registradas no nível ERROR, em vez de WARN."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_REAPER_ZOMBIE_MAX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_REAPER_ZOMBIE_MAX[]"
 
 msgid "int"
 msgstr "int"
 
+#, fuzzy
 msgid "`+++8+++`"
-msgstr ""
+msgstr "`8`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-directory]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-directory[`+++quarkus.transaction-manager.object-store.directory+++`]##\n"
@@ -926,19 +977,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-directory]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-directory[`+++quarkus.transaction-manager.object-store.directory+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.object-store.directory+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-directory[quarkus.transaction-manager.object-store.directory] config_property_copy_button:quarkus.transaction-manager.object-store.directory[]"
 
+#, fuzzy
 msgid "The name of the directory where the transaction logs will be stored when using the `file-system` object store. If the value is not absolute then the directory is relative to the _user.dir_ system property."
-msgstr ""
+msgstr "O nome do diretório onde os logs de transação serão armazenados ao utilizar o armazenamento de objetos `no sistema de arquivos` . Se o valor não for absoluto, o diretório será considerado relativo à propriedade do sistema _user.dir_ ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_DIRECTORY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_DIRECTORY[]"
 
+#, fuzzy
 msgid "`+++ObjectStore+++`"
-msgstr ""
+msgstr "`ObjectStore`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-type]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-type[`+++quarkus.transaction-manager.object-store.type+++`]##\n"
@@ -954,22 +1009,27 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-type]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-type[`+++quarkus.transaction-manager.object-store.type+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.object-store.type+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-type[quarkus.transaction-manager.object-store.type] config_property_copy_button:quarkus.transaction-manager.object-store.type[]"
 
+#, fuzzy
 msgid "The type of object store."
-msgstr ""
+msgstr "O tipo de armazenamento de objetos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_TYPE[]"
 
+#, fuzzy
 msgid "`file-system`, `jdbc`"
-msgstr ""
+msgstr "`sistema de arquivos` , `JDBC`"
 
+#, fuzzy
 msgid "`+++file-system+++`"
-msgstr ""
+msgstr "`sistema de arquivos`"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-datasource]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-datasource[`+++quarkus.transaction-manager.object-store.datasource+++`]##\n"
@@ -987,19 +1047,23 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-datasource]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-datasource[`+++quarkus.transaction-manager.object-store.datasource+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.object-store.datasource+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-datasource[quarkus.transaction-manager.object-store.datasource] config_property_copy_button:quarkus.transaction-manager.object-store.datasource[]"
 
+#, fuzzy
 msgid "The name of the datasource where the transaction logs will be stored when using the `jdbc` object store."
-msgstr ""
+msgstr "O nome da fonte de dados na qual os logs de transação serão armazenados ao utilizar o armazenamento de objetos `JDBC` ."
 
+#, fuzzy
 msgid "If undefined, it will use the default datasource."
-msgstr ""
+msgstr "Caso não seja definido, será utilizada a fonte de dados padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_DATASOURCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_DATASOURCE[]"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-create-table]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-create-table[`+++quarkus.transaction-manager.object-store.create-table+++`]##\n"
@@ -1015,16 +1079,19 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-create-table]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-create-table[`+++quarkus.transaction-manager.object-store.create-table+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.object-store.create-table+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-create-table[quarkus.transaction-manager.object-store.create-table] config_property_copy_button:quarkus.transaction-manager.object-store.create-table[]"
 
+#, fuzzy
 msgid "Whether to create the table if it does not exist."
-msgstr ""
+msgstr "Se deve criar a tabela caso ela não exista."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_CREATE_TABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_CREATE_TABLE[]"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-drop-table]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-drop-table[`+++quarkus.transaction-manager.object-store.drop-table+++`]##\n"
@@ -1040,16 +1107,19 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-drop-table]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-drop-table[`+++quarkus.transaction-manager.object-store.drop-table+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.object-store.drop-table+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-drop-table[quarkus.transaction-manager.object-store.drop-table] config_property_copy_button:quarkus.transaction-manager.object-store.drop-table[]"
 
+#, fuzzy
 msgid "Whether to drop the table on startup."
-msgstr ""
+msgstr "Se a tabela deve ser excluída na inicialização."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_DROP_TABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_DROP_TABLE[]"
 
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-table-prefix]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-table-prefix[`+++quarkus.transaction-manager.object-store.table-prefix+++`]##\n"
@@ -1065,24 +1135,30 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-narayana-jta_quarkus-transaction-manager-object-store-table-prefix]] [.property-path]##link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-table-prefix[`+++quarkus.transaction-manager.object-store.table-prefix+++`]##\n"
 "config_property_copy_button:+++quarkus.transaction-manager.object-store.table-prefix+++[]"
-msgstr ""
+msgstr " link:#quarkus-narayana-jta_quarkus-transaction-manager-object-store-table-prefix[quarkus.transaction-manager.object-store.table-prefix] config_property_copy_button:quarkus.transaction-manager.object-store.table-prefix[]"
 
+#, fuzzy
 msgid "The prefix to apply to the table."
-msgstr ""
+msgstr "O prefixo a ser aplicado à tabela."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_TABLE_PREFIX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TRANSACTION_MANAGER_OBJECT_STORE_TABLE_PREFIX[]"
 
+#, fuzzy
 msgid "`+++quarkus_+++`"
-msgstr ""
+msgstr "`quarkus_`"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."

@@ -2922,7 +2922,7 @@ msgstr "`quarkus.hibernate-search-orm.\"nome-da-unidade-de-persistência\".elast
 #. mt: deepl
 #, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr "A lista de hosts dos servidores do Elasticsearch."
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
 #. mt: deepl
 #, fuzzy

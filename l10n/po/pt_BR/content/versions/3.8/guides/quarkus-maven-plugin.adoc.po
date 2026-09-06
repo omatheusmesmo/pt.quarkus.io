@@ -28,11 +28,13 @@ msgstr "Referência dos objetivos do Maven"
 msgid "Here is the list of all the Quarkus Maven Plugin goals:"
 msgstr "Aqui está a lista de todos os objetivos do Plugin Maven do Quarkus:"
 
+#, fuzzy
 msgid "quarkus:add-extension"
-msgstr ""
+msgstr "quarkus:adicionar-extensão"
 
+#, fuzzy
 msgid "Allow adding an extension to an existing pom.xml file. Because you can add one or several extension in one go, there are 2 mojos: add-extensions and add-extension. Both supports the extension and extensions parameters."
-msgstr ""
+msgstr "Permita a adição de uma extensão a um arquivo pom.xml existente. Como é possível adicionar uma ou várias extensões de uma só vez, existem dois mojos: add-extensions e add-extension. Ambos aceitam os parâmetros “extension” e “extensions”."
 
 msgid "[[quarkus-maven-plugin-goal-add-extension-parameter-parameter]]link:#quarkus-maven-plugin-goal-add-extension-parameter-parameter[Parameter]"
 msgstr ""
@@ -98,11 +100,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-add-extension-extension]]`link:#quarkus-maven-plugin-goal-add-extension-extension[extension]`"
 msgstr ""
 
+#, fuzzy
 msgid "For usability reason, this parameter allows adding a single extension."
-msgstr ""
+msgstr "Por motivos de usabilidade, este parâmetro permite adicionar uma única extensão."
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-add-extension-extensions]]`link:#quarkus-maven-plugin-goal-add-extension-extensions[extensions]`\n"
@@ -117,8 +121,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-add-extension-extensions]]`link:#quarkus-maven-plugin-goal-add-extension-extensions[extensions]`"
 msgstr ""
 
+#, fuzzy
 msgid "The list of extensions to be added."
-msgstr ""
+msgstr "A lista de extensões a serem adicionadas."
 
 msgid "Set"
 msgstr "Set"
@@ -139,8 +144,9 @@ msgstr ""
 msgid "MavenProject"
 msgstr ""
 
+#, fuzzy
 msgid "`${project}`"
-msgstr ""
+msgstr "`${project}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-add-extension-reposession]]`link:#quarkus-maven-plugin-goal-add-extension-reposession[repoSession]`\n"
@@ -158,8 +164,9 @@ msgstr ""
 msgid "RepositorySystemSession"
 msgstr ""
 
+#, fuzzy
 msgid "`${repositorySystemSession}`"
-msgstr ""
+msgstr "`${repositorySystemSession}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-add-extension-repos]]`link:#quarkus-maven-plugin-goal-add-extension-repos[repos]`\n"
@@ -177,8 +184,9 @@ msgstr ""
 msgid "List"
 msgstr "List"
 
+#, fuzzy
 msgid "`${project.remoteProjectRepositories}`"
-msgstr ""
+msgstr "`${project.remoteProjectRepositories}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-add-extension-session]]`link:#quarkus-maven-plugin-goal-add-extension-session[session]`\n"
@@ -196,14 +204,17 @@ msgstr ""
 msgid "MavenSession"
 msgstr ""
 
+#, fuzzy
 msgid "`${session}`"
-msgstr ""
+msgstr "`${session}`"
 
+#, fuzzy
 msgid "quarkus:add-extensions"
-msgstr ""
+msgstr "quarkus:adicionar-extensões"
 
+#, fuzzy
 msgid "Allow adding extensions to an existing pom.xml file. Because you can add one or several extension in one go, there are 2 mojos: add-extensions and add-extension. Both supports the extension and extensions parameters."
-msgstr ""
+msgstr "Permita a adição de extensões a um arquivo pom.xml existente. Como é possível adicionar uma ou várias extensões de uma só vez, existem dois mojos: add-extensions e add-extension. Ambos suportam os parâmetros “extension” e “extensions”."
 
 msgid "[[quarkus-maven-plugin-goal-add-extensions-parameter-parameter]]link:#quarkus-maven-plugin-goal-add-extensions-parameter-parameter[Parameter]"
 msgstr ""
@@ -325,8 +336,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-add-extensions-session]]`link:#quarkus-maven-plugin-goal-add-extensions-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:analyze-call-tree"
-msgstr ""
+msgstr "quarkus:analyze-call-tree"
 
 msgid "Analyze call tree of a method or a class based on an existing report produced by Substrate when using -H:{plus}PrintAnalysisCallTree, and does a more meaningful analysis of what is causing a type to be retained."
 msgstr ""
@@ -347,8 +359,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-analyze-call-tree-classname]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-classname[className]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${class}`"
-msgstr ""
+msgstr "`${class}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-analyze-call-tree-methodname]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-methodname[methodName]`\n"
@@ -363,8 +376,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-analyze-call-tree-methodname]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-methodname[methodName]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${method}`"
-msgstr ""
+msgstr "`${método}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-analyze-call-tree-reportsdir]]`link:#quarkus-maven-plugin-goal-analyze-call-tree-reportsdir[reportsDir]`\n"
@@ -382,14 +396,17 @@ msgstr ""
 msgid "File"
 msgstr ""
 
+#, fuzzy
 msgid "`${project.build.directory}/reports`"
-msgstr ""
+msgstr "`${project.build.directory}/reports`"
 
+#, fuzzy
 msgid "quarkus:build"
-msgstr ""
+msgstr "quarkus:build"
 
+#, fuzzy
 msgid "Builds the Quarkus application."
-msgstr ""
+msgstr "Compila o aplicativo Quarkus."
 
 msgid "[[quarkus-maven-plugin-goal-build-parameter-parameter]]link:#quarkus-maven-plugin-goal-build-parameter-parameter[Parameter]"
 msgstr ""
@@ -423,8 +440,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-attachrunnerasmainartifact]]`link:#quarkus-maven-plugin-goal-build-attachrunnerasmainartifact[attachRunnerAsMainArtifact]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to replace the original JAR with the Uber runner JAR as the main project artifact"
-msgstr ""
+msgstr "Se deve substituir o JAR original pelo JAR do Uber Runner como artefato principal do projeto"
 
 msgid "boolean"
 msgstr "booleano"
@@ -462,8 +480,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-builddir]]`link:#quarkus-maven-plugin-goal-build-builddir[buildDir]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${project.build.directory}`"
-msgstr ""
+msgstr "`${project.build.directory}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-builddirectory]]`link:#quarkus-maven-plugin-goal-build-builddirectory[buildDirectory]`\n"
@@ -491,8 +510,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-closebootstrappedapp]]`link:#quarkus-maven-plugin-goal-build-closebootstrappedapp[closeBootstrappedApp]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to close the bootstrapped applications after the execution"
-msgstr ""
+msgstr "Se as aplicações iniciadas com bootstrap devem ser encerradas após a execução"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-finalname]]`link:#quarkus-maven-plugin-goal-build-finalname[finalName]`\n"
@@ -507,8 +527,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-finalname]]`link:#quarkus-maven-plugin-goal-build-finalname[finalName]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${project.build.finalName}`"
-msgstr ""
+msgstr "`${project.build.finalName}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-generatedsourcesdirectory]]`link:#quarkus-maven-plugin-goal-build-generatedsourcesdirectory[generatedSourcesDirectory]`\n"
@@ -523,11 +544,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-generatedsourcesdirectory]]`link:#quarkus-maven-plugin-goal-build-generatedsourcesdirectory[generatedSourcesDirectory]`"
 msgstr ""
 
+#, fuzzy
 msgid "The directory for generated source files."
-msgstr ""
+msgstr "O diretório dos arquivos-fonte gerados."
 
+#, fuzzy
 msgid "`${project.build.directory}/generated-sources`"
-msgstr ""
+msgstr "`${project.build.directory}/generated-sources`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-ignoredentries]]`link:#quarkus-maven-plugin-goal-build-ignoredentries[ignoredEntries]`\n"
@@ -561,8 +584,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-manifestentries]]`link:#quarkus-maven-plugin-goal-build-manifestentries[manifestEntries]`"
 msgstr ""
 
+#, fuzzy
 msgid "The list of main manifest attributes"
-msgstr ""
+msgstr "A lista dos principais atributos do manifesto"
 
 msgid "Map"
 msgstr "Map"
@@ -580,8 +604,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-manifestsections]]`link:#quarkus-maven-plugin-goal-build-manifestsections[manifestSections]`"
 msgstr ""
 
+#, fuzzy
 msgid "The list of manifest sections"
-msgstr ""
+msgstr "A lista das seções do manifesto"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-mojoexecution]]`link:#quarkus-maven-plugin-goal-build-mojoexecution[mojoExecution]`\n"
@@ -596,14 +621,16 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-mojoexecution]]`link:#quarkus-maven-plugin-goal-build-mojoexecution[mojoExecution]`"
 msgstr ""
 
+#, fuzzy
 msgid "The context of the execution of the plugin."
-msgstr ""
+msgstr "O contexto de execução do plug-in."
 
 msgid "MojoExecution"
 msgstr ""
 
+#, fuzzy
 msgid "`${mojoExecution}`"
-msgstr ""
+msgstr "`${mojoExecution}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-pluginrepos]]`link:#quarkus-maven-plugin-goal-build-pluginrepos[pluginRepos]`\n"
@@ -618,11 +645,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-pluginrepos]]`link:#quarkus-maven-plugin-goal-build-pluginrepos[pluginRepos]`"
 msgstr ""
 
+#, fuzzy
 msgid "The project's remote repositories to use for the resolution of plugins and their dependencies."
-msgstr ""
+msgstr "Os repositórios remotos do projeto a serem utilizados para a resolução de plug-ins e suas dependências."
 
+#, fuzzy
 msgid "`${project.remotePluginRepositories}`"
-msgstr ""
+msgstr "`${project.remotePluginRepositories}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-project]]`link:#quarkus-maven-plugin-goal-build-project[project]`\n"
@@ -650,8 +679,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-properties]]`link:#quarkus-maven-plugin-goal-build-properties[properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "The properties of the plugin."
-msgstr ""
+msgstr "As propriedades do plug-in."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-reposession]]`link:#quarkus-maven-plugin-goal-build-reposession[repoSession]`\n"
@@ -666,8 +696,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-reposession]]`link:#quarkus-maven-plugin-goal-build-reposession[repoSession]`"
 msgstr ""
 
+#, fuzzy
 msgid "The current repository/network configuration of Maven."
-msgstr ""
+msgstr "A configuração atual do repositório/rede do Maven."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-repos]]`link:#quarkus-maven-plugin-goal-build-repos[repos]`\n"
@@ -682,8 +713,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-repos]]`link:#quarkus-maven-plugin-goal-build-repos[repos]`"
 msgstr ""
 
+#, fuzzy
 msgid "The project's remote repositories to use for the resolution of artifacts and their dependencies."
-msgstr ""
+msgstr "Os repositórios remotos do projeto a serem utilizados para a resolução de artefatos e suas dependências."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-session]]`link:#quarkus-maven-plugin-goal-build-session[session]`\n"
@@ -711,8 +743,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-skip]]`link:#quarkus-maven-plugin-goal-build-skip[skip]`"
 msgstr ""
 
+#, fuzzy
 msgid "Skips the execution of this mojo"
-msgstr ""
+msgstr "Ignora a execução deste mojo"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-skiporiginaljarrename]]`link:#quarkus-maven-plugin-goal-build-skiporiginaljarrename[skipOriginalJarRename]`\n"
@@ -727,8 +760,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-skiporiginaljarrename]]`link:#quarkus-maven-plugin-goal-build-skiporiginaljarrename[skipOriginalJarRename]`"
 msgstr ""
 
+#, fuzzy
 msgid "When the building an Uber JAR, the default JAR is renamed by adding .original suffix. Enabling this property will disable the renaming of the original JAR."
-msgstr ""
+msgstr "Ao compilar um JAR do Uber, o JAR padrão é renomeado com a adição do sufixo .original. Ao ativar esta propriedade, a renomeação do JAR original será desativada."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-build-systemproperties]]`link:#quarkus-maven-plugin-goal-build-systemproperties[systemProperties]`\n"
@@ -743,14 +777,17 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-build-systemproperties]]`link:#quarkus-maven-plugin-goal-build-systemproperties[systemProperties]`"
 msgstr ""
 
+#, fuzzy
 msgid "The list of system properties defined for the plugin."
-msgstr ""
+msgstr "A lista de propriedades do sistema definidas para o plug-in."
 
+#, fuzzy
 msgid "quarkus:create"
-msgstr ""
+msgstr "quarkus:create"
 
+#, fuzzy
 msgid "This goal helps in setting up Quarkus Maven project with quarkus-maven-plugin, with sensible defaults"
-msgstr ""
+msgstr "Este objetivo auxilia na configuração de um projeto Quarkus no Maven com o quarkus-maven-plugin, com configurações padrão adequadas"
 
 msgid "[[quarkus-maven-plugin-goal-create-parameter-parameter]]link:#quarkus-maven-plugin-goal-create-parameter-parameter[Parameter]"
 msgstr ""
@@ -781,8 +818,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-bomartifactid]]`link:#quarkus-maven-plugin-goal-create-bomartifactid[bomArtifactId]`"
 msgstr ""
 
+#, fuzzy
 msgid "Artifact ID of the target platform BOM"
-msgstr ""
+msgstr "ID do artefato da lista de materiais (BOM) da plataforma de destino"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-bomgroupid]]`link:#quarkus-maven-plugin-goal-create-bomgroupid[bomGroupId]`\n"
@@ -797,8 +835,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-bomgroupid]]`link:#quarkus-maven-plugin-goal-create-bomgroupid[bomGroupId]`"
 msgstr ""
 
+#, fuzzy
 msgid "Group ID of the target platform BOM"
-msgstr ""
+msgstr "ID do grupo da lista de materiais (BOM) da plataforma de destino"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-bomversion]]`link:#quarkus-maven-plugin-goal-create-bomversion[bomVersion]`\n"
@@ -813,8 +852,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-bomversion]]`link:#quarkus-maven-plugin-goal-create-bomversion[bomVersion]`"
 msgstr ""
 
+#, fuzzy
 msgid "Version of the target platform BOM"
-msgstr ""
+msgstr "Versão da lista de materiais (BOM) da plataforma de destino"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-buildtool]]`link:#quarkus-maven-plugin-goal-create-buildtool[buildTool]`\n"
@@ -829,8 +869,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-buildtool]]`link:#quarkus-maven-plugin-goal-create-buildtool[buildTool]`"
 msgstr ""
 
+#, fuzzy
 msgid "`MAVEN`"
-msgstr ""
+msgstr "`MAVEN`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-classname]]`link:#quarkus-maven-plugin-goal-create-classname[className]`\n"
@@ -900,8 +941,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-javaversion]]`link:#quarkus-maven-plugin-goal-create-javaversion[javaVersion]`"
 msgstr ""
 
+#, fuzzy
 msgid "Version of Java used to build the project."
-msgstr ""
+msgstr "Versão do Java utilizada para compilar o projeto."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-nocode]]`link:#quarkus-maven-plugin-goal-create-nocode[noCode]`\n"
@@ -916,8 +958,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-nocode]]`link:#quarkus-maven-plugin-goal-create-nocode[noCode]`"
 msgstr ""
 
+#, fuzzy
 msgid "When true, do not include any code in the generated Quarkus project."
-msgstr ""
+msgstr "Quando estiver definido como “true”, não inclua nenhum código no projeto Quarkus gerado."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-outputdirectory]]`link:#quarkus-maven-plugin-goal-create-outputdirectory[outputDirectory]`\n"
@@ -932,8 +975,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-outputdirectory]]`link:#quarkus-maven-plugin-goal-create-outputdirectory[outputDirectory]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${basedir}`"
-msgstr ""
+msgstr "`${basedir}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-packagename]]`link:#quarkus-maven-plugin-goal-create-packagename[packageName]`\n"
@@ -948,8 +992,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-packagename]]`link:#quarkus-maven-plugin-goal-create-packagename[packageName]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set the package name of the generated classes. If not set, projectGroupId will be used as packageName packageName"
-msgstr ""
+msgstr "Defina o nome do pacote das classes geradas. Caso não seja definido, o projectGroupId será utilizado como packageName packageName"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-path]]`link:#quarkus-maven-plugin-goal-create-path[path]`\n"
@@ -1084,8 +1129,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-session]]`link:#quarkus-maven-plugin-goal-create-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:create-extension"
-msgstr ""
+msgstr "quarkus:create-extension"
 
 msgid "Creates the base of a Quarkus Extension  in different layout depending on the options and environment. Create in the quarkus-parent project directory (or the extensions parent dir) It will: ++*++ generate the new Quarkus extension in the extensions parent as a module (parent, runtime and deployment), with unit test and devmode test on option. ++*++ On option, generate the new integration test in the integration tests parent as a module. ++*++ add the dependencies to the bom/application/pom.xml. Creating a Quarkiverse extension When using -DgroupId=io.quarkiverse.++[++featureId++]++, the new extension will use the Quarkiverse layout. Creating a standalone extension ++*++ generate the new Quarkus extension in the current directory (parent, runtime and deployment), with unit test and devmode test on option. ++*++ On option, generate the new integration test module in the current directory."
 msgstr ""
@@ -1106,8 +1152,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-artifactid]]`link:#quarkus-maven-plugin-goal-create-extension-artifactid[artifactId]`"
 msgstr ""
 
+#, fuzzy
 msgid "Used to detect legacy command usage and display an error"
-msgstr ""
+msgstr "Utilizado para detectar o uso de comandos antigos e exibir uma mensagem de erro"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-basedir]]`link:#quarkus-maven-plugin-goal-create-extension-basedir[basedir]`\n"
@@ -1186,8 +1233,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-groupid]]`link:#quarkus-maven-plugin-goal-create-extension-groupid[groupId]`"
 msgstr ""
 
+#, fuzzy
 msgid "The groupId for the newly created Maven modules (REQUIRED - INHERITED IN QUARKUS-CORE)."
-msgstr ""
+msgstr "O groupId dos módulos Maven recém-criados (OBRIGATÓRIO — HERDADO DO QUARKUS-CORE)."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-javaversion]]`link:#quarkus-maven-plugin-goal-create-extension-javaversion[javaVersion]`\n"
@@ -1324,8 +1372,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-quarkusversion]]`link:#quarkus-maven-plugin-goal-create-extension-quarkusversion[quarkusVersion]`"
 msgstr ""
 
+#, fuzzy
 msgid "Quarkus version the newly created extension should depend on (REQUIRED - INHERITED IN QUARKUS-CORE)."
-msgstr ""
+msgstr "Versão do Quarkus da qual a extensão recém-criada deve depender (OBRIGATÓRIA — HERDADA DO QUARKUS-CORE)."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-reposession]]`link:#quarkus-maven-plugin-goal-create-extension-reposession[repoSession]`\n"
@@ -1395,8 +1444,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-withcodestart]]`link:#quarkus-maven-plugin-goal-create-extension-withcodestart[withCodestart]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates whether to generate an extension codestart"
-msgstr ""
+msgstr "Indica se deve ser gerado um código de início de extensão"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-withoutdevmodetest]]`link:#quarkus-maven-plugin-goal-create-extension-withoutdevmodetest[withoutDevModeTest]`\n"
@@ -1411,8 +1461,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-withoutdevmodetest]]`link:#quarkus-maven-plugin-goal-create-extension-withoutdevmodetest[withoutDevModeTest]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates whether to generate a devmode test for the extension"
-msgstr ""
+msgstr "Indica se deve ser gerado um teste em modo de desenvolvimento para a extensão"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-withoutintegrationtests]]`link:#quarkus-maven-plugin-goal-create-extension-withoutintegrationtests[withoutIntegrationTests]`\n"
@@ -1427,8 +1478,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-withoutintegrationtests]]`link:#quarkus-maven-plugin-goal-create-extension-withoutintegrationtests[withoutIntegrationTests]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates whether to generate an integration tests for the extension"
-msgstr ""
+msgstr "Indica se deve-se gerar um teste de integração para a extensão"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-withouttests]]`link:#quarkus-maven-plugin-goal-create-extension-withouttests[withoutTests]`\n"
@@ -1443,8 +1495,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-withouttests]]`link:#quarkus-maven-plugin-goal-create-extension-withouttests[withoutTests]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates whether to generate any tests for the extension (same as -DwithoutUnitTest -DwithoutIntegrationTest -DwithoutDevModeTest)"
-msgstr ""
+msgstr "Indica se devem ser gerados testes para a extensão (equivalente a -DwithoutUnitTest, -DwithoutIntegrationTest e -DwithoutDevModeTest)"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-extension-withoutunittest]]`link:#quarkus-maven-plugin-goal-create-extension-withoutunittest[withoutUnitTest]`\n"
@@ -1459,11 +1512,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-extension-withoutunittest]]`link:#quarkus-maven-plugin-goal-create-extension-withoutunittest[withoutUnitTest]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates whether to generate a unit test class for the extension"
-msgstr ""
+msgstr "Indica se deve ser gerada uma classe de teste unitário para a extensão"
 
+#, fuzzy
 msgid "quarkus:create-jbang"
-msgstr ""
+msgstr "quarkus:create-jbang"
 
 msgid "[[quarkus-maven-plugin-goal-create-jbang-parameter-parameter]]link:#quarkus-maven-plugin-goal-create-jbang-parameter-parameter[Parameter]"
 msgstr ""
@@ -1559,8 +1614,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-jbang-outputdirectory]]`link:#quarkus-maven-plugin-goal-create-jbang-outputdirectory[outputDirectory]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${basedir}/jbang-with-quarkus`"
-msgstr ""
+msgstr "`${basedir}/jbang-with-quarkus`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-create-jbang-reposession]]`link:#quarkus-maven-plugin-goal-create-jbang-reposession[repoSession]`\n"
@@ -1588,11 +1644,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-create-jbang-repos]]`link:#quarkus-maven-plugin-goal-create-jbang-repos[repos]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:dependency-tree"
-msgstr ""
+msgstr "quarkus:árvore-de-dependências"
 
+#, fuzzy
 msgid "Displays Quarkus application build dependency tree including the deployment ones."
-msgstr ""
+msgstr "Exibe a árvore de dependências de compilação do aplicativo Quarkus, incluindo as dependências de implantação."
 
 msgid "[[quarkus-maven-plugin-goal-dependency-tree-parameter-parameter]]link:#quarkus-maven-plugin-goal-dependency-tree-parameter-parameter[Parameter]"
 msgstr ""
@@ -1610,8 +1668,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dependency-tree-appendoutput]]`link:#quarkus-maven-plugin-goal-dependency-tree-appendoutput[appendOutput]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to append outputs into the output file or overwrite it."
-msgstr ""
+msgstr "Se as saídas devem ser acrescentadas ao arquivo de saída ou se este deve ser sobrescrito."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dependency-tree-mode]]`link:#quarkus-maven-plugin-goal-dependency-tree-mode[mode]`\n"
@@ -1626,11 +1685,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dependency-tree-mode]]`link:#quarkus-maven-plugin-goal-dependency-tree-mode[mode]`"
 msgstr ""
 
+#, fuzzy
 msgid "Target launch mode corresponding to io.quarkus.runtime.LaunchMode for which the dependency tree should be built. io.quarkus.runtime.LaunchMode.NORMAL is the default."
-msgstr ""
+msgstr "Modo de inicialização de destino correspondente a `io.quarkus.runtime.LaunchMode`, para o qual a árvore de dependências deve ser construída. `io.quarkus.runtime.LaunchMode.NORMAL` é o padrão."
 
+#, fuzzy
 msgid "`prod`"
-msgstr ""
+msgstr "`prod`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dependency-tree-outputfile]]`link:#quarkus-maven-plugin-goal-dependency-tree-outputfile[outputFile]`\n"
@@ -1645,8 +1706,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dependency-tree-outputfile]]`link:#quarkus-maven-plugin-goal-dependency-tree-outputfile[outputFile]`"
 msgstr ""
 
+#, fuzzy
 msgid "If specified, this parameter will cause the dependency tree to be written to the path specified, instead of writing to the console."
-msgstr ""
+msgstr "Se especificado, este parâmetro fará com que a árvore de dependências seja gravada no caminho indicado, em vez de ser exibida no console."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dependency-tree-project]]`link:#quarkus-maven-plugin-goal-dependency-tree-project[project]`\n"
@@ -1687,8 +1749,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dependency-tree-session]]`link:#quarkus-maven-plugin-goal-dependency-tree-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:deploy"
-msgstr ""
+msgstr "quarkus:deploy"
 
 msgid "[[quarkus-maven-plugin-goal-deploy-parameter-parameter]]link:#quarkus-maven-plugin-goal-deploy-parameter-parameter[Parameter]"
 msgstr ""
@@ -2005,11 +2068,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-deploy-systemproperties]]`link:#quarkus-maven-plugin-goal-deploy-systemproperties[systemProperties]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:dev"
-msgstr ""
+msgstr "quarkus:dev"
 
+#, fuzzy
 msgid "The dev mojo, that runs a quarkus app in a forked process. A background compilation process is launched and any changes are automatically reflected in your running application. You can use this dev mode in a remote container environment with remote-dev."
-msgstr ""
+msgstr "O modo de desenvolvimento, que executa um aplicativo Quarkus em um processo separado. É iniciado um processo de compilação em segundo plano, e quaisquer alterações são refletidas automaticamente no seu aplicativo em execução. O senhor pode utilizar esse modo de desenvolvimento em um ambiente de contêiner remoto com o remote-dev."
 
 msgid "[[quarkus-maven-plugin-goal-dev-parameter-parameter]]link:#quarkus-maven-plugin-goal-dev-parameter-parameter[Parameter]"
 msgstr ""
@@ -2027,8 +2092,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-argsstring]]`link:#quarkus-maven-plugin-goal-dev-argsstring[argsString]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${quarkus.args}`"
-msgstr ""
+msgstr "`${quarkus.args}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-builddir]]`link:#quarkus-maven-plugin-goal-dev-builddir[buildDir]`\n"
@@ -2056,8 +2122,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-compilerargs]]`link:#quarkus-maven-plugin-goal-dev-compilerargs[compilerArgs]`"
 msgstr ""
 
+#, fuzzy
 msgid "Additional parameters to pass to javac when recompiling changed source files."
-msgstr ""
+msgstr "Parâmetros adicionais a serem passados ao javac ao recompilar arquivos-fonte alterados."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-compileroptions]]`link:#quarkus-maven-plugin-goal-dev-compileroptions[compilerOptions]`\n"
@@ -2072,8 +2139,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-compileroptions]]`link:#quarkus-maven-plugin-goal-dev-compileroptions[compilerOptions]`"
 msgstr ""
 
+#, fuzzy
 msgid "Additional compiler arguments"
-msgstr ""
+msgstr "Argumentos adicionais do compilador"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-debug]]`link:#quarkus-maven-plugin-goal-dev-debug[debug]`\n"
@@ -2091,8 +2159,9 @@ msgstr ""
 msgid "If this server should be started in debug mode. The default is to start in debug mode and listen on port 5005. Whether the JVM is suspended waiting for a debugger to be attached, depends on the value of suspend. debug supports the following options: Value Effect false The JVM is not started in debug mode true The JVM is started in debug mode and will be listening on debugHost:debugPort client The JVM is started in client mode, and will attempt to connect to debugHost:debugPort ++{++port++}++ The JVM is started in debug mode and will be listening on debugHost:++{++port++}++. By default, debugHost has the value \"localhost\", and debugPort is 5005."
 msgstr ""
 
+#, fuzzy
 msgid "`${debug}`"
-msgstr ""
+msgstr "`${debug}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-debughost]]`link:#quarkus-maven-plugin-goal-dev-debughost[debugHost]`\n"
@@ -2107,8 +2176,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-debughost]]`link:#quarkus-maven-plugin-goal-dev-debughost[debugHost]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${debugHost}`"
-msgstr ""
+msgstr "`${debugHost}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-debugport]]`link:#quarkus-maven-plugin-goal-dev-debugport[debugPort]`\n"
@@ -2123,8 +2193,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-debugport]]`link:#quarkus-maven-plugin-goal-dev-debugport[debugPort]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${debugPort}`"
-msgstr ""
+msgstr "`${debugPort}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-deletedevjar]]`link:#quarkus-maven-plugin-goal-dev-deletedevjar[deleteDevJar]`\n"
@@ -2139,8 +2210,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-deletedevjar]]`link:#quarkus-maven-plugin-goal-dev-deletedevjar[deleteDevJar]`"
 msgstr ""
 
+#, fuzzy
 msgid "`TRUE`"
-msgstr ""
+msgstr "`VERDADEIRO`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-enforcebuildgoal]]`link:#quarkus-maven-plugin-goal-dev-enforcebuildgoal[enforceBuildGoal]`\n"
@@ -2155,11 +2227,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-enforcebuildgoal]]`link:#quarkus-maven-plugin-goal-dev-enforcebuildgoal[enforceBuildGoal]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to enforce the quarkus-maven-plugin build goal to be configured. By default, a missing build goal is considered an inconsistency (although the build goal is not required technically). In this case a warning will be logged and the application will not be started."
-msgstr ""
+msgstr "É necessário definir se a meta de compilação do quarkus-maven-plugin deve ser obrigatória. Por padrão, a ausência dessa meta é considerada uma inconsistência (embora, tecnicamente, ela não seja obrigatória). Nesse caso, será registrado um aviso e o aplicativo não será iniciado."
 
+#, fuzzy
 msgid "`${quarkus.enforceBuildGoal}`"
-msgstr ""
+msgstr "`${quarkus.enforceBuildGoal}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-environmentvariables]]`link:#quarkus-maven-plugin-goal-dev-environmentvariables[environmentVariables]`\n"
@@ -2187,8 +2261,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-jvmargs]]`link:#quarkus-maven-plugin-goal-dev-jvmargs[jvmArgs]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${jvm.args}`"
-msgstr ""
+msgstr "`${jvm.args}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-modules]]`link:#quarkus-maven-plugin-goal-dev-modules[modules]`\n"
@@ -2203,11 +2278,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-modules]]`link:#quarkus-maven-plugin-goal-dev-modules[modules]`"
 msgstr ""
 
+#, fuzzy
 msgid "Allows configuring the modules to add to the application. The listed modules will be added using: --add-modules m1,m2...."
-msgstr ""
+msgstr "Permite configurar os módulos a serem adicionados ao aplicativo. Os módulos listados serão adicionados por meio do seguinte comando: --add-modules m1,m2…​."
 
+#, fuzzy
 msgid "`${add-modules}`"
-msgstr ""
+msgstr "`${add-modules}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-mojoexecution]]`link:#quarkus-maven-plugin-goal-dev-mojoexecution[mojoExecution]`\n"
@@ -2235,11 +2312,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-nodeps]]`link:#quarkus-maven-plugin-goal-dev-nodeps[noDeps]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether changes in the projects that appear to be dependencies of the project containing the application to be launched should trigger hot-reload. By default, they do."
-msgstr ""
+msgstr "Se as alterações nos projetos que parecem ser dependências do projeto que contém o aplicativo a ser iniciado devem acionar a recarga dinâmica. Por padrão, elas o fazem."
 
+#, fuzzy
 msgid "`${noDeps}`"
-msgstr ""
+msgstr "`${noDeps}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-openjavalang]]`link:#quarkus-maven-plugin-goal-dev-openjavalang[openJavaLang]`\n"
@@ -2254,8 +2333,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-openjavalang]]`link:#quarkus-maven-plugin-goal-dev-openjavalang[openJavaLang]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${open-lang-package}`"
-msgstr ""
+msgstr "`${open-lang-package}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-outputdirectory]]`link:#quarkus-maven-plugin-goal-dev-outputdirectory[outputDirectory]`\n"
@@ -2270,11 +2350,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-outputdirectory]]`link:#quarkus-maven-plugin-goal-dev-outputdirectory[outputDirectory]`"
 msgstr ""
 
+#, fuzzy
 msgid "The directory for compiled classes."
-msgstr ""
+msgstr "O diretório das classes compiladas."
 
+#, fuzzy
 msgid "`${project.build.outputDirectory}`"
-msgstr ""
+msgstr "`${project.build.outputDirectory}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-pluginrepos]]`link:#quarkus-maven-plugin-goal-dev-pluginrepos[pluginRepos]`\n"
@@ -2334,11 +2416,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-release]]`link:#quarkus-maven-plugin-goal-dev-release[release]`"
 msgstr ""
 
+#, fuzzy
 msgid "The --release argument to javac."
-msgstr ""
+msgstr "O argumento --release do javac."
 
+#, fuzzy
 msgid "`${maven.compiler.release}`"
-msgstr ""
+msgstr "`${maven.compiler.release}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-reposession]]`link:#quarkus-maven-plugin-goal-dev-reposession[repoSession]`\n"
@@ -2392,11 +2476,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-skipplugins]]`link:#quarkus-maven-plugin-goal-dev-skipplugins[skipPlugins]`"
 msgstr ""
 
+#, fuzzy
 msgid "A comma-separated list of Maven plugin keys in groupId:artifactId format (for example org.codehaus.mojo:flatten-maven-plugin and/or goal prefixes, (for example flatten) that should be skipped when quarkus:dev identifies Maven plugin goals that should be executed before the application is launched in dev mode. Only the flatten Maven plugin is skipped by default."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de chaves de plug-ins do Maven no formato groupId:artifactId (por exemplo, org.codehaus.mojo:flatten-maven-plugin e/ou prefixos de goal (por exemplo, flatten) que devem ser ignorados quando o quarkus:dev identificar goals de plug-ins do Maven que devem ser executados antes do lançamento da aplicação no modo de desenvolvimento. Por padrão, apenas o plug-in do Maven “flatten” é ignorado."
 
+#, fuzzy
 msgid "`org.codehaus.mojo:flatten-maven-plugin`"
-msgstr ""
+msgstr "`org.codehaus.mojo:flatten-maven-plugin`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-source]]`link:#quarkus-maven-plugin-goal-dev-source[source]`\n"
@@ -2411,11 +2497,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-source]]`link:#quarkus-maven-plugin-goal-dev-source[source]`"
 msgstr ""
 
+#, fuzzy
 msgid "The -source argument to javac."
-msgstr ""
+msgstr "O argumento -source do javac."
 
+#, fuzzy
 msgid "`${maven.compiler.source}`"
-msgstr ""
+msgstr "`${maven.compiler.source}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-sourcedir]]`link:#quarkus-maven-plugin-goal-dev-sourcedir[sourceDir]`\n"
@@ -2430,8 +2518,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-sourcedir]]`link:#quarkus-maven-plugin-goal-dev-sourcedir[sourceDir]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${project.build.sourceDirectory}`"
-msgstr ""
+msgstr "`${project.build.sourceDirectory}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-suspend]]`link:#quarkus-maven-plugin-goal-dev-suspend[suspend]`\n"
@@ -2446,11 +2535,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-suspend]]`link:#quarkus-maven-plugin-goal-dev-suspend[suspend]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether the JVM launch, in debug mode, should be suspended. This parameter is only relevant when the JVM is launched in debug mode. This parameter supports the following values (all the allowed values are case-insensitive): Value Effect y or true The debug mode JVM launch is suspended n or false The debug mode JVM is started without suspending"
-msgstr ""
+msgstr "Se a inicialização da JVM, no modo de depuração, deve ser suspensa. Este parâmetro é relevante apenas quando a JVM é inicializada no modo de depuração. Este parâmetro aceita os seguintes valores (todos os valores permitidos não diferenciam maiúsculas de minúsculas): Valor Efeito y ou true A inicialização da JVM no modo de depuração é suspensa n ou false A JVM no modo de depuração é iniciada sem suspensão"
 
+#, fuzzy
 msgid "`${suspend}`"
-msgstr ""
+msgstr "`${suspend}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-systemproperties]]`link:#quarkus-maven-plugin-goal-dev-systemproperties[systemProperties]`\n"
@@ -2478,11 +2569,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-target]]`link:#quarkus-maven-plugin-goal-dev-target[target]`"
 msgstr ""
 
+#, fuzzy
 msgid "The -target argument to javac."
-msgstr ""
+msgstr "O argumento -target do javac."
 
+#, fuzzy
 msgid "`${maven.compiler.target}`"
-msgstr ""
+msgstr "`${maven.compiler.target}`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-dev-warnifbuildgoalmissing]]`link:#quarkus-maven-plugin-goal-dev-warnifbuildgoalmissing[warnIfBuildGoalMissing]`\n"
@@ -2510,8 +2603,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-dev-workingdir]]`link:#quarkus-maven-plugin-goal-dev-workingdir[workingDir]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:generate-code"
-msgstr ""
+msgstr "quarkus:gerar-código"
 
 msgid "[[quarkus-maven-plugin-goal-generate-code-parameter-parameter]]link:#quarkus-maven-plugin-goal-generate-code-parameter-parameter[Parameter]"
 msgstr ""
@@ -2633,8 +2727,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-generate-code-mode]]`link:#quarkus-maven-plugin-goal-generate-code-mode[mode]`"
 msgstr ""
 
+#, fuzzy
 msgid "`NORMAL`"
-msgstr ""
+msgstr "`NORMAL`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-generate-code-mojoexecution]]`link:#quarkus-maven-plugin-goal-generate-code-mojoexecution[mojoExecution]`\n"
@@ -2727,11 +2822,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-generate-code-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-generate-code-skipsourcegeneration[skipSourceGeneration]`"
 msgstr ""
 
+#, fuzzy
 msgid "Skip the execution of this mojo"
-msgstr ""
+msgstr "Ignore a execução deste mojo"
 
+#, fuzzy
 msgid "quarkus:generate-code-tests"
-msgstr ""
+msgstr "quarkus:gerar-códigos-de-teste"
 
 msgid "[[quarkus-maven-plugin-goal-generate-code-tests-parameter-parameter]]link:#quarkus-maven-plugin-goal-generate-code-tests-parameter-parameter[Parameter]"
 msgstr ""
@@ -2944,11 +3041,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-generate-code-tests-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-generate-code-tests-skipsourcegeneration[skipSourceGeneration]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:go-offline"
-msgstr ""
+msgstr "quarkus:go-offline"
 
+#, fuzzy
 msgid "This goal downloads all the Maven artifact dependencies required to build, run, test and launch the application dev mode."
-msgstr ""
+msgstr "Este objetivo faz o download de todas as dependências de artefatos do Maven necessárias para compilar, executar, testar e iniciar o aplicativo no modo de desenvolvimento."
 
 msgid "[[quarkus-maven-plugin-goal-go-offline-parameter-parameter]]link:#quarkus-maven-plugin-goal-go-offline-parameter-parameter[Parameter]"
 msgstr ""
@@ -2969,8 +3068,9 @@ msgstr ""
 msgid "Target launch mode corresponding to io.quarkus.runtime.LaunchMode for which the dependencies should be resolved. io.quarkus.runtime.LaunchMode.TEST is the default, since it includes both provided and test dependency scopes."
 msgstr ""
 
+#, fuzzy
 msgid "`test`"
-msgstr ""
+msgstr "`teste`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-go-offline-project]]`link:#quarkus-maven-plugin-goal-go-offline-project[project]`\n"
@@ -3024,8 +3124,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-go-offline-session]]`link:#quarkus-maven-plugin-goal-go-offline-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:help"
-msgstr ""
+msgstr "quarkus:ajuda"
 
 msgid "Display help information on quarkus-maven-plugin. Call mvn quarkus:help -Ddetail=true -Dgoal= to display parameter details."
 msgstr ""
@@ -3046,8 +3147,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-help-detail]]`link:#quarkus-maven-plugin-goal-help-detail[detail]`"
 msgstr ""
 
+#, fuzzy
 msgid "If true, display all settable properties for each goal."
-msgstr ""
+msgstr "Se for verdadeiro, exiba todas as propriedades configuráveis para cada meta."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-help-goal]]`link:#quarkus-maven-plugin-goal-help-goal[goal]`\n"
@@ -3062,8 +3164,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-help-goal]]`link:#quarkus-maven-plugin-goal-help-goal[goal]`"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the goal for which to show help. If unspecified, all goals will be displayed."
-msgstr ""
+msgstr "O nome do objetivo para o qual se deseja exibir a ajuda. Se não for especificado, todos os objetivos serão exibidos."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-help-indentsize]]`link:#quarkus-maven-plugin-goal-help-indentsize[indentSize]`\n"
@@ -3078,8 +3181,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-help-indentsize]]`link:#quarkus-maven-plugin-goal-help-indentsize[indentSize]`"
 msgstr ""
 
+#, fuzzy
 msgid "The number of spaces per indentation level, should be positive."
-msgstr ""
+msgstr "O número de espaços por nível de recuo deve ser positivo."
 
 msgid "int"
 msgstr "int"
@@ -3101,17 +3205,21 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-help-linelength]]`link:#quarkus-maven-plugin-goal-help-linelength[lineLength]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum length of a display line, should be positive."
-msgstr ""
+msgstr "O comprimento máximo de uma linha de exibição deve ser positivo."
 
+#, fuzzy
 msgid "`80`"
-msgstr ""
+msgstr "`80`"
 
+#, fuzzy
 msgid "quarkus:image-build"
-msgstr ""
+msgstr "quarkus:image-build"
 
+#, fuzzy
 msgid "Builds a container image."
-msgstr ""
+msgstr "Cria uma imagem de contêiner."
 
 msgid "[[quarkus-maven-plugin-goal-image-build-parameter-parameter]]link:#quarkus-maven-plugin-goal-image-build-parameter-parameter[Parameter]"
 msgstr ""
@@ -3415,11 +3523,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-image-build-systemproperties]]`link:#quarkus-maven-plugin-goal-image-build-systemproperties[systemProperties]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:image-push"
-msgstr ""
+msgstr "quarkus:image-push"
 
+#, fuzzy
 msgid "Pushes a container image."
-msgstr ""
+msgstr "Envia uma imagem de contêiner."
 
 msgid "[[quarkus-maven-plugin-goal-image-push-parameter-parameter]]link:#quarkus-maven-plugin-goal-image-push-parameter-parameter[Parameter]"
 msgstr ""
@@ -3723,11 +3833,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-image-push-systemproperties]]`link:#quarkus-maven-plugin-goal-image-push-systemproperties[systemProperties]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:info"
-msgstr ""
+msgstr "quarkus:info"
 
+#, fuzzy
 msgid "Log Quarkus-specific project information, such as imported Quarkus platform BOMs, Quarkus extensions found among the project dependencies, etc."
-msgstr ""
+msgstr "Registre informações específicas do projeto Quarkus, tais como listas de materiais (BOMs) da plataforma Quarkus importadas, extensões do Quarkus encontradas entre as dependências do projeto, etc."
 
 msgid "[[quarkus-maven-plugin-goal-info-parameter-parameter]]link:#quarkus-maven-plugin-goal-info-parameter-parameter[Parameter]"
 msgstr ""
@@ -3784,8 +3896,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-info-permodule]]`link:#quarkus-maven-plugin-goal-info-permodule[perModule]`"
 msgstr ""
 
+#, fuzzy
 msgid "If true, the information will be logged per each relevant module of the project instead of an overall summary"
-msgstr ""
+msgstr "Se for verdade, as informações serão registradas para cada módulo relevante do projeto, em vez de um resumo geral"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-info-project]]`link:#quarkus-maven-plugin-goal-info-project[project]`\n"
@@ -3839,11 +3952,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-info-session]]`link:#quarkus-maven-plugin-goal-info-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:list-categories"
-msgstr ""
+msgstr "quarkus:list-categories"
 
+#, fuzzy
 msgid "List extension categories, which a user can use to filter extensions."
-msgstr ""
+msgstr "Liste as categorias de extensões, que o usuário pode utilizar para filtrar as extensões."
 
 msgid "[[quarkus-maven-plugin-goal-list-categories-parameter-parameter]]link:#quarkus-maven-plugin-goal-list-categories-parameter-parameter[Parameter]"
 msgstr ""
@@ -3900,11 +4015,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-categories-format]]`link:#quarkus-maven-plugin-goal-list-categories-format[format]`"
 msgstr ""
 
+#, fuzzy
 msgid "Select the output format among 'name' (display the name only) and 'full' (includes a verbose name and a description)."
-msgstr ""
+msgstr "Selecione o formato de saída entre “nome” (exibe apenas o nome) e “completo” (inclui um nome detalhado e uma descrição)."
 
+#, fuzzy
 msgid "`concise`"
-msgstr ""
+msgstr "`conciso`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-list-categories-project]]`link:#quarkus-maven-plugin-goal-list-categories-project[project]`\n"
@@ -3958,11 +4075,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-categories-session]]`link:#quarkus-maven-plugin-goal-list-categories-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:list-extensions"
-msgstr ""
+msgstr "quarkus:extensões-de-lista"
 
+#, fuzzy
 msgid "List the available extensions. You can add one or several extensions in one go, with the 2 following mojos: add-extensions and add-extension. You can list all extension or just installable. Choose between 3 output formats: name, concise and full."
-msgstr ""
+msgstr "Liste as extensões disponíveis. É possível adicionar uma ou várias extensões de uma só vez, utilizando os dois mojos a seguir: add-extensions e add-extension. É possível listar todas as extensões ou apenas as que podem ser instaladas. Escolha entre três formatos de saída: nome, conciso e completo."
 
 msgid "[[quarkus-maven-plugin-goal-list-extensions-parameter-parameter]]link:#quarkus-maven-plugin-goal-list-extensions-parameter-parameter[Parameter]"
 msgstr ""
@@ -3980,8 +4099,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-extensions-all]]`link:#quarkus-maven-plugin-goal-list-extensions-all[all]`"
 msgstr ""
 
+#, fuzzy
 msgid "List all extensions or just the installable."
-msgstr ""
+msgstr "Liste todas as extensões ou apenas as que podem ser instaladas."
 
 msgid "`true`"
 msgstr "`true`"
@@ -4038,8 +4158,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-extensions-category]]`link:#quarkus-maven-plugin-goal-list-extensions-category[category]`"
 msgstr ""
 
+#, fuzzy
 msgid "Only list extensions from given category."
-msgstr ""
+msgstr "Liste apenas as extensões da categoria indicada."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-list-extensions-format]]`link:#quarkus-maven-plugin-goal-list-extensions-format[format]`\n"
@@ -4070,8 +4191,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-extensions-installed]]`link:#quarkus-maven-plugin-goal-list-extensions-installed[installed]`"
 msgstr ""
 
+#, fuzzy
 msgid "List the already installed extensions"
-msgstr ""
+msgstr "Liste as extensões já instaladas"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-list-extensions-project]]`link:#quarkus-maven-plugin-goal-list-extensions-project[project]`\n"
@@ -4125,8 +4247,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-extensions-searchpattern]]`link:#quarkus-maven-plugin-goal-list-extensions-searchpattern[searchPattern]`"
 msgstr ""
 
+#, fuzzy
 msgid "Search filter on extension list. The format is based on Java Pattern."
-msgstr ""
+msgstr "Filtro de pesquisa na lista de extensões. O formato é baseado no padrão Java."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-list-extensions-session]]`link:#quarkus-maven-plugin-goal-list-extensions-session[session]`\n"
@@ -4141,11 +4264,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-extensions-session]]`link:#quarkus-maven-plugin-goal-list-extensions-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:list-platforms"
-msgstr ""
+msgstr "quarkus:listar-plataformas"
 
+#, fuzzy
 msgid "List imported and optionally other platforms available for the project."
-msgstr ""
+msgstr "Indique as plataformas importadas e, opcionalmente, outras plataformas disponíveis para o projeto."
 
 msgid "[[quarkus-maven-plugin-goal-list-platforms-parameter-parameter]]link:#quarkus-maven-plugin-goal-list-platforms-parameter-parameter[Parameter]"
 msgstr ""
@@ -4254,8 +4379,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-list-platforms-session]]`link:#quarkus-maven-plugin-goal-list-platforms-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:prepare"
-msgstr ""
+msgstr "quarkus:prepare"
 
 msgid "[[quarkus-maven-plugin-goal-prepare-parameter-parameter]]link:#quarkus-maven-plugin-goal-prepare-parameter-parameter[Parameter]"
 msgstr ""
@@ -4468,8 +4594,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-prepare-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-prepare-skipsourcegeneration[skipSourceGeneration]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:prepare-tests"
-msgstr ""
+msgstr "quarkus:prepare-tests"
 
 msgid "[[quarkus-maven-plugin-goal-prepare-tests-parameter-parameter]]link:#quarkus-maven-plugin-goal-prepare-tests-parameter-parameter[Parameter]"
 msgstr ""
@@ -4682,11 +4809,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-prepare-tests-skipsourcegeneration]]`link:#quarkus-maven-plugin-goal-prepare-tests-skipsourcegeneration[skipSourceGeneration]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:remote-dev"
-msgstr ""
+msgstr "quarkus:remote-dev"
 
+#, fuzzy
 msgid "The dev mojo, that connects to a remote host."
-msgstr ""
+msgstr "O dev mojo, que se conecta a um host remoto."
 
 msgid "[[quarkus-maven-plugin-goal-remote-dev-parameter-parameter]]link:#quarkus-maven-plugin-goal-remote-dev-parameter-parameter[Parameter]"
 msgstr ""
@@ -5094,11 +5223,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-remote-dev-workingdir]]`link:#quarkus-maven-plugin-goal-remote-dev-workingdir[workingDir]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:remove-extension"
-msgstr ""
+msgstr "quarkus:remover-extensão"
 
+#, fuzzy
 msgid "Allow removing an extension from an existing pom.xml file. Because you can remove one or several extension in one go, there are 2 mojos: remove-extensions and remove-extension. Both supports the extension and extensions parameters."
-msgstr ""
+msgstr "Permita a remoção de uma extensão de um arquivo pom.xml existente. Como é possível remover uma ou várias extensões de uma só vez, existem dois mojos: remove-extensions e remove-extension. Ambos aceitam os parâmetros “extension” e “extensions”."
 
 msgid "[[quarkus-maven-plugin-goal-remove-extension-parameter-parameter]]link:#quarkus-maven-plugin-goal-remove-extension-parameter-parameter[Parameter]"
 msgstr ""
@@ -5155,8 +5286,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-remove-extension-extension]]`link:#quarkus-maven-plugin-goal-remove-extension-extension[extension]`"
 msgstr ""
 
+#, fuzzy
 msgid "For usability reason, this parameter allows removing a single extension."
-msgstr ""
+msgstr "Por motivos de usabilidade, este parâmetro permite remover uma única extensão."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-remove-extension-extensions]]`link:#quarkus-maven-plugin-goal-remove-extension-extensions[extensions]`\n"
@@ -5171,8 +5303,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-remove-extension-extensions]]`link:#quarkus-maven-plugin-goal-remove-extension-extensions[extensions]`"
 msgstr ""
 
+#, fuzzy
 msgid "The list of extensions to be removed."
-msgstr ""
+msgstr "A lista de extensões a serem removidas."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-remove-extension-project]]`link:#quarkus-maven-plugin-goal-remove-extension-project[project]`\n"
@@ -5226,11 +5359,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-remove-extension-session]]`link:#quarkus-maven-plugin-goal-remove-extension-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:remove-extensions"
-msgstr ""
+msgstr "quarkus:remover-extensões"
 
+#, fuzzy
 msgid "Allow removing extensions to an existing pom.xml file. Because you can remove one or several extension in one go, there are 2 mojos: remove-extensions and remove-extension. Both supports the extension and extensions parameters."
-msgstr ""
+msgstr "Permita a remoção de extensões de um arquivo pom.xml existente. Como é possível remover uma ou várias extensões de uma só vez, existem dois mojos: remove-extensions e remove-extension. Ambos aceitam os parâmetros “extension” e “extensions”."
 
 msgid "[[quarkus-maven-plugin-goal-remove-extensions-parameter-parameter]]link:#quarkus-maven-plugin-goal-remove-extensions-parameter-parameter[Parameter]"
 msgstr ""
@@ -5352,8 +5487,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-remove-extensions-session]]`link:#quarkus-maven-plugin-goal-remove-extensions-session[session]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:run"
-msgstr ""
+msgstr "quarkus:run"
 
 msgid "[[quarkus-maven-plugin-goal-run-parameter-parameter]]link:#quarkus-maven-plugin-goal-run-parameter-parameter[Parameter]"
 msgstr ""
@@ -5553,11 +5689,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-run-systemproperties]]`link:#quarkus-maven-plugin-goal-run-systemproperties[systemProperties]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:test"
-msgstr ""
+msgstr "quarkus:teste"
 
+#, fuzzy
 msgid "The test mojo, that starts continuous testing outside of dev mode"
-msgstr ""
+msgstr "O “test mojo”, que inicia testes contínuos fora do modo de desenvolvimento"
 
 msgid "[[quarkus-maven-plugin-goal-test-parameter-parameter]]link:#quarkus-maven-plugin-goal-test-parameter-parameter[Parameter]"
 msgstr ""
@@ -5965,11 +6103,13 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-test-workingdir]]`link:#quarkus-maven-plugin-goal-test-workingdir[workingDir]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:track-config-changes"
-msgstr ""
+msgstr "quarkus:acompanhar-alterações-na-configuração"
 
+#, fuzzy
 msgid "Maven goal that is executed before the BuildMojo. The goal looks for a file that contains build time configuration options read during the previous build. If that file exists, the goal will check whether the configuration options used during the previous build have changed in the current configuration and will persist their current values to another file, so that both configuration files could be compared by tools caching build goal outcomes to check whether the previous outcome of the BuildMojo needs to be rebuilt."
-msgstr ""
+msgstr "Objetivo do Maven que é executado antes do BuildMojo. O objetivo procura um arquivo que contenha opções de configuração de compilação lidas durante a compilação anterior. Caso esse arquivo exista, a meta verificará se as opções de configuração utilizadas durante a compilação anterior foram alteradas na configuração atual e salvará seus valores atuais em outro arquivo, de modo que ambos os arquivos de configuração possam ser comparados por ferramentas que armazenam em cache os resultados das metas de compilação, a fim de verificar se o resultado anterior do BuildMojo precisa ser recompilado."
 
 msgid "[[quarkus-maven-plugin-goal-track-config-changes-parameter-parameter]]link:#quarkus-maven-plugin-goal-track-config-changes-parameter-parameter[Parameter]"
 msgstr ""
@@ -6039,8 +6179,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-track-config-changes-dumpcurrentwhenrecordedunavailable]]`link:#quarkus-maven-plugin-goal-track-config-changes-dumpcurrentwhenrecordedunavailable[dumpCurrentWhenRecordedUnavailable]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to dump the current build configuration in case the configuration from the previous build isn't found"
-msgstr ""
+msgstr "Se deve descartar a configuração da compilação atual caso a configuração da compilação anterior não seja encontrada"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-track-config-changes-finalname]]`link:#quarkus-maven-plugin-goal-track-config-changes-finalname[finalName]`\n"
@@ -6185,8 +6326,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-track-config-changes-recordedbuildconfigdirectory]]`link:#quarkus-maven-plugin-goal-track-config-changes-recordedbuildconfigdirectory[recordedBuildConfigDirectory]`"
 msgstr ""
 
+#, fuzzy
 msgid "`${basedir}/.quarkus`"
-msgstr ""
+msgstr "`${basedir}/.quarkus`"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-track-config-changes-recordedbuildconfigfile]]`link:#quarkus-maven-plugin-goal-track-config-changes-recordedbuildconfigfile[recordedBuildConfigFile]`\n"
@@ -6253,8 +6395,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-track-config-changes-skip]]`link:#quarkus-maven-plugin-goal-track-config-changes-skip[skip]`"
 msgstr ""
 
+#, fuzzy
 msgid "quarkus:update"
-msgstr ""
+msgstr "quarkus:atualização"
 
 msgid "Log Quarkus-related recommended updates, such as new Quarkus platform BOM versions and Quarkus extensions versions that aren't managed by the Quarkus platform BOMs."
 msgstr ""
@@ -6359,8 +6502,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-update-platformversion]]`link:#quarkus-maven-plugin-goal-update-platformversion[platformVersion]`"
 msgstr ""
 
+#, fuzzy
 msgid "Version of the target platform (e.g: 2.0.0.Final) You may instead use stream to target the latest version of a specific platform stream."
-msgstr ""
+msgstr "Versão da plataforma de destino (por exemplo: 2.0.0.Final). Como alternativa, o senhor pode utilizar o “stream” para direcionar a versão mais recente de um stream de plataforma específico."
 
 msgid ""
 "[[quarkus-maven-plugin-goal-update-project]]`link:#quarkus-maven-plugin-goal-update-project[project]`\n"
@@ -6430,8 +6574,9 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-update-rewritepluginversion]]`link:#quarkus-maven-plugin-goal-update-rewritepluginversion[rewritePluginVersion]`"
 msgstr ""
 
+#, fuzzy
 msgid "The OpenRewrite plugin version"
-msgstr ""
+msgstr "A versão do plug-in OpenRewrite"
 
 msgid ""
 "[[quarkus-maven-plugin-goal-update-rewriteupdaterecipesversion]]`link:#quarkus-maven-plugin-goal-update-rewriteupdaterecipesversion[rewriteUpdateRecipesVersion]`\n"
@@ -6475,5 +6620,6 @@ msgstr ""
 msgid "[[quarkus-maven-plugin-goal-update-stream]]`link:#quarkus-maven-plugin-goal-update-stream[stream]`"
 msgstr ""
 
+#, fuzzy
 msgid "Target stream (e.g: 2.0)"
-msgstr ""
+msgstr "Fluxo de destino (por exemplo: 2,0)"

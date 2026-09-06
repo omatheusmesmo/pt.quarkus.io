@@ -604,7 +604,7 @@ msgstr "[lock]  link:#quarkus-azure-functions_quarkus-azure-functions-runtime-re
 #. mt: deepl
 #, fuzzy
 msgid "If using docker, url of registry"
-msgstr "Caso utilize o Docker, a URL do registro"
+msgstr "Caso utilize o Docker, a URL do repositório"
 
 #. mt: deepl
 #, fuzzy
@@ -675,7 +675,7 @@ msgstr "*oauth2* : É necessário definir o locatário"
 #. mt: deepl
 #, fuzzy
 msgid "*device_code* Requires tenant to be set"
-msgstr "*device_code* : É necessário definir o locatário"
+msgstr "*device_code* : É necessário que o locatário esteja definido"
 
 #. mt: deepl
 #, fuzzy
@@ -791,7 +791,7 @@ msgstr "[lock]  link:#quarkus-azure-functions_quarkus-azure-functions-auth-clien
 #. mt: deepl
 #, fuzzy
 msgid "Client or App Id required if using _managed_identity_ type"
-msgstr "É necessário o ID do cliente ou do aplicativo caso se utilize o tipo ` _managed_identity_ `"
+msgstr "É necessário o ID do cliente ou do aplicativo caso seja utilizado o tipo ` _managed_identity_ `"
 
 #. mt: deepl
 #, fuzzy

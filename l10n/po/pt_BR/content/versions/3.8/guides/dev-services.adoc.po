@@ -41,8 +41,9 @@ msgstr "O Dev Service AMQP será ativado quando a extensão `quarkus-smallrye-re
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_configuration]]link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -65,14 +66,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-enabled]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-enabled[quarkus.amqp.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If Dev Services for AMQP has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For AMQP, Dev Services starts a broker unless `amqp-host` or `amqp-port` are set or if all the Reactive Messaging AMQP channel are configured with `host` or `port`."
-msgstr ""
+msgstr "Se os Serviços de Desenvolvimento para AMQP foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que exista uma configuração prévia. Para AMQP, os Serviços de Desenvolvimento iniciam um broker, a menos que `os parâmetros `amqp-host`` ou ``amqp-port`` estejam definidos ou que todos os canais AMQP do Reactive Messaging estejam configurados com `host` ou `porta` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AMQP_DEVSERVICES_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -94,14 +98,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-port]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-port[quarkus.amqp.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Optional fixed port the dev service will listen to."
-msgstr ""
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta."
 
+#, fuzzy
 msgid "If not defined, the port will be chosen randomly."
-msgstr ""
+msgstr "Caso não seja definida, a porta será escolhida aleatoriamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AMQP_DEVSERVICES_PORT[]"
 
 msgid "int"
 msgstr "int"
@@ -123,14 +130,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-image-name]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-image-name[quarkus.amqp.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The image to use. Note that only ActiveMQ Artemis images are supported. Specifically, the image repository must end with `artemiscloud/activemq-artemis-broker`."
-msgstr ""
+msgstr "A imagem a ser utilizada. Observe que apenas as imagens do ActiveMQ Artemis são compatíveis. Mais especificamente, o repositório da imagem deve terminar com `artemiscloud/activemq-artemis-broker` ."
 
+#, fuzzy
 msgid "Check the link:https://quay.io/repository/artemiscloud/activemq-artemis-broker[activemq-artemis-broker on Quay page] to find the available versions."
-msgstr ""
+msgstr "Consulte link:https://quay.io/repository/artemiscloud/activemq-artemis-broker[a página] do link:https://quay.io/repository/artemiscloud/activemq-artemis-broker[activemq-artemis-broker no Quay] para verificar as versões disponíveis."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AMQP_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -153,11 +163,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-extra-args]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-extra-args[quarkus.amqp.devservices.extra-args]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `AMQ_EXTRA_ARGS` environment variable to pass to the container. For ActiveMQ Artemis Broker <= 1.0.21, set this property to `--no-autotune --mapped --no-fsync --relax-jolokia --http-host 0.0.0.0`"
-msgstr ""
+msgstr "O valor da variável de ambiente `AMQ_EXTRA_ARGS` a ser passado ao contêiner. Para o ActiveMQ Artemis Broker ⇐ 1.0.21, defina esta propriedade como `--no-autotune --mapped --no-fsync --relax-jolokia --http-host 0.0.0.0`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_EXTRA_ARGS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AMQP_DEVSERVICES_EXTRA_ARGS[]"
 
 msgid "`--no-autotune --mapped --no-fsync --relax-jolokia`"
 msgstr ""
@@ -181,17 +193,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-shared]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-shared[quarkus.amqp.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the AMQP broker managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for AMQP starts a new container."
-msgstr ""
+msgstr "Indica se o broker AMQP gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for AMQP inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-amqp` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-amqp` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Container sharing is only used in dev mode."
-msgstr ""
+msgstr "O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AMQP_DEVSERVICES_SHARED[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -213,17 +229,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-service-name]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-service-name[quarkus.amqp.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-aqmp` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for AMQP looks for a container with the `quarkus-dev-service-amqp` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-amqp` label set to the specified value."
-msgstr ""
+msgstr "O valor da etiqueta ` `quarkus-dev-service-aqmp` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for AMQP procura um contêiner com a etiqueta ``quarkus-dev-service-amqp`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-amqp”` definida com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared AMQP brokers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando for necessário dispor de vários brokers AMQP compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_AMQP_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`amqp`"
-msgstr ""
+msgstr "`amqp`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-container-env-container-env]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-container-env-container-env[quarkus.amqp.devservices.container-env]`\n"
@@ -240,14 +260,16 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-container-env-container-env]]`link:#quarkus-smallrye-reactivemessaging-amqp-config-group-amqp-dev-services-build-time-config_quarkus-amqp-devservices-container-env-container-env[quarkus.amqp.devservices.container-env]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables that are passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente que são passadas ao contêiner."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_AMQP_DEVSERVICES_CONTAINER_ENV+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "`Map<String,String>`"
-msgstr ""
+msgstr "`Map<String, String>`"
 
 msgid "Apicurio Registry"
 msgstr "Apicurio Registry"
@@ -258,8 +280,9 @@ msgid ""
 "xref:apicurio-registry-dev-services.adoc[Apicurio Registry Dev Services Guide]."
 msgstr "O Dev Service Apicurio será ativado quando a extensão `quarkus-apicurio-registry-avro` estiver presente em sua aplicação e seu endereço não tiver sido configurado explicitamente. Mais informações podem ser encontradas no xref:apicurio-registry-dev-services.adoc[Guia do Dev Services do Apicurio Registry] ."
 
+#, fuzzy
 msgid "[[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_configuration]]link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-enabled]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-enabled[quarkus.apicurio-registry.devservices.enabled]`\n"
@@ -276,11 +299,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-enabled]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-enabled[quarkus.apicurio-registry.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If Dev Services for Apicurio Registry has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For Apicurio Registry, Dev Services starts a registry unless `mp.messaging.connector.smallrye-kafka.apicurio.registry.url` or `mp.messaging.connector.smallrye-kafka.schema.registry.url` is set."
-msgstr ""
+msgstr "Se os Serviços de Desenvolvimento para o Apicurio Registry foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que haja uma configuração existente. Para o Apicurio Registry, os Serviços de Desenvolvimento iniciam um registro, a menos que `mp.messaging.connector.smallrye-kafka.apicurio.registry.url` ou `mp.messaging.connector.smallrye-kafka.schema.registry.url` estejam definidos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_APICURIO_REGISTRY_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_APICURIO_REGISTRY_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-port]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-port[quarkus.apicurio-registry.devservices.port]`\n"
@@ -299,8 +324,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-port]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-port[quarkus.apicurio-registry.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_APICURIO_REGISTRY_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_APICURIO_REGISTRY_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-image-name]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-image-name[quarkus.apicurio-registry.devservices.image-name]`\n"
@@ -317,11 +343,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-image-name]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-image-name[quarkus.apicurio-registry.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The Apicurio Registry image to use. Note that only Apicurio Registry 2.x images are supported. Specifically, the image repository must end with `apicurio/apicurio-registry-mem`."
-msgstr ""
+msgstr "A imagem do Apicurio Registry a ser utilizada. Observe que apenas as imagens do Apicurio Registry 2.x são compatíveis. Especificamente, o repositório da imagem deve terminar com `apicurio/apicurio-registry-mem` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_APICURIO_REGISTRY_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_APICURIO_REGISTRY_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "`quay.io/apicurio/apicurio-registry-mem:2.4.2.Final`"
 msgstr ""
@@ -345,14 +373,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-shared]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-shared[quarkus.apicurio-registry.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Apicurio Registry instance managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Apicurio Registry starts a new container."
-msgstr ""
+msgstr "Indica se a instância do Apicurio Registry gerenciada pelo Quarkus Dev Services é compartilhada. Quando compartilhada, o Quarkus procura contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services para o Apicurio Registry inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-apicurio-registry` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza o rótulo `“quarkus-dev-service-apicurio-registry` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_APICURIO_REGISTRY_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_APICURIO_REGISTRY_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-service-name]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-service-name[quarkus.apicurio-registry.devservices.service-name]`\n"
@@ -371,17 +402,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-service-name]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-service-name[quarkus.apicurio-registry.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-apicurio-registry` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Apicurio Registry looks for a container with the `quarkus-dev-service-apicurio-registry` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-apicurio-registry` label set to the specified value."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-apicurio-registry”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Apicurio Registry procura um contêiner com a etiqueta `“quarkus-dev-service-apicurio-registry”` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-apicurio-registry”` definida com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Apicurio Registry instances."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de várias instâncias compartilhadas do Apicurio Registry."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_APICURIO_REGISTRY_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_APICURIO_REGISTRY_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`apicurio-registry`"
-msgstr ""
+msgstr "`apicurio-registro`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-container-env-container-env]]`link:#quarkus-apicurio-registry-devservices-apicurio-registry-devservice-apicurio-registry-dev-services-build-time-config_quarkus-apicurio-registry-devservices-container-env-container-env[quarkus.apicurio-registry.devservices.container-env]`\n"
@@ -425,8 +460,9 @@ msgstr "Esses bancos de dados relacionais que estão sendo executados em um cont
 msgid "N.B. if you opt in for this feature, Quarkus will not reset the state of the database between runs unless you explicitly configure it to."
 msgstr "Nota: se optar por esta funcionalidade, o Quarkus não reiniciará o estado da base de dados entre execuções, a menos que o configure explicitamente."
 
+#, fuzzy
 msgid "[[quarkus-datasource-config-group-dev-services-build-time-config_configuration]]link:#quarkus-datasource-config-group-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-datasource-config-group-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.devservices.enabled]`\n"
@@ -451,16 +487,19 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-enabled[quarkus.datasource.\"datasource-name\".devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether this Dev Service should start with the application in dev mode or tests."
-msgstr ""
+msgstr "Se este Serviço de Desenvolvimento deve iniciar com o aplicativo no modo de desenvolvimento ou com os testes."
 
+#, fuzzy
 msgid ""
 "Dev Services are enabled by default\n"
 "unless connection configuration (e.g. the JDBC URL or reactive client URL) is set explicitly."
-msgstr ""
+msgstr "Os Serviços de Desenvolvimento estão habilitados por padrão, a menos que a configuração da conexão (por exemplo, a URL JDBC ou a URL do cliente reativo) seja definida explicitamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.devservices.image-name]`\n"
@@ -484,14 +523,17 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-image-name[quarkus.datasource.\"datasource-name\".devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name for container-based Dev Service providers."
-msgstr ""
+msgstr "O nome da imagem do contêiner para provedores de serviços de desenvolvimento baseados em contêineres."
 
+#, fuzzy
 msgid "This has no effect if the provider is not a container-based database, such as H2 or Derby."
-msgstr ""
+msgstr "Isso não surte efeito se o provedor não for um banco de dados baseado em contêiner, como o H2 ou o Derby."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-env-container-env[quarkus.datasource.devservices.container-env]`\n"
@@ -538,14 +580,17 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-container-properties-container-properties[quarkus.datasource.\"datasource-name\".devservices.container-properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "Generic properties that are passed for additional container configuration."
-msgstr ""
+msgstr "Propriedades genéricas que são passadas para configuração adicional do contêiner."
 
+#, fuzzy
 msgid "Properties defined here are database-specific and are interpreted specifically in each database dev service implementation."
-msgstr ""
+msgstr "As propriedades definidas aqui são específicas de cada banco de dados e são interpretadas de maneira específica em cada implementação do serviço de desenvolvimento de banco de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.devservices.properties]`\n"
@@ -567,11 +612,13 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-properties-properties[quarkus.datasource.\"datasource-name\".devservices.properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "Generic properties that are added to the database connection URL."
-msgstr ""
+msgstr "Propriedades genéricas que são adicionadas à URL de conexão com o banco de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.devservices.port]`\n"
@@ -595,8 +642,9 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-port[quarkus.datasource.\"datasource-name\".devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.devservices.command]`\n"
@@ -620,11 +668,13 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-command[quarkus.datasource.\"datasource-name\".devservices.command]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container start command to use for container-based Dev Service providers."
-msgstr ""
+msgstr "O comando de inicialização do contêiner a ser utilizado por provedores de serviços de desenvolvimento baseados em contêineres."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_COMMAND+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_COMMAND[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.devservices.db-name]`\n"
@@ -646,11 +696,13 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-db-name[quarkus.datasource.\"datasource-name\".devservices.db-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The database name to use if this Dev Service supports overriding it."
-msgstr ""
+msgstr "O nome do banco de dados a ser utilizado caso este Serviço de Desenvolvimento permita sua substituição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.devservices.username]`\n"
@@ -672,11 +724,13 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-username[quarkus.datasource.\"datasource-name\".devservices.username]`"
 msgstr ""
 
+#, fuzzy
 msgid "The username to use if this Dev Service supports overriding it."
-msgstr ""
+msgstr "O nome de usuário a ser utilizado, caso este Serviço de Desenvolvimento permita sua substituição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_USERNAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.devservices.password]`\n"
@@ -698,11 +752,13 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-password[quarkus.datasource.\"datasource-name\".devservices.password]`"
 msgstr ""
 
+#, fuzzy
 msgid "The password to use if this Dev Service supports overriding it."
-msgstr ""
+msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita sua substituição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-init-script-path[quarkus.datasource.devservices.init-script-path]`\n"
@@ -729,8 +785,9 @@ msgstr ""
 msgid "The path to a SQL script to be loaded from the classpath and applied to the Dev Service database."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes]]`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.devservices.volumes]`\n"
@@ -758,14 +815,17 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-volumes-volumes[quarkus.datasource.\"datasource-name\".devservices.volumes]`"
 msgstr ""
 
+#, fuzzy
 msgid "The volumes to be mapped to the container."
-msgstr ""
+msgstr "Os volumes a serem mapeados para o contêiner."
 
+#, fuzzy
 msgid "The map key corresponds to the host location; the map value is the container location. If the host location starts with \"classpath:\", the mapping loads the resource from the classpath with read-only permission."
-msgstr ""
+msgstr "A chave do mapa corresponde à localização do host; o valor do mapa é a localização do contêiner. Se a localização do host começar com “classpath:”, o mapeamento carrega o recurso a partir do classpath com permissão somente para leitura."
 
+#, fuzzy
 msgid "When using a file system location, the volume will be generated with read-write permission, potentially leading to data loss or modification in your file system."
-msgstr ""
+msgstr "Ao utilizar um caminho no sistema de arquivos, o volume será gerado com permissão de leitura e gravação, o que pode resultar em perda ou alteração de dados no seu sistema de arquivos."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES+++[]"
 msgstr ""
@@ -807,28 +867,32 @@ msgstr ""
 msgid "`link:#quarkus-datasource-config-group-dev-services-build-time-config_quarkus-datasource-devservices-reuse[quarkus.datasource.\"datasource-name\".devservices.reuse]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Whether to keep Dev Service containers running *after a dev mode session or test suite execution*\n"
 "to reuse them in the next dev mode session or test suite execution."
-msgstr ""
+msgstr "Se os contêineres do Dev Service devem permanecer em execução *após uma sessão no modo de desenvolvimento ou após a execução de um conjunto de testes* , a fim de reutilizá-los na próxima sessão no modo de desenvolvimento ou na próxima execução de um conjunto de testes."
 
+#, fuzzy
 msgid ""
 "Within a dev mode session or test suite execution,\n"
 "Quarkus will always reuse Dev Services as long as their configuration\n"
 "(username, password, environment, port bindings, ...) did not change.\n"
 "This feature is specifically about keeping containers running\n"
 "**when Quarkus is not running** to reuse them across runs."
-msgstr ""
+msgstr "Durante uma sessão no modo de desenvolvimento ou na execução de um conjunto de testes, o Quarkus sempre reutilizará os Dev Services, desde que sua configuração (nome de usuário, senha, ambiente, ligações de porta, …​) não tenha sido alterada. Esse recurso visa especificamente manter os contêineres em execução *quando o Quarkus não estiver em execução* , a fim de reutilizá-los em execuções subsequentes."
 
+#, fuzzy
 msgid ""
 "This configuration property is set to `true` by default,\n"
 "so it is mostly useful to *disable* reuse,\n"
 "if you enabled it in `testcontainers.properties`\n"
 "but only want to use it for some of your Quarkus applications or datasources."
-msgstr ""
+msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, ela é útil principalmente para *desativar* a reutilização, caso você a tenha habilitado no `arquivo testcontainers.properties,` mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_REUSE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_REUSE[]"
 
 msgid "Kafka"
 msgstr "Kafka"
@@ -839,8 +903,9 @@ msgid ""
 "xref:kafka-dev-services.adoc[Kafka Dev Services Guide]."
 msgstr "O Dev Service Kafka será ativado quando a extensão `quarkus-kafka-client` estiver presente em sua aplicação e o endereço do broker não tiver sido configurado explicitamente. Mais informações podem ser encontradas no xref:kafka-dev-services.adoc[Guia do Dev Services do Kafka] ."
 
+#, fuzzy
 msgid "[[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_configuration]]link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-enabled]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-enabled[quarkus.kafka.devservices.enabled]`\n"
@@ -857,11 +922,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-enabled]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-enabled[quarkus.kafka.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If Dev Services for Kafka has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For Kafka, Dev Services starts a broker unless `kafka.bootstrap.servers` is set or if all the Reactive Messaging Kafka channel are configured with a `bootstrap.servers`."
-msgstr ""
+msgstr "Se os Serviços de Desenvolvimento para o Kafka foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente vêm ativados por padrão, a menos que haja uma configuração existente. Para o Kafka, os Serviços de Desenvolvimento iniciam um broker, a menos que a variável ``kafka.bootstrap.servers`` esteja definida ou que todos os canais do Reactive Messaging Kafka estejam configurados com ` `bootstrap.servers`` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-port]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-port[quarkus.kafka.devservices.port]`\n"
@@ -880,8 +947,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-port]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-port[quarkus.kafka.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-provider]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-provider[quarkus.kafka.devservices.provider]`\n"
@@ -908,32 +976,41 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-provider]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-provider[quarkus.kafka.devservices.provider]`"
 msgstr ""
 
+#, fuzzy
 msgid "Kafka dev service container type."
-msgstr ""
+msgstr "Tipo de contêiner do serviço de desenvolvimento do Kafka."
 
+#, fuzzy
 msgid "Redpanda, Strimzi and kafka-native container providers are supported. Default is redpanda."
-msgstr ""
+msgstr "São suportados os provedores de contêineres Redpanda, Strimzi e kafka-native. O padrão é o Redpanda."
 
+#, fuzzy
 msgid "For Redpanda: See https://docs.redpanda.com/current/get-started/quick-start/ and https://hub.docker.com/r/redpandadata/redpanda"
-msgstr ""
+msgstr "Para o Redpanda: Consulte https://docs.redpanda.com/current/get-started/quick-start/ e https://hub.docker.com/r/redpandadata/redpanda"
 
+#, fuzzy
 msgid "For Strimzi: See https://github.com/strimzi/test-container and https://quay.io/repository/strimzi-test-container/test-container"
-msgstr ""
+msgstr "Para Strimzi: Consulte https://github.com/strimzi/test-container e https://quay.io/repository/strimzi-test-container/test-container"
 
+#, fuzzy
 msgid "For Kafka Native: See https://github.com/ozangunalp/kafka-native and https://quay.io/repository/ogunalp/kafka-native"
-msgstr ""
+msgstr "Para o Kafka Native: Consulte https://github.com/ozangunalp/kafka-native e https://quay.io/repository/ogunalp/kafka-native"
 
+#, fuzzy
 msgid "Note that Strimzi and Kafka Native images are launched in Kraft mode."
-msgstr ""
+msgstr "Observe que as imagens do Strimzi e do Kafka Native são iniciadas no modo Kraft."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_PROVIDER[]"
 
+#, fuzzy
 msgid "`redpanda`, `strimzi`, `kafka-native`"
-msgstr ""
+msgstr "`redpanda` , `strimzi` , `kafka-native`"
 
+#, fuzzy
 msgid "`redpanda`"
-msgstr ""
+msgstr "`panda-vermelho`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-image-name]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-image-name[quarkus.kafka.devservices.image-name]`\n"
@@ -952,14 +1029,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-image-name]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-image-name[quarkus.kafka.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The Kafka container image to use."
-msgstr ""
+msgstr "A imagem do contêiner do Kafka a ser utilizada."
 
+#, fuzzy
 msgid "Dependent on the provider."
-msgstr ""
+msgstr "Depende do provedor."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-shared]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-shared[quarkus.kafka.devservices.shared]`\n"
@@ -980,14 +1060,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-shared]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-shared[quarkus.kafka.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Kafka broker managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Kafka starts a new container."
-msgstr ""
+msgstr "Indica se o broker do Kafka gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Kafka inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-kafka` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-kafka` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-service-name]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-service-name[quarkus.kafka.devservices.service-name]`\n"
@@ -1006,17 +1089,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-service-name]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-service-name[quarkus.kafka.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-kafka` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Kafka looks for a container with the `quarkus-dev-service-kafka` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-kafka` label set to the specified value."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-kafka”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Kafka procura um contêiner com o rótulo `“quarkus-dev-service-kafka”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-kafka”` definida com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Kafka brokers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de vários brokers compartilhados do Kafka."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`kafka`"
-msgstr ""
+msgstr "`Kafka`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-topic-partitions-timeout]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-topic-partitions-timeout[quarkus.kafka.devservices.topic-partitions-timeout]`\n"
@@ -1035,22 +1122,26 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-topic-partitions-timeout]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-topic-partitions-timeout[quarkus.kafka.devservices.topic-partitions-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Timeout for admin client calls used in topic creation."
-msgstr ""
+msgstr "Tempo limite para chamadas do cliente de administração utilizadas na criação de tópicos."
 
+#, fuzzy
 msgid "Defaults to 2 seconds."
-msgstr ""
+msgstr "O valor padrão é de 2 segundos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_TOPIC_PARTITIONS_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_TOPIC_PARTITIONS_TIMEOUT[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
 
+#, fuzzy
 msgid "`2S`"
-msgstr ""
+msgstr "`2S`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-transaction-enabled]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-transaction-enabled[quarkus.kafka.devservices.redpanda.transaction-enabled]`\n"
@@ -1067,11 +1158,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-transaction-enabled]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-transaction-enabled[quarkus.kafka.devservices.redpanda.transaction-enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Enables transaction support. Also enables the producer idempotence. Find more info about Redpanda transaction support on link:https://vectorized.io/blog/fast-transactions/[https://vectorized.io/blog/fast-transactions/]. Notice that link:https://cwiki.apache.org/confluence/display/KAFKA/KIP-447%3A+Producer+scalability+for+exactly+once+semantics[KIP-447 (producer scalability for exactly once semantic)] and link:https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=89068820[KIP-360 (Improve reliability of idempotent/transactional producer)] are _not_ supported."
-msgstr ""
+msgstr "Habilita o suporte a transações. Habilita também a idempotência do produtor. Encontre mais informações sobre o suporte a transações do Redpanda em https://vectorized.io/blog/fast-transactions/ . Observe que link:https://cwiki.apache.org/confluence/display/KAFKA/KIP-447%3A+Producer+scalability+for+exactly+once+semantics[o KIP-447 (escalabilidade do produtor para a semântica “exatamente uma vez”)] e link:https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=89068820[o KIP-360 (melhoria da confiabilidade do produtor idempotente/transacional)] _não_ são suportados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_REDPANDA_TRANSACTION_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_REDPANDA_TRANSACTION_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-proxy-port]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-proxy-port[quarkus.kafka.devservices.redpanda.proxy-port]`\n"
@@ -1090,11 +1183,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-proxy-port]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-redpanda-proxy-port[quarkus.kafka.devservices.redpanda.proxy-port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Port to access the Redpanda HTTP Proxy (link:https://docs.redpanda.com/current/develop/http-proxy/[pandaproxy])."
-msgstr ""
+msgstr "Porta para acessar o proxy HTTP Redpanda ( link:https://docs.redpanda.com/current/develop/http-proxy/[pandaproxy] )."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_REDPANDA_PROXY_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_REDPANDA_PROXY_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-topic-partitions-topic-partitions]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-topic-partitions-topic-partitions[quarkus.kafka.devservices.topic-partitions]`\n"
@@ -1116,14 +1211,17 @@ msgstr ""
 msgid "The topic-partition pairs to create in the Dev Services Kafka broker. After the broker is started, given topics with partitions are created, skipping already existing topics. For example, `quarkus.kafka.devservices.topic-partitions.test=2` will create a topic named `test` with 2 partitions."
 msgstr ""
 
+#, fuzzy
 msgid "The topic creation will not try to re-partition existing topics with different number of partitions."
-msgstr ""
+msgstr "A criação do tópico não tentará reparticionar tópicos existentes com um número diferente de partições."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_TOPIC_PARTITIONS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICES_TOPIC_PARTITIONS[]"
 
+#, fuzzy
 msgid "`Map<String,Integer>`"
-msgstr ""
+msgstr "`Map<String, Integer>`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-container-env-container-env]]`link:#quarkus-kafka-client-config-group-kafka-dev-services-build-time-config_quarkus-kafka-devservices-container-env-container-env[quarkus.kafka.devservices.container-env]`\n"
@@ -1143,13 +1241,15 @@ msgstr ""
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KAFKA_DEVSERVICES_CONTAINER_ENV+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -1178,8 +1278,9 @@ msgid ""
 "xref:security-openid-connect-dev-services.adoc[OIDC Dev Services Guide]."
 msgstr "O Dev Service Keycloak será ativado quando a extensão `quarkus-oidc` estiver presente em sua aplicação e o endereço do servidor não tiver sido configurado explicitamente. Mais informações podem ser encontradas no xref:security-openid-connect-dev-services.adoc[Guia do Dev Services do OIDC] ."
 
+#, fuzzy
 msgid "[[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_configuration]]link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-enabled]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-enabled[quarkus.keycloak.devservices.enabled]`\n"
@@ -1196,11 +1297,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-enabled]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-enabled[quarkus.keycloak.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Flag to enable (default) or disable Dev Services. When enabled, Dev Services for Keycloak automatically configures and starts Keycloak in Dev or Test mode, and when Docker is running."
-msgstr ""
+msgstr "Opção para ativar (padrão) ou desativar o Dev Services. Quando ativado, o Dev Services para Keycloak configura e inicia automaticamente o Keycloak no modo Dev ou Test, desde que o Docker esteja em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-image-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-image-name[quarkus.keycloak.devservices.image-name]`\n"
@@ -1217,11 +1320,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-image-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-image-name[quarkus.keycloak.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name for Dev Services providers. Defaults to a Quarkus-based Keycloak image. For a WildFly-based distribution, use an image like `quay.io/keycloak/keycloak:19.0.3-legacy`. Keycloak Quarkus and WildFly images are initialized differently. Dev Services for Keycloak will assume it is a Keycloak Quarkus image unless the image version ends with `-legacy`. Override with `quarkus.keycloak.devservices.keycloak-x-image`."
-msgstr ""
+msgstr "O nome da imagem de contêiner para provedores de Dev Services. O padrão é uma imagem do Keycloak baseada no Quarkus. Para uma distribuição baseada no WildFly, utilize uma imagem como `quay.io/keycloak/keycloak:19.0.3-legacy` . As imagens do Keycloak Quarkus e do WildFly são inicializadas de maneira diferente. O Dev Services para Keycloak presumirá que se trata de uma imagem do Keycloak Quarkus, a menos que a versão da imagem termine com `-legacy` . Substitua essa configuração por meio de `quarkus.keycloak.devservices.keycloak-x-image` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "`quay.io/keycloak/keycloak:24.0.4`"
 msgstr ""
@@ -1241,11 +1346,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-keycloak-x-image]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-keycloak-x-image[quarkus.keycloak.devservices.keycloak-x-image]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if a Keycloak-X image is used. By default, the image is identified by `keycloak-x` in the image name. For custom images, override with `quarkus.keycloak.devservices.keycloak-x-image`. You do not need to set this property if the default check works."
-msgstr ""
+msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem é identificada pela `string “keycloak-x”` no nome da imagem. Para imagens personalizadas, substitua por `quarkus.keycloak.devservices.keycloak-x-image` . Não é necessário definir essa propriedade se a verificação padrão funcionar."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-shared]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-shared[quarkus.keycloak.devservices.shared]`\n"
@@ -1262,11 +1369,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-shared]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-shared[quarkus.keycloak.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Determines if the Keycloak container is shared. When shared, Quarkus uses label-based service discovery to find and reuse a running Keycloak container, so a second one is not started. Otherwise, if a matching container is not is found, a new container is started. The service discovery uses the `quarkus-dev-service-label` label, whose value is set by the `service-name` property. Container sharing is available only in dev mode."
-msgstr ""
+msgstr "Determina se o contêiner do Keycloak é compartilhado. Quando compartilhado, o Quarkus utiliza a descoberta de serviços baseada em rótulos para localizar e reutilizar um contêiner do Keycloak em execução, de modo que um segundo contêiner não seja iniciado. Caso contrário, se não for encontrado um contêiner correspondente, um novo contêiner será iniciado. A descoberta de serviços utiliza a etiqueta ``quarkus-dev-service-label`` , cujo valor é definido pela propriedade ` `service-name`` . O compartilhamento de contêineres está disponível apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-service-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-service-name[quarkus.keycloak.devservices.service-name]`\n"
@@ -1283,11 +1392,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-service-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-service-name[quarkus.keycloak.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-keycloak` label for identifying the Keycloak container. Used in shared mode to locate an existing container with this label. If not found, a new container is initialized with this label. Applicable only in dev mode."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-keycloak”` para identificar o contêiner do Keycloak. Utilizado no modo compartilhado para localizar um contêiner existente com esse rótulo. Caso não seja encontrado, um novo contêiner é inicializado com esse rótulo. Aplicável apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SERVICE_NAME[]"
 
 #, fuzzy
 msgid "`quarkus`"
@@ -1308,11 +1419,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-realm-path]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-realm-path[quarkus.keycloak.devservices.realm-path]`"
 msgstr ""
 
+#, fuzzy
 msgid "A comma-separated list of class or file system paths to Keycloak realm files. This list is used to initialize Keycloak. The first value in this list is used to initialize default tenant connection properties."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de caminhos de classe ou do sistema de arquivos para os arquivos do reino do Keycloak. Essa lista é utilizada para inicializar o Keycloak. O primeiro valor dessa lista é utilizado para inicializar as propriedades de conexão padrão do locatário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH[]"
 
 #, fuzzy
 msgid "list of string"
@@ -1333,11 +1446,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-java-opts]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-java-opts[quarkus.keycloak.devservices.java-opts]`"
 msgstr ""
 
+#, fuzzy
 msgid "The `JAVA_OPTS` passed to the keycloak JVM"
-msgstr ""
+msgstr "As variáveis `JAVA_OPTS` passadas à JVM do Keycloak"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-show-logs]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-show-logs[quarkus.keycloak.devservices.show-logs]`\n"
@@ -1354,11 +1469,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-show-logs]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-show-logs[quarkus.keycloak.devservices.show-logs]`"
 msgstr ""
 
+#, fuzzy
 msgid "Show Keycloak log messages with a \"Keycloak:\" prefix."
-msgstr ""
+msgstr "Exiba as mensagens de log do Keycloak com o prefixo “Keycloak:”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS[]"
 
 #, fuzzy
 msgid "`false`"
@@ -1379,11 +1496,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-start-command]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-start-command[quarkus.keycloak.devservices.start-command]`"
 msgstr ""
 
+#, fuzzy
 msgid "Keycloak start command. Use this property to experiment with Keycloak start options, see `https://www.keycloak.org/server/all-config`. Note, it is ignored when loading legacy Keycloak WildFly images."
-msgstr ""
+msgstr "Comando de inicialização do Keycloak. Utilize esta propriedade para testar as opções de inicialização do Keycloak; consulte `https://www.keycloak.org/server/all-config` . Observe que ela é ignorada ao carregar imagens legadas do Keycloak para WildFly."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-realm-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-realm-name[quarkus.keycloak.devservices.realm-name]`\n"
@@ -1400,11 +1519,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-realm-name]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-realm-name[quarkus.keycloak.devservices.realm-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the Keycloak realm. This property is used to create the realm if the realm file pointed to by the `realm-path` property does not exist. The default value is `quarkus` in this case. It is recommended to always set this property so that Dev Services for Keycloak can identify the realm name without parsing the realm file."
-msgstr ""
+msgstr "O nome do reino do Keycloak. Essa propriedade é utilizada para criar o reino caso o arquivo de reino indicado pela propriedade ``realm-path`` não exista. O valor padrão, nesse caso, é ``quarkus`` . Recomenda-se definir sempre essa propriedade para que o Dev Services for Keycloak possa identificar o nome do reino sem precisar analisar o arquivo de reino."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-create-realm]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-create-realm[quarkus.keycloak.devservices.create-realm]`\n"
@@ -1421,11 +1542,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-create-realm]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-create-realm[quarkus.keycloak.devservices.create-realm]`"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies whether to create the Keycloak realm when no realm file is found at the `realm-path`. Set to `false` if the realm is to be created using either the Keycloak Administration Console or the Keycloak Admin API provided by `io.quarkus.test.common.QuarkusTestResourceLifecycleManager`."
-msgstr ""
+msgstr "Especifica se o reino do Keycloak deve ser criado quando nenhum arquivo de reino for encontrado no `caminho do reino` . Defina como `“false”` se o reino for criado por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-port]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-port[quarkus.keycloak.devservices.port]`\n"
@@ -1444,14 +1567,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-port]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-port[quarkus.keycloak.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "The specific port for the dev service to listen on."
-msgstr ""
+msgstr "A porta específica na qual o serviço de desenvolvimento deve ficar à escuta."
 
+#, fuzzy
 msgid "If not specified, a random port is selected."
-msgstr ""
+msgstr "Caso não seja especificado, é selecionada uma porta aleatória."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-resource-aliases-resource-aliases]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-resource-aliases-resource-aliases[quarkus.keycloak.devservices.resource-aliases]`\n"
@@ -1468,8 +1594,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-resource-aliases-resource-aliases]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-resource-aliases-resource-aliases[quarkus.keycloak.devservices.resource-aliases]`"
 msgstr ""
 
+#, fuzzy
 msgid "Aliases to additional class or file system resources that are used to initialize Keycloak. Each map entry represents a mapping between an alias and a class or file system resource path."
-msgstr ""
+msgstr "Aliases para recursos adicionais de classe ou do sistema de arquivos utilizados para inicializar o Keycloak. Cada entrada do mapa representa um mapeamento entre um alias e um caminho de recurso de classe ou do sistema de arquivos."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_ALIASES+++[]"
 msgstr ""
@@ -1489,8 +1616,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-resource-mappings-resource-mappings]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-resource-mappings-resource-mappings[quarkus.keycloak.devservices.resource-mappings]`"
 msgstr ""
 
+#, fuzzy
 msgid "Additional class or file system resources that are used to initialize Keycloak. Each map entry represents a mapping between a class or file system resource path alias and the Keycloak container location."
-msgstr ""
+msgstr "Recursos adicionais de classe ou do sistema de arquivos utilizados para inicializar o Keycloak. Cada entrada do mapa representa um mapeamento entre um alias de caminho de uma classe ou de um recurso do sistema de arquivos e a localização do contêiner do Keycloak."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_MAPPINGS+++[]"
 msgstr ""
@@ -1510,11 +1638,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-users-users]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-users-users[quarkus.keycloak.devservices.users]`"
 msgstr ""
 
+#, fuzzy
 msgid "A map of Keycloak usernames to passwords. If empty, default users `alice` and `bob` are created with their names as passwords. This map is used for user creation when no realm file is found at the `realm-path`."
-msgstr ""
+msgstr "Um mapeamento entre nomes de usuário e senhas do Keycloak. Se estiver vazio, os usuários padrão `“alice”` e `“bob”` serão criados com seus próprios nomes como senhas. Esse mapeamento é utilizado para a criação de usuários quando nenhum arquivo de reino for encontrado no `caminho do reino` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_USERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_USERS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-roles-roles]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-roles-roles[quarkus.keycloak.devservices.roles]`\n"
@@ -1531,14 +1661,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-roles-roles]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-roles-roles[quarkus.keycloak.devservices.roles]`"
 msgstr ""
 
+#, fuzzy
 msgid "A map of roles for Keycloak users. If empty, default roles are assigned: `alice` receives `admin` and `user` roles, while other users receive `user` role. This map is used for role creation when no realm file is found at the `realm-path`."
-msgstr ""
+msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, são atribuídas funções padrão: `a alice` recebe as funções `de administrador` e `usuário` , enquanto os demais usuários recebem a função `de usuário` . Esse mapa é utilizado para a criação de funções quando não é encontrado nenhum arquivo de reino no `caminho do reino` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ROLES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ROLES[]"
 
+#, fuzzy
 msgid "`Map<String,List<String>>`"
-msgstr ""
+msgstr "`Map<String,List<String>>`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-container-env-container-env]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-container-env-container-env[quarkus.keycloak.devservices.container-env]`\n"
@@ -1555,8 +1688,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-container-env-container-env]]`link:#quarkus-keycloak-devservices-keycloak-keycloak-build-time-config_quarkus-keycloak-devservices-container-env-container-env[quarkus.keycloak.devservices.container-env]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables to be passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente a serem passadas ao contêiner."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_ENV+++[]"
 msgstr ""
@@ -1588,11 +1722,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-enabled]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-enabled[quarkus.kubernetes-client.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If Dev Services for Kubernetes should be used. (default to true) If this is true and kubernetes client is not configured then a kubernetes cluster will be started and will be used."
-msgstr ""
+msgstr "Se os Serviços de Desenvolvimento para o Kubernetes devem ser utilizados. (padrão: true) Se este valor for true e o cliente do Kubernetes não estiver configurado, um cluster do Kubernetes será iniciado e utilizado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-api-version]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-api-version[quarkus.kubernetes-client.devservices.api-version]`\n"
@@ -1609,11 +1745,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-api-version]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-api-version[quarkus.kubernetes-client.devservices.api-version]`"
 msgstr ""
 
+#, fuzzy
 msgid "The kubernetes api server version to use. If not set, Dev Services for Kubernetes will use the latest supported version of the given flavor. see https://github.com/dajudge/kindcontainer/blob/master/k8s-versions.json"
-msgstr ""
+msgstr "A versão do servidor de API do Kubernetes a ser utilizada. Caso não seja definida, o Dev Services for Kubernetes utilizará a versão mais recente compatível do tipo especificado. Consulte https://github.com/dajudge/kindcontainer/blob/master/k8s-versions.json"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_API_VERSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_API_VERSION[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-flavor]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-flavor[quarkus.kubernetes-client.devservices.flavor]`\n"
@@ -1630,17 +1768,20 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-flavor]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-flavor[quarkus.kubernetes-client.devservices.flavor]`"
 msgstr ""
 
+#, fuzzy
 msgid "The flavor to use (kind, k3s or api-only). Default to api-only."
-msgstr ""
+msgstr "O “flavor” a ser utilizado (kind, k3s ou api-only). O padrão é api-only."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_FLAVOR+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_FLAVOR[]"
 
 msgid "`kind`, `k3s`, `api-only`"
 msgstr ""
 
+#, fuzzy
 msgid "`api-only`"
-msgstr ""
+msgstr "`somente API`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-override-kubeconfig]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-override-kubeconfig[quarkus.kubernetes-client.devservices.override-kubeconfig]`\n"
@@ -1657,11 +1798,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-override-kubeconfig]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-override-kubeconfig[quarkus.kubernetes-client.devservices.override-kubeconfig]`"
 msgstr ""
 
+#, fuzzy
 msgid "By default, if a kubeconfig is found, Dev Services for Kubernetes will not start. Set this to true to override the kubeconfig config."
-msgstr ""
+msgstr "Por padrão, caso seja encontrado um arquivo kubeconfig, o Dev Services for Kubernetes não será iniciado. Defina este parâmetro como “true” para substituir a configuração do kubeconfig."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_OVERRIDE_KUBECONFIG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_OVERRIDE_KUBECONFIG[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-shared]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-shared[quarkus.kubernetes-client.devservices.shared]`\n"
@@ -1682,14 +1825,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-shared]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-shared[quarkus.kubernetes-client.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Kubernetes cluster managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Kubernetes starts a new container."
-msgstr ""
+msgstr "Indica se o cluster do Kubernetes gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for Kubernetes inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-kubernetes` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza o rótulo `“quarkus-dev-service-kubernetes` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-service-name]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-service-name[quarkus.kubernetes-client.devservices.service-name]`\n"
@@ -1708,17 +1854,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-service-name]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-service-name[quarkus.kubernetes-client.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-kubernetes` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Kubernetes looks for a container with the `quarkus-dev-service-kubernetes` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-kubernetes` label set to the specified value."
-msgstr ""
+msgstr "O valor do rótulo ` `quarkus-dev-service-kubernetes`` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Kubernetes procura um contêiner com o rótulo ``quarkus-dev-service-kubernetes`` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-kubernetes”` definido com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Kubernetes clusters."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de vários clusters compartilhados do Kubernetes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CLIENT_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`kubernetes`"
-msgstr ""
+msgstr "`Kubernetes`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-container-env-container-env]]`link:#quarkus-kubernetes-client-config-group-kubernetes-dev-services-build-time-config_quarkus-kubernetes-client-devservices-container-env-container-env[quarkus.kubernetes-client.devservices.container-env]`\n"
@@ -1747,8 +1897,9 @@ msgid ""
 "xref:mongodb.adoc#dev-services[MongoDB Guide]."
 msgstr "O Dev Service MongoDB será ativado quando a extensão `quarkus-mongodb-client` estiver presente em sua aplicação e o endereço do servidor não tiver sido configurado explicitamente. Mais informações podem ser encontradas no xref:mongodb.adoc#dev-services[Guia do MongoDB] ."
 
+#, fuzzy
 msgid "[[quarkus-mongodb-config-group-dev-services-build-time-config_configuration]]link:#quarkus-mongodb-config-group-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-mongodb-config-group-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-enabled]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-enabled[quarkus.mongodb.devservices.enabled]`\n"
@@ -1765,11 +1916,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-enabled]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-enabled[quarkus.mongodb.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If DevServices has been explicitly enabled or disabled. DevServices is generally enabled by default, unless there is an existing configuration present. When DevServices is enabled Quarkus will attempt to automatically configure and start a database when running in Dev or Test mode."
-msgstr ""
+msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que haja uma configuração existente. Quando o DevServices está ativado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-image-name]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-image-name[quarkus.mongodb.devservices.image-name]`\n"
@@ -1786,11 +1939,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-image-name]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-image-name[quarkus.mongodb.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name to use, for container based DevServices providers."
-msgstr ""
+msgstr "O nome da imagem do contêiner a ser utilizado, para provedores de DevServices baseados em contêineres."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-port]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-port[quarkus.mongodb.devservices.port]`\n"
@@ -1809,8 +1964,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-port]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-port[quarkus.mongodb.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-properties-properties]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-properties-properties[quarkus.mongodb.devservices.properties]`\n"
@@ -1827,11 +1983,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-properties-properties]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-properties-properties[quarkus.mongodb.devservices.properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "Generic properties that are added to the connection URL."
-msgstr ""
+msgstr "Propriedades genéricas que são adicionadas à URL de conexão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_PROPERTIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_PROPERTIES[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-container-env-container-env]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-container-env-container-env[quarkus.mongodb.devservices.container-env]`\n"
@@ -1860,8 +2018,9 @@ msgid ""
 "xref:rabbitmq-dev-services.adoc[RabbitMQ Dev Services Guide]."
 msgstr "O Dev Service RabbitMQ será ativado quando a extensão `quarkus-smallrye-reactive-messaging-rabbitmq` estiver presente em sua aplicação e o endereço do broker não tiver sido configurado explicitamente. Mais informações podem ser encontradas no xref:rabbitmq-dev-services.adoc[Guia do Dev Services do RabbitMQ]."
 
+#, fuzzy
 msgid "[[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_configuration]]link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-enabled]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-enabled[quarkus.rabbitmq.devservices.enabled]`\n"
@@ -1878,11 +2037,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-enabled]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-enabled[quarkus.rabbitmq.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If Dev Services for RabbitMQ has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For RabbitMQ, Dev Services starts a broker unless `rabbitmq-host` or `rabbitmq-port` are set or if all the Reactive Messaging RabbitMQ channel are configured with `host` or `port`."
-msgstr ""
+msgstr "Se os Serviços de Desenvolvimento para o RabbitMQ foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que haja uma configuração existente. Para o RabbitMQ, os Serviços de Desenvolvimento iniciam um broker, a menos que `rabbitmq-host` ou `rabbitmq-port` estejam definidos ou que todos os canais do RabbitMQ do Reactive Messaging estejam configurados com `host` ou `porta` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-port]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-port[quarkus.rabbitmq.devservices.port]`\n"
@@ -1901,8 +2062,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-port]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-port[quarkus.rabbitmq.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-http-port]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-http-port[quarkus.rabbitmq.devservices.http-port]`\n"
@@ -1921,11 +2083,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-http-port]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-http-port[quarkus.rabbitmq.devservices.http-port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Optional fixed port for the RabbitMQ management plugin."
-msgstr ""
+msgstr "Porta fixa opcional para o plug-in de gerenciamento do RabbitMQ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_HTTP_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_HTTP_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-image-name]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-image-name[quarkus.rabbitmq.devservices.image-name]`\n"
@@ -1942,11 +2106,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-image-name]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-image-name[quarkus.rabbitmq.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The image to use. Note that only official RabbitMQ images are supported. Specifically, the image repository must end with `rabbitmq`."
-msgstr ""
+msgstr "A imagem a ser utilizada. Observe que apenas as imagens oficiais do RabbitMQ são compatíveis. Mais especificamente, o repositório da imagem deve terminar com `rabbitmq` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "`rabbitmq:3.12-management`"
 msgstr ""
@@ -1970,14 +2136,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-shared]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-shared[quarkus.rabbitmq.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the RabbitMQ broker managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for RabbitMQ starts a new container."
-msgstr ""
+msgstr "Indica se o broker RabbitMQ gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for RabbitMQ inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-rabbitmq` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-rabbitmq` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-service-name]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-service-name[quarkus.rabbitmq.devservices.service-name]`\n"
@@ -1996,17 +2165,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-service-name]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-service-name[quarkus.rabbitmq.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-rabbitmq` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for RabbitMQ looks for a container with the `quarkus-dev-service-rabbitmq` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-rabbitmq` label set to the specified value."
-msgstr ""
+msgstr "O valor da etiqueta ` `quarkus-dev-service-rabbitmq` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for RabbitMQ procura um contêiner com a etiqueta ``quarkus-dev-service-rabbitmq`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-rabbitmq”` definida com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared RabbitMQ brokers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de vários brokers RabbitMQ compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`rabbitmq`"
-msgstr ""
+msgstr "`rabbitmq`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-type]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-type[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".type]`\n"
@@ -2023,11 +2196,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-type]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-type[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".type]`"
 msgstr ""
 
+#, fuzzy
 msgid "Type of exchange: direct, topic, headers, fanout, etc."
-msgstr ""
+msgstr "Tipo de troca: direta, por tópico, por cabeçalhos, fanout, etc."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__TYPE[]"
 
 #, fuzzy
 msgid "`direct`"
@@ -2048,11 +2223,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-auto-delete]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-auto-delete[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".auto-delete]`"
 msgstr ""
 
+#, fuzzy
 msgid "Should the exchange be deleted when all queues are finished using it?"
-msgstr ""
+msgstr "A exchange deveria ser excluída quando todas as filas tiverem concluído seu uso?"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__AUTO_DELETE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__AUTO_DELETE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-durable]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-durable[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".durable]`\n"
@@ -2069,11 +2246,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-durable]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-durable[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".durable]`"
 msgstr ""
 
+#, fuzzy
 msgid "Should the exchange remain after restarts?"
-msgstr ""
+msgstr "A troca deve permanecer após as reinicializações?"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__DURABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__DURABLE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-arguments-arguments]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-arguments-arguments[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".arguments]`\n"
@@ -2090,11 +2269,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-arguments-arguments]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-exchanges-exchanges-arguments-arguments[quarkus.rabbitmq.devservices.exchanges.\"exchanges\".arguments]`"
 msgstr ""
 
+#, fuzzy
 msgid "Extra arguments for the exchange definition."
-msgstr ""
+msgstr "Argumentos adicionais para a definição do exchange."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__ARGUMENTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_EXCHANGES__EXCHANGES__ARGUMENTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-auto-delete]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-auto-delete[quarkus.rabbitmq.devservices.queues.\"queues\".auto-delete]`\n"
@@ -2111,11 +2292,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-auto-delete]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-auto-delete[quarkus.rabbitmq.devservices.queues.\"queues\".auto-delete]`"
 msgstr ""
 
+#, fuzzy
 msgid "Should the queue be deleted when all consumers are finished using it?"
-msgstr ""
+msgstr "A fila deveria ser excluída quando todos os consumidores tiverem terminado de usá-la?"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_QUEUES__QUEUES__AUTO_DELETE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_QUEUES__QUEUES__AUTO_DELETE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-durable]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-durable[quarkus.rabbitmq.devservices.queues.\"queues\".durable]`\n"
@@ -2132,11 +2315,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-durable]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-durable[quarkus.rabbitmq.devservices.queues.\"queues\".durable]`"
 msgstr ""
 
+#, fuzzy
 msgid "Should the queue remain after restarts?"
-msgstr ""
+msgstr "A fila deve permanecer após as reinicializações?"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_QUEUES__QUEUES__DURABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_QUEUES__QUEUES__DURABLE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-arguments-arguments]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-arguments-arguments[quarkus.rabbitmq.devservices.queues.\"queues\".arguments]`\n"
@@ -2153,11 +2338,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-arguments-arguments]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-queues-queues-arguments-arguments[quarkus.rabbitmq.devservices.queues.\"queues\".arguments]`"
 msgstr ""
 
+#, fuzzy
 msgid "Extra arguments for the queue definition."
-msgstr ""
+msgstr "Argumentos adicionais para a definição da fila."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_QUEUES__QUEUES__ARGUMENTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_QUEUES__QUEUES__ARGUMENTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-source]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-source[quarkus.rabbitmq.devservices.bindings.\"bindings\".source]`\n"
@@ -2174,11 +2361,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-source]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-source[quarkus.rabbitmq.devservices.bindings.\"bindings\".source]`"
 msgstr ""
 
+#, fuzzy
 msgid "Source exchange to bind to. Defaults to name of binding instance."
-msgstr ""
+msgstr "Fonte de troca à qual se vincular. O valor padrão é o nome da instância de vinculação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__SOURCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__SOURCE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-routing-key]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-routing-key[quarkus.rabbitmq.devservices.bindings.\"bindings\".routing-key]`\n"
@@ -2195,11 +2384,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-routing-key]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-routing-key[quarkus.rabbitmq.devservices.bindings.\"bindings\".routing-key]`"
 msgstr ""
 
+#, fuzzy
 msgid "Routing key specification for the source exchange."
-msgstr ""
+msgstr "Especificação da chave de roteamento para a bolsa de origem."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__ROUTING_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__ROUTING_KEY[]"
 
 #, fuzzy
 msgid "`#`"
@@ -2220,11 +2411,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-destination]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-destination[quarkus.rabbitmq.devservices.bindings.\"bindings\".destination]`"
 msgstr ""
 
+#, fuzzy
 msgid "Destination exchange or queue to bind to. Defaults to name of binding instance."
-msgstr ""
+msgstr "Intercâmbio de destino ou fila à qual se vincular. O valor padrão é o nome da instância de vinculação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__DESTINATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__DESTINATION[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-destination-type]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-destination-type[quarkus.rabbitmq.devservices.bindings.\"bindings\".destination-type]`\n"
@@ -2241,14 +2434,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-destination-type]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-destination-type[quarkus.rabbitmq.devservices.bindings.\"bindings\".destination-type]`"
 msgstr ""
 
+#, fuzzy
 msgid "Destination type for binding: queue, exchange, etc."
-msgstr ""
+msgstr "Tipo de destino para a ligação: fila, exchange, etc."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__DESTINATION_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__DESTINATION_TYPE[]"
 
+#, fuzzy
 msgid "`queue`"
-msgstr ""
+msgstr "`fila`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-arguments-arguments]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-arguments-arguments[quarkus.rabbitmq.devservices.bindings.\"bindings\".arguments]`\n"
@@ -2265,11 +2461,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-arguments-arguments]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-bindings-bindings-arguments-arguments[quarkus.rabbitmq.devservices.bindings.\"bindings\".arguments]`"
 msgstr ""
 
+#, fuzzy
 msgid "Extra arguments for the binding definition."
-msgstr ""
+msgstr "Argumentos adicionais para a definição da ligação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__ARGUMENTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_RABBITMQ_DEVSERVICES_BINDINGS__BINDINGS__ARGUMENTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-container-env-container-env]]`link:#quarkus-smallrye-reactivemessaging-rabbitmq-config-group-rabbit-mq-dev-services-build-time-config_quarkus-rabbitmq-devservices-container-env-container-env[quarkus.rabbitmq.devservices.container-env]`\n"
@@ -2329,14 +2527,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-enabled]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-enabled[quarkus.redis.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If DevServices has been explicitly enabled or disabled. DevServices is generally enabled by default, unless there is an existing configuration present."
-msgstr ""
+msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que haja uma configuração existente."
 
+#, fuzzy
 msgid "When DevServices is enabled Quarkus will attempt to automatically configure and start a database when running in Dev or Test mode and when Docker is running."
-msgstr ""
+msgstr "Quando o DevServices estiver ativado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test e quando o Docker estiver em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-image-name[quarkus.redis.devservices.image-name]`\n"
@@ -2353,11 +2554,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-image-name[quarkus.redis.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name to use, for container based DevServices providers. If you want to use Redis Stack modules (bloom, graph, search...), use: `redis/redis-stack:latest`."
-msgstr ""
+msgstr "O nome da imagem do contêiner a ser utilizado, para provedores de DevServices baseados em contêineres. Caso deseje utilizar módulos do Redis Stack (bloom, graph, search…​), utilize: `redis/redis-stack:latest` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-port[quarkus.redis.devservices.port]`\n"
@@ -2376,8 +2579,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-port[quarkus.redis.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-shared[quarkus.redis.devservices.shared]`\n"
@@ -2398,14 +2602,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-shared[quarkus.redis.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Redis server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Redis starts a new container."
-msgstr ""
+msgstr "Indica se o servidor Redis gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Redis inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-redis` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-redis` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name[quarkus.redis.devservices.service-name]`\n"
@@ -2424,17 +2631,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name[quarkus.redis.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-redis` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Redis looks for a container with the `quarkus-dev-service-redis` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-redis` label set to the specified value."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-redis”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Redis procura um contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Redis servers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando for necessário dispor de vários servidores Redis compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`redis`"
-msgstr ""
+msgstr "`redis`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-container-env-container-env]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-container-env-container-env[quarkus.redis.devservices.container-env]`\n"
@@ -2471,8 +2682,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-enabled]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-enabled[quarkus.redis.\"additional-redis-clients\".devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`\n"
@@ -2489,8 +2701,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port[quarkus.redis.\"additional-redis-clients\".devservices.port]`\n"
@@ -2509,8 +2722,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port[quarkus.redis.\"additional-redis-clients\".devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared[quarkus.redis.\"additional-redis-clients\".devservices.shared]`\n"
@@ -2531,8 +2745,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared[quarkus.redis.\"additional-redis-clients\".devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name[quarkus.redis.\"additional-redis-clients\".devservices.service-name]`\n"
@@ -2551,8 +2766,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name[quarkus.redis.\"additional-redis-clients\".devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SERVICE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-container-env-container-env]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-container-env-container-env[quarkus.redis.\"additional-redis-clients\".devservices.container-env]`\n"
@@ -2619,8 +2835,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-enabled]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-enabled[quarkus.infinispan-client.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-create-default-client]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-create-default-client[quarkus.infinispan-client.devservices.create-default-client]`\n"
@@ -2637,11 +2854,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-create-default-client]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-create-default-client[quarkus.infinispan-client.devservices.create-default-client]`"
 msgstr ""
 
+#, fuzzy
 msgid "When the configuration is empty, an Infinispan default client is automatically created to connect to the running dev service. However, there are scenarios where creating this client is unnecessary, yet we still need to spin up an Infinispan Server. In such cases, this property serves to determine whether the client should be created by default or not by the extension."
-msgstr ""
+msgstr "Quando a configuração estiver vazia, um cliente padrão do Infinispan é criado automaticamente para se conectar ao serviço de desenvolvimento em execução. No entanto, há cenários em que a criação desse cliente é desnecessária, mas ainda assim precisamos iniciar um servidor Infinispan. Nesses casos, essa propriedade serve para determinar se o cliente deve ou não ser criado por padrão pela extensão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CREATE_DEFAULT_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_CREATE_DEFAULT_CLIENT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-port]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-port[quarkus.infinispan-client.devservices.port]`\n"
@@ -2660,8 +2879,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-port]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-port[quarkus.infinispan-client.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-shared]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-shared[quarkus.infinispan-client.devservices.shared]`\n"
@@ -2682,14 +2902,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-shared]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-shared[quarkus.infinispan-client.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Infinispan server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Infinispan starts a new container."
-msgstr ""
+msgstr "Indica se o servidor Infinispan gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services para Infinispan inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-infinispan` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-infinispan` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-service-name]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-service-name[quarkus.infinispan-client.devservices.service-name]`\n"
@@ -2708,17 +2931,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-service-name]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-service-name[quarkus.infinispan-client.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-infinispan` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Infinispan looks for a container with the `quarkus-dev-service-infinispan` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-infinispan` label set to the specified value."
-msgstr ""
+msgstr "O valor da etiqueta ` `quarkus-dev-service-infinispan` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Infinispan procura um contêiner com a etiqueta ``quarkus-dev-service-infinispan`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-infinispan”` definida com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Infinispan servers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Infinispan compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`infinispan`"
-msgstr ""
+msgstr "`infinispan`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-image-name]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-image-name[quarkus.infinispan-client.devservices.image-name]`\n"
@@ -2735,11 +2962,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-image-name]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-image-name[quarkus.infinispan-client.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The image to use. Note that only official Infinispan images are supported."
-msgstr ""
+msgstr "A imagem a ser utilizada. Observe que apenas as imagens oficiais do Infinispan são compatíveis."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-artifacts]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-artifacts[quarkus.infinispan-client.devservices.artifacts]`\n"
@@ -2760,17 +2989,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-artifacts]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-artifacts[quarkus.infinispan-client.devservices.artifacts]`"
 msgstr ""
 
+#, fuzzy
 msgid "List of the artifacts to automatically download and add to the Infinispan server libraries."
-msgstr ""
+msgstr "Lista dos artefatos a serem baixados automaticamente e adicionados às bibliotecas do servidor Infinispan."
 
+#, fuzzy
 msgid "For example a Maven coordinate (org.postgresql:postgresql:42.3.1) or a dependency location url."
-msgstr ""
+msgstr "Por exemplo, uma coordenada do Maven (org.postgresql:postgresql:42.3.1) ou uma URL de localização de dependência."
 
+#, fuzzy
 msgid "If an invalid value is passed, the Infinispan server will throw an error when trying to start."
-msgstr ""
+msgstr "Caso seja passado um valor inválido, o servidor Infinispan gerará um erro ao tentar iniciar."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ARTIFACTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_ARTIFACTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-site]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-site[quarkus.infinispan-client.devservices.site]`\n"
@@ -2787,11 +3020,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-site]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-site[quarkus.infinispan-client.devservices.site]`"
 msgstr ""
 
+#, fuzzy
 msgid "Add a site name to start the Infinispan Server Container with Cross Site Replication enabled (ex. lon). Cross Site Replication is the capability to connect two separate Infinispan Server Clusters that might run in different Data Centers, and configure backup caches to copy the data across the clusters with active-active or active-passive replication. See more about Cross Site Replication in the Infinispan Documentation https://infinispan.org/docs/stable/titles/xsite/xsite.html Configure `mcast-port` to avoid forming a cluster with any other running Infinispan Server container."
-msgstr ""
+msgstr "Adicione um nome de site para iniciar o contêiner do servidor Infinispan com a replicação entre sites ativada (por exemplo, lon). A replicação entre sites é a capacidade de conectar dois clusters de servidores Infinispan distintos, que podem estar em operação em diferentes centros de dados, e configurar caches de backup para copiar os dados entre os clusters por meio de replicação ativa-ativa ou ativa-passiva. Saiba mais sobre a replicação entre sites na documentação do Infinispan link:https://infinispan.org/docs/stable/titles/xsite/xsite.html[: https://infinispan.org/docs/stable/titles/xsite/xsite.html] . Configure `a porta mcast` para evitar a formação de um cluster com qualquer outro contêiner do Infinispan Server em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SITE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_SITE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-mcast-port]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-mcast-port[quarkus.infinispan-client.devservices.mcast-port]`\n"
@@ -2808,11 +3043,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-mcast-port]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-mcast-port[quarkus.infinispan-client.devservices.mcast-port]`"
 msgstr ""
 
+#, fuzzy
 msgid "If you are running an Infinispan Server already in docker, if the containers use the same mcastPort they will form a cluster. Set a different mcastPort to create a separate cluster in Docker (e. 46656). A common use case in a local Docker development mode, is the need of having two different Infinispan Clusters with Cross Site Replication enabled. see https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
-msgstr ""
+msgstr "Caso já esteja executando um servidor Infinispan no Docker, se os contêineres utilizarem a mesma porta mcastPort, eles formarão um cluster. Defina uma porta mcastPort diferente para criar um cluster separado no Docker (por exemplo, 46656). Um caso de uso comum no modo de desenvolvimento local do Docker é a necessidade de ter dois clusters Infinispan diferentes com a replicação entre sites (Cross Site Replication) habilitada. Consulte https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_MCAST_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_MCAST_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-enabled]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-enabled[quarkus.infinispan-client.devservices.tracing.enabled]`\n"
@@ -2829,11 +3066,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-enabled]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-enabled[quarkus.infinispan-client.devservices.tracing.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Runs the Infinispan Server container with tracing enabled. Traces are disabled by default"
-msgstr ""
+msgstr "Executa o contêiner do Infinispan Server com o rastreamento ativado. Por padrão, o rastreamento está desativado"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_TRACING_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_TRACING_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-exporter-otlp-endpoint]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-exporter-otlp-endpoint[quarkus.infinispan-client.devservices.tracing.exporter.otlp.endpoint]`\n"
@@ -2850,11 +3089,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-exporter-otlp-endpoint]]`link:#quarkus-infinispan-client-config-group-infinispan-client-build-time-config-dev-service-configuration_quarkus-infinispan-client-devservices-tracing-exporter-otlp-endpoint[quarkus.infinispan-client.devservices.tracing.exporter.otlp.endpoint]`"
 msgstr ""
 
+#, fuzzy
 msgid "Sets Infinispan Server otlp endpoint. Default value is http://localhost:4317"
-msgstr ""
+msgstr "Define o endpoint OTLP do servidor Infinispan. O valor padrão é http://localhost:4317"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_TRACING_EXPORTER_OTLP_ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_INFINISPAN_CLIENT_DEVSERVICES_TRACING_EXPORTER_OTLP_ENDPOINT[]"
 
 msgid "`http://localhost:4317`"
 msgstr ""
@@ -3116,8 +3357,9 @@ msgid ""
 "More information can be found in the xref:elasticsearch-dev-services.adoc[Elasticsearch Dev Services Guide]."
 msgstr "O Dev Service Elasticsearch será ativado quando uma das extensões baseadas no Elasticsearch (cliente Elasticsearch ou Hibernate Search ORM Elasticsearch) estiver presente em sua aplicação e o endereço do servidor não tiver sido configurado explicitamente. Mais informações podem ser encontradas no xref:elasticsearch-dev-services.adoc[Guia do Dev Services do Elasticsearch] ."
 
+#, fuzzy
 msgid "[[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_configuration]]link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-enabled]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-enabled[quarkus.elasticsearch.devservices.enabled]`\n"
@@ -3137,13 +3379,15 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-enabled]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-enabled[quarkus.elasticsearch.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Dev Services are enabled by default\n"
 "unless connection configuration (e.g. `quarkus.elasticsearch.hosts`) is set explicitly."
-msgstr ""
+msgstr "Os Serviços de Desenvolvimento estão habilitados por padrão, a menos que a configuração de conexão (por exemplo, `quarkus.elasticsearch.hosts` ) seja definida explicitamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-port]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-port[quarkus.elasticsearch.devservices.port]`\n"
@@ -3162,8 +3406,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-port]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-port[quarkus.elasticsearch.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-distribution]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-distribution[quarkus.elasticsearch.devservices.distribution]`\n"
@@ -3184,20 +3429,24 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-distribution]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-distribution[quarkus.elasticsearch.devservices.distribution]`"
 msgstr ""
 
+#, fuzzy
 msgid "The Elasticsearch distribution to use."
-msgstr ""
+msgstr "A distribuição do Elasticsearch a ser utilizada."
 
+#, fuzzy
 msgid ""
 "Defaults to a distribution inferred from the explicitly configured `image-name` (if any),\n"
 "or by default to the distribution configured in depending extensions (e.g. Hibernate Search),\n"
 "or by default to `elastic`."
-msgstr ""
+msgstr "O valor padrão é uma distribuição inferida a partir do `nome da imagem` explicitamente configurado (se houver); caso contrário, a distribuição configurada nas extensões dependentes (por exemplo, Hibernate Search); ou, ainda, a distribuição `“elastic` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_DISTRIBUTION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_DISTRIBUTION[]"
 
+#, fuzzy
 msgid "`elastic`, `opensearch`"
-msgstr ""
+msgstr "`elastic` , `opensearch`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-image-name]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-image-name[quarkus.elasticsearch.devservices.image-name]`\n"
@@ -3219,11 +3468,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-image-name]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-image-name[quarkus.elasticsearch.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The Elasticsearch container image to use."
-msgstr ""
+msgstr "A imagem de contêiner do Elasticsearch a ser utilizada."
 
+#, fuzzy
 msgid "Defaults depend on the configured `distribution`:"
-msgstr ""
+msgstr "Os valores padrão dependem da `distribuição` configurada:"
 
 msgid "For the `elastic` distribution: {elasticsearch-image}"
 msgstr ""
@@ -3231,8 +3482,9 @@ msgstr ""
 msgid "For the `opensearch` distribution: {opensearch-image}"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-java-opts]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-java-opts[quarkus.elasticsearch.devservices.java-opts]`\n"
@@ -3249,14 +3501,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-java-opts]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-java-opts[quarkus.elasticsearch.devservices.java-opts]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value for the ES_JAVA_OPTS env variable."
-msgstr ""
+msgstr "O valor da variável de ambiente ES_JAVA_OPTS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_JAVA_OPTS[]"
 
+#, fuzzy
 msgid "`-Xms512m -Xmx1g`"
-msgstr ""
+msgstr "`-Xms512m -Xmx1g`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-shared]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-shared[quarkus.elasticsearch.devservices.shared]`\n"
@@ -3279,17 +3534,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-shared]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-shared[quarkus.elasticsearch.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether the Elasticsearch server managed by Quarkus Dev Services is shared."
-msgstr ""
+msgstr "Se o servidor Elasticsearch gerenciado pelo Quarkus Dev Services é compartilhado."
 
+#, fuzzy
 msgid "When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Elasticsearch starts a new container."
-msgstr ""
+msgstr "Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Elasticsearch inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-elasticsearch` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-elasticsearch` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-service-name]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-service-name[quarkus.elasticsearch.devservices.service-name]`\n"
@@ -3310,20 +3569,25 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-service-name]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-service-name[quarkus.elasticsearch.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-elasticsearch` label attached to the started container."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-elasticsearch”` associado ao contêiner iniciado."
 
+#, fuzzy
 msgid "This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Elasticsearch looks for a container with the `quarkus-dev-service-elasticsearch` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise it starts a new container with the `quarkus-dev-service-elasticsearch` label set to the specified value."
-msgstr ""
+msgstr "Esta propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Elasticsearch procura um contêiner com a etiqueta `“quarkus-dev-service-elasticsearch”` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-elasticsearch”` definido com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Elasticsearch servers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Elasticsearch compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`elasticsearch`"
-msgstr ""
+msgstr "`elasticsearch`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-reuse]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-reuse[quarkus.elasticsearch.devservices.reuse]`\n"
@@ -3357,15 +3621,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-reuse]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-reuse[quarkus.elasticsearch.devservices.reuse]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "This configuration property is set to `true` by default,\n"
 "so it is mostly useful to *disable* reuse,\n"
 "if you enabled it in `testcontainers.properties`\n"
 "but only want to use it for some of your Quarkus applications."
-msgstr ""
+msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, ela é útil principalmente para *desativar* a reutilização, caso você a tenha habilitado no `arquivo testcontainers.properties,` mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_ELASTICSEARCH_DEVSERVICES_REUSE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_ELASTICSEARCH_DEVSERVICES_REUSE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-container-env-container-env]]`link:#quarkus-elasticsearch-devservices-elasticsearch-dev-services-build-time-config_quarkus-elasticsearch-devservices-container-env-container-env[quarkus.elasticsearch.devservices.container-env]`\n"

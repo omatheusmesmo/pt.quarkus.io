@@ -104,7 +104,7 @@ msgstr "[lock]  link:#quarkus-mongodb-client_quarkus-mongodb-devservices_quarkus
 #. mt: deepl
 #, fuzzy
 msgid "If DevServices has been explicitly enabled or disabled. DevServices is generally enabled by default, unless there is an existing configuration present."
-msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que exista uma configuração pré-definida."
+msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que haja uma configuração existente."
 
 #. mt: deepl
 #, fuzzy
@@ -309,7 +309,7 @@ msgstr "[lock]  link:#quarkus-mongodb-client_quarkus-mongodb-devservices_quarkus
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the MongoDB server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for MongoDB starts a new container."
-msgstr "Indica se o servidor MongoDB gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços com base em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for MongoDB inicia um novo contêiner."
+msgstr "Indica se o servidor MongoDB gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for MongoDB inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy

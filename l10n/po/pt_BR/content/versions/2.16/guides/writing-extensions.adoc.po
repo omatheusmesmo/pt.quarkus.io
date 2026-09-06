@@ -731,7 +731,7 @@ msgstr "A anotação `@BuildStep` também pode registrar arquivos de marcadores 
 #. mt: deepl
 #, fuzzy
 msgid "Using Thread&#8217;s Context Class Loader"
-msgstr "Utilização do carregador de classes de contexto da Thread"
+msgstr "Utilização do carregador de classes de contexto do Thread"
 
 msgid ""
 "The build step will be run with a TCCL that can load user classes from the deployment in a transformer-safe way.\n"

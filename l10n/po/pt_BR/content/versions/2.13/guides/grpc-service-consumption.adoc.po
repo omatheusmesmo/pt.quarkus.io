@@ -80,8 +80,9 @@ msgstr "Para cada serviço gRPC que você injeta em sua aplicação, você pode 
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients-configures-the-grpc-clients]]link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients-configures-the-grpc-clients[Configures the gRPC clients]"
-msgstr ""
+msgstr "link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients-configures-the-grpc-clients[Configura os clientes gRPC]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -89,6 +90,7 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.port]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.port[quarkus.grpc.clients.\"client-name\".port]`\n"
 "\n"
@@ -98,26 +100,32 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PORT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.port[quarkus.grpc.clients.\"nome-do-cliente\".porta]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.port]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.port[quarkus.grpc.clients.\"client-name\".port]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.port[quarkus.grpc.clients.\"nome-do-cliente\".porta]`"
 
+#, fuzzy
 msgid "The gRPC service port."
-msgstr ""
+msgstr "A porta do serviço gRPC."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PORT[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "int"
 msgstr "int"
 
+#, fuzzy
 msgid "`9000`"
-msgstr ""
+msgstr "`9.000`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.host]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.host[quarkus.grpc.clients.\"client-name\".host]`\n"
 "\n"
@@ -127,23 +135,28 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__HOST+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.host[quarkus.grpc.clients.\"nome-do-cliente\".host]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.host]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.host[quarkus.grpc.clients.\"client-name\".host]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.host[quarkus.grpc.clients.\"nome-do-cliente\".host]`"
 
+#, fuzzy
 msgid "The host name / IP on which the service is exposed."
-msgstr ""
+msgstr "O nome do host / endereço IP no qual o serviço está disponível."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__HOST[]"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.certificate]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.certificate[quarkus.grpc.clients.\"client-name\".ssl.certificate]`\n"
 "\n"
@@ -153,21 +166,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_CERTIFICATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.certificate[quarkus.grpc.clients.\"nome-do-cliente\".ssl.certificate]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.certificate]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.certificate[quarkus.grpc.clients.\"client-name\".ssl.certificate]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.certificate[quarkus.grpc.clients.\"nome-do-cliente\".ssl.certificate]`"
 
+#, fuzzy
 msgid "The classpath path or file path to a server certificate or certificate chain in PEM format."
-msgstr ""
+msgstr "O caminho no classpath ou o caminho do arquivo de um certificado de servidor ou de uma cadeia de certificados no formato PEM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_CERTIFICATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_CERTIFICATE[]"
 
 #, fuzzy
 msgid "path"
 msgstr "caminho"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.key]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.key[quarkus.grpc.clients.\"client-name\".ssl.key]`\n"
 "\n"
@@ -177,17 +194,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_KEY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.key[quarkus.grpc.clients.\"nome-do-cliente\".ssl.key]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.key]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.key[quarkus.grpc.clients.\"client-name\".ssl.key]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.key[quarkus.grpc.clients.\"nome-do-cliente\".ssl.key]`"
 
+#, fuzzy
 msgid "The classpath path or file path to the corresponding certificate private key file in PEM format."
-msgstr ""
+msgstr "O caminho no classpath ou o caminho do arquivo correspondente à chave privada do certificado no formato PEM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_KEY[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.trust-store]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.trust-store[quarkus.grpc.clients.\"client-name\".ssl.trust-store]`\n"
 "\n"
@@ -197,17 +218,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_TRUST_STORE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.trust-store[quarkus.grpc.clients.\"nome-do-cliente\".ssl.trust-store]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.trust-store]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.trust-store[quarkus.grpc.clients.\"client-name\".ssl.trust-store]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.ssl.trust-store[quarkus.grpc.clients.\"nome-do-cliente\".ssl.trust-store]`"
 
+#, fuzzy
 msgid "An optional trust store which holds the certificate information of the certificates to trust The trust store can be either on classpath or in an external file."
-msgstr ""
+msgstr "Um armazenamento de confiança opcional que contém as informações dos certificados considerados confiáveis. O armazenamento de confiança pode estar no classpath ou em um arquivo externo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_TRUST_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__SSL_TRUST_STORE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.name-resolver]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.name-resolver[quarkus.grpc.clients.\"client-name\".name-resolver]`\n"
 "\n"
@@ -217,19 +242,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__NAME_RESOLVER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.name-resolver[quarkus.grpc.clients.\"nome-do-cliente\".name-resolver]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.name-resolver]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.name-resolver[quarkus.grpc.clients.\"client-name\".name-resolver]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.name-resolver[quarkus.grpc.clients.\"nome-do-cliente\".name-resolver]`"
 
+#, fuzzy
 msgid "Use a name resolver. Defaults to dns. If set to \"stork\", host will be treated as SmallRye Stork service name"
-msgstr ""
+msgstr "Utilize um resolvedor de nomes. O valor padrão é “dns”. Se for definido como “stork”, o host será tratado como o nome do serviço SmallRye Stork"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__NAME_RESOLVER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__NAME_RESOLVER[]"
 
+#, fuzzy
 msgid "`dns`"
-msgstr ""
+msgstr "`dns`"
 
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.plain-text]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.plain-text[quarkus.grpc.clients.\"client-name\".plain-text]`\n"
@@ -242,18 +271,21 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.plain-text]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.plain-text[quarkus.grpc.clients.\"client-name\".plain-text]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.plain-text[quarkus.grpc.clients.\"nome-do-cliente\".texto-simples]`"
 
 msgid "Whether `plain-text` should be used instead of `TLS`. Enables by default, except it TLS/SSL is configured. In this case, `plain-text` is disabled."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PLAIN_TEXT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PLAIN_TEXT[]"
 
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-time]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-time[quarkus.grpc.clients.\"client-name\".keep-alive-time]`\n"
 "\n"
@@ -263,22 +295,26 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_TIME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-time[quarkus.grpc.clients.\"nome-do-cliente\".keep-alive-time]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-time]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-time[quarkus.grpc.clients.\"client-name\".keep-alive-time]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-time[quarkus.grpc.clients.\"nome-do-cliente\".keep-alive-time]`"
 
+#, fuzzy
 msgid "The duration after which a keep alive ping is sent."
-msgstr ""
+msgstr "O intervalo após o qual é enviado um ping de manutenção de conexão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_TIME[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.flow-control-window]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.flow-control-window[quarkus.grpc.clients.\"client-name\".flow-control-window]`\n"
 "\n"
@@ -288,17 +324,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__FLOW_CONTROL_WINDOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.flow-control-window[quarkus.grpc.clients.\"nome-do-cliente\".janela-de-controle-de-fluxo]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.flow-control-window]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.flow-control-window[quarkus.grpc.clients.\"client-name\".flow-control-window]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.flow-control-window[quarkus.grpc.clients.\"nome-do-cliente\".janela-de-controle-de-fluxo]`"
 
+#, fuzzy
 msgid "The flow control window in bytes. Default is 1MiB."
-msgstr ""
+msgstr "A janela de controle de fluxo em bytes. O valor padrão é 1 MiB."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__FLOW_CONTROL_WINDOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__FLOW_CONTROL_WINDOW[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.idle-timeout]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.idle-timeout[quarkus.grpc.clients.\"client-name\".idle-timeout]`\n"
 "\n"
@@ -308,17 +348,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__IDLE_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.idle-timeout[quarkus.grpc.clients.\"nome-do-cliente\".idle-timeout]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.idle-timeout]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.idle-timeout[quarkus.grpc.clients.\"client-name\".idle-timeout]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.idle-timeout[quarkus.grpc.clients.\"nome-do-cliente\".idle-timeout]`"
 
+#, fuzzy
 msgid "The duration without ongoing RPCs before going to idle mode."
-msgstr ""
+msgstr "O tempo de duração sem RPCs em andamento antes de entrar no modo de inatividade."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__IDLE_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__IDLE_TIMEOUT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-timeout]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-timeout[quarkus.grpc.clients.\"client-name\".keep-alive-timeout]`\n"
 "\n"
@@ -328,17 +372,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-timeout[quarkus.grpc.clients.\"nome-do-cliente\".keep-alive-timeout]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-timeout]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-timeout[quarkus.grpc.clients.\"client-name\".keep-alive-timeout]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-timeout[quarkus.grpc.clients.\"nome-do-cliente\".keep-alive-timeout]`"
 
+#, fuzzy
 msgid "The amount of time the sender of a keep alive ping waits for an acknowledgement."
-msgstr ""
+msgstr "O tempo que o remetente de um ping de manutenção de conexão aguarda por uma confirmação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_TIMEOUT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-without-calls]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-without-calls[quarkus.grpc.clients.\"client-name\".keep-alive-without-calls]`\n"
 "\n"
@@ -348,21 +396,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_WITHOUT_CALLS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-without-calls[quarkus.grpc.clients.\"nome-do-cliente\".manter-a-conexão-ativa-sem-chamadas]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-without-calls]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-without-calls[quarkus.grpc.clients.\"client-name\".keep-alive-without-calls]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.keep-alive-without-calls[quarkus.grpc.clients.\"nome-do-cliente\".manter-a-conexão-ativa-sem-chamadas]`"
 
+#, fuzzy
 msgid "Whether keep-alive will be performed when there are no outstanding RPC on a connection."
-msgstr ""
+msgstr "Se o keep-alive será executado quando não houver RPCs pendentes em uma conexão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_WITHOUT_CALLS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__KEEP_ALIVE_WITHOUT_CALLS[]"
 
 #, fuzzy
 msgid "`false`"
 msgstr "`false`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-hedged-attempts]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-hedged-attempts[quarkus.grpc.clients.\"client-name\".max-hedged-attempts]`\n"
 "\n"
@@ -372,20 +424,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_HEDGED_ATTEMPTS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-hedged-attempts[quarkus.grpc.clients.\"nome-do-cliente\".max-hedged-attempts]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-hedged-attempts]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-hedged-attempts[quarkus.grpc.clients.\"client-name\".max-hedged-attempts]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-hedged-attempts[quarkus.grpc.clients.\"nome-do-cliente\".max-hedged-attempts]`"
 
+#, fuzzy
 msgid "The max number of hedged attempts."
-msgstr ""
+msgstr "O número máximo de tentativas protegidas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_HEDGED_ATTEMPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_HEDGED_ATTEMPTS[]"
 
+#, fuzzy
 msgid "`5`"
-msgstr ""
+msgstr "`5`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-retry-attempts]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-retry-attempts[quarkus.grpc.clients.\"client-name\".max-retry-attempts]`\n"
 "\n"
@@ -395,17 +452,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_RETRY_ATTEMPTS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-retry-attempts[quarkus.grpc.clients.\"nome-do-cliente\".max-retry-attempts]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-retry-attempts]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-retry-attempts[quarkus.grpc.clients.\"client-name\".max-retry-attempts]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-retry-attempts[quarkus.grpc.clients.\"nome-do-cliente\".max-retry-attempts]`"
 
+#, fuzzy
 msgid "The max number of retry attempts. Retry must be explicitly enabled."
-msgstr ""
+msgstr "O número máximo de tentativas de repetição. A repetição deve ser explicitamente ativada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_RETRY_ATTEMPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_RETRY_ATTEMPTS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-trace-events]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-trace-events[quarkus.grpc.clients.\"client-name\".max-trace-events]`\n"
 "\n"
@@ -415,17 +476,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_TRACE_EVENTS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-trace-events[quarkus.grpc.clients.\"nome-do-cliente\".max-trace-events]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-trace-events]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-trace-events[quarkus.grpc.clients.\"client-name\".max-trace-events]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-trace-events[quarkus.grpc.clients.\"nome-do-cliente\".max-trace-events]`"
 
+#, fuzzy
 msgid "The maximum number of channel trace events to keep in the tracer for each channel or sub-channel."
-msgstr ""
+msgstr "O número máximo de eventos de rastreamento de canal a serem mantidos no rastreador para cada canal ou subcanal."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_TRACE_EVENTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_TRACE_EVENTS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-message-size]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-message-size[quarkus.grpc.clients.\"client-name\".max-inbound-message-size]`\n"
 "\n"
@@ -435,17 +500,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_INBOUND_MESSAGE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-message-size[quarkus.grpc.clients.\"nome-do-cliente\".max-inbound-message-size]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-message-size]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-message-size[quarkus.grpc.clients.\"client-name\".max-inbound-message-size]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-message-size[quarkus.grpc.clients.\"nome-do-cliente\".max-inbound-message-size]`"
 
+#, fuzzy
 msgid "The maximum message size allowed for a single gRPC frame (in bytes). Default is 4 MiB."
-msgstr ""
+msgstr "O tamanho máximo permitido para uma mensagem em um único quadro gRPC (em bytes). O valor padrão é 4 MiB."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_INBOUND_MESSAGE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_INBOUND_MESSAGE_SIZE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-metadata-size]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-metadata-size[quarkus.grpc.clients.\"client-name\".max-inbound-metadata-size]`\n"
 "\n"
@@ -455,17 +524,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_INBOUND_METADATA_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-metadata-size[quarkus.grpc.clients.\"nome-do-cliente\".max-inbound-metadata-size]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-metadata-size]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-metadata-size[quarkus.grpc.clients.\"client-name\".max-inbound-metadata-size]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.max-inbound-metadata-size[quarkus.grpc.clients.\"nome-do-cliente\".max-inbound-metadata-size]`"
 
+#, fuzzy
 msgid "The maximum size of metadata allowed to be received (in bytes). Default is 8192B."
-msgstr ""
+msgstr "O tamanho máximo de metadados que pode ser recebido (em bytes). O valor padrão é 8192 B."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_INBOUND_METADATA_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__MAX_INBOUND_METADATA_SIZE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.negotiation-type]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.negotiation-type[quarkus.grpc.clients.\"client-name\".negotiation-type]`\n"
 "\n"
@@ -475,20 +548,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__NEGOTIATION_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.negotiation-type[quarkus.grpc.clients.\"nome-do-cliente\".tipo-de-negociação]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.negotiation-type]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.negotiation-type[quarkus.grpc.clients.\"client-name\".negotiation-type]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.negotiation-type[quarkus.grpc.clients.\"nome-do-cliente\".tipo-de-negociação]`"
 
+#, fuzzy
 msgid "The negotiation type for the HTTP/2 connection. Accepted values are: `TLS`, `PLAINTEXT_UPGRADE`, `PLAINTEXT`"
-msgstr ""
+msgstr "O tipo de negociação para a conexão HTTP/2. Os valores aceitos são: `TLS` , `PLAINTEXT_UPGRADE` , `PLAINTEXT`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__NEGOTIATION_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__NEGOTIATION_TYPE[]"
 
+#, fuzzy
 msgid "`TLS`"
-msgstr ""
+msgstr "`TLS`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.override-authority]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.override-authority[quarkus.grpc.clients.\"client-name\".override-authority]`\n"
 "\n"
@@ -498,17 +576,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__OVERRIDE_AUTHORITY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.override-authority[quarkus.grpc.clients.\"nome-do-cliente\".override-authority]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.override-authority]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.override-authority[quarkus.grpc.clients.\"client-name\".override-authority]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.override-authority[quarkus.grpc.clients.\"nome-do-cliente\".override-authority]`"
 
+#, fuzzy
 msgid "Overrides the authority used with TLS and HTTP virtual hosting."
-msgstr ""
+msgstr "Substitui a autoridade utilizada com TLS e hospedagem virtual HTTP."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__OVERRIDE_AUTHORITY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__OVERRIDE_AUTHORITY[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.per-rpc-buffer-limit]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.per-rpc-buffer-limit[quarkus.grpc.clients.\"client-name\".per-rpc-buffer-limit]`\n"
 "\n"
@@ -518,20 +600,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PER_RPC_BUFFER_LIMIT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.per-rpc-buffer-limit[quarkus.grpc.clients.\"nome-do-cliente\".limite-por-buffer-rpc]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.per-rpc-buffer-limit]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.per-rpc-buffer-limit[quarkus.grpc.clients.\"client-name\".per-rpc-buffer-limit]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.per-rpc-buffer-limit[quarkus.grpc.clients.\"nome-do-cliente\".limite-por-buffer-rpc]`"
 
+#, fuzzy
 msgid "The per RPC buffer limit in bytes used for retry."
-msgstr ""
+msgstr "O limite do buffer por RPC, em bytes, utilizado para tentativas de repetição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PER_RPC_BUFFER_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__PER_RPC_BUFFER_LIMIT[]"
 
 msgid "long"
 msgstr "long"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry[quarkus.grpc.clients.\"client-name\".retry]`\n"
 "\n"
@@ -541,17 +627,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__RETRY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry[quarkus.grpc.clients.\"nome-do-cliente\".retry]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry[quarkus.grpc.clients.\"client-name\".retry]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry[quarkus.grpc.clients.\"nome-do-cliente\".retry]`"
 
+#, fuzzy
 msgid "Whether retry is enabled. Note that retry is disabled by default."
-msgstr ""
+msgstr "Se a tentativa de repetição está ativada. Observe que a tentativa de repetição está desativada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__RETRY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__RETRY[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry-buffer-size]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry-buffer-size[quarkus.grpc.clients.\"client-name\".retry-buffer-size]`\n"
 "\n"
@@ -561,17 +651,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__RETRY_BUFFER_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry-buffer-size[quarkus.grpc.clients.\"nome-do-cliente\".retry-buffer-size]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry-buffer-size]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry-buffer-size[quarkus.grpc.clients.\"client-name\".retry-buffer-size]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.retry-buffer-size[quarkus.grpc.clients.\"nome-do-cliente\".retry-buffer-size]`"
 
+#, fuzzy
 msgid "The retry buffer size in bytes."
-msgstr ""
+msgstr "O tamanho do buffer de repetição, em bytes."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__RETRY_BUFFER_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__RETRY_BUFFER_SIZE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.user-agent]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.user-agent[quarkus.grpc.clients.\"client-name\".user-agent]`\n"
 "\n"
@@ -581,17 +675,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__USER_AGENT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.user-agent[quarkus.grpc.clients.\"nome-do-cliente\".user-agent]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.user-agent]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.user-agent[quarkus.grpc.clients.\"client-name\".user-agent]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.user-agent[quarkus.grpc.clients.\"nome-do-cliente\".user-agent]`"
 
+#, fuzzy
 msgid "Use a custom user-agent."
-msgstr ""
+msgstr "Utilize um user-agent personalizado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__USER_AGENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__USER_AGENT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.load-balancing-policy]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.load-balancing-policy[quarkus.grpc.clients.\"client-name\".load-balancing-policy]`\n"
 "\n"
@@ -601,20 +699,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__LOAD_BALANCING_POLICY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.load-balancing-policy[quarkus.grpc.clients.\"nome-do-cliente\".política-de-equilíbrio-de-carga]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.load-balancing-policy]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.load-balancing-policy[quarkus.grpc.clients.\"client-name\".load-balancing-policy]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.load-balancing-policy[quarkus.grpc.clients.\"nome-do-cliente\".política-de-equilíbrio-de-carga]`"
 
+#, fuzzy
 msgid "Use a custom load balancing policy. Accepted values are: `pick_value`, `round_robin`, `grpclb`. This value is ignored if name-resolver is set to 'stork'."
-msgstr ""
+msgstr "Utilize uma política personalizada de balanceamento de carga. Os valores aceitos são: `pick_value` , `round_robin` , `grpclb` . Esse valor será ignorado se o resolvedor de nomes estiver definido como 'stork'."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__LOAD_BALANCING_POLICY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__LOAD_BALANCING_POLICY[]"
 
+#, fuzzy
 msgid "`pick_first`"
-msgstr ""
+msgstr "`escolher_primeiro`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.compression]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.compression[quarkus.grpc.clients.\"client-name\".compression]`\n"
 "\n"
@@ -624,17 +727,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__COMPRESSION+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.compression[quarkus.grpc.clients.\"nome-do-cliente\".compression]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.compression]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.compression[quarkus.grpc.clients.\"client-name\".compression]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.compression[quarkus.grpc.clients.\"nome-do-cliente\".compression]`"
 
+#, fuzzy
 msgid "The compression to use for each call. The accepted values are `gzip` and `identity`."
-msgstr ""
+msgstr "A compressão a ser utilizada em cada chamada. Os valores aceitos são `gzip` e `identity` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__COMPRESSION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__COMPRESSION[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.deadline]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.deadline[quarkus.grpc.clients.\"client-name\".deadline]`\n"
 "\n"
@@ -645,21 +752,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__DEADLINE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.deadline[quarkus.grpc.clients.\"nome-do-cliente\".deadline]`"
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.deadline]]`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.deadline[quarkus.grpc.clients.\"client-name\".deadline]`"
-msgstr ""
+msgstr "`link:#quarkus-grpc-config-group-config-grpc-client-configuration_quarkus.grpc.clients.-client-name-.deadline[quarkus.grpc.clients.\"nome-do-cliente\".deadline]`"
 
+#, fuzzy
 msgid ""
 "The deadline used for each call.\n"
 "The format uses the standard `java.time.Duration` format. You can also provide duration values starting with a number. In this case, if the value consists only of a number, the converter treats the value as seconds. Otherwise, `PT` is implicitly prepended to the value to obtain a standard `java.time.Duration` format."
-msgstr ""
+msgstr "O prazo utilizado para cada chamada. O formato segue o padrão `java.time.Duration` . Você também pode fornecer valores de duração que comecem com um número. Nesse caso, se o valor consistir apenas em um número, o conversor o interpretará como segundos. Caso contrário, `“PT”` será implicitamente acrescentado ao início do valor para obter o formato padrão `java.time.Duration` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENTS__CLIENT_NAME__DEADLINE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENTS__CLIENT_NAME__DEADLINE[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""
@@ -788,9 +899,11 @@ msgid ""
 "You can configure the gRPC extension's dev mode behavior using the following properties."
 msgstr "Por padrão, ao iniciar a aplicação no modo de desenvolvimento, um servidor gRPC é iniciado, mesmo que nenhum serviço esteja configurado. Você pode configurar o comportamento do modo de desenvolvimento da extensão gRPC usando as seguintes propriedades."
 
+#, fuzzy
 msgid "[[quarkus-grpc-config-group-grpc-dev-mode-config_configuration]]link:#quarkus-grpc-config-group-grpc-dev-mode-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-grpc-config-group-grpc-dev-mode-config_configuration[Propriedade de configuração]"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grpc.dev-mode.force-server-start]]`link:#quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grpc.dev-mode.force-server-start[quarkus.grpc.dev-mode.force-server-start]`\n"
 "\n"
@@ -800,16 +913,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_DEV_MODE_FORCE_SERVER_START+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grpc.dev-mode.force-server-start[quarkus.grpc.dev-mode.force-server-start]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grpc.dev-mode.force-server-start]]`link:#quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grpc.dev-mode.force-server-start[quarkus.grpc.dev-mode.force-server-start]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-grpc-config-group-grpc-dev-mode-config_quarkus.grpc.dev-mode.force-server-start[quarkus.grpc.dev-mode.force-server-start]`"
 
+#, fuzzy
 msgid "Start gRPC server in dev mode even if no gRPC services are implemented. By default set to `true` to ease incremental development of new services using dev mode."
-msgstr ""
+msgstr "Inicie o servidor gRPC no modo de desenvolvimento, mesmo que não haja serviços gRPC implementados. Por padrão, está definido como ``true`` para facilitar o desenvolvimento incremental de novos serviços utilizando o modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_DEV_MODE_FORCE_SERVER_START+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_DEV_MODE_FORCE_SERVER_START[]"
 
 msgid "`true`"
 msgstr "`true`"

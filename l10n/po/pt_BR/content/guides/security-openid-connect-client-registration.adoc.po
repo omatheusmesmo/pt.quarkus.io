@@ -390,7 +390,7 @@ msgstr "`quarkus.oidc-client-registration.\"id\".discovery-enabled` config_prope
 #. mt: deepl
 #, fuzzy
 msgid "Enable discovery of the OIDC endpoints. If not enabled, you must configure the OIDC endpoint URLs individually."
-msgstr "Habilite a descoberta dos endpoints OIDC. Caso não esteja habilitada, será necessário configurar as URLs dos endpoints OIDC individualmente."
+msgstr "Habilite a descoberta dos endpoints OIDC. Caso não esteja habilitado, será necessário configurar as URLs dos endpoints OIDC individualmente."
 
 #. mt: deepl
 #, fuzzy
@@ -481,7 +481,7 @@ msgstr "`quarkus.oidc-client-registration.\"id\".registration-path` config_prope
 #. mt: deepl
 #, fuzzy
 msgid "The relative path or absolute URL of the OIDC dynamic client registration endpoint. Set if `discovery-enabled` is `false` or a discovered token endpoint path must be customized."
-msgstr "O caminho relativo ou a URL absoluta do ponto de extremidade de registro dinâmico de clientes OIDC. Defina este parâmetro se `a opção “discovery-enabled”` estiver definida como `“false”` ou se for necessário personalizar o caminho de um ponto de extremidade de token descoberto."
+msgstr "O caminho relativo ou a URL absoluta do endpoint de registro dinâmico de clientes OIDC. Defina-o caso `a opção “discovery-enabled”` esteja definida como `“false”` ou caso seja necessário personalizar o caminho de um endpoint de token descoberto."
 
 #. mt: deepl
 #, fuzzy
@@ -1167,7 +1167,7 @@ msgstr "O nome da configuração de proxy a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.proxy.<name>.++*++`. Please note that the 'non-proxy-hosts' option is currently not supported. If a name is configured, but no proxy configuration is found with that name then an error will be thrown."
-msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é suportada no momento. Caso um nome seja configurado, mas não seja encontrada nenhuma configuração de proxy com esse nome, será gerado um erro."
+msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.proxy.<nome>.*.` Observe que a opção “non-proxy-hosts” não é compatível no momento. Caso um nome seja configurado, mas nenhuma configuração de proxy seja encontrada com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy

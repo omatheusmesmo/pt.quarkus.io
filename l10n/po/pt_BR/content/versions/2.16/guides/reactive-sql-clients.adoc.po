@@ -1087,7 +1087,7 @@ msgstr "[lock] `link:#quarkus-datasource_quarkus.datasource.devservices.containe
 msgid ""
 "Generic properties that are passed for additional container configuration.\n"
 "Properties defined here are database specific and are interpreted specifically in each database dev service implementation."
-msgstr "Propriedades genéricas que são passadas para configuração adicional do contêiner. As propriedades definidas aqui são específicas do banco de dados e são interpretadas de maneira específica em cada implementação do serviço de desenvolvimento do banco de dados."
+msgstr "Propriedades genéricas que são passadas para configuração adicional do contêiner. As propriedades definidas aqui são específicas do banco de dados e são interpretadas de maneira específica em cada implementação do serviço de desenvolvimento de banco de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -1539,7 +1539,7 @@ msgstr "[lock] `link:#quarkus-reactive-datasource_quarkus.datasource.reactive[qu
 #. mt: deepl
 #, fuzzy
 msgid "If we create a Reactive datasource for this datasource."
-msgstr "Se criarmos uma fonte de dados reativa para essa fonte de dados."
+msgstr "Se criarmos uma fonte de dados reativa para esta fonte de dados."
 
 #. mt: deepl
 #, fuzzy
@@ -2260,7 +2260,7 @@ msgstr "`link:#quarkus-reactive-datasource_quarkus.datasource.reactive.idle-time
 #. mt: deepl
 #, fuzzy
 msgid "The maximum time a connection remains unused in the pool before it is closed."
-msgstr "O tempo máximo durante o qual uma conexão permanece ociosa no pool antes de ser encerrada."
+msgstr "O tempo máximo durante o qual uma conexão permanece sem uso no pool antes de ser encerrada."
 
 #. mt: deepl
 #, fuzzy

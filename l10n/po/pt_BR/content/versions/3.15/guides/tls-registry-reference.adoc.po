@@ -555,8 +555,9 @@ msgstr "A tabela seguinte lista as propriedades suportadas:"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -579,14 +580,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-tls-registry_quarkus-tls-lets-encrypt-enabled]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-lets-encrypt-enabled[`quarkus.tls.lets-encrypt.enabled`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Set to `true` to enable let's encrypt support."
-msgstr ""
+msgstr "Defina como `“true”` para ativar o suporte ao Let’s Encrypt."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_LETS_ENCRYPT_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_LETS_ENCRYPT_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -612,14 +616,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-pem-order]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-pem-order[`quarkus.tls.key-store.pem.order`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The order of the key/cert files, based on the names in the `keyCerts` map."
-msgstr ""
+msgstr "A ordem dos arquivos de chave/certificado, com base nos nomes contidos no mapa ``keyCerts` `."
 
+#, fuzzy
 msgid "By default, Quarkus sorts the key using a lexicographical order. This property allows you to specify the order of the key/cert files."
-msgstr ""
+msgstr "Por padrão, o Quarkus ordena as chaves seguindo a ordem lexicográfica. Essa propriedade permite que o senhor especifique a ordem dos arquivos de chave/certificado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_PEM_ORDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_PEM_ORDER[]"
 
 #, fuzzy
 msgid "list of string"
@@ -640,18 +647,21 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-path[`quarkus.tls.key-store.p12.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Path to the key store file (P12 / PFX format)."
-msgstr ""
+msgstr "Caminho para o arquivo do armazenamento de chaves (formato P12 / PFX)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_P12_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_P12_PATH[]"
 
 #, fuzzy
 msgid "path"
 msgstr "caminho"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-password[`quarkus.tls.key-store.p12.password`]##\n"
@@ -668,11 +678,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-password[`quarkus.tls.key-store.p12.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Password of the key store. When not set, the password must be retrieved from the credential provider."
-msgstr ""
+msgstr "Senha do armazenamento de chaves. Quando não estiver definida, a senha deverá ser obtida junto ao provedor de credenciais."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_P12_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_P12_PASSWORD[]"
 
 msgid "string"
 msgstr "string"
@@ -692,11 +704,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias[`quarkus.tls.key-store.p12.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Alias of the private key and certificate in the key store."
-msgstr ""
+msgstr "Alias da chave privada e do certificado no armazenamento de chaves."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_P12_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_P12_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password[`quarkus.tls.key-store.p12.alias-password`]##\n"
@@ -713,11 +727,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password[`quarkus.tls.key-store.p12.alias-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Password of the alias in the key store. If not set, the password will be retrieved from the credential provider."
-msgstr ""
+msgstr "Senha do alias no armazenamento de chaves. Caso não seja definida, a senha será obtida do provedor de credenciais."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_P12_ALIAS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_P12_ALIAS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-provider[`quarkus.tls.key-store.p12.provider`]##\n"
@@ -734,11 +750,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-provider[`quarkus.tls.key-store.p12.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Provider of the key store."
-msgstr ""
+msgstr "Provedor do armazenamento de chaves."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_P12_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_P12_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-path[`quarkus.tls.key-store.jks.path`]##\n"
@@ -755,11 +773,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-path[`quarkus.tls.key-store.jks.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Path to the keystore file (JKS format)."
-msgstr ""
+msgstr "Caminho para o arquivo do keystore (formato JKS)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_JKS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_JKS_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-password[`quarkus.tls.key-store.jks.password`]##\n"
@@ -776,8 +796,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-password[`quarkus.tls.key-store.jks.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_JKS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_JKS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-alias[`quarkus.tls.key-store.jks.alias`]##\n"
@@ -794,8 +815,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-alias[`quarkus.tls.key-store.jks.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_JKS_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_JKS_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-jks-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-alias-password[`quarkus.tls.key-store.jks.alias-password`]##\n"
@@ -812,11 +834,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-jks-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-alias-password[`quarkus.tls.key-store.jks.alias-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Password of the alias in the key store. When not set, the password may be retrieved from the credential provider."
-msgstr ""
+msgstr "Senha do alias no armazenamento de chaves. Quando não estiver definida, a senha poderá ser recuperada do provedor de credenciais."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_JKS_ALIAS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_JKS_ALIAS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-provider[`quarkus.tls.key-store.jks.provider`]##\n"
@@ -833,8 +857,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-jks-provider[`quarkus.tls.key-store.jks.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_JKS_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_JKS_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-sni]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-sni[`quarkus.tls.key-store.sni`]##\n"
@@ -857,20 +882,25 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-sni]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-sni[`quarkus.tls.key-store.sni`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables Server Name Indication (SNI)."
-msgstr ""
+msgstr "Ativa a Indicação do Nome do Servidor (SNI)."
 
+#, fuzzy
 msgid "Server Name Indication (SNI) is a TLS extension that allows a client to specify the hostname it is attempting to connect to during the TLS handshake. This enables a server to present different SSL certificates for multiple domains on a single IP address, facilitating secure communication for virtual hosting scenarios."
-msgstr ""
+msgstr "A Indicação do Nome do Servidor (SNI) é uma extensão do TLS que permite que um cliente especifique o nome do host ao qual está tentando se conectar durante o handshake do TLS. Isso permite que um servidor apresente diferentes certificados SSL para vários domínios em um único endereço IP, facilitando a comunicação segura em cenários de hospedagem virtual."
 
+#, fuzzy
 msgid "With this setting enabled, the client indicate the server name during the TLS handshake, allowing the server to select the right certificate."
-msgstr ""
+msgstr "Com essa configuração ativada, o cliente indica o nome do servidor durante o handshake TLS, permitindo que o servidor selecione o certificado correto."
 
+#, fuzzy
 msgid "When configuring the keystore with PEM files, multiple CRT/Key must be given. When configuring the keystore with a JKS or a P12 file, it selects one alias based on the SNI hostname. In this case, all the keystore password and alias password must be the same (configured with the `password` and `alias-password` properties. Do not set the `alias` property."
-msgstr ""
+msgstr "Ao configurar o keystore com arquivos PEM, é necessário fornecer vários CRT/Key. Ao configurar o keystore com um arquivo JKS ou P12, ele seleciona um alias com base no nome de host SNI. Nesse caso, todas as senhas do keystore e do alias devem ser iguais (configuradas com as propriedades `password` e `alias-password` ). Não defina a propriedade `alias` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_SNI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_SNI[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-name[`quarkus.tls.key-store.credentials-provider.name`]##\n"
@@ -889,14 +919,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-name[`quarkus.tls.key-store.credentials-provider.name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the \"credential\" bucket (map key -> passwords) to retrieve from the `io.quarkus.credentials.CredentialsProvider`. If not set, the credential provider will not be used."
-msgstr ""
+msgstr "O nome do bucket de “credenciais” (chave do mapa → senhas) a ser recuperado do `io.quarkus.credentials.CredentialsProvider` . Caso não seja definido, o provedor de credenciais não será utilizado."
 
+#, fuzzy
 msgid "A credential provider offers a way to retrieve the key store password as well as alias password. Note that the credential provider is only used if the passwords are not set in the configuration."
-msgstr ""
+msgstr "Um provedor de credenciais oferece uma maneira de recuperar a senha do armazenamento de chaves, bem como a senha do alias. Observe que o provedor de credenciais só é utilizado se as senhas não estiverem definidas na configuração."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-bean-name[`quarkus.tls.key-store.credentials-provider.bean-name`]##\n"
@@ -917,17 +950,21 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-bean-name[`quarkus.tls.key-store.credentials-provider.bean-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the bean providing the credential provider."
-msgstr ""
+msgstr "O nome do bean que fornece o provedor de credenciais."
 
+#, fuzzy
 msgid "The name is used to select the credential provider to use. The credential provider must be exposed as a CDI bean and with the `@Named` annotation set to the configured name to be selected."
-msgstr ""
+msgstr "O nome é utilizado para selecionar o provedor de credenciais a ser utilizado. Para que seja selecionado, o provedor de credenciais deve estar exposto como um bean CDI e com a anotação `@Named` definida com o nome configurado."
 
+#, fuzzy
 msgid "If not set, the default credential provider is used."
-msgstr ""
+msgstr "Caso não seja definido, será utilizado o provedor de credenciais padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_BEAN_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_BEAN_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-password-key[`quarkus.tls.key-store.credentials-provider.password-key`]##\n"
@@ -946,14 +983,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-password-key[`quarkus.tls.key-store.credentials-provider.password-key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The key used to retrieve the key store password."
-msgstr ""
+msgstr "A chave utilizada para recuperar a senha do armazenamento de chaves."
 
+#, fuzzy
 msgid "If the selected credential provider does not support the key, the password is not retrieved. Otherwise, the retrieved value is used to open the key store."
-msgstr ""
+msgstr "Se o provedor de credenciais selecionado não for compatível com a chave, a senha não será recuperada. Caso contrário, o valor recuperado será utilizado para abrir o armazenamento de chaves."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY[]"
 
 #, fuzzy
 msgid "`password`"
@@ -976,14 +1016,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-alias-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-credentials-provider-alias-password-key[`quarkus.tls.key-store.credentials-provider.alias-password-key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The key used to retrieve the key store alias password."
-msgstr ""
+msgstr "A chave utilizada para recuperar a senha do alias do armazenamento de chaves."
 
+#, fuzzy
 msgid "If the selected credential provider does not contain the key, the alias password is not retrieved. Otherwise, the retrieved value is used to access the alias `private key` from the key store."
-msgstr ""
+msgstr "Caso o provedor de credenciais selecionado não contenha a chave, a senha do alias não será recuperada. Caso contrário, o valor recuperado será utilizado para acessar a `chave privada` do alias no armazenamento de chaves."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_ALIAS_PASSWORD_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_CREDENTIALS_PROVIDER_ALIAS_PASSWORD_KEY[]"
 
 msgid "`alias-password`"
 msgstr ""
@@ -1003,14 +1046,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-pem-certs]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-pem-certs[`quarkus.tls.trust-store.pem.certs`]##"
 msgstr ""
 
+#, fuzzy
 msgid "List of the trusted cert paths (Pem format)."
-msgstr ""
+msgstr "Lista dos caminhos de certificados confiáveis (formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_PEM_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_PEM_CERTS[]"
 
+#, fuzzy
 msgid "list of path"
-msgstr ""
+msgstr "lista de caminhos"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-path[`quarkus.tls.trust-store.p12.path`]##\n"
@@ -1027,11 +1073,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-path[`quarkus.tls.trust-store.p12.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Path to the trust store file (P12 / PFX format)."
-msgstr ""
+msgstr "Caminho para o arquivo do armazenamento de confiança (formato P12/PFX)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_P12_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_P12_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-password[`quarkus.tls.trust-store.p12.password`]##\n"
@@ -1048,11 +1096,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-password[`quarkus.tls.trust-store.p12.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Password of the trust store. If not set, the password must be retrieved from the credential provider."
-msgstr ""
+msgstr "Senha do armazenamento de confiança. Caso não esteja definida, a senha deverá ser obtida junto ao provedor de credenciais."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_P12_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_P12_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-alias[`quarkus.tls.trust-store.p12.alias`]##\n"
@@ -1069,11 +1119,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-alias[`quarkus.tls.trust-store.p12.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Alias of the trust store."
-msgstr ""
+msgstr "Alias do armazenamento de certificados confiáveis."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_P12_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_P12_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-provider[`quarkus.tls.trust-store.p12.provider`]##\n"
@@ -1090,11 +1142,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-provider[`quarkus.tls.trust-store.p12.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Provider of the trust store."
-msgstr ""
+msgstr "Provedor do armazenamento de certificações confiáveis."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_P12_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_P12_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-path[`quarkus.tls.trust-store.jks.path`]##\n"
@@ -1111,11 +1165,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-path[`quarkus.tls.trust-store.jks.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Path to the trust store file (JKS format)."
-msgstr ""
+msgstr "Caminho para o arquivo do armazenamento de certificações (formato JKS)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_JKS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_JKS_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-password[`quarkus.tls.trust-store.jks.password`]##\n"
@@ -1132,8 +1188,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-password[`quarkus.tls.trust-store.jks.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_JKS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_JKS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-alias[`quarkus.tls.trust-store.jks.alias`]##\n"
@@ -1150,11 +1207,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-alias[`quarkus.tls.trust-store.jks.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Alias of the key in the trust store."
-msgstr ""
+msgstr "Alias da chave no armazenamento de confiança."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_JKS_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_JKS_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-provider[`quarkus.tls.trust-store.jks.provider`]##\n"
@@ -1171,8 +1230,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-jks-provider[`quarkus.tls.trust-store.jks.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_JKS_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_JKS_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-name[`quarkus.tls.trust-store.credentials-provider.name`]##\n"
@@ -1191,8 +1251,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-name[`quarkus.tls.trust-store.credentials-provider.name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_CREDENTIALS_PROVIDER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_CREDENTIALS_PROVIDER_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-bean-name[`quarkus.tls.trust-store.credentials-provider.bean-name`]##\n"
@@ -1213,8 +1274,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-bean-name[`quarkus.tls.trust-store.credentials-provider.bean-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_CREDENTIALS_PROVIDER_BEAN_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_CREDENTIALS_PROVIDER_BEAN_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-password-key[`quarkus.tls.trust-store.credentials-provider.password-key`]##\n"
@@ -1233,14 +1295,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-store-credentials-provider-password-key[`quarkus.tls.trust-store.credentials-provider.password-key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The key used to retrieve the trust store password."
-msgstr ""
+msgstr "A chave utilizada para recuperar a senha do armazenamento de certificações."
 
+#, fuzzy
 msgid "If the selected credential provider does not contain the configured key, the password is not retrieved. Otherwise, the retrieved value is used to open the trust store."
-msgstr ""
+msgstr "Se o provedor de credenciais selecionado não contiver a chave configurada, a senha não será recuperada. Caso contrário, o valor recuperado será utilizado para abrir o repositório de confiança."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-cipher-suites]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-cipher-suites[`quarkus.tls.cipher-suites`]##\n"
@@ -1259,14 +1324,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-cipher-suites]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-cipher-suites[`quarkus.tls.cipher-suites`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the ordered list of enabled cipher suites. If none is given, a reasonable default is selected from the built-in ciphers."
-msgstr ""
+msgstr "Define a lista ordenada de conjuntos de criptografia habilitados. Caso não seja especificado nenhum, um padrão adequado é selecionado entre os conjuntos de criptografia integrados."
 
+#, fuzzy
 msgid "When suites are set, it takes precedence over the default suite defined by the `SSLEngineOptions` in use."
-msgstr ""
+msgstr "Quando as suítes são definidas, elas têm precedência sobre a suíte padrão definida pelas opções `SSLEngineOptions` em uso."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_CIPHER_SUITES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_CIPHER_SUITES[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-protocols]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-protocols[`quarkus.tls.protocols`]##\n"
@@ -1289,23 +1357,28 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-protocols]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-protocols[`quarkus.tls.protocols`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the ordered list of enabled TLS protocols."
-msgstr ""
+msgstr "Define a lista ordenada de protocolos TLS habilitados."
 
+#, fuzzy
 msgid "If not set, it defaults to `\"TLSv1.3, TLSv1.2\"`. The following list of protocols are supported: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3`. To only enable `TLSv1.3`, set the value to `to \"TLSv1.3\"`."
-msgstr ""
+msgstr "Caso não seja definido, o valor padrão é `“TLSv1.3, TLSv1.2”.` A lista a seguir de protocolos é compatível: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3` . Para habilitar apenas `o TLSv1.3` , defina o valor `como “TLSv1.3` ”."
 
+#, fuzzy
 msgid "Note that setting an empty list, and enabling TLS is invalid. You must at least have one protocol."
-msgstr ""
+msgstr "Observe que definir uma lista vazia e habilitar o TLS não é válido. É necessário que haja pelo menos um protocolo."
 
 msgid "Also, setting this replaces the default list of protocols."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_PROTOCOLS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_PROTOCOLS[]"
 
+#, fuzzy
 msgid "`TLSv1.3,TLSv1.2`"
-msgstr ""
+msgstr "`TLSv1.3, TLSv1.2`"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-handshake-timeout]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-handshake-timeout[`quarkus.tls.handshake-timeout`]##\n"
@@ -1324,20 +1397,24 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-handshake-timeout]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-handshake-timeout[`quarkus.tls.handshake-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The timeout for the TLS handshake phase."
-msgstr ""
+msgstr "O tempo limite para a fase de handshake do TLS."
 
+#, fuzzy
 msgid "If not set, it defaults to 10 seconds."
-msgstr ""
+msgstr "Caso não seja definido, o valor padrão é de 10 segundos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_HANDSHAKE_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_HANDSHAKE_TIMEOUT[]"
 
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]"
 msgstr ""
 
+#, fuzzy
 msgid "`10S`"
-msgstr ""
+msgstr "`10S`"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-alpn]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-alpn[`quarkus.tls.alpn`]##\n"
@@ -1356,14 +1433,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-alpn]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-alpn[`quarkus.tls.alpn`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables the Application-Layer Protocol Negotiation (ALPN)."
-msgstr ""
+msgstr "Ativa a Negociação de Protocolo na Camada de Aplicação (ALPN)."
 
+#, fuzzy
 msgid "Application-Layer Protocol Negotiation is a TLS extension that allows the client and server during the TLS handshake to negotiate which protocol they will use for communication. ALPN enables more efficient communication by allowing the client to indicate its preferred application protocol to the server before the TLS connection is established. This helps in scenarios such as HTTP/2 where multiple protocols may be available, allowing for faster protocol selection."
-msgstr ""
+msgstr "A Negociação de Protocolo na Camada de Aplicação (ALPN) é uma extensão do TLS que permite que o cliente e o servidor, durante o handshake do TLS, negociem qual protocolo utilizarão para a comunicação. A ALPN possibilita uma comunicação mais eficiente, permitindo que o cliente indique ao servidor seu protocolo de aplicação preferido antes que a conexão TLS seja estabelecida. Isso é útil em cenários como o HTTP/2, nos quais vários protocolos podem estar disponíveis, permitindo uma seleção mais rápida do protocolo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_ALPN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_ALPN[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -1387,17 +1467,21 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-certificate-revocation-list]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-certificate-revocation-list[`quarkus.tls.certificate-revocation-list`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Sets the list of revoked certificates (paths to files)."
-msgstr ""
+msgstr "Define a lista de certificados revogados (caminhos para os arquivos)."
 
+#, fuzzy
 msgid "A Certificate Revocation List (CRL) is a list of digital certificates that have been revoked by the issuing Certificate Authority (CA) before their scheduled expiration date. When a certificate is compromised, no longer needed, or deemed invalid for any reason, the CA adds it to the CRL to inform relying parties not to trust the certificate anymore."
-msgstr ""
+msgstr "Uma Lista de Revogação de Certificados (CRL) é uma lista de certificados digitais que foram revogados pela Autoridade Certificadora (CA) emissora antes de sua data de validade prevista. Quando um certificado é comprometido, não é mais necessário ou é considerado inválido por qualquer motivo, a CA o adiciona à CRL para informar às partes que confiam nele que não devem mais confiar no certificado."
 
+#, fuzzy
 msgid "Two formats are allowed: DER and PKCS++#++7 (also known as P7B). When using the DER format, you must pass DER-encoded CRLs. When using the PKCS++#++7 format, you must pass PKCS++#++7 `SignedData` object, with the only significant field being `crls`."
-msgstr ""
+msgstr "São permitidos dois formatos: DER e PKCS#7 (também conhecido como P7B). Ao utilizar o formato DER, é necessário fornecer CRLs codificadas em DER. Ao utilizar o formato PKCS#7, é necessário fornecer um objeto `SignedData` do PKCS#7, sendo que o único campo relevante é `o crls` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_CERTIFICATE_REVOCATION_LIST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_CERTIFICATE_REVOCATION_LIST[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-trust-all]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-all[`quarkus.tls.trust-all`]##\n"
@@ -1416,14 +1500,17 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-trust-all]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-trust-all[`quarkus.tls.trust-all`]##"
 msgstr ""
 
+#, fuzzy
 msgid "If set to `true`, the server trusts all certificates."
-msgstr ""
+msgstr "Se definido como `“true”` , o servidor considera confiáveis todos os certificados."
 
+#, fuzzy
 msgid "This is useful for testing, but should not be used in production."
-msgstr ""
+msgstr "Isso é útil para testes, mas não deve ser utilizado em ambiente de produção."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_TRUST_ALL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_TRUST_ALL[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm[`quarkus.tls.hostname-verification-algorithm`]##\n"
@@ -1444,17 +1531,21 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm[`quarkus.tls.hostname-verification-algorithm`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The hostname verification algorithm to use in case the server's identity should be checked. Should be `HTTPS` (default), `LDAPS` or `NONE`."
-msgstr ""
+msgstr "O algoritmo de verificação do nome do host a ser utilizado caso seja necessário verificar a identidade do servidor. Deve ser `HTTPS` (padrão), `LDAPS` ou `NENHUM` ."
 
+#, fuzzy
 msgid "If set to `NONE`, it does not verify the hostname."
-msgstr ""
+msgstr "Se estiver definido como `NONE` , o nome do host não será verificado."
 
+#, fuzzy
 msgid "If not set, the configured extension decides the default algorithm to use. For example, for HTTP, it will be \"HTTPS\". For TCP, it can depend on the protocol. Nevertheless, it is recommended to set it to \"HTTPS\" or \"LDAPS\"."
-msgstr ""
+msgstr "Caso não seja definido, a extensão configurada determina o algoritmo padrão a ser utilizado. Por exemplo, para HTTP, será “HTTPS”. Para TCP, isso pode depender do protocolo. No entanto, recomenda-se defini-lo como “HTTPS” ou “LDAPS”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_HOSTNAME_VERIFICATION_ALGORITHM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_HOSTNAME_VERIFICATION_ALGORITHM[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-reload-period]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-reload-period[`quarkus.tls.reload-period`]##\n"
@@ -1475,17 +1566,21 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-reload-period]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-reload-period[`quarkus.tls.reload-period`]##"
 msgstr ""
 
+#, fuzzy
 msgid "When configured, the server will reload the certificates (from the file system for example) and fires a `CertificateUpdatedEvent` if the reload is successful"
-msgstr ""
+msgstr "Quando configurado, o servidor recarregará os certificados (do sistema de arquivos, por exemplo) e disparará um `CertificateUpdatedEvent` caso a recarga seja bem-sucedida"
 
+#, fuzzy
 msgid "This property configures the period to reload the certificates. IF not set, the certificates won't be reloaded automatically. However, the application can still trigger the reload manually using the `io.quarkus.tls.TlsConfiguration++#++reload()` method, and then fire the `CertificateUpdatedEvent` manually."
-msgstr ""
+msgstr "Esta propriedade configura o período para recarregar os certificados. Se não for definida, os certificados não serão recarregados automaticamente. No entanto, o aplicativo ainda pode acionar a recarga manualmente por meio do método `io.quarkus.tls.TlsConfiguration#reload()` e, em seguida, disparar o `CertificateUpdatedEvent` manualmente."
 
+#, fuzzy
 msgid "The fired event is used to notify the application that the certificates have been updated, and thus proceed with the actual switch of certificates."
-msgstr ""
+msgstr "O evento disparado é utilizado para notificar o aplicativo de que os certificados foram atualizados e, assim, dar continuidade à troca efetiva dos certificados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_RELOAD_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_RELOAD_PERIOD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-pem-key-certs-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-pem-key-certs-key[`quarkus.tls.key-store.pem.\"key-certs\".key`]##\n"
@@ -1505,8 +1600,9 @@ msgstr ""
 msgid "The path to the key file (in PEM format)."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_PEM__KEY_CERTS__KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_PEM__KEY_CERTS__KEY[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-pem-key-certs-cert]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-pem-key-certs-cert[`quarkus.tls.key-store.pem.\"key-certs\".cert`]##\n"
@@ -1523,11 +1619,13 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-key-store-pem-key-certs-cert]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-pem-key-certs-cert[`quarkus.tls.key-store.pem.\"key-certs\".cert`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The path to the certificate file (in PEM format)."
-msgstr ""
+msgstr "O caminho para o arquivo de certificado (no formato PEM)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS_KEY_STORE_PEM__KEY_CERTS__CERT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS_KEY_STORE_PEM__KEY_CERTS__CERT[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-key[`quarkus.tls.\"tls-bucket-name\".key-store.pem.\"key-certs\".key`]##\n"
@@ -1544,8 +1642,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-key[`quarkus.tls.\"tls-bucket-name\".key-store.pem.\"key-certs\".key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_PEM__KEY_CERTS__KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_PEM__KEY_CERTS__KEY[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-cert]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-cert[`quarkus.tls.\"tls-bucket-name\".key-store.pem.\"key-certs\".cert`]##\n"
@@ -1562,8 +1661,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-cert]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-key-certs-cert[`quarkus.tls.\"tls-bucket-name\".key-store.pem.\"key-certs\".cert`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_PEM__KEY_CERTS__CERT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_PEM__KEY_CERTS__CERT[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-order]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-order[`quarkus.tls.\"tls-bucket-name\".key-store.pem.order`]##\n"
@@ -1582,8 +1682,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-order]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-pem-order[`quarkus.tls.\"tls-bucket-name\".key-store.pem.order`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_PEM_ORDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_PEM_ORDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-path[`quarkus.tls.\"tls-bucket-name\".key-store.p12.path`]##\n"
@@ -1600,8 +1701,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-path[`quarkus.tls.\"tls-bucket-name\".key-store.p12.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-password[`quarkus.tls.\"tls-bucket-name\".key-store.p12.password`]##\n"
@@ -1618,8 +1720,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-password[`quarkus.tls.\"tls-bucket-name\".key-store.p12.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias[`quarkus.tls.\"tls-bucket-name\".key-store.p12.alias`]##\n"
@@ -1636,8 +1739,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias[`quarkus.tls.\"tls-bucket-name\".key-store.p12.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias-password[`quarkus.tls.\"tls-bucket-name\".key-store.p12.alias-password`]##\n"
@@ -1654,8 +1758,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-alias-password[`quarkus.tls.\"tls-bucket-name\".key-store.p12.alias-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_ALIAS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_ALIAS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider[`quarkus.tls.\"tls-bucket-name\".key-store.p12.provider`]##\n"
@@ -1672,8 +1777,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider[`quarkus.tls.\"tls-bucket-name\".key-store.p12.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_P12_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-path[`quarkus.tls.\"tls-bucket-name\".key-store.jks.path`]##\n"
@@ -1690,8 +1796,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-path[`quarkus.tls.\"tls-bucket-name\".key-store.jks.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-password[`quarkus.tls.\"tls-bucket-name\".key-store.jks.password`]##\n"
@@ -1708,8 +1815,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-password[`quarkus.tls.\"tls-bucket-name\".key-store.jks.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias[`quarkus.tls.\"tls-bucket-name\".key-store.jks.alias`]##\n"
@@ -1726,8 +1834,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias[`quarkus.tls.\"tls-bucket-name\".key-store.jks.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias-password[`quarkus.tls.\"tls-bucket-name\".key-store.jks.alias-password`]##\n"
@@ -1744,8 +1853,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-alias-password[`quarkus.tls.\"tls-bucket-name\".key-store.jks.alias-password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_ALIAS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_ALIAS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-provider[`quarkus.tls.\"tls-bucket-name\".key-store.jks.provider`]##\n"
@@ -1762,8 +1872,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-jks-provider[`quarkus.tls.\"tls-bucket-name\".key-store.jks.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_JKS_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-sni]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-sni[`quarkus.tls.\"tls-bucket-name\".key-store.sni`]##\n"
@@ -1786,8 +1897,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-sni]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-sni[`quarkus.tls.\"tls-bucket-name\".key-store.sni`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_SNI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_SNI[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-name[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.name`]##\n"
@@ -1806,8 +1918,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-name[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-bean-name[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.bean-name`]##\n"
@@ -1828,8 +1941,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-bean-name[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.bean-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_BEAN_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_BEAN_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-password-key[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.password-key`]##\n"
@@ -1848,8 +1962,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-password-key[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.password-key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-alias-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-alias-password-key[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.alias-password-key`]##\n"
@@ -1868,8 +1983,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-alias-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-credentials-provider-alias-password-key[`quarkus.tls.\"tls-bucket-name\".key-store.credentials-provider.alias-password-key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_ALIAS_PASSWORD_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__KEY_STORE_CREDENTIALS_PROVIDER_ALIAS_PASSWORD_KEY[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs[`quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs`]##\n"
@@ -1886,8 +2002,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs[`quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_PEM_CERTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_PEM_CERTS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-path[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.path`]##\n"
@@ -1904,8 +2021,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-path[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-password[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.password`]##\n"
@@ -1922,8 +2040,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-password[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-alias[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.alias`]##\n"
@@ -1940,8 +2059,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-alias[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-provider[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.provider`]##\n"
@@ -1958,8 +2078,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-p12-provider[`quarkus.tls.\"tls-bucket-name\".trust-store.p12.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_P12_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-path[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.path`]##\n"
@@ -1976,8 +2097,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-path]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-path[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.path`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_PATH[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-password[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.password`]##\n"
@@ -1994,8 +2116,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-password[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.password`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-alias[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.alias`]##\n"
@@ -2012,8 +2135,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-alias]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-alias[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.alias`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_ALIAS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_ALIAS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-provider[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.provider`]##\n"
@@ -2030,8 +2154,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-jks-provider[`quarkus.tls.\"tls-bucket-name\".trust-store.jks.provider`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_JKS_PROVIDER[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-name[`quarkus.tls.\"tls-bucket-name\".trust-store.credentials-provider.name`]##\n"
@@ -2050,8 +2175,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-name[`quarkus.tls.\"tls-bucket-name\".trust-store.credentials-provider.name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_CREDENTIALS_PROVIDER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_CREDENTIALS_PROVIDER_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-bean-name[`quarkus.tls.\"tls-bucket-name\".trust-store.credentials-provider.bean-name`]##\n"
@@ -2072,8 +2198,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-bean-name]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-bean-name[`quarkus.tls.\"tls-bucket-name\".trust-store.credentials-provider.bean-name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_CREDENTIALS_PROVIDER_BEAN_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_CREDENTIALS_PROVIDER_BEAN_NAME[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-password-key[`quarkus.tls.\"tls-bucket-name\".trust-store.credentials-provider.password-key`]##\n"
@@ -2092,8 +2219,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-password-key]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-credentials-provider-password-key[`quarkus.tls.\"tls-bucket-name\".trust-store.credentials-provider.password-key`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_STORE_CREDENTIALS_PROVIDER_PASSWORD_KEY[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-cipher-suites]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-cipher-suites[`quarkus.tls.\"tls-bucket-name\".cipher-suites`]##\n"
@@ -2112,8 +2240,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-cipher-suites]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-cipher-suites[`quarkus.tls.\"tls-bucket-name\".cipher-suites`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__CIPHER_SUITES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__CIPHER_SUITES[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-protocols]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-protocols[`quarkus.tls.\"tls-bucket-name\".protocols`]##\n"
@@ -2136,8 +2265,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-protocols]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-protocols[`quarkus.tls.\"tls-bucket-name\".protocols`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__PROTOCOLS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__PROTOCOLS[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-handshake-timeout]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-handshake-timeout[`quarkus.tls.\"tls-bucket-name\".handshake-timeout`]##\n"
@@ -2156,8 +2286,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-handshake-timeout]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-handshake-timeout[`quarkus.tls.\"tls-bucket-name\".handshake-timeout`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__HANDSHAKE_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__HANDSHAKE_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-alpn]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-alpn[`quarkus.tls.\"tls-bucket-name\".alpn`]##\n"
@@ -2176,8 +2307,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-alpn]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-alpn[`quarkus.tls.\"tls-bucket-name\".alpn`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__ALPN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__ALPN[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-certificate-revocation-list]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-certificate-revocation-list[`quarkus.tls.\"tls-bucket-name\".certificate-revocation-list`]##\n"
@@ -2198,8 +2330,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-certificate-revocation-list]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-certificate-revocation-list[`quarkus.tls.\"tls-bucket-name\".certificate-revocation-list`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__CERTIFICATE_REVOCATION_LIST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__CERTIFICATE_REVOCATION_LIST[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-all]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-all[`quarkus.tls.\"tls-bucket-name\".trust-all`]##\n"
@@ -2218,8 +2351,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-all]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-all[`quarkus.tls.\"tls-bucket-name\".trust-all`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_ALL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__TRUST_ALL[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-hostname-verification-algorithm]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-hostname-verification-algorithm[`quarkus.tls.\"tls-bucket-name\".hostname-verification-algorithm`]##\n"
@@ -2240,8 +2374,9 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-hostname-verification-algorithm]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-hostname-verification-algorithm[`quarkus.tls.\"tls-bucket-name\".hostname-verification-algorithm`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__HOSTNAME_VERIFICATION_ALGORITHM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__HOSTNAME_VERIFICATION_ALGORITHM[]"
 
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-reload-period]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-reload-period[`quarkus.tls.\"tls-bucket-name\".reload-period`]##\n"
@@ -2262,16 +2397,19 @@ msgstr ""
 msgid "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-reload-period]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-reload-period[`quarkus.tls.\"tls-bucket-name\".reload-period`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_TLS__TLS_BUCKET_NAME__RELOAD_PERIOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_TLS__TLS_BUCKET_NAME__RELOAD_PERIOD[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -2853,8 +2991,9 @@ msgstr "Exclusão do certificado CA no Mac"
 msgid "On Mac:"
 msgstr "No Mac:"
 
+#, fuzzy
 msgid "Automatic certificate management with Let&#8217;s Encrypt"
-msgstr ""
+msgstr "Gerenciamento automático de certificados com o Let’s Encrypt"
 
 #, fuzzy
 msgid "link:https://letsencrypt.org[Let's Encrypt] is a free, automated certificate authority provided by link:https://www.abetterinternet.org/[Internet Security Research Group]."

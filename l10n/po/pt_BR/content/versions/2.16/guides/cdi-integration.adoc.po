@@ -151,7 +151,7 @@ msgstr "Também é possível especificar o escopo padrão. O escopo padrão é u
 #. mt: deepl
 #, fuzzy
 msgid "<em>Reason 3</em>: Class Was Discovered and Has a Bean Defining Annotation but Was Removed"
-msgstr "<em>Motivo 3</em>: A classe foi identificada e possui uma anotação de definição de bean, mas foi removida"
+msgstr "<em>Motivo 3</em>: A classe foi descoberta e possui uma anotação de definição de bean, mas foi removida"
 
 #, fuzzy
 msgid ""

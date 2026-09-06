@@ -248,7 +248,7 @@ msgstr "`link:#quarkus-kubernetes-config_quarkus.kubernetes-config.enabled[quark
 #. mt: deepl
 #, fuzzy
 msgid "If set to true, the application will attempt to look up the configuration from the API server"
-msgstr "Se definido como “true”, o aplicativo tentará consultar a configuração no servidor da API"
+msgstr "Se definido como “true”, o aplicativo tentará buscar a configuração no servidor da API"
 
 #. mt: deepl
 #, fuzzy
@@ -276,7 +276,7 @@ msgstr "`link:#quarkus-kubernetes-config_quarkus.kubernetes-config.fail-on-missi
 #. mt: deepl
 #, fuzzy
 msgid "If set to true, the application will not start if any of the configured config sources cannot be located"
-msgstr "Se definido como “true”, o aplicativo não será iniciado caso não seja possível localizar qualquer uma das fontes de configuração definidas"
+msgstr "Se definido como \"true\", o aplicativo não será iniciado caso não seja possível localizar qualquer uma das fontes de configuração definidas"
 
 #. mt: deepl
 #, fuzzy
@@ -307,7 +307,7 @@ msgstr "`link:#quarkus-kubernetes-config_quarkus.kubernetes-config.config-maps[q
 #. mt: deepl
 #, fuzzy
 msgid "ConfigMaps to look for in the namespace that the Kubernetes Client has been configured for. ConfigMaps defined later in this list have a higher priority that ConfigMaps defined earlier in this list. Furthermore, any Secrets defined in `secrets`, will have higher priorities than all ConfigMaps."
-msgstr "ConfigMaps a serem pesquisados no namespace para o qual o Cliente do Kubernetes foi configurado. Os ConfigMaps definidos mais adiante nesta lista têm prioridade maior do que os ConfigMaps definidos anteriormente nesta lista. Além disso, quaisquer Secrets definidos em `secrets` terão prioridade maior do que todos os ConfigMaps."
+msgstr "ConfigMaps a serem pesquisados no namespace para o qual o Cliente do Kubernetes foi configurado. Os ConfigMaps definidos mais adiante nesta lista têm prioridade maior do que os definidos anteriormente. Além disso, quaisquer Secrets definidos em `secrets` terão prioridade maior do que todos os ConfigMaps."
 
 #. mt: deepl
 #, fuzzy
@@ -339,7 +339,7 @@ msgstr "`link:#quarkus-kubernetes-config_quarkus.kubernetes-config.secrets[quark
 #. mt: deepl
 #, fuzzy
 msgid "Secrets to look for in the namespace that the Kubernetes Client has been configured for. If you use this, you probably want to enable `quarkus.kubernetes-config.secrets.enabled`. Secrets defined later in this list have a higher priority that ConfigMaps defined earlier in this list. Furthermore, these Secrets have a higher priorities than all ConfigMaps defined in `configMaps`."
-msgstr "Segredos a serem procurados no namespace para o qual o cliente do Kubernetes foi configurado. Caso utilize isso, provavelmente desejará habilitar o parâmetro ` `quarkus.kubernetes-config.secrets.enabled`` . Os segredos definidos mais adiante nesta lista têm prioridade maior do que os ConfigMaps definidos anteriormente nesta lista. Além disso, esses segredos têm prioridade maior do que todos os ConfigMaps definidos em ` `configMaps`` ."
+msgstr "Segredos a serem procurados no namespace para o qual o Cliente do Kubernetes foi configurado. Caso utilize isso, provavelmente desejará habilitar o parâmetro ` `quarkus.kubernetes-config.secrets.enabled`` . Os segredos definidos mais adiante nesta lista têm prioridade maior do que os ConfigMaps definidos anteriormente nesta lista. Além disso, esses segredos têm prioridade maior do que todos os ConfigMaps definidos em ` `configMaps`` ."
 
 #. mt: deepl
 #, fuzzy

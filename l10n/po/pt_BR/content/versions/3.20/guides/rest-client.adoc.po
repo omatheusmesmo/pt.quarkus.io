@@ -648,8 +648,9 @@ msgstr "Em seguida, pode registrar o seu filtro utilizando a anotação `@Regist
 msgid "Or programmatically using the `.register()` method:"
 msgstr "Ou programaticamente, utilizando o método `.register()`:"
 
+#, fuzzy
 msgid "Injecting the <code>jakarta.ws.rs.ext.Providers</code> instance in filters"
-msgstr ""
+msgstr "Injetando a instância <code>jakarta.ws.rs.ext.Providers</code> nos filtros"
 
 msgid "The `jakarta.ws.rs.ext.Providers` is useful when we need to lookup the provider instances of the current client."
 msgstr "O `jakarta.ws.rs.ext.Providers` é útil quando precisamos procurar as instâncias do fornecedor do cliente atual."
@@ -1204,8 +1205,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -1234,17 +1236,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.disable-smart-produces+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "By default, RESTEasy Reactive uses text/plain content type for String values and application/json for everything else."
-msgstr ""
+msgstr "Por padrão, o RESTEasy Reactive utiliza o tipo de conteúdo `text/plain` para valores do tipo String e `application/json` para todos os demais."
 
+#, fuzzy
 msgid "MicroProfile Rest Client spec requires the implementations to always default to application/json. This build item disables the \"smart\" behavior of RESTEasy Reactive to comply to the spec"
-msgstr ""
+msgstr "A especificação do MicroProfile Rest Client exige que as implementações utilizem sempre “application/json” como padrão. Este item de compilação desativa o comportamento “inteligente” do RESTEasy Reactive para estar em conformidade com a especificação"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_DISABLE_SMART_PRODUCES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_DISABLE_SMART_PRODUCES[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -1272,11 +1278,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.provider-autodiscovery+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Whether providers (filters, etc.) annotated with `jakarta.ws.rs.ext.Provider` should be automatically registered for all the clients in the application."
-msgstr ""
+msgstr "Se os provedores (filtros, etc.) anotados com `jakarta.ws.rs.ext.Provider` devem ser registrados automaticamente para todos os clientes do aplicativo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_PROVIDER_AUTODISCOVERY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_PROVIDER_AUTODISCOVERY[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -1304,11 +1312,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.removes-trailing-slash+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If true, the extension will automatically remove the trailing slash in the paths if any. This property is not applicable to the RESTEasy Client."
-msgstr ""
+msgstr "Se estiver definida como verdadeira, a extensão removerá automaticamente a barra final dos caminhos, caso haja alguma. Essa propriedade não se aplica ao RESTEasy Client."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_REMOVES_TRAILING_SLASH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_REMOVES_TRAILING_SLASH[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-multipart-post-encoder-mode]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-multipart-post-encoder-mode[`quarkus.rest-client.multipart-post-encoder-mode`]##\n"
@@ -1333,17 +1343,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.multipart-post-encoder-mode+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Mode in which the form data are encoded. Possible values are `HTML5`, `RFC1738` and `RFC3986`. The modes are described in the link:https://netty.io/4.1/api/io/netty/handler/codec/http/multipart/HttpPostRequestEncoder.EncoderMode.html[Netty documentation]"
-msgstr ""
+msgstr "Modo no qual os dados do formulário são codificados. Os valores possíveis são `HTML5` , `RFC1738` e `RFC3986` . Esses modos estão descritos na link:https://netty.io/4.1/api/io/netty/handler/codec/http/multipart/HttpPostRequestEncoder.EncoderMode.html[documentação do Netty]"
 
+#, fuzzy
 msgid "By default, Rest Client Reactive uses RFC1738."
-msgstr ""
+msgstr "Por padrão, o Rest Client Reactive utiliza a RFC 1738."
 
+#, fuzzy
 msgid "This property is not applicable to the RESTEasy Client."
-msgstr ""
+msgstr "Essa propriedade não se aplica ao cliente RESTEasy."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_MULTIPART_POST_ENCODER_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_MULTIPART_POST_ENCODER_MODE[]"
 
 msgid "string"
 msgstr "string"
@@ -1369,14 +1383,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.proxy-address+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A string value in the form of `:` that specifies the HTTP proxy server hostname (or IP address) and port for requests of clients to use."
-msgstr ""
+msgstr "Um valor de string no formato `:` que especifica o nome do servidor (ou endereço IP) e a porta do servidor proxy HTTP a serem utilizados nas solicitações dos clientes."
 
+#, fuzzy
 msgid "Can be overwritten by client-specific settings."
-msgstr ""
+msgstr "Pode ser substituído por configurações específicas do cliente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_PROXY_ADDRESS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_PROXY_ADDRESS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-proxy-user]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-proxy-user[`quarkus.rest-client.proxy-user`]##\n"
@@ -1404,8 +1421,9 @@ msgstr ""
 msgid "Proxy username, equivalent to the http.proxy or https.proxy JVM settings."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_PROXY_USER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_PROXY_USER[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-proxy-password]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-proxy-password[`quarkus.rest-client.proxy-password`]##\n"
@@ -1433,8 +1451,9 @@ msgstr ""
 msgid "Proxy password, equivalent to the http.proxyPassword or https.proxyPassword JVM settings."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_PROXY_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_PROXY_PASSWORD[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-non-proxy-hosts]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-non-proxy-hosts[`quarkus.rest-client.non-proxy-hosts`]##\n"
@@ -1462,8 +1481,9 @@ msgstr ""
 msgid "Hosts to access without proxy, similar to the http.nonProxyHosts or https.nonProxyHosts JVM settings. Please note that unlike the JVM settings, this property is empty by default."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_NON_PROXY_HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_NON_PROXY_HOSTS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-connect-timeout]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-connect-timeout[`quarkus.rest-client.connect-timeout`]##\n"
@@ -1486,17 +1506,20 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.connect-timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A timeout in milliseconds that REST clients should wait to connect to the remote endpoint."
-msgstr ""
+msgstr "Um tempo limite, em milissegundos, que os clientes REST devem aguardar para se conectarem ao endpoint remoto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_CONNECT_TIMEOUT[]"
 
 msgid "long"
 msgstr "long"
 
+#, fuzzy
 msgid "`15000`"
-msgstr ""
+msgstr "`15.000`"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-read-timeout]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-read-timeout[`quarkus.rest-client.read-timeout`]##\n"
@@ -1519,14 +1542,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.read-timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A timeout in milliseconds that REST clients should wait for a response from the remote endpoint."
-msgstr ""
+msgstr "Um tempo limite, em milissegundos, durante o qual os clientes REST devem aguardar uma resposta do endpoint remoto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_READ_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_READ_TIMEOUT[]"
 
+#, fuzzy
 msgid "`30000`"
-msgstr ""
+msgstr "`30.000`"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-disable-contextual-error-messages]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-disable-contextual-error-messages[`quarkus.rest-client.disable-contextual-error-messages`]##\n"
@@ -1549,11 +1575,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.disable-contextual-error-messages+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If true, the REST clients will not provide additional contextual information (like REST client class and method names) when exception occurs during a client invocation."
-msgstr ""
+msgstr "Se for verdade, os clientes REST não fornecerão informações contextuais adicionais (como nomes de classes e métodos do cliente REST) quando ocorrer uma exceção durante uma invocação do cliente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_DISABLE_CONTEXTUAL_ERROR_MESSAGES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_DISABLE_CONTEXTUAL_ERROR_MESSAGES[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-user-agent]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-user-agent[`quarkus.rest-client.user-agent`]##\n"
@@ -1578,11 +1606,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.user-agent+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Default configuration for the HTTP user-agent header to use in all REST clients."
-msgstr ""
+msgstr "Configuração padrão para o cabeçalho user-agent HTTP a ser utilizado em todos os clientes REST."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_USER_AGENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_USER_AGENT[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-headers-header-name]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-headers-header-name[`quarkus.rest-client.headers.\"header-name\"`]##\n"
@@ -1603,14 +1633,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.headers.\"header-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The HTTP headers that should be applied to all requests of the rest client."
-msgstr ""
+msgstr "Os cabeçalhos HTTP que devem ser aplicados a todas as solicitações do cliente REST."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_HEADERS__HEADER_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_HEADERS__HEADER_NAME_[]"
 
+#, fuzzy
 msgid "Map<String,String>"
-msgstr ""
+msgstr "Map<String, String>"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-hostname-verifier]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-hostname-verifier[`quarkus.rest-client.hostname-verifier`]##\n"
@@ -1633,11 +1666,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.hostname-verifier+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The class name of the host name verifier. The class must have a public no-argument constructor."
-msgstr ""
+msgstr "O nome da classe do verificador de nome de host. A classe deve possuir um construtor público sem argumentos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_HOSTNAME_VERIFIER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_HOSTNAME_VERIFIER[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-connection-ttl]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-connection-ttl[`quarkus.rest-client.connection-ttl`]##\n"
@@ -1663,8 +1698,9 @@ msgstr ""
 msgid "The time in ms for which a connection remains unused in the connection pool before being evicted and closed. A timeout of `0` means there is no timeout."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_CONNECTION_TTL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_CONNECTION_TTL[]"
 
 msgid "int"
 msgstr "int"
@@ -1690,11 +1726,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.connection-pool-size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The size of the connection pool for this client."
-msgstr ""
+msgstr "O tamanho do pool de conexões para este cliente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_CONNECTION_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_CONNECTION_POOL_SIZE[]"
 
 msgid "`50`"
 msgstr ""
@@ -1720,11 +1758,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.keep-alive-enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If set to false disables the keep alive completely."
-msgstr ""
+msgstr "Se definido como “false”, desativa completamente o keep-alive."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_KEEP_ALIVE_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_KEEP_ALIVE_ENABLED[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-max-redirects]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-max-redirects[`quarkus.rest-client.max-redirects`]##\n"
@@ -1749,11 +1789,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.max-redirects+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of redirection a request can follow."
-msgstr ""
+msgstr "O número máximo de redirecionamentos que uma solicitação pode seguir."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_MAX_REDIRECTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_MAX_REDIRECTS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-follow-redirects]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-follow-redirects[`quarkus.rest-client.follow-redirects`]##\n"
@@ -1776,11 +1818,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.follow-redirects+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A boolean value used to determine whether the client should follow HTTP redirect responses."
-msgstr ""
+msgstr "Um valor booleano utilizado para determinar se o cliente deve seguir as respostas de redirecionamento HTTP."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_FOLLOW_REDIRECTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_FOLLOW_REDIRECTS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-providers]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-providers[`quarkus.rest-client.providers`]##\n"
@@ -1803,11 +1847,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.providers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Fully-qualified provider classnames to include in the client. The equivalent of the `@RegisterProvider` annotation."
-msgstr ""
+msgstr "Nomes de classe de provedores totalmente qualificados a serem incluídos no cliente. O equivalente à anotação `@RegisterProvider` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_PROVIDERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_PROVIDERS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-scope]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-scope[`quarkus.rest-client.scope`]##\n"
@@ -1843,8 +1889,9 @@ msgstr ""
 msgid "Default scope for the rest-client-reactive extension is \"ApplicationScoped\"."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_SCOPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_SCOPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-query-param-style]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-query-param-style[`quarkus.rest-client.query-param-style`]##\n"
@@ -1867,14 +1914,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.query-param-style+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "An enumerated type string value with possible values of \"MULTI_PAIRS\" (default), \"COMMA_SEPARATED\", or \"ARRAY_PAIRS\" that specifies the format in which multiple values for the same query parameter is used."
-msgstr ""
+msgstr "Um valor de tipo enumerado do tipo string com os valores possíveis “MULTI_PAIRS” (padrão), “COMMA_SEPARATED” ou “ARRAY_PAIRS”, que especifica o formato no qual são utilizados vários valores para o mesmo parâmetro de consulta."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_QUERY_PARAM_STYLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_QUERY_PARAM_STYLE[]"
 
+#, fuzzy
 msgid "`multi-pairs`, `comma-separated`, `array-pairs`"
-msgstr ""
+msgstr "`múltiplos pares` , `separados por vírgulas` , `pares em matriz`"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-verify-host]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-verify-host[`quarkus.rest-client.verify-host`]##\n"
@@ -1897,11 +1947,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.verify-host+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set whether hostname verification is enabled. Default is enabled. This setting should not be disabled in production as it makes the client vulnerable to MITM attacks."
-msgstr ""
+msgstr "Defina se a verificação do nome do host está ativada. O padrão é ativado. Essa configuração não deve ser desativada em ambiente de produção, pois torna o cliente vulnerável a ataques MITM."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_VERIFY_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_VERIFY_HOST[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-trust-store]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-trust-store[`quarkus.rest-client.trust-store`]##\n"
@@ -1924,11 +1976,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.trust-store+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The trust store location. Can point to either a classpath resource or a file."
-msgstr ""
+msgstr "A localização do repositório de confiança. Pode indicar um recurso do classpath ou um arquivo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_TRUST_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_TRUST_STORE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-trust-store-password]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-trust-store-password[`quarkus.rest-client.trust-store-password`]##\n"
@@ -1951,11 +2005,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.trust-store-password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The trust store password."
-msgstr ""
+msgstr "A senha do armazenamento de confiança."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_TRUST_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_TRUST_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-trust-store-type]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-trust-store-type[`quarkus.rest-client.trust-store-type`]##\n"
@@ -1978,11 +2034,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.trust-store-type+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The type of the trust store. Defaults to \"JKS\"."
-msgstr ""
+msgstr "O tipo do armazenamento de certificados confiáveis. O valor padrão é “JKS”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_TRUST_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_TRUST_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-key-store]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-key-store[`quarkus.rest-client.key-store`]##\n"
@@ -2005,11 +2063,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.key-store+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The key store location. Can point to either a classpath resource or a file."
-msgstr ""
+msgstr "A localização do armazenamento de chaves. Pode indicar um recurso do classpath ou um arquivo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_KEY_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_KEY_STORE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-key-store-password]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-key-store-password[`quarkus.rest-client.key-store-password`]##\n"
@@ -2032,11 +2092,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.key-store-password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The key store password."
-msgstr ""
+msgstr "A senha do armazenamento de chaves."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_KEY_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_KEY_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-key-store-type]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-key-store-type[`quarkus.rest-client.key-store-type`]##\n"
@@ -2059,11 +2121,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.key-store-type+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The type of the key store. Defaults to \"JKS\"."
-msgstr ""
+msgstr "O tipo do armazenamento de chaves. O valor padrão é “JKS”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_KEY_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_KEY_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-tls-configuration-name]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-tls-configuration-name[`quarkus.rest-client.tls-configuration-name`]##\n"
@@ -2092,20 +2156,24 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.tls-configuration-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the TLS configuration to use."
-msgstr ""
+msgstr "O nome da configuração TLS a ser utilizada."
 
+#, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown."
-msgstr ""
+msgstr "Caso um nome esteja configurado, ele utiliza a configuração de `quarkus.tls.<nome>.*` Caso um nome esteja configurado, mas não seja encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
 
 msgid "If no TLS configuration is set, then the keys-tore, trust-store, etc. properties will be used."
 msgstr ""
 
+#, fuzzy
 msgid "The default TLS configuration is *not* used by default."
-msgstr ""
+msgstr "A configuração padrão do TLS *não* é utilizada por padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_TLS_CONFIGURATION_NAME[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-http2]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-http2[`quarkus.rest-client.http2`]##\n"
@@ -2126,11 +2194,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.http2+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If this is true then HTTP/2 will be enabled."
-msgstr ""
+msgstr "Se isso for verdade, o HTTP/2 será ativado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_HTTP2+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_HTTP2[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-max-chunk-size]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-max-chunk-size[`quarkus.rest-client.max-chunk-size`]##\n"
@@ -2153,14 +2223,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.max-chunk-size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The max HTTP chunk size (8096 bytes by default)."
-msgstr ""
+msgstr "O tamanho máximo do bloco HTTP (8.096 bytes por padrão)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_MAX_CHUNK_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_MAX_CHUNK_SIZE[]"
 
+#, fuzzy
 msgid "MemorySize link:#memory-size-note-anchor-quarkus-rest-client-config_quarkus-rest-client[icon:question-circle[title=More information about the MemorySize format]]"
-msgstr ""
+msgstr "MemorySize link:#memory-size-note-anchor-quarkus-rest-client-config_quarkus-rest-client[[círculo de pergunta]]"
 
 msgid "`8k`"
 msgstr ""
@@ -2184,11 +2257,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.alpn+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If the Application-Layer Protocol Negotiation is enabled, the client will negotiate which protocol to use over the protocols exposed by the server. By default, it will try to use HTTP/2 first and if it's not enabled, it will use HTTP/1.1. When the property `http2` is enabled, this flag will be automatically enabled."
-msgstr ""
+msgstr "Se a negociação de protocolo na camada de aplicação estiver ativada, o cliente negociará qual protocolo utilizar entre os protocolos disponibilizados pelo servidor. Por padrão, ele tentará usar o HTTP/2 primeiro e, caso este não esteja ativado, utilizará o HTTP/1.1. Quando a propriedade `http2` estiver ativada, este sinalizador será ativado automaticamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_ALPN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_ALPN[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-capture-stacktrace]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-capture-stacktrace[`quarkus.rest-client.capture-stacktrace`]##\n"
@@ -2209,11 +2284,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.capture-stacktrace+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If `true`, the stacktrace of the invocation of the REST Client method is captured. This stacktrace will be used if the invocation throws an exception"
-msgstr ""
+msgstr "Se `for verdadeiro` , o rastreamento de pilha da invocação do método do Cliente REST é capturado. Esse rastreamento de pilha será utilizado caso a invocação lance uma exceção"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_CAPTURE_STACKTRACE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_CAPTURE_STACKTRACE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-logging-scope]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-logging-scope[`quarkus.rest-client.logging.scope`]##\n"
@@ -2242,26 +2319,38 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.logging.scope+++[]"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Scope of logging for the client.  +\n"
 "WARNING: beware of logging sensitive data  +\n"
 "The possible values are:"
 msgstr ""
+"Escopo do registro de log para o cliente.\n"
+"\n"
+"\n"
+"AVISO: tenha cuidado ao registrar dados confidenciais\n"
+"\n"
+"\n"
+"Os valores possíveis são:"
 
+#, fuzzy
 msgid "`request-response` - enables logging request and responses, including redirect responses"
-msgstr ""
+msgstr "`solicitação-resposta` — permite o registro de solicitações e respostas, incluindo respostas de redirecionamento"
 
+#, fuzzy
 msgid "`all` - enables logging requests and responses and lower-level logging"
-msgstr ""
+msgstr "`all` — habilita o registro de solicitações e respostas, bem como o registro de eventos de nível inferior"
 
+#, fuzzy
 msgid "`none` - no additional logging"
-msgstr ""
+msgstr "`nenhum` - sem registro adicional"
 
 msgid "This property is applicable to reactive REST clients only."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_LOGGING_SCOPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_LOGGING_SCOPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-logging-body-limit]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-logging-body-limit[`quarkus.rest-client.logging.body-limit`]##\n"
@@ -2286,14 +2375,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.logging.body-limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "How many characters of the body should be logged. Message body can be large and can easily pollute the logs."
-msgstr ""
+msgstr "Quantos caracteres do corpo da mensagem devem ser registrados. O corpo da mensagem pode ser extenso e facilmente sobrecarregar os registros."
 
+#, fuzzy
 msgid "By default, set to 100."
-msgstr ""
+msgstr "Por padrão, o valor é 100."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT_LOGGING_BODY_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT_LOGGING_BODY_LIMIT[]"
 
 #, fuzzy
 msgid "`100`"
@@ -2318,8 +2410,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"clients\".scope+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The CDI scope to use for injection. This property can contain either a fully qualified class name of a CDI scope annotation (such as \"jakarta.enterprise.context.ApplicationScoped\") or its simple name (such as \"ApplicationScoped\"). By default, this is not set which means the interface is not registered as a bean unless it is annotated with `RegisterRestClient`. If an interface is not annotated with `RegisterRestClient` and this property is set, then Quarkus will make the interface a bean of the configured scope."
-msgstr ""
+msgstr "O escopo CDI a ser utilizado para injeção. Essa propriedade pode conter tanto um nome de classe totalmente qualificado de uma anotação de escopo CDI (como “jakarta.enterprise.context.ApplicationScoped”) quanto seu nome simples (como “ApplicationScoped”). Por padrão, essa propriedade não está definida, o que significa que a interface não será registrada como um bean, a menos que seja anotada com `RegisterRestClient` . Se uma interface não for anotada com `RegisterRestClient` e essa propriedade estiver definida, o Quarkus transformará a interface em um bean com o escopo configurado."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENTS__SCOPE+++[]"
 msgstr ""
@@ -2347,14 +2440,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"clients\".enable-local-proxy+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If set to true, then Quarkus will ensure that all calls from the REST client go through a local proxy server (that is managed by Quarkus). This can be very useful for capturing network traffic to a service that uses HTTPS."
-msgstr ""
+msgstr "Se definido como “true”, o Quarkus garantirá que todas as chamadas do cliente REST passem por um servidor proxy local (gerenciado pelo Quarkus). Isso pode ser muito útil para capturar o tráfego de rede destinado a um serviço que utiliza HTTPS."
 
+#, fuzzy
 msgid "This property is not applicable to the RESTEasy Client, only the Quarkus REST client (formerly RESTEasy Reactive client)."
-msgstr ""
+msgstr "Essa propriedade não se aplica ao RESTEasy Client, mas apenas ao cliente REST do Quarkus (anteriormente conhecido como cliente RESTEasy Reactive)."
 
+#, fuzzy
 msgid "This property only applicable to dev and test mode."
-msgstr ""
+msgstr "Essa propriedade é aplicável apenas aos modos de desenvolvimento e teste."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENTS__ENABLE_LOCAL_PROXY+++[]"
 msgstr ""
@@ -2384,20 +2480,25 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"clients\".local-proxy-provider+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "This setting is used to select which proxy provider to use if there are multiple ones. It only applies if `enable-local-proxy` is true."
-msgstr ""
+msgstr "Essa configuração é utilizada para selecionar qual provedor de proxy deve ser utilizado, caso haja vários disponíveis. Ela só se aplica se a opção ` `enable-local-proxy`` estiver definida como `true`."
 
+#, fuzzy
 msgid "The algorithm for picking between multiple provider is the following:"
-msgstr ""
+msgstr "O algoritmo para escolher entre vários provedores é o seguinte:"
 
+#, fuzzy
 msgid "If only the default is around, use it (its name is `default`)"
-msgstr ""
+msgstr "Caso o padrão esteja disponível, utilize-o (seu nome é `“default”` )"
 
+#, fuzzy
 msgid "If there is only one besides the default, use it"
-msgstr ""
+msgstr "Se houver apenas uma opção além da padrão, utilize-a"
 
+#, fuzzy
 msgid "If there are multiple ones, fail"
-msgstr ""
+msgstr "Se houver mais de um, a operação falhará"
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENTS__LOCAL_PROXY_PROVIDER+++[]"
 msgstr ""
@@ -2443,11 +2544,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".url+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The base URL to use for this service. This property or the `uri` property is considered required, unless the `baseUri` attribute is configured in the `@RegisterRestClient` annotation."
-msgstr ""
+msgstr "A URL base a ser utilizada para este serviço. Esta propriedade ou a propriedade ``uri`` é considerada obrigatória, a menos que o atributo ` `baseUri` ` esteja configurado na anotação ` `@RegisterRestClient` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__URL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__URL[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-uri]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[`quarkus.rest-client.\"client\".uri`]##\n"
@@ -2468,11 +2571,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".uri+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The base URI to use for this service. This property or the `url` property is considered required, unless the `baseUri` attribute is configured in the `@RegisterRestClient` annotation."
-msgstr ""
+msgstr "O URI base a ser utilizado para este serviço. Esta propriedade ou a propriedade `url` é considerada obrigatória, a menos que o atributo `baseUri` esteja configurado na anotação `@RegisterRestClient` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__URI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__URI[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-override-uri]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-override-uri[`quarkus.rest-client.\"client\".override-uri`]##\n"
@@ -2495,14 +2600,16 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".override-uri+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "This property is only meant to be set by advanced configurations to override whatever value was set for the uri or url. The override is done using the REST Client class name configuration syntax."
-msgstr ""
+msgstr "Essa propriedade destina-se a ser definida apenas por meio de configurações avançadas, a fim de substituir qualquer valor que tenha sido definido para o uri ou url. A substituição é feita utilizando a sintaxe de configuração do nome da classe do cliente REST."
 
 msgid "This property is not applicable to the RESTEasy Client, only the Quarkus Rest client (formerly RESTEasy Reactive client)."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__OVERRIDE_URI+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__OVERRIDE_URI[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-providers]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-providers[`quarkus.rest-client.\"client\".providers`]##\n"
@@ -2523,11 +2630,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".providers+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Map where keys are fully-qualified provider classnames to include in the client, and values are their integer priorities. The equivalent of the `@RegisterProvider` annotation."
-msgstr ""
+msgstr "Mapeia em que as chaves são nomes de classe de provedores totalmente qualificados a serem incluídos no cliente, e os valores são suas prioridades inteiras. O equivalente à anotação `@RegisterProvider` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__PROVIDERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__PROVIDERS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-connect-timeout]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-connect-timeout[`quarkus.rest-client.\"client\".connect-timeout`]##\n"
@@ -2548,11 +2657,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".connect-timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Timeout specified in milliseconds to wait to connect to the remote endpoint."
-msgstr ""
+msgstr "Tempo limite especificado em milissegundos para a espera na conexão com o ponto de extremidade remoto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__CONNECT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-read-timeout]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-read-timeout[`quarkus.rest-client.\"client\".read-timeout`]##\n"
@@ -2573,11 +2684,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".read-timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Timeout specified in milliseconds to wait for a response from the remote endpoint."
-msgstr ""
+msgstr "Tempo limite especificado em milissegundos para aguardar uma resposta do ponto de extremidade remoto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__READ_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__READ_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-follow-redirects]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-follow-redirects[`quarkus.rest-client.\"client\".follow-redirects`]##\n"
@@ -2598,8 +2711,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".follow-redirects+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__FOLLOW_REDIRECTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__FOLLOW_REDIRECTS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-multipart-post-encoder-mode]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-multipart-post-encoder-mode[`quarkus.rest-client.\"client\".multipart-post-encoder-mode`]##\n"
@@ -2624,8 +2738,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".multipart-post-encoder-mode+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__MULTIPART_POST_ENCODER_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__MULTIPART_POST_ENCODER_MODE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-proxy-address]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-proxy-address[`quarkus.rest-client.\"client\".proxy-address`]##\n"
@@ -2648,14 +2763,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".proxy-address+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A string value in the form of `:` that specifies the HTTP proxy server hostname (or IP address) and port for requests of this client to use."
-msgstr ""
+msgstr "Um valor de string no formato `:` que especifica o nome do servidor (ou endereço IP) e a porta do servidor proxy HTTP a serem utilizados pelas solicitações deste cliente."
 
+#, fuzzy
 msgid "Use `none` to disable proxy"
-msgstr ""
+msgstr "Utilize `“nenhum”` para desativar o proxy"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__PROXY_ADDRESS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__PROXY_ADDRESS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-proxy-user]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-proxy-user[`quarkus.rest-client.\"client\".proxy-user`]##\n"
@@ -2678,11 +2796,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".proxy-user+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Proxy username."
-msgstr ""
+msgstr "Nome de usuário do proxy."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__PROXY_USER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__PROXY_USER[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-proxy-password]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-proxy-password[`quarkus.rest-client.\"client\".proxy-password`]##\n"
@@ -2708,8 +2828,9 @@ msgstr ""
 msgid "Proxy password."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__PROXY_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__PROXY_PASSWORD[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-non-proxy-hosts]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-non-proxy-hosts[`quarkus.rest-client.\"client\".non-proxy-hosts`]##\n"
@@ -2735,8 +2856,9 @@ msgstr ""
 msgid "Hosts to access without proxy"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__NON_PROXY_HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__NON_PROXY_HOSTS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-query-param-style]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-query-param-style[`quarkus.rest-client.\"client\".query-param-style`]##\n"
@@ -2757,8 +2879,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".query-param-style+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__QUERY_PARAM_STYLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__QUERY_PARAM_STYLE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-verify-host]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-verify-host[`quarkus.rest-client.\"client\".verify-host`]##\n"
@@ -2779,8 +2902,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".verify-host+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__VERIFY_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__VERIFY_HOST[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-trust-store]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-trust-store[`quarkus.rest-client.\"client\".trust-store`]##\n"
@@ -2801,8 +2925,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".trust-store+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__TRUST_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__TRUST_STORE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-trust-store-password]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-trust-store-password[`quarkus.rest-client.\"client\".trust-store-password`]##\n"
@@ -2823,8 +2948,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".trust-store-password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__TRUST_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__TRUST_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-trust-store-type]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-trust-store-type[`quarkus.rest-client.\"client\".trust-store-type`]##\n"
@@ -2845,8 +2971,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".trust-store-type+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__TRUST_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__TRUST_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-key-store]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-key-store[`quarkus.rest-client.\"client\".key-store`]##\n"
@@ -2867,8 +2994,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".key-store+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__KEY_STORE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__KEY_STORE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-key-store-password]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-key-store-password[`quarkus.rest-client.\"client\".key-store-password`]##\n"
@@ -2889,8 +3017,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".key-store-password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__KEY_STORE_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__KEY_STORE_PASSWORD[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-key-store-type]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-key-store-type[`quarkus.rest-client.\"client\".key-store-type`]##\n"
@@ -2911,8 +3040,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".key-store-type+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__KEY_STORE_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__KEY_STORE_TYPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-hostname-verifier]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-hostname-verifier[`quarkus.rest-client.\"client\".hostname-verifier`]##\n"
@@ -2933,8 +3063,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".hostname-verifier+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__HOSTNAME_VERIFIER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__HOSTNAME_VERIFIER[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-tls-configuration-name]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-tls-configuration-name[`quarkus.rest-client.\"client\".tls-configuration-name`]##\n"
@@ -2963,8 +3094,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".tls-configuration-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__TLS_CONFIGURATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__TLS_CONFIGURATION_NAME[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-connection-ttl]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-connection-ttl[`quarkus.rest-client.\"client\".connection-ttl`]##\n"
@@ -2985,8 +3117,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".connection-ttl+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__CONNECTION_TTL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__CONNECTION_TTL[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-connection-pool-size]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-connection-pool-size[`quarkus.rest-client.\"client\".connection-pool-size`]##\n"
@@ -3007,8 +3140,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".connection-pool-size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__CONNECTION_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__CONNECTION_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-keep-alive-enabled]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-keep-alive-enabled[`quarkus.rest-client.\"client\".keep-alive-enabled`]##\n"
@@ -3029,8 +3163,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".keep-alive-enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__KEEP_ALIVE_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__KEEP_ALIVE_ENABLED[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-max-redirects]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-max-redirects[`quarkus.rest-client.\"client\".max-redirects`]##\n"
@@ -3053,8 +3188,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".max-redirects+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__MAX_REDIRECTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__MAX_REDIRECTS[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-headers-header-name]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-headers-header-name[`quarkus.rest-client.\"client\".headers.\"header-name\"`]##\n"
@@ -3077,8 +3213,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".headers.\"header-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__HEADERS__HEADER_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__HEADERS__HEADER_NAME_[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-shared]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-shared[`quarkus.rest-client.\"client\".shared`]##\n"
@@ -3101,11 +3238,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".shared+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set to true to share the HTTP client between REST clients. There can be multiple shared clients distinguished by _name_, when no specific name is set, the name `__vertx.DEFAULT` is used."
-msgstr ""
+msgstr "Defina como “true” para compartilhar o cliente HTTP entre clientes REST. Pode haver vários clientes compartilhados, diferenciados por _nome_ ; quando nenhum nome específico for definido, será utilizado o nome `__vertx.DEFAULT` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__SHARED[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-name]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-name[`quarkus.rest-client.\"client\".name`]##\n"
@@ -3128,11 +3267,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Set the HTTP client name, used when the client is shared, otherwise ignored."
-msgstr ""
+msgstr "Defina o nome do cliente HTTP, utilizado quando o cliente é compartilhado; caso contrário, esse parâmetro será ignorado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__NAME[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-user-agent]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-user-agent[`quarkus.rest-client.\"client\".user-agent`]##\n"
@@ -3155,11 +3296,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".user-agent+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Configure the HTTP user-agent header to use."
-msgstr ""
+msgstr "Configure o cabeçalho “user-agent” do HTTP a ser utilizado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__USER_AGENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__USER_AGENT[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-http2]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-http2[`quarkus.rest-client.\"client\".http2`]##\n"
@@ -3180,8 +3323,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".http2+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__HTTP2+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__HTTP2[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-max-chunk-size]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-max-chunk-size[`quarkus.rest-client.\"client\".max-chunk-size`]##\n"
@@ -3204,8 +3348,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".max-chunk-size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__MAX_CHUNK_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__MAX_CHUNK_SIZE[]"
 
 msgid "`8K`"
 msgstr ""
@@ -3229,8 +3374,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".alpn+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__ALPN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__ALPN[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-capture-stacktrace]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-capture-stacktrace[`quarkus.rest-client.\"client\".capture-stacktrace`]##\n"
@@ -3251,8 +3397,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".capture-stacktrace+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__CAPTURE_STACKTRACE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__CAPTURE_STACKTRACE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-disable-default-mapper]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-disable-default-mapper[`quarkus.rest-client.\"client\".disable-default-mapper`]##\n"
@@ -3276,8 +3423,9 @@ msgstr ""
 msgid "If set to `true`, then this REST Client will not the default exception mapper which always throws an exception if HTTP response code >= 400. This property is not applicable to the RESTEasy Client."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__DISABLE_DEFAULT_MAPPER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__DISABLE_DEFAULT_MAPPER[]"
 
 msgid "`${microprofile.rest.client.disable.default.mapper:false}`"
 msgstr ""
@@ -3309,8 +3457,9 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".logging.scope+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__LOGGING_SCOPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__LOGGING_SCOPE[]"
 
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-logging-body-limit]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-logging-body-limit[`quarkus.rest-client.\"client\".logging.body-limit`]##\n"
@@ -3335,14 +3484,18 @@ msgid ""
 "config_property_copy_button:+++quarkus.rest-client.\"client\".logging.body-limit+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REST_CLIENT__CLIENT__LOGGING_BODY_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REST_CLIENT__CLIENT__LOGGING_BODY_LIMIT[]"
 
+#, fuzzy
 msgid "About the MemorySize format"
-msgstr ""
+msgstr "Sobre o formato MemorySize"
 
+#, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr ""
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
+#, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr ""
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."

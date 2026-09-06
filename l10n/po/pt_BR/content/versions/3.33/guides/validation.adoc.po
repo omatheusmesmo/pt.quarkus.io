@@ -700,7 +700,7 @@ msgstr "[lock]  link:#quarkus-hibernate-validator_quarkus-hibernate-validator-me
 #. mt: deepl
 #, fuzzy
 msgid "Define whether overriding methods that override constraints should throw a `ConstraintDefinitionException`. The default value is `false`, i.e. do not allow."
-msgstr "Defina se os métodos de substituição que substituem restrições devem lançar uma `ConstraintDefinitionException` . O valor padrão é `false` , ou seja, não é permitido."
+msgstr "Defina se os métodos de sobrescrita que substituem restrições devem lançar uma `ConstraintDefinitionException` . O valor padrão é `false` , ou seja, não é permitido."
 
 #. mt: deepl
 #, fuzzy
@@ -710,7 +710,7 @@ msgstr "Consulte a Seção 4.5.5 da especificação da JSR 380, especificamente"
 #. mt: deepl
 #, fuzzy
 msgid "In sub types (be it sub classes/interfaces or interface implementations), no parameter constraints may be declared on overridden or implemented methods, nor may parameters be marked for cascaded validation. This would pose a strengthening of preconditions to be fulfilled by the caller."
-msgstr "Nos subtipos (sejam subclasses, interfaces ou implementações de interfaces), não é permitido declarar restrições de parâmetros em métodos sobrescritos ou implementados, nem marcar parâmetros para validação em cascata. Isso representaria um endurecimento das pré-condições a serem cumpridas pelo chamador."
+msgstr "Nos subtipos (sejam subclasses, interfaces ou implementações de interfaces), não é permitido declarar restrições de parâmetros em métodos sobrescritos ou implementados, nem marcar parâmetros para validação em cascata. Isso representaria um reforço das pré-condições a serem cumpridas pelo chamador."
 
 #. mt: deepl
 #, fuzzy
@@ -755,7 +755,7 @@ msgstr "Defina se os métodos paralelos que definem restrições devem lançar u
 #. mt: deepl
 #, fuzzy
 msgid "If a sub type overrides/implements a method originally defined in several parallel types of the hierarchy (e.g. two interfaces not extending each other, or a class and an interface not implemented by said class), no parameter constraints may be declared for that method at all nor parameters be marked for cascaded validation. This again is to avoid an unexpected strengthening of preconditions to be fulfilled by the caller."
-msgstr "Caso um subtipo substitua ou implemente um método originalmente definido em vários tipos paralelos da hierarquia (por exemplo, duas interfaces que não se estendem mutuamente, ou uma classe e uma interface não implementada por essa classe), não poderão ser declaradas quaisquer restrições de parâmetros para esse método, nem os parâmetros poderão ser marcados para validação em cascata. Isso, mais uma vez, visa evitar um endurecimento inesperado das pré-condições a serem cumpridas pelo chamador."
+msgstr "Caso um subtipo substitua ou implemente um método originalmente definido em vários tipos paralelos da hierarquia (por exemplo, duas interfaces que não se estendem uma à outra, ou uma classe e uma interface não implementada por essa classe), não é permitido declarar restrições de parâmetros para esse método, nem marcar parâmetros para validação em cascata. Isso, mais uma vez, visa evitar um endurecimento inesperado das pré-condições a serem cumpridas pelo chamador."
 
 #. mt: deepl
 #, fuzzy
@@ -800,7 +800,7 @@ msgstr "Defina se é permitido que mais de uma restrição sobre um valor de ret
 #. mt: deepl
 #, fuzzy
 msgid "One must not mark a method return value for cascaded validation more than once in a line of a class hierarchy. In other words, overriding methods on sub types (be it sub classes/interfaces or interface implementations) cannot mark the return value for cascaded validation if the return value has already been marked on the overridden method of the super type or interface."
-msgstr "Não se deve marcar o valor de retorno de um método para validação em cascata mais de uma vez em uma linha da hierarquia de classes. Em outras palavras, métodos sobrescritos em subtipos (sejam subclasses/interfaces ou implementações de interface) não podem marcar o valor de retorno para validação em cascata se esse valor já tiver sido marcado no método sobrescrito do supertipo ou da interface."
+msgstr "Não se deve marcar o valor de retorno de um método para validação em cascata mais de uma vez em uma linha da hierarquia de classes. Em outras palavras, métodos sobrescritos em subtipos (sejam subclasses, interfaces ou implementações de interface) não podem marcar o valor de retorno para validação em cascata se esse valor já tiver sido marcado no método sobrescrito do supertipo ou da interface."
 
 #. mt: deepl
 #, fuzzy

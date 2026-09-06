@@ -717,7 +717,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if a Keycloak-X image is used. By default, the image is identified by `keycloak-x` in the image name. For custom images, override with `quarkus.keycloak.devservices.keycloak-x-image`. You do not need to set this property if the default check works."
-msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem é identificada pela `expressão “keycloak-x”` no nome da imagem. Para imagens personalizadas, substitua essa configuração por `quarkus.keycloak.devservices.keycloak-x-image` . Não é necessário definir essa propriedade se a verificação padrão funcionar corretamente."
+msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem é identificada pela `string “keycloak-x”` no nome da imagem. Para imagens personalizadas, substitua por `quarkus.keycloak.devservices.keycloak-x-image` . Não é necessário definir essa propriedade se a verificação padrão funcionar."
 
 #. mt: deepl
 #, fuzzy
@@ -1073,7 +1073,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "The name of the Keycloak realm. This property is used to create the realm if the realm file pointed to by the `realm-path` property does not exist. The default value is `quarkus` in this case. It is recommended to always set this property so that Dev Services for Keycloak can identify the realm name without parsing the realm file."
-msgstr "O nome do reino do Keycloak. Essa propriedade é utilizada para criar o reino caso o arquivo de reino indicado pela propriedade `realm-path` não exista. O valor padrão, nesse caso, é `quarkus` . Recomenda-se definir sempre essa propriedade para que o Dev Services for Keycloak possa identificar o nome do reino sem precisar analisar o arquivo de reino."
+msgstr "O nome do reino do Keycloak. Essa propriedade é utilizada para criar o reino caso o arquivo de reino indicado pela propriedade ``realm-path`` não exista. O valor padrão, nesse caso, é ``quarkus`` . Recomenda-se definir sempre essa propriedade para que o Dev Services for Keycloak possa identificar o nome do reino sem precisar analisar o arquivo de reino."
 
 #. mt: deepl
 #, fuzzy
@@ -1139,7 +1139,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Specifies whether to create the default client id `quarkus-app` with a secret `secret` and register them if the `create-realm` property is set to true. For OIDC extension configuration properties `quarkus.oidc.client.id` and `quarkus.oidc.credentials.secret` will be configured. For OIDC Client extension configuration properties `quarkus.oidc-client.client.id` and `quarkus.oidc-client.credentials.secret` will be configured. Set to `false` if clients have to be created using either the Keycloak Administration Console or the Keycloak Admin API provided by `io.quarkus.test.common.QuarkusTestResourceLifecycleManager` or registered dynamically."
-msgstr "Especifica se deve criar o ID de cliente padrão ``quarkus-app` ` com o segredo ``secret`` e registrá-los caso a propriedade ``create-realm` ` esteja definida como `true`. Para as propriedades de configuração da extensão OIDC, serão configuradas as propriedades `quarkus.oidc.client.id` e `quarkus.oidc.credentials.secret` . Para as propriedades de configuração da extensão OIDC Client, serão configuradas as propriedades `quarkus.oidc-client.client.id` e `quarkus.oidc-client.credentials.secret` . Defina como ``false`` se os clientes precisarem ser criados por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `, ou se forem registrados dinamicamente."
+msgstr "Especifica se deve criar o ID de cliente padrão ``quarkus-app` ` com um segredo ``secret`` e registrá-los, caso a propriedade ``create-realm` ` esteja definida como `true`. Para as propriedades de configuração da extensão OIDC, serão configuradas `quarkus.oidc.client.id` e `quarkus.oidc.credentials.secret` . Para as propriedades de configuração da extensão OIDC Client, serão configuradas `quarkus.oidc-client.client.id` e `quarkus.oidc-client.credentials.secret` . Defina como `“false”` se os clientes precisarem ser criados por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `, ou se forem registrados dinamicamente."
 
 #. mt: deepl
 #, fuzzy
@@ -1238,7 +1238,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "A map of roles for Keycloak users. If empty, default roles are assigned: `alice` receives `admin` and `user` roles, while other users receive `user` role. This map is used for role creation when no realm file is found at the `realm-path`."
-msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, serão atribuídas as funções padrão: `a alice` recebe as funções `de administrador` e `usuário` , enquanto os demais usuários recebem a função `de usuário` . Esse mapa é utilizado para a criação de funções quando não é encontrado nenhum arquivo de reino no `caminho do reino` ."
+msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, são atribuídas funções padrão: `a alice` recebe as funções `de administrador` e `usuário` , enquanto os demais usuários recebem a função `de usuário` . Esse mapa é utilizado para a criação de funções quando não é encontrado nenhum arquivo de reino no `caminho do reino` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1283,7 +1283,7 @@ msgstr "A porta específica na qual o serviço de desenvolvimento deve ficar à 
 #. mt: deepl
 #, fuzzy
 msgid "If not specified, a random port is selected."
-msgstr "Caso não seja especificado, será selecionada uma porta aleatória."
+msgstr "Caso não seja especificado, é selecionada uma porta aleatória."
 
 #. mt: deepl
 #, fuzzy
@@ -1319,7 +1319,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Environment variables to be passed to the container."
-msgstr "Variáveis de ambiente a serem passadas para o contêiner."
+msgstr "Variáveis de ambiente a serem passadas ao contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -1402,7 +1402,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "The WebClient timeout. Use this property to configure how long an HTTP client used by OIDC dev service admin client will wait for a response from OpenId Connect Provider when acquiring admin token and creating realm."
-msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelo cliente de administração do serviço de desenvolvimento OIDC aguardará uma resposta do Provedor OpenID Connect ao adquirir um token de administração e criar um reino."
+msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelo cliente de administração do serviço de desenvolvimento OIDC aguardará uma resposta do Provedor OpenID Connect ao adquirir um token de administração e ao criar um reino."
 
 #. mt: deepl
 #, fuzzy
@@ -1445,7 +1445,7 @@ msgstr "[lock]  link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-
 #. mt: deepl
 #, fuzzy
 msgid "Specifies whether to disable HTTPS on the master realm by setting `sslRequired=NONE`. This is useful when the Keycloak container is started without HTTPS support and the master realm's default SSL requirement prevents HTTP access."
-msgstr "Especifica se o HTTPS deve ser desativado no reino mestre, definindo `sslRequired=NONE` . Isso é útil quando o contêiner do Keycloak é iniciado sem suporte a HTTPS e a exigência padrão de SSL do reino mestre impede o acesso por HTTP."
+msgstr "Especifica se o HTTPS deve ser desativado no reino mestre, definindo `sslRequired=NONE` . Isso é útil quando o contêiner do Keycloak é iniciado sem suporte a HTTPS e a exigência padrão de SSL do reino mestre impede o acesso via HTTP."
 
 #. mt: deepl
 #, fuzzy
@@ -1462,7 +1462,7 @@ msgstr "Sobre o formato de duração"
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte a link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[documentação da API Java sobre Duration#parse()] para obter mais informações."
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -1490,12 +1490,12 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."
 
 msgid "References"
 msgstr "Referências"

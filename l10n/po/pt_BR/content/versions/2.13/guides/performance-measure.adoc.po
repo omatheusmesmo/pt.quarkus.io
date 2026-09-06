@@ -288,8 +288,9 @@ msgid ""
 " `-H:InitialCollectionPolicy=com.oracle.svm.core.genscavenge.CollectionPolicy$BySpaceAndTime`."
 msgstr "O Quarkus tem como padrão os aplicativos de servidor, portanto, mudamos para um padrão melhor definindo `-H:InitialCollectionPolicy=com.oracle.svm.core.genscavenge.CollectionPolicy$BySpaceAndTime` ."
 
+#, fuzzy
 msgid "Others &#8230;&#8203;"
-msgstr ""
+msgstr "Outros …​"
 
 #, fuzzy
 msgid ""

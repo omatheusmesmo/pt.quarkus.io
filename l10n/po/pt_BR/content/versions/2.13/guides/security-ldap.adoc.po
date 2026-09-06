@@ -183,8 +183,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_configuration]]link:#quarkus-elytron-security-ldap_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-elytron-security-ldap_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -192,6 +193,7 @@ msgstr "Tipo"
 msgid "Default"
 msgstr "Padrão"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elytron-security-ldap_quarkus.security.ldap.enabled]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.enabled[quarkus.security.ldap.enabled]`\n"
 "\n"
@@ -201,19 +203,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_ENABLED+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-elytron-security-ldap_quarkus.security.ldap.enabled[quarkus.security.ldap.enabled]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elytron-security-ldap_quarkus.security.ldap.enabled]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.enabled[quarkus.security.ldap.enabled]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-elytron-security-ldap_quarkus.security.ldap.enabled[quarkus.security.ldap.enabled]`"
 
+#, fuzzy
 msgid "The option to enable the ldap elytron module"
-msgstr ""
+msgstr "A opção para habilitar o módulo ldap do Elytron"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -222,6 +228,7 @@ msgstr "booleano"
 msgid "`false`"
 msgstr "`false`"
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-elytron-security-ldap_quarkus.security.ldap.realm-name]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.realm-name[quarkus.security.ldap.realm-name]`\n"
 "\n"
@@ -231,23 +238,28 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_REALM_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "[lock] `link:#quarkus-elytron-security-ldap_quarkus.security.ldap.realm-name[quarkus.security.ldap.realm-name]`"
 
+#, fuzzy
 msgid "icon:lock[title=Fixed at build time] [[quarkus-elytron-security-ldap_quarkus.security.ldap.realm-name]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.realm-name[quarkus.security.ldap.realm-name]`"
-msgstr ""
+msgstr "[lock] `link:#quarkus-elytron-security-ldap_quarkus.security.ldap.realm-name[quarkus.security.ldap.realm-name]`"
 
+#, fuzzy
 msgid "The elytron realm name"
-msgstr ""
+msgstr "O nome do reino de Elytron"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_REALM_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_REALM_NAME[]"
 
 msgid "string"
 msgstr "string"
 
+#, fuzzy
 msgid "`Quarkus`"
-msgstr ""
+msgstr "`Quarkus`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.direct-verification]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.direct-verification[quarkus.security.ldap.direct-verification]`\n"
 "\n"
@@ -257,20 +269,24 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIRECT_VERIFICATION+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.direct-verification[quarkus.security.ldap.verificação-direta]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.direct-verification]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.direct-verification[quarkus.security.ldap.direct-verification]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.direct-verification[quarkus.security.ldap.verificação-direta]`"
 
+#, fuzzy
 msgid "Provided credentials are verified against ldap?"
-msgstr ""
+msgstr "As credenciais fornecidas são verificadas no LDAP?"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIRECT_VERIFICATION+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIRECT_VERIFICATION[]"
 
 msgid "`true`"
 msgstr "`true`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.url]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.url[quarkus.security.ldap.dir-context.url]`\n"
 "\n"
@@ -280,20 +296,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_URL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.url[quarkus.security.ldap.dir-context.url]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.url]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.url[quarkus.security.ldap.dir-context.url]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.url[quarkus.security.ldap.dir-context.url]`"
 
+#, fuzzy
 msgid "The url of the ldap server"
-msgstr ""
+msgstr "A URL do servidor LDAP"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_URL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIR_CONTEXT_URL[]"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.principal]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.principal[quarkus.security.ldap.dir-context.principal]`\n"
 "\n"
@@ -303,17 +324,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_PRINCIPAL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.principal[quarkus.security.ldap.dir-context.principal]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.principal]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.principal[quarkus.security.ldap.dir-context.principal]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.principal[quarkus.security.ldap.dir-context.principal]`"
 
+#, fuzzy
 msgid "The principal: user which is used to connect to ldap server (also named \"bindDn\")"
-msgstr ""
+msgstr "O principal: usuário utilizado para se conectar ao servidor LDAP (também denominado “bindDn”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_PRINCIPAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIR_CONTEXT_PRINCIPAL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.password]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.password[quarkus.security.ldap.dir-context.password]`\n"
 "\n"
@@ -323,17 +348,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_PASSWORD+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.password[quarkus.security.ldap.dir-context.password]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.password]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.password[quarkus.security.ldap.dir-context.password]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.password[quarkus.security.ldap.dir-context.password]`"
 
+#, fuzzy
 msgid "The password which belongs to the principal (also named \"bindCredential\")"
-msgstr ""
+msgstr "A senha pertencente ao principal (também denominada “bindCredential”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIR_CONTEXT_PASSWORD[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.referral-mode]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.referral-mode[quarkus.security.ldap.dir-context.referral-mode]`\n"
 "\n"
@@ -343,24 +372,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_REFERRAL_MODE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.referral-mode[quarkus.security.ldap.dir-context.referral-mode]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.referral-mode]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.referral-mode[quarkus.security.ldap.dir-context.referral-mode]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.referral-mode[quarkus.security.ldap.dir-context.referral-mode]`"
 
+#, fuzzy
 msgid "how ldap redirects are handled"
-msgstr ""
+msgstr "como os redirecionamentos do LDAP são tratados"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_REFERRAL_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIR_CONTEXT_REFERRAL_MODE[]"
 
+#, fuzzy
 msgid "`ignore`, `follow`, `throw`"
-msgstr ""
+msgstr "`ignorar` , `seguir` , `jogar fora`"
 
 #, fuzzy
 msgid "`ignore`"
 msgstr "`ignorar`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.connect-timeout]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.connect-timeout[quarkus.security.ldap.dir-context.connect-timeout]`\n"
 "\n"
@@ -370,25 +404,30 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_CONNECT_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.connect-timeout[quarkus.security.ldap.dir-context.connect-timeout]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.connect-timeout]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.connect-timeout[quarkus.security.ldap.dir-context.connect-timeout]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.connect-timeout[quarkus.security.ldap.dir-context.connect-timeout]`"
 
+#, fuzzy
 msgid "The connect timeout"
-msgstr ""
+msgstr "O tempo limite de conexão"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIR_CONTEXT_CONNECT_TIMEOUT[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
 msgstr ""
 
+#, fuzzy
 msgid "`5S`"
-msgstr ""
+msgstr "`5S`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.read-timeout]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.read-timeout[quarkus.security.ldap.dir-context.read-timeout]`\n"
 "\n"
@@ -398,20 +437,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_READ_TIMEOUT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.read-timeout[quarkus.security.ldap.dir-context.read-timeout]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.read-timeout]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.read-timeout[quarkus.security.ldap.dir-context.read-timeout]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.dir-context.read-timeout[quarkus.security.ldap.dir-context.read-timeout]`"
 
+#, fuzzy
 msgid "The read timeout"
-msgstr ""
+msgstr "O tempo limite de leitura"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_DIR_CONTEXT_READ_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_DIR_CONTEXT_READ_TIMEOUT[]"
 
+#, fuzzy
 msgid "`60S`"
-msgstr ""
+msgstr "`anos 60`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.rdn-identifier]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.rdn-identifier[quarkus.security.ldap.identity-mapping.rdn-identifier]`\n"
 "\n"
@@ -421,20 +465,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_RDN_IDENTIFIER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.rdn-identifier[quarkus.security.ldap.identity-mapping.rdn-identifier]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.rdn-identifier]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.rdn-identifier[quarkus.security.ldap.identity-mapping.rdn-identifier]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.rdn-identifier[quarkus.security.ldap.identity-mapping.rdn-identifier]`"
 
+#, fuzzy
 msgid "The identifier which correlates to the provided user (also named \"baseFilter\")"
-msgstr ""
+msgstr "O identificador que corresponde ao usuário fornecido (também denominado “baseFilter”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_RDN_IDENTIFIER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_RDN_IDENTIFIER[]"
 
+#, fuzzy
 msgid "`uid`"
-msgstr ""
+msgstr "`uid`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-base-dn]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-base-dn[quarkus.security.ldap.identity-mapping.search-base-dn]`\n"
 "\n"
@@ -444,17 +493,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_SEARCH_BASE_DN+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-base-dn[quarkus.security.ldap.identity-mapping.search-base-dn]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-base-dn]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-base-dn[quarkus.security.ldap.identity-mapping.search-base-dn]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-base-dn[quarkus.security.ldap.identity-mapping.search-base-dn]`"
 
+#, fuzzy
 msgid "The dn where we look for users"
-msgstr ""
+msgstr "O domínio no qual procuramos usuários"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_SEARCH_BASE_DN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_SEARCH_BASE_DN[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-recursive]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-recursive[quarkus.security.ldap.identity-mapping.search-recursive]`\n"
 "\n"
@@ -464,17 +517,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_SEARCH_RECURSIVE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-recursive[quarkus.security.ldap.identity-mapping.search-recursive]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-recursive]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-recursive[quarkus.security.ldap.identity-mapping.search-recursive]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.search-recursive[quarkus.security.ldap.identity-mapping.search-recursive]`"
 
+#, fuzzy
 msgid "If the child nodes are also searched for identities"
-msgstr ""
+msgstr "Se os nós filhos também forem pesquisados em busca de identidades"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_SEARCH_RECURSIVE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_SEARCH_RECURSIVE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.from]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.from[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".from]`\n"
 "\n"
@@ -484,17 +541,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FROM+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.from[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".from]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.from]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.from[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".from]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.from[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".from]`"
 
+#, fuzzy
 msgid "The roleAttributeId from which is mapped (e.g. \"cn\")"
-msgstr ""
+msgstr "O roleAttributeId a partir do qual é feito o mapeamento (por exemplo, “cn”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FROM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FROM[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.to]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.to[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".to]`\n"
 "\n"
@@ -504,20 +565,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.to[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".to]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.to]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.to[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".to]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.to[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".to]`"
 
+#, fuzzy
 msgid "The identifier whom the attribute is mapped to (in Quarkus: \"groups\", in WildFly this is \"Roles\")"
-msgstr ""
+msgstr "O identificador ao qual o atributo está mapeado (no Quarkus: “grupos”; no WildFly, trata-se de “Funções”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__TO[]"
 
+#, fuzzy
 msgid "`groups`"
-msgstr ""
+msgstr "`grupos`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter]`\n"
 "\n"
@@ -527,17 +593,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter]`"
 
+#, fuzzy
 msgid "The filter (also named \"roleFilter\")"
-msgstr ""
+msgstr "O filtro (também denominado “roleFilter”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter-base-dn]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter-base-dn[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter-base-dn]`\n"
 "\n"
@@ -547,19 +617,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FILTER_BASE_DN+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter-base-dn[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter-base-dn]`"
 
+#, fuzzy
 msgid "[[quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter-base-dn]]`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter-base-dn[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter-base-dn]`"
-msgstr ""
+msgstr "`link:#quarkus-elytron-security-ldap_quarkus.security.ldap.identity-mapping.attribute-mappings.-attribute-mappings-.filter-base-dn[quarkus.security.ldap.identity-mapping.attribute-mappings.\"attribute-mappings\".filter-base-dn]`"
 
+#, fuzzy
 msgid "The filter base dn (also named \"rolesContextDn\")"
-msgstr ""
+msgstr "A base do filtro dn (também denominada “rolesContextDn”)"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FILTER_BASE_DN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_SECURITY_LDAP_IDENTITY_MAPPING_ATTRIBUTE_MAPPINGS__ATTRIBUTE_MAPPINGS__FILTER_BASE_DN[]"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

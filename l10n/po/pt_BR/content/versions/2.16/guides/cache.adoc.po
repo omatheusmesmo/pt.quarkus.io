@@ -636,7 +636,7 @@ msgstr "`link:#quarkus-cache-config-group-cache-config-caffeine-config_quarkus.c
 #. mt: deepl
 #, fuzzy
 msgid "Maximum number of entries the cache may contain. Note that the cache *may evict an entry before this limit is exceeded or temporarily exceed the threshold while evicting*. As the cache size grows close to the maximum, the cache evicts entries that are less likely to be used again. For example, the cache may evict an entry because it hasn't been used recently or very often."
-msgstr "Número máximo de entradas que o cache pode conter. Observe que o cache *pode remover uma entrada antes que esse limite seja excedido ou exceder temporariamente o limite durante a remoção* . À medida que o tamanho do cache se aproxima do máximo, o cache remove as entradas que têm menor probabilidade de serem utilizadas novamente. Por exemplo, o cache pode remover uma entrada porque ela não foi utilizada recentemente ou com muita frequência."
+msgstr "Número máximo de entradas que o cache pode conter. Observe que o cache *pode remover uma entrada antes que esse limite seja excedido ou exceder temporariamente o limite durante a remoção* . À medida que o tamanho do cache se aproxima do máximo, o cache remove as entradas com menor probabilidade de serem utilizadas novamente. Por exemplo, o cache pode remover uma entrada porque ela não foi utilizada recentemente ou com muita frequência."
 
 #. mt: deepl
 #, fuzzy
@@ -667,7 +667,7 @@ msgstr "`link:#quarkus-cache-config-group-cache-config-caffeine-config_quarkus.c
 #. mt: deepl
 #, fuzzy
 msgid "Specifies that each entry should be automatically removed from the cache once a fixed duration has elapsed after the entry's creation, or the most recent replacement of its value."
-msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a substituição mais recente de seu valor."
+msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a última atualização de seu valor."
 
 #. mt: deepl
 #, fuzzy

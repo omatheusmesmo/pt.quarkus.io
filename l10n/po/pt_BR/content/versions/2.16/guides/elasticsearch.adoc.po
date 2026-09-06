@@ -456,7 +456,7 @@ msgstr "`link:#quarkus-elasticsearch-restclient-lowlevel_quarkus.elasticsearch.h
 #. mt: deepl
 #, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr "A lista de hosts dos servidores do Elasticsearch."
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
 #. mt: deepl
 #, fuzzy

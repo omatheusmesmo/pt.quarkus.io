@@ -916,7 +916,7 @@ msgstr "[lock] `link:#quarkus-smallrye-openapi_quarkus.smallrye-openapi.jwt-bear
 #. mt: deepl
 #, fuzzy
 msgid "Add a bearer format the JWT Security Scheme"
-msgstr "Adicione um formato de portador ao esquema de segurança JWT"
+msgstr "Adicione um formato de portador ao Esquema de Segurança JWT"
 
 #. mt: deepl
 #, fuzzy
@@ -1010,7 +1010,7 @@ msgstr "[lock] `link:#quarkus-smallrye-openapi_quarkus.smallrye-openapi.oidc-ope
 #. mt: deepl
 #, fuzzy
 msgid "Add a openIdConnectUrl value to the OIDC Security Scheme"
-msgstr "Adicione um valor para “openIdConnectUrl” ao Esquema de Segurança OIDC"
+msgstr "Adicione um valor para `openIdConnectUrl` ao Esquema de Segurança OIDC"
 
 #. mt: deepl
 #, fuzzy
@@ -1262,7 +1262,7 @@ msgstr "[lock] `link:#quarkus-smallrye-openapi_quarkus.smallrye-openapi.info-con
 #. mt: deepl
 #, fuzzy
 msgid "Set the contact email in Info tag in the Schema document"
-msgstr "Defina o e-mail de contato na tag “Info” do documento de esquema"
+msgstr "Defina o e-mail de contato na tag “Info” no documento do esquema"
 
 #. mt: deepl
 #, fuzzy
@@ -1717,7 +1717,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.display-operation-id[
 #. mt: deepl
 #, fuzzy
 msgid "Controls the display of operationId in operations list. The default is false."
-msgstr "Controla a exibição do operationId na lista de operações. O valor padrão é false."
+msgstr "Controla a exibição do `operationId` na lista de operações. O valor padrão é `false`."
 
 #. mt: deepl
 #, fuzzy
@@ -1776,7 +1776,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.default-model-expand-
 #. mt: deepl
 #, fuzzy
 msgid "The default expansion depth for the model on the model-example section."
-msgstr "A profundidade de expansão padrão para o modelo na seção “exemplo de modelo”."
+msgstr "A profundidade de expansão padrão para o modelo na seção de exemplos de modelos."
 
 #. mt: deepl
 #, fuzzy
@@ -1832,7 +1832,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.display-request-durat
 #. mt: deepl
 #, fuzzy
 msgid "Controls the display of the request duration (in milliseconds) for \"Try it out\" requests."
-msgstr "Controla a exibição da duração da solicitação (em milissegundos) para solicitações do tipo “Experimente”."
+msgstr "Controla a exibição da duração da solicitação (em milissegundos) para as solicitações do tipo “Experimente”."
 
 #. mt: deepl
 #, fuzzy
@@ -1949,7 +1949,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.operations-sorter[qua
 #. mt: deepl
 #, fuzzy
 msgid "Apply a sort to the operation list of each API. It can be 'alpha' (sort by paths alphanumerically), 'method' (sort by HTTP method) or a function (see Array.prototype.sort() to know how sort function works). Default is the order returned by the server unchanged."
-msgstr "Aplique uma ordenação à lista de operações de cada API. Pode ser “alpha” (ordenar os caminhos em ordem alfanumérica), “method” (ordenar por método HTTP) ou uma função (consulte Array.prototype.sort() para saber como funciona a função de ordenação). O padrão é a ordem retornada pelo servidor, sem alterações."
+msgstr "Aplique uma ordenação à lista de operações de cada API. Pode ser “alpha” (ordenar os caminhos em ordem alfanumérica), “method” (ordenar por método HTTP) ou uma função (consulte Array.prototype.sort() para saber como a função de ordenação funciona). O padrão é a ordem retornada pelo servidor, sem alterações."
 
 #. mt: deepl
 #, fuzzy
@@ -2257,7 +2257,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.supported-submit-meth
 #. mt: deepl
 #, fuzzy
 msgid "List of HTTP methods that have the \"Try it out\" feature enabled. An empty array disables \"Try it out\" for all operations. This does not filter the operations from the display."
-msgstr "Lista de métodos HTTP que têm o recurso “Experimente” ativado. Um array vazio desativa o recurso “Experimente” para todas as operações. Isso não filtra as operações exibidas."
+msgstr "Lista de métodos HTTP nos quais o recurso “Experimente” está ativado. Um array vazio desativa o recurso “Experimente” para todas as operações. Isso não filtra as operações exibidas."
 
 #. mt: deepl
 #, fuzzy
@@ -2346,7 +2346,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.model-property-macro[
 #. mt: deepl
 #, fuzzy
 msgid "Function to set default values to each property in model. Accepts one argument modelPropertyMacro(property), property is immutable"
-msgstr "Função para definir valores padrão para cada propriedade do modelo. Aceita um argumento: `modelPropertyMacro(property)`, sendo que `property` é imutável"
+msgstr "Função para definir valores padrão para cada propriedade do modelo. Aceita um argumento: modelPropertyMacro(property), sendo que property é imutável"
 
 #. mt: deepl
 #, fuzzy
@@ -2458,7 +2458,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.plugins[quarkus.swagg
 #. mt: deepl
 #, fuzzy
 msgid "A list of plugin functions to use in Swagger UI."
-msgstr "Uma lista de funções de plug-ins para uso no Swagger UI."
+msgstr "Uma lista de funções de plug-ins a serem utilizadas no Swagger UI."
 
 #. mt: deepl
 #, fuzzy
@@ -2626,7 +2626,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.oauth-scope-separator
 #. mt: deepl
 #, fuzzy
 msgid "OAuth scope separator for passing scopes - Used in the initOAuth method."
-msgstr "Separador de escopos OAuth para passar escopos — Utilizado no método initOAuth."
+msgstr "Separador de escopos OAuth para a transmissão de escopos — Utilizado no método initOAuth."
 
 #. mt: deepl
 #, fuzzy
@@ -2766,7 +2766,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.preauthorize-basic-au
 #. mt: deepl
 #, fuzzy
 msgid "Pre-authorize Basic Auth, programmatically set DefinitionKey for a Basic authorization scheme - Used in the preauthorizeBasic method."
-msgstr "Pré-autorizar a autenticação básica, definir programaticamente a DefinitionKey para um esquema de autorização básica — Utilizado no método preauthorizeBasic."
+msgstr "Pré-autorizar a autenticação básica, definir programaticamente o parâmetro `DefinitionKey` para um esquema de autorização básica — Utilizado no método `preauthorizeBasic`."
 
 #. mt: deepl
 #, fuzzy
@@ -2878,7 +2878,7 @@ msgstr "[lock] `link:#quarkus-swaggerui_quarkus.swagger-ui.preauthorize-api-key-
 #. mt: deepl
 #, fuzzy
 msgid "Pre-authorize ApiKey Auth, programmatically set ApiKeyValue for an API key or Bearer authorization scheme - Used in the preauthorizeApiKey method."
-msgstr "Pré-autorizar a autenticação por ApiKey, definir programaticamente o ApiKeyValue para uma chave de API ou esquema de autorização Bearer — Utilizado no método preauthorizeApiKey."
+msgstr "Pré-autorizar a autenticação por ApiKey; definir programaticamente o ApiKeyValue para uma chave de API ou para o esquema de autorização Bearer — Utilizado no método preauthorizeApiKey."
 
 #. mt: deepl
 #, fuzzy

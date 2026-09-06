@@ -878,7 +878,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-key-store-p12-path[quarkus.tls.k
 #. mt: deepl
 #, fuzzy
 msgid "Path to the key store file (P12 / PFX format)."
-msgstr "Caminho para o arquivo do armazenamento de chaves (formato P12/PFX)."
+msgstr "Caminho para o arquivo do armazenamento de chaves (formato P12 / PFX)."
 
 #. mt: deepl
 #, fuzzy
@@ -984,7 +984,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password[qua
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password[`+++quarkus.tls.key-store.p12.alias-password+++`]##\n"
 "config_property_copy_button:+++quarkus.tls.key-store.p12.alias-password+++[]"
-msgstr " link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password[quarkus.tls.key-store.p12.alias-password] config_property_copy_button:quarkus.tls.key-store.p12.alias-password[]"
+msgstr " link:#quarkus-tls-registry_quarkus-tls-key-store-p12-alias-password[quarkus.tls.key-store.p12.alias-password] botão_para_copiar_propriedade_de_configuração:quarkus.tls.key-store.p12.alias-password[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1474,7 +1474,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-trust-store-pem-cert-dirs[quarku
 #. mt: deepl
 #, fuzzy
 msgid "List of the directories with the trusted certificates (Pem format). The configured directory can be empty. Any file in the configured directories will be treated as a trusted certificate in the Pem format."
-msgstr "Lista dos diretórios que contêm os certificados confiáveis (formato PEM). O diretório configurado pode estar vazio. Qualquer arquivo nos diretórios configurados será tratado como um certificado confiável no formato PEM."
+msgstr "Lista dos diretórios que contêm os certificados confiáveis (formato PEM). O diretório configurado pode estar vazio. Qualquer arquivo presente nos diretórios configurados será considerado um certificado confiável no formato PEM."
 
 #. mt: deepl
 #, fuzzy
@@ -1606,7 +1606,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-trust-store-p12-provider[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "Provider of the trust store."
-msgstr "Provedor do armazenamento de certificações."
+msgstr "Provedor do armazenamento de certificações confiáveis."
 
 #. mt: deepl
 #, fuzzy
@@ -1908,7 +1908,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-cipher-suites[quarkus.tls.cipher
 #. mt: deepl
 #, fuzzy
 msgid "Sets the ordered list of enabled cipher suites. If none is given, a reasonable default is selected from the built-in ciphers."
-msgstr "Define a lista ordenada de conjuntos de criptografia habilitados. Caso não seja especificado nenhum, é selecionado um padrão razoável entre as criptografias integradas."
+msgstr "Define a lista ordenada de conjuntos de criptografia habilitados. Caso não seja especificado nenhum, um padrão adequado é selecionado entre os conjuntos de criptografia integrados."
 
 #. mt: deepl
 #, fuzzy
@@ -1955,7 +1955,7 @@ msgstr "Define a lista ordenada de protocolos TLS habilitados."
 #. mt: deepl
 #, fuzzy
 msgid "If not set, it defaults to `\"TLSv1.3\"`. The following list of protocols are supported: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3`. To enable `TLSv1.3` and `TLSv1.2`, set the value to `to \"TLSv1.3, TLSv1.2\"`."
-msgstr "Caso não seja definido, o valor padrão é `“TLSv1.3` ”. A lista a seguir de protocolos é suportada: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3` . Para habilitar `o TLSv1.3` e `o TLSv1.2` , defina o valor `como “TLSv1.3, TLSv1.2”.`"
+msgstr "Caso não seja definido, o valor padrão é `“TLSv1.3` ”. A lista a seguir de protocolos é compatível: `TLSv1, TLSv1.1, TLSv1.2, TLSv1.3` . Para habilitar `o TLSv1.3` e `o TLSv1.2` , defina o valor `como “TLSv1.3, TLSv1.2”.`"
 
 #. mt: deepl
 #, fuzzy
@@ -2179,7 +2179,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm[
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm[`+++quarkus.tls.hostname-verification-algorithm+++`]##\n"
 "config_property_copy_button:+++quarkus.tls.hostname-verification-algorithm+++[]"
-msgstr " link:#quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm[quarkus.tls.hostname-verification-algorithm] config_property_copy_button:quarkus.tls.hostname-verification-algorithm[]"
+msgstr " link:#quarkus-tls-registry_quarkus-tls-hostname-verification-algorithm[quarkus.tls.hostname-verification-algorithm] botão_para_copiar_propriedade_de_configuração:quarkus.tls.hostname-verification-algorithm[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2189,7 +2189,7 @@ msgstr "O algoritmo de verificação do nome do host a ser utilizado caso seja n
 #. mt: deepl
 #, fuzzy
 msgid "If set to `NONE`, it does not verify the hostname."
-msgstr "Se configurado como `NONE` , o nome do host não será verificado."
+msgstr "Se estiver definido como `NONE` , o nome do host não será verificado."
 
 #. mt: deepl
 #, fuzzy
@@ -2594,7 +2594,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-pr
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider[`+++quarkus.tls.\"tls-bucket-name\".key-store.p12.provider+++`]##\n"
 "config_property_copy_button:+++quarkus.tls.\"tls-bucket-name\".key-store.p12.provider+++[]"
-msgstr " link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider[quarkus.tls.\"tls-bucket-name\".key-store.p12.provider] config_property_copy_button:quarkus.tls.\"tls-bucket-name\".key-store.p12.provider[]"
+msgstr " link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-key-store-p12-provider[quarkus.tls.\"nome-do-bucket-tls\".key-store.p12.provider] config_property_copy_button:quarkus.tls.\"nome-do-bucket-tls\".key-store.p12.provider[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2918,7 +2918,7 @@ msgstr " link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-
 msgid ""
 "[[quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs]] [.property-path]##link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs[`+++quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs+++`]##\n"
 "config_property_copy_button:+++quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs+++[]"
-msgstr " link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs[quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs] config_property_copy_button:quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs[]"
+msgstr " link:#quarkus-tls-registry_quarkus-tls-tls-bucket-name-trust-store-pem-certs[quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs] botão_para_copiar_propriedade_de_configuração:quarkus.tls.\"tls-bucket-name\".trust-store.pem.certs[]"
 
 #. mt: deepl
 #, fuzzy

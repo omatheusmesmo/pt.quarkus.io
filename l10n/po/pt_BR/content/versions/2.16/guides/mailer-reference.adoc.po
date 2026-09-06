@@ -756,7 +756,7 @@ msgstr "`link:#quarkus-mailer_quarkus.mailer.keep-alive[quarkus.mailer.keep-aliv
 #. mt: deepl
 #, fuzzy
 msgid "Sets if connection pool is enabled. If the connection pooling is disabled, the max number of sockets is enforced nevertheless."
-msgstr "Define se o pool de conexões está ativado. Caso o pool de conexões esteja desativado, o número máximo de soquetes será aplicado de qualquer forma."
+msgstr "Define se o pool de conexões está habilitado. Caso o pool de conexões esteja desabilitado, o número máximo de soquetes será aplicado de qualquer maneira."
 
 #. mt: deepl
 #, fuzzy
@@ -931,7 +931,7 @@ msgstr "`link:#quarkus-mailer_quarkus.mailer.dkim.auid[quarkus.mailer.dkim.auid]
 #. mt: deepl
 #, fuzzy
 msgid "Configures the Agent or User Identifier (AUID)."
-msgstr "Configura o Identificador do Agente ou do Usuário (AUID)."
+msgstr "Configura o Identificador de Agente ou de Usuário (AUID)."
 
 #. mt: deepl
 #, fuzzy
@@ -1132,7 +1132,7 @@ msgstr "`link:#quarkus-mailer_quarkus.mailer.dkim.expire-time[quarkus.mailer.dki
 #. mt: deepl
 #, fuzzy
 msgid "Configures the expire time in seconds when the signature sign will be expired. Must be greater than zero."
-msgstr "Configura o tempo de validade, em segundos, após o qual a assinatura será considerada vencida. Deve ser maior que zero."
+msgstr "Configura o tempo de validade, em segundos, após o qual a assinatura será considerada expirada. Deve ser maior que zero."
 
 #. mt: deepl
 #, fuzzy
@@ -1324,7 +1324,7 @@ msgstr "`link:#quarkus-mailer_quarkus.mailer.truststore.type[quarkus.mailer.trus
 #. mt: deepl
 #, fuzzy
 msgid "Sets the trust store type. By default, it guesses the type from the file name extension. For instance, `truststore.pem` will be seen as a PEM file, while `truststore.jks` will be seen as a JKS file. `truststore.p12` and `truststore.pfx` will both be seen as PKCS++#++12 files. Accepted values are: `JKS`, `PEM`, `PKCS`."
-msgstr "Define o tipo do armazenamento de certificações. Por padrão, o sistema identifica o tipo com base na extensão do nome do arquivo. Por exemplo, o arquivo ``truststore.pem`` será considerado um arquivo PEM, enquanto `o `truststore.jks`` será considerado um arquivo JKS. Os arquivos ``truststore.p12` ` e ``truststore.pfx`` serão ambos considerados arquivos PKCS#12. Os valores aceitos são: `JKS` , `PEM` , `PKCS` ."
+msgstr "Define o tipo do armazenamento de certificações. Por padrão, o sistema identifica o tipo com base na extensão do nome do arquivo. Por exemplo, `o arquivo truststore.pem` será reconhecido como um arquivo PEM, enquanto `o truststore.jks` será reconhecido como um arquivo JKS. `Os arquivos truststore.p12` e `truststore.pfx` serão ambos reconhecidos como arquivos PKCS#12. Os valores aceitos são: `JKS` , `PEM` , `PKCS` ."
 
 #. mt: deepl
 #, fuzzy

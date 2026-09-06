@@ -774,7 +774,7 @@ msgstr " link:#quarkus-scheduler_quarkus-scheduler-overdue-grace-period[quarkus.
 #. mt: deepl
 #, fuzzy
 msgid "Scheduled task will be flagged as overdue if next execution time is exceeded by this period."
-msgstr "A tarefa programada será marcada como atrasada se esse período exceder o horário da próxima execução."
+msgstr "A tarefa programada será marcada como atrasada se esse período for excedido em relação ao próximo horário de execução."
 
 #. mt: deepl
 #, fuzzy
@@ -837,7 +837,7 @@ msgstr "tooltip:normal[O agendador não será iniciado a menos que seja encontra
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy

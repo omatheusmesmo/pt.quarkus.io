@@ -635,7 +635,7 @@ msgstr "`quarkus.liquibase.\"nome-da-fonte-de-dados\".nome-da-tabela-de-bloqueio
 #. mt: deepl
 #, fuzzy
 msgid "The liquibase change log lock table name. Name of table to use for tracking concurrent Liquibase usage."
-msgstr "O nome da tabela de bloqueio do registro de alterações do Liquibase. Nome da tabela a ser utilizada para monitorar o uso simultâneo do Liquibase."
+msgstr "O nome da tabela de bloqueio do log de alterações do Liquibase. Nome da tabela a ser utilizada para monitorar o uso simultâneo do Liquibase."
 
 #. mt: deepl
 #, fuzzy

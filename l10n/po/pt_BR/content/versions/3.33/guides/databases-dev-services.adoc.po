@@ -506,7 +506,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.image-name+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.image-name+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem` botão-de-cópia-da-propriedade-de-configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.nome-da-imagem[]"
 
 #. mt: deepl
 #, fuzzy
@@ -516,7 +516,7 @@ msgstr "O nome da imagem do contêiner para provedores de serviços de desenvolv
 #. mt: deepl
 #, fuzzy
 msgid "This has no effect if the provider is not a container-based database, such as H2 or Derby."
-msgstr "Isso não tem efeito se o provedor não for um banco de dados baseado em contêiner, como o H2 ou o Derby."
+msgstr "Isso não surte efeito se o provedor não for um banco de dados baseado em contêiner, como o H2 ou o Derby."
 
 #. mt: deepl
 #, fuzzy
@@ -879,7 +879,7 @@ msgstr "`quarkus.datasource.\"datasource-name\".devservices.username` config_pro
 #. mt: deepl
 #, fuzzy
 msgid "The username to use if this Dev Service supports overriding it."
-msgstr "O nome de usuário a ser utilizado caso este Serviço de Desenvolvimento permita sua substituição."
+msgstr "O nome de usuário a ser utilizado, caso este Serviço de Desenvolvimento permita sua substituição."
 
 #. mt: deepl
 #, fuzzy
@@ -1009,7 +1009,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.init-privileged-script-path+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.init-privileged-script-path+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path[]"
+msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path` config_property_copy_button:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.init-privileged-script-path[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1058,7 +1058,7 @@ msgstr "[lock]  link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-
 msgid ""
 "`+++quarkus.datasource.\"datasource-name\".devservices.volumes.\"host-path\"+++`\n"
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.volumes.\"host-path\"+++[]"
-msgstr "`quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.volumes.\"caminho-no-host\"` botão_para_copiar_propriedade_de_configuração:quarkus.datasource.\"nome-da-fonte-de-dados\".devservices.volumes.\"caminho-no-host\"[]"
+msgstr "`quarkus.datasource.\"datasource-name\".devservices.volumes.\"host-path\"` config_property_copy_button:quarkus.datasource.\"datasource-name\".devservices.volumes.\"host-path\"[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1073,7 +1073,7 @@ msgstr "A chave do mapa corresponde à localização do host; o valor do mapa é
 #. mt: deepl
 #, fuzzy
 msgid "When using a file system location, the volume will be generated with read-write permission, potentially leading to data loss or modification in your file system."
-msgstr "Ao utilizar um caminho no sistema de arquivos, o volume será gerado com permissão de leitura e gravação, o que pode resultar em perda ou alteração de dados em seu sistema de arquivos."
+msgstr "Ao utilizar um caminho no sistema de arquivos, o volume será gerado com permissão de leitura e gravação, o que pode resultar em perda ou alteração de dados no seu sistema de arquivos."
 
 #. mt: deepl
 #, fuzzy
@@ -1154,7 +1154,7 @@ msgid ""
 "so it is mostly useful to *disable* reuse,\n"
 "if you enabled it in `testcontainers.properties`\n"
 "but only want to use it for some of your Quarkus applications or datasources."
-msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, é mais útil *desativar* a reutilização caso a tenha ativado no `arquivo testcontainers.properties` , mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
+msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, ela é útil principalmente para *desativar* a reutilização, caso você a tenha habilitado no `arquivo testcontainers.properties,` mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
 
 #. mt: deepl
 #, fuzzy

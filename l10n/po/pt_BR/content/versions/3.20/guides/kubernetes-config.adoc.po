@@ -176,8 +176,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -204,14 +205,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.secrets.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Whether configuration can be read from secrets. If set to `true`, Kubernetes resources allowing access to secrets (role and role binding) will be generated."
-msgstr ""
+msgstr "Se a configuração pode ser lida a partir de segredos. Se definido como `“true”` , serão gerados recursos do Kubernetes que permitem o acesso a segredos (função e vinculação de função)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_SECRETS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_SECRETS_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -239,11 +243,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.secrets-role-config.name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the role."
-msgstr ""
+msgstr "O nome da função."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -270,11 +276,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.secrets-role-config.namespace+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The namespace of the role."
-msgstr ""
+msgstr "O namespace da função."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_NAMESPACE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_NAMESPACE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config_quarkus-kubernetes-config-secrets-role-config-cluster-wide]] [.property-path]##link:#quarkus-kubernetes-config_quarkus-kubernetes-config-secrets-role-config-cluster-wide[`quarkus.kubernetes-config.secrets-role-config.cluster-wide`]##\n"
@@ -295,11 +303,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.secrets-role-config.cluster-wide+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Whether the role is cluster wide or not. By default, it's not a cluster wide role."
-msgstr ""
+msgstr "Se a função abrange todo o cluster ou não. Por padrão, não se trata de uma função que abrange todo o cluster."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_CLUSTER_WIDE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_CLUSTER_WIDE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-kubernetes-config_quarkus-kubernetes-config-secrets-role-config-generate]] [.property-path]##link:#quarkus-kubernetes-config_quarkus-kubernetes-config-secrets-role-config-generate[`quarkus.kubernetes-config.secrets-role-config.generate`]##\n"
@@ -320,11 +330,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.secrets-role-config.generate+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If the current role is meant to be generated or not. If not, it will only be used to generate the role binding resource."
-msgstr ""
+msgstr "Se a função atual deve ou não ser gerada. Caso contrário, ela será utilizada apenas para gerar o recurso de vinculação da função."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_GENERATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_SECRETS_ROLE_CONFIG_GENERATE[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -348,11 +360,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If set to true, the application will attempt to look up the configuration from the API server"
-msgstr ""
+msgstr "Se definido como “true”, o aplicativo tentará buscar a configuração no servidor da API"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_ENABLED[]"
 
 msgid ""
 "[[quarkus-kubernetes-config_quarkus-kubernetes-config-fail-on-missing-config]] [.property-path]##link:#quarkus-kubernetes-config_quarkus-kubernetes-config-fail-on-missing-config[`quarkus.kubernetes-config.fail-on-missing-config`]##\n"
@@ -373,11 +387,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.fail-on-missing-config+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "If set to true, the application will not start if any of the configured config sources cannot be located"
-msgstr ""
+msgstr "Se definido como \"true\", o aplicativo não será iniciado caso não seja possível localizar qualquer uma das fontes de configuração definidas"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_FAIL_ON_MISSING_CONFIG+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_FAIL_ON_MISSING_CONFIG[]"
 
 msgid ""
 "[[quarkus-kubernetes-config_quarkus-kubernetes-config-config-maps]] [.property-path]##link:#quarkus-kubernetes-config_quarkus-kubernetes-config-config-maps[`quarkus.kubernetes-config.config-maps`]##\n"
@@ -398,11 +414,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.config-maps+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "ConfigMaps to look for in the namespace that the Kubernetes Client has been configured for. ConfigMaps defined later in this list have a higher priority that ConfigMaps defined earlier in this list. Furthermore, any Secrets defined in `secrets`, will have higher priorities than all ConfigMaps."
-msgstr ""
+msgstr "ConfigMaps a serem pesquisados no namespace para o qual o Cliente do Kubernetes foi configurado. Os ConfigMaps definidos mais adiante nesta lista têm prioridade maior do que os definidos anteriormente. Além disso, quaisquer Secrets definidos em `secrets` terão prioridade maior do que todos os ConfigMaps."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_CONFIG_MAPS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_CONFIG_MAPS[]"
 
 #, fuzzy
 msgid "list of string"
@@ -427,11 +445,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.secrets+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Secrets to look for in the namespace that the Kubernetes Client has been configured for. If you use this, you probably want to enable `quarkus.kubernetes-config.secrets.enabled`. Secrets defined later in this list have a higher priority that ConfigMaps defined earlier in this list. Furthermore, these Secrets have a higher priorities than all ConfigMaps defined in `configMaps`."
-msgstr ""
+msgstr "Segredos a serem procurados no namespace para o qual o Cliente do Kubernetes foi configurado. Caso utilize isso, provavelmente desejará habilitar o parâmetro ` `quarkus.kubernetes-config.secrets.enabled`` . Os segredos definidos mais adiante nesta lista têm prioridade maior do que os ConfigMaps definidos anteriormente nesta lista. Além disso, esses segredos têm prioridade maior do que todos os ConfigMaps definidos em ` `configMaps`` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_SECRETS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_SECRETS[]"
 
 msgid ""
 "[[quarkus-kubernetes-config_quarkus-kubernetes-config-namespace]] [.property-path]##link:#quarkus-kubernetes-config_quarkus-kubernetes-config-namespace[`quarkus.kubernetes-config.namespace`]##\n"
@@ -452,8 +472,10 @@ msgid ""
 "config_property_copy_button:+++quarkus.kubernetes-config.namespace+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Namespace to look for config maps and secrets. If this is not specified, then the namespace configured in the kubectl config context is used. If the value is specified and the namespace doesn't exist, the application will fail to start."
-msgstr ""
+msgstr "Espaço de nomes no qual se deve procurar mapas de configuração e segredos. Caso não seja especificado, será utilizado o espaço de nomes configurado no contexto de configuração do kubectl. Se o valor for especificado e o espaço de nomes não existir, a aplicação não conseguirá iniciar."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KUBERNETES_CONFIG_NAMESPACE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KUBERNETES_CONFIG_NAMESPACE[]"

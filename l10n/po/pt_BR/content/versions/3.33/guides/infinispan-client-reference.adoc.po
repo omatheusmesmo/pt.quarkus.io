@@ -998,7 +998,7 @@ msgstr "Se uma verificação de integridade será ou não publicada caso a exten
 #. mt: deepl
 #, fuzzy
 msgid "This is a global setting and is not specific to an Infinispan Client."
-msgstr "Esta é uma configuração global e não é específica de um cliente Infinispan."
+msgstr "Esta é uma configuração global e não é específica a um cliente Infinispan."
 
 #. mt: deepl
 #, fuzzy
@@ -1039,7 +1039,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-uri[quarkus.i
 #. mt: deepl
 #, fuzzy
 msgid "Sets the URI of the running Infinispan server to connect to. hotrod://localhost:11222@admin:password If provided `hosts`, `username` and `password` will be ignored."
-msgstr "Define o URI do servidor Infinispan em execução ao qual se conectará. hotrod://localhost:11222@admin:password Caso sejam fornecidos, `o host` , `o nome de usuário` e `a senha` serão ignorados."
+msgstr "Define o URI do servidor Infinispan em execução ao qual se conectar. hotrod://localhost:11222@admin:password Caso sejam fornecidos, `o host` , `o nome de usuário` e `a senha` serão ignorados."
 
 #. mt: deepl
 #, fuzzy
@@ -1138,7 +1138,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-use-auth[quar
 #. mt: deepl
 #, fuzzy
 msgid "Enables or disables authentication. Set it to false when connecting to an Infinispan Server without authentication. deployments. Default is 'true'."
-msgstr "Ativa ou desativa a autenticação. Defina-a como “false” ao se conectar a um servidor Infinispan sem autenticação. implantações. O valor padrão é “true”."
+msgstr "Ativa ou desativa a autenticação. Defina-a como “false” ao se conectar a um servidor Infinispan sem autenticação. Implantações. O valor padrão é “true”."
 
 #. mt: deepl
 #, fuzzy
@@ -1313,7 +1313,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-sasl-mechanis
 #. mt: deepl
 #, fuzzy
 msgid "Sets SASL mechanism used by authentication. Available values: ++*++ `DIGEST-SHA-512` - Uses the SHA-512 hashing algorithm to securely hash and verify credentials. This is the default. ++*++ `DIGEST-MD5` - Uses the MD5 hashing algorithm in addition to nonces to encrypt credentials. ++*++ `EXTERNAL` - Uses client certificates to provide valid identities to Infinispan Server and enable encryption. ++*++ `PLAIN` - Sends credentials in plain text (unencrypted) over the wire in a way that is similar to HTTP BASIC authentication. You should use `PLAIN` authentication only in combination with TLS encryption."
-msgstr "Define o mecanismo SASL utilizado pela autenticação. Valores disponíveis: * `DIGEST-SHA-512` — Utiliza o algoritmo de hash SHA-512 para gerar hashes e verificar credenciais com segurança. Esta é a configuração padrão. * `DIGEST-MD5` — Utiliza o algoritmo de hash MD5, além de nonces, para criptografar credenciais. * `EXTERNAL` — Utiliza certificados de cliente para fornecer identidades válidas ao Infinispan Server e habilitar a criptografia. * `PLAIN` — Envia credenciais em texto simples (não criptografadas) pela rede, de maneira semelhante à autenticação HTTP BASIC. Deve-se utilizar a autenticação `PLAIN` apenas em combinação com a criptografia TLS."
+msgstr "Define o mecanismo SASL utilizado pela autenticação. Valores disponíveis: * `DIGEST-SHA-512` — Utiliza o algoritmo de hash SHA-512 para gerar um hash seguro e verificar as credenciais. Esta é a configuração padrão. * `DIGEST-MD5` — Utiliza o algoritmo de hash MD5, além de nonces, para criptografar as credenciais. * `EXTERNAL` — Utiliza certificados de cliente para fornecer identidades válidas ao Infinispan Server e habilitar a criptografia. * `PLAIN` — Envia credenciais em texto simples (não criptografadas) pela rede, de maneira semelhante à autenticação HTTP BASIC. Recomenda-se utilizar a autenticação `PLAIN` apenas em combinação com a criptografia TLS."
 
 #. mt: deepl
 #, fuzzy
@@ -1351,7 +1351,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-key-store[qua
 #. mt: deepl
 #, fuzzy
 msgid "Specifies the filename of a keystore to use to create the `SSLContext`. You also need to specify a keyStorePassword. Setting this property implicitly enables SSL/TLS."
-msgstr "Especifica o nome do arquivo de um keystore a ser utilizado para criar o `SSLContext` . É necessário também especificar uma keyStorePassword. A definição desta propriedade habilita implicitamente o SSL/TLS."
+msgstr "Especifica o nome do arquivo de um keystore a ser utilizado para criar o `SSLContext` . É necessário, além disso, especificar uma keyStorePassword. A definição desta propriedade habilita implicitamente o SSL/TLS."
 
 #. mt: deepl
 #, fuzzy
@@ -1483,7 +1483,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store[q
 #. mt: deepl
 #, fuzzy
 msgid "Specifies the filename of a truststore to use to create the `SSLContext`. You also need to specify a trustStorePassword. Setting this property implicitly enables SSL/TLS."
-msgstr "Especifica o nome do arquivo de um truststore a ser utilizado para criar o `SSLContext` . É necessário também especificar uma trustStorePassword. A definição desta propriedade habilita implicitamente o SSL/TLS."
+msgstr "Especifica o nome do arquivo de um truststore a ser utilizado para criar o `SSLContext` . É necessário, além disso, especificar uma trustStorePassword. A definição desta propriedade habilita implicitamente o SSL/TLS."
 
 #. mt: deepl
 #, fuzzy
@@ -1516,7 +1516,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-trust-store-p
 #. mt: deepl
 #, fuzzy
 msgid "Specifies the password needed to open the truststore You also need to specify a trustStore. Setting this property implicitly enables SSL/TLS."
-msgstr "Especifica a senha necessária para abrir o truststore. Você também precisa especificar um trustStore. A configuração dessa propriedade habilita implicitamente o SSL/TLS."
+msgstr "Especifica a senha necessária para abrir o truststore. Você também precisa especificar um trustStore. A definição dessa propriedade habilita implicitamente o SSL/TLS."
 
 #. mt: deepl
 #, fuzzy
@@ -1685,7 +1685,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-ssl-host-name
 #. mt: deepl
 #, fuzzy
 msgid "Do SSL hostname validation. Defaults to true."
-msgstr "Realizar a validação do nome de host via SSL. O valor padrão é “true”."
+msgstr "Realizar a validação do nome de host por SSL. O valor padrão é “true”."
 
 #. mt: deepl
 #, fuzzy
@@ -1820,7 +1820,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-use-schema-re
 #. mt: deepl
 #, fuzzy
 msgid "Enables or disables Protobuf generated schemas upload to the server. Set it to 'false' when you need to handle the lifecycle of the Protobuf Schemas on Server side yourself. Default is 'true'. This is a global setting and is not specific to a Infinispan Client."
-msgstr "Ativa ou desativa o envio de esquemas gerados pelo Protobuf para o servidor. Defina-a como “false” quando precisar gerenciar você mesmo o ciclo de vida dos esquemas do Protobuf no lado do servidor. O valor padrão é “true”. Esta é uma configuração global e não é específica a um cliente Infinispan."
+msgstr "Ativa ou desativa o envio de esquemas gerados pelo Protobuf para o servidor. Defina-a como “false” quando precisar gerenciar por conta própria o ciclo de vida dos esquemas do Protobuf no lado do servidor. O valor padrão é “true”. Esta é uma configuração global e não é específica de um cliente Infinispan."
 
 #. mt: deepl
 #, fuzzy
@@ -1886,7 +1886,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-
 #. mt: deepl
 #, fuzzy
 msgid "Cache configuration file in XML, JSON or YAML is defined in build time to create the cache on first access. An example of the user defined property. cacheConfig.xml file is located in the 'resources' folder: quarkus.infinispan-client.cache.bookscache.configuration-resource=cacheConfig.xml"
-msgstr "O arquivo de configuração do cache em XML, JSON ou YAML é definido no momento da compilação para criar o cache no primeiro acesso. Um exemplo da propriedade definida pelo usuário. O arquivo cacheConfig.xml está localizado na pasta “resources”: quarkus.infinispan-client.cache.bookscache.configuration-resource=cacheConfig.xml"
+msgstr "O arquivo de configuração do cache em XML, JSON ou YAML é definido no momento da compilação para criar o cache no primeiro acesso. Um exemplo da propriedade definida pelo usuário. O arquivo cacheConfig.xml está localizado na pasta 'resources': quarkus.infinispan-client.cache.bookscache.configuration-resource=cacheConfig.xml"
 
 #. mt: deepl
 #, fuzzy
@@ -1919,7 +1919,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-cache-cache-c
 #. mt: deepl
 #, fuzzy
 msgid "Cache configuration in inlined XML to create the cache on first access. Will be ignored if the configuration-uri is provided for the same cache name. An example of the user defined property: quarkus.infinispan-client.cache.bookscache.configuration="
-msgstr "Configuração do cache em XML incorporado para criar o cache no primeiro acesso. Será ignorada caso seja fornecido um `configuration-uri` para o mesmo nome de cache. Um exemplo da propriedade definida pelo usuário: quarkus.infinispan-client.cache.bookscache.configuration="
+msgstr "Configuração do cache em XML incorporado para criar o cache no primeiro acesso. Será ignorada se for fornecido um `configuration-uri` para o mesmo nome de cache. Um exemplo da propriedade definida pelo usuário: quarkus.infinispan-client.cache.bookscache.configuration="
 
 #. mt: deepl
 #, fuzzy
@@ -2165,7 +2165,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-backup-cluste
 #. mt: deepl
 #, fuzzy
 msgid "Sets client intelligence used by authentication Available values: ++*++ `BASIC` - Means that the client doesn't handle server topology changes and therefore will only use the list of servers supplied at configuration time. ++*++ `TOPOLOGY_AWARE` - Use this provider if you don't want the client to present any certificates to the remote TLS host. ++*++ `HASH_DISTRIBUTION_AWARE` - Like `TOPOLOGY_AWARE` but with the additional advantage that each request involving keys will be routed to the server who is the primary owner which improves performance greatly. This is the default."
-msgstr "Define a inteligência do cliente utilizada pela autenticação. Valores disponíveis: * `BASIC` — Significa que o cliente não lida com alterações na topologia do servidor e, portanto, utilizará apenas a lista de servidores fornecida no momento da configuração. * `TOPOLOGY_AWARE` — Utilize este provedor caso não deseje que o cliente apresente quaisquer certificados ao host TLS remoto. * `HASH_DISTRIBUTION_AWARE` — Semelhante `a TOPOLOGY_AWARE` , mas com a vantagem adicional de que cada solicitação envolvendo chaves será encaminhada ao servidor que é o proprietário principal, o que melhora significativamente o desempenho. Esta é a configuração padrão."
+msgstr "Define a inteligência do cliente utilizada pela autenticação. Valores disponíveis: * `BASIC` — Significa que o cliente não lida com alterações na topologia do servidor e, portanto, utilizará apenas a lista de servidores fornecida no momento da configuração. * `TOPOLOGY_AWARE` — Utilize este provedor se não desejar que o cliente apresente quaisquer certificados ao host TLS remoto. * `HASH_DISTRIBUTION_AWARE` — Semelhante `a TOPOLOGY_AWARE` , mas com a vantagem adicional de que cada solicitação envolvendo chaves será encaminhada ao servidor que é o proprietário principal, o que melhora significativamente o desempenho. Esta é a configuração padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -2248,7 +2248,7 @@ msgstr "_Esta propriedade está obsoleta: utilize a configuração “per cache�
 #. mt: deepl
 #, fuzzy
 msgid "Sets the bounded entry count for near cache. If this value is 0 or less near cache is disabled."
-msgstr "Define o limite máximo de entradas para o cache de acesso rápido. Se esse valor for 0 ou menor, o cache de acesso rápido será desativado."
+msgstr "Define o limite máximo de entradas para o cache de proximidade. Se esse valor for 0 ou menor, o cache de proximidade será desativado."
 
 #. mt: deepl
 #, fuzzy
@@ -2518,7 +2518,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the Infinispan server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Infinispan starts a new container."
-msgstr "Indica se o servidor Infinispan gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services para Infinispan inicia um novo contêiner."
+msgstr "Indica se o servidor Infinispan gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services para Infinispan inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -2719,7 +2719,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-devser
 #. mt: deepl
 #, fuzzy
 msgid "If you are running an Infinispan Server already in docker, if the containers use the same mcastPort they will form a cluster. Set a different mcastPort to create a separate cluster in Docker (e. 46656). A common use case in a local Docker development mode, is the need of having two different Infinispan Clusters with Cross Site Replication enabled. see https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
-msgstr "Caso já esteja executando um servidor Infinispan no Docker, se os contêineres utilizarem a mesma porta mcastPort, eles formarão um cluster. Defina uma porta mcastPort diferente para criar um cluster separado no Docker (por exemplo, 46656). Um caso de uso comum no modo de desenvolvimento local do Docker é a necessidade de se ter dois clusters Infinispan distintos com a replicação entre sites (Cross Site Replication) habilitada. Consulte https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
+msgstr "Caso já esteja executando um servidor Infinispan no Docker, se os contêineres utilizarem a mesma porta mcastPort, eles formarão um cluster. Defina uma porta mcastPort diferente para criar um cluster separado no Docker (por exemplo, 46656). Um caso de uso comum no modo de desenvolvimento local do Docker é a necessidade de ter dois clusters Infinispan diferentes com a replicação entre sites (Cross Site Replication) habilitada. Consulte https://github.com/infinispan/infinispan-simple-tutorials/blob/main/infinispan-remote/cross-site-replication/docker-compose/"
 
 #. mt: deepl
 #, fuzzy
@@ -2879,7 +2879,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-client
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource[`+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-resource+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-resource+++[]"
-msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".recurso-de-configuração] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".recurso-de-configuração[]"
+msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-resource[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".recurso-de-configuração] botão-para-copiar-propriedade-de-configuração:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".recurso-de-configuração[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3243,7 +3243,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-k
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias[`+++quarkus.infinispan-client.\"client-name\".key-alias+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".key-alias+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias[quarkus.infinispan-client.\"nome-do-cliente\".alias-da-chave] botão_de_cópia_da_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".alias-da-chave[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-key-alias[quarkus.infinispan-client.\"nome-do-cliente\".alias-da-chave] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".alias-da-chave[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3299,7 +3299,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-t
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password[`+++quarkus.infinispan-client.\"client-name\".trust-store-password+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".trust-store-password+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password[quarkus.infinispan-client.\"nome-do-cliente\".senha-do-trust-store] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".senha-do-trust-store[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-trust-store-password[quarkus.infinispan-client.\"nome-do-cliente\".senha-do-trust-store] botão-para-copiar-propriedade-de-configuração:quarkus.infinispan-client.\"nome-do-cliente\".senha-do-trust-store[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3383,7 +3383,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-s
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider[`+++quarkus.infinispan-client.\"client-name\".ssl-provider+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".ssl-provider+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider[quarkus.infinispan-client.\"nome-do-cliente\".ssl-provider] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".ssl-provider[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-provider[quarkus.infinispan-client.\"nome-do-cliente\".ssl-provider] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".ssl-provider[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3439,7 +3439,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-s
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation[`+++quarkus.infinispan-client.\"client-name\".ssl-host-name-validation+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".ssl-host-name-validation+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation[quarkus.infinispan-client.\"nome-do-cliente\".validação-do-nome-do-host-ssl] botão-para-copiar-propriedade-de-configuração:quarkus.infinispan-client.\"nome-do-cliente\".validação-do-nome-do-host-ssl[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-ssl-host-name-validation[quarkus.infinispan-client.\"nome-do-cliente\".validação-do-nome-do-host-ssl] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".validação-do-nome-do-host-ssl[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3495,7 +3495,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-s
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout[`+++quarkus.infinispan-client.\"client-name\".socket-timeout+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".socket-timeout+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout[quarkus.infinispan-client.\"nome-do-cliente\".timeout-do-socket] botão-para-copiar-propriedade-de-configuração:quarkus.infinispan-client.\"nome-do-cliente\".timeout-do-socket[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-socket-timeout[quarkus.infinispan-client.\"nome-do-cliente\".socket-timeout] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".socket-timeout[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3523,7 +3523,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-t
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled[`+++quarkus.infinispan-client.\"client-name\".tracing.propagation.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".tracing.propagation.enabled+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled[quarkus.infinispan-client.\"nome-do-cliente\".tracing.propagation.enabled] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".tracing.propagation.enabled[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-tracing-propagation-enabled[quarkus.infinispan-client.\"nome-do-cliente\".tracing.propagation.enabled] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".tracing.propagation.enabled[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3551,7 +3551,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-c
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration[`+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuração] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuração[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuration] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuration[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3579,7 +3579,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-c
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri[`+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-uri+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".configuration-uri+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuration-uri] botão-para-copiar-propriedade-de-configuração:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuration-uri[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-configuration-uri[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuration-uri] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".configuration-uri[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3663,7 +3663,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-c
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter[`+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-use-bloom-filter+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".near-cache-use-bloom-filter+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".near-cache-use-bloom-filter] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".near-cache-use-bloom-filter[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-near-cache-use-bloom-filter[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".near-cache-use-bloom-filter] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".near-cache-use-bloom-filter[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3691,7 +3691,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-c
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-transaction-mode]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-transaction-mode[`+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".transaction-mode+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".cache.\"cache\".transaction-mode+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-transaction-mode[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".modo-de-transação] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".modo-de-transação[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-cache-cache-transaction-mode[quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".modo-de-transação] botão-para-copiar-propriedade-de-configuração:quarkus.infinispan-client.\"nome-do-cliente\".cache.\"cache\".modo-de-transação[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3775,7 +3775,7 @@ msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-b
 msgid ""
 "[[quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration[`+++quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".use-schema-registration+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".backup-cluster.\"backup-cluster\".use-schema-registration+++[]"
-msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration[quarkus.infinispan-client.\"nome-do-cliente\".backup-cluster.\"backup-cluster\".use-schema-registration] botão_para_copiar_propriedade_de_configuração:quarkus.infinispan-client.\"nome-do-cliente\".cluster-de-backup\".cluster-de-backup\".use-schema-registration[]"
+msgstr " link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-backup-cluster-backup-cluster-use-schema-registration[quarkus.infinispan-client.\"nome-do-cliente\".backup-cluster.\"backup-cluster\".use-schema-registration] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".cluster-de-backup.\"cluster-de-backup\".use-schema-registration[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4018,7 +4018,7 @@ msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-client
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site]] [.property-path]##link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site[`+++quarkus.infinispan-client.\"client-name\".devservices.site+++`]##\n"
 "config_property_copy_button:+++quarkus.infinispan-client.\"client-name\".devservices.site+++[]"
-msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site[quarkus.infinispan-client.\"nome-do-cliente\".devservices.site] config_property_copy_button:quarkus.infinispan-client.\"nome-do-cliente\".devservices.site[]"
+msgstr "[lock]  link:#quarkus-infinispan-client_quarkus-infinispan-client-client-name-devservices-site[quarkus.infinispan-client.\"client-name\".devservices.site] config_property_copy_button:quarkus.infinispan-client.\"client-name\".devservices.site[]"
 
 #. mt: deepl
 #, fuzzy

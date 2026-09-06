@@ -619,7 +619,7 @@ msgstr "[lock] `link:#quarkus-keycloak-keycloak-policy-enforcer-config_quarkus.k
 #. mt: deepl
 #, fuzzy
 msgid "Specifies how the adapter should fetch the server for resources associated with paths in your application. If true, the policy enforcer is going to fetch resources on-demand accordingly with the path being requested"
-msgstr "Especifica como o adaptador deve buscar no servidor os recursos associados aos caminhos em sua aplicação. Se o valor for “true”, o executor de políticas buscará os recursos sob demanda, de acordo com o caminho solicitado"
+msgstr "Especifica como o adaptador deve obter do servidor os recursos associados aos caminhos em seu aplicativo. Se o valor for “true”, o executor de políticas irá obter os recursos sob demanda, de acordo com o caminho solicitado"
 
 #. mt: deepl
 #, fuzzy

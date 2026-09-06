@@ -987,7 +987,7 @@ msgstr "`Map<String, String>`"
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""

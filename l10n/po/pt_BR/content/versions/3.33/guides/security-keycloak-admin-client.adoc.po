@@ -385,7 +385,7 @@ msgstr " link:#quarkus-keycloak-admin-client_quarkus-keycloak-admin-client-clien
 #. mt: deepl
 #, fuzzy
 msgid "Client secret. Required with a `client_credentials` grant type."
-msgstr "Segredo do cliente. Obrigatório com o tipo de concessão `client_credentials` ."
+msgstr "Segredo do cliente. Obrigatório com o tipo de concessão ` `client_credentials` `."
 
 #. mt: deepl
 #, fuzzy

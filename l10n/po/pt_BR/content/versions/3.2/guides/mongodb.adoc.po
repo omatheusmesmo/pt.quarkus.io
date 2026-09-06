@@ -159,8 +159,9 @@ msgstr "Ao executar a versão de produção do aplicativo, a conexão do MongoDB
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-mongodb-config-group-dev-services-build-time-config_configuration]]link:#quarkus-mongodb-config-group-dev-services-build-time-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-mongodb-config-group-dev-services-build-time-config_configuration[Propriedade de configuração]"
 
 msgid "Type"
 msgstr "Tipo"
@@ -183,14 +184,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-enabled]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-enabled[quarkus.mongodb.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If DevServices has been explicitly enabled or disabled. DevServices is generally enabled by default, unless there is an existing configuration present. When DevServices is enabled Quarkus will attempt to automatically configure and start a database when running in Dev or Test mode."
-msgstr ""
+msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que haja uma configuração existente. Quando o DevServices está ativado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -210,11 +214,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-image-name]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-image-name[quarkus.mongodb.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name to use, for container based DevServices providers."
-msgstr ""
+msgstr "O nome da imagem do contêiner a ser utilizado, para provedores de DevServices baseados em contêineres."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -236,14 +242,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-port]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-port[quarkus.mongodb.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Optional fixed port the dev service will listen to."
-msgstr ""
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta."
 
+#, fuzzy
 msgid "If not defined, the port will be chosen randomly."
-msgstr ""
+msgstr "Caso não seja definida, a porta será escolhida aleatoriamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_PORT[]"
 
 msgid "int"
 msgstr "int"
@@ -263,14 +272,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-properties-properties]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-properties-properties[quarkus.mongodb.devservices.properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "Generic properties that are added to the connection URL."
-msgstr ""
+msgstr "Propriedades genéricas que são adicionadas à URL de conexão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_PROPERTIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DEVSERVICES_PROPERTIES[]"
 
+#, fuzzy
 msgid "`Map<String,String>`"
-msgstr ""
+msgstr "`Map<String, String>`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-container-env-container-env]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-container-env-container-env[quarkus.mongodb.devservices.container-env]`\n"
@@ -287,8 +299,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-container-env-container-env]]`link:#quarkus-mongodb-config-group-dev-services-build-time-config_quarkus-mongodb-devservices-container-env-container-env[quarkus.mongodb.devservices.container-env]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables that are passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente que são passadas ao contêiner."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DEVSERVICES_CONTAINER_ENV+++[]"
 msgstr ""
@@ -581,8 +594,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[[quarkus-mongodb_configuration]]link:#quarkus-mongodb_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-mongodb_configuration[Propriedade de configuração]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-health-enabled]]`link:#quarkus-mongodb_quarkus-mongodb-health-enabled[quarkus.mongodb.health.enabled]`\n"
@@ -599,11 +613,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-health-enabled]]`link:#quarkus-mongodb_quarkus-mongodb-health-enabled[quarkus.mongodb.health.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether a health check is published in case the smallrye-health extension is present."
-msgstr ""
+msgstr "Se uma verificação de integridade é publicada caso a extensão “smallrye-health” esteja presente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_HEALTH_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_HEALTH_ENABLED[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -623,11 +639,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-metrics-enabled]]`link:#quarkus-mongodb_quarkus-mongodb-metrics-enabled[quarkus.mongodb.metrics.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether metrics are published in case a metrics extension is present."
-msgstr ""
+msgstr "Se as métricas são publicadas, caso haja uma extensão de métricas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_METRICS_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_METRICS_ENABLED[]"
 
 #, fuzzy
 msgid "`false`"
@@ -648,11 +666,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-tracing-enabled]]`link:#quarkus-mongodb_quarkus-mongodb-tracing-enabled[quarkus.mongodb.tracing.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether tracing spans of driver commands are sent in case the smallrye-opentracing extension is present."
-msgstr ""
+msgstr "Se os trechos de rastreamento dos comandos do motorista são enviados caso a extensão smallrye-opentracing esteja presente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_TRACING_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_TRACING_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-force-default-clients]]`link:#quarkus-mongodb_quarkus-mongodb-force-default-clients[quarkus.mongodb.force-default-clients]`\n"
@@ -669,11 +689,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-force-default-clients]]`link:#quarkus-mongodb_quarkus-mongodb-force-default-clients[quarkus.mongodb.force-default-clients]`"
 msgstr ""
 
+#, fuzzy
 msgid "If set to true, the default clients will always be created even if there are no injection points that use them"
-msgstr ""
+msgstr "Se definido como “true”, os clientes padrão serão sempre criados, mesmo que não haja pontos de injeção que os utilizem"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_FORCE_DEFAULT_CLIENTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_FORCE_DEFAULT_CLIENTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-devservices-enabled]]`link:#quarkus-mongodb_quarkus-mongodb-devservices-enabled[quarkus.mongodb.devservices.enabled]`\n"
@@ -763,47 +785,61 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-connection-string]]`link:#quarkus-mongodb_quarkus-mongodb-connection-string[quarkus.mongodb.connection-string]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the connection string. The format is: `mongodb://++[++username:password@++]++host1++[++:port1++][++,host2++[++:port2++]++,...++[++,hostN++[++:portN++]]][++/++[++database.collection++][++?options++]]++`"
-msgstr ""
+msgstr "Configura a string de conexão. O formato é: `mongodb://[nome de usuário:senha@]host1[:porta1][,host2[:porta2],…​[,hostN[:portaN]]][/[banco de dados.coleção][?opções]]`"
 
+#, fuzzy
 msgid "`mongodb://` is a required prefix to identify that this is a string in the standard connection format."
-msgstr ""
+msgstr "`mongodb://` é um prefixo obrigatório para indicar que se trata de uma sequência de caracteres no formato padrão de conexão."
 
+#, fuzzy
 msgid "`username:password@` are optional. If given, the driver will attempt to log in to a database after connecting to a database server. For some authentication mechanisms, only the username is specified and the password is not, in which case the \":\" after the username is left off as well."
-msgstr ""
+msgstr "`nome de usuário:senha@` são opcionais. Se fornecidos, o driver tentará fazer o login em um banco de dados após se conectar a um servidor de banco de dados. Para alguns mecanismos de autenticação, apenas o nome de usuário é especificado e a senha não; nesse caso, o “:” após o nome de usuário também é omitido."
 
+#, fuzzy
 msgid "`host1` is the only required part of the connection string. It identifies a server address to connect to."
-msgstr ""
+msgstr "`host1` é a única parte obrigatória da string de conexão. Ela identifica o endereço do servidor ao qual se deve conectar."
 
+#, fuzzy
 msgid "`:portX` is optional and defaults to :27017 if not provided."
-msgstr ""
+msgstr "`:portX` é opcional e, caso não seja especificado, o valor padrão é :27017."
 
+#, fuzzy
 msgid "`/database` is the name of the database to log in to and thus is only relevant if the `username:password@` syntax is used. If not specified the `admin` database will be used by default."
-msgstr ""
+msgstr "`/database` é o nome do banco de dados no qual se deve efetuar o login e, portanto, só é relevante se for utilizada a sintaxe `nome de usuário:senha@` . Caso não seja especificado, o banco de dados `“admin”` será utilizado por padrão."
 
+#, fuzzy
 msgid "`?options` are connection options. Note that if `database` is absent there is still a `/` required between the last host and the `?` introducing the options. Options are name=value pairs and the pairs are separated by \"&\"."
-msgstr ""
+msgstr "`?options` são opções de conexão. Observe que, mesmo que `a base de dados` não seja especificada, ainda é necessário incluir um `/` entre o último host e o `?` que introduz as opções. As opções são pares nome=valor, e os pares são separados por “&”."
 
+#, fuzzy
 msgid "An alternative format, using the `mongodb{plus}srv` protocol, is:"
-msgstr ""
+msgstr "Um formato alternativo, que utiliza o protocolo `mongodb+srv` , é:"
 
+#, fuzzy
 msgid "`mongodb{plus}srv://` is a required prefix for this format."
-msgstr ""
+msgstr "`“mongodb+srv://”` é um prefixo obrigatório para este formato."
 
+#, fuzzy
 msgid "`username:password@` are optional. If given, the driver will attempt to login to a database after connecting to a database server. For some authentication mechanisms, only the username is specified and the password is not, in which case the \":\" after the username is left off as well"
-msgstr ""
+msgstr "`username:password@` são opcionais. Se forem fornecidos, o driver tentará fazer o login em um banco de dados após se conectar a um servidor de banco de dados. Em alguns mecanismos de autenticação, apenas o nome de usuário é especificado, sem a senha; nesse caso, o “:” após o nome de usuário também é omitido"
 
+#, fuzzy
 msgid "`host` is the only required part of the URI. It identifies a single host name for which SRV records are looked up from a Domain Name Server after prefixing the host name with `\"_mongodb._tcp\"`. The host/port for each SRV record becomes the seed list used to connect, as if each one were provided as host/port pair in a URI using the normal mongodb protocol."
-msgstr ""
+msgstr "`O host` é a única parte obrigatória da URI. Ele identifica um único nome de host para o qual os registros SRV são consultados em um Servidor de Nomes de Domínio (DNS) após o nome de host ser prefixado com `“_mongodb._tcp` ”. O host/porta de cada registro SRV passa a constituir a lista de sementes utilizada para a conexão, como se cada um deles fosse fornecido como um par host/porta em uma URI utilizando o protocolo mongodb padrão."
 
+#, fuzzy
 msgid "`/database` is the name of the database to login to and thus is only relevant if the `username:password@` syntax is used. If not specified the \"admin\" database will be used by default."
-msgstr ""
+msgstr "`/database` é o nome do banco de dados no qual se deve efetuar o login e, portanto, só é relevante se for utilizada a sintaxe `nome de usuário:senha@` . Caso não seja especificado, o banco de dados “admin” será utilizado por padrão."
 
+#, fuzzy
 msgid "`?options` are connection options. Note that if `database` is absent there is still a `/` required between the last host and the `?` introducing the options. Options are name=value pairs and the pairs are separated by \"&\". Additionally with the mongodb{plus}srv protocol, TXT records are looked up from a Domain Name Server for the given host, and the text value of each one is prepended to any options on the URI itself. Because the last specified value for any option wins, that means that options provided on the URI will override any that are provided via TXT records."
-msgstr ""
+msgstr "`?options` são opções de conexão. Observe que, mesmo que `o nome do banco de dados` esteja ausente, ainda é necessário um `/` entre o último host e o `?` que introduz as opções. As opções são pares nome=valor, e os pares são separados por “&”. Além disso, com o protocolo mongodb+srv, os registros TXT são consultados em um Servidor de Nomes de Domínio (DNS) para o host especificado, e o valor de texto de cada um é anexado à frente de quaisquer opções na própria URI. Como o último valor especificado para qualquer opção prevalece, isso significa que as opções fornecidas na URI substituirão quaisquer outras fornecidas por meio de registros TXT."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CONNECTION_STRING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CONNECTION_STRING[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-hosts]]`link:#quarkus-mongodb_quarkus-mongodb-hosts[quarkus.mongodb.hosts]`\n"
@@ -820,18 +856,21 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-hosts]]`link:#quarkus-mongodb_quarkus-mongodb-hosts[quarkus.mongodb.hosts]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the MongoDB server addressed (one if single mode). The addresses are passed as `host:port`."
-msgstr ""
+msgstr "Configura o endereço do servidor MongoDB (um único endereço, se estiver no modo único). Os endereços são fornecidos no formato `host:porta` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_HOSTS[]"
 
 #, fuzzy
 msgid "list of string"
 msgstr "lista de strings"
 
+#, fuzzy
 msgid "`127.0.0.1:27017`"
-msgstr ""
+msgstr "`127.0.0.1:27017`"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-database]]`link:#quarkus-mongodb_quarkus-mongodb-database[quarkus.mongodb.database]`\n"
@@ -848,11 +887,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-database]]`link:#quarkus-mongodb_quarkus-mongodb-database[quarkus.mongodb.database]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configure the database name."
-msgstr ""
+msgstr "Configure o nome do banco de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DATABASE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DATABASE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-application-name]]`link:#quarkus-mongodb_quarkus-mongodb-application-name[quarkus.mongodb.application-name]`\n"
@@ -869,11 +910,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-application-name]]`link:#quarkus-mongodb_quarkus-mongodb-application-name[quarkus.mongodb.application-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the application name."
-msgstr ""
+msgstr "Configura o nome do aplicativo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_APPLICATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_APPLICATION_NAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-max-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-max-pool-size[quarkus.mongodb.max-pool-size]`\n"
@@ -890,11 +933,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-max-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-max-pool-size[quarkus.mongodb.max-pool-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the maximum number of connections in the connection pool."
-msgstr ""
+msgstr "Configura o número máximo de conexões no pool de conexões."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_MAX_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_MAX_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-min-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-min-pool-size[quarkus.mongodb.min-pool-size]`\n"
@@ -911,11 +956,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-min-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-min-pool-size[quarkus.mongodb.min-pool-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the minimum number of connections in the connection pool."
-msgstr ""
+msgstr "Configura o número mínimo de conexões no pool de conexões."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_MIN_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_MIN_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-max-connection-idle-time]]`link:#quarkus-mongodb_quarkus-mongodb-max-connection-idle-time[quarkus.mongodb.max-connection-idle-time]`\n"
@@ -932,11 +979,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-max-connection-idle-time]]`link:#quarkus-mongodb_quarkus-mongodb-max-connection-idle-time[quarkus.mongodb.max-connection-idle-time]`"
 msgstr ""
 
+#, fuzzy
 msgid "Maximum idle time of a pooled connection. A connection that exceeds this limit will be closed."
-msgstr ""
+msgstr "Tempo máximo de inatividade de uma conexão em pool. Uma conexão que exceder esse limite será encerrada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_MAX_CONNECTION_IDLE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_MAX_CONNECTION_IDLE_TIME[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
@@ -958,11 +1007,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-max-connection-life-time]]`link:#quarkus-mongodb_quarkus-mongodb-max-connection-life-time[quarkus.mongodb.max-connection-life-time]`"
 msgstr ""
 
+#, fuzzy
 msgid "Maximum lifetime of a pooled connection. A connection that exceeds this limit will be closed."
-msgstr ""
+msgstr "Tempo máximo de duração de uma conexão compartilhada. Uma conexão que exceder esse limite será encerrada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_MAX_CONNECTION_LIFE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_MAX_CONNECTION_LIFE_TIME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-maintenance-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-maintenance-frequency[quarkus.mongodb.maintenance-frequency]`\n"
@@ -979,11 +1030,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-maintenance-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-maintenance-frequency[quarkus.mongodb.maintenance-frequency]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the time period between runs of the maintenance job."
-msgstr ""
+msgstr "Configura o intervalo de tempo entre as execuções da tarefa de manutenção."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_MAINTENANCE_FREQUENCY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_MAINTENANCE_FREQUENCY[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-maintenance-initial-delay]]`link:#quarkus-mongodb_quarkus-mongodb-maintenance-initial-delay[quarkus.mongodb.maintenance-initial-delay]`\n"
@@ -1000,11 +1053,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-maintenance-initial-delay]]`link:#quarkus-mongodb_quarkus-mongodb-maintenance-initial-delay[quarkus.mongodb.maintenance-initial-delay]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures period of time to wait before running the first maintenance job on the connection pool."
-msgstr ""
+msgstr "Configura o período de tempo de espera antes da execução da primeira tarefa de manutenção no pool de conexões."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_MAINTENANCE_INITIAL_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_MAINTENANCE_INITIAL_DELAY[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-connect-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-connect-timeout[quarkus.mongodb.connect-timeout]`\n"
@@ -1021,11 +1076,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-connect-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-connect-timeout[quarkus.mongodb.connect-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "How long a connection can take to be opened before timing out."
-msgstr ""
+msgstr "Quanto tempo uma conexão pode demorar para ser estabelecida antes de ocorrer o tempo limite."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CONNECT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-read-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-read-timeout[quarkus.mongodb.read-timeout]`\n"
@@ -1042,11 +1099,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-read-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-read-timeout[quarkus.mongodb.read-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "How long a socket read can take before timing out."
-msgstr ""
+msgstr "Quanto tempo uma leitura de socket pode demorar antes de atingir o tempo limite."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_READ_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_READ_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-tls-insecure]]`link:#quarkus-mongodb_quarkus-mongodb-tls-insecure[quarkus.mongodb.tls-insecure]`\n"
@@ -1063,11 +1122,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-tls-insecure]]`link:#quarkus-mongodb_quarkus-mongodb-tls-insecure[quarkus.mongodb.tls-insecure]`"
 msgstr ""
 
+#, fuzzy
 msgid "If connecting with TLS, this option enables insecure TLS connections."
-msgstr ""
+msgstr "Caso a conexão seja feita via TLS, esta opção habilita conexões TLS não seguras."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_TLS_INSECURE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_TLS_INSECURE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-tls]]`link:#quarkus-mongodb_quarkus-mongodb-tls[quarkus.mongodb.tls]`\n"
@@ -1084,11 +1145,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-tls]]`link:#quarkus-mongodb_quarkus-mongodb-tls[quarkus.mongodb.tls]`"
 msgstr ""
 
+#, fuzzy
 msgid "Whether to connect using TLS."
-msgstr ""
+msgstr "Se a conexão deve ser feita por meio de TLS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_TLS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_TLS[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-replica-set-name]]`link:#quarkus-mongodb_quarkus-mongodb-replica-set-name[quarkus.mongodb.replica-set-name]`\n"
@@ -1105,11 +1168,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-replica-set-name]]`link:#quarkus-mongodb_quarkus-mongodb-replica-set-name[quarkus.mongodb.replica-set-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Implies that the hosts given are a seed list, and the driver will attempt to find all members of the set."
-msgstr ""
+msgstr "Isso significa que os hosts fornecidos constituem uma lista inicial, e o driver tentará localizar todos os membros desse conjunto."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_REPLICA_SET_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_REPLICA_SET_NAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-server-selection-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-server-selection-timeout[quarkus.mongodb.server-selection-timeout]`\n"
@@ -1126,11 +1191,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-server-selection-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-server-selection-timeout[quarkus.mongodb.server-selection-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "How long the driver will wait for server selection to succeed before throwing an exception."
-msgstr ""
+msgstr "Por quanto tempo o driver aguardará até que a seleção do servidor seja bem-sucedida antes de lançar uma exceção."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_SERVER_SELECTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_SERVER_SELECTION_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-local-threshold]]`link:#quarkus-mongodb_quarkus-mongodb-local-threshold[quarkus.mongodb.local-threshold]`\n"
@@ -1147,11 +1214,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-local-threshold]]`link:#quarkus-mongodb_quarkus-mongodb-local-threshold[quarkus.mongodb.local-threshold]`"
 msgstr ""
 
+#, fuzzy
 msgid "When choosing among multiple MongoDB servers to send a request, the driver will only send that request to a server whose ping time is less than or equal to the server with the fastest ping time plus the local threshold."
-msgstr ""
+msgstr "Ao escolher entre vários servidores MongoDB para enviar uma solicitação, o driver enviará essa solicitação apenas a um servidor cujo tempo de ping seja menor ou igual ao tempo de ping do servidor mais rápido, somado ao limite local."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_LOCAL_THRESHOLD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_LOCAL_THRESHOLD[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-heartbeat-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-heartbeat-frequency[quarkus.mongodb.heartbeat-frequency]`\n"
@@ -1168,11 +1237,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-heartbeat-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-heartbeat-frequency[quarkus.mongodb.heartbeat-frequency]`"
 msgstr ""
 
+#, fuzzy
 msgid "The frequency that the driver will attempt to determine the current state of each server in the cluster."
-msgstr ""
+msgstr "A frequência com que o driver tentará determinar o estado atual de cada servidor no cluster."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_HEARTBEAT_FREQUENCY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_HEARTBEAT_FREQUENCY[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-read-concern]]`link:#quarkus-mongodb_quarkus-mongodb-read-concern[quarkus.mongodb.read-concern]`\n"
@@ -1189,11 +1260,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-read-concern]]`link:#quarkus-mongodb_quarkus-mongodb-read-concern[quarkus.mongodb.read-concern]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the read concern. Supported values are: `local++|++majority++|++linearizable++|++snapshot++|++available`"
-msgstr ""
+msgstr "Configura a preocupação de leitura. Os valores suportados são: `local|majority|linearizable|snapshot|available`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_READ_CONCERN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_READ_CONCERN[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-read-preference]]`link:#quarkus-mongodb_quarkus-mongodb-read-preference[quarkus.mongodb.read-preference]`\n"
@@ -1210,11 +1283,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-read-preference]]`link:#quarkus-mongodb_quarkus-mongodb-read-preference[quarkus.mongodb.read-preference]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the read preference. Supported values are: `primary++|++primaryPreferred++|++secondary++|++secondaryPreferred++|++nearest`"
-msgstr ""
+msgstr "Configura a preferência de leitura. Os valores suportados são: `primary|primaryPreferred|secondary|secondaryPreferred|nearest`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_READ_PREFERENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_READ_PREFERENCE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-health-database]]`link:#quarkus-mongodb_quarkus-mongodb-health-database[quarkus.mongodb.health.database]`\n"
@@ -1231,14 +1306,17 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-health-database]]`link:#quarkus-mongodb_quarkus-mongodb-health-database[quarkus.mongodb.health.database]`"
 msgstr ""
 
+#, fuzzy
 msgid "The database used during the readiness health checks"
-msgstr ""
+msgstr "O banco de dados utilizado durante as verificações de prontidão"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_HEALTH_DATABASE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_HEALTH_DATABASE[]"
 
+#, fuzzy
 msgid "`admin`"
-msgstr ""
+msgstr "`admin`"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-dns-server-host]]`link:#quarkus-mongodb_quarkus-mongodb-dns-server-host[quarkus.mongodb.dns.server-host]`\n"
@@ -1255,11 +1333,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-dns-server-host]]`link:#quarkus-mongodb_quarkus-mongodb-dns-server-host[quarkus.mongodb.dns.server-host]`"
 msgstr ""
 
+#, fuzzy
 msgid "This property configures the DNS server. If the server is not set, it tries to read the first `nameserver` from `/etc /resolv.conf` (if the file exists), otherwise fallback to the default."
-msgstr ""
+msgstr "Esta propriedade configura o servidor DNS. Se o servidor não estiver definido, o sistema tentará ler o primeiro `servidor de nomes` do `arquivo /etc/resolv.conf` (caso o arquivo exista); caso contrário, recorrerá ao valor padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DNS_SERVER_HOST+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DNS_SERVER_HOST[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-dns-server-port]]`link:#quarkus-mongodb_quarkus-mongodb-dns-server-port[quarkus.mongodb.dns.server-port]`\n"
@@ -1276,14 +1356,17 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-dns-server-port]]`link:#quarkus-mongodb_quarkus-mongodb-dns-server-port[quarkus.mongodb.dns.server-port]`"
 msgstr ""
 
+#, fuzzy
 msgid "This property configures the DNS server port."
-msgstr ""
+msgstr "Esta propriedade configura a porta do servidor DNS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DNS_SERVER_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DNS_SERVER_PORT[]"
 
+#, fuzzy
 msgid "`53`"
-msgstr ""
+msgstr "`53`"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-dns-lookup-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-dns-lookup-timeout[quarkus.mongodb.dns.lookup-timeout]`\n"
@@ -1300,14 +1383,17 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-dns-lookup-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-dns-lookup-timeout[quarkus.mongodb.dns.lookup-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "If `native.dns.use-vertx-dns-resolver` is set to `true`, this property configures the DNS lookup timeout duration."
-msgstr ""
+msgstr "Se a propriedade ` `native.dns.use-vertx-dns-resolver` ` estiver definida como ` `true` `, esta propriedade configura o tempo limite para a consulta de DNS."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DNS_LOOKUP_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DNS_LOOKUP_TIMEOUT[]"
 
+#, fuzzy
 msgid "`5S`"
-msgstr ""
+msgstr "`5S`"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-dns-log-activity]]`link:#quarkus-mongodb_quarkus-mongodb-dns-log-activity[quarkus.mongodb.dns.log-activity]`\n"
@@ -1324,11 +1410,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-dns-log-activity]]`link:#quarkus-mongodb_quarkus-mongodb-dns-log-activity[quarkus.mongodb.dns.log-activity]`"
 msgstr ""
 
+#, fuzzy
 msgid "This property enables the logging ot the DNS lookup. It can be useful to understand why the lookup fails."
-msgstr ""
+msgstr "Esta propriedade permite o registro em log da consulta de DNS. Isso pode ser útil para entender por que a consulta falha."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_DNS_LOG_ACTIVITY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_DNS_LOG_ACTIVITY[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-mongodb_quarkus-mongodb-devservices-properties-properties]]`link:#quarkus-mongodb_quarkus-mongodb-devservices-properties-properties[quarkus.mongodb.devservices.properties]`\n"
@@ -1401,8 +1489,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-connection-string]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-connection-string[quarkus.mongodb.\"mongo-client-configs\".connection-string]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CONNECTION_STRING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CONNECTION_STRING[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-hosts]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-hosts[quarkus.mongodb.\"mongo-client-configs\".hosts]`\n"
@@ -1419,8 +1508,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-hosts]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-hosts[quarkus.mongodb.\"mongo-client-configs\".hosts]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__HOSTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__HOSTS[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-database]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-database[quarkus.mongodb.\"mongo-client-configs\".database]`\n"
@@ -1437,8 +1527,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-database]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-database[quarkus.mongodb.\"mongo-client-configs\".database]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__DATABASE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__DATABASE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-application-name]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-application-name[quarkus.mongodb.\"mongo-client-configs\".application-name]`\n"
@@ -1455,8 +1546,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-application-name]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-application-name[quarkus.mongodb.\"mongo-client-configs\".application-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__APPLICATION_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__APPLICATION_NAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-pool-size[quarkus.mongodb.\"mongo-client-configs\".max-pool-size]`\n"
@@ -1473,8 +1565,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-pool-size[quarkus.mongodb.\"mongo-client-configs\".max-pool-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAX_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAX_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-min-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-min-pool-size[quarkus.mongodb.\"mongo-client-configs\".min-pool-size]`\n"
@@ -1491,8 +1584,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-min-pool-size]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-min-pool-size[quarkus.mongodb.\"mongo-client-configs\".min-pool-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MIN_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MIN_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-idle-time]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-idle-time[quarkus.mongodb.\"mongo-client-configs\".max-connection-idle-time]`\n"
@@ -1509,8 +1603,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-idle-time]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-idle-time[quarkus.mongodb.\"mongo-client-configs\".max-connection-idle-time]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAX_CONNECTION_IDLE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAX_CONNECTION_IDLE_TIME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-life-time]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-life-time[quarkus.mongodb.\"mongo-client-configs\".max-connection-life-time]`\n"
@@ -1527,8 +1622,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-life-time]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-max-connection-life-time[quarkus.mongodb.\"mongo-client-configs\".max-connection-life-time]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAX_CONNECTION_LIFE_TIME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAX_CONNECTION_LIFE_TIME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-frequency[quarkus.mongodb.\"mongo-client-configs\".maintenance-frequency]`\n"
@@ -1545,8 +1641,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-frequency[quarkus.mongodb.\"mongo-client-configs\".maintenance-frequency]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAINTENANCE_FREQUENCY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAINTENANCE_FREQUENCY[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-initial-delay]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-initial-delay[quarkus.mongodb.\"mongo-client-configs\".maintenance-initial-delay]`\n"
@@ -1563,8 +1660,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-initial-delay]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-maintenance-initial-delay[quarkus.mongodb.\"mongo-client-configs\".maintenance-initial-delay]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAINTENANCE_INITIAL_DELAY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__MAINTENANCE_INITIAL_DELAY[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-connect-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-connect-timeout[quarkus.mongodb.\"mongo-client-configs\".connect-timeout]`\n"
@@ -1581,8 +1679,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-connect-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-connect-timeout[quarkus.mongodb.\"mongo-client-configs\".connect-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CONNECT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CONNECT_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-timeout[quarkus.mongodb.\"mongo-client-configs\".read-timeout]`\n"
@@ -1599,8 +1698,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-timeout[quarkus.mongodb.\"mongo-client-configs\".read-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__READ_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__READ_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls-insecure]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls-insecure[quarkus.mongodb.\"mongo-client-configs\".tls-insecure]`\n"
@@ -1617,8 +1717,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls-insecure]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls-insecure[quarkus.mongodb.\"mongo-client-configs\".tls-insecure]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__TLS_INSECURE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__TLS_INSECURE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls[quarkus.mongodb.\"mongo-client-configs\".tls]`\n"
@@ -1635,8 +1736,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-tls[quarkus.mongodb.\"mongo-client-configs\".tls]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__TLS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__TLS[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-replica-set-name]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-replica-set-name[quarkus.mongodb.\"mongo-client-configs\".replica-set-name]`\n"
@@ -1653,8 +1755,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-replica-set-name]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-replica-set-name[quarkus.mongodb.\"mongo-client-configs\".replica-set-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__REPLICA_SET_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__REPLICA_SET_NAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-server-selection-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-server-selection-timeout[quarkus.mongodb.\"mongo-client-configs\".server-selection-timeout]`\n"
@@ -1671,8 +1774,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-server-selection-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-server-selection-timeout[quarkus.mongodb.\"mongo-client-configs\".server-selection-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__SERVER_SELECTION_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__SERVER_SELECTION_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-local-threshold]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-local-threshold[quarkus.mongodb.\"mongo-client-configs\".local-threshold]`\n"
@@ -1689,8 +1793,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-local-threshold]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-local-threshold[quarkus.mongodb.\"mongo-client-configs\".local-threshold]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__LOCAL_THRESHOLD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__LOCAL_THRESHOLD[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-heartbeat-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-heartbeat-frequency[quarkus.mongodb.\"mongo-client-configs\".heartbeat-frequency]`\n"
@@ -1707,8 +1812,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-heartbeat-frequency]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-heartbeat-frequency[quarkus.mongodb.\"mongo-client-configs\".heartbeat-frequency]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__HEARTBEAT_FREQUENCY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__HEARTBEAT_FREQUENCY[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-concern]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-concern[quarkus.mongodb.\"mongo-client-configs\".read-concern]`\n"
@@ -1725,8 +1831,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-concern]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-concern[quarkus.mongodb.\"mongo-client-configs\".read-concern]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__READ_CONCERN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__READ_CONCERN[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-preference]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-preference[quarkus.mongodb.\"mongo-client-configs\".read-preference]`\n"
@@ -1743,8 +1850,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-preference]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-read-preference[quarkus.mongodb.\"mongo-client-configs\".read-preference]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__READ_PREFERENCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__READ_PREFERENCE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-health-database]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-health-database[quarkus.mongodb.\"mongo-client-configs\".health.database]`\n"
@@ -1761,8 +1869,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-health-database]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-health-database[quarkus.mongodb.\"mongo-client-configs\".health.database]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__HEALTH_DATABASE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__HEALTH_DATABASE[]"
 
 msgid "[[quarkus-mongodb_quarkus-mongodb-write-concern-write-concern]]link:#quarkus-mongodb_quarkus-mongodb-write-concern-write-concern[Write concern]"
 msgstr ""
@@ -1783,13 +1892,15 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-write-concern-safe]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-safe[quarkus.mongodb.write-concern.safe]`"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Configures the safety. If set to `true`: the driver ensures that all writes are acknowledged by the MongoDB server, or else throws an exception. (see also `w` and `wtimeoutMS`). If set fo\n"
 " - `false`: the driver does not ensure that all writes are acknowledged by the MongoDB server."
-msgstr ""
+msgstr "Configura a segurança. Se definido como ``true`` : o driver garante que todas as gravações sejam confirmadas pelo servidor MongoDB; caso contrário, lança uma exceção. (consulte também ``w`` e ``wtimeoutMS`` ). Se definido como ` `false`` : o driver não garante que todas as gravações sejam confirmadas pelo servidor MongoDB."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_WRITE_CONCERN_SAFE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_WRITE_CONCERN_SAFE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-write-concern-journal]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-journal[quarkus.mongodb.write-concern.journal]`\n"
@@ -1806,11 +1917,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-write-concern-journal]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-journal[quarkus.mongodb.write-concern.journal]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the journal writing aspect. If set to `true`: the driver waits for the server to group commit to the journal file on disk. If set to `false`: the driver does not wait for the server to group commit to the journal file on disk."
-msgstr ""
+msgstr "Configura o comportamento de gravação no diário. Se definido como `“true` ”: o driver aguarda até que o servidor realize o commit em grupo no arquivo de diário no disco. Se definido como `“false` ”: o driver não aguarda até que o servidor realize o commit em grupo no arquivo de diário no disco."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_WRITE_CONCERN_JOURNAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_WRITE_CONCERN_JOURNAL[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-write-concern-w]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-w[quarkus.mongodb.write-concern.w]`\n"
@@ -1827,11 +1940,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-write-concern-w]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-w[quarkus.mongodb.write-concern.w]`"
 msgstr ""
 
+#, fuzzy
 msgid "When set, the driver adds `w: wValue` to all write commands. It requires `safe` to be `true`. The value is typically a number, but can also be the `majority` string."
-msgstr ""
+msgstr "Quando definido, o driver adiciona `w: wValue` a todos os comandos de gravação. Isso requer que `safe` esteja definido `como verdadeiro` . O valor é normalmente um número, mas também pode ser a string `“majority` ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_WRITE_CONCERN_W+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_WRITE_CONCERN_W[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-write-concern-retry-writes]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-retry-writes[quarkus.mongodb.write-concern.retry-writes]`\n"
@@ -1848,11 +1963,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-write-concern-retry-writes]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-retry-writes[quarkus.mongodb.write-concern.retry-writes]`"
 msgstr ""
 
+#, fuzzy
 msgid "If set to `true`, the driver will retry supported write operations if they fail due to a network error."
-msgstr ""
+msgstr "Se definido como `“true”` , o driver tentará novamente as operações de gravação compatíveis caso elas falhem devido a um erro de rede."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_WRITE_CONCERN_RETRY_WRITES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_WRITE_CONCERN_RETRY_WRITES[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-write-concern-w-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-w-timeout[quarkus.mongodb.write-concern.w-timeout]`\n"
@@ -1869,11 +1986,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-write-concern-w-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-write-concern-w-timeout[quarkus.mongodb.write-concern.w-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "When set, the driver adds `wtimeout : ms` to all write commands. It requires `safe` to be `true`."
-msgstr ""
+msgstr "Quando definido, o driver adiciona `wtimeout : ms` a todos os comandos de gravação. Isso requer que `safe` esteja definido como `verdadeiro` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_WRITE_CONCERN_W_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_WRITE_CONCERN_W_TIMEOUT[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-safe]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-safe[quarkus.mongodb.\"mongo-client-configs\".write-concern.safe]`\n"
@@ -1891,8 +2010,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-safe]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-safe[quarkus.mongodb.\"mongo-client-configs\".write-concern.safe]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_SAFE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_SAFE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-journal]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-journal[quarkus.mongodb.\"mongo-client-configs\".write-concern.journal]`\n"
@@ -1909,8 +2029,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-journal]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-journal[quarkus.mongodb.\"mongo-client-configs\".write-concern.journal]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_JOURNAL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_JOURNAL[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w[quarkus.mongodb.\"mongo-client-configs\".write-concern.w]`\n"
@@ -1927,8 +2048,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w[quarkus.mongodb.\"mongo-client-configs\".write-concern.w]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_W+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_W[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-retry-writes]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-retry-writes[quarkus.mongodb.\"mongo-client-configs\".write-concern.retry-writes]`\n"
@@ -1945,8 +2067,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-retry-writes]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-retry-writes[quarkus.mongodb.\"mongo-client-configs\".write-concern.retry-writes]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_RETRY_WRITES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_RETRY_WRITES[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w-timeout[quarkus.mongodb.\"mongo-client-configs\".write-concern.w-timeout]`\n"
@@ -1963,8 +2086,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w-timeout]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-write-concern-w-timeout[quarkus.mongodb.\"mongo-client-configs\".write-concern.w-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_W_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__WRITE_CONCERN_W_TIMEOUT[]"
 
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-credentials-and-authentication-mechanism]]link:#quarkus-mongodb_quarkus-mongodb-credentials-credentials-and-authentication-mechanism[Credentials and authentication mechanism]"
 msgstr ""
@@ -1984,11 +2108,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-username]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-username[quarkus.mongodb.credentials.username]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the username."
-msgstr ""
+msgstr "Configura o nome de usuário."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_USERNAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-credentials-password]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-password[quarkus.mongodb.credentials.password]`\n"
@@ -2005,11 +2131,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-password]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-password[quarkus.mongodb.credentials.password]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the password."
-msgstr ""
+msgstr "Configura a senha."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism[quarkus.mongodb.credentials.auth-mechanism]`\n"
@@ -2026,11 +2154,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism[quarkus.mongodb.credentials.auth-mechanism]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the authentication mechanism to use if a credential was supplied. The default is unspecified, in which case the client will pick the most secure mechanism available based on the sever version. For the GSSAPI and MONGODB-X509 mechanisms, no password is accepted, only the username. Supported values: null or `GSSAPI++|++PLAIN++|++MONGODB-X509++|++SCRAM_SHA_1++|++SCRAM_SHA_256++|++MONGODB_AWS`"
-msgstr ""
+msgstr "Configura o mecanismo de autenticação a ser utilizado caso uma credencial tenha sido fornecida. O padrão é “não especificado”; nesse caso, o cliente selecionará o mecanismo mais seguro disponível com base na versão do servidor. Para os mecanismos GSSAPI e MONGODB-X509, não é aceita senha, apenas o nome de usuário. Valores suportados: null ou `GSSAPI|PLAIN|MONGODB-X509|SCRAM_SHA_1|SCRAM_SHA_256|MONGODB_AWS`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_AUTH_MECHANISM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_AUTH_MECHANISM[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-credentials-auth-source]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-auth-source[quarkus.mongodb.credentials.auth-source]`\n"
@@ -2047,11 +2177,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-auth-source]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-auth-source[quarkus.mongodb.credentials.auth-source]`"
 msgstr ""
 
+#, fuzzy
 msgid "Configures the source of the authentication credentials. This is typically the database where the credentials have been created. The value defaults to the database specified in the path portion of the connection string or in the 'database' configuration property. If the database is specified in neither place, the default value is `admin`. This option is only respected when using the MONGO-CR mechanism (the default)."
-msgstr ""
+msgstr "Configura a origem das credenciais de autenticação. Normalmente, trata-se do banco de dados no qual as credenciais foram criadas. O valor padrão é o banco de dados especificado na parte do caminho da string de conexão ou na propriedade de configuração 'database'. Se o banco de dados não estiver especificado em nenhum desses locais, o valor padrão é `admin` . Esta opção só é respeitada ao utilizar o mecanismo MONGO-CR (padrão)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_AUTH_SOURCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_AUTH_SOURCE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider[quarkus.mongodb.credentials.credentials-provider]`\n"
@@ -2068,11 +2200,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider[quarkus.mongodb.credentials.credentials-provider]`"
 msgstr ""
 
+#, fuzzy
 msgid "The credentials provider name"
-msgstr ""
+msgstr "O nome do provedor de credenciais"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_CREDENTIALS_PROVIDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_CREDENTIALS_PROVIDER[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider-name]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider-name[quarkus.mongodb.credentials.credentials-provider-name]`\n"
@@ -2093,17 +2227,21 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider-name]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-credentials-provider-name[quarkus.mongodb.credentials.credentials-provider-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The credentials provider bean name."
-msgstr ""
+msgstr "O nome do bean do provedor de credenciais."
 
+#, fuzzy
 msgid "This is a bean name (as in `@Named`) of a bean that implements `CredentialsProvider`. It is used to select the credentials provider bean when multiple exist. This is unnecessary when there is only one credentials provider available."
-msgstr ""
+msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver mais de um. Isso não é necessário quando há apenas um provedor de credenciais disponível."
 
+#, fuzzy
 msgid "For Vault, the credentials provider bean name is `vault-credentials-provider`."
-msgstr ""
+msgstr "No caso do Vault, o nome do bean do provedor de credenciais é `vault-credentials-provider` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_CREDENTIALS_PROVIDER_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_CREDENTIALS_PROVIDER_NAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism-properties-auth-mechanism-properties]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism-properties-auth-mechanism-properties[quarkus.mongodb.credentials.auth-mechanism-properties]`\n"
@@ -2120,11 +2258,13 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism-properties-auth-mechanism-properties]]`link:#quarkus-mongodb_quarkus-mongodb-credentials-auth-mechanism-properties-auth-mechanism-properties[quarkus.mongodb.credentials.auth-mechanism-properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "Allows passing authentication mechanism properties."
-msgstr ""
+msgstr "Permite passar propriedades do mecanismo de autenticação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB_CREDENTIALS_AUTH_MECHANISM_PROPERTIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB_CREDENTIALS_AUTH_MECHANISM_PROPERTIES[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-username]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-username[quarkus.mongodb.\"mongo-client-configs\".credentials.username]`\n"
@@ -2141,8 +2281,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-username]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-username[quarkus.mongodb.\"mongo-client-configs\".credentials.username]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_USERNAME[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-password]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-password[quarkus.mongodb.\"mongo-client-configs\".credentials.password]`\n"
@@ -2159,8 +2300,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-password]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-password[quarkus.mongodb.\"mongo-client-configs\".credentials.password]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_PASSWORD[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism[quarkus.mongodb.\"mongo-client-configs\".credentials.auth-mechanism]`\n"
@@ -2177,8 +2319,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism[quarkus.mongodb.\"mongo-client-configs\".credentials.auth-mechanism]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_AUTH_MECHANISM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_AUTH_MECHANISM[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-source]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-source[quarkus.mongodb.\"mongo-client-configs\".credentials.auth-source]`\n"
@@ -2195,8 +2338,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-source]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-source[quarkus.mongodb.\"mongo-client-configs\".credentials.auth-source]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_AUTH_SOURCE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_AUTH_SOURCE[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism-properties-auth-mechanism-properties]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism-properties-auth-mechanism-properties[quarkus.mongodb.\"mongo-client-configs\".credentials.auth-mechanism-properties]`\n"
@@ -2213,8 +2357,9 @@ msgstr ""
 msgid "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism-properties-auth-mechanism-properties]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-auth-mechanism-properties-auth-mechanism-properties[quarkus.mongodb.\"mongo-client-configs\".credentials.auth-mechanism-properties]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_AUTH_MECHANISM_PROPERTIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_AUTH_MECHANISM_PROPERTIES[]"
 
 msgid ""
 "[[quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-credentials-provider]]`link:#quarkus-mongodb_quarkus-mongodb-mongo-client-configs-credentials-credentials-provider[quarkus.mongodb.\"mongo-client-configs\".credentials.credentials-provider]`\n"
@@ -2256,8 +2401,9 @@ msgstr ""
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MONGODB__MONGO_CLIENT_CONFIGS__CREDENTIALS_CREDENTIALS_PROVIDER_NAME+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"

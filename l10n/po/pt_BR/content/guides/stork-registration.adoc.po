@@ -349,7 +349,7 @@ msgstr " link:#quarkus-smallrye-stork_quarkus-stork-service-name-load-balancer-p
 msgid ""
 "[[quarkus-smallrye-stork_quarkus-stork-service-name-load-balancer-parameters]] [.property-path]##link:#quarkus-smallrye-stork_quarkus-stork-service-name-load-balancer-parameters[`+++quarkus.stork.\"service-name\".load-balancer.\"parameters\"+++`]##\n"
 "config_property_copy_button:+++quarkus.stork.\"service-name\".load-balancer.\"parameters\"+++[]"
-msgstr " link:#quarkus-smallrye-stork_quarkus-stork-service-name-load-balancer-parameters[quarkus.stork.\"nome-do-serviço\".load-balancer.\"parâmetros\"] botão_para_copiar_propriedade_de_configuração:quarkus.stork.\"nome-do-serviço\".load-balancer.\"parâmetros\"[]"
+msgstr " link:#quarkus-smallrye-stork_quarkus-stork-service-name-load-balancer-parameters[quarkus.stork.\"nome-do-serviço\".load-balancer.\"parâmetros\"] config_property_copy_button:quarkus.stork.\"nome-do-serviço\".load-balancer.\"parâmetros\"[]"
 
 #. mt: deepl
 #, fuzzy

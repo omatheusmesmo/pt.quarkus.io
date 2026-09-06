@@ -574,7 +574,7 @@ msgstr "[lock] `link:#quarkus-live-reload-live-reload-config_quarkus.live-reload
 #. mt: deepl
 #, fuzzy
 msgid "The amount of time to wait between attempts when connecting to the server side of remote dev"
-msgstr "O tempo de espera entre as tentativas ao se conectar ao servidor no desenvolvimento remoto"
+msgstr "O tempo de espera entre as tentativas ao se conectar ao servidor no ambiente de desenvolvimento remoto"
 
 #. mt: deepl
 #, fuzzy

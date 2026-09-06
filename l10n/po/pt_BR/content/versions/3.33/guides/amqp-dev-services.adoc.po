@@ -128,7 +128,7 @@ msgstr "[lock]  link:#quarkus-messaging-amqp_quarkus-amqp-devservices_quarkus-am
 #. mt: deepl
 #, fuzzy
 msgid "If Dev Services for AMQP has been explicitly enabled or disabled. Dev Services are generally enabled by default, unless there is an existing configuration present. For AMQP, Dev Services starts a broker unless `amqp-host` or `amqp-port` are set or if all the Reactive Messaging AMQP channel are configured with `host` or `port`."
-msgstr "Se os Serviços de Desenvolvimento para AMQP foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que haja uma configuração existente. Para AMQP, os Serviços de Desenvolvimento iniciam um broker, a menos que `amqp-host` ou `amqp-port` estejam definidos ou que todos os canais AMQP do Reactive Messaging estejam configurados com `host` ou `porta` ."
+msgstr "Se os Serviços de Desenvolvimento para AMQP foram explicitamente ativados ou desativados. Os Serviços de Desenvolvimento geralmente estão ativados por padrão, a menos que exista uma configuração prévia. Para AMQP, os Serviços de Desenvolvimento iniciam um broker, a menos que `os parâmetros `amqp-host`` ou ``amqp-port`` estejam definidos ou que todos os canais AMQP do Reactive Messaging estejam configurados com `host` ou `porta` ."
 
 #. mt: deepl
 #, fuzzy
@@ -352,7 +352,7 @@ msgstr "[lock]  link:#quarkus-messaging-amqp_quarkus-amqp-devservices_quarkus-am
 #. mt: deepl
 #, fuzzy
 msgid "The value of the `quarkus-dev-service-aqmp` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for AMQP looks for a container with the `quarkus-dev-service-amqp` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-amqp` label set to the specified value."
-msgstr "O valor do rótulo `“quarkus-dev-service-aqmp”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for AMQP procura um contêiner com o rótulo `“quarkus-dev-service-amqp”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-amqp”` definida com o valor especificado."
+msgstr "O valor da etiqueta ` `quarkus-dev-service-aqmp` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for AMQP procura um contêiner com a etiqueta ``quarkus-dev-service-amqp`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-amqp”` definida com o valor especificado."
 
 #. mt: deepl
 #, fuzzy

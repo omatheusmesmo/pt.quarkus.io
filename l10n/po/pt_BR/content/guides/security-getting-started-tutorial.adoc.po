@@ -281,10 +281,11 @@ msgstr "Para obter mais informações sobre a configuração de senhas e funçõ
 msgid "For more information on hashing passwords and available options, see xref:security-jpa.adoc#password-storage-and-hashing[Password storage and hashing]."
 msgstr "Para obter mais informações sobre o hashing de senhas e as opções disponíveis, consulte xref:security-jpa.adoc#password-storage-and-hashing[Armazenamento de senhas e hashing] ."
 
+#, fuzzy
 msgid ""
 "Remember to set up the Panache and PostgreSQL JDBC driver.\n"
 "For more information, see xref:hibernate-orm-panache.adoc#setting-up-and-configuring-hibernate-orm-with-panache[Setting up and configuring Hibernate ORM with Panache]."
-msgstr ""
+msgstr "Lembre-se de configurar o driver JDBC do Panache e do PostgreSQL. Para obter mais informações, consulte xref:hibernate-orm-panache.adoc#setting-up-and-configuring-hibernate-orm-with-panache[Instalação e configuração do Hibernate ORM com o Panache] ."
 
 msgid ""
 "Hibernate Reactive Panache uses `io.quarkus.hibernate.reactive.panache.PanacheEntity` instead of `io.quarkus.hibernate.orm.panache.PanacheEntity`.\n"

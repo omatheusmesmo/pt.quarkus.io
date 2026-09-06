@@ -229,7 +229,7 @@ msgstr " link:#quarkus-redis-cache_quarkus-cache-redis-expire-after-write[quarku
 #. mt: deepl
 #, fuzzy
 msgid "Specifies that each entry should be automatically removed from the cache once a fixed duration has elapsed after the entry's creation, or the most recent replacement of its value."
-msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a substituição mais recente de seu valor."
+msgstr "Especifica que cada entrada deve ser removida automaticamente do cache assim que decorrer um período fixo após a criação da entrada ou após a última atualização de seu valor."
 
 #. mt: deepl
 #, fuzzy
@@ -300,7 +300,7 @@ msgstr " link:#quarkus-redis-cache_quarkus-cache-redis-prefix[quarkus.cache.redi
 #. mt: deepl
 #, fuzzy
 msgid "The key prefix allowing to identify the keys belonging to the cache. If not set, the value \"`cache:++{++cache-name`++}++\" will be used. The variable \"`++{++cache-name`++}++\" is resolved from the value set in the cache annotations."
-msgstr "O prefixo de chave que permite identificar as chaves pertencentes ao cache. Se não for definido, será utilizado o valor \"`cache:{cache-name`}\". A variável \"`{cache-name`}\" é determinada a partir do valor definido nas anotações do cache."
+msgstr "O prefixo de chave que permite identificar as chaves pertencentes ao cache. Caso não seja definido, será utilizado o valor “`cache:{cache-name`}”. A variável “`{cache-name`}” é obtida a partir do valor definido nas anotações do cache."
 
 #. mt: deepl
 #, fuzzy
@@ -422,7 +422,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CACHE_REDIS_TTL[
 #. mt: deepl
 #, fuzzy
 msgid "[[quarkus-redis-cache_section_quarkus-cache-redis]] [.section-name.section-level0]##link:#quarkus-redis-cache_section_quarkus-cache-redis[Additional configuration applied to a specific Redis cache (highest precedence)]##"
-msgstr " link:#quarkus-redis-cache_section_quarkus-cache-redis[Configuração adicional aplicada a um cache Redis específico (prioridade máxima)]"
+msgstr " link:#quarkus-redis-cache_section_quarkus-cache-redis[Configuração adicional aplicada a um cache Redis específico (maior prioridade)]"
 
 #. mt: deepl
 #, fuzzy

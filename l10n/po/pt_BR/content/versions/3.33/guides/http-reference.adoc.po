@@ -335,7 +335,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESO
 #. mt: deepl
 #, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-vertx-http_quarkus-http-static-resources[icon:question-circle[title=More information about the Duration format]]"
-msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-vertx-http_quarkus-http-static-resources[[círculo de pergunta]]"
+msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-vertx-http_quarkus-http-static-resources[[círculo de perguntas]]"
 
 #. mt: deepl
 #, fuzzy
@@ -843,12 +843,12 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-header_quarkus-http-header-header
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-header_quarkus-http-header-header-methods]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-header_quarkus-http-header-header-methods[`+++quarkus.http.header.\"header\".methods+++`]##\n"
 "config_property_copy_button:+++quarkus.http.header.\"header\".methods+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-http-header_quarkus-http-header-header-methods[quarkus.http.header.\"header\".methods] config_property_copy_button:quarkus.http.header.\"header\".methods[]"
+msgstr " link:#quarkus-vertx-http_quarkus-http-header_quarkus-http-header-header-methods[quarkus.http.header.\"header\".methods] botão_para_copiar_propriedade_de_configuração:quarkus.http.header.\"header\".methods[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "The HTTP methods for this header configuration."
-msgstr "Os métodos HTTP para essa configuração de cabeçalho."
+msgstr "Os métodos HTTP para esta configuração de cabeçalho."
 
 #. mt: deepl
 #, fuzzy
@@ -1139,7 +1139,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_
 #. mt: deepl
 #, fuzzy
 msgid "MemorySize link:#memory-size-note-anchor-quarkus-vertx-http_quarkus-http-limits[icon:question-circle[title=More information about the MemorySize format]]"
-msgstr "MemorySize link:#memory-size-note-anchor-quarkus-vertx-http_quarkus-http-limits[[círculo de pergunta]]"
+msgstr "Tamanho da memória link:#memory-size-note-anchor-quarkus-vertx-http_quarkus-http-limits[[círculo de pergunta]]"
 
 #. mt: deepl
 #, fuzzy
@@ -1167,7 +1167,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-limits_quarkus-http-limits-max-bo
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-limits_quarkus-http-limits-max-body-size]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-limits_quarkus-http-limits-max-body-size[`+++quarkus.http.limits.max-body-size+++`]##\n"
 "config_property_copy_button:+++quarkus.http.limits.max-body-size+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-http-limits_quarkus-http-limits-max-body-size[quarkus.http.limits.max-body-size] botão_para_copiar_propriedade_de_configuração:quarkus.http.limits.max-body-size[]"
+msgstr " link:#quarkus-vertx-http_quarkus-http-limits_quarkus-http-limits-max-body-size[quarkus.http.limits.max-body-size] config_property_copy_button:quarkus.http.limits.max-body-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1485,7 +1485,7 @@ msgstr "Defina a configuração HTTP/2 SETTINGS_HEADER_TABLE_SIZE."
 #. mt: deepl
 #, fuzzy
 msgid "Allows the sender to inform the remote endpoint of the maximum size of the header compression table used to decode header blocks, in octets. The encoder can select any size equal to or less than this value by using signaling specific to the header compression format inside a header block. The initial value is `4,096` octets."
-msgstr "Permite que o remetente informe ao ponto de extremidade remoto o tamanho máximo da tabela de compressão de cabeçalho utilizada para decodificar blocos de cabeçalho, em octetos. O codificador pode selecionar qualquer tamanho igual ou inferior a esse valor, utilizando sinalização específica para o formato de compressão de cabeçalho dentro de um bloco de cabeçalho. O valor inicial é `4.096` octetos."
+msgstr "Permite que o remetente informe ao ponto de extremidade remoto o tamanho máximo da tabela de compressão de cabeçalho utilizada para decodificar blocos de cabeçalho, em octetos. O codificador pode selecionar qualquer tamanho igual ou inferior a esse valor, utilizando sinalização específica do formato de compressão de cabeçalho dentro de um bloco de cabeçalho. O valor inicial é `4.096` octetos."
 
 #. mt: deepl
 #, fuzzy
@@ -1594,7 +1594,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-limits_quarkus-http-limits-max-he
 #. mt: deepl
 #, fuzzy
 msgid "Set the SETTINGS_MAX_HEADER_LIST_SIZE HTTP/2 setting. This advisory setting informs a peer of the maximum size of header list that the sender is prepared to accept, in octets. The value is based on the uncompressed size of header fields, including the length of the name and value in octets plus an overhead of 32 octets for each header field. The default value is `8192`"
-msgstr "Defina a configuração HTTP/2 SETTINGS_MAX_HEADER_LIST_SIZE. Essa configuração consultiva informa a um par o tamanho máximo da lista de cabeçalhos que o remetente está preparado para aceitar, em octetos. O valor é baseado no tamanho não compactado dos campos de cabeçalho, incluindo o comprimento do nome e do valor em octetos, acrescido de uma sobrecarga de 32 octetos para cada campo de cabeçalho. O valor padrão é `8192`"
+msgstr "Defina a configuração HTTP/2 SETTINGS_MAX_HEADER_LIST_SIZE. Essa configuração consultiva informa a um par o tamanho máximo da lista de cabeçalhos que o remetente está disposto a aceitar, em octetos. O valor é baseado no tamanho não compactado dos campos de cabeçalho, incluindo o comprimento do nome e do valor em octetos, acrescido de uma sobrecarga de 32 octetos para cada campo de cabeçalho. O valor padrão é `8192`"
 
 #. mt: deepl
 #, fuzzy
@@ -1680,12 +1680,12 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece cadeias de caracteres neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."
 
 #, fuzzy
 msgid "Configure traffic shaping"
@@ -1863,7 +1863,7 @@ msgstr "Caso contrário, consulte a documentação do Quarkus para obter a lista
 #. mt: deepl
 #, fuzzy
 msgid "HTTP `Authorization` header value is always masked. Use the `masked-headers()` property to mask other sensitive headers."
-msgstr "O valor do cabeçalho `de autorização` HTTP é sempre ocultado. Utilize a propriedade `masked-headers()` para ocultar outros cabeçalhos confidenciais."
+msgstr "O valor do cabeçalho `de autorização` HTTP é sempre mascarado. Utilize a propriedade `masked-headers()` para mascarar outros cabeçalhos confidenciais."
 
 #. mt: deepl
 #, fuzzy

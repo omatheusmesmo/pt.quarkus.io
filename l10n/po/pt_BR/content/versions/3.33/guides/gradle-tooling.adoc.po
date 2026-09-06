@@ -329,7 +329,7 @@ msgstr "Se o Quarkus deve habilitar a capacidade de não realizar uma reiniciali
 #. mt: deepl
 #, fuzzy
 msgid "If this is set to true, Quarkus will perform class redefinition when possible."
-msgstr "Se este parâmetro estiver definido como “true”, o Quarkus realizará a redefinição de classes sempre que possível."
+msgstr "Se essa opção estiver definida como “true”, o Quarkus realizará a redefinição de classes sempre que possível."
 
 #. mt: deepl
 #, fuzzy
@@ -367,7 +367,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-live-reload-watched-resources[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "The names of additional resource files to watch for changes, triggering a reload on change. Directories are _not_ supported."
-msgstr "Os nomes dos arquivos de recursos adicionais cujas alterações devem ser monitoradas, o que acionará uma recarga caso haja alterações. Diretórios _não_ são suportados."
+msgstr "Os nomes dos arquivos de recursos adicionais cujas alterações devem ser monitoradas, o que acionará uma recarga em caso de alteração. Diretórios _não_ são suportados."
 
 #. mt: deepl
 #, fuzzy

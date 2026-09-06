@@ -611,7 +611,7 @@ msgstr "Essa é considerada uma opção avançada e só deve ser executada se o 
 #. mt: deepl
 #, fuzzy
 msgid "Using Spies instead of Mocks with <code>@InjectSpy</code>"
-msgstr "Utilizando spies em vez de mocks com <code>@InjectSpy</code>"
+msgstr "Utilizando Spies em vez de Mocks com <code>@InjectSpy</code>"
 
 #, fuzzy
 msgid ""
@@ -822,7 +822,7 @@ msgstr "Isso é abordado no xref:building-native-image.adoc[Native Executable Gu
 #. mt: deepl
 #, fuzzy
 msgid "Using <code>@QuarkusIntegrationTest</code>"
-msgstr "Utilizando <code>@QuarkusIntegrationTest</code>"
+msgstr "Utilização de <code>@QuarkusIntegrationTest</code>"
 
 #, fuzzy
 msgid ""

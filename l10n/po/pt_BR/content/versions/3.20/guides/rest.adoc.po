@@ -449,8 +449,9 @@ msgstr "`BeanParam` é necessário para estar em conformidade com a especificaç
 msgid "Record classes are also supported, so you could rewrite the previous example as a record:"
 msgstr "As classes de registro também são compatíveis, portanto, o senhor poderia reescrever o exemplo anterior como um registro:"
 
+#, fuzzy
 msgid "<a id=\"declaring-uri-parameters\"></a> Declaring URI parameters"
-msgstr ""
+msgstr "<a id=\"declaring-uri-parameters\"></a> Declaração de parâmetros de URI"
 
 #, fuzzy
 msgid ""

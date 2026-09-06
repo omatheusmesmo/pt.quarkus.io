@@ -782,7 +782,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-port[quarkus.mailer.port] config_pr
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".port+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".port+++[]"
-msgstr "`quarkus.mailer.\"nome-do-mailer\".porta` botão_para_copiar_propriedade_de_configuração:quarkus.mailer.\"nome-do-mailer\".porta[]"
+msgstr "`quarkus.mailer.\"mailer-name\".port` config_property_copy_button:quarkus.mailer.\"mailer-name\".port[]"
 
 #. mt: deepl
 #, fuzzy
@@ -995,7 +995,7 @@ msgstr "Se a conexão deve ser protegida por meio do TLS."
 #. mt: deepl
 #, fuzzy
 msgid "SMTP allows establishing connection with or without TLS. When establishing a connection with TLS, the connection is secured and encrypted. When establishing a connection without TLS, it can be secured and encrypted later using the STARTTLS command. In this case, the connection is initially unsecured and unencrypted. To configure this case, set this property to `false` and `start-tls` to `REQUIRED` Note that if a TLS configuration is set, TLS is enabled automatically. So, setting this property to `false` is required to not establish a connection with TLS."
-msgstr "O SMTP permite estabelecer uma conexão com ou sem TLS. Ao estabelecer uma conexão com TLS, a conexão é protegida e criptografada. Ao estabelecer uma conexão sem TLS, ela pode ser protegida e criptografada posteriormente por meio do comando STARTTLS. Nesse caso, a conexão é inicialmente não protegida e não criptografada. Para configurar essa situação, defina esta propriedade como `false` e `start-tls` como `REQUIRED` . Observe que, se uma configuração de TLS estiver definida, o TLS será ativado automaticamente. Portanto, é necessário definir esta propriedade como `false` para não estabelecer uma conexão com TLS."
+msgstr "O SMTP permite estabelecer uma conexão com ou sem TLS. Ao estabelecer uma conexão com TLS, a conexão é protegida e criptografada. Ao estabelecer uma conexão sem TLS, ela pode ser protegida e criptografada posteriormente por meio do comando STARTTLS. Nesse caso, a conexão é inicialmente não protegida e não criptografada. Para configurar essa situação, defina esta propriedade como `“false”` e `“start-tls”` como `“REQUIRED` ”. Observe que, se uma configuração de TLS estiver definida, o TLS é ativado automaticamente. Portanto, é necessário definir esta propriedade como `“false”` para não estabelecer uma conexão com TLS."
 
 #. mt: deepl
 #, fuzzy
@@ -1129,7 +1129,7 @@ msgstr "`quarkus.mailer.\"mailer-name\".keep-alive` config_property_copy_button:
 #. mt: deepl
 #, fuzzy
 msgid "Sets if connection pool is enabled. If the connection pooling is disabled, the max number of sockets is enforced nevertheless."
-msgstr "Define se o pool de conexões está habilitado. Caso o pool de conexões esteja desabilitado, o número máximo de soquetes é aplicado de qualquer forma."
+msgstr "Define se o pool de conexões está habilitado. Caso o pool de conexões esteja desabilitado, o número máximo de soquetes será aplicado de qualquer maneira."
 
 #. mt: deepl
 #, fuzzy
@@ -1313,7 +1313,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-dkim-private-key[quarkus.mailer.dki
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".dkim.private-key+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".dkim.private-key+++[]"
-msgstr "`quarkus.mailer.\"nome-do-mailer\".dkim.chave-privada` botão-para-copiar-propriedade-de-configuração:quarkus.mailer.\"nome-do-mailer\".dkim.chave-privada[]"
+msgstr "`quarkus.mailer.\"nome-do-mailer\".dkim.chave-privada` botão_copiar_propriedade_de_configuração:quarkus.mailer.\"nome-do-mailer\".dkim.chave-privada[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1399,12 +1399,12 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-dkim-auid[quarkus.mailer.dkim.auid]
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".dkim.auid+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".dkim.auid+++[]"
-msgstr "`quarkus.mailer.\"mailer-name\".dkim.auid` botão_para_copiar_propriedade_de_configuração:quarkus.mailer.\"mailer-name\".dkim.auid[]"
+msgstr "`quarkus.mailer.\"mailer-name\".dkim.auid` config_property_copy_button:quarkus.mailer.\"mailer-name\".dkim.auid[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "Configures the Agent or User Identifier (AUID)."
-msgstr "Configura o Identificador do Agente ou do Usuário (AUID)."
+msgstr "Configura o Identificador de Agente ou de Usuário (AUID)."
 
 #. mt: deepl
 #, fuzzy
@@ -1619,7 +1619,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-dkim-body-limit[quarkus.mailer.dkim
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".dkim.body-limit+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".dkim.body-limit+++[]"
-msgstr "`quarkus.mailer.\"nome-do-mailer\".dkim.limite-do-corpo` config_property_copy_button:quarkus.mailer.\"nome-do-mailer\".dkim.limite-do-corpo[]"
+msgstr "`quarkus.mailer.\"nome-do-mailer\".dkim.limite-do-corpo` botão_para_copiar_propriedade_de_configuração:quarkus.mailer.\"nome-do-mailer\".dkim.limite-do-corpo[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1878,7 +1878,7 @@ msgstr "`quarkus.mailer.\"mailer-name\".auth-methods` botão_para_copiar_proprie
 #. mt: deepl
 #, fuzzy
 msgid "Sets the allowed authentication methods. These methods will be used only if the server supports them. If not set, all supported methods may be used."
-msgstr "Define os métodos de autenticação permitidos. Esses métodos serão utilizados apenas se o servidor os suportar. Caso não seja definido, todos os métodos suportados poderão ser utilizados."
+msgstr "Define os métodos de autenticação permitidos. Esses métodos serão utilizados somente se o servidor os suportar. Caso não seja definido, todos os métodos suportados poderão ser utilizados."
 
 #. mt: deepl
 #, fuzzy
@@ -2009,7 +2009,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-truststore-paths[quarkus.mailer.tru
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".truststore.paths+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".truststore.paths+++[]"
-msgstr "`quarkus.mailer.\"nome-do-mailer\".truststore.paths` config_property_copy_button:quarkus.mailer.\"nome-do-mailer\".truststore.paths[]"
+msgstr "`quarkus.mailer.\"mailer-name\".truststore.paths` config_property_copy_button:quarkus.mailer.\"mailer-name\".truststore.paths[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2282,7 +2282,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-keep-alive-timeout[quarkus.mailer.k
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".keep-alive-timeout+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".keep-alive-timeout+++[]"
-msgstr "`quarkus.mailer.\"mailer-name\".keep-alive-timeout` botão_para_copiar_propriedade_de_configuração:quarkus.mailer.\"mailer-name\".keep-alive-timeout[]"
+msgstr "`quarkus.mailer.\"mailer-name\".keep-alive-timeout` config_property_copy_button:quarkus.mailer.\"mailer-name\".keep-alive-timeout[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2373,7 +2373,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-ntlm-domain[quarkus.mailer.ntlm.dom
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".ntlm.domain+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".ntlm.domain+++[]"
-msgstr "`quarkus.mailer.\"mailer-name\".ntlm.domain` config_property_copy_button:quarkus.mailer.\"mailer-name\".ntlm.domain[]"
+msgstr "`quarkus.mailer.\"nome-do-mailer\".ntlm.domain` config_property_copy_button:quarkus.mailer.\"nome-do-mailer\".ntlm.domain[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2428,7 +2428,7 @@ msgstr "Permite o envio de e-mails apenas a esses destinatários."
 #. mt: deepl
 #, fuzzy
 msgid "Approved recipients are compiled to a `Pattern` and must be a valid regular expression. The created `Pattern` is case-insensitive as emails are case insensitive. Provided patterns are trimmed before being compiled."
-msgstr "Os destinatários aprovados são compilados em um `padrão` e devem ser uma expressão regular válida. O `padrão` criado não diferencia maiúsculas de minúsculas, pois os e-mails também não fazem essa distinção. Os padrões fornecidos são aparados antes de serem compilados."
+msgstr "Os destinatários aprovados são compilados em um `padrão` e devem ser uma expressão regular válida. O `padrão` criado não diferencia maiúsculas de minúsculas, pois os e-mails também não fazem essa distinção. Os padrões fornecidos são truncados antes de serem compilados."
 
 #. mt: deepl
 #, fuzzy
@@ -2473,7 +2473,7 @@ msgstr " link:#quarkus-mailer_quarkus-mailer-log-rejected-recipients[quarkus.mai
 msgid ""
 "`+++quarkus.mailer.\"mailer-name\".log-rejected-recipients+++`\n"
 "config_property_copy_button:+++quarkus.mailer.\"mailer-name\".log-rejected-recipients+++[]"
-msgstr "`quarkus.mailer.\"nome-do-mailer\".log-rejected-recipients` botão_para_copiar_propriedade_de_configuração:quarkus.mailer.\"nome-do-mailer\".log-rejected-recipients[]"
+msgstr "`quarkus.mailer.\"mailer-name\".log-rejected-recipients` config_property_copy_button:quarkus.mailer.\"mailer-name\".log-rejected-recipients[]"
 
 #. mt: deepl
 #, fuzzy

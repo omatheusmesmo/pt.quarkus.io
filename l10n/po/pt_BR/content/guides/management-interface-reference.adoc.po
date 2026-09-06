@@ -402,7 +402,7 @@ msgstr "[lock]  link:#quarkus-vertx-http_quarkus-management-ssl-client-auth[quar
 #. mt: deepl
 #, fuzzy
 msgid "Configures the engine to require/request client authentication. NONE, REQUEST, REQUIRED"
-msgstr "Configura o mecanismo para exigir/solicitar a autenticação do cliente. NONE, REQUEST, REQUIRED"
+msgstr "Configura o mecanismo para exigir/solicitar a autenticação do cliente. NENHUMA, SOLICITAR, OBRIGATÓRIA"
 
 #. mt: deepl
 #, fuzzy
@@ -623,7 +623,7 @@ msgstr "Mapeie as funções `do SecurityIdentity` para as funções específicas
 #. mt: deepl
 #, fuzzy
 msgid "For example, if `SecurityIdentity` has a `user` role and the endpoint is secured with a 'UserRole' role, use this property to map the `user` role to the `UserRole` role, and have `SecurityIdentity` to have both `user` and `UserRole` roles."
-msgstr "Por exemplo, se `o SecurityIdentity` tiver uma função `de usuário` e o endpoint estiver protegido por uma função “UserRole”, utilize esta propriedade para mapear a função `de usuário` para a função `UserRole` , de modo que `o SecurityIdentity` possua tanto `a função de usuário` quanto a função `UserRole` ."
+msgstr "Por exemplo, se `o SecurityIdentity` possuir uma função `de usuário` e o endpoint estiver protegido por uma função “UserRole”, utilize esta propriedade para mapear a função `de usuário` para a função `UserRole` , de modo que `o SecurityIdentity` possua tanto `a função de usuário` quanto a função `UserRole` ."
 
 #. mt: deepl
 #, fuzzy
@@ -873,7 +873,7 @@ msgstr "O nome do bean do provedor de credenciais."
 #. mt: deepl
 #, fuzzy
 msgid "This is a bean name (as in `@Named`) of a bean that implements `CredentialsProvider`. It is used to select the credentials provider bean when multiple exist. This is unnecessary when there is only one credentials provider available."
-msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver vários deles. Isso não é necessário quando há apenas um provedor de credenciais disponível."
+msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver mais de um. Isso não é necessário quando há apenas um provedor de credenciais disponível."
 
 #. mt: deepl
 #, fuzzy
@@ -1593,7 +1593,7 @@ msgstr "Caso não seja definido, o valor padrão é `“TLSv1.3, TLSv1.2”.` A 
 #. mt: deepl
 #, fuzzy
 msgid "Note that setting an empty list, and enabling SSL/TLS is invalid. You must at least have one protocol."
-msgstr "Observe que definir uma lista vazia e habilitar o SSL/TLS não é válido. É necessário que haja pelo menos um protocolo."
+msgstr "Observe que definir uma lista vazia e habilitar SSL/TLS não é válido. É necessário ter pelo menos um protocolo."
 
 #. mt: deepl
 #, fuzzy
@@ -1673,7 +1673,7 @@ msgstr "O nome da configuração TLS a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If not set and the default TLS configuration is configured (`quarkus.tls.++*++`) then that will be used. If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown."
-msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver configurado, será utilizada a configuração de `quarkus.tls.<nome>.*` Se um nome estiver configurado, mas nenhuma configuração TLS for encontrada com esse nome, será gerado um erro."
+msgstr "Caso não esteja definido e haja uma configuração TLS padrão ( `quarkus.tls.*` ), essa será utilizada. Se um nome estiver definido, será utilizada a configuração de `quarkus.tls.<nome>.*.` Se um nome estiver definido, mas não for encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -2034,7 +2034,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MANAGEMENT_LIMIT
 #. mt: deepl
 #, fuzzy
 msgid "`+++1K+++`"
-msgstr "`1K`"
+msgstr "`1 mil`"
 
 #. mt: deepl
 #, fuzzy
@@ -2154,7 +2154,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-multipart-header
 #. mt: deepl
 #, fuzzy
 msgid "The maximum number of headers allowed within a single MIME part of a `multipart/form-data` request."
-msgstr "O número máximo de cabeçalhos permitidos em uma única parte MIME de uma solicitação `do tipo multipart/form-data` ."
+msgstr "O número máximo de cabeçalhos permitido em uma única parte MIME de uma solicitação `do tipo multipart/form-data` ."
 
 #. mt: deepl
 #, fuzzy
@@ -2237,7 +2237,7 @@ msgstr "Defina a configuração HTTP/2 SETTINGS_HEADER_TABLE_SIZE."
 #. mt: deepl
 #, fuzzy
 msgid "Allows the sender to inform the remote endpoint of the maximum size of the header compression table used to decode header blocks, in octets. The encoder can select any size equal to or less than this value by using signaling specific to the header compression format inside a header block. The initial value is `4,096` octets."
-msgstr "Permite que o remetente informe ao ponto de extremidade remoto o tamanho máximo da tabela de compressão de cabeçalho utilizada para decodificar blocos de cabeçalho, em octetos. O codificador pode selecionar qualquer tamanho igual ou inferior a esse valor, utilizando sinalização específica para o formato de compressão de cabeçalho dentro de um bloco de cabeçalho. O valor inicial é `4.096` octetos."
+msgstr "Permite que o remetente informe ao ponto de extremidade remoto o tamanho máximo da tabela de compressão de cabeçalho utilizada para decodificar blocos de cabeçalho, em octetos. O codificador pode selecionar qualquer tamanho igual ou inferior a esse valor, utilizando sinalização específica do formato de compressão de cabeçalho dentro de um bloco de cabeçalho. O valor inicial é `4.096` octetos."
 
 #. mt: deepl
 #, fuzzy
@@ -3656,7 +3656,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-permission-permissions
 #. mt: deepl
 #, fuzzy
 msgid "One or more path specific authentication mechanisms separated by comma. Every listed value needs to match `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` authentication scheme such as 'basic', 'bearer', 'form', etc. By default, only one of the matching authentication mechanisms will produce a `SecurityIdentity`, and all matching authentication mechanisms will attempt to authenticate when an inclusive authentication is enabled."
-msgstr "Um ou mais mecanismos de autenticação específicos para cada caminho, separados por vírgula. Cada valor listado deve corresponder ao esquema de autenticação definido em `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` , como 'basic', 'bearer', 'form', etc. Por padrão, apenas um dos mecanismos de autenticação compatíveis produzirá um `SecurityIdentity` , e todos os mecanismos de autenticação compatíveis tentarão autenticar quando a autenticação inclusiva estiver habilitada."
+msgstr "Um ou mais mecanismos de autenticação específicos para cada caminho, separados por vírgula. Cada valor listado deve corresponder ao esquema de autenticação definido em `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` , como 'basic', 'bearer', 'form', etc. Por padrão, apenas um dos mecanismos de autenticação compatíveis produzirá uma `SecurityIdentity` , e todos os mecanismos de autenticação compatíveis tentarão autenticar quando a autenticação inclusiva estiver habilitada."
 
 #. mt: deepl
 #, fuzzy
@@ -3689,7 +3689,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-permission-permissions
 #. mt: deepl
 #, fuzzy
 msgid "Indicates that this policy always applies to the matched paths in addition to the policy with a winning path. Avoid creating more than one shared policy to minimize the performance impact."
-msgstr "Indica que esta política se aplica sempre aos caminhos correspondentes, além da política associada ao caminho vencedor. Evite criar mais de uma política compartilhada para minimizar o impacto no desempenho."
+msgstr "Indica que esta política sempre se aplica aos caminhos correspondentes, além da política com o caminho vencedor. Evite criar mais de uma política compartilhada para minimizar o impacto no desempenho."
 
 #. mt: deepl
 #, fuzzy
@@ -3765,7 +3765,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-rol
 #. mt: deepl
 #, fuzzy
 msgid "The roles that are allowed to access resources protected by this policy. By default, access is allowed to any authenticated user."
-msgstr "As funções que têm permissão para acessar os recursos protegidos por esta política. Por padrão, o acesso é permitido a qualquer usuário autenticado."
+msgstr "As funções que têm permissão para acessar recursos protegidos por esta política. Por padrão, o acesso é permitido a qualquer usuário autenticado."
 
 #. mt: deepl
 #, fuzzy
@@ -3869,7 +3869,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-auth-policy-role-policy-per
 #. mt: deepl
 #, fuzzy
 msgid "Permissions granted by this policy will be created with a `java.security.Permission` implementation specified by this configuration property. The permission class must declare exactly one constructor that accepts permission name (`String`) or permission name and actions (`String`, `String++[]++`). Permission class must be registered for reflection if you run your application in a native mode."
-msgstr "As permissões concedidas por esta política serão criadas com uma implementação `de `java.security.Permission`` especificada por esta propriedade de configuração. A classe de permissão deve declarar exatamente um construtor que aceite o nome da permissão ( `String` ) ou o nome da permissão e as ações ( `String` , `String[]` ). A classe de permissão deve estar registrada para reflexão caso o senhor execute seu aplicativo no modo nativo."
+msgstr "As permissões concedidas por esta política serão criadas com uma implementação `de `java.security.Permission`` especificada por esta propriedade de configuração. A classe de permissão deve declarar exatamente um construtor que aceite o nome da permissão ( `String` ) ou o nome da permissão e as ações ( `String` , `String[]` ). A classe de permissão deve estar registrada para reflexão caso você execute sua aplicação no modo nativo."
 
 #. mt: deepl
 #, fuzzy
@@ -4305,7 +4305,7 @@ msgstr "As origens permitiram o CORS."
 #. mt: deepl
 #, fuzzy
 msgid "A comma-separated list of valid URLs, such as `http://www.quarkus.io,http://localhost:3000`. URLs enclosed in forward slashes are interpreted as regular expressions."
-msgstr "Uma lista de URLs válidas separadas por vírgulas, como, por exemplo, `http://www.quarkus.io,http://localhost:3000` . URLs entre barras são interpretadas como expressões regulares."
+msgstr "Uma lista de URLs válidas separadas por vírgulas, como `http://www.quarkus.io,http://localhost:3000` . URLs entre barras são interpretadas como expressões regulares."
 
 #. mt: deepl
 #, fuzzy
@@ -4582,12 +4582,12 @@ msgstr "Se deve retornar a origem exata da solicitação no cabeçalho de respos
 #. mt: deepl
 #, fuzzy
 msgid "When set to `true` (the default), the filter echoes back the request's `Origin` header value. When set to `false` and `origins` is configured as `++*++`, the response will contain the literal `Access-Control-Allow-Origin: ++*++` instead of echoing the request origin. This is useful for public APIs where HTTP caching is important, as echoing the origin requires `Vary: Origin` and defeats shared caches."
-msgstr "Quando definido como `“true”` (padrão), o filtro retorna o valor do cabeçalho `Origin` da solicitação. Quando definido como `“false”` e `“origins”` estiver configurado como `“*”` , a resposta conterá o valor literal `“Access-Control-Allow-Origin: *”` em vez de refletir a origem da solicitação. Isso é útil para APIs públicas nas quais o cache HTTP é importante, pois refletir a origem exige `o cabeçalho “Vary: Origin”` e inviabiliza o uso de caches compartilhados."
+msgstr "Quando definido como `true` (padrão), o filtro retorna o valor do cabeçalho `Origin` da solicitação. Quando definido como `“false”` e `“origins”` estiver configurado como `“*”` , a resposta conterá o valor literal `“Access-Control-Allow-Origin: *”` em vez de refletir a origem da solicitação. Isso é útil para APIs públicas nas quais o cache HTTP é importante, pois refletir a origem exige `o cabeçalho “Vary: Origin”` e inviabiliza o uso de caches compartilhados."
 
 #. mt: deepl
 #, fuzzy
 msgid "Note: When `++*++` is returned as the origin, `Access-Control-Allow-Credentials` is forced to `false` per the CORS specification."
-msgstr "Observação: Quando `*` é retornado como origem, o cabeçalho ` `Access-Control-Allow-Credentials` ` é forçado a ``false`` , conforme a especificação CORS."
+msgstr "Observação: Quando `*` é retornado como origem, o cabeçalho ` `Access-Control-Allow-Credentials` ` é forçado a assumir o valor ``false`` , de acordo com a especificação CORS."
 
 #. mt: deepl
 #, fuzzy
@@ -4634,7 +4634,7 @@ msgstr "O cabeçalho ``Vary: Origin`` informa aos caches HTTP que a resposta dep
 #. mt: deepl
 #, fuzzy
 msgid "This should remain enabled (the default) in most setups, especially when a reverse proxy or CDN may cache responses."
-msgstr "Essa opção deve permanecer ativada (configuração padrão) na maioria das instalações, especialmente quando um proxy reverso ou uma CDN puder armazenar respostas em cache."
+msgstr "Essa opção deve permanecer ativada (padrão) na maioria das configurações, especialmente quando um proxy reverso ou uma CDN puder armazenar respostas em cache."
 
 #. mt: deepl
 #, fuzzy
@@ -4676,7 +4676,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-management-host-validation-require-loc
 #. mt: deepl
 #, fuzzy
 msgid "Require that HTTP Host authority can only contain valid localhost names such as \"localhost\", \"127.0.0.1\" or \"++[++::1++]++\"."
-msgstr "Exija que a autoridade do host HTTP só possa conter nomes válidos de localhost, como “localhost”, “127.0.0.1” ou “[::1]”."
+msgstr "Exija que a autoridade do host HTTP só possa conter nomes válidos de localhost, tais como “localhost”, “127.0.0.1” ou “[::1]”."
 
 #. mt: deepl
 #, fuzzy
@@ -4733,7 +4733,7 @@ msgstr "Um conjunto de hosts separados por vírgulas, por exemplo: “localhost�
 #. mt: deepl
 #, fuzzy
 msgid "Note this property is mutually exclusive with the `require-localhost()` property."
-msgstr "Observe que esta propriedade é mutuamente exclusiva com a propriedade ` `require-localhost()` `."
+msgstr "Observe que esta propriedade é mutuamente exclusiva da propriedade ` `require-localhost()` `."
 
 #. mt: deepl
 #, fuzzy
@@ -4778,12 +4778,12 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."
 
 #, fuzzy
 msgid "Running behind a reverse proxy"

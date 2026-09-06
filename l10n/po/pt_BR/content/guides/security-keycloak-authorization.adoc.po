@@ -692,10 +692,11 @@ msgstr "Para usar o `AuthzClient` diretamente, defina `quarkus.keycloak.policy-e
 msgid "Mapping protected resources"
 msgstr "Mapeamento de recursos protegidos"
 
+#, fuzzy
 msgid ""
 "By default, the extension uses lazy loading to fetch resources from Keycloak on demand.\n"
 "It uses the request URI to identify and map application resources that require protection."
-msgstr ""
+msgstr "Por padrão, a extensão usa o lazy loading para buscar recursos do Keycloak sob demanda. Ela usa o URI da solicitação para identificar e mapear os recursos do aplicativo que exigem proteção."
 
 #, fuzzy
 msgid "To disable lazy loading and instead pre-load all resources at startup, configure the following property:"
@@ -773,10 +774,11 @@ msgstr "O senhor pode conseguir isso injetando uma instância de `SecurityIdenti
 msgid "The `/standard-way` sub-path requires both the resource permission and the `read` scope, based on the configuration set in the `application.properties` file."
 msgstr "O subcaminho `/standard-way` requer a permissão de recurso e o escopo `read` , com base na configuração definida no arquivo `application.properties` ."
 
+#, fuzzy
 msgid ""
 "The `/programmatic-way` sub-path checks only for the `Scope Permission Resource` permission by default.\n"
 "However, you can enforce additional constraints, such as scope requirements, by using `SecurityIdentity#checkPermission`."
-msgstr ""
+msgstr "O subcaminho `/programmatic-way` verifica apenas a permissão `Scope Permission Resource` por padrão. No entanto, o senhor pode impor restrições adicionais, como requisitos de escopo, usando `SecurityIdentity#checkPermission` ."
 
 #, fuzzy
 msgid ""

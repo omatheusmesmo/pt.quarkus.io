@@ -241,7 +241,7 @@ msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 #. mt: deepl
 #, fuzzy
 msgid "`cron4j`, `quartz`, `unix`, `spring`, `spring53`"
-msgstr "`cron4j` , `quartz` , `Unix` , `Spring` , `Spring53`"
+msgstr "`cron4j` , `quartz` , `unix` , `spring` , `spring53`"
 
 #. mt: deepl
 #, fuzzy
@@ -426,7 +426,7 @@ msgstr " link:#quarkus-scheduler_quarkus-scheduler-overdue-grace-period[quarkus.
 #. mt: deepl
 #, fuzzy
 msgid "Scheduled task will be flagged as overdue if next execution time is exceeded by this period."
-msgstr "A tarefa programada será marcada como atrasada se esse período exceder o horário da próxima execução."
+msgstr "A tarefa programada será marcada como atrasada se esse período for excedido em relação ao próximo horário de execução."
 
 #. mt: deepl
 #, fuzzy

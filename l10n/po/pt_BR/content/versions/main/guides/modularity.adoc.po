@@ -88,8 +88,9 @@ msgid ""
 "This is a known limitation."
 msgstr "Uma consequência dessa divisão é que a pré-compilação AOT do JDK por meio do Class Data Sharing (CDS) atualmente suporta apenas módulos que se encontram no caminho do módulo de inicialização. Essa é uma limitação conhecida."
 
+#, fuzzy
 msgid "<code>smallrye-modules</code>"
-msgstr ""
+msgstr "<code>smallrye-modules</code>"
 
 #, fuzzy
 msgid ""

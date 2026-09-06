@@ -803,7 +803,7 @@ msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.enable-htt
 #. mt: deepl
 #, fuzzy
 msgid "If the HTTP url handler should be enabled, allowing you to do URL.openConnection() for HTTP URLs"
-msgstr "Se o manipulador de URLs HTTP deve estar ativado, permitindo que o senhor utilize o método URL.openConnection() para URLs HTTP"
+msgstr "Se o manipulador de URLs HTTP deve estar habilitado, permitindo que o(a) senhor(a) utilize o método URL.openConnection() para URLs HTTP"
 
 #. mt: deepl
 #, fuzzy
@@ -869,7 +869,7 @@ msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.headless[q
 #. mt: deepl
 #, fuzzy
 msgid "The default value for java.awt.headless JVM option. Switching this option affects linking of awt libraries."
-msgstr "O valor padrão da opção da JVM `java.awt.headless`. A alteração dessa opção afeta a ligação das bibliotecas AWT."
+msgstr "O valor padrão da opção java.awt.headless da JVM. A alteração dessa opção afeta a ligação das bibliotecas AWT."
 
 #. mt: deepl
 #, fuzzy
@@ -1144,7 +1144,7 @@ msgstr "[lock] `link:#quarkus-native-pkg-native-config_quarkus.native.enable-fal
 #. mt: deepl
 #, fuzzy
 msgid "If a JVM based 'fallback image' should be created if native image fails. This is not recommended, as this is functionally the same as just running the application in a JVM"
-msgstr "Se deve ser criada uma “imagem de reserva” baseada na JVM caso a imagem nativa falhe. Isso não é recomendado, pois, em termos de funcionamento, equivale simplesmente a executar o aplicativo em uma JVM"
+msgstr "Se deve ser criada uma “imagem de reserva” baseada em JVM caso a imagem nativa falhe. Isso não é recomendado, pois, em termos de funcionamento, equivale simplesmente a executar o aplicativo em uma JVM"
 
 #. mt: deepl
 #, fuzzy

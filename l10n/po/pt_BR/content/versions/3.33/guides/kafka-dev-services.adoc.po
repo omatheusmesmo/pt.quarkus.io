@@ -457,12 +457,12 @@ msgstr "[lock]  link:#quarkus-kafka-client_quarkus-kafka-devservices_quarkus-kaf
 #. mt: deepl
 #, fuzzy
 msgid "The value of the `quarkus-dev-service-kafka` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Kafka looks for a container with the `quarkus-dev-service-kafka` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-kafka` label set to the specified value."
-msgstr "O valor da etiqueta ` `quarkus-dev-service-kafka` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for Kafka procura um contêiner com a etiqueta ``quarkus-dev-service-kafka`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-kafka”` definida com o valor especificado."
+msgstr "O valor do rótulo `“quarkus-dev-service-kafka”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Kafka procura um contêiner com o rótulo `“quarkus-dev-service-kafka”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-kafka”` definida com o valor especificado."
 
 #. mt: deepl
 #, fuzzy
 msgid "This property is used when you need multiple shared Kafka brokers."
-msgstr "Essa propriedade é utilizada quando for necessário dispor de vários brokers compartilhados do Kafka."
+msgstr "Essa propriedade é utilizada quando há necessidade de vários brokers compartilhados do Kafka."
 
 #. mt: deepl
 #, fuzzy
@@ -502,7 +502,7 @@ msgstr "[lock]  link:#quarkus-kafka-client_quarkus-kafka-devservices_quarkus-kaf
 #. mt: deepl
 #, fuzzy
 msgid "The topic-partition pairs to create in the Dev Services Kafka broker. After the broker is started, given topics with partitions are created, skipping already existing topics. For example, `quarkus.kafka.devservices.topic-partitions.my-topic=2` will create a topic named `test` with 2 partitions."
-msgstr "Os pares de tópicos e partições a serem criados no broker do Kafka do Dev Services. Após o broker ser iniciado, os tópicos indicados com suas respectivas partições serão criados, ignorando-se os tópicos já existentes. Por exemplo, `quarkus.kafka.devservices.topic-partitions.my-topic=2` criará um tópico chamado `test` com 2 partições."
+msgstr "Os pares de tópicos e partições a serem criados no broker do Kafka do Dev Services. Após a inicialização do broker, os tópicos indicados com suas respectivas partições serão criados, ignorando-se os tópicos já existentes. Por exemplo, `quarkus.kafka.devservices.topic-partitions.my-topic=2` criará um tópico chamado `test` com 2 partições."
 
 #. mt: deepl
 #, fuzzy
@@ -711,7 +711,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICE
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy

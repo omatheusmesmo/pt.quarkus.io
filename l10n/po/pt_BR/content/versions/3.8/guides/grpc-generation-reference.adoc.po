@@ -40,8 +40,9 @@ msgstr "Usando Gradle"
 msgid "For Gradle, add the following dependency to your project:"
 msgstr "Para o Gradle, adicione a seguinte dependência ao seu projeto:"
 
+#, fuzzy
 msgid "Customizing the <em>proto</em> directory"
-msgstr ""
+msgstr "Personalização do diretório <em>proto</em>"
 
 #, fuzzy
 msgid ""

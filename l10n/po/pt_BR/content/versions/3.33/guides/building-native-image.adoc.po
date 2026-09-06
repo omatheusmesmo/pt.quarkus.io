@@ -1060,7 +1060,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-bundle-dry-run[quarkus.native.
 #. mt: deepl
 #, fuzzy
 msgid "Generates the native-image bundle through a dry-run build, skipping the actual native-image build."
-msgstr "Gera o pacote de imagem nativa por meio de uma compilação de teste, sem executar a compilação real da imagem nativa."
+msgstr "Gera o pacote “native-image” por meio de uma compilação de teste, sem executar a compilação real do “native-image”."
 
 #. mt: deepl
 #, fuzzy
@@ -1093,7 +1093,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-bundle-name[quarkus.native.bun
 #. mt: deepl
 #, fuzzy
 msgid "Set to define the native-image bundle name. If not set the default name will match the native-executable's name suffixed by `.nib`. i.e. `++{++project.name++}++-++{++project.version++}++-runner.nib`"
-msgstr "Defina aqui o nome do pacote de imagem nativa. Se não for definido, o nome padrão corresponderá ao nome do executável nativo, seguido do sufixo `.nib` . Por exemplo: `{nome.do.projeto}-{versão.do.projeto}-runner.nib`"
+msgstr "Defina aqui o nome do pacote da imagem nativa. Caso não seja definido, o nome padrão corresponderá ao nome do executável nativo, seguido do sufixo `.nib` . Por exemplo: `{nome.do.projeto}-{versão.do.projeto}-runner.nib`"
 
 #. mt: deepl
 #, fuzzy
@@ -1232,7 +1232,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-enable-http-url-handler[quarku
 #. mt: deepl
 #, fuzzy
 msgid "If the HTTP url handler should be enabled, allowing you to do URL.openConnection() for HTTP URLs"
-msgstr "Se o manipulador de URLs HTTP deve estar habilitado, permitindo que o senhor utilize o método URL.openConnection() para URLs HTTP"
+msgstr "Se o manipulador de URLs HTTP deve estar habilitado, permitindo que o(a) senhor(a) utilize o método URL.openConnection() para URLs HTTP"
 
 #. mt: deepl
 #, fuzzy
@@ -1303,7 +1303,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-headless[quarkus.native.headle
 #. mt: deepl
 #, fuzzy
 msgid "The default value for java.awt.headless JVM option. Switching this option affects linking of awt libraries."
-msgstr "O valor padrão da opção da JVM `java.awt.headless`. A alteração dessa opção afeta a ligação das bibliotecas AWT."
+msgstr "O valor padrão da opção java.awt.headless da JVM. A alteração dessa opção afeta a ligação das bibliotecas AWT."
 
 #. mt: deepl
 #, fuzzy
@@ -1641,7 +1641,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-enable-fallback-images[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "If a JVM based 'fallback image' should be created if native image fails. This is not recommended, as this is functionally the same as just running the application in a JVM"
-msgstr "Se deve ser criada uma “imagem de reserva” baseada na JVM caso a imagem nativa falhe. Isso não é recomendado, pois, em termos funcionais, equivale simplesmente a executar o aplicativo em uma JVM"
+msgstr "Se deve ser criada uma “imagem de reserva” baseada em JVM caso a imagem nativa falhe. Isso não é recomendado, pois, em termos de funcionamento, equivale simplesmente a executar o aplicativo em uma JVM"
 
 #. mt: deepl
 #, fuzzy
@@ -1773,7 +1773,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-pie[quarkus.native.pie] config
 #. mt: deepl
 #, fuzzy
 msgid "Explicit configuration option to generate a native Position Independent Executable (PIE) for Linux. If the system supports PIE generation, the default behaviour is to disable it for link:https://www.redhat.com/en/blog/position-independent-executable-pie-performance[performance reasons]. However, some systems can only run position-independent executables, so this option enables the generation of such native executables."
-msgstr "Opção de configuração explícita para gerar um executável nativo independente de posição (PIE) para Linux. Se o sistema for compatível com a geração de PIE, o comportamento padrão é desativá-la por link:https://www.redhat.com/en/blog/position-independent-executable-pie-performance[motivos de desempenho] . No entanto, alguns sistemas só podem executar executáveis independentes de posição; portanto, esta opção habilita a geração desses executáveis nativos."
+msgstr "Opção de configuração explícita para gerar um executável nativo independente de posição (PIE) para Linux. Caso o sistema ofereça suporte à geração de PIE, o comportamento padrão é desativá-la por link:https://www.redhat.com/en/blog/position-independent-executable-pie-performance[motivos de desempenho] . No entanto, alguns sistemas só podem executar executáveis independentes de posição; portanto, esta opção habilita a geração desses executáveis nativos."
 
 #. mt: deepl
 #, fuzzy
@@ -1886,7 +1886,7 @@ msgstr "A imagem do Docker a ser utilizada para a compilação da imagem. Pode s
 #. mt: deepl
 #, fuzzy
 msgid "*Note:* Builder images are available using UBI 8 and UBI 9 base images, for example:"
-msgstr "*Observação:* As imagens do Builder estão disponíveis utilizando as imagens base UBI 8 e UBI 9, por exemplo:"
+msgstr "*Observação:* As imagens do Builder estão disponíveis por meio das imagens base UBI 8 e UBI 9, por exemplo:"
 
 #. mt: deepl
 #, fuzzy
@@ -1901,7 +1901,7 @@ msgstr "UBI 9: `quay.io/quarkus/ubi9-quarkus-mandrel-builder-image:jdk-21` (UBI 
 #. mt: deepl
 #, fuzzy
 msgid "You need to be aware that if you use a builder image using UBI9 and you plan to build a container, you must ensure that the base image used in the container is also UBI9."
-msgstr "É importante que o(a) senhor(a) esteja ciente de que, caso utilize uma imagem de construção com o UBI9 e pretenda criar um contêiner, deverá garantir que a imagem base utilizada no contêiner também seja do UBI9."
+msgstr "É importante que o senhor esteja ciente de que, caso utilize uma imagem de construção com o UBI9 e pretenda criar um contêiner, deverá garantir que a imagem base utilizada no contêiner também seja do UBI9."
 
 #. mt: deepl
 #, fuzzy
@@ -1950,12 +1950,12 @@ msgstr "A estratégia para obter a imagem do construtor durante a compilação."
 #. mt: deepl
 #, fuzzy
 msgid "Defaults to 'always', which will always pull the most up-to-date image; useful to keep up with fixes when a (floating) tag is updated."
-msgstr "O valor padrão é “sempre”, o que fará com que a imagem mais atualizada seja sempre baixada; útil para acompanhar as correções quando uma tag (flutuante) é atualizada."
+msgstr "O valor padrão é “sempre”, o que fará com que a imagem mais atualizada seja sempre baixada; isso é útil para acompanhar as correções quando uma tag (flutuante) é atualizada."
 
 #. mt: deepl
 #, fuzzy
 msgid "Use 'missing' to only pull if there is no image locally; useful on development environments where building with out-of-date images is acceptable and bandwidth may be limited."
-msgstr "Utilize “missing” para baixar apenas se não houver nenhuma imagem localmente; isso é útil em ambientes de desenvolvimento, nos quais a compilação com imagens desatualizadas é aceitável e a largura de banda pode ser limitada."
+msgstr "Utilize “missing” para fazer o download apenas se não houver nenhuma imagem localmente; isso é útil em ambientes de desenvolvimento, nos quais a compilação com imagens desatualizadas é aceitável e a largura de banda pode ser limitada."
 
 #. mt: deepl
 #, fuzzy
@@ -1970,7 +1970,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_NATIVE_BUILDER_I
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:always[Always pull the most recent image.], tooltip:missing[Only pull the image if it's missing locally.], tooltip:never[Never pull any image; fail if the image is missing locally.]"
-msgstr "tooltip:always[Sempre baixe a imagem mais recente.], tooltip:missing[Baixe a imagem somente se ela não estiver presente localmente.], tooltip:never[Nunca baixe nenhuma imagem; gere uma falha se a imagem não estiver presente localmente.]"
+msgstr "tooltip:always[Sempre baixe a imagem mais recente.], tooltip:missing[Baixe a imagem apenas se ela não estiver disponível localmente.], tooltip:never[Nunca baixe nenhuma imagem; gere uma falha se a imagem não estiver disponível localmente.]"
 
 #. mt: deepl
 #, fuzzy
@@ -2286,7 +2286,7 @@ msgstr "Se os erros devem ser relatados durante a execução. Essa é uma config
 #. mt: deepl
 #, fuzzy
 msgid "Note that the use of this flag may result in build time failures due to `ClassNotFoundException`s. Reason most likely being that the Quarkus extension already optimized it away or do not actually need it. In such cases you should explicitly add the corresponding dependency providing the missing classes as a dependency to your project."
-msgstr "Observe que o uso dessa opção pode resultar em falhas durante a compilação devido a exceções `ClassNotFoundException`. O motivo mais provável é que a extensão Quarkus já tenha otimizado esse código ou que, na verdade, não haja necessidade dele. Nesses casos, o senhor deve adicionar explicitamente a dependência correspondente, que forneça as classes ausentes, como dependência ao seu projeto."
+msgstr "Observe que o uso dessa opção pode resultar em falhas na compilação devido a exceções `ClassNotFoundException`. O motivo mais provável é que a extensão Quarkus já tenha otimizado esse código ou que, na verdade, não haja necessidade dele. Nesses casos, o senhor deve adicionar explicitamente ao seu projeto a dependência correspondente que forneça as classes ausentes."
 
 #. mt: deepl
 #, fuzzy
@@ -2449,7 +2449,7 @@ msgstr "Os arquivos `src/main/resources/foo/selected.png` e `bar/some.txt` serã
 #. mt: deepl
 #, fuzzy
 msgid "Supported glob features"
-msgstr "Recursos de glob suportados"
+msgstr "Recursos de glob compatíveis"
 
 #, fuzzy
 msgid "Feature"
@@ -2567,7 +2567,7 @@ msgstr "Todos os três níveis utilizam a barra invertida ( `\\` ) como caracter
 #. mt: deepl
 #, fuzzy
 msgid "Note that Quarkus extensions typically include the resources they require by themselves. This option is useful in situations when the built-in functionality is not sufficient."
-msgstr "Observe que as extensões do Quarkus geralmente incluem os recursos de que necessitam por conta própria. Essa opção é útil em situações em que a funcionalidade integrada não é suficiente."
+msgstr "Observe que as extensões do Quarkus geralmente incluem por conta própria os recursos de que necessitam. Essa opção é útil em situações em que a funcionalidade integrada não é suficiente."
 
 #. mt: deepl
 #, fuzzy
@@ -2624,7 +2624,7 @@ msgstr "_Esta propriedade está obsoleta desde a versão 3.29: a exclusão de re
 #. mt: deepl
 #, fuzzy
 msgid "A comma separated list of globs to match resource paths that should *not* be added to the native image."
-msgstr "Uma lista, separada por vírgulas, de padrões para correspondência de caminhos de recursos que *não* devem ser adicionados à imagem nativa."
+msgstr "Uma lista separada por vírgulas de padrões de correspondência para caminhos de recursos que *não* devem ser adicionados à imagem nativa."
 
 #. mt: deepl
 #, fuzzy
@@ -2639,7 +2639,7 @@ msgstr "Por padrão, nenhum recurso é excluído."
 #. mt: deepl
 #, fuzzy
 msgid "Example: Given that you have `src/main/resources/red.png` and `src/main/resources/foo/green.png` in your source tree and one of your dependency JARs contains `bar/blue.png` file, with the following configuration"
-msgstr "Exemplo: Supondo que você tenha `os arqu` ivos `src/main/resources/red.png` e `src/main/resources/foo/green.png` em sua árvore de código-fonte e que um de seus JARs de dependência contenha o arquivo `bar/blue.png` , com a seguinte configuração"
+msgstr "Exemplo: Supondo que você tenha `os` arquivos `src/main/resources/red.png` e `src/main/resources/foo/green.png` em sua árvore de código-fonte e que um de seus JARs de dependência contenha o arquivo `bar/blue.png` , com a seguinte configuração"
 
 #. mt: deepl
 #, fuzzy
@@ -2849,7 +2849,7 @@ msgstr "A imagem utilizada para compressão. Se não for definida, o valor padr�
 #. mt: deepl
 #, fuzzy
 msgid "Setting this variable will automatically activate"
-msgstr "A definição desta variável ativará automaticamente"
+msgstr "Ao definir essa variável, será ativado automaticamente"
 
 #. mt: deepl
 #, fuzzy
@@ -2884,7 +2884,7 @@ msgstr "[lock]  link:#quarkus-core_quarkus-native-compression-level[quarkus.nati
 #. mt: deepl
 #, fuzzy
 msgid "The compression level in ++[++1, 10++]++. 10 means _best_."
-msgstr "O nível de compressão está no intervalo [1, 10]. O valor 10 representa _o melhor resultado_ ."
+msgstr "O nível de compressão varia entre [1, 10]. O valor 10 representa _o melhor resultado_ ."
 
 #. mt: deepl
 #, fuzzy

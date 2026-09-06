@@ -94,14 +94,17 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.index-page]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.index-page[quarkus.http.static-resources.index-page]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set the index page when serving static resources."
-msgstr ""
+msgstr "Defina a página inicial ao servir recursos estáticos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_INDEX_PAGE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_INDEX_PAGE[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "string"
 msgstr "string"
@@ -123,11 +126,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.include-hidden]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.include-hidden[quarkus.http.static-resources.include-hidden]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set whether hidden files should be served."
-msgstr ""
+msgstr "Defina se os arquivos ocultos devem ser exibidos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_INCLUDE_HIDDEN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_INCLUDE_HIDDEN[]"
 
 msgid "boolean"
 msgstr "booleano"
@@ -149,11 +154,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.enable-range-support]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.enable-range-support[quarkus.http.static-resources.enable-range-support]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set whether range requests (resumable downloads; media streaming) should be enabled."
-msgstr ""
+msgstr "Defina se as solicitações de intervalo (downloads retomáveis; streaming de mídia) devem ser ativadas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_ENABLE_RANGE_SUPPORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_ENABLE_RANGE_SUPPORT[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.caching-enabled]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.caching-enabled[quarkus.http.static-resources.caching-enabled]`\n"
@@ -169,11 +176,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.caching-enabled]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.caching-enabled[quarkus.http.static-resources.caching-enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set whether cache handling is enabled."
-msgstr ""
+msgstr "Defina se o gerenciamento de cache está ativado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_CACHING_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_CACHING_ENABLED[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.cache-entry-timeout]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.cache-entry-timeout[quarkus.http.static-resources.cache-entry-timeout]`\n"
@@ -189,19 +198,22 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.cache-entry-timeout]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.cache-entry-timeout[quarkus.http.static-resources.cache-entry-timeout]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set the cache entry timeout. The default is `30` seconds."
-msgstr ""
+msgstr "Defina o tempo limite da entrada no cache. O valor padrão é de `30` segundos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_CACHE_ENTRY_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_CACHE_ENTRY_TIMEOUT[]"
 
 msgid ""
 "link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]\n"
 "  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[], title=More information about the Duration format]"
 msgstr ""
 
+#, fuzzy
 msgid "`30S`"
-msgstr ""
+msgstr "`30S`"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.max-age]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.max-age[quarkus.http.static-resources.max-age]`\n"
@@ -217,11 +229,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.max-age]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.max-age[quarkus.http.static-resources.max-age]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set value for max age in caching headers. The default is `24` hours."
-msgstr ""
+msgstr "Defina o valor da idade máxima nos cabeçalhos de cache. O padrão é `24` horas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_MAX_AGE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_MAX_AGE[]"
 
 #, fuzzy
 msgid "`24H`"
@@ -241,11 +255,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.max-cache-size]]`link:#quarkus-vertx-http-config-group-static-resources-config_quarkus.http.static-resources.max-cache-size[quarkus.http.static-resources.max-cache-size]`"
 msgstr ""
 
+#, fuzzy
 msgid "Set the max cache size."
-msgstr ""
+msgstr "Defina o tamanho máximo do cache."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_STATIC_RESOURCES_MAX_CACHE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_STATIC_RESOURCES_MAX_CACHE_SIZE[]"
 
 msgid "int"
 msgstr "int"
@@ -254,8 +270,9 @@ msgstr "int"
 msgid "`10000`"
 msgstr "`10000`"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
 #, fuzzy
 msgid ""
@@ -479,11 +496,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-header-config_quarkus.http.header.-header-.path]]`link:#quarkus-vertx-http-config-group-header-config_quarkus.http.header.-header-.path[quarkus.http.header.\"header\".path]`"
 msgstr ""
 
+#, fuzzy
 msgid "The path this header should be applied"
-msgstr ""
+msgstr "O caminho em que esse cabeçalho deve ser aplicado"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_HEADER__HEADER__PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_HEADER__HEADER__PATH[]"
 
 msgid "`/*`"
 msgstr ""
@@ -502,14 +521,17 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-header-config_quarkus.http.header.-header-.value]]`link:#quarkus-vertx-http-config-group-header-config_quarkus.http.header.-header-.value[quarkus.http.header.\"header\".value]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value for this header configuration"
-msgstr ""
+msgstr "O valor para esta configuração de cabeçalho"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_HEADER__HEADER__VALUE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_HEADER__HEADER__VALUE[]"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-header-config_quarkus.http.header.-header-.methods]]`link:#quarkus-vertx-http-config-group-header-config_quarkus.http.header.-header-.methods[quarkus.http.header.\"header\".methods]`\n"
@@ -528,8 +550,9 @@ msgstr ""
 msgid "The HTTP methods for this header configuration"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_HEADER__HEADER__METHODS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_HEADER__HEADER__METHODS[]"
 
 #, fuzzy
 msgid "list of string"
@@ -578,11 +601,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.matches]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.matches[quarkus.http.filter.\"filter\".matches]`"
 msgstr ""
 
+#, fuzzy
 msgid "A regular expression for the paths matching this configuration"
-msgstr ""
+msgstr "Uma expressão regular para os caminhos que correspondem a esta configuração"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_FILTER__FILTER__MATCHES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_FILTER__FILTER__MATCHES[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.header-header]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.header-header[quarkus.http.filter.\"filter\".header]`\n"
@@ -598,14 +623,16 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.header-header]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.header-header[quarkus.http.filter.\"filter\".header]`"
 msgstr ""
 
+#, fuzzy
 msgid "Additional HTTP Headers always sent in the response"
-msgstr ""
+msgstr "Cabeçalhos HTTP adicionais sempre enviados na resposta"
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_FILTER__FILTER__HEADER+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "`Map<String,String>`"
-msgstr ""
+msgstr "`Map<String, String>`"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.methods]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.methods[quarkus.http.filter.\"filter\".methods]`\n"
@@ -621,11 +648,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.methods]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.methods[quarkus.http.filter.\"filter\".methods]`"
 msgstr ""
 
+#, fuzzy
 msgid "The HTTP methods for this path configuration"
-msgstr ""
+msgstr "Os métodos HTTP para esta configuração de caminho"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_FILTER__FILTER__METHODS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_FILTER__FILTER__METHODS[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.order]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.order[quarkus.http.filter.\"filter\".order]`\n"
@@ -639,8 +668,9 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.order]]`link:#quarkus-vertx-http-config-group-filter-config_quarkus.http.filter.-filter-.order[quarkus.http.filter.\"filter\".order]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_FILTER__FILTER__ORDER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_FILTER__FILTER__ORDER[]"
 
 #, fuzzy
 msgid "Support 100-Continue in vert.x"
@@ -722,8 +752,9 @@ msgstr ""
 msgid "Origins allowed for CORS Comma separated list of valid URLs, e.g.: http://www.quarkus.io,http://localhost:3000 In case an entry of the list is surrounded by forward slashes, it is interpreted as a regular expression."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_ORIGINS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_ORIGINS[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.methods]]`link:#quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.methods[quarkus.http.cors.methods]`\n"
@@ -742,8 +773,9 @@ msgstr ""
 msgid "HTTP methods allowed for CORS Comma separated list of valid methods. ex: GET,PUT,POST The filter allows any method if this is not set. default: returns any requested method as valid"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_METHODS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_METHODS[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.headers]]`link:#quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.headers[quarkus.http.cors.headers]`\n"
@@ -762,8 +794,9 @@ msgstr ""
 msgid "HTTP headers allowed for CORS Comma separated list of valid headers. ex: X-Custom,Content-Disposition The filter allows any header if this is not set. default: returns any requested header as valid"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_HEADERS[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.exposed-headers]]`link:#quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.exposed-headers[quarkus.http.cors.exposed-headers]`\n"
@@ -782,8 +815,9 @@ msgstr ""
 msgid "HTTP headers exposed in CORS Comma separated list of valid headers. ex: X-Custom,Content-Disposition default: empty"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_EXPOSED_HEADERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_EXPOSED_HEADERS[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.access-control-max-age]]`link:#quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.access-control-max-age[quarkus.http.cors.access-control-max-age]`\n"
@@ -802,8 +836,9 @@ msgstr ""
 msgid "The `Access-Control-Max-Age` response header value indicating how long the results of a pre-flight request can be cached."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_ACCESS_CONTROL_MAX_AGE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_ACCESS_CONTROL_MAX_AGE[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.access-control-allow-credentials]]`link:#quarkus-vertx-http-config-group-cors-cors-config_quarkus.http.cors.access-control-allow-credentials[quarkus.http.cors.access-control-allow-credentials]`\n"
@@ -822,8 +857,9 @@ msgstr ""
 msgid "The `Access-Control-Allow-Credentials` header is used to tell the browsers to expose the response to front-end JavaScript code when the request’s credentials mode Request.credentials is “include”. The value of this header will default to `true` if `quarkus.http.cors.origins` property is set and there is a match with the precise `Origin` header and that header is not '++*++'."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_CORS_ACCESS_CONTROL_ALLOW_CREDENTIALS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_CORS_ACCESS_CONTROL_ALLOW_CREDENTIALS[]"
 
 #, fuzzy
 msgid "Here's what a full CORS filter configuration could look like, including a regular expression defining an allowed origin:"
@@ -869,11 +905,13 @@ msgstr ""
 msgid "The maximum length of all headers."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_HEADER_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_HEADER_SIZE[]"
 
+#, fuzzy
 msgid "MemorySize  link:#memory-size-note-anchor[icon:question-circle[], title=More information about the MemorySize format]"
-msgstr ""
+msgstr "MemorySize link:#memory-size-note-anchor[[círculo de pergunta]]"
 
 msgid "`20K`"
 msgstr ""
@@ -895,8 +933,9 @@ msgstr ""
 msgid "The maximum size of a request body."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_BODY_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_BODY_SIZE[]"
 
 msgid "`10240K`"
 msgstr ""
@@ -918,11 +957,13 @@ msgstr ""
 msgid "The max HTTP chunk size"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_CHUNK_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_CHUNK_SIZE[]"
 
+#, fuzzy
 msgid "`8192`"
-msgstr ""
+msgstr "`8192`"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-initial-line-length]]`link:#quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-initial-line-length[quarkus.http.limits.max-initial-line-length]`\n"
@@ -938,11 +979,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-initial-line-length]]`link:#quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-initial-line-length[quarkus.http.limits.max-initial-line-length]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum length of the initial line (e.g. `\"GET / HTTP/1.0\"`)."
-msgstr ""
+msgstr "O comprimento máximo da linha inicial (por exemplo, `“GET / HTTP/1.0”` )."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_INITIAL_LINE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_INITIAL_LINE_LENGTH[]"
 
 msgid "`4096`"
 msgstr ""
@@ -964,11 +1007,13 @@ msgstr ""
 msgid "The maximum length of a form attribute."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_FORM_ATTRIBUTE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_FORM_ATTRIBUTE_SIZE[]"
 
+#, fuzzy
 msgid "`2048`"
-msgstr ""
+msgstr "`2048`"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-connections]]`link:#quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-connections[quarkus.http.limits.max-connections]`\n"
@@ -984,19 +1029,23 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-connections]]`link:#quarkus-vertx-http-config-group-server-limits-config_quarkus.http.limits.max-connections[quarkus.http.limits.max-connections]`"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of connections that are allowed at any one time. If this is set it is recommended to set a short idle timeout."
-msgstr ""
+msgstr "O número máximo de conexões permitidas ao mesmo tempo. Caso esse valor seja definido, recomenda-se definir um tempo limite curto para inatividade."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_CONNECTIONS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_CONNECTIONS[]"
 
+#, fuzzy
 msgid "About the MemorySize format"
-msgstr ""
+msgstr "Sobre o formato MemorySize"
 
+#, fuzzy
 msgid ""
 "A size configuration option recognises string in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`.\n"
 "If no suffix is given, assume bytes."
-msgstr ""
+msgstr "Uma opção de configuração de tamanho reconhece uma sequência neste formato (apresentada como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` . Caso não seja fornecido nenhum sufixo, considera-se que se trata de bytes."
 
 #, fuzzy
 msgid "Configuring HTTP Access Logs"
@@ -1025,11 +1074,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.enabled]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.enabled[quarkus.http.access-log.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If access logging is enabled. By default this will log via the standard logging facility"
-msgstr ""
+msgstr "Caso o registro de acesso esteja habilitado. Por padrão, isso será registrado por meio do mecanismo padrão de registro"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_ENABLED[]"
 
 #, fuzzy
 msgid "`false`"
@@ -1049,11 +1100,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.exclude-pattern]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.exclude-pattern[quarkus.http.access-log.exclude-pattern]`"
 msgstr ""
 
+#, fuzzy
 msgid "A regular expression that can be used to exclude some paths from logging."
-msgstr ""
+msgstr "Uma expressão regular que pode ser utilizada para excluir alguns caminhos do registro em log."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_EXCLUDE_PATTERN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_EXCLUDE_PATTERN[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.pattern]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.pattern[quarkus.http.access-log.pattern]`\n"
@@ -1077,11 +1130,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.pattern]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.pattern[quarkus.http.access-log.pattern]`"
 msgstr ""
 
+#, fuzzy
 msgid "The access log pattern."
-msgstr ""
+msgstr "O padrão do log de acesso."
 
+#, fuzzy
 msgid "If this is the string `common`, `combined` or `long` then this will use one of the specified named formats:"
-msgstr ""
+msgstr "Se essa for uma string `do tipo “common”` , `“combined”` ou `“long”` , será utilizado um dos formatos nomeados especificados:"
 
 msgid "common: `%h %l %u %t \"%r\" %s %b`"
 msgstr ""
@@ -1095,8 +1150,9 @@ msgstr ""
 msgid "Otherwise, consult the Quarkus documentation for the full list of variables that can be used."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_PATTERN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_PATTERN[]"
 
 msgid "`common`"
 msgstr ""
@@ -1115,11 +1171,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.log-to-file]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.log-to-file[quarkus.http.access-log.log-to-file]`"
 msgstr ""
 
+#, fuzzy
 msgid "If logging should be done to a separate file."
-msgstr ""
+msgstr "Caso seja necessário, o registro deve ser feito em um arquivo separado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_LOG_TO_FILE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_LOG_TO_FILE[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.base-file-name]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.base-file-name[quarkus.http.access-log.base-file-name]`\n"
@@ -1135,11 +1193,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.base-file-name]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.base-file-name[quarkus.http.access-log.base-file-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The access log file base name, defaults to 'quarkus' which will give a log file name of 'quarkus.log'."
-msgstr ""
+msgstr "O nome base do arquivo de log de acesso é, por padrão, “quarkus”, o que resultará em um nome de arquivo de log “quarkus.log”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_BASE_FILE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_BASE_FILE_NAME[]"
 
 #, fuzzy
 msgid "`quarkus`"
@@ -1162,8 +1222,9 @@ msgstr ""
 msgid "The log directory to use when logging access to a file If this is not set then the current working directory is used."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_LOG_DIRECTORY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_LOG_DIRECTORY[]"
 
 msgid ""
 "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.log-suffix]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.log-suffix[quarkus.http.access-log.log-suffix]`\n"
@@ -1179,11 +1240,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.log-suffix]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.log-suffix[quarkus.http.access-log.log-suffix]`"
 msgstr ""
 
+#, fuzzy
 msgid "The log file suffix"
-msgstr ""
+msgstr "O sufixo do arquivo de log"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_LOG_SUFFIX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_LOG_SUFFIX[]"
 
 msgid "`.log`"
 msgstr ""
@@ -1202,11 +1265,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.category]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.category[quarkus.http.access-log.category]`"
 msgstr ""
 
+#, fuzzy
 msgid "The log category to use if logging is being done via the standard log mechanism (i.e. if base-file-name is empty)."
-msgstr ""
+msgstr "A categoria de log a ser utilizada caso o registro em log seja feito por meio do mecanismo padrão de log (ou seja, se o parâmetro “base-file-name” estiver vazio)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_CATEGORY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_CATEGORY[]"
 
 msgid "`io.quarkus.http.access-log`"
 msgstr ""
@@ -1225,11 +1290,13 @@ msgstr ""
 msgid "[[quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.rotate]]`link:#quarkus-vertx-http-config-group-access-log-config_quarkus.http.access-log.rotate[quarkus.http.access-log.rotate]`"
 msgstr ""
 
+#, fuzzy
 msgid "If the log should be rotated daily"
-msgstr ""
+msgstr "Caso o registro deva ser atualizado diariamente"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_ACCESS_LOG_ROTATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_ACCESS_LOG_ROTATE[]"
 
 msgid "Attribute"
 msgstr "Atributo"

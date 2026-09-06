@@ -809,7 +809,7 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource[`+++quarkus.security.jdbc.principal-query.\"query-name\".datasource+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".datasource+++[]"
-msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource[quarkus.security.jdbc.principal-query.\"query-name\".datasource] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".datasource[]"
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-datasource[quarkus.security.jdbc.principal-query.\"query-name\".datasource] botão_para_copiar_propriedade_de_configuração:quarkus.security.jdbc.principal-query.\"query-name\".datasource[]"
 
 #. mt: deepl
 #, fuzzy
@@ -837,7 +837,7 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index+++[]"
-msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index[quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index[]"
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-attribute-mappings-attribute-mappings-index[quarkus.security.jdbc.principal-query.\"query-name\".attribute-mappings.\"attribute-mappings\".index] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".mapeamentos de atributos.\"mapeamentos de atributos\".índice[]"
 
 #. mt: deepl
 #, fuzzy
@@ -977,7 +977,7 @@ msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-que
 msgid ""
 "[[quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index]] [.property-path]##link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index[`+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index+++`]##\n"
 "config_property_copy_button:+++quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index+++[]"
-msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index] config_property_copy_button:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index[]"
+msgstr " link:#quarkus-elytron-security-jdbc_quarkus-security-jdbc-principal-query-query-name-bcrypt-password-mapper-password-index[quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index] botão_para_copiar_propriedade_de_configuração:quarkus.security.jdbc.principal-query.\"query-name\".bcrypt-password-mapper.password-index[]"
 
 #. mt: deepl
 #, fuzzy

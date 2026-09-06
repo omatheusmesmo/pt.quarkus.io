@@ -186,7 +186,7 @@ msgstr "[lock] `link:#quarkus-elasticsearch-devservices-elasticsearch-dev-servic
 msgid ""
 "Optional fixed port the dev service will listen to.\n"
 "If not defined, the port will be chosen randomly."
-msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Caso não seja definida, a porta será escolhida aleatoriamente."
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Se não for definida, a porta será escolhida aleatoriamente."
 
 #. mt: deepl
 #, fuzzy

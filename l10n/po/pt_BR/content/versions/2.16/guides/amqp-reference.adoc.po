@@ -633,7 +633,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-amqp_quarkus.amqp.devse
 msgid ""
 "Optional fixed port the dev service will listen to.\n"
 "If not defined, the port will be chosen randomly."
-msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Caso não seja definida, a porta será escolhida aleatoriamente."
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta. Se não for definida, a porta será escolhida aleatoriamente."
 
 #. mt: deepl
 #, fuzzy
@@ -664,7 +664,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-amqp_quarkus.amqp.devse
 #. mt: deepl
 #, fuzzy
 msgid "The image to use. Note that only ActiveMQ Artemis images are supported. Specifically, the image repository must end with `artemiscloud/activemq-artemis-broker`. Check https://quay.io/repository/artemiscloud/activemq-artemis-broker to find the available versions."
-msgstr "A imagem a ser utilizada. Observe que apenas as imagens do ActiveMQ Artemis são compatíveis. Especificamente, o repositório da imagem deve terminar com `artemiscloud/activemq-artemis-broker` . Consulte https://quay.io/repository/artemiscloud/activemq-artemis-broker para verificar as versões disponíveis."
+msgstr "A imagem a ser utilizada. Observe que apenas as imagens do ActiveMQ Artemis são compatíveis. Mais especificamente, o repositório da imagem deve terminar com `artemiscloud/activemq-artemis-broker` . Consulte https://quay.io/repository/artemiscloud/activemq-artemis-broker para verificar as versões disponíveis."
 
 #. mt: deepl
 #, fuzzy
@@ -772,7 +772,7 @@ msgstr "[lock] `link:#quarkus-smallrye-reactivemessaging-amqp_quarkus.amqp.devse
 msgid ""
 "The value of the `quarkus-dev-service-aqmp` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for AMQP looks for a container with the `quarkus-dev-service-amqp` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-amqp` label set to the specified value.\n"
 "This property is used when you need multiple shared AMQP brokers."
-msgstr "O valor da etiqueta ` `quarkus-dev-service-aqmp` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for AMQP procura um contêiner com a etiqueta ``quarkus-dev-service-amqp`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-amqp”` definida com o valor especificado. Essa propriedade é utilizada quando são necessários vários brokers AMQP compartilhados."
+msgstr "O valor da etiqueta ` `quarkus-dev-service-aqmp` ` associada ao contêiner iniciado. Essa propriedade é utilizada quando `a opção `shared`` está definida como ``true`` . Nesse caso, antes de iniciar um contêiner, o Dev Services for AMQP procura um contêiner com a etiqueta ``quarkus-dev-service-amqp`` definida com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com a etiqueta `“quarkus-dev-service-amqp”` definida com o valor especificado. Esta propriedade é utilizada quando são necessários vários brokers AMQP compartilhados."
 
 #. mt: deepl
 #, fuzzy

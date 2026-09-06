@@ -278,8 +278,9 @@ msgstr "As extensões do Quarkus podem escolher automaticamente os serviços cer
 msgid "We prefer listing services explicitly as it produces better optimised binaries. Disable it as well by setting `-H:-UseServiceLoaderFeature`."
 msgstr "Preferimos listar os serviços explicitamente, pois isso produz binários mais otimizados. Desative-o também definindo `-H:-UseServiceLoaderFeature` ."
 
+#, fuzzy
 msgid "Others &#8230;&#8203;"
-msgstr ""
+msgstr "Outros …​"
 
 #, fuzzy
 msgid ""

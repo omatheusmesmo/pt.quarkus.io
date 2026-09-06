@@ -611,7 +611,7 @@ msgstr "O nome da configuração de proxy a ser utilizada; será ignorado caso a
 #. mt: deepl
 #, fuzzy
 msgid "If not set and the default proxy configuration is configured (`quarkus.proxy.++*++`) then that will be used. If the proxy configuration name is set, the configuration from `quarkus.proxy.<name>.++*++` will be used. If the proxy configuration name is set, but no proxy configuration is found with that name, then an error will be thrown at runtime."
-msgstr "Caso não esteja definido e haja uma configuração de proxy padrão ( `quarkus.proxy.*` ), essa será utilizada. Se o nome da configuração de proxy estiver definido, será utilizada a configuração de `quarkus.proxy.<nome>.*.` Caso o nome da configuração de proxy esteja definido, mas nenhuma configuração de proxy com esse nome seja encontrada, será gerado um erro em tempo de execução."
+msgstr "Caso não esteja definido e a configuração padrão de proxy esteja configurada ( `quarkus.proxy.*` ), essa será utilizada. Caso o nome da configuração de proxy esteja definido, será utilizada a configuração de `quarkus.proxy.<nome>.*.` Caso o nome da configuração de proxy esteja definido, mas nenhuma configuração de proxy com esse nome seja encontrada, será gerado um erro em tempo de execução."
 
 #. mt: deepl
 #, fuzzy
@@ -1305,7 +1305,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-trust-store[quarku
 #. mt: deepl
 #, fuzzy
 msgid "The trust store location. Can point to either a classpath resource or a file."
-msgstr "A localização do repositório de confiança. Pode apontar para um recurso do classpath ou para um arquivo."
+msgstr "A localização do repositório de confiança. Pode indicar um recurso do classpath ou um arquivo."
 
 #. mt: deepl
 #, fuzzy
@@ -1340,7 +1340,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-trust-store-passwo
 #. mt: deepl
 #, fuzzy
 msgid "The trust store password."
-msgstr "A senha do armazenamento de certificados."
+msgstr "A senha do armazenamento de confiança."
 
 #. mt: deepl
 #, fuzzy
@@ -1375,7 +1375,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-trust-store-type[q
 #. mt: deepl
 #, fuzzy
 msgid "The type of the trust store. Defaults to \"JKS\"."
-msgstr "O tipo do armazenamento de certificações. O valor padrão é “JKS”."
+msgstr "O tipo do armazenamento de certificados confiáveis. O valor padrão é “JKS”."
 
 #. mt: deepl
 #, fuzzy
@@ -1524,7 +1524,7 @@ msgstr "O nome da configuração TLS a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown. The default TLS configuration will be ignored."
-msgstr "Se um nome estiver configurado, ele utilizará a configuração do diretório `quarkus.tls.<nome>.*.` Se um nome estiver configurado, mas nenhuma configuração TLS for encontrada com esse nome, será gerado um erro. A configuração TLS padrão será ignorada."
+msgstr "Se um nome estiver configurado, ele utilizará a configuração de `quarkus.tls.<nome>.*` Se um nome estiver configurado, mas nenhuma configuração TLS for encontrada com esse nome, será gerado um erro. A configuração TLS padrão será ignorada."
 
 #. mt: deepl
 #, fuzzy
@@ -1644,7 +1644,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-max-chunk-size[qua
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-max-chunk-size]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-max-chunk-size[`+++quarkus.rest-client.max-chunk-size+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.max-chunk-size+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-max-chunk-size[quarkus.rest-client.max-chunk-size] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.max-chunk-size[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-max-chunk-size[quarkus.rest-client.max-chunk-size] config_property_copy_button:quarkus.rest-client.max-chunk-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2155,7 +2155,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[quarkus
 msgid ""
 "[[quarkus-rest-client-config_quarkus-rest-client-client-uri]] [.property-path]##link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[`+++quarkus.rest-client.\"client\".uri+++`]##\n"
 "config_property_copy_button:+++quarkus.rest-client.\"client\".uri+++[]"
-msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[quarkus.rest-client.\"client\".uri] config_property_copy_button:quarkus.rest-client.\"client\".uri[]"
+msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-uri[quarkus.rest-client.\"client\".uri] botão_para_copiar_propriedade_de_configuração:quarkus.rest-client.\"client\".uri[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2941,7 +2941,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-shared[quar
 #. mt: deepl
 #, fuzzy
 msgid "Set to true to share the HTTP client between REST clients. There can be multiple shared clients distinguished by _name_, when no specific name is set, the name `__vertx.DEFAULT` is used."
-msgstr "Defina como “true” para compartilhar o cliente HTTP entre clientes REST. Pode haver vários clientes compartilhados, diferenciados pelo _nome_ ; quando nenhum nome específico for definido, será utilizado o nome `__vertx.DEFAULT` ."
+msgstr "Defina como “true” para compartilhar o cliente HTTP entre clientes REST. Pode haver vários clientes compartilhados, diferenciados por _nome_ ; quando nenhum nome específico for definido, será utilizado o nome `__vertx.DEFAULT` ."
 
 #. mt: deepl
 #, fuzzy
@@ -3462,7 +3462,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-password[qua
 #. mt: deepl
 #, fuzzy
 msgid "Proxy password, equivalent to the http.proxyPassword or https.proxyPassword JVM settings. Honored only if `quarkus.rest-client.proxy-address` is set."
-msgstr "Senha de proxy, equivalente às configurações da JVM http.proxyPassword ou https.proxyPassword. É considerada apenas se `a variável quarkus.rest-client.proxy-address` estiver definida."
+msgstr "Senha de proxy, equivalente às configurações da JVM http.proxyPassword ou https.proxyPassword. É considerada apenas se `quarkus.rest-client.proxy-address` estiver definido."
 
 #. mt: deepl
 #, fuzzy
@@ -3501,7 +3501,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-non-proxy-hosts[qu
 #. mt: deepl
 #, fuzzy
 msgid "Hosts to access without proxy, similar to the http.nonProxyHosts or https.nonProxyHosts JVM settings. Please note that unlike the JVM settings, this property is empty by default. Honored only if `quarkus.rest-client.proxy-address` is set."
-msgstr "Hosts aos quais se deve acessar sem proxy, de forma semelhante às configurações da JVM http.nonProxyHosts ou https.nonProxyHosts. Observe que, ao contrário das configurações da JVM, essa propriedade está vazia por padrão. Só será considerada se `a propriedade quarkus.rest-client.proxy-address` estiver definida."
+msgstr "Hosts aos quais se deve acessar sem proxy, de forma semelhante às configurações da JVM http.nonProxyHosts ou https.nonProxyHosts. Observe que, ao contrário das configurações da JVM, essa propriedade está vazia por padrão. É considerada apenas se `quarkus.rest-client.proxy-address` estiver definido."
 
 #. mt: deepl
 #, fuzzy
@@ -3540,7 +3540,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-proxy-connect-time
 #. mt: deepl
 #, fuzzy
 msgid "Proxy connection timeout. Honored only if `quarkus.rest-client.proxy-address` is set."
-msgstr "Tempo limite da conexão do proxy. Só será respeitado se `a` variável `quarkus.rest-client.proxy-address` estiver definida."
+msgstr "Tempo limite da conexão de proxy. Apenas será respeitado se a variável `quarkus.rest-client.proxy-address` estiver definida."
 
 #. mt: deepl
 #, fuzzy
@@ -3708,7 +3708,7 @@ msgstr " link:#quarkus-rest-client-config_quarkus-rest-client-client-proxy-user[
 #. mt: deepl
 #, fuzzy
 msgid "Proxy username. Honored only if `quarkus.rest-client.\"client\".proxy-address` is set."
-msgstr "Nome de usuário do proxy. Só será considerado se `quarkus.rest-client.\"client\".proxy-address` estiver definido."
+msgstr "Nome de usuário do proxy. Só será considerado se a variável `quarkus.rest-client.\"client\".proxy-address` estiver definida."
 
 #. mt: deepl
 #, fuzzy
@@ -3834,9 +3834,9 @@ msgstr "Sobre o formato MemorySize"
 #. mt: deepl
 #, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentadas como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
 #. mt: deepl
 #, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr "Se nenhum sufixo for fornecido, considere-se bytes."
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."

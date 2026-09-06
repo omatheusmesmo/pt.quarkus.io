@@ -26,8 +26,9 @@ msgid ""
 "Have a look at the link:https://quarkus.io/extensions/io.quarkiverse.microprofile/quarkus-microprofile/[Quarkus MicroProfile extension] for an example of aggregator extensions."
 msgstr "Veja a xref:writing-extensions.adoc#extension-philosophy[filosofia da extensão] . A xref:extension-maturity-matrix.adoc[matriz de maturidade da extensão] mostra os tipos de recursos que as extensões podem oferecer. Outra coisa útil que as extensões podem fazer é agrupar outras extensões. Dê uma olhada na link:https://quarkus.io/extensions/io.quarkiverse.microprofile/quarkus-microprofile/[extensão Quarkus MicroProfile] para ver um exemplo de extensões de agregador."
 
+#, fuzzy
 msgid "Are there cases an extension isn&#8217;t necessary?"
-msgstr ""
+msgstr "Existem casos em que uma prorrogação não é necessária?"
 
 #, fuzzy
 msgid ""
@@ -62,15 +63,17 @@ msgstr "O site `BytecodeTransformerBuildItem` pode ser usado para manipular o by
 msgid "CDI"
 msgstr "CDI"
 
+#, fuzzy
 msgid "I&#8217;m working with CDI, and I don&#8217;t know how to &#8230;&#8203;"
-msgstr ""
+msgstr "Estou trabalhando com o CDI e não sei como…​"
 
 #, fuzzy
 msgid "The xref:cdi-integration.adoc[CDI integration guide] presents solutions to a number of CDI-related use cases for extension authors."
 msgstr "O xref:cdi-integration.adoc[guia de integração do CDI] apresenta soluções para vários casos de uso relacionados ao CDI para autores de extensões."
 
+#, fuzzy
 msgid "I have transformed a user class to add an injected field, but CDI isn&#8217;t working"
-msgstr ""
+msgstr "Alterei uma classe de usuário para adicionar um campo injetado, mas o CDI não está funcionando"
 
 #, fuzzy
 msgid ""
@@ -134,8 +137,9 @@ msgid ""
 "The link:https://hub.quarkiverse.io[quarkiverse repository] has some shortcuts to make releasing and testing extensions easier, but any extension can link:https://hub.quarkiverse.io/checklistfornewprojects/#make-your-extension-available-in-the-tooling[register into the catalog]."
 msgstr "O registro de uma extensão no catálogo é independente de onde está o código-fonte. O link:https://hub.quarkiverse.io[repositório do quarkiverse] tem alguns atalhos para facilitar o lançamento e o teste de extensões, mas qualquer extensão pode ser link:https://hub.quarkiverse.io/checklistfornewprojects/#make-your-extension-available-in-the-tooling[registrada no catálogo] ."
 
+#, fuzzy
 msgid "My extension isn&#8217;t showing up on extensions.quarkus.io"
-msgstr ""
+msgstr "Minha extensão não está aparecendo no site extensions.quarkus.io"
 
 #, fuzzy
 msgid ""
@@ -164,8 +168,9 @@ msgstr "Verifique se houve uma link:https://github.com/quarkusio/extensions/acti
 msgid "Other topics"
 msgstr "Outros tópicos"
 
+#, fuzzy
 msgid "What&#8217;s the difference between a quickstart and a codestart?"
-msgstr ""
+msgstr "Qual é a diferença entre um “quickstart” e um “codestart”?"
 
 #, fuzzy
 msgid ""

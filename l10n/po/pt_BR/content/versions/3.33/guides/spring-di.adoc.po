@@ -390,7 +390,7 @@ msgstr "[lock]  link:#quarkus-spring-di_quarkus-spring-di-enabled[quarkus.spring
 #. mt: deepl
 #, fuzzy
 msgid "Whether Spring DI is enabled ++**++during the build++**++."
-msgstr "Se a injeção de dependências do Spring está ativada **durante a compilação**."
+msgstr "Se a injeção de dependências do Spring está habilitada **durante a compilação**."
 
 #. mt: deepl
 #, fuzzy

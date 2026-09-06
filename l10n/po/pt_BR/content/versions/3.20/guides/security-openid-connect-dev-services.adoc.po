@@ -553,8 +553,9 @@ msgstr "Referência de configuração"
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -581,14 +582,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Flag to enable (default) or disable Dev Services. When enabled, Dev Services for Keycloak automatically configures and starts Keycloak in Dev or Test mode, and when Docker is running."
-msgstr ""
+msgstr "Opção para ativar (padrão) ou desativar o Dev Services. Quando ativado, o Dev Services para Keycloak configura e inicia automaticamente o Keycloak no modo Dev ou Test, desde que o Docker esteja em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -615,11 +619,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.image-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name for Dev Services providers. Defaults to a Quarkus-based Keycloak image. For a WildFly-based distribution, use an image like `quay.io/keycloak/keycloak:19.0.3-legacy`. Keycloak Quarkus and WildFly images are initialized differently. Dev Services for Keycloak will assume it is a Keycloak Quarkus image unless the image version ends with `-legacy`. Override with `quarkus.keycloak.devservices.keycloak-x-image`."
-msgstr ""
+msgstr "O nome da imagem de contêiner para provedores de Dev Services. O padrão é uma imagem do Keycloak baseada no Quarkus. Para uma distribuição baseada no WildFly, utilize uma imagem como `quay.io/keycloak/keycloak:19.0.3-legacy` . As imagens do Keycloak Quarkus e do WildFly são inicializadas de maneira diferente. O Dev Services para Keycloak presumirá que se trata de uma imagem do Keycloak Quarkus, a menos que a versão da imagem termine com `-legacy` . Substitua essa configuração por meio de `quarkus.keycloak.devservices.keycloak-x-image` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -646,11 +652,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.keycloak-x-image+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if a Keycloak-X image is used. By default, the image is identified by `keycloak-x` in the image name. For custom images, override with `quarkus.keycloak.devservices.keycloak-x-image`. You do not need to set this property if the default check works."
-msgstr ""
+msgstr "Indica se é utilizada uma imagem do Keycloak-X. Por padrão, a imagem é identificada pela `string “keycloak-x”` no nome da imagem. Para imagens personalizadas, substitua por `quarkus.keycloak.devservices.keycloak-x-image` . Não é necessário definir essa propriedade se a verificação padrão funcionar."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_KEYCLOAK_X_IMAGE[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-shared]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-shared[`quarkus.keycloak.devservices.shared`]##\n"
@@ -671,11 +679,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.shared+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Determines if the Keycloak container is shared. When shared, Quarkus uses label-based service discovery to find and reuse a running Keycloak container, so a second one is not started. Otherwise, if a matching container is not is found, a new container is started. The service discovery uses the `quarkus-dev-service-label` label, whose value is set by the `service-name` property. Container sharing is available only in dev mode."
-msgstr ""
+msgstr "Determina se o contêiner do Keycloak é compartilhado. Quando compartilhado, o Quarkus utiliza a descoberta de serviços baseada em rótulos para localizar e reutilizar um contêiner do Keycloak em execução, de modo que um segundo contêiner não seja iniciado. Caso contrário, se não for encontrado um contêiner correspondente, um novo contêiner será iniciado. A descoberta de serviços utiliza a etiqueta ``quarkus-dev-service-label`` , cujo valor é definido pela propriedade ` `service-name`` . O compartilhamento de contêineres está disponível apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-service-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-service-name[`quarkus.keycloak.devservices.service-name`]##\n"
@@ -696,11 +706,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.service-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-keycloak` label for identifying the Keycloak container. Used in shared mode to locate an existing container with this label. If not found, a new container is initialized with this label. Applicable only in dev mode."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-keycloak”` para identificar o contêiner do Keycloak. Utilizado no modo compartilhado para localizar um contêiner existente com esse rótulo. Caso não seja encontrado, um novo contêiner é inicializado com esse rótulo. Aplicável apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SERVICE_NAME[]"
 
 #, fuzzy
 msgid "`quarkus`"
@@ -727,14 +739,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.realm-path+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A comma-separated list of class or file system paths to Keycloak realm files. This list is used to initialize Keycloak. The first value in this list is used to initialize default tenant connection properties."
-msgstr ""
+msgstr "Uma lista separada por vírgulas de caminhos de classe ou do sistema de arquivos para os arquivos do reino do Keycloak. Essa lista é utilizada para inicializar o Keycloak. O primeiro valor dessa lista é utilizado para inicializar as propriedades de conexão padrão do locatário."
 
+#, fuzzy
 msgid "To learn more about Keycloak realm files, consult the link:https://www.keycloak.org/server/importExport[Importing and Exporting Keycloak Realms documentation]."
-msgstr ""
+msgstr "Para saber mais sobre os arquivos de realm do Keycloak, consulte a link:https://www.keycloak.org/server/importExport[documentação “Importação e exportação de realms do Keycloak] ”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_REALM_PATH[]"
 
 #, fuzzy
 msgid "list of string"
@@ -759,14 +774,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.resource-aliases.\"alias-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Aliases to additional class or file system resources that are used to initialize Keycloak. Each map entry represents a mapping between an alias and a class or file system resource path."
-msgstr ""
+msgstr "Aliases para recursos adicionais de classe ou do sistema de arquivos utilizados para inicializar o Keycloak. Cada entrada do mapa representa um mapeamento entre um alias e um caminho de recurso de classe ou do sistema de arquivos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_ALIASES__ALIAS_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_ALIASES__ALIAS_NAME_[]"
 
+#, fuzzy
 msgid "Map<String,String>"
-msgstr ""
+msgstr "Map<String, String>"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-mappings-resource-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-resource-mappings-resource-name[`quarkus.keycloak.devservices.resource-mappings.\"resource-name\"`]##\n"
@@ -787,11 +805,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.resource-mappings.\"resource-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Additional class or file system resources that are used to initialize Keycloak. Each map entry represents a mapping between a class or file system resource path alias and the Keycloak container location."
-msgstr ""
+msgstr "Recursos adicionais de classe ou do sistema de arquivos utilizados para inicializar o Keycloak. Cada entrada do mapa representa um mapeamento entre um alias de caminho de uma classe ou de um recurso do sistema de arquivos e a localização do contêiner do Keycloak."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_MAPPINGS__RESOURCE_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_RESOURCE_MAPPINGS__RESOURCE_NAME_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-java-opts]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-java-opts[`quarkus.keycloak.devservices.java-opts`]##\n"
@@ -812,11 +832,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.java-opts+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The `JAVA_OPTS` passed to the keycloak JVM"
-msgstr ""
+msgstr "As variáveis `JAVA_OPTS` passadas à JVM do Keycloak"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_JAVA_OPTS[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-show-logs]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-show-logs[`quarkus.keycloak.devservices.show-logs`]##\n"
@@ -837,11 +859,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.show-logs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Show Keycloak log messages with a \"Keycloak:\" prefix."
-msgstr ""
+msgstr "Exiba as mensagens de log do Keycloak com o prefixo “Keycloak:”."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_SHOW_LOGS[]"
 
 #, fuzzy
 msgid "`false`"
@@ -866,11 +890,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.start-command+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Keycloak start command. Use this property to experiment with Keycloak start options, see `https://www.keycloak.org/server/all-config`. Note, it is ignored when loading legacy Keycloak WildFly images."
-msgstr ""
+msgstr "Comando de inicialização do Keycloak. Utilize esta propriedade para testar as opções de inicialização do Keycloak; consulte `https://www.keycloak.org/server/all-config` . Observe que ela é ignorada ao carregar imagens legadas do Keycloak para WildFly."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_START_COMMAND[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-features]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-features[`quarkus.keycloak.devservices.features`]##\n"
@@ -891,11 +917,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.features+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Keycloak features. Use this property to enable one or more experimental Keycloak features. Note, if you also have to customize a Keycloak `start-command()`, you can use a `--features` option as part of the start command sequence, instead of configuring this property."
-msgstr ""
+msgstr "Recursos do Keycloak. Utilize esta propriedade para habilitar um ou mais recursos experimentais do Keycloak. Observe que, caso também precise personalizar um `start-command()` do Keycloak, é possível utilizar a opção `--features` como parte da sequência de comandos de inicialização, em vez de configurar esta propriedade."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_FEATURES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_FEATURES[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-realm-name[`quarkus.keycloak.devservices.realm-name`]##\n"
@@ -916,11 +944,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.realm-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the Keycloak realm. This property is used to create the realm if the realm file pointed to by the `realm-path` property does not exist. The default value is `quarkus` in this case. It is recommended to always set this property so that Dev Services for Keycloak can identify the realm name without parsing the realm file."
-msgstr ""
+msgstr "O nome do reino do Keycloak. Essa propriedade é utilizada para criar o reino caso o arquivo de reino indicado pela propriedade ``realm-path`` não exista. O valor padrão, nesse caso, é ``quarkus`` . Recomenda-se definir sempre essa propriedade para que o Dev Services for Keycloak possa identificar o nome do reino sem precisar analisar o arquivo de reino."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_REALM_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-realm]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-realm[`quarkus.keycloak.devservices.create-realm`]##\n"
@@ -941,11 +971,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.create-realm+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies whether to create the Keycloak realm when no realm file is found at the `realm-path`. Set to `false` if the realm is to be created using either the Keycloak Administration Console or the Keycloak Admin API provided by `io.quarkus.test.common.QuarkusTestResourceLifecycleManager`."
-msgstr ""
+msgstr "Especifica se o reino do Keycloak deve ser criado quando nenhum arquivo de reino for encontrado no `caminho do reino` . Defina como `“false”` se o reino for criado por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_REALM[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-client]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-create-client[`quarkus.keycloak.devservices.create-client`]##\n"
@@ -966,11 +998,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.create-client+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies whether to create the default client id `quarkus-app` with a secret `secret` and register them if the `create-realm` property is set to true. For OIDC extension configuration properties `quarkus.oidc.client.id` and `quarkus.oidc.credentials.secret` will be configured. For OIDC Client extension configuration properties `quarkus.oidc-client.client.id` and `quarkus.oidc-client.credentials.secret` will be configured. Set to `false` if clients have to be created using either the Keycloak Administration Console or the Keycloak Admin API provided by `io.quarkus.test.common.QuarkusTestResourceLifecycleManager` or registered dynamically."
-msgstr ""
+msgstr "Especifica se deve criar o ID de cliente padrão ``quarkus-app` ` com um segredo ``secret`` e registrá-los, caso a propriedade ``create-realm` ` esteja definida como `true`. Para as propriedades de configuração da extensão OIDC, serão configuradas `quarkus.oidc.client.id` e `quarkus.oidc.credentials.secret` . Para as propriedades de configuração da extensão OIDC Client, serão configuradas `quarkus.oidc-client.client.id` e `quarkus.oidc-client.credentials.secret` . Defina como `“false”` se os clientes precisarem ser criados por meio do Console de Administração do Keycloak ou da API de Administração do Keycloak fornecida por ``io.quarkus.test.common.QuarkusTestResourceLifecycleManager` `, ou se forem registrados dinamicamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_CLIENT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CREATE_CLIENT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-with-disabled-tenant]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-start-with-disabled-tenant[`quarkus.keycloak.devservices.start-with-disabled-tenant`]##\n"
@@ -991,11 +1025,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.start-with-disabled-tenant+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies whether to start the container even if the default OIDC tenant is disabled. Setting this property to true may be necessary in a multi-tenant OIDC setup, especially when OIDC tenants are created dynamically."
-msgstr ""
+msgstr "Especifica se o contêiner deve ser iniciado mesmo que o locatário OIDC padrão esteja desativado. Pode ser necessário definir essa propriedade como “true” em uma configuração OIDC multilocatária, especialmente quando os locatários OIDC são criados dinamicamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_START_WITH_DISABLED_TENANT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_START_WITH_DISABLED_TENANT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-users-users]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-users-users[`quarkus.keycloak.devservices.users.\"users\"`]##\n"
@@ -1016,11 +1052,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.users.\"users\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A map of Keycloak usernames to passwords. If empty, default users `alice` and `bob` are created with their names as passwords. This map is used for user creation when no realm file is found at the `realm-path`."
-msgstr ""
+msgstr "Um mapeamento entre nomes de usuário e senhas do Keycloak. Se estiver vazio, os usuários padrão `“alice”` e `“bob”` serão criados com seus próprios nomes como senhas. Esse mapeamento é utilizado para a criação de usuários quando nenhum arquivo de reino for encontrado no `caminho do reino` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_USERS__USERS_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_USERS__USERS_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-roles-role-name]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-roles-role-name[`quarkus.keycloak.devservices.roles.\"role-name\"`]##\n"
@@ -1041,14 +1079,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.roles.\"role-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "A map of roles for Keycloak users. If empty, default roles are assigned: `alice` receives `admin` and `user` roles, while other users receive `user` role. This map is used for role creation when no realm file is found at the `realm-path`."
-msgstr ""
+msgstr "Um mapa de funções para usuários do Keycloak. Se estiver vazio, são atribuídas funções padrão: `a alice` recebe as funções `de administrador` e `usuário` , enquanto os demais usuários recebem a função `de usuário` . Esse mapa é utilizado para a criação de funções quando não é encontrado nenhum arquivo de reino no `caminho do reino` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_ROLES__ROLE_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_ROLES__ROLE_NAME_[]"
 
+#, fuzzy
 msgid "Map<String,List<String>>"
-msgstr ""
+msgstr "Map<String, List<String>>"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-port]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-port[`quarkus.keycloak.devservices.port`]##\n"
@@ -1071,14 +1112,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.port+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The specific port for the dev service to listen on."
-msgstr ""
+msgstr "A porta específica na qual o serviço de desenvolvimento deve ficar à escuta."
 
+#, fuzzy
 msgid "If not specified, a random port is selected."
-msgstr ""
+msgstr "Caso não seja especificado, é selecionada uma porta aleatória."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_PORT[]"
 
 msgid "int"
 msgstr "int"
@@ -1102,11 +1146,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.container-env.\"environment-variable-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables to be passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente a serem passadas ao contêiner."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-memory-limit]] [.property-path]##link:#quarkus-devservices-keycloak_quarkus-keycloak-devservices-container-memory-limit[`quarkus.keycloak.devservices.container-memory-limit`]##\n"
@@ -1132,14 +1178,17 @@ msgstr ""
 msgid "Memory limit for Keycloak container"
 msgstr ""
 
+#, fuzzy
 msgid "If not specified, 1250MiB is the default memory limit."
-msgstr ""
+msgstr "Caso não seja especificado, o limite padrão de memória é de 1250 MiB."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_MEMORY_LIMIT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_CONTAINER_MEMORY_LIMIT[]"
 
+#, fuzzy
 msgid "MemorySize link:#memory-size-note-anchor-quarkus-devservices-keycloak_quarkus-keycloak[icon:question-circle[title=More information about the MemorySize format]]"
-msgstr ""
+msgstr "MemorySize link:#memory-size-note-anchor-quarkus-devservices-keycloak_quarkus-keycloak[[círculo de pergunta]]"
 
 msgid "`1250M`"
 msgstr ""
@@ -1163,25 +1212,31 @@ msgid ""
 "config_property_copy_button:+++quarkus.keycloak.devservices.web-client-timeout+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The WebClient timeout. Use this property to configure how long an HTTP client used by OIDC dev service admin client will wait for a response from OpenId Connect Provider when acquiring admin token and creating realm."
-msgstr ""
+msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelo cliente de administração do serviço de desenvolvimento OIDC aguardará uma resposta do Provedor OpenID Connect ao adquirir um token de administração e ao criar um reino."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_DEVSERVICES_WEB_CLIENT_TIMEOUT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_DEVSERVICES_WEB_CLIENT_TIMEOUT[]"
 
+#, fuzzy
 msgid "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duration] link:#duration-note-anchor-quarkus-devservices-keycloak_quarkus-keycloak[icon:question-circle[title=More information about the Duration format]]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html[Duração] link:#duration-note-anchor-quarkus-devservices-keycloak_quarkus-keycloak[[círculo de pergunta]]"
 
+#, fuzzy
 msgid "`4S`"
-msgstr ""
+msgstr "`4S`"
 
+#, fuzzy
 msgid "About the Duration format"
-msgstr ""
+msgstr "Sobre o formato de duração"
 
+#, fuzzy
 msgid ""
 "To write duration values, use the standard `java.time.Duration` format.\n"
 "See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information."
-msgstr ""
+msgstr "Para escrever valores de duração, utilize o formato padrão `java.time.Duration` . Consulte link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[a documentação da API Java] do método link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse()] para obter mais informações."
 
 msgid "You can also use a simplified format, starting with a number:"
 msgstr "Você também pode usar um formato simplificado, começando com um número:"
@@ -1201,14 +1256,17 @@ msgstr "Se o valor for um número seguido de 'h', 'm' ou 's', ele é prefixado c
 msgid "If the value is a number followed by `d`, it is prefixed with `P`."
 msgstr "Se o valor for um número seguido de 'd', ele é prefixado com 'P'."
 
+#, fuzzy
 msgid "About the MemorySize format"
-msgstr ""
+msgstr "Sobre o formato MemorySize"
 
+#, fuzzy
 msgid "A size configuration option recognizes strings in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`."
-msgstr ""
+msgstr "Uma opção de configuração de tamanho reconhece sequências neste formato (apresentado como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` ."
 
+#, fuzzy
 msgid "If no suffix is given, assume bytes."
-msgstr ""
+msgstr "Se nenhum sufixo for fornecido, considere-se que se trata de bytes."
 
 msgid "References"
 msgstr "Referências"

@@ -450,11 +450,13 @@ msgstr ""
 msgid "Programmatic receivers"
 msgstr ""
 
+#, fuzzy
 msgid "No"
-msgstr ""
+msgstr "Não"
 
+#, fuzzy
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 msgid "Transactional delivery"
 msgstr ""

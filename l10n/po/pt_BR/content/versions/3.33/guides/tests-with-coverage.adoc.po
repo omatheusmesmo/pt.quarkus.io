@@ -516,7 +516,7 @@ msgstr "[lock]  link:#quarkus-jacoco_quarkus-jacoco-includes[quarkus.jacoco.incl
 #. mt: deepl
 #, fuzzy
 msgid "A list of class files to include in the report. May use wildcard characters (++*++ and ?). When not specified everything will be included."
-msgstr "Uma lista de arquivos de classe a serem incluídos no relatório. É possível utilizar caracteres curinga (* e ?). Quando não for especificada, tudo será incluído."
+msgstr "Uma lista de arquivos de classe a serem incluídos no relatório. É permitido o uso de caracteres curinga (* e ?). Quando não for especificada, tudo será incluído."
 
 msgid "For instance:"
 msgstr "Por exemplo:"

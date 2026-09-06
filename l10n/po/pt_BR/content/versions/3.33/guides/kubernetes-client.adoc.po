@@ -1026,7 +1026,7 @@ msgstr "[lock]  link:#quarkus-kubernetes-client_quarkus-kubernetes-client-reques
 #. mt: deepl
 #, fuzzy
 msgid "Maximum number of retry attempts for API requests that fail with an HTTP code of >= 500"
-msgstr "Número máximo de tentativas de repetição para solicitações de API que falham com um código HTTP >= 500"
+msgstr "Número máximo de tentativas de repetição para solicitações de API que falham com um código HTTP ≥ 500"
 
 #. mt: deepl
 #, fuzzy
@@ -1259,7 +1259,7 @@ msgstr "[lock]  link:#quarkus-kubernetes-client_quarkus-kubernetes-client-genera
 #. mt: deepl
 #, fuzzy
 msgid "Enable the generation of the RBAC manifests. If enabled and no other role binding are provided using the properties `quarkus.kubernetes.rbac.`, it will generate a default role binding using the role \"view\" and the application service account."
-msgstr "Habilite a geração dos manifestos RBAC. Se essa opção estiver habilitada e nenhuma outra vinculação de função for fornecida por meio das propriedades `quarkus.kubernetes.rbac.` , será gerada uma vinculação de função padrão utilizando a função “view” e a conta de serviço do aplicativo."
+msgstr "Habilite a geração dos manifestos RBAC. Se estiver habilitada e nenhuma outra vinculação de função for fornecida por meio das propriedades `quarkus.kubernetes.rbac.` , será gerada uma vinculação de função padrão utilizando a função “view” e a conta de serviço do aplicativo."
 
 #. mt: deepl
 #, fuzzy

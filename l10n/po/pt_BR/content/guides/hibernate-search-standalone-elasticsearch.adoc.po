@@ -1726,7 +1726,7 @@ msgid ""
 "For indexes that do not exist, create them along with their schema.\n"
 "\n"
 "For indexes that already exist, do nothing: assume that their schema matches Hibernate Search's expectations."
-msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
+msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
 
 #. mt: deepl
 #, fuzzy
@@ -1741,7 +1741,7 @@ msgid ""
 "For indexes that already exist, validate that their schema matches Hibernate Search's expectations.\n"
 "\n"
 "If it does not, throw an exception, but make no attempt to fix the problem."
-msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
 #. mt: deepl
 #, fuzzy
@@ -1787,7 +1787,7 @@ msgid ""
 "For indexes that already exist, drop them, then create them along with their schema.\n"
 "\n"
 "Also, drop indexes and their schema on shutdown."
-msgstr "Para os índices que não existirem, crie-os juntamente com seu esquema."
+msgstr "Para os índices que não existem, crie-os juntamente com seu esquema."
 
 #. mt: deepl
 #, fuzzy
@@ -1897,7 +1897,7 @@ msgid ""
 "How to synchronize between application threads and indexing,\n"
 "in particular when relying on (implicit) listener-triggered indexing on entity change,\n"
 "but also when using a `SearchIndexingPlan` explicitly."
-msgstr "Como sincronizar entre as threads do aplicativo e a indexação, em particular quando se recorre à indexação (implícita) acionada por ouvinte em caso de alteração da entidade, mas também quando se utiliza explicitamente um `SearchIndexingPlan` ."
+msgstr "Como sincronizar entre as threads do aplicativo e a indexação, especialmente quando se recorre à indexação (implícita) acionada por ouvinte em caso de alteração na entidade, mas também quando se utiliza explicitamente um `SearchIndexingPlan` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1924,7 +1924,7 @@ msgstr "Alterações aplicadas"
 #. mt: deepl
 #, fuzzy
 msgid "Changes safe from crash/power loss"
-msgstr "Alterações protegidas contra falhas do sistema ou queda de energia"
+msgstr "Alterações protegidas contra falhas de sistema ou queda de energia"
 
 #. mt: deepl
 #, fuzzy
@@ -2350,7 +2350,7 @@ msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".host
 #. mt: deepl
 #, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr "A lista de hosts dos servidores do Elasticsearch."
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
 #. mt: deepl
 #, fuzzy
@@ -2923,7 +2923,7 @@ msgstr "Como todas as operações realizadas neste pool de threads são não-blo
 #. mt: deepl
 #, fuzzy
 msgid "Defaults to the number of processor cores available to the JVM on startup."
-msgstr "O valor padrão corresponde ao número de núcleos de processador disponíveis para a JVM na inicialização."
+msgstr "O valor padrão é o número de núcleos de processador disponíveis para a JVM no momento da inicialização."
 
 #. mt: deepl
 #, fuzzy
@@ -2966,7 +2966,7 @@ msgstr "`quarkus.hibernate-search-standalone.elasticsearch.\"backend-name\".quer
 #. mt: deepl
 #, fuzzy
 msgid "Whether partial shard failures are ignored (`true`) or lead to Hibernate Search throwing an exception (`false`)."
-msgstr "Se as falhas parciais nos shards serão ignoradas ( `true` ) ou se levarão o Hibernate Search a lançar uma exceção ( `false` )."
+msgstr "Se as falhas parciais nos shards serão ignoradas ( `true` ) ou se farão com que o Hibernate Search lance uma exceção ( `false` )."
 
 #. mt: deepl
 #, fuzzy
@@ -3176,7 +3176,7 @@ msgid ""
 "i.e. of overflowing its HTTP request buffers and tripping\n"
 "https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[circuit breakers],\n"
 "leading to Elasticsearch giving up on some request and resulting in indexing failures."
-msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de transferência de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas de indexação."
+msgstr "Valores mais altos farão com que mais conexões sejam utilizadas em paralelo, o que pode resultar em maior taxa de processamento de indexação, mas acarreta o risco de sobrecarregar o Elasticsearch, ou seja, de causar o transbordamento de seus buffers de solicitações HTTP e acionar link:https://www.elastic.co/guide/en/elasticsearch/reference/7.9/circuit-breaker.html[os disjuntores] , levando o Elasticsearch a desistir de algumas solicitações e resultando em falhas na indexação."
 
 #. mt: deepl
 #, fuzzy
@@ -3314,7 +3314,7 @@ msgstr "Valores mais altos farão com que mais documentos sejam enviados em cada
 msgid ""
 "Note that raising this number above the queue size has no effect,\n"
 "as bulks cannot include more requests than are contained in the queue."
-msgstr "Observe que aumentar esse número para além do tamanho da fila não surte efeito, uma vez que os processamentos em lote não podem incluir mais solicitações do que as contidas na fila."
+msgstr "Observe que aumentar esse número para um valor superior ao tamanho da fila não surte efeito, uma vez que os processamentos em lote não podem incluir mais solicitações do que as contidas na fila."
 
 #. mt: deepl
 #, fuzzy

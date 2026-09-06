@@ -15,8 +15,9 @@ msgstr "Aqui você pode encontrar uma lista de Itens de Construção e a extens�
 msgid "Core"
 msgstr "Núcleo"
 
+#, fuzzy
 msgid "Class Name"
-msgstr ""
+msgstr "Nome da turma"
 
 #, fuzzy
 msgid "Attributes"
@@ -34,8 +35,9 @@ msgstr ""
 msgid "`PathCollection path` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`PathCollection path` "
-msgstr ""
+msgstr "`PathCollection caminho`"
 
 msgid "+++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -52,8 +54,9 @@ msgstr ""
 msgid "`String file` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String file` "
-msgstr ""
+msgstr "`Arquivo de strings`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/AdditionalClassLoaderResourcesBuildItem.java[`io.quarkus.deployment.builditem.AdditionalClassLoaderResourcesBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -107,8 +110,9 @@ msgstr ""
 msgid "`AnnotationProxyProvider provider` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`AnnotationProxyProvider provider` "
-msgstr ""
+msgstr "`provedor AnnotationProxyProvider`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/AppCDSContainerImageBuildItem.java[`io.quarkus.deployment.pkg.builditem.AppCDSContainerImageBuildItem`, window=\"_blank\"] :: +++Indicates that a specific container image should be used to generate the AppCDS file+++"
 msgstr ""
@@ -122,8 +126,9 @@ msgstr ""
 msgid "`String containerImage` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String containerImage` "
-msgstr ""
+msgstr "`String containerImage`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/AppCDSControlPointBuildItem.java[`io.quarkus.deployment.pkg.builditem.AppCDSControlPointBuildItem`, window=\"_blank\"] :: +++If this build item is generated, then it means that there is a recorder step that can be used as a point at which the application loading during AppCDS generation can be stopped safely, therefore allowing Quarkus to not have to stop loading the application in the static init phase which is the default approach for AppCDS generation.+++"
 msgstr ""
@@ -179,8 +184,9 @@ msgstr ""
 msgid "`ApplicationModel appModel` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ApplicationModel appModel` "
-msgstr ""
+msgstr "`ApplicationModel appModel`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ApplicationArchivesBuildItem.java[`io.quarkus.deployment.builditem.ApplicationArchivesBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -194,8 +200,9 @@ msgid ""
 "`Set allArchives` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ApplicationArchive root` "
-msgstr ""
+msgstr "`Raiz do ApplicationArchive`"
 
 msgid "`Collection applicationArchives` "
 msgstr ""
@@ -212,8 +219,9 @@ msgstr ""
 msgid "`String className` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String className` "
-msgstr ""
+msgstr "`String className`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ApplicationClassPredicateBuildItem.java[`io.quarkus.deployment.builditem.ApplicationClassPredicateBuildItem`, window=\"_blank\"] :: +++Makes it possible to identify wiring classes generated for classes from additional hot deployment paths.+++"
 msgstr ""
@@ -242,8 +250,9 @@ msgstr ""
 msgid "`Index index` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Index index` "
-msgstr ""
+msgstr "`Índice índice`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ApplicationInfoBuildItem.java[`io.quarkus.deployment.builditem.ApplicationInfoBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -256,11 +265,13 @@ msgid ""
 "`String version` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String name` "
-msgstr ""
+msgstr "`Nome da sequência`"
 
+#, fuzzy
 msgid "`String version` "
-msgstr ""
+msgstr "`Versão em string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ApplicationStartBuildItem.java[`io.quarkus.deployment.builditem.ApplicationStartBuildItem`, window=\"_blank\"] :: +++A symbolic class that is produced after the startup event has been fired. At this point it should be safe to open sockets and begin processing requests+++"
 msgstr ""
@@ -284,17 +295,20 @@ msgid ""
 "`PathCollection paths` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Path archiveRoot` "
-msgstr ""
+msgstr "`Caminho archiveRoot`"
 
 msgid "`Collection excludedFromIndexing` "
 msgstr ""
 
+#, fuzzy
 msgid "`PathCollection rootDirs` "
-msgstr ""
+msgstr "`PathCollection rootDirs`"
 
+#, fuzzy
 msgid "`PathCollection paths` "
-msgstr ""
+msgstr "`Caminhos da PathCollection`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/ArtifactResultBuildItem.java[`io.quarkus.deployment.pkg.builditem.ArtifactResultBuildItem`, window=\"_blank\"] :: +++Represents a runnable artifact, such as an uberjar or thin jar. Most artifacts will also produce a more specialized build item, to allow them to be consumed by other build steps.+++"
 msgstr ""
@@ -311,11 +325,13 @@ msgid ""
 "`Map metadata` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Path path` "
-msgstr ""
+msgstr "`Caminho caminho`"
 
+#, fuzzy
 msgid "`String type` "
-msgstr ""
+msgstr "`Tipo string`"
 
 msgid "`Map metadata` "
 msgstr ""
@@ -333,14 +349,17 @@ msgid ""
 "`ClassValue suppliers` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BuildTimeConfigurationReader.ReadResult readResult` "
-msgstr ""
+msgstr "`BuildTimeConfigurationReader.ReadResult readResult`"
 
+#, fuzzy
 msgid "`LaunchMode launchMode` "
-msgstr ""
+msgstr "`LaunchMode launchMode`"
 
+#, fuzzy
 msgid "`DevModeType devModeType` "
-msgstr ""
+msgstr "`DevModeType devModeType`"
 
 msgid "`ClassValue suppliers` "
 msgstr ""
@@ -371,20 +390,25 @@ msgid ""
 "`Properties buildSystemProps` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Path outputDirectory` "
-msgstr ""
+msgstr "`Caminho para o diretório de saída`"
 
+#, fuzzy
 msgid "`String baseName` "
-msgstr ""
+msgstr "`String baseName`"
 
+#, fuzzy
 msgid "`String originalBaseName` "
-msgstr ""
+msgstr "`String originalBaseName`"
 
+#, fuzzy
 msgid "`boolean rebuild` "
-msgstr ""
+msgstr "`boolean reconstruir`"
 
+#, fuzzy
 msgid "`Properties buildSystemProps` "
-msgstr ""
+msgstr "`Propriedades buildSystemProps`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/BytecodeRecorderConstantDefinitionBuildItem.java[`io.quarkus.deployment.builditem.BytecodeRecorderConstantDefinitionBuildItem`, window=\"_blank\"] :: +++The definition of a constant that can be injected into recorders via their -annotated constructor. Compared to simply passing the value to a recorder proxy, this build item allows for injecting values into recorders without introducing new dependencies from build steps that use the recorder to build steps that create the constant value. This can be useful in complex dependency graphs.+++"
 msgstr ""
@@ -440,8 +464,9 @@ msgstr ""
 msgid "+++If this is true it means the class should be loaded eagerly by a thread pool in dev mode on multithreaded systems. <p> Transformation is expensive, so doing it this way can speed up boot time.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String classToTransform` "
-msgstr ""
+msgstr "`String classToTransform`"
 
 msgid "`BiFunction visitorFunction` "
 msgstr ""
@@ -458,17 +483,21 @@ msgstr ""
 msgid "+++A set of class names that need to be present in the const pool for the transformation to happen. These need to be in JVM internal format. <p> The transformation is only applied if at least one of the entries in the const pool is present <p> Note that this is an optimisation, and if another transformer is transforming the class anyway then this transformer will always be applied.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean cacheable` "
-msgstr ""
+msgstr "`booleano cacheável`"
 
+#, fuzzy
 msgid "`int classReaderOptions` "
-msgstr ""
+msgstr "`int classReaderOptions`"
 
+#, fuzzy
 msgid "`boolean continueOnFailure` "
-msgstr ""
+msgstr "`booleano continueOnFailure`"
 
+#, fuzzy
 msgid "`int priority` "
-msgstr ""
+msgstr "`int prioridade`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/CapabilityBuildItem.java[`io.quarkus.deployment.builditem.CapabilityBuildItem`, window=\"_blank\"] :: +++Represents a technical capability that can be queried by other extensions. <p> Build steps can inject  - a convenient build item that holds the set of registered capabilities. <p> An extension may provide multiple capabilities. But only a single provider of a given capability is allowed in an application. If multiple providers of the same capability are detected during the build of an application, the build will fail with the corresponding error message. By default, capabilities are not displayed to users. <p> Capabilities should follow the naming conventions of Java packages; e.g. . Capabilities provided by core extensions should be listed in the  interface and their name should always start with the prefix.+++"
 msgstr ""
@@ -484,8 +513,9 @@ msgid ""
 "`String provider` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String provider` "
-msgstr ""
+msgstr "`Provedor de strings`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ChangedClassesBuildItem.java[`io.quarkus.deployment.builditem.ChangedClassesBuildItem`, window=\"_blank\"] :: +++Represents the differences between classes in a dev mode restart. This can be used to avoid repeating work on restart, e.g. re-using old proxy definitions if nothing has changed for a given class. This will not always be present, it must be injected as an optional dependency. This will never be generated if the previous restart was a failure to avoid issues with inconsistent application state.+++"
 msgstr ""
@@ -529,11 +559,13 @@ msgid ""
 "`IndexView computingIndex` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`IndexView index` "
-msgstr ""
+msgstr "`Índice do IndexView`"
 
+#, fuzzy
 msgid "`IndexView computingIndex` "
-msgstr ""
+msgstr "`Índice: Informática - Índice`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/CompiledJavaVersionBuildItem.java[`io.quarkus.deployment.pkg.builditem.CompiledJavaVersionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -544,8 +576,9 @@ msgstr ""
 msgid "`JavaVersion javaVersion` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`JavaVersion javaVersion` "
-msgstr ""
+msgstr "`JavaVersion javaVersion`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ConfigClassBuildItem.java[`io.quarkus.deployment.builditem.ConfigClassBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -562,8 +595,9 @@ msgid ""
 "`DotName name` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Class configClass` "
-msgstr ""
+msgstr "`Classe configClass`"
 
 msgid "`Set types` "
 msgstr ""
@@ -571,14 +605,17 @@ msgstr ""
 msgid "`Set generatedClasses` "
 msgstr ""
 
+#, fuzzy
 msgid "`String prefix` "
-msgstr ""
+msgstr "`Prefixo de string`"
 
+#, fuzzy
 msgid "`Kind kind` "
-msgstr ""
+msgstr "`Tipo, tipo`"
 
+#, fuzzy
 msgid "`DotName name` "
-msgstr ""
+msgstr "`DotName nome`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ConfigDescriptionBuildItem.java[`io.quarkus.deployment.builditem.ConfigDescriptionBuildItem`, window=\"_blank\"] :: +++A build item that is not part of the standard build, but is only used to generate example config files and docs+++"
 msgstr ""
@@ -598,23 +635,28 @@ msgid ""
 "`ConfigPhase configPhase` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String propertyName` "
-msgstr ""
+msgstr "`String propertyName`"
 
+#, fuzzy
 msgid "`String defaultValue` "
-msgstr ""
+msgstr "`String defaultValue`"
 
+#, fuzzy
 msgid "`String docs` "
-msgstr ""
+msgstr "`Documentação sobre strings`"
 
+#, fuzzy
 msgid "`String valueTypeName` "
-msgstr ""
+msgstr "`String valueTypeName`"
 
 msgid "`List allowedValues` "
 msgstr ""
 
+#, fuzzy
 msgid "`ConfigPhase configPhase` "
-msgstr ""
+msgstr "`ConfigPhase configPhase`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ConfigMappingBuildItem.java[`io.quarkus.deployment.builditem.ConfigMappingBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -669,8 +711,9 @@ msgstr ""
 msgid "`CommandContainer consoleCommand` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`CommandContainer consoleCommand` "
-msgstr ""
+msgstr "`CommandContainer consoleCommand`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ConsoleFormatterBannerBuildItem.java[`io.quarkus.deployment.builditem.ConsoleFormatterBannerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -727,17 +770,20 @@ msgid ""
 "`boolean registered` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean firstRun` "
-msgstr ""
+msgstr "`booleano firstRun`"
 
 msgid "`CopyOnWriteArrayList tasks` "
 msgstr ""
 
+#, fuzzy
 msgid "`QuarkusClassLoader baseCl` "
-msgstr ""
+msgstr "`QuarkusClassLoader baseCl`"
 
+#, fuzzy
 msgid "`boolean registered` "
-msgstr ""
+msgstr "`booleano registrado`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/cmd/DeployCommandActionBuildItem.java[`io.quarkus.deployment.cmd.DeployCommandActionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -750,11 +796,13 @@ msgid ""
 "`boolean successful` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String commandName` "
-msgstr ""
+msgstr "`String commandName`"
 
+#, fuzzy
 msgid "`boolean successful` "
-msgstr ""
+msgstr "`booleano bem-sucedido`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/cmd/DeployCommandActionResultBuildItem.java[`io.quarkus.deployment.cmd.DeployCommandActionResultBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -835,20 +883,24 @@ msgid ""
 "`Runnable callbackWhenEnabled` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DevServicesAdditionalConfigProvider configProvider` "
-msgstr ""
+msgstr "`DevServicesAdditionalConfigProvider configProvider`"
 
 msgid "`Collection triggeringKeys` "
 msgstr ""
 
+#, fuzzy
 msgid "`String key` "
-msgstr ""
+msgstr "`Chave de string`"
 
+#, fuzzy
 msgid "`String value` "
-msgstr ""
+msgstr "`Valor da string`"
 
+#, fuzzy
 msgid "`Runnable callbackWhenEnabled` "
-msgstr ""
+msgstr "`Callback executávelWhenEnabled`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/DevServicesLauncherConfigResultBuildItem.java[`io.quarkus.deployment.builditem.DevServicesLauncherConfigResultBuildItem`, window=\"_blank\"] :: +++Build item that contains the final results of all+++"
 msgstr ""
@@ -880,8 +932,9 @@ msgid ""
 "`Map config` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String containerId` "
-msgstr ""
+msgstr "`String containerId`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/DevServicesSharedNetworkBuildItem.java[`io.quarkus.deployment.builditem.DevServicesSharedNetworkBuildItem`, window=\"_blank\"] :: +++A marker build item that, if any instances are provided during the build, the containers started by DevServices will use a shared network. This is mainly useful in integration tests where the application container needs to be able to communicate with the services containers+++"
 msgstr ""
@@ -924,8 +977,9 @@ msgstr ""
 msgid "`IsDockerWorking isDockerWorking` "
 msgstr ""
 
+#, fuzzy
 msgid "`Boolean cachedStatus` "
-msgstr ""
+msgstr "`Booleano cachedStatus`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/ide/EffectiveIdeBuildItem.java[`io.quarkus.deployment.ide.EffectiveIdeBuildItem`, window=\"_blank\"] :: +++Contains the IDE to be opened when a request to open a class is made+++"
 msgstr ""
@@ -939,8 +993,9 @@ msgstr ""
 msgid "`Ide ide` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Ide ide` "
-msgstr ""
+msgstr "`Ide ide`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/dev/ExceptionNotificationBuildItem.java[`io.quarkus.deployment.dev.ExceptionNotificationBuildItem`, window=\"_blank\"] :: +++Allows for a handler to be registered when exceptions are logged. This is intended for use in dev/test mode to allow Quarkus to help the developer handle the issue.+++"
 msgstr ""
@@ -971,11 +1026,13 @@ msgid ""
 "`String resourceName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String jarFile` "
-msgstr ""
+msgstr "`String jarFile`"
 
+#, fuzzy
 msgid "`String resourceName` "
-msgstr ""
+msgstr "`String resourceName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ExcludeDependencyBuildItem.java[`io.quarkus.deployment.builditem.ExcludeDependencyBuildItem`, window=\"_blank\"] :: +++Build item that defines dependencies that should not be indexed. This can be used when a dependency contains a marker file (e.g. META-INF/beans.xml).+++"
 msgstr ""
@@ -992,11 +1049,13 @@ msgid ""
 "`Optional classifier` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String groupId` "
-msgstr ""
+msgstr "`String groupId`"
 
+#, fuzzy
 msgid "`String artifactId` "
-msgstr ""
+msgstr "`String artifactId`"
 
 msgid "`Optional classifier` "
 msgstr ""
@@ -1013,8 +1072,9 @@ msgstr ""
 msgid "`ScheduledExecutorService executor` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ScheduledExecutorService executor` "
-msgstr ""
+msgstr "`Executor do ScheduledExecutorService`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ExtensionSslNativeSupportBuildItem.java[`io.quarkus.deployment.builditem.ExtensionSslNativeSupportBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1025,8 +1085,9 @@ msgstr ""
 msgid "`String extension` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String extension` "
-msgstr ""
+msgstr "`Extensão de cadeia de caracteres`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/FeatureBuildItem.java[`io.quarkus.deployment.builditem.FeatureBuildItem`, window=\"_blank\"] :: +++Represents a functionality provided by an extension. The name of the feature gets displayed in the log during application bootstrap. <p> An extension should provide at most one feature. The name must be unique. If multiple extensions register a feature of the same name the build fails. <p> The name of the feature should only contain lowercase characters, words are separated by dash ; e.g. . Features provided by core extensions should be listed in the  enum.+++"
 msgstr ""
@@ -1059,14 +1120,17 @@ msgid ""
 "`String source` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean applicationClass` "
-msgstr ""
+msgstr "`boolean applicationClass`"
 
+#, fuzzy
 msgid "`byte[] classData` "
-msgstr ""
+msgstr "`byte[] classData`"
 
+#, fuzzy
 msgid "`String source` "
-msgstr ""
+msgstr "`Texto de origem`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/GeneratedFileSystemResourceBuildItem.java[`io.quarkus.deployment.builditem.GeneratedFileSystemResourceBuildItem`, window=\"_blank\"] :: +++Used when resources generated by the build should not end up in the produced runnable artifact, but in the file system inside the output directory of OutputTargetBuildItem. This is written to the file system for normal and dev mode, but not for test mode+++"
 msgstr ""
@@ -1112,8 +1176,9 @@ msgid ""
 "`boolean excludeFromDevCL` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean excludeFromDevCL` "
-msgstr ""
+msgstr "`boolean excluirDoDevCL`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/HotDeploymentWatchedFileBuildItem.java[`io.quarkus.deployment.builditem.HotDeploymentWatchedFileBuildItem`, window=\"_blank\"] :: +++Identifies a file from a that, if modified, may result in a hot redeployment when in the dev mode. <p> A file may be identified with an exact location or a matching predicate. See  and . <p> If multiple build items match the same file then the final value of  is computed as a logical OR of all the  values.+++"
 msgstr ""
@@ -1130,14 +1195,16 @@ msgid ""
 "`boolean restartNeeded` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String location` "
-msgstr ""
+msgstr "`Localização da string`"
 
 msgid "`Predicate locationPredicate` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean restartNeeded` "
-msgstr ""
+msgstr "`booleano restartNeeded`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/IOThreadDetectorBuildItem.java[`io.quarkus.deployment.builditem.IOThreadDetectorBuildItem`, window=\"_blank\"] :: +++A build items provides the ability to detect if the current thread is an IO thread+++"
 msgstr ""
@@ -1151,8 +1218,9 @@ msgstr ""
 msgid "`IOThreadDetector detector` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`IOThreadDetector detector` "
-msgstr ""
+msgstr "`detector IOThreadDetector`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/IndexDependencyBuildItem.java[`io.quarkus.deployment.builditem.IndexDependencyBuildItem`, window=\"_blank\"] :: +++Build item that defines dependencies that should be indexed. This can be used when a dependency does not contain a marker file (e.g. META-INF/beans.xml).+++"
 msgstr ""
@@ -1169,8 +1237,9 @@ msgid ""
 "`String classifier` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String classifier` "
-msgstr ""
+msgstr "`Classificador de cadeias de caracteres`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/InitTaskBuildItem.java[`io.quarkus.deployment.builditem.InitTaskBuildItem`, window=\"_blank\"] :: +++Represents an initialization task for the application. Often extension perform some sort of initialization as part of the application startup. There are cases where we want to externalize the initialization (e.g. in a pipeline). Often the task is run using the same artifact as the application but using a different command or arguments. In the later case it might be deseriable to pass additional environment variable to both the init tasks (to enable init) and the application (to disable the init).+++"
 msgstr ""
@@ -1207,11 +1276,13 @@ msgstr ""
 msgid "`Map appEnvVars` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean sharedEnvironment` "
-msgstr ""
+msgstr "`boolean sharedEnvironment`"
 
+#, fuzzy
 msgid "`boolean sharedFilesystem` "
-msgstr ""
+msgstr "`boolean sistema de arquivos compartilhado`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/InitTaskCompletedBuildItem.java[`io.quarkus.deployment.builditem.InitTaskCompletedBuildItem`, window=\"_blank\"] :: +++A symbolic class that represents that an initialization task has been complete. Similar to  but focused on initialization tasks (e.g. db migrations etc) that are run during runtime just before the application startups. <p> The build item is used, so that we can track when all initialization tasks have been completed.+++"
 msgstr ""
@@ -1247,17 +1318,20 @@ msgid ""
 "`GraalVM.Version exportBefore` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String moduleName` "
-msgstr ""
+msgstr "`String nomeDoMódulo`"
 
+#, fuzzy
 msgid "`String packageName` "
-msgstr ""
+msgstr "`String packageName`"
 
 msgid "`GraalVM.Version exportAfter` "
 msgstr ""
 
+#, fuzzy
 msgid "`GraalVM.Version exportBefore` "
-msgstr ""
+msgstr "`GraalVM.Version exportBefore`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/JarBuildItem.java[`io.quarkus.deployment.pkg.builditem.JarBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1273,11 +1347,13 @@ msgid ""
 "`String classifier` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Path originalArtifact` "
-msgstr ""
+msgstr "`Caminho original do artefato`"
 
+#, fuzzy
 msgid "`Path libraryDir` "
-msgstr ""
+msgstr "`Caminho para a pasta “libraryDir”`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/JavaLibraryPathAdditionalPathBuildItem.java[`io.quarkus.deployment.builditem.JavaLibraryPathAdditionalPathBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1288,8 +1364,9 @@ msgstr ""
 msgid "`String path` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String path` "
-msgstr ""
+msgstr "`Caminho da string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/JniBuildItem.java[`io.quarkus.deployment.builditem.JniBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1322,14 +1399,17 @@ msgstr ""
 msgid "`List className` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean constructors` "
-msgstr ""
+msgstr "`construtores booleanos`"
 
+#, fuzzy
 msgid "`boolean methods` "
-msgstr ""
+msgstr "`métodos booleanos`"
 
+#, fuzzy
 msgid "`boolean fields` "
-msgstr ""
+msgstr "`campos booleanos`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/JniRuntimeAccessFieldBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.JniRuntimeAccessFieldBuildItem`, window=\"_blank\"] :: +++JNI access registration fine-grained to single fields for a given class.+++"
 msgstr ""
@@ -1345,8 +1425,9 @@ msgid ""
 "`String name` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String declaringClass` "
-msgstr ""
+msgstr "`String declarandoClass`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/JniRuntimeAccessMethodBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.JniRuntimeAccessMethodBuildItem`, window=\"_blank\"] :: +++JNI access registration fine-grained to single methods for a given class.+++"
 msgstr ""
@@ -1363,8 +1444,9 @@ msgid ""
 "`String[] params` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String[] params` "
-msgstr ""
+msgstr "`String[] params`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/LambdaCapturingTypeBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.LambdaCapturingTypeBuildItem`, window=\"_blank\"] :: +++Used to register a lambda capturing type in native mode+++"
 msgstr ""
@@ -1395,14 +1477,16 @@ msgstr ""
 msgid "`Optional devModeType` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean auxiliaryApplication` "
-msgstr ""
+msgstr "`boolean aplicaçãoAuxiliar`"
 
 msgid "`Optional auxiliaryDevModeType` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean test` "
-msgstr ""
+msgstr "`teste booleano`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/LegacyJarRequiredBuildItem.java[`io.quarkus.deployment.pkg.builditem.LegacyJarRequiredBuildItem`, window=\"_blank\"] :: +++marker build item that extensions can use to force legacy jar creation+++"
 msgstr ""
@@ -1429,8 +1513,9 @@ msgid ""
 "`ClassChangeInformation changeInformation` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean liveReload` "
-msgstr ""
+msgstr "`boolean liveReload`"
 
 msgid "`Set changedResources` "
 msgstr ""
@@ -1438,8 +1523,9 @@ msgstr ""
 msgid "`Map reloadContext` "
 msgstr ""
 
+#, fuzzy
 msgid "`ClassChangeInformation changeInformation` "
-msgstr ""
+msgstr "`ClassChangeInformation changeInformation`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/LogCategoryBuildItem.java[`io.quarkus.deployment.builditem.LogCategoryBuildItem`, window=\"_blank\"] :: +++Establish the default log level of a log category.+++"
 msgstr ""
@@ -1456,14 +1542,17 @@ msgid ""
 "`boolean setMinLevelDefault` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String category` "
-msgstr ""
+msgstr "`Categoria de strings`"
 
+#, fuzzy
 msgid "`Level level` "
-msgstr ""
+msgstr "`Nível nível`"
 
+#, fuzzy
 msgid "`boolean setMinLevelDefault` "
-msgstr ""
+msgstr "`boolean setMinLevelDefault`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/LogCategoryMinLevelDefaultsBuildItem.java[`io.quarkus.deployment.builditem.LogCategoryMinLevelDefaultsBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1489,8 +1578,9 @@ msgstr ""
 msgid "`LogCleanupFilterElement filterElement` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`LogCleanupFilterElement filterElement` "
-msgstr ""
+msgstr "`LogCleanupFilterElement filterElement`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/LogConsoleFormatBuildItem.java[`io.quarkus.deployment.builditem.LogConsoleFormatBuildItem`, window=\"_blank\"] :: +++The log console format build item. Producing this item will cause the logging subsystem to disregard its console logging formatting configuration and use the formatter provided instead. If multiple formatters are enabled at run time, a warning message is printed and only one is used.+++"
 msgstr ""
@@ -1563,11 +1653,13 @@ msgid ""
 "`String generatedStartupContextClassName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BytecodeRecorderImpl bytecodeRecorder` "
-msgstr ""
+msgstr "`BytecodeRecorderImpl bytecodeRecorder`"
 
+#, fuzzy
 msgid "`String generatedStartupContextClassName` "
-msgstr ""
+msgstr "`String generatedStartupContextClassName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/MainClassBuildItem.java[`io.quarkus.deployment.builditem.MainClassBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1606,8 +1698,9 @@ msgstr ""
 msgid "`Consumer factoryConsumer` "
 msgstr ""
 
+#, fuzzy
 msgid "`ExecutionTime executionTime` "
-msgstr ""
+msgstr "`ExecutionTime executionTime`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/NamedLogHandlersBuildItem.java[`io.quarkus.deployment.builditem.NamedLogHandlersBuildItem`, window=\"_blank\"] :: +++A build item for adding additional named logging handlers.+++"
 msgstr ""
@@ -1636,8 +1729,9 @@ msgstr ""
 msgid "`boolean allow` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean allow` "
-msgstr ""
+msgstr "`booleano permitir`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/NativeImageBuildItem.java[`io.quarkus.deployment.pkg.builditem.NativeImageBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1650,8 +1744,9 @@ msgid ""
 "`GraalVMVersion graalVMVersion` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`GraalVMVersion graalVMVersion` "
-msgstr ""
+msgstr "`GraalVMVersion graalVMVersion`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/NativeImageConfigBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.NativeImageConfigBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -1700,8 +1795,9 @@ msgstr ""
 msgid "`String qualifiedName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String qualifiedName` "
-msgstr ""
+msgstr "`String nomeQualificado`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/NativeImageProxyDefinitionBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.NativeImageProxyDefinitionBuildItem`, window=\"_blank\"] :: +++A build item that represents a  definition that will be required in native mode. This definition takes the form of an ordered list of interfaces that this proxy will implement.+++"
 msgstr ""
@@ -1747,8 +1843,9 @@ msgid ""
 "`String moduleName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String bundleName` "
-msgstr ""
+msgstr "`String bundleName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/NativeImageResourceDirectoryBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.NativeImageResourceDirectoryBuildItem`, window=\"_blank\"] :: +++A build item that indicates that directory resources should be included in the native image <p> Related build items: <ul> <li>Use  if you need to add a single resource <li>Use  to select resource paths by regular expressions or globs </ul>+++"
 msgstr ""
@@ -1791,8 +1888,9 @@ msgstr ""
 msgid "`NativeImageBuildRunner buildRunner` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`NativeImageBuildRunner buildRunner` "
-msgstr ""
+msgstr "`NativeImageBuildRunner buildRunner`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/NativeImageSecurityProviderBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.NativeImageSecurityProviderBuildItem`, window=\"_blank\"] :: +++A build item that indicates that a security provider should be included in the native image using '-H:AdditionalSecurityProviders' option+++"
 msgstr ""
@@ -1806,8 +1904,9 @@ msgstr ""
 msgid "`String securityProvider` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String securityProvider` "
-msgstr ""
+msgstr "`String securityProvider`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/NativeImageSourceJarBuildItem.java[`io.quarkus.deployment.pkg.builditem.NativeImageSourceJarBuildItem`, window=\"_blank\"] :: +++A jar that is build to run the native image+++"
 msgstr ""
@@ -1858,8 +1957,9 @@ msgstr ""
 msgid "`int minUpdate` "
 msgstr ""
 
+#, fuzzy
 msgid "`String warning` "
-msgstr ""
+msgstr "`Aviso sobre string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/ObjectSubstitutionBuildItem.java[`io.quarkus.deployment.builditem.ObjectSubstitutionBuildItem`, window=\"_blank\"] :: +++Used to capture object substitution information for non-serializable classes+++"
 msgstr ""
@@ -1888,8 +1988,9 @@ msgid ""
 "`Optional includedOptionalDependencies` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Properties buildSystemProperties` "
-msgstr ""
+msgstr "`Propriedades buildSystemProperties`"
 
 msgid "`Optional includedOptionalDependencies` "
 msgstr ""
@@ -1927,8 +2028,9 @@ msgstr ""
 msgid "`boolean initialize` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean initialize` "
-msgstr ""
+msgstr "`inicialização booleana`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/ProcessInheritIODisabledBuildItem.java[`io.quarkus.deployment.pkg.builditem.ProcessInheritIODisabledBuildItem`, window=\"_blank\"] :: +++A build item, which indicates that the  will not work for processes launched by build steps and instead the build step will have to explicitly stream the newly launched process' STDOUT/STDERR, if the data generated on the STDOUT/STDERR of the launched process needs to be made available+++"
 msgstr ""
@@ -2000,14 +2102,17 @@ msgid ""
 "`boolean unsafeAllocated` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean weak` "
-msgstr ""
+msgstr "`booleano fraco`"
 
+#, fuzzy
 msgid "`boolean serialization` "
-msgstr ""
+msgstr "`serialização de valores booleanos`"
 
+#, fuzzy
 msgid "`boolean unsafeAllocated` "
-msgstr ""
+msgstr "`booleano unsafeAllocated`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/ReflectiveClassConditionBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.ReflectiveClassConditionBuildItem`, window=\"_blank\"] :: +++Used to define a condition to register a class for reflection in native mode only when a specific type is reachable+++"
 msgstr ""
@@ -2023,8 +2128,9 @@ msgid ""
 "`String typeReachable` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String typeReachable` "
-msgstr ""
+msgstr "`Tipo de string: Reachable`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/ReflectiveClassFinalFieldsWritablePredicateBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.ReflectiveClassFinalFieldsWritablePredicateBuildItem`, window=\"_blank\"] :: +++Used by  to determine whether the final fields of the class should be writable (which they aren't by default) If any one of the predicates returns true for a class, then ReflectiveHierarchyStep uses that true value+++"
 msgstr ""
@@ -2060,8 +2166,9 @@ msgid ""
 "`boolean serialization` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Type type` "
-msgstr ""
+msgstr "`Tipo tipo`"
 
 msgid "`Predicate ignoreTypePredicate` "
 msgstr ""
@@ -2101,8 +2208,9 @@ msgid ""
 "`Set resources` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ArtifactKey artifact` "
-msgstr ""
+msgstr "`Artefato ArtifactKey`"
 
 msgid "`Set resources` "
 msgstr ""
@@ -2125,17 +2233,21 @@ msgstr ""
 msgid "`List args` "
 msgstr ""
 
+#, fuzzy
 msgid "`Path workingDirectory` "
-msgstr ""
+msgstr "`Caminho para o diretório de trabalho`"
 
+#, fuzzy
 msgid "`String startedExpression` "
-msgstr ""
+msgstr "`String startedExpression`"
 
+#, fuzzy
 msgid "`Path logFile` "
-msgstr ""
+msgstr "`Caminho do arquivo de log`"
 
+#, fuzzy
 msgid "`boolean needsLogfile` "
-msgstr ""
+msgstr "`boolean needsLogfile`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/cmd/RunCommandActionResultBuildItem.java[`io.quarkus.deployment.cmd.RunCommandActionResultBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -2155,8 +2267,9 @@ msgstr ""
 msgid "`String builderClassName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String builderClassName` "
-msgstr ""
+msgstr "`Construtor de strings ClassName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/RunTimeConfigurationDefaultBuildItem.java[`io.quarkus.deployment.builditem.RunTimeConfigurationDefaultBuildItem`, window=\"_blank\"] :: +++A build item which specifies a configuration default value for run time, which is used to establish a default other than the one given for .+++"
 msgstr ""
@@ -2194,8 +2307,9 @@ msgstr ""
 msgid "`Runnable closeTask` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Runnable closeTask` "
-msgstr ""
+msgstr "`Runnable closeTask`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/RuntimeConfigSetupCompleteBuildItem.java[`io.quarkus.deployment.builditem.RuntimeConfigSetupCompleteBuildItem`, window=\"_blank\"] :: +++Marker used by Build Steps that consume runtime configuration to ensure that they run after the runtime config has been set up.+++"
 msgstr ""
@@ -2250,8 +2364,9 @@ msgid ""
 "`List providers` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String serviceInterface` "
-msgstr ""
+msgstr "`String serviceInterface`"
 
 msgid "`List providers` "
 msgstr ""
@@ -2283,8 +2398,9 @@ msgstr ""
 msgid "`ShutdownListener shutdownListener` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ShutdownListener shutdownListener` "
-msgstr ""
+msgstr "`ShutdownListener shutdownListener`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/SnapStartDefaultValueBuildItem.java[`io.quarkus.deployment.builditem.SnapStartDefaultValueBuildItem`, window=\"_blank\"] :: +++Allows extensions to set default value for enabling SnapStart.+++"
 msgstr ""
@@ -2298,8 +2414,9 @@ msgstr ""
 msgid "`boolean defaultValue` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean defaultValue` "
-msgstr ""
+msgstr "`booleano valorPadrão`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/SnapStartEnabledBuildItem.java[`io.quarkus.deployment.builditem.SnapStartEnabledBuildItem`, window=\"_blank\"] :: +++Marker item to specify that SnapStart is enabled.+++"
 msgstr ""
@@ -2361,8 +2478,9 @@ msgstr ""
 msgid "`String configKey` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String configKey` "
-msgstr ""
+msgstr "`String configKey`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/SystemPropertyBuildItem.java[`io.quarkus.deployment.builditem.SystemPropertyBuildItem`, window=\"_blank\"] :: +++Represents a system property that will be set immediately on application startup.+++"
 msgstr ""
@@ -2385,8 +2503,9 @@ msgstr ""
 msgid "`String annotationClassName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String annotationClassName` "
-msgstr ""
+msgstr "`Anotação de string ClassName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/TestClassBeanBuildItem.java[`io.quarkus.deployment.builditem.TestClassBeanBuildItem`, window=\"_blank\"] :: +++This is an optional build item that allows us to track additional test classes that will become beans. It is only available during tests+++"
 msgstr ""
@@ -2400,8 +2519,9 @@ msgstr ""
 msgid "`String testClassName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String testClassName` "
-msgstr ""
+msgstr "`String testClassName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/TestClassPredicateBuildItem.java[`io.quarkus.deployment.builditem.TestClassPredicateBuildItem`, window=\"_blank\"] :: +++This is an optional build item that allows extensions to distinguish test classes from application classes. It is only available during tests.+++"
 msgstr ""
@@ -2421,8 +2541,9 @@ msgstr ""
 msgid "`TestListener listener` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`TestListener listener` "
-msgstr ""
+msgstr "`TestListener listener`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/dev/testing/TestSetupBuildItem.java[`io.quarkus.deployment.dev.testing.TestSetupBuildItem`, window=\"_blank\"] :: +++Virtual build item that is used to signify that a step must be run to set up continuous testing+++"
 msgstr ""
@@ -2442,8 +2563,9 @@ msgstr ""
 msgid "`ThreadFactory threadFactory` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ThreadFactory threadFactory` "
-msgstr ""
+msgstr "`ThreadFactory threadFactory`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/TransformedClassesBuildItem.java[`io.quarkus.deployment.builditem.TransformedClassesBuildItem`, window=\"_blank\"] :: +++The results of applying bytecode transformation to a class. Note that this has also been abused somewhat to also represent removed resources, as the logic is the same, and it avoids have two separate mechanisms that essentially do the same thing.+++"
 msgstr ""
@@ -2503,8 +2625,9 @@ msgid ""
 "`String fieldName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String fieldName` "
-msgstr ""
+msgstr "`String fieldName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/builditem/nativeimage/UnsupportedOSBuildItem.java[`io.quarkus.deployment.builditem.nativeimage.UnsupportedOSBuildItem`, window=\"_blank\"] :: +++Native-image might not be supported for a particular extension on a given OS or architecture.+++"
 msgstr ""
@@ -2523,8 +2646,9 @@ msgstr ""
 msgid "`Os os` "
 msgstr ""
 
+#, fuzzy
 msgid "`String error` "
-msgstr ""
+msgstr "`Erro de string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/core/deployment/src/main/java/io/quarkus/deployment/pkg/builditem/UpxCompressedBuildItem.java[`io.quarkus.deployment.pkg.builditem.UpxCompressedBuildItem`, window=\"_blank\"] :: +++A marker build item that is used to indicate that UPX compression was performed+++"
 msgstr ""
@@ -2544,8 +2668,9 @@ msgstr ""
 msgid "+++A build item for adding the dev stream log+++"
 msgstr ""
 
+#, fuzzy
 msgid "Agroal - SPI"
-msgstr ""
+msgstr "Agroal - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/agroal/spi/src/main/java/io/quarkus/agroal/spi/JdbcDataSourceBuildItem.java[`io.quarkus.agroal.spi.JdbcDataSourceBuildItem`, window=\"_blank\"] :: +++A build item for JDBC datasources. <p> If you inject this build item when recording runtime init template calls, you are guaranteed the datasources configuration has been injected and datasources can be created.+++"
 msgstr ""
@@ -2564,17 +2689,20 @@ msgid ""
 "`boolean isDefault` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String dbKind` "
-msgstr ""
+msgstr "`String dbKind`"
 
 msgid "`Optional dbVersion` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean transactionIntegrationEnabled` "
-msgstr ""
+msgstr "`boolean transactionIntegrationEnabled`"
 
+#, fuzzy
 msgid "`boolean isDefault` "
-msgstr ""
+msgstr "`boolean isDefault`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/agroal/spi/src/main/java/io/quarkus/agroal/spi/JdbcDataSourceSchemaReadyBuildItem.java[`io.quarkus.agroal.spi.JdbcDataSourceSchemaReadyBuildItem`, window=\"_blank\"] :: +++A build item which can be used to order build processors which need a datasource's schema to be ready (which really means that the tables have been created and any migration run on them) for processing.+++"
 msgstr ""
@@ -2606,8 +2734,9 @@ msgid ""
 "`Optional xaDriverClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String driverClass` "
-msgstr ""
+msgstr "`String driverClass`"
 
 msgid "`Optional xaDriverClass` "
 msgstr ""
@@ -2623,8 +2752,9 @@ msgid ""
 "`Supplier sqlSupplier` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String databaseName` "
-msgstr ""
+msgstr "`String databaseName`"
 
 msgid "`Supplier sqlSupplier` "
 msgstr ""
@@ -2654,14 +2784,17 @@ msgid ""
 "`boolean streamHandler` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String handlerClass` "
-msgstr ""
+msgstr "`String handlerClass`"
 
+#, fuzzy
 msgid "`boolean streamHandler` "
-msgstr ""
+msgstr "`boolean streamHandler`"
 
+#, fuzzy
 msgid "Amazon Lambda - Common Deployment"
-msgstr ""
+msgstr "Amazon Lambda - Implantação comum"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/amazon-lambda/common-deployment/src/main/java/io/quarkus/amazon/lambda/deployment/EventServerOverrideBuildItem.java[`io.quarkus.amazon.lambda.deployment.EventServerOverrideBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -2695,8 +2828,9 @@ msgid ""
 "`String provider` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Class handlerClass` "
-msgstr ""
+msgstr "`Manipulador de classe Class`"
 
 #, fuzzy
 msgid "ArC"
@@ -2720,11 +2854,13 @@ msgstr ""
 msgid "`List beanClasses` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean removable` "
-msgstr ""
+msgstr "`booleano removível`"
 
+#, fuzzy
 msgid "`DotName defaultScope` "
-msgstr ""
+msgstr "`DotName escopo padrão`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/AnnotationsTransformerBuildItem.java[`io.quarkus.arc.deployment.AnnotationsTransformerBuildItem`, window=\"_blank\"] :: +++Make it possible to add, remove or alter annotations on various components. The provided transformer uses  to limit the scope of transformer to classes, fields, methods, method params or a combination of those. These metadata changes are not stored in Jandex directly (Jandex is immutable) but instead in an abstraction layer. Users/extensions can access  to view the updated annotation model. NOTE: Extensions that operate purely on Jandex index analysis won't be able to see any changes made via !+++"
 msgstr ""
@@ -2750,8 +2886,9 @@ msgstr ""
 msgid "`DevBeanInfos beanInfos` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DevBeanInfos beanInfos` "
-msgstr ""
+msgstr "`DevBeanInfos beanInfos`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/AutoAddScopeBuildItem.java[`io.quarkus.arc.deployment.AutoAddScopeBuildItem`, window=\"_blank\"] :: +++This build item can be used to turn a class that is not annotated with a CDI scope annotation into a bean, i.e. the default scope annotation is added automatically if all conditions are met.+++"
 msgstr ""
@@ -2772,17 +2909,21 @@ msgid ""
 "`BiConsumer scopeAlreadyAdded` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`MatchPredicate matchPredicate` "
-msgstr ""
+msgstr "`MatchPredicate matchPredicate`"
 
+#, fuzzy
 msgid "`boolean containerServicesRequired` "
-msgstr ""
+msgstr "`boolean containerServicesRequired`"
 
+#, fuzzy
 msgid "`boolean unremovable` "
-msgstr ""
+msgstr "`booleano não removível`"
 
+#, fuzzy
 msgid "`String reason` "
-msgstr ""
+msgstr "`Motivo da string`"
 
 msgid "`BiConsumer scopeAlreadyAdded` "
 msgstr ""
@@ -2817,8 +2958,9 @@ msgid ""
 "`Set generatedClassNames` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`IndexView immutableIndex` "
-msgstr ""
+msgstr "`IndexView immutableIndex`"
 
 msgid "`Set generatedClassNames` "
 msgstr ""
@@ -2844,8 +2986,9 @@ msgstr ""
 msgid "`BeanContainer value` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BeanContainer value` "
-msgstr ""
+msgstr "`Valor do BeanContainer`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/BeanContainerListenerBuildItem.java[`io.quarkus.arc.deployment.BeanContainerListenerBuildItem`, window=\"_blank\"] :: +++Build item that registers a listener which gets notified as soon as the CDI bean container is initialized. This is a convenient way to get access to beans and configure them as soon as the container is started. An instance of the running  is provided to the listener.+++"
 msgstr ""
@@ -2859,8 +3002,9 @@ msgstr ""
 msgid "`BeanContainerListener beanContainerListener` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BeanContainerListener beanContainerListener` "
-msgstr ""
+msgstr "`BeanContainerListener beanContainerListener`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/BeanDefiningAnnotationBuildItem.java[`io.quarkus.arc.deployment.BeanDefiningAnnotationBuildItem`, window=\"_blank\"] :: +++This build item is used to specify additional bean defining annotations. See also <a href=\"https://docs.jboss.org/cdi/spec/2.0/cdi-spec.html#bean_defining_annotations\">2.5.1. Bean defining annotations</a>. <p> By default, the resulting beans must not be removed even if they are considered unused and is enabled.+++"
 msgstr ""
@@ -2900,11 +3044,13 @@ msgid ""
 "`RegistrationContext context` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BeanProcessor beanProcessor` "
-msgstr ""
+msgstr "`BeanProcessor beanProcessor`"
 
+#, fuzzy
 msgid "`RegistrationContext context` "
-msgstr ""
+msgstr "`RegistrationContext context`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/BuildCompatibleExtensionsBuildItem.java[`io.quarkus.arc.deployment.BuildCompatibleExtensionsBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -2915,8 +3061,9 @@ msgstr ""
 msgid "`ExtensionsEntryPoint entrypoint` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ExtensionsEntryPoint entrypoint` "
-msgstr ""
+msgstr "`Ponto de entrada ExtensionsEntryPoint`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/BuildExclusionsBuildItem.java[`io.quarkus.arc.deployment.BuildExclusionsBuildItem`, window=\"_blank\"] :: +++A type of build item that contains only declaring classes, methods and fields that have been annotated with unsuccessful build time conditions. It aims to be used to manage the exclusion of the annotations thanks to the build time conditions also known as , ,  and+++"
 msgstr ""
@@ -2953,11 +3100,13 @@ msgid ""
 "`boolean enabled` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`AnnotationTarget target` "
-msgstr ""
+msgstr "`AnnotationTarget alvo`"
 
+#, fuzzy
 msgid "`boolean enabled` "
-msgstr ""
+msgstr "`booleano ativado`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/CompletedApplicationClassPredicateBuildItem.java[`io.quarkus.arc.deployment.CompletedApplicationClassPredicateBuildItem`, window=\"_blank\"] :: +++This build item hold the \"final\" predicate that is used to distinguish application classes from framework/library classes.+++"
 msgstr ""
@@ -3001,8 +3150,9 @@ msgid ""
 "`String defaultValue` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Type propertyType` "
-msgstr ""
+msgstr "`Digite propertyType`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/ContextRegistrationPhaseBuildItem.java[`io.quarkus.arc.deployment.ContextRegistrationPhaseBuildItem`, window=\"_blank\"] :: +++Context registration phase can be used to register custom CDI contexts. <p> An extension that needs to produce other build items during the \"context registration\" phase should use this build item. The build step should produce a  or at least inject a  for this build item, otherwise it could be ignored or processed at the wrong time, e.g. after . <p> Typical workflow involves obtaining a  via . Note that there is no need to invoke  once you are done as it is performed automatically.+++"
 msgstr ""
@@ -3018,8 +3168,9 @@ msgid ""
 "`ContextRegistrar.RegistrationContext context` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ContextRegistrar.RegistrationContext context` "
-msgstr ""
+msgstr "`ContextRegistrar.RegistrationContext contexto`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/CurrentContextFactoryBuildItem.java[`io.quarkus.arc.deployment.CurrentContextFactoryBuildItem`, window=\"_blank\"] :: +++An extension can provide a custom .+++"
 msgstr ""
@@ -3063,8 +3214,9 @@ msgstr ""
 msgid "`DotName annotationName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DotName annotationName` "
-msgstr ""
+msgstr "`DotName nomeDaAnotação`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/ExcludedTypeBuildItem.java[`io.quarkus.arc.deployment.ExcludedTypeBuildItem`, window=\"_blank\"] :: +++This build item is used to specify types to be excluded from discovery. <p> An element value can be: <ul> <li>a fully qualified class name, i.e. </li> <li>a simple class name as defined by , i.e. </li> <li>a package name with suffix , i.e. , matches a package</li> <li>a package name with suffix , i.e. , matches a package that starts with the value</li> </ul> If any element value matches a discovered type then the type is excluded from discovery, i.e. no beans and observer methods are created from this type.+++"
 msgstr ""
@@ -3078,8 +3230,9 @@ msgstr ""
 msgid "`String match` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String match` "
-msgstr ""
+msgstr "`Comparação de cadeias de caracteres`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/GeneratedBeanBuildItem.java[`io.quarkus.arc.deployment.GeneratedBeanBuildItem`, window=\"_blank\"] :: +++A generated CDI bean. If this is produced then a should not be produced for the same class, as Arc will take care of this.+++"
 msgstr ""
@@ -3096,8 +3249,9 @@ msgid ""
 "`String source` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`byte[] data` "
-msgstr ""
+msgstr "`byte[] dados`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/IgnoreSplitPackageBuildItem.java[`io.quarkus.arc.deployment.IgnoreSplitPackageBuildItem`, window=\"_blank\"] :: +++Allows extensions to programmatically exclude certain packages from split package detection which is executed by . Extensions are encouraged to solve split package issues and this build item should be used primarily as temporary workaround. <p> A package string representation can be: <ul> <li>a full name of the package, i.e. </li> <li>a package name with suffix , i.e. , which matches a package that starts with provided value</li>+++"
 msgstr ""
@@ -3126,8 +3280,9 @@ msgstr ""
 msgid "`InjectionPointsTransformer transformer` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`InjectionPointsTransformer transformer` "
-msgstr ""
+msgstr "`transformador InjectionPointsTransformer`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/staticmethods/InterceptedStaticMethodBuildItem.java[`io.quarkus.arc.deployment.staticmethods.InterceptedStaticMethodBuildItem`, window=\"_blank\"] :: +++Represents an intercepted static method.+++"
 msgstr ""
@@ -3145,8 +3300,9 @@ msgid ""
 "`String hash` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`MethodInfo method` "
-msgstr ""
+msgstr "`Método MethodInfo`"
 
 msgid "`List interceptors` "
 msgstr ""
@@ -3154,8 +3310,9 @@ msgstr ""
 msgid "`Set bindings` "
 msgstr ""
 
+#, fuzzy
 msgid "`String hash` "
-msgstr ""
+msgstr "`Hash de string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/staticmethods/InterceptedStaticMethodsTransformersRegisteredBuildItem.java[`io.quarkus.arc.deployment.staticmethods.InterceptedStaticMethodsTransformersRegisteredBuildItem`, window=\"_blank\"] :: +++Marker build item to signal that bytecode transformers used for static method interception were registered. <p> ASM class visitors produced by transformers registered by consumers of this build item will be run before visitors used for static method interception.+++"
 msgstr ""
@@ -3178,8 +3335,9 @@ msgstr ""
 msgid "`InterceptorBindingRegistrar registrar` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`InterceptorBindingRegistrar registrar` "
-msgstr ""
+msgstr "`InterceptorBindingRegistrar registrar`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/InterceptorResolverBuildItem.java[`io.quarkus.arc.deployment.InterceptorResolverBuildItem`, window=\"_blank\"] :: +++Holds a reference to the interceptor resolver.+++"
 msgstr ""
@@ -3196,14 +3354,16 @@ msgid ""
 "`BeanDeployment beanDeployment` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`InterceptorResolver resolver` "
-msgstr ""
+msgstr "`Resolver do InterceptorResolver`"
 
 msgid "`Set interceptorBindings` "
 msgstr ""
 
+#, fuzzy
 msgid "`BeanDeployment beanDeployment` "
-msgstr ""
+msgstr "`BeanDeployment beanDeployment`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/KnownCompatibleBeanArchiveBuildItem.java[`io.quarkus.arc.deployment.KnownCompatibleBeanArchiveBuildItem`, window=\"_blank\"] :: +++Marks a bean archive with given coordinates (groupId, artifactId and optionally classifier) as known compatible with Quarkus. This is only useful for bean archives whose defines a bean discovery mode of ; bean archives with discovery mode of or  are always compatible. If a bean archive is known to be compatible with Quarkus, no warning about  discovery is logged during application build.+++"
 msgstr ""
@@ -3235,8 +3395,9 @@ msgstr ""
 msgid "`ObserverTransformer transformer` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ObserverTransformer transformer` "
-msgstr ""
+msgstr "`Transformador ObserverTransformer`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/PreBeanContainerBuildItem.java[`io.quarkus.arc.deployment.PreBeanContainerBuildItem`, window=\"_blank\"] :: +++A build item that represents the fully initialized CDI bean container. This item is produced immediately before  in order to give recorders the chance to do something immediately before real recording steps come into play.+++"
 msgstr ""
@@ -3259,8 +3420,9 @@ msgstr ""
 msgid "`QualifierRegistrar registrar` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`QualifierRegistrar registrar` "
-msgstr ""
+msgstr "`Registrador de qualificação`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/ReflectiveBeanClassBuildItem.java[`io.quarkus.arc.deployment.ReflectiveBeanClassBuildItem`, window=\"_blank\"] :: +++This build item instructs ArC to produce a  for a client proxy and intercepted subclass generated for the given bean class.+++"
 msgstr ""
@@ -3274,8 +3436,9 @@ msgstr ""
 msgid "`DotName className` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DotName className` "
-msgstr ""
+msgstr "`DotName className`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/ResourceAnnotationBuildItem.java[`io.quarkus.arc.deployment.ResourceAnnotationBuildItem`, window=\"_blank\"] :: +++This build item is used to specify resource annotations that makes it possible to resolve non-CDI injection points, such as Java EE resources.+++"
 msgstr ""
@@ -3301,8 +3464,9 @@ msgstr ""
 msgid "`StereotypeRegistrar registrar` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`StereotypeRegistrar registrar` "
-msgstr ""
+msgstr "`StereotypeRegistrar – registrador`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/SynthesisFinishedBuildItem.java[`io.quarkus.arc.deployment.SynthesisFinishedBuildItem`, window=\"_blank\"] :: +++Consumers of this build item can easily inspect all beans, observers and injection points registered in the application. Synthetic beans and observers are included. If interested in class-based components only you can use the instead. <p> Additionally, the bean resolver can be used to apply the type-safe resolution rules, e.g. to find out whether there is a bean that would satisfy certain combination of required type and qualifiers.+++"
 msgstr ""
@@ -3325,8 +3489,9 @@ msgstr ""
 msgid "`ExtendedBeanConfigurator configurator` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ExtendedBeanConfigurator configurator` "
-msgstr ""
+msgstr "`ExtendedBeanConfigurator configurador`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/arc/deployment/src/main/java/io/quarkus/arc/deployment/SyntheticBeansRuntimeInitBuildItem.java[`io.quarkus.arc.deployment.SyntheticBeansRuntimeInitBuildItem`, window=\"_blank\"] :: +++This build item should be consumed by build steps that require RUNTIME_INIT synthetic beans to be initialized.+++"
 msgstr ""
@@ -3380,8 +3545,9 @@ msgid ""
 "`BeanDeploymentValidator.ValidationContext context` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BeanDeploymentValidator.ValidationContext context` "
-msgstr ""
+msgstr "`BeanDeploymentValidator.ValidationContext contexto`"
 
 #, fuzzy
 msgid "Azure Functions"
@@ -3399,14 +3565,17 @@ msgid ""
 "`Method method` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String functionName` "
-msgstr ""
+msgstr "`String nomeDaFunção`"
 
+#, fuzzy
 msgid "`Class declaring` "
-msgstr ""
+msgstr "`Declaração de classe`"
 
+#, fuzzy
 msgid "`Method method` "
-msgstr ""
+msgstr "`Método método`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/azure-functions/deployment/src/main/java/io/quarkus/azure/functions/deployment/AzureFunctionsAppNameBuildItem.java[`io.quarkus.azure.functions.deployment.AzureFunctionsAppNameBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3417,8 +3586,9 @@ msgstr ""
 msgid "`String appName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String appName` "
-msgstr ""
+msgstr "`String appName`"
 
 #, fuzzy
 msgid "Cache"
@@ -3439,8 +3609,9 @@ msgstr ""
 msgid "`Set names` "
 msgstr ""
 
+#, fuzzy
 msgid "Cache - SPI"
-msgstr ""
+msgstr "Cache - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/cache/deployment-spi/src/main/java/io/quarkus/cache/deployment/spi/AdditionalCacheNameBuildItem.java[`io.quarkus.cache.deployment.spi.AdditionalCacheNameBuildItem`, window=\"_blank\"] :: +++Build item used to ensure that a cache of the specified name is created at runtime. <p> This is used in order to create caches when means other than the standard cache annotations are used.+++"
 msgstr ""
@@ -3463,8 +3634,9 @@ msgstr ""
 msgid "`CacheManagerInfo info` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`CacheManagerInfo info` "
-msgstr ""
+msgstr "`CacheManagerInfo info`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/cache/deployment-spi/src/main/java/io/quarkus/cache/deployment/spi/CacheTypeBuildItem.java[`io.quarkus.cache.deployment.spi.CacheTypeBuildItem`, window=\"_blank\"] :: +++A build item that can be used by extensions to determine what kind of cache backend is configured. This is useful for cases where caching extensions specific data does not make sense for remote cache backends+++"
 msgstr ""
@@ -3478,8 +3650,9 @@ msgstr ""
 msgid "`Type type` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "Container Image - SPI"
-msgstr ""
+msgstr "Imagem de contêiner - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/container-image/spi/src/main/java/io/quarkus/container/spi/AvailableContainerImageExtensionBuildItem.java[`io.quarkus.container.spi.AvailableContainerImageExtensionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3496,8 +3669,9 @@ msgstr ""
 msgid "`String image` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String image` "
-msgstr ""
+msgstr "`Imagem de string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/container-image/spi/src/main/java/io/quarkus/container/spi/ContainerImageBuildRequestBuildItem.java[`io.quarkus.container.spi.ContainerImageBuildRequestBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3517,8 +3691,9 @@ msgstr ""
 msgid "`String builder` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String builder` "
-msgstr ""
+msgstr "`Construtor de strings`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/container-image/spi/src/main/java/io/quarkus/container/spi/ContainerImageCustomNameBuildItem.java[`io.quarkus.container.spi.ContainerImageCustomNameBuildItem`, window=\"_blank\"] :: +++This  can be used to override the default image name. It can be used in cases where the name of the image is customized externally. Example: The openshift extension may override the name. To ensure that things are in sync with the image name needs to be set.+++"
 msgstr ""
@@ -3549,14 +3724,17 @@ msgstr ""
 msgid "+++The container registry to use+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String imagePrefix` "
-msgstr ""
+msgstr "`String imagePrefix`"
 
+#, fuzzy
 msgid "`String repository` "
-msgstr ""
+msgstr "`Repositório de strings`"
 
+#, fuzzy
 msgid "`String tag` "
-msgstr ""
+msgstr "`Tag de string`"
 
 msgid "`Set additionalTags` "
 msgstr ""
@@ -3590,8 +3768,9 @@ msgstr ""
 msgid "`String registry` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String registry` "
-msgstr ""
+msgstr "`Registro de strings`"
 
 msgid "Datasource"
 msgstr ""
@@ -3614,8 +3793,9 @@ msgstr ""
 msgid "`Class callerClass` "
 msgstr ""
 
+#, fuzzy
 msgid "`String scope` "
-msgstr ""
+msgstr "`Âmbito da string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/datasource/deployment-spi/src/main/java/io/quarkus/datasource/deployment/spi/DevServicesDatasourceConfigurationHandlerBuildItem.java[`io.quarkus.datasource.deployment.spi.DevServicesDatasourceConfigurationHandlerBuildItem`, window=\"_blank\"] :: +++A handler that can map an automatic datasource to the relevant config properties.+++"
 msgstr ""
@@ -3661,11 +3841,13 @@ msgid ""
 "`DevServicesDatasourceProvider devDBProvider` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String database` "
-msgstr ""
+msgstr "`Banco de dados de strings`"
 
+#, fuzzy
 msgid "`DevServicesDatasourceProvider devDBProvider` "
-msgstr ""
+msgstr "`DevServicesDatasourceProvider devDBProvider`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/datasource/deployment-spi/src/main/java/io/quarkus/datasource/deployment/spi/DevServicesDatasourceResultBuildItem.java[`io.quarkus.datasource.deployment.spi.DevServicesDatasourceResultBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3684,8 +3866,9 @@ msgstr ""
 msgid "`Map namedDatasources` "
 msgstr ""
 
+#, fuzzy
 msgid "Elasticsearch REST client common"
-msgstr ""
+msgstr "Cliente REST do Elasticsearch – aspectos comuns"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/elasticsearch-rest-client-common/deployment/src/main/java/io/quarkus/elasticsearch/restclient/common/deployment/DevservicesElasticsearchBuildItem.java[`io.quarkus.elasticsearch.restclient.common.deployment.DevservicesElasticsearchBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3699,11 +3882,13 @@ msgid ""
 "`Distribution distribution` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String hostsConfigProperty` "
-msgstr ""
+msgstr "`String hostsConfigProperty`"
 
+#, fuzzy
 msgid "`Distribution distribution` "
-msgstr ""
+msgstr "`Distribuição distribuição`"
 
 #, fuzzy
 msgid "Elytron Security"
@@ -3754,11 +3939,13 @@ msgstr ""
 msgid "`RuntimeValue realm` "
 msgstr ""
 
+#, fuzzy
 msgid "`Runnable runtimeLoadTask` "
-msgstr ""
+msgstr "`Runnable runtimeLoadTask`"
 
+#, fuzzy
 msgid "Funqy Server Common"
-msgstr ""
+msgstr "Funqy Server – Informações Gerais"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/funqy/funqy-server-common/deployment/src/main/java/io/quarkus/funqy/deployment/FunctionBuildItem.java[`io.quarkus.funqy.deployment.FunctionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3773,11 +3960,13 @@ msgid ""
 "`String functionName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String methodName` "
-msgstr ""
+msgstr "`String methodName`"
 
+#, fuzzy
 msgid "`String descriptor` "
-msgstr ""
+msgstr "`Descritor de string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/funqy/funqy-server-common/deployment/src/main/java/io/quarkus/funqy/deployment/FunctionInitializedBuildItem.java[`io.quarkus.funqy.deployment.FunctionInitializedBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3797,8 +3986,9 @@ msgstr ""
 msgid "`String interceptorClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String interceptorClass` "
-msgstr ""
+msgstr "`Classe de interceptador de strings`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/grpc/deployment/src/main/java/io/quarkus/grpc/deployment/BindableServiceBuildItem.java[`io.quarkus.grpc.deployment.BindableServiceBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3811,8 +4001,9 @@ msgid ""
 "`List blockingMethods` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DotName serviceClass` "
-msgstr ""
+msgstr "`DotName serviceClass`"
 
 msgid "`List blockingMethods` "
 msgstr ""
@@ -3828,11 +4019,13 @@ msgid ""
 "`ClassInfo userDefinedBean` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ClassInfo generatedBean` "
-msgstr ""
+msgstr "`ClassInfo generatedBean`"
 
+#, fuzzy
 msgid "`ClassInfo userDefinedBean` "
-msgstr ""
+msgstr "`ClassInfo userDefinedBean`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/grpc/deployment/src/main/java/io/quarkus/grpc/deployment/GrpcClientBuildItem.java[`io.quarkus.grpc.deployment.GrpcClientBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3845,8 +4038,9 @@ msgid ""
 "`Set clients` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String clientName` "
-msgstr ""
+msgstr "`String clientName`"
 
 msgid "`Set clients` "
 msgstr ""
@@ -3867,14 +4061,17 @@ msgid ""
 "`HibernateOrmIntegrationRuntimeInitListener initListener` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String integrationName` "
-msgstr ""
+msgstr "`String integraçãoNome`"
 
+#, fuzzy
 msgid "`String persistenceUnitName` "
-msgstr ""
+msgstr "`String persistênciaNomeDaUnidade`"
 
+#, fuzzy
 msgid "`HibernateOrmIntegrationRuntimeInitListener initListener` "
-msgstr ""
+msgstr "`HibernateOrmIntegrationRuntimeInitListener initListener`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-orm/deployment/src/main/java/io/quarkus/hibernate/orm/deployment/integration/HibernateOrmIntegrationStaticConfiguredBuildItem.java[`io.quarkus.hibernate.orm.deployment.integration.HibernateOrmIntegrationStaticConfiguredBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -3889,11 +4086,13 @@ msgid ""
 "`boolean xmlMappingRequired` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`HibernateOrmIntegrationStaticInitListener initListener` "
-msgstr ""
+msgstr "`HibernateOrmIntegrationStaticInitListener initListener`"
 
+#, fuzzy
 msgid "`boolean xmlMappingRequired` "
-msgstr ""
+msgstr "`booleano xmlMappingRequired`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-orm/deployment/src/main/java/io/quarkus/hibernate/orm/deployment/ImpliedBlockingPersistenceUnitTypeBuildItem.java[`io.quarkus.hibernate.orm.deployment.ImpliedBlockingPersistenceUnitTypeBuildItem`, window=\"_blank\"] :: +++Quarkus attempts to automatically define a persistence unit when the Hibernate ORM extension is enabled, a default datasource is defined, and there are mapped entities. This build item represents the decision about creating such an implied persistence unit; it's modelled as a BuildItem so that other extensions can be aware of such a persistence unit being defined (e.g. Hibernate Reactive needs to know).+++"
 msgstr ""
@@ -3907,8 +4106,9 @@ msgstr ""
 msgid "`boolean shouldGenerateOne` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean shouldGenerateOne` "
-msgstr ""
+msgstr "`booleano shouldGenerateOne`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-orm/deployment/src/main/java/io/quarkus/hibernate/orm/deployment/JpaModelBuildItem.java[`io.quarkus.hibernate.orm.deployment.JpaModelBuildItem`, window=\"_blank\"] :: +++Internal model to represent which objects are likely needing enhancement via HibernateEntityEnhancer.+++"
 msgstr ""
@@ -3958,8 +4158,9 @@ msgstr ""
 msgid "`CompositeIndex index` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`CompositeIndex index` "
-msgstr ""
+msgstr "`Índice CompositeIndex`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-orm/deployment/src/main/java/io/quarkus/hibernate/orm/deployment/JpaModelPersistenceUnitContributionBuildItem.java[`io.quarkus.hibernate.orm.deployment.JpaModelPersistenceUnitContributionBuildItem`, window=\"_blank\"] :: +++Provides configuration specific to a persistence unit and necessary to build the JPA model.+++"
 msgstr ""
@@ -3977,8 +4178,9 @@ msgid ""
 "`Set explicitlyListedMappingFiles` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`URL persistenceUnitRootURL` "
-msgstr ""
+msgstr "`Persistência de URL: UnitRootURL`"
 
 msgid "`Set explicitlyListedClassNames` "
 msgstr ""
@@ -4035,11 +4237,13 @@ msgstr ""
 msgid "`String configurationName` "
 msgstr ""
 
+#, fuzzy
 msgid "`RecordedConfig config` "
-msgstr ""
+msgstr "`Configuração do RecordedConfig`"
 
+#, fuzzy
 msgid "`String multiTenancySchemaDataSource` "
-msgstr ""
+msgstr "`String multiTenancySchemaDataSource`"
 
 msgid "`List xmlMappings` "
 msgstr ""
@@ -4047,8 +4251,9 @@ msgstr ""
 msgid "`boolean isReactive` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean fromPersistenceXml` "
-msgstr ""
+msgstr "`booleano fromPersistenceXml`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-orm/deployment/src/main/java/io/quarkus/hibernate/orm/deployment/PersistenceXmlDescriptorBuildItem.java[`io.quarkus.hibernate.orm.deployment.PersistenceXmlDescriptorBuildItem`, window=\"_blank\"] :: +++Provides instances of , the raw representation of a persistence.xml file as it is after being located and parsed. Exposed as a possible integration API: other extensions can produce additional configuration instances.+++"
 msgstr ""
@@ -4062,8 +4267,9 @@ msgstr ""
 msgid "`ParsedPersistenceXmlDescriptor descriptor` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "Hibernate ORM - SPI"
-msgstr ""
+msgstr "Hibernate ORM - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-orm/deployment-spi/src/main/java/io/quarkus/hibernate/orm/deployment/spi/AdditionalJpaModelBuildItem.java[`io.quarkus.hibernate.orm.deployment.spi.AdditionalJpaModelBuildItem`, window=\"_blank\"] :: +++Additional Jpa model class that we need to index+++"
 msgstr ""
@@ -4113,8 +4319,9 @@ msgid ""
 "`String persistenceUnitName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String entityClass` "
-msgstr ""
+msgstr "`String entityClass`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/hibernate-orm-panache/deployment/src/main/java/io/quarkus/hibernate/orm/panache/deployment/PanacheEntityClassBuildItem.java[`io.quarkus.hibernate.orm.panache.deployment.PanacheEntityClassBuildItem`, window=\"_blank\"] :: +++Represents a regular Panache entity class.+++"
 msgstr ""
@@ -4128,8 +4335,9 @@ msgstr ""
 msgid "`ClassInfo entityClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ClassInfo entityClass` "
-msgstr ""
+msgstr "`ClassInfo entityClass`"
 
 msgid "Hibernate Reactive with Panache"
 msgstr "Hibernate Reactive with Panache"
@@ -4140,8 +4348,9 @@ msgstr ""
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/hibernate-reactive-panache/deployment/src/main/java/io/quarkus/hibernate/reactive/panache/common/deployment/PanacheEntityClassBuildItem.java[`io.quarkus.hibernate.reactive.panache.common.deployment.PanacheEntityClassBuildItem`, window=\"_blank\"] "
 msgstr ""
 
+#, fuzzy
 msgid "Hibernate Search - ORM + Elasticsearch"
-msgstr ""
+msgstr "Hibernate Search - ORM + Elasticsearch"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-search-orm-elasticsearch/deployment/src/main/java/io/quarkus/hibernate/search/orm/elasticsearch/deployment/HibernateSearchElasticsearchPersistenceUnitConfiguredBuildItem.java[`io.quarkus.hibernate.search.orm.elasticsearch.deployment.HibernateSearchElasticsearchPersistenceUnitConfiguredBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4156,8 +4365,9 @@ msgid ""
 "`Map backendAndIndexNamesForSearchExtensions` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`HibernateSearchElasticsearchBuildTimeConfigPersistenceUnit buildTimeConfig` "
-msgstr ""
+msgstr "`HibernateSearchElasticsearchBuildTimeConfigPersistenceUnit buildTimeConfig`"
 
 msgid "`Set backendNamesForIndexedEntities` "
 msgstr ""
@@ -4177,8 +4387,9 @@ msgstr ""
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-search-orm-elasticsearch/deployment/src/main/java/io/quarkus/hibernate/search/orm/elasticsearch/deployment/HibernateSearchIntegrationStaticConfiguredBuildItem.java[`io.quarkus.hibernate.search.orm.elasticsearch.deployment.HibernateSearchIntegrationStaticConfiguredBuildItem`, window=\"_blank\"] "
 msgstr ""
 
+#, fuzzy
 msgid "Hibernate Validator - SPI"
-msgstr ""
+msgstr "Hibernate Validator - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/hibernate-validator/spi/src/main/java/io/quarkus/hibernate/validator/spi/BeanValidationAnnotationsBuildItem.java[`io.quarkus.hibernate.validator.spi.BeanValidationAnnotationsBuildItem`, window=\"_blank\"] :: +++BuildItem used to publish the list of detected Bean Validation annotations for consumption by other extensions.+++"
 msgstr ""
@@ -4195,8 +4406,9 @@ msgid ""
 "`Set all` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DotName valid` "
-msgstr ""
+msgstr "`DotName válido`"
 
 msgid "`Set constraints` "
 msgstr ""
@@ -4204,8 +4416,9 @@ msgstr ""
 msgid "`Set all` "
 msgstr ""
 
+#, fuzzy
 msgid "Infinispan - Client"
-msgstr ""
+msgstr "Infinispan - Cliente"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/infinispan-client/deployment/src/main/java/io/quarkus/infinispan/client/deployment/InfinispanClientBuildItem.java[`io.quarkus.infinispan.client.deployment.InfinispanClientBuildItem`, window=\"_blank\"] :: +++Provide the Infinispan clients as RuntimeValue's.+++"
 msgstr ""
@@ -4256,14 +4469,16 @@ msgid ""
 "`Map marshallers` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Properties properties` "
-msgstr ""
+msgstr "`Propriedades propriedades`"
 
 msgid "`Map marshallers` "
 msgstr ""
 
+#, fuzzy
 msgid "Info - SPI"
-msgstr ""
+msgstr "Informações - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/info/deployment-spi/src/main/java/io/quarkus/info/deployment/spi/InfoBuildTimeContributorBuildItem.java[`io.quarkus.info.deployment.spi.InfoBuildTimeContributorBuildItem`, window=\"_blank\"] :: +++Allows for extensions to include their own  implementations that result in inclusion of properties in the info endpoint+++"
 msgstr ""
@@ -4277,8 +4492,9 @@ msgstr ""
 msgid "`InfoContributor infoContributor` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`InfoContributor infoContributor` "
-msgstr ""
+msgstr "`InfoContributor infoContributor`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/info/deployment-spi/src/main/java/io/quarkus/info/deployment/spi/InfoBuildTimeValuesBuildItem.java[`io.quarkus.info.deployment.spi.InfoBuildTimeValuesBuildItem`, window=\"_blank\"] :: +++Allows for extensions to include their properties into the info endpoint+++"
 msgstr ""
@@ -4316,8 +4532,9 @@ msgstr ""
 msgid "`List dotNames` "
 msgstr ""
 
+#, fuzzy
 msgid "Jackson - SPI"
-msgstr ""
+msgstr "Jackson - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/jackson/spi/src/main/java/io/quarkus/jackson/spi/ClassPathJacksonModuleBuildItem.java[`io.quarkus.jackson.spi.ClassPathJacksonModuleBuildItem`, window=\"_blank\"] :: +++BuildItem used to signal that some Jackson module has been detected on the classpath The modules are then registered with the ObjectMapper. Note: Modules are assumed to have a default constructor+++"
 msgstr ""
@@ -4331,8 +4548,9 @@ msgstr ""
 msgid "`String moduleClassName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String moduleClassName` "
-msgstr ""
+msgstr "`String móduloNomeDaClasse`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/jackson/spi/src/main/java/io/quarkus/jackson/spi/JacksonModuleBuildItem.java[`io.quarkus.jackson.spi.JacksonModuleBuildItem`, window=\"_blank\"] :: +++BuildItem used to create a Jackson SimpleModule for the purpose of registering serializers and deserializers Serializers and deserializers MUST contain a public no-args constructor+++"
 msgstr ""
@@ -4351,8 +4569,9 @@ msgstr ""
 msgid "`Collection items` "
 msgstr ""
 
+#, fuzzy
 msgid "JAX-RS - SPI"
-msgstr ""
+msgstr "JAX-RS - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/jaxrs-spi/deployment/src/main/java/io/quarkus/jaxrs/spi/deployment/AdditionalJaxRsResourceMethodAnnotationsBuildItem.java[`io.quarkus.jaxrs.spi.deployment.AdditionalJaxRsResourceMethodAnnotationsBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4381,8 +4600,9 @@ msgstr ""
 msgid "`JaxrsClientReactiveEnricher enricher` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`JaxrsClientReactiveEnricher enricher` "
-msgstr ""
+msgstr "`JaxrsClientReactiveEnricher enricher`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/jaxrs-client-reactive/deployment/src/main/java/io/quarkus/jaxrs/client/reactive/deployment/RestClientDefaultConsumesBuildItem.java[`io.quarkus.jaxrs.client.reactive.deployment.RestClientDefaultConsumesBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4395,8 +4615,9 @@ msgid ""
 "`int priority` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String defaultMediaType` "
-msgstr ""
+msgstr "`String defaultMediaType`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/jaxrs-client-reactive/deployment/src/main/java/io/quarkus/jaxrs/client/reactive/deployment/RestClientDefaultProducesBuildItem.java[`io.quarkus.jaxrs.client.reactive.deployment.RestClientDefaultProducesBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4438,11 +4659,13 @@ msgstr ""
 msgid "`String fileRoot` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String fileRoot` "
-msgstr ""
+msgstr "`String fileRoot`"
 
+#, fuzzy
 msgid "JMS - SPI"
-msgstr ""
+msgstr "JMS - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/jms-spi/deployment/src/main/java/io/quarkus/jms/spi/deployment/ConnectionFactoryWrapperBuildItem.java[`io.quarkus.jms.spi.deployment.ConnectionFactoryWrapperBuildItem`, window=\"_blank\"] :: +++A build item that can be used to wrap the JMS ConnectionFactory+++"
 msgstr ""
@@ -4459,8 +4682,9 @@ msgstr ""
 msgid "`Function wrapper` "
 msgstr ""
 
+#, fuzzy
 msgid "JSON-B - SPI"
-msgstr ""
+msgstr "JSON-B - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/jsonb/spi/src/main/java/io/quarkus/jsonb/spi/JsonbDeserializerBuildItem.java[`io.quarkus.jsonb.spi.JsonbDeserializerBuildItem`, window=\"_blank\"] :: +++BuildItem used to register a custom JsonbDeserializer with the default Jsonb bean Serializers and deserializers MUST contain a public no-args constructor+++"
 msgstr ""
@@ -4492,8 +4716,9 @@ msgstr ""
 msgid "`Collection serializerClassNames` "
 msgstr ""
 
+#, fuzzy
 msgid "Kubernetes - SPI"
-msgstr ""
+msgstr "Kubernetes - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/ConfigurationSupplierBuildItem.java[`io.quarkus.kubernetes.spi.ConfigurationSupplierBuildItem`, window=\"_blank\"] :: +++A build item that wraps around ConfigurationSupplier objects. The purpose of those build items is influence the configuration that will be feed to the generator process.+++"
 msgstr ""
@@ -4507,8 +4732,9 @@ msgstr ""
 msgid "`Object configurationSupplier` :: +++The configuration supplier+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Object configurationSupplier` "
-msgstr ""
+msgstr "`Configuração do objeto: Fornecedor`"
 
 msgid "+++The configuration supplier+++"
 msgstr ""
@@ -4525,8 +4751,9 @@ msgstr ""
 msgid "`Object configurator` :: +++The configurator+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Object configurator` "
-msgstr ""
+msgstr "`Configurador de objetos`"
 
 msgid "+++The configurator+++"
 msgstr ""
@@ -4543,8 +4770,9 @@ msgstr ""
 msgid "`Path root` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Path root` "
-msgstr ""
+msgstr "`Raiz do caminho`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/DecoratorBuildItem.java[`io.quarkus.kubernetes.spi.DecoratorBuildItem`, window=\"_blank\"] :: +++A build item that wraps around Decorator objects. The purpose of those build items is to perform modification on the generated resources.+++"
 msgstr ""
@@ -4560,14 +4788,16 @@ msgid ""
 "`Object decorator` :: +++The decorator+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String group` "
-msgstr ""
+msgstr "`Grupo de cordas`"
 
 msgid "+++The group the decorator will be applied to.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Object decorator` "
-msgstr ""
+msgstr "`Decorador de objetos`"
 
 msgid "+++The decorator+++"
 msgstr ""
@@ -4587,11 +4817,13 @@ msgid ""
 "`List generatedFiles` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Object project` "
-msgstr ""
+msgstr "`Projeto de objeto`"
 
+#, fuzzy
 msgid "`Object session` "
-msgstr ""
+msgstr "`Sessão de objeto`"
 
 msgid "`List generatedFiles` "
 msgstr ""
@@ -4610,8 +4842,9 @@ msgid ""
 "`byte[] content` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`byte[] content` "
-msgstr ""
+msgstr "`byte[] conteúdo`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesAnnotationBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesAnnotationBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4625,8 +4858,9 @@ msgid ""
 "`String target` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String target` "
-msgstr ""
+msgstr "`Alvo de corda`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesClusterRoleBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesClusterRoleBuildItem`, window=\"_blank\"] :: +++Produce this build item to request the Kubernetes extension to generate a Kubernetes  resource.+++"
 msgstr ""
@@ -4675,8 +4909,9 @@ msgstr ""
 msgid "`String kind` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String kind` "
-msgstr ""
+msgstr "`Tipo de cadeia de caracteres`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesDeploymentTargetBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesDeploymentTargetBuildItem`, window=\"_blank\"] :: +++Used to control which Kubernetes targets have their files generated and which get deployed Since these can be generated by various locations, code that needs the \"final\" set of items, should use the  method to get a new list with merged items. Furthermore, if priorities need to be taken into account, the merged list should also be sorted+++"
 msgstr ""
@@ -4697,8 +4932,9 @@ msgid ""
 "`DeployStrategy deployStrategy` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DeployStrategy deployStrategy` "
-msgstr ""
+msgstr "`DeployStrategy deployStrategy`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesEnvBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesEnvBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4717,17 +4953,21 @@ msgid ""
 "`boolean oldStyle` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String configmap` "
-msgstr ""
+msgstr "`Configmap de string`"
 
+#, fuzzy
 msgid "`String secret` "
-msgstr ""
+msgstr "`Segredo da string`"
 
+#, fuzzy
 msgid "`String field` "
-msgstr ""
+msgstr "`Campo de cadeia de caracteres`"
 
+#, fuzzy
 msgid "`EnvType type` "
-msgstr ""
+msgstr "`Tipo EnvType`"
 
 msgid "`boolean oldStyle` "
 msgstr ""
@@ -4799,8 +5039,9 @@ msgid ""
 "`String kind` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String apiVersion` "
-msgstr ""
+msgstr "`String apiVersion`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesOutputDirectoryBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesOutputDirectoryBuildItem`, window=\"_blank\"] :: +++Contains the effective output directory where to find the generated kubernetes resources.+++"
 msgstr ""
@@ -4825,8 +5066,9 @@ msgid ""
 "`String name` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`int port` "
-msgstr ""
+msgstr "`int porta`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesProbePortNameBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesProbePortNameBuildItem`, window=\"_blank\"] :: +++A build item for selecting which port to use for probes using an  action.+++"
 msgstr ""
@@ -4842,8 +5084,9 @@ msgid ""
 "`String scheme` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String scheme` "
-msgstr ""
+msgstr "`Esquema de cordas`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes/spi/src/main/java/io/quarkus/kubernetes/spi/KubernetesResourceMetadataBuildItem.java[`io.quarkus.kubernetes.spi.KubernetesResourceMetadataBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4879,14 +5122,16 @@ msgstr ""
 msgid "+++Name of the generated  resource. Can be , in which case the resource name is autogenerated.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`RoleRef roleRef` "
-msgstr ""
+msgstr "`RoleRef roleRef`"
 
 msgid "+++RoleRef configuration.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Subject[] subjects` "
-msgstr ""
+msgstr "`Assunto[] assuntos`"
 
 msgid "+++The target subjects.+++"
 msgstr ""
@@ -4910,8 +5155,9 @@ msgid ""
 "`String target` :: +++The target manifest that should include this role.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String namespace` "
-msgstr ""
+msgstr "`Espaço de nomes de strings`"
 
 msgid "+++Namespace of the generated  resource.+++"
 msgstr ""
@@ -4932,8 +5178,9 @@ msgstr ""
 msgid "+++Labels of the generated  resource.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean useAsDefault` "
-msgstr ""
+msgstr "`booleano useAsDefault`"
 
 msgid "+++If true, this service account will be used in the generated Deployment resources.+++"
 msgstr ""
@@ -4971,11 +5218,13 @@ msgstr ""
 msgid "`DeploymentTargetEntry entry` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DeploymentTargetEntry entry` "
-msgstr ""
+msgstr "`Entrada “DeploymentTargetEntry”`"
 
+#, fuzzy
 msgid "Kubernetes Client - SPI"
-msgstr ""
+msgstr "Cliente do Kubernetes - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes-client/spi/src/main/java/io/quarkus/kubernetes/client/spi/KubernetesClientBuildItem.java[`io.quarkus.kubernetes.client.spi.KubernetesClientBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -4988,11 +5237,13 @@ msgid ""
 "`HttpClient.Factory httpClientFactory` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Config config` "
-msgstr ""
+msgstr "`Config config`"
 
+#, fuzzy
 msgid "`HttpClient.Factory httpClientFactory` "
-msgstr ""
+msgstr "`HttpClient.Factory httpClientFactory`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes-client/spi/src/main/java/io/quarkus/kubernetes/client/spi/KubernetesClientCapabilityBuildItem.java[`io.quarkus.kubernetes.client.spi.KubernetesClientCapabilityBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -5003,8 +5254,9 @@ msgstr ""
 msgid "`boolean generateRbac` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean generateRbac` "
-msgstr ""
+msgstr "`booleano generateRbac`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes-client/spi/src/main/java/io/quarkus/kubernetes/client/spi/KubernetesResourcesBuildItem.java[`io.quarkus.kubernetes.client.spi.KubernetesResourcesBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -5015,8 +5267,9 @@ msgstr ""
 msgid "`String[] resourceClasses` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String[] resourceClasses` "
-msgstr ""
+msgstr "`String[] classesDeRecursos`"
 
 msgid "Kubernetes Service Binding - SPI"
 msgstr ""
@@ -5036,8 +5289,9 @@ msgid ""
 "`String name` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String id` "
-msgstr ""
+msgstr "`ID da string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/kubernetes-service-binding/spi/src/main/java/io/quarkus/kubernetes/service/binding/spi/ServiceBindingRequirementBuildItem.java[`io.quarkus.kubernetes.service.binding.spi.ServiceBindingRequirementBuildItem`, window=\"_blank\"] :: +++Build item that describes a kubernetes resource that the application needs to bind to.+++"
 msgstr ""
@@ -5204,8 +5458,9 @@ msgstr ""
 msgid "`List propertyCodecProviderClassNames` "
 msgstr ""
 
+#, fuzzy
 msgid "MongoDB with Panache - Common Deployment"
-msgstr ""
+msgstr "MongoDB com Panache - Implantação comum"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/mongodb-panache-common/deployment/src/main/java/io/quarkus/mongodb/panache/deployment/PanacheMongoEntityClassBuildItem.java[`io.quarkus.mongodb.panache.deployment.PanacheMongoEntityClassBuildItem`, window=\"_blank\"] :: +++Represents a regular Panache entity class.+++"
 msgstr ""
@@ -5213,8 +5468,9 @@ msgstr ""
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/mongodb-panache-common/deployment/src/main/java/io/quarkus/mongodb/panache/deployment/PanacheMongoEntityClassBuildItem.java[`io.quarkus.mongodb.panache.deployment.PanacheMongoEntityClassBuildItem`, window=\"_blank\"] "
 msgstr ""
 
+#, fuzzy
 msgid "Narayana JTA"
-msgstr ""
+msgstr "Narayana JTA"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/narayana-jta/deployment/src/main/java/io/quarkus/narayana/jta/deployment/NarayanaInitBuildItem.java[`io.quarkus.narayana.jta.deployment.NarayanaInitBuildItem`, window=\"_blank\"] :: +++Marker build item that indicates that the Narayana JTA extension has been initialized.+++"
 msgstr ""
@@ -5281,8 +5537,9 @@ msgstr ""
 msgid "`int maxOrder` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`int maxOrder` "
-msgstr ""
+msgstr "`int maxOrder`"
 
 msgid "OpenID Connect Adapter"
 msgstr ""
@@ -5311,8 +5568,9 @@ msgstr ""
 msgid "+++Marker build item which indicates that Dev Services for OIDC are provided by another extension. Dev Services for Keycloak will be disabled if this item is detected.+++"
 msgstr ""
 
+#, fuzzy
 msgid "OpenID Connect Client"
-msgstr ""
+msgstr "Cliente OpenID Connect"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/oidc-client/deployment/src/main/java/io/quarkus/oidc/client/deployment/OidcClientNamesBuildItem.java[`io.quarkus.oidc.client.deployment.OidcClientNamesBuildItem`, window=\"_blank\"] :: +++Contains non-default names of OIDC Clients.+++"
 msgstr ""
@@ -5435,8 +5693,9 @@ msgstr ""
 msgid "`RuntimeValue spanProcessors` "
 msgstr ""
 
+#, fuzzy
 msgid "Panache - Common"
-msgstr ""
+msgstr "Panache - Comum"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/panache-common/deployment/src/main/java/io/quarkus/panache/common/deployment/PanacheEntityClassesBuildItem.java[`io.quarkus.panache.common.deployment.PanacheEntityClassesBuildItem`, window=\"_blank\"] :: +++Build item to indicate that those classes are Panache-enhanced and will get getters/setters generated for public fields, even if they're not visible in the index.+++"
 msgstr ""
@@ -5465,11 +5724,13 @@ msgstr ""
 msgid "`PanacheMethodCustomizer methodCustomizer` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`PanacheMethodCustomizer methodCustomizer` "
-msgstr ""
+msgstr "`PanacheMethodCustomizer methodCustomizer`"
 
+#, fuzzy
 msgid "Panache - Hibernate - Common"
-msgstr ""
+msgstr "Panache - Hibernate - Comum"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/panache-hibernate-common/deployment/src/main/java/io/quarkus/panache/common/deployment/HibernateEnhancersRegisteredBuildItem.java[`io.quarkus.panache.common.deployment.HibernateEnhancersRegisteredBuildItem`, window=\"_blank\"] :: +++Purely marker build item so that you can register enhancers after Hibernate registers its enhancers, which would make your enhancers run before the Hibernate enhancers+++"
 msgstr ""
@@ -5489,8 +5750,9 @@ msgstr ""
 msgid "`MetamodelInfo metamodelInfo` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`MetamodelInfo metamodelInfo` "
-msgstr ""
+msgstr "`MetamodelInfo metamodelInfo`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/panache-hibernate-common/deployment/src/main/java/io/quarkus/panache/common/deployment/HibernateModelClassCandidatesForFieldAccessBuildItem.java[`io.quarkus.panache.common.deployment.HibernateModelClassCandidatesForFieldAccessBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -5514,8 +5776,9 @@ msgstr ""
 msgid "`CheckedTemplateAdapter adapter` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`CheckedTemplateAdapter adapter` "
-msgstr ""
+msgstr "`Adaptador CheckedTemplateAdapter`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/CheckedTemplateBuildItem.java[`io.quarkus.qute.deployment.CheckedTemplateBuildItem`, window=\"_blank\"] :: +++Represents a method of a class annotated with .+++"
 msgstr ""
@@ -5534,17 +5797,20 @@ msgid ""
 "`boolean requireTypeSafeExpressions` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String templateId` "
-msgstr ""
+msgstr "`String templateId`"
 
+#, fuzzy
 msgid "`String fragmentId` "
-msgstr ""
+msgstr "`String fragmentId`"
 
 msgid "`Map bindings` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean requireTypeSafeExpressions` "
-msgstr ""
+msgstr "`boolean requireTypeSafeExpressions`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/CustomTemplateLocatorPatternsBuildItem.java[`io.quarkus.qute.deployment.CustomTemplateLocatorPatternsBuildItem`, window=\"_blank\"] :: +++List of template locations in form of RegEx located by custom locators that must not be validated as custom locators are not available at build time.+++"
 msgstr ""
@@ -5590,11 +5856,13 @@ msgid ""
 "`AnnotationInstance templateData` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ClassInfo clazz` "
-msgstr ""
+msgstr "`ClassInfo clazz`"
 
+#, fuzzy
 msgid "`AnnotationInstance templateData` "
-msgstr ""
+msgstr "`Dados do modelo da instância de anotação`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/IncorrectExpressionBuildItem.java[`io.quarkus.qute.deployment.IncorrectExpressionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -5610,17 +5878,21 @@ msgid ""
 "`String reason` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String expression` "
-msgstr ""
+msgstr "`Expressão de string`"
 
+#, fuzzy
 msgid "`String property` "
-msgstr ""
+msgstr "`Propriedade de string`"
 
+#, fuzzy
 msgid "`String clazz` "
-msgstr ""
+msgstr "`Classe String`"
 
+#, fuzzy
 msgid "`Origin origin` "
-msgstr ""
+msgstr "`Origem origem`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/MessageBundleBuildItem.java[`io.quarkus.qute.deployment.MessageBundleBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -5637,8 +5909,9 @@ msgid ""
 "`String defaultLocale` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ClassInfo defaultBundleInterface` "
-msgstr ""
+msgstr "`ClassInfo defaultBundleInterface`"
 
 msgid "`Map localizedInterfaces` "
 msgstr ""
@@ -5649,8 +5922,9 @@ msgstr ""
 msgid "`Map mergeCandidates` "
 msgstr ""
 
+#, fuzzy
 msgid "`String defaultLocale` "
-msgstr ""
+msgstr "`String defaultLocale`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/MessageBundleMethodBuildItem.java[`io.quarkus.qute.deployment.MessageBundleMethodBuildItem`, window=\"_blank\"] :: +++Represents a message bundle method. <p> Note that templates that contain no expressions don't need to be validated.+++"
 msgstr ""
@@ -5670,11 +5944,13 @@ msgid ""
 "`boolean isDefaultBundle` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String template` "
-msgstr ""
+msgstr "`Modelo de string`"
 
+#, fuzzy
 msgid "`boolean isDefaultBundle` "
-msgstr ""
+msgstr "`boolean isDefaultBundle`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/TemplateDataBuildItem.java[`io.quarkus.qute.deployment.TemplateDataBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -5692,23 +5968,29 @@ msgid ""
 "`AnnotationInstance annotationInstance` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ClassInfo targetClass` "
-msgstr ""
+msgstr "`ClassInfo targetClass`"
 
+#, fuzzy
 msgid "`String[] ignore` "
-msgstr ""
+msgstr "`String[] ignorar`"
 
+#, fuzzy
 msgid "`Pattern[] ignorePatterns` "
-msgstr ""
+msgstr "`Padrão[] padrõesIgnorados`"
 
+#, fuzzy
 msgid "`boolean ignoreSuperclasses` "
-msgstr ""
+msgstr "`booleano ignoreSuperclasses`"
 
+#, fuzzy
 msgid "`boolean properties` "
-msgstr ""
+msgstr "`propriedades booleanas`"
 
+#, fuzzy
 msgid "`AnnotationInstance annotationInstance` "
-msgstr ""
+msgstr "`AnnotationInstance annotationInstance`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/TemplateExtensionMethodBuildItem.java[`io.quarkus.qute.deployment.TemplateExtensionMethodBuildItem`, window=\"_blank\"] :: +++Represents a template extension method.+++"
 msgstr ""
@@ -5731,23 +6013,28 @@ msgid ""
 "`Parameters params` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String matchName` "
-msgstr ""
+msgstr "`String matchName`"
 
 msgid "`List matchNames` "
 msgstr ""
 
+#, fuzzy
 msgid "`String matchRegex` "
-msgstr ""
+msgstr "`Comparação de string com expressão regular`"
 
+#, fuzzy
 msgid "`Pattern matchPattern` "
-msgstr ""
+msgstr "`Correspondência de padrãoPadrão`"
 
+#, fuzzy
 msgid "`Type matchType` "
-msgstr ""
+msgstr "`Digite matchType`"
 
+#, fuzzy
 msgid "`Parameters params` "
-msgstr ""
+msgstr "`Parâmetros params`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/TemplateFilePathsBuildItem.java[`io.quarkus.qute.deployment.TemplateFilePathsBuildItem`, window=\"_blank\"] :: +++Holds all template file paths, including the versions without suffixes configured via . <p> For example, for the template  the set will contain  and .+++"
 msgstr ""
@@ -5779,8 +6066,9 @@ msgid ""
 "`Type variableType` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Type variableType` "
-msgstr ""
+msgstr "`Variável de tipo Type`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/TemplatePathBuildItem.java[`io.quarkus.qute.deployment.TemplatePathBuildItem`, window=\"_blank\"] :: +++Represents a template path.+++"
 msgstr ""
@@ -5797,11 +6085,13 @@ msgid ""
 "`String content` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Path fullPath` "
-msgstr ""
+msgstr "`Caminho fullPath`"
 
+#, fuzzy
 msgid "`String content` "
-msgstr ""
+msgstr "`Conteúdo da string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/qute/deployment/src/main/java/io/quarkus/qute/deployment/TemplateVariantsBuildItem.java[`io.quarkus.qute.deployment.TemplateVariantsBuildItem`, window=\"_blank\"] :: +++Holds all template variants found.+++"
 msgstr ""
@@ -5847,8 +6137,9 @@ msgid ""
 "`boolean extensionMethodPredicate` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean extensionMethodPredicate` "
-msgstr ""
+msgstr "`boolean extensionMethodPredicate`"
 
 #, fuzzy
 msgid "Reactive Datasource"
@@ -5886,8 +6177,9 @@ msgid ""
 "`RuntimeValue db2Pool` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String dataSourceName` "
-msgstr ""
+msgstr "`String dataSourceName`"
 
 msgid "`RuntimeValue db2Pool` "
 msgstr ""
@@ -5976,11 +6268,13 @@ msgid ""
 "`MethodInfo method` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`BeanInfo bean` "
-msgstr ""
+msgstr "`BeanInfo bean`"
 
+#, fuzzy
 msgid "`AnnotationInstance routeFilter` "
-msgstr ""
+msgstr "`AnnotationInstance routeFilter`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/reactive-routes/deployment/src/main/java/io/quarkus/vertx/web/deployment/AnnotatedRouteHandlerBuildItem.java[`io.quarkus.vertx.web.deployment.AnnotatedRouteHandlerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6001,17 +6295,21 @@ msgstr ""
 msgid "`List routes` "
 msgstr ""
 
+#, fuzzy
 msgid "`AnnotationInstance routeBase` "
-msgstr ""
+msgstr "`AnnotationInstance routeBase`"
 
+#, fuzzy
 msgid "`boolean blocking` "
-msgstr ""
+msgstr "`bloqueio booleano`"
 
+#, fuzzy
 msgid "`HttpCompression compression` "
-msgstr ""
+msgstr "`Compressão HttpCompression`"
 
+#, fuzzy
 msgid "`boolean alwaysAuthenticateRoute` "
-msgstr ""
+msgstr "`booleano alwaysAuthenticateRoute`"
 
 msgid "+++If true, always attempt to authenticate user right before the body handler is run+++"
 msgstr ""
@@ -6075,8 +6373,9 @@ msgid ""
 "`Predicate matcher` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String providerClass` "
-msgstr ""
+msgstr "`String providerClass`"
 
 msgid "`Predicate matcher` "
 msgstr ""
@@ -6099,8 +6398,9 @@ msgid ""
 "`AnnotationInstance annotationInstance` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String targetClass` "
-msgstr ""
+msgstr "`String targetClass`"
 
 msgid "REST Client Reactive - SPI"
 msgstr ""
@@ -6111,8 +6411,9 @@ msgstr ""
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/rest-client-reactive/spi-deployment/src/main/java/io/quarkus/rest/client/reactive/spi/RestClientAnnotationsTransformerBuildItem.java[`io.quarkus.rest.client.reactive.spi.RestClientAnnotationsTransformerBuildItem`, window=\"_blank\"] "
 msgstr ""
 
+#, fuzzy
 msgid "REST data with Panache"
-msgstr ""
+msgstr "Dados REST com estilo"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/rest-data-panache/deployment/src/main/java/io/quarkus/rest/data/panache/deployment/ResourceMethodListenerBuildItem.java[`io.quarkus.rest.data.panache.deployment.ResourceMethodListenerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6125,11 +6426,13 @@ msgid ""
 "`Type entityType` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ClassInfo classInfo` "
-msgstr ""
+msgstr "`ClassInfo classInfo`"
 
+#, fuzzy
 msgid "`Type entityType` "
-msgstr ""
+msgstr "`Digite entityType`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/rest-data-panache/deployment/src/main/java/io/quarkus/rest/data/panache/deployment/properties/ResourcePropertiesBuildItem.java[`io.quarkus.rest.data.panache.deployment.properties.ResourcePropertiesBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6142,11 +6445,13 @@ msgid ""
 "`ResourceProperties resourceProperties` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String resourceType` "
-msgstr ""
+msgstr "`Tipo de recurso de string`"
 
+#, fuzzy
 msgid "`ResourceProperties resourceProperties` "
-msgstr ""
+msgstr "`ResourceProperties resourceProperties`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/panache/rest-data-panache/deployment/src/main/java/io/quarkus/rest/data/panache/deployment/RestDataResourceBuildItem.java[`io.quarkus.rest.data.panache.deployment.RestDataResourceBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6157,8 +6462,9 @@ msgstr ""
 msgid "`ResourceMetadata resourceMetadata` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ResourceMetadata resourceMetadata` "
-msgstr ""
+msgstr "`ResourceMetadata resourceMetadata`"
 
 msgid "RESTEasy - Common"
 msgstr ""
@@ -6185,8 +6491,9 @@ msgstr ""
 msgid "`Set annotatedProviders` "
 msgstr ""
 
+#, fuzzy
 msgid "`boolean useBuiltIn` "
-msgstr ""
+msgstr "`booleano useBuiltIn`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-classic/resteasy-common/deployment/src/main/java/io/quarkus/resteasy/common/deployment/RestClientBuildItem.java[`io.quarkus.resteasy.common.deployment.RestClientBuildItem`, window=\"_blank\"] :: +++Used to mark a class as a potential REST client interface consumed by the MicroProfile REST client. <p> Useful when you want to apply different behaviors to REST resources and REST clients.+++"
 msgstr ""
@@ -6230,8 +6537,9 @@ msgstr ""
 msgid "`boolean jsonDefault` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean jsonDefault` "
-msgstr ""
+msgstr "`booleano jsonDefault`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-classic/resteasy-common/spi/src/main/java/io/quarkus/resteasy/common/spi/ResteasyJaxrsProviderBuildItem.java[`io.quarkus.resteasy.common.spi.ResteasyJaxrsProviderBuildItem`, window=\"_blank\"] :: +++A build item that represents a JAX-RS provider class.+++"
 msgstr ""
@@ -6256,11 +6564,13 @@ msgid ""
 "`ResteasyDeployment deployment` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String rootPath` "
-msgstr ""
+msgstr "`String rootPath`"
 
+#, fuzzy
 msgid "`ResteasyDeployment deployment` "
-msgstr ""
+msgstr "`Implantação do ResteasyDeployment`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-classic/resteasy-server-common/deployment/src/main/java/io/quarkus/resteasy/server/common/deployment/ResteasyDeploymentCustomizerBuildItem.java[`io.quarkus.resteasy.server.common.deployment.ResteasyDeploymentCustomizerBuildItem`, window=\"_blank\"] :: +++A build item that is meant to customize the RESTEasy Deployment before it has been finalized This gives extensions to ability to add stuff to the Deployment+++"
 msgstr ""
@@ -6316,8 +6626,9 @@ msgstr ""
 msgid "`DotName annotationClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DotName annotationClass` "
-msgstr ""
+msgstr "`DotName annotationClass`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-classic/resteasy-server-common/spi/src/main/java/io/quarkus/resteasy/server/common/spi/AllowedJaxRsAnnotationPrefixBuildItem.java[`io.quarkus.resteasy.server.common.spi.AllowedJaxRsAnnotationPrefixBuildItem`, window=\"_blank\"] :: +++The package prefix of any annotations that have to be compatible with JaxRs resource class to allow constructor injection.+++"
 msgstr ""
@@ -6345,8 +6656,9 @@ msgid ""
 "`String defaultPath` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String defaultPath` "
-msgstr ""
+msgstr "`String defaultPath`"
 
 #, fuzzy
 msgid "RESTEasy Reactive"
@@ -6363,11 +6675,13 @@ msgid ""
 "`String overrideClassName` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String readerClassName` "
-msgstr ""
+msgstr "`String readerClassName`"
 
+#, fuzzy
 msgid "`String overrideClassName` "
-msgstr ""
+msgstr "`String overrideClassName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/deployment/src/main/java/io/quarkus/resteasy/reactive/server/deployment/ContextResolversBuildItem.java[`io.quarkus.resteasy.reactive.server.deployment.ContextResolversBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6378,8 +6692,9 @@ msgstr ""
 msgid "`ContextResolvers contextResolvers` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ContextResolvers contextResolvers` "
-msgstr ""
+msgstr "`ContextResolvers contextResolvers`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/deployment/src/main/java/io/quarkus/resteasy/reactive/server/deployment/RequestContextFactoryBuildItem.java[`io.quarkus.resteasy.reactive.server.deployment.RequestContextFactoryBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6390,8 +6705,9 @@ msgstr ""
 msgid "`RequestContextFactory factory` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`RequestContextFactory factory` "
-msgstr ""
+msgstr "`fábrica RequestContextFactory`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/deployment/src/main/java/io/quarkus/resteasy/reactive/server/deployment/ResteasyReactiveDeploymentBuildItem.java[`io.quarkus.resteasy.reactive.server.deployment.ResteasyReactiveDeploymentBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6407,8 +6723,9 @@ msgstr ""
 msgid "`RuntimeValue deployment` "
 msgstr ""
 
+#, fuzzy
 msgid "`String applicationPath` "
-msgstr ""
+msgstr "`String applicationPath`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/deployment/src/main/java/io/quarkus/resteasy/reactive/server/deployment/ResteasyReactiveDeploymentInfoBuildItem.java[`io.quarkus.resteasy.reactive.server.deployment.ResteasyReactiveDeploymentInfoBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6419,8 +6736,9 @@ msgstr ""
 msgid "`DeploymentInfo deploymentInfo` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DeploymentInfo deploymentInfo` "
-msgstr ""
+msgstr "`DeploymentInfo deploymentInfo`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/deployment/src/main/java/io/quarkus/resteasy/reactive/server/deployment/ResteasyReactiveResourceMethodEntriesBuildItem.java[`io.quarkus.resteasy.reactive.server.deployment.ResteasyReactiveResourceMethodEntriesBuildItem`, window=\"_blank\"] :: +++Provides a list of entries for each JAX-RS Resource Methods created during the indexing process. Each entry also contains the information about the Java class and method that correspond to the JAX-RS Resource Method, giving extensions access to the entire set of metadata thus allowing them to build additionally build-time functionality.+++"
 msgstr ""
@@ -6446,8 +6764,9 @@ msgstr ""
 msgid "`ServerSerialisers serialisers` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ServerSerialisers serialisers` "
-msgstr ""
+msgstr "`ServerSerialisers serializadores`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/deployment/src/main/java/io/quarkus/resteasy/reactive/server/deployment/SetupEndpointsResultBuildItem.java[`io.quarkus.resteasy.reactive.server.deployment.SetupEndpointsResultBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6468,11 +6787,13 @@ msgstr ""
 msgid "`List subResourceClasses` "
 msgstr ""
 
+#, fuzzy
 msgid "`AdditionalReaders additionalReaders` "
-msgstr ""
+msgstr "`Leitores adicionais additionalReaders`"
 
+#, fuzzy
 msgid "`AdditionalWriters additionalWriters` "
-msgstr ""
+msgstr "`Escritores adicionais escritores adicionais`"
 
 msgid "RESTEasy Reactive - Common"
 msgstr ""
@@ -6486,8 +6807,9 @@ msgstr ""
 msgid "`ApplicationScanningResult result` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ApplicationScanningResult result` "
-msgstr ""
+msgstr "`resultado da varredura do aplicativo result`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/deployment/src/main/java/io/quarkus/resteasy/reactive/common/deployment/JaxRsResourceIndexBuildItem.java[`io.quarkus.resteasy.reactive.common.deployment.JaxRsResourceIndexBuildItem`, window=\"_blank\"] :: +++Represents the index that is going to be used to look up JAX-RS Resources. This index contains both code that is present on disk at build time, and code that is generated by other extensions.+++"
 msgstr ""
@@ -6501,8 +6823,9 @@ msgstr ""
 msgid "`IndexView indexView` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`IndexView indexView` "
-msgstr ""
+msgstr "`IndexView indexView`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/deployment/src/main/java/io/quarkus/resteasy/reactive/common/deployment/ParameterContainersBuildItem.java[`io.quarkus.resteasy.reactive.common.deployment.ParameterContainersBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6522,8 +6845,9 @@ msgstr ""
 msgid "`ResourceInterceptors resourceInterceptors` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ResourceInterceptors resourceInterceptors` "
-msgstr ""
+msgstr "`ResourceInterceptors resourceInterceptors`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/deployment/src/main/java/io/quarkus/resteasy/reactive/common/deployment/ResourceInterceptorsContributorBuildItem.java[`io.quarkus.resteasy.reactive.common.deployment.ResourceInterceptorsContributorBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6546,8 +6870,9 @@ msgstr ""
 msgid "`ResourceScanningResult result` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ResourceScanningResult result` "
-msgstr ""
+msgstr "`Resultado da varredura de recursos result`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/deployment/src/main/java/io/quarkus/resteasy/reactive/common/deployment/ServerDefaultProducesHandlerBuildItem.java[`io.quarkus.resteasy.reactive.common.deployment.ServerDefaultProducesHandlerBuildItem`, window=\"_blank\"] :: +++Enable the registration of additional default produces handlers for server endpoints+++"
 msgstr ""
@@ -6561,8 +6886,9 @@ msgstr ""
 msgid "`DefaultProducesHandler defaultProducesHandler` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DefaultProducesHandler defaultProducesHandler` "
-msgstr ""
+msgstr "`DefaultProducesHandler defaultProducesHandler`"
 
 msgid "RESTEasy Reactive - Common Jackson Bits"
 msgstr ""
@@ -6591,8 +6917,9 @@ msgstr ""
 msgid "`Feature feature` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Feature feature` "
-msgstr ""
+msgstr "`Destaque destaque`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-jackson/deployment/src/main/java/io/quarkus/resteasy/reactive/jackson/deployment/processor/ResourceMethodCustomSerializationBuildItem.java[`io.quarkus.resteasy.reactive.jackson.deployment.processor.ResourceMethodCustomSerializationBuildItem`, window=\"_blank\"] :: +++Used to pass info about a JAX-RS resource method that needs to perform custom serialization+++"
 msgstr ""
@@ -6609,11 +6936,13 @@ msgid ""
 "`Class customSerializationProvider` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`MethodInfo methodInfo` "
-msgstr ""
+msgstr "`MethodInfo methodInfo`"
 
+#, fuzzy
 msgid "`ClassInfo declaringClassInfo` "
-msgstr ""
+msgstr "`ClassInfo declarando ClassInfo`"
 
 msgid "`Class customSerializationProvider` "
 msgstr ""
@@ -6639,8 +6968,9 @@ msgstr ""
 msgid "`DotName type` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DotName type` "
-msgstr ""
+msgstr "`Tipo DotName`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/server/spi/HandlerConfigurationProviderBuildItem.java[`io.quarkus.resteasy.reactive.server.spi.HandlerConfigurationProviderBuildItem`, window=\"_blank\"] :: +++Build time that allows extensions to register a way to provide a value for configuration that is provided at runtime and that is needed by implementations of . Extensions are meant to create these build items by passing the configuration class as the first constructor argument, and using a recorder to return a  that will provide a value of that class as the second argument constructor. Ideally we would have used generic to make things more type safe, but generics cannot be used in build items.+++"
 msgstr ""
@@ -6659,8 +6989,9 @@ msgstr ""
 msgid "+++The runtime configuration class+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Supplier valueSupplier` "
-msgstr ""
+msgstr "`Valor do fornecedorFornecedor`"
 
 msgid "+++A supplier of the runtime value of the configuration class. This supplier is meant to be provided by a recorder+++"
 msgstr ""
@@ -6674,8 +7005,9 @@ msgstr ""
 msgid "`MethodScanner methodScanner` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`MethodScanner methodScanner` "
-msgstr ""
+msgstr "`MethodScanner methodScanner`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/server/spi/NonBlockingReturnTypeBuildItem.java[`io.quarkus.resteasy.reactive.server.spi.NonBlockingReturnTypeBuildItem`, window=\"_blank\"] :: +++Register a type as non-blocking by default when used as a return type of JAX-RS Resource+++"
 msgstr ""
@@ -6700,8 +7032,9 @@ msgid ""
 "`int priority` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ServerRestHandler handler` "
-msgstr ""
+msgstr "`Handler ServerRestHandler`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/server/spi/ResumeOn404BuildItem.java[`io.quarkus.resteasy.reactive.server.spi.ResumeOn404BuildItem`, window=\"_blank\"] :: +++A marker build item which extensions can generate when they want to force RESTEasy Reactive to not reply with 404 when it does not handle the path and instead just pass control onto the next Vert.x handler+++"
 msgstr ""
@@ -6752,11 +7085,13 @@ msgid ""
 "`Set nameBindingNames` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Integer priority` "
-msgstr ""
+msgstr "`Prioridade inteira`"
 
+#, fuzzy
 msgid "`boolean registerAsBean` "
-msgstr ""
+msgstr "`boolean registerAsBean`"
 
 msgid "`Set nameBindingNames` "
 msgstr ""
@@ -6788,17 +7123,21 @@ msgid ""
 "`MethodInfo filterSourceMethod` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean preMatching` "
-msgstr ""
+msgstr "`booleano preMatching`"
 
+#, fuzzy
 msgid "`boolean nonBlockingRequired` "
-msgstr ""
+msgstr "`booleano nonBlockingRequired`"
 
+#, fuzzy
 msgid "`boolean withFormRead` "
-msgstr ""
+msgstr "`booleano withFormRead`"
 
+#, fuzzy
 msgid "`MethodInfo filterSourceMethod` "
-msgstr ""
+msgstr "`MethodInfo filterSourceMethod`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/spi/ContainerResponseFilterBuildItem.java[`io.quarkus.resteasy.reactive.spi.ContainerResponseFilterBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6822,8 +7161,9 @@ msgid ""
 "`boolean registerAsBean` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String providedType` "
-msgstr ""
+msgstr "`String providedType`"
 
 msgid "`List mediaTypes` "
 msgstr ""
@@ -6874,11 +7214,13 @@ msgid ""
 "`ClassInfo declaringClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String handledExceptionName` "
-msgstr ""
+msgstr "`String nomeDaExceçãoTratada`"
 
+#, fuzzy
 msgid "`ClassInfo declaringClass` "
-msgstr ""
+msgstr "`ClassInfo declarando a classe`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/spi/GeneratedJaxRsResourceBuildItem.java[`io.quarkus.resteasy.reactive.spi.GeneratedJaxRsResourceBuildItem`, window=\"_blank\"] :: +++Represents a JAX-RS resource that is generated. Meant to be used by extension that generate JAX-RS resources as part of their build time processing+++"
 msgstr ""
@@ -6915,17 +7257,20 @@ msgid ""
 "`Integer priority` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String handledClassName` "
-msgstr ""
+msgstr "`String handledClassName`"
 
 msgid "`List mediaTypeStrings` "
 msgstr ""
 
+#, fuzzy
 msgid "`RuntimeType runtimeType` "
-msgstr ""
+msgstr "`RuntimeType runtimeType`"
 
+#, fuzzy
 msgid "`boolean builtin` "
-msgstr ""
+msgstr "`booleano embutido`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/spi/MessageBodyReaderOverrideBuildItem.java[`io.quarkus.resteasy.reactive.spi.MessageBodyReaderOverrideBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6938,8 +7283,9 @@ msgid ""
 "`MessageBodyReaderWriterOverrideData overrideData` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`MessageBodyReaderWriterOverrideData overrideData` "
-msgstr ""
+msgstr "`MessageBodyReaderWriterOverrideData overrideData`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/resteasy-reactive/quarkus-resteasy-reactive-common/spi-deployment/src/main/java/io/quarkus/resteasy/reactive/spi/MessageBodyWriterBuildItem.java[`io.quarkus.resteasy.reactive.spi.MessageBodyWriterBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -6994,8 +7340,9 @@ msgid ""
 "`SecurityCheck securityCheck` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`SecurityCheck securityCheck` "
-msgstr ""
+msgstr "`SecurityCheck securityCheck`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/security/deployment/src/main/java/io/quarkus/security/deployment/BouncyCastleJsseProviderBuildItem.java[`io.quarkus.security.deployment.BouncyCastleJsseProviderBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7006,8 +7353,9 @@ msgstr ""
 msgid "`boolean inFipsMode` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean inFipsMode` "
-msgstr ""
+msgstr "`booleano inFipsMode`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/security/deployment/src/main/java/io/quarkus/security/deployment/BouncyCastleProviderBuildItem.java[`io.quarkus.security.deployment.BouncyCastleProviderBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7038,14 +7386,16 @@ msgid ""
 "`String providerConfig` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String providerName` "
-msgstr ""
+msgstr "`String providerName`"
 
 msgid "`String providerConfig` "
 msgstr ""
 
+#, fuzzy
 msgid "Security - SPI"
-msgstr ""
+msgstr "Segurança - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/security/spi/src/main/java/io/quarkus/security/spi/AdditionalSecuredClassesBuildItem.java[`io.quarkus.security.spi.AdditionalSecuredClassesBuildItem`, window=\"_blank\"] :: +++Contains classes that need to have @DenyAll on all methods that don't have security annotations+++"
 msgstr ""
@@ -7096,8 +7446,9 @@ msgstr ""
 msgid "`List rolesAllowed` "
 msgstr ""
 
+#, fuzzy
 msgid "Security Jakarta Persistence - Common"
-msgstr ""
+msgstr "Persistência de segurança em Jacarta - Comum"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/security-jpa-common/deployment/src/main/java/io/quarkus/security/jpa/common/deployment/JpaSecurityDefinitionBuildItem.java[`io.quarkus.security.jpa.common.deployment.JpaSecurityDefinitionBuildItem`, window=\"_blank\"] :: +++This build items holds  common for reactive and classic Jakarta Persistence Security.+++"
 msgstr ""
@@ -7111,8 +7462,9 @@ msgstr ""
 msgid "`JpaSecurityDefinition jpaSecurityDefinition` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`JpaSecurityDefinition jpaSecurityDefinition` "
-msgstr ""
+msgstr "`JpaSecurityDefinition jpaSecurityDefinition`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/security-jpa-common/deployment/src/main/java/io/quarkus/security/jpa/common/deployment/PanacheEntityPredicateBuildItem.java[`io.quarkus.security.jpa.common.deployment.PanacheEntityPredicateBuildItem`, window=\"_blank\"] :: +++Build item to evaluate whether the class is a Panache model class.+++"
 msgstr ""
@@ -7129,8 +7481,9 @@ msgstr ""
 msgid "`Set modelClasses` "
 msgstr ""
 
+#, fuzzy
 msgid "SmallRye Context Propagation - SPI"
-msgstr ""
+msgstr "Propagação de contexto do SmallRye - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/smallrye-context-propagation/spi/src/main/java/io/quarkus/smallrye/context/deployment/spi/ThreadContextProviderBuildItem.java[`io.quarkus.smallrye.context.deployment.spi.ThreadContextProviderBuildItem`, window=\"_blank\"] :: +++This build item can be used to register a .+++"
 msgstr ""
@@ -7160,11 +7513,13 @@ msgstr ""
 msgid "`int guardedMethods` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`int guardedMethods` "
-msgstr ""
+msgstr "`int métodosProtegidos`"
 
+#, fuzzy
 msgid "SmallRye Health - SPI"
-msgstr ""
+msgstr "SmallRye Health - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/smallrye-health/spi/src/main/java/io/quarkus/smallrye/health/deployment/spi/HealthBuildItem.java[`io.quarkus.smallrye.health.deployment.spi.HealthBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7177,8 +7532,9 @@ msgid ""
 "`boolean enabled` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String healthCheckClass` "
-msgstr ""
+msgstr "`String healthCheckClass`"
 
 #, fuzzy
 msgid "SmallRye OpenAPI"
@@ -7196,11 +7552,13 @@ msgstr ""
 msgid "`FilteredIndexView index` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`FilteredIndexView index` "
-msgstr ""
+msgstr "`Índice FilteredIndexView`"
 
+#, fuzzy
 msgid "SmallRye OpenAPI - SPI"
-msgstr ""
+msgstr "SmallRye OpenAPI - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/smallrye-openapi/spi/src/main/java/io/quarkus/smallrye/openapi/deployment/spi/AddToOpenAPIDefinitionBuildItem.java[`io.quarkus.smallrye.openapi.deployment.spi.AddToOpenAPIDefinitionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7211,8 +7569,9 @@ msgstr ""
 msgid "`OASFilter filter` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`OASFilter filter` "
-msgstr ""
+msgstr "`Filtro OASFilter`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/smallrye-openapi/spi/src/main/java/io/quarkus/smallrye/openapi/deployment/spi/IgnoreStaticDocumentBuildItem.java[`io.quarkus.smallrye.openapi.deployment.spi.IgnoreStaticDocumentBuildItem`, window=\"_blank\"] :: +++Ignore a static OpenAPI document included in extension and/or dependencies. Supports regular expressions.+++"
 msgstr ""
@@ -7226,8 +7585,9 @@ msgstr ""
 msgid "`Pattern urlIgnorePattern` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Pattern urlIgnorePattern` "
-msgstr ""
+msgstr "`Padrão urlIgnorePattern`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/smallrye-openapi/spi/src/main/java/io/quarkus/smallrye/openapi/deployment/spi/OpenApiDocumentBuildItem.java[`io.quarkus.smallrye.openapi.deployment.spi.OpenApiDocumentBuildItem`, window=\"_blank\"] :: +++The final OpenAPI Document as generated by the Extension.+++"
 msgstr ""
@@ -7241,8 +7601,9 @@ msgstr ""
 msgid "`OpenApiDocument openApiDocument` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`OpenApiDocument openApiDocument` "
-msgstr ""
+msgstr "`OpenApiDocument openApiDocument`"
 
 #, fuzzy
 msgid "SmallRye Reactive Messaging"
@@ -7263,11 +7624,13 @@ msgid ""
 "`String connector` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ChannelDirection direction` "
-msgstr ""
+msgstr "`direção do canal`"
 
+#, fuzzy
 msgid "`String connector` "
-msgstr ""
+msgstr "`Conector de cordão`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/smallrye-reactive-messaging/deployment/src/main/java/io/quarkus/smallrye/reactivemessaging/deployment/items/ConnectorBuildItem.java[`io.quarkus.smallrye.reactivemessaging.deployment.items.ConnectorBuildItem`, window=\"_blank\"] :: +++Represents a reactive messaging connector. It contains the name (like ), the direction (incoming or outgoing), and the list of connector attributes (mainly for documentation and tooling purpose).+++"
 msgstr ""
@@ -7338,32 +7701,37 @@ msgstr ""
 msgid "+++The name of the stream the emitter is connected to.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String overflow` "
-msgstr ""
+msgstr "`Estouramento de string`"
 
 msgid "+++The name of the overflow strategy. Valid values are . If not set, it uses  with a default buffer size.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`int bufferSize` "
-msgstr ""
+msgstr "`int bufferSize`"
 
 msgid "+++The buffer size, used when  is set to . Not that if  is set to and  is not set, an unbounded buffer is used.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean hasBroadcast` "
-msgstr ""
+msgstr "`boolean hasBroadcast`"
 
 msgid "+++Whether the emitter uses the  annotation.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String emitterType` "
-msgstr ""
+msgstr "`String emitterType`"
 
 msgid "+++The emitter type+++"
 msgstr ""
 
+#, fuzzy
 msgid "`int awaitSubscribers` "
-msgstr ""
+msgstr "`int aguardarAssinantes`"
 
 msgid "+++If the emitter uses the  annotation, indicates the number of subscribers to be expected before subscribing upstream.+++"
 msgstr ""
@@ -7396,8 +7764,9 @@ msgid ""
 "`ChannelDirection direction` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "Spring - DI"
-msgstr ""
+msgstr "Primavera - DI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/spring-di/deployment/src/main/java/io/quarkus/spring/di/deployment/SpringBeanNameToDotNameBuildItem.java[`io.quarkus.spring.di.deployment.SpringBeanNameToDotNameBuildItem`, window=\"_blank\"] :: +++The purpose of this bean is to map the names of the Spring Beans to their associated DotName This info is needed when trying to convert SpEL expressions that reference beans by name, to bytecode+++"
 msgstr ""
@@ -7414,8 +7783,9 @@ msgstr ""
 msgid "`Map map` "
 msgstr ""
 
+#, fuzzy
 msgid "Spring - Scheduling"
-msgstr ""
+msgstr "Spring - Programação"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/spring-scheduled/deployment/src/main/java/io/quarkus/spring/scheduled/deployment/SpringScheduledAnnotatedMethodBuildItem.java[`io.quarkus.spring.scheduled.deployment.SpringScheduledAnnotatedMethodBuildItem`, window=\"_blank\"] :: +++Build Item recording all the methods that have been effectively annotated with+++"
 msgstr ""
@@ -7432,8 +7802,9 @@ msgstr ""
 msgid "`Map methodToInstanceMap` "
 msgstr ""
 
+#, fuzzy
 msgid "Spring Security"
-msgstr ""
+msgstr "Spring Security"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/spring-security/deployment/src/main/java/io/quarkus/spring/security/deployment/SpringPreAuthorizeAnnotatedMethodBuildItem.java[`io.quarkus.spring.security.deployment.SpringPreAuthorizeAnnotatedMethodBuildItem`, window=\"_blank\"] :: +++Build Item recording all the methods that have been effectively annotated with+++"
 msgstr ""
@@ -7456,14 +7827,17 @@ msgid ""
 "`String swaggerUiPath` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String swaggerUiFinalDestination` "
-msgstr ""
+msgstr "`String swaggerUiFinalDestination`"
 
+#, fuzzy
 msgid "`String swaggerUiPath` "
-msgstr ""
+msgstr "`String swaggerUiPath`"
 
+#, fuzzy
 msgid "Undertow - SPI"
-msgstr ""
+msgstr "Undertow - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/FilterBuildItem.java[`io.quarkus.undertow.deployment.FilterBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7481,14 +7855,17 @@ msgid ""
 "`Map initParams` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String filterClass` "
-msgstr ""
+msgstr "`Filtro de stringClass`"
 
+#, fuzzy
 msgid "`int loadOnStartup` "
-msgstr ""
+msgstr "`int loadOnStartup`"
 
+#, fuzzy
 msgid "`boolean asyncSupported` "
-msgstr ""
+msgstr "`booleano asyncSupported`"
 
 msgid "`List mappings` "
 msgstr ""
@@ -7517,8 +7894,9 @@ msgstr ""
 msgid "`HandlerWrapper value` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`HandlerWrapper value` "
-msgstr ""
+msgstr "`Valor de HandlerWrapper`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/IgnoredServletContainerInitializerBuildItem.java[`io.quarkus.undertow.deployment.IgnoredServletContainerInitializerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7529,8 +7907,9 @@ msgstr ""
 msgid "`String sciClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String sciClass` "
-msgstr ""
+msgstr "`String sciClass`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/KnownPathsBuildItem.java[`io.quarkus.undertow.deployment.KnownPathsBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7558,8 +7937,9 @@ msgstr ""
 msgid "`String listenerClass` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String listenerClass` "
-msgstr ""
+msgstr "`String listenerClass`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/ServletBuildItem.java[`io.quarkus.undertow.deployment.ServletBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7578,11 +7958,13 @@ msgid ""
 "`MultipartConfigElement multipartConfig` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String servletClass` "
-msgstr ""
+msgstr "`String servletClass`"
 
+#, fuzzy
 msgid "`MultipartConfigElement multipartConfig` "
-msgstr ""
+msgstr "`MultipartConfigElement multipartConfig`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/ServletContainerInitializerBuildItem.java[`io.quarkus.undertow.deployment.ServletContainerInitializerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7609,8 +7991,9 @@ msgid ""
 "`Object value` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Object value` "
-msgstr ""
+msgstr "`Valor do objeto`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/ServletContextPathBuildItem.java[`io.quarkus.undertow.deployment.ServletContextPathBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7621,8 +8004,9 @@ msgstr ""
 msgid "`String servletContextPath` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String servletContextPath` "
-msgstr ""
+msgstr "`String servletContextPath`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/ServletDeploymentManagerBuildItem.java[`io.quarkus.undertow.deployment.ServletDeploymentManagerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7633,8 +8017,9 @@ msgstr ""
 msgid "`DeploymentManager deploymentManager` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`DeploymentManager deploymentManager` "
-msgstr ""
+msgstr "`DeploymentManager deploymentManager`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/ServletExtensionBuildItem.java[`io.quarkus.undertow.deployment.ServletExtensionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7645,8 +8030,9 @@ msgstr ""
 msgid "`ServletExtension value` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ServletExtension value` "
-msgstr ""
+msgstr "`Valor de ServletExtension`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/undertow/spi/src/main/java/io/quarkus/undertow/deployment/ServletInitParamBuildItem.java[`io.quarkus.undertow.deployment.ServletInitParamBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7675,8 +8061,9 @@ msgstr ""
 msgid "`WebMetaData webMetaData` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`WebMetaData webMetaData` "
-msgstr ""
+msgstr "`WebMetaData webMetaData`"
 
 #, fuzzy
 msgid "Vert.x"
@@ -7720,8 +8107,9 @@ msgid ""
 "`String codec` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String codec` "
-msgstr ""
+msgstr "`Codec de string`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx/deployment/src/main/java/io/quarkus/vertx/deployment/ReinitializeVertxJsonBuildItem.java[`io.quarkus.vertx.deployment.ReinitializeVertxJsonBuildItem`, window=\"_blank\"] :: +++Marker build item used to force the re-initialization of Vert.x JSON handling in native-image+++"
 msgstr ""
@@ -7761,8 +8149,9 @@ msgstr ""
 msgid "`Consumer optionsConsumer` "
 msgstr ""
 
+#, fuzzy
 msgid "Vert.x - HTTP"
-msgstr ""
+msgstr "Vert.x - HTTP"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/BodyHandlerBuildItem.java[`io.quarkus.vertx.http.deployment.BodyHandlerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7848,11 +8237,13 @@ msgid ""
 "`List webRootConfigurations` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String contextRoot` "
-msgstr ""
+msgstr "`String contextRoot`"
 
+#, fuzzy
 msgid "`String finalDestination` "
-msgstr ""
+msgstr "`String finalDestination`"
 
 msgid "`List webRootConfigurations` "
 msgstr ""
@@ -7868,8 +8259,9 @@ msgid ""
 "`String path` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`GACT artifactKey` "
-msgstr ""
+msgstr "`GACT artifactKey`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/devui/deployment/ExtensionsBuildItem.java[`io.quarkus.devui.deployment.ExtensionsBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7911,8 +8303,9 @@ msgid ""
 "`boolean isFailureHandler` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean isFailureHandler` "
-msgstr ""
+msgstr "`boolean isFailureHandler`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/HttpRootPathBuildItem.java[`io.quarkus.vertx.http.deployment.HttpRootPathBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -7923,8 +8316,9 @@ msgstr ""
 msgid "`URI rootPath` :: +++Normalized from quarkus.http.root-path. This path will always end in a slash+++"
 msgstr ""
 
+#, fuzzy
 msgid "`URI rootPath` "
-msgstr ""
+msgstr "`URI rootPath`"
 
 msgid "+++Normalized from quarkus.http.root-path. This path will always end in a slash+++"
 msgstr ""
@@ -7974,11 +8368,13 @@ msgid ""
 "`Map buildTimeData` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String namespaceLabel` "
-msgstr ""
+msgstr "`String namespaceLabel`"
 
+#, fuzzy
 msgid "`int position` "
-msgstr ""
+msgstr "`int posição`"
 
 msgid "`List pages` "
 msgstr ""
@@ -8041,32 +8437,37 @@ msgid ""
 "`boolean attachedToMainRouter` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`URI httpRootPath` "
-msgstr ""
+msgstr "`URI httpRootPath`"
 
 msgid "+++Normalized of quarkus.http.root-path. Must end in a slash+++"
 msgstr ""
 
+#, fuzzy
 msgid "`URI nonApplicationRootPath` "
-msgstr ""
+msgstr "`URI não-raiz-da-aplicação`"
 
 msgid "+++Normalized from quarkus.http.non-application-root-path+++"
 msgstr ""
 
+#, fuzzy
 msgid "`URI managementRootPath` "
-msgstr ""
+msgstr "`URI managementRootPath`"
 
 msgid "+++Normalized from quarkus.management.root-path+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean dedicatedRouterRequired` "
-msgstr ""
+msgstr "`boolean dedicatedRouterRequired`"
 
 msgid "+++Non-Application root path is distinct from HTTP root path.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean attachedToMainRouter` "
-msgstr ""
+msgstr "`boolean attachedToMainRouter`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/devmode/NotFoundPageDisplayableEndpointBuildItem.java[`io.quarkus.vertx.http.deployment.devmode.NotFoundPageDisplayableEndpointBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -8080,14 +8481,17 @@ msgid ""
 "`boolean absolutePath` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String endpoint` "
-msgstr ""
+msgstr "`Ponto final da sequência`"
 
+#, fuzzy
 msgid "`String description` "
-msgstr ""
+msgstr "`Descrição da sequência`"
 
+#, fuzzy
 msgid "`boolean absolutePath` "
-msgstr ""
+msgstr "`booleano absolutePath`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/RequireBodyHandlerBuildItem.java[`io.quarkus.vertx.http.deployment.RequireBodyHandlerBuildItem`, window=\"_blank\"] :: +++This is a marker that indicates that the body handler should be installed on all routes, as an extension requires the request to be fully buffered.+++"
 msgstr ""
@@ -8110,8 +8514,9 @@ msgstr ""
 msgid "`boolean alwaysVirtual` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean alwaysVirtual` "
-msgstr ""
+msgstr "`booleano alwaysVirtual`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/RouteBuildItem.java[`io.quarkus.vertx.http.deployment.RouteBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -8130,26 +8535,32 @@ msgid ""
 "`ConfiguredPathInfo configuredPathInfo` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean management` "
-msgstr ""
+msgstr "`gestão de valores booleanos`"
 
 msgid "`Function routeFunction` "
 msgstr ""
 
+#, fuzzy
 msgid "`HandlerType type` "
-msgstr ""
+msgstr "`Tipo HandlerType`"
 
+#, fuzzy
 msgid "`RouteType routeType` "
-msgstr ""
+msgstr "`RouteType routeType`"
 
+#, fuzzy
 msgid "`RouteType routerType` "
-msgstr ""
+msgstr "`RouteType routerType`"
 
+#, fuzzy
 msgid "`NotFoundPageDisplayableEndpointBuildItem notFoundPageDisplayableEndpoint` "
-msgstr ""
+msgstr "`NotFoundPageDisplayableEndpointBuildItem notFoundPageDisplayableEndpoint`"
 
+#, fuzzy
 msgid "`ConfiguredPathInfo configuredPathInfo` "
-msgstr ""
+msgstr "`ConfiguredPathInfo configuredPathInfo`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/devmode/RouteDescriptionBuildItem.java[`io.quarkus.vertx.http.deployment.devmode.RouteDescriptionBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -8160,8 +8571,9 @@ msgstr ""
 msgid "`RouteDescription description` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`RouteDescription description` "
-msgstr ""
+msgstr "`Descrição da rota`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/SecurityInformationBuildItem.java[`io.quarkus.vertx.http.deployment.SecurityInformationBuildItem`, window=\"_blank\"] :: +++Contains information on the security model used in the application+++"
 msgstr ""
@@ -8177,8 +8589,9 @@ msgid ""
 "`Optional openIDConnectInformation` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`SecurityModel securityModel` "
-msgstr ""
+msgstr "`SecurityModel securityModel`"
 
 msgid "`Optional openIDConnectInformation` "
 msgstr ""
@@ -8246,26 +8659,30 @@ msgstr ""
 msgid "+++ArtifactKey pointing to the web jar. Has to be one of the applications dependencies.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String root` "
-msgstr ""
+msgstr "`Raiz da sequência`"
 
 msgid "+++Root inside the webJar starting from which resources are unpacked.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean onlyCopyNonArtifactFiles` "
-msgstr ""
+msgstr "`boolean onlyCopyNonArtifactFiles`"
 
 msgid "+++Only copy resources of the webjar which are either user overridden, or contain variables.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean useDefaultQuarkusBranding` "
-msgstr ""
+msgstr "`boolean useDefaultQuarkusBranding`"
 
 msgid "+++Defines whether Quarkus can override resources of the webjar with Quarkus internal files.+++"
 msgstr ""
 
+#, fuzzy
 msgid "`WebJarResourcesFilter filter` "
-msgstr ""
+msgstr "`Filtro WebJarResourcesFilter`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment/src/main/java/io/quarkus/vertx/http/deployment/webjar/WebJarResultsBuildItem.java[`io.quarkus.vertx.http.deployment.webjar.WebJarResultsBuildItem`, window=\"_blank\"] :: +++Holds the complete result after applying every .+++"
 msgstr ""
@@ -8291,8 +8708,9 @@ msgstr ""
 msgid "`String websocketSubProtocols` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String websocketSubProtocols` "
-msgstr ""
+msgstr "`String websocketSubProtocols`"
 
 msgid "Vert.x - HTTP - Dev Console SPI"
 msgstr ""
@@ -8401,8 +8819,9 @@ msgid ""
 "`String customIdentifier` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`String extensionIdentifier` "
-msgstr ""
+msgstr "`String extensionIdentifier`"
 
 msgid "`String customIdentifier` "
 msgstr ""
@@ -8462,11 +8881,13 @@ msgid ""
 "`DotName defaultBeanScope` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`Class jsonRPCMethodProviderClass` "
-msgstr ""
+msgstr "`Classe jsonRPCMethodProviderClass`"
 
+#, fuzzy
 msgid "`DotName defaultBeanScope` "
-msgstr ""
+msgstr "`DotName defaultBeanScope`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/dev-ui-spi/src/main/java/io/quarkus/devui/spi/page/MenuPageBuildItem.java[`io.quarkus.devui.spi.page.MenuPageBuildItem`, window=\"_blank\"] :: +++Add a menu (or section) to the Dev UI.+++"
 msgstr ""
@@ -8507,8 +8928,9 @@ msgstr ""
 msgid "`List content` "
 msgstr ""
 
+#, fuzzy
 msgid "Vert.x - HTTP - SPI"
-msgstr ""
+msgstr "Vert.x - HTTP - SPI"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/vertx-http/deployment-spi/src/main/java/io/quarkus/vertx/http/deployment/spi/AdditionalStaticResourceBuildItem.java[`io.quarkus.vertx.http.deployment.spi.AdditionalStaticResourceBuildItem`, window=\"_blank\"] :: +++Meant to be used by extensions that generate resource into . These resources cannot be picked up automatically by the standard Static resources handling because when the check is made, these resources don't exist yet on the file system. The value of  should be prefixed with  and is assumed to be a path under .+++"
 msgstr ""
@@ -8560,8 +8982,9 @@ msgstr ""
 msgid "+++Marker build item indicating that the application uses a separate interface:port for the management endpoints such as metrics, health and prometheus.+++"
 msgstr ""
 
+#, fuzzy
 msgid "WebSockets Client"
-msgstr ""
+msgstr "Cliente WebSockets"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/websockets/client/deployment/src/main/java/io/quarkus/websockets/client/deployment/AnnotatedWebsocketEndpointBuildItem.java[`io.quarkus.websockets.client.deployment.AnnotatedWebsocketEndpointBuildItem`, window=\"_blank\"] :: +++A server websocket endpoint+++"
 msgstr ""
@@ -8577,8 +9000,9 @@ msgid ""
 "`boolean client` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`boolean client` "
-msgstr ""
+msgstr "`cliente booleano`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/websockets/client/deployment/src/main/java/io/quarkus/websockets/client/deployment/ServerWebSocketContainerBuildItem.java[`io.quarkus.websockets.client.deployment.ServerWebSocketContainerBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""
@@ -8601,8 +9025,9 @@ msgstr ""
 msgid "`ServerWebSocketContainerFactory factory` :: +++<i>No Javadoc found</i>+++"
 msgstr ""
 
+#, fuzzy
 msgid "`ServerWebSocketContainerFactory factory` "
-msgstr ""
+msgstr "`fábrica ServerWebSocketContainerFactory`"
 
 msgid "https://github.com/quarkusio/quarkus/blob/main/extensions/websockets/client/deployment/src/main/java/io/quarkus/websockets/client/deployment/WebSocketDeploymentInfoBuildItem.java[`io.quarkus.websockets.client.deployment.WebSocketDeploymentInfoBuildItem`, window=\"_blank\"] :: +++<i>No Javadoc found</i>+++"
 msgstr ""

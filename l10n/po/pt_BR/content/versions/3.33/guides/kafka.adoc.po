@@ -2047,7 +2047,7 @@ msgstr "[lock]  link:#quarkus-kafka-client_quarkus-kafka-devservices_quarkus-kaf
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the Kafka broker managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Kafka starts a new container."
-msgstr "Indica se o broker do Kafka gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for Kafka inicia um novo contêiner."
+msgstr "Indica se o broker do Kafka gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Kafka inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -2142,7 +2142,7 @@ msgstr "[lock]  link:#quarkus-kafka-client_quarkus-kafka-devservices_quarkus-kaf
 #. mt: deepl
 #, fuzzy
 msgid "The topic-partition pairs to create in the Dev Services Kafka broker. After the broker is started, given topics with partitions are created, skipping already existing topics. For example, `quarkus.kafka.devservices.topic-partitions.my-topic=2` will create a topic named `test` with 2 partitions."
-msgstr "Os pares de tópicos e partições a serem criados no broker do Kafka do Dev Services. Após o broker ser iniciado, os tópicos indicados com suas respectivas partições serão criados, ignorando-se os tópicos já existentes. Por exemplo, `quarkus.kafka.devservices.topic-partitions.my-topic=2` criará um tópico chamado `test` com 2 partições."
+msgstr "Os pares de tópicos e partições a serem criados no broker do Kafka do Dev Services. Após a inicialização do broker, os tópicos indicados com suas respectivas partições serão criados, ignorando-se os tópicos já existentes. Por exemplo, `quarkus.kafka.devservices.topic-partitions.my-topic=2` criará um tópico chamado `test` com 2 partições."
 
 #. mt: deepl
 #, fuzzy
@@ -2351,7 +2351,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KAFKA_DEVSERVICE
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy

@@ -712,12 +712,14 @@ msgstr "A extensão de registro JSON pode ser configurada de várias maneiras. H
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console-json-console-logging]]link:#quarkus-logging-json_quarkus.log.console-json-console-logging[Console logging]"
-msgstr ""
+msgstr "link:#quarkus-logging-json_quarkus.log.console-json-console-logging[Registros no console]"
 
 msgid "Type"
 msgstr "Tipo"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json]]`link:#quarkus-logging-json_quarkus.log.console.json[quarkus.log.console.json]`\n"
 "\n"
@@ -727,19 +729,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json[quarkus.log.console.json]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json]]`link:#quarkus-logging-json_quarkus.log.console.json[quarkus.log.console.json]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json[quarkus.log.console.json]`"
 
+#, fuzzy
 msgid "Determine whether to enable the JSON console formatting extension, which disables \"normal\" console formatting."
-msgstr ""
+msgstr "Determine se deseja ativar a extensão de formatação do console em JSON, o que desativa a formatação “normal” do console."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -747,6 +753,7 @@ msgstr "booleano"
 msgid "`true`"
 msgstr "`true`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.pretty-print]]`link:#quarkus-logging-json_quarkus.log.console.json.pretty-print[quarkus.log.console.json.pretty-print]`\n"
 "\n"
@@ -756,21 +763,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_PRETTY_PRINT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.pretty-print[quarkus.log.console.json.pretty-print]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.pretty-print]]`link:#quarkus-logging-json_quarkus.log.console.json.pretty-print[quarkus.log.console.json.pretty-print]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.pretty-print[quarkus.log.console.json.pretty-print]`"
 
+#, fuzzy
 msgid "Enable \"pretty printing\" of the JSON record. Note that some JSON parsers will fail to read pretty printed output."
-msgstr ""
+msgstr "Ative a “formatação legível” do registro JSON. Observe que alguns analisadores de JSON não conseguirão ler a saída com formatação legível."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_PRETTY_PRINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_PRETTY_PRINT[]"
 
 #, fuzzy
 msgid "`false`"
 msgstr "`false`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.date-format]]`link:#quarkus-logging-json_quarkus.log.console.json.date-format[quarkus.log.console.json.date-format]`\n"
 "\n"
@@ -780,16 +791,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_DATE_FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.date-format[quarkus.log.console.json.date-format]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.date-format]]`link:#quarkus-logging-json_quarkus.log.console.json.date-format[quarkus.log.console.json.date-format]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.date-format[quarkus.log.console.json.date-format]`"
 
+#, fuzzy
 msgid "The date format to use. The special string \"default\" indicates that the default format should be used."
-msgstr ""
+msgstr "O formato de data a ser utilizado. A sequência especial “default” indica que deve ser utilizado o formato padrão."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_DATE_FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_DATE_FORMAT[]"
 
 msgid "string"
 msgstr "string"
@@ -798,6 +812,7 @@ msgstr "string"
 msgid "`default`"
 msgstr "`default`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.record-delimiter]]`link:#quarkus-logging-json_quarkus.log.console.json.record-delimiter[quarkus.log.console.json.record-delimiter]`\n"
 "\n"
@@ -807,17 +822,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_RECORD_DELIMITER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.record-delimiter[quarkus.log.console.json.record-delimiter]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.record-delimiter]]`link:#quarkus-logging-json_quarkus.log.console.json.record-delimiter[quarkus.log.console.json.record-delimiter]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.record-delimiter[quarkus.log.console.json.record-delimiter]`"
 
+#, fuzzy
 msgid "The special end-of-record delimiter to be used. By default, newline is used as delimiter."
-msgstr ""
+msgstr "O delimitador especial de fim de registro a ser utilizado. Por padrão, utiliza-se a quebra de linha como delimitador."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_RECORD_DELIMITER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_RECORD_DELIMITER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.zone-id]]`link:#quarkus-logging-json_quarkus.log.console.json.zone-id[quarkus.log.console.json.zone-id]`\n"
 "\n"
@@ -827,17 +846,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_ZONE_ID+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.zone-id[quarkus.log.console.json.zone-id]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.zone-id]]`link:#quarkus-logging-json_quarkus.log.console.json.zone-id[quarkus.log.console.json.zone-id]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.zone-id[quarkus.log.console.json.zone-id]`"
 
+#, fuzzy
 msgid "The zone ID to use. The special string \"default\" indicates that the default zone should be used."
-msgstr ""
+msgstr "O ID da zona a ser utilizado. A sequência especial “default” indica que a zona padrão deve ser utilizada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_ZONE_ID+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_ZONE_ID[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.exception-output-type]]`link:#quarkus-logging-json_quarkus.log.console.json.exception-output-type[quarkus.log.console.json.exception-output-type]`\n"
 "\n"
@@ -847,23 +870,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_EXCEPTION_OUTPUT_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.exception-output-type[quarkus.log.console.json.exception-output-type]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.exception-output-type]]`link:#quarkus-logging-json_quarkus.log.console.json.exception-output-type[quarkus.log.console.json.exception-output-type]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.exception-output-type[quarkus.log.console.json.exception-output-type]`"
 
+#, fuzzy
 msgid "The exception output type to specify."
-msgstr ""
+msgstr "O tipo de saída de exceção a ser especificado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_EXCEPTION_OUTPUT_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_EXCEPTION_OUTPUT_TYPE[]"
 
+#, fuzzy
 msgid "`detailed`, `formatted`, `detailed-and-formatted`"
-msgstr ""
+msgstr "`detalhado` , `formatado` , `detalhado e formatado`"
 
+#, fuzzy
 msgid "`detailed`"
-msgstr ""
+msgstr "`detalhado`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.print-details]]`link:#quarkus-logging-json_quarkus.log.console.json.print-details[quarkus.log.console.json.print-details]`\n"
 "\n"
@@ -874,19 +903,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_PRINT_DETAILS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.print-details[quarkus.log.console.json.print-details]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.print-details]]`link:#quarkus-logging-json_quarkus.log.console.json.print-details[quarkus.log.console.json.print-details]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.print-details[quarkus.log.console.json.print-details]`"
 
+#, fuzzy
 msgid ""
 "Enable printing of more details in the log.\n"
 "Printing the details can be expensive as the values are retrieved from the caller. The details include the source class name, source file name, source method name and source line number."
-msgstr ""
+msgstr "Habilite a impressão de mais detalhes no log. A impressão desses detalhes pode ser onerosa, uma vez que os valores são recuperados do chamador. Os detalhes incluem o nome da classe de origem, o nome do arquivo de origem, o nome do método de origem e o número da linha de código de origem."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_PRINT_DETAILS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_PRINT_DETAILS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.key-overrides]]`link:#quarkus-logging-json_quarkus.log.console.json.key-overrides[quarkus.log.console.json.key-overrides]`\n"
 "\n"
@@ -896,17 +929,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_KEY_OVERRIDES+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.key-overrides[quarkus.log.console.json.key-overrides]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.key-overrides]]`link:#quarkus-logging-json_quarkus.log.console.json.key-overrides[quarkus.log.console.json.key-overrides]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.key-overrides[quarkus.log.console.json.key-overrides]`"
 
+#, fuzzy
 msgid "Override keys with custom values. Omitting this value indicates that no key overrides will be applied."
-msgstr ""
+msgstr "Substituir chaves por valores personalizados. A omissão desse valor indica que nenhuma substituição de chave será aplicada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_KEY_OVERRIDES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_KEY_OVERRIDES[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.excluded-keys]]`link:#quarkus-logging-json_quarkus.log.console.json.excluded-keys[quarkus.log.console.json.excluded-keys]`\n"
 "\n"
@@ -916,21 +953,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_EXCLUDED_KEYS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.excluded-keys[quarkus.log.console.json.excluded-keys]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.excluded-keys]]`link:#quarkus-logging-json_quarkus.log.console.json.excluded-keys[quarkus.log.console.json.excluded-keys]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.excluded-keys[quarkus.log.console.json.excluded-keys]`"
 
+#, fuzzy
 msgid "Keys to be excluded from the Json output."
-msgstr ""
+msgstr "Chaves a serem excluídas da saída em JSON."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_EXCLUDED_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_EXCLUDED_KEYS[]"
 
 #, fuzzy
 msgid "list of string"
 msgstr "lista de strings"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.value]]`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.value[quarkus.log.console.json.additional-field.\"field-name\".value]`\n"
 "\n"
@@ -940,20 +981,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_ADDITIONAL_FIELD__FIELD_NAME__VALUE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.value[quarkus.log.console.json.additional-field.\"nome-do-campo\".valor]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.value]]`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.value[quarkus.log.console.json.additional-field.\"field-name\".value]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.value[quarkus.log.console.json.additional-field.\"nome-do-campo\".valor]`"
 
+#, fuzzy
 msgid "Additional field value."
-msgstr ""
+msgstr "Valor adicional do campo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_ADDITIONAL_FIELD__FIELD_NAME__VALUE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_ADDITIONAL_FIELD__FIELD_NAME__VALUE[]"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.type]]`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.type[quarkus.log.console.json.additional-field.\"field-name\".type]`\n"
 "\n"
@@ -963,26 +1009,33 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_ADDITIONAL_FIELD__FIELD_NAME__TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.type[quarkus.log.console.json.additional-field.\"nome-do-campo\".type]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.type]]`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.type[quarkus.log.console.json.additional-field.\"field-name\".type]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.console.json.additional-field.-field-name-.type[quarkus.log.console.json.additional-field.\"nome-do-campo\".type]`"
 
+#, fuzzy
 msgid "Additional field type specification. Supported types: string, int, long String is the default if not specified."
-msgstr ""
+msgstr "Especificação adicional do tipo de campo. Tipos suportados: string, int, long. O tipo “string” é o padrão, caso não seja especificado."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_JSON_ADDITIONAL_FIELD__FIELD_NAME__TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_JSON_ADDITIONAL_FIELD__FIELD_NAME__TYPE[]"
 
+#, fuzzy
 msgid "`string`, `int`, `long`"
-msgstr ""
+msgstr "`string` , `int` , `long`"
 
+#, fuzzy
 msgid "`string`"
-msgstr ""
+msgstr "`string`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file-json-file-logging]]link:#quarkus-logging-json_quarkus.log.file-json-file-logging[File logging]"
-msgstr ""
+msgstr "link:#quarkus-logging-json_quarkus.log.file-json-file-logging[Registro em arquivo]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json]]`link:#quarkus-logging-json_quarkus.log.file.json[quarkus.log.file.json]`\n"
 "\n"
@@ -992,14 +1045,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json[quarkus.log.file.json]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json]]`link:#quarkus-logging-json_quarkus.log.file.json[quarkus.log.file.json]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json[quarkus.log.file.json]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.pretty-print]]`link:#quarkus-logging-json_quarkus.log.file.json.pretty-print[quarkus.log.file.json.pretty-print]`\n"
 "\n"
@@ -1009,14 +1065,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_PRETTY_PRINT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.pretty-print[quarkus.log.file.json.pretty-print]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.pretty-print]]`link:#quarkus-logging-json_quarkus.log.file.json.pretty-print[quarkus.log.file.json.pretty-print]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.pretty-print[quarkus.log.file.json.pretty-print]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_PRETTY_PRINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_PRETTY_PRINT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.date-format]]`link:#quarkus-logging-json_quarkus.log.file.json.date-format[quarkus.log.file.json.date-format]`\n"
 "\n"
@@ -1026,14 +1085,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_DATE_FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.date-format[quarkus.log.file.json.date-format]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.date-format]]`link:#quarkus-logging-json_quarkus.log.file.json.date-format[quarkus.log.file.json.date-format]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.date-format[quarkus.log.file.json.date-format]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_DATE_FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_DATE_FORMAT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.record-delimiter]]`link:#quarkus-logging-json_quarkus.log.file.json.record-delimiter[quarkus.log.file.json.record-delimiter]`\n"
 "\n"
@@ -1043,14 +1105,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_RECORD_DELIMITER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.record-delimiter[quarkus.log.file.json.delimitador-de-registro]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.record-delimiter]]`link:#quarkus-logging-json_quarkus.log.file.json.record-delimiter[quarkus.log.file.json.record-delimiter]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.record-delimiter[quarkus.log.file.json.delimitador-de-registro]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_RECORD_DELIMITER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_RECORD_DELIMITER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.zone-id]]`link:#quarkus-logging-json_quarkus.log.file.json.zone-id[quarkus.log.file.json.zone-id]`\n"
 "\n"
@@ -1060,14 +1125,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_ZONE_ID+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.zone-id[quarkus.log.file.json.zone-id]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.zone-id]]`link:#quarkus-logging-json_quarkus.log.file.json.zone-id[quarkus.log.file.json.zone-id]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.zone-id[quarkus.log.file.json.zone-id]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_ZONE_ID+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_ZONE_ID[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.exception-output-type]]`link:#quarkus-logging-json_quarkus.log.file.json.exception-output-type[quarkus.log.file.json.exception-output-type]`\n"
 "\n"
@@ -1077,14 +1145,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_EXCEPTION_OUTPUT_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.exception-output-type[quarkus.log.file.json.exception-output-type]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.exception-output-type]]`link:#quarkus-logging-json_quarkus.log.file.json.exception-output-type[quarkus.log.file.json.exception-output-type]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.exception-output-type[quarkus.log.file.json.exception-output-type]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_EXCEPTION_OUTPUT_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_EXCEPTION_OUTPUT_TYPE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.print-details]]`link:#quarkus-logging-json_quarkus.log.file.json.print-details[quarkus.log.file.json.print-details]`\n"
 "\n"
@@ -1095,14 +1166,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_PRINT_DETAILS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.print-details[quarkus.log.file.json.print-details]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.print-details]]`link:#quarkus-logging-json_quarkus.log.file.json.print-details[quarkus.log.file.json.print-details]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.print-details[quarkus.log.file.json.print-details]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_PRINT_DETAILS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_PRINT_DETAILS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.key-overrides]]`link:#quarkus-logging-json_quarkus.log.file.json.key-overrides[quarkus.log.file.json.key-overrides]`\n"
 "\n"
@@ -1112,14 +1186,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_KEY_OVERRIDES+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.key-overrides[quarkus.log.file.json.key-overrides]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.key-overrides]]`link:#quarkus-logging-json_quarkus.log.file.json.key-overrides[quarkus.log.file.json.key-overrides]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.key-overrides[quarkus.log.file.json.key-overrides]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_KEY_OVERRIDES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_KEY_OVERRIDES[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.excluded-keys]]`link:#quarkus-logging-json_quarkus.log.file.json.excluded-keys[quarkus.log.file.json.excluded-keys]`\n"
 "\n"
@@ -1129,14 +1206,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_EXCLUDED_KEYS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.excluded-keys[quarkus.log.file.json.excluded-keys]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.excluded-keys]]`link:#quarkus-logging-json_quarkus.log.file.json.excluded-keys[quarkus.log.file.json.excluded-keys]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.excluded-keys[quarkus.log.file.json.excluded-keys]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_EXCLUDED_KEYS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_EXCLUDED_KEYS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.value]]`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.value[quarkus.log.file.json.additional-field.\"field-name\".value]`\n"
 "\n"
@@ -1146,14 +1226,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_ADDITIONAL_FIELD__FIELD_NAME__VALUE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.value[quarkus.log.file.json.additional-field.\"nome-do-campo\".valor]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.value]]`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.value[quarkus.log.file.json.additional-field.\"field-name\".value]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.value[quarkus.log.file.json.additional-field.\"nome-do-campo\".valor]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_ADDITIONAL_FIELD__FIELD_NAME__VALUE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_ADDITIONAL_FIELD__FIELD_NAME__VALUE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.type]]`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.type[quarkus.log.file.json.additional-field.\"field-name\".type]`\n"
 "\n"
@@ -1163,13 +1246,15 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_ADDITIONAL_FIELD__FIELD_NAME__TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.type[quarkus.log.file.json.additional-field.\"nome-do-campo\".type]`"
 
+#, fuzzy
 msgid "[[quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.type]]`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.type[quarkus.log.file.json.additional-field.\"field-name\".type]`"
-msgstr ""
+msgstr "`link:#quarkus-logging-json_quarkus.log.file.json.additional-field.-field-name-.type[quarkus.log.file.json.additional-field.\"nome-do-campo\".type]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_JSON_ADDITIONAL_FIELD__FIELD_NAME__TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_JSON_ADDITIONAL_FIELD__FIELD_NAME__TYPE[]"
 
 #, fuzzy
 msgid "Log Handlers"
@@ -1274,8 +1359,9 @@ msgstr "Gerenciamento centralizado de logs"
 msgid "If you want to send your logs to a centralized tool like Graylog, Logstash or Fluentd, you can follow the xref:centralized-log-management.adoc[Centralized log management guide]."
 msgstr "Se quiser enviar seus logs para uma ferramenta centralizada, como Graylog, Logstash ou Fluentd, o senhor pode seguir o xref:centralized-log-management.adoc[guia Centralized log management (Gerenciamento centralizado de logs] )."
 
+#, fuzzy
 msgid "How to Configure Logging for <code>@QuarkusTest</code>"
-msgstr ""
+msgstr "Como configurar o registro de logs para <code>@QuarkusTest</code>"
 
 #, fuzzy
 msgid ""
@@ -1349,9 +1435,11 @@ msgstr "Referência de configuração de registro em log"
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_configuration]]link:#quarkus-log-logging-log-config_configuration[Configuration property]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_configuration[Propriedade de configuração]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.level]]`link:#quarkus-log-logging-log-config_quarkus.log.level[quarkus.log.level]`\n"
 "\n"
@@ -1372,47 +1460,61 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.level[quarkus.log.level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.level]]`link:#quarkus-log-logging-log-config_quarkus.log.level[quarkus.log.level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.level[quarkus.log.level]`"
 
+#, fuzzy
 msgid "The log level of the root category, which is used as the default log level for all categories."
-msgstr ""
+msgstr "O nível de registro da categoria raiz, que é utilizado como nível de registro padrão para todas as categorias."
 
+#, fuzzy
 msgid "JBoss Logging supports Apache style log levels:"
-msgstr ""
+msgstr "O JBoss Logging oferece suporte aos níveis de log no estilo Apache:"
 
+#, fuzzy
 msgid "{@link org.jboss.logmanager.Level#FATAL}"
-msgstr ""
+msgstr "{@link org.jboss.logmanager.Level#FATAL}"
 
+#, fuzzy
 msgid "{@link org.jboss.logmanager.Level#ERROR}"
-msgstr ""
+msgstr "{@link org.jboss.logmanager.Level#ERROR}"
 
+#, fuzzy
 msgid "{@link org.jboss.logmanager.Level#WARN}"
-msgstr ""
+msgstr "{@link org.jboss.logmanager.Level#WARN}"
 
+#, fuzzy
 msgid "{@link org.jboss.logmanager.Level#INFO}"
-msgstr ""
+msgstr "{@link org.jboss.logmanager.Level#INFO}"
 
+#, fuzzy
 msgid "{@link org.jboss.logmanager.Level#DEBUG}"
-msgstr ""
+msgstr "{@link org.jboss.logmanager.Level#DEBUG}"
 
+#, fuzzy
 msgid "{@link org.jboss.logmanager.Level#TRACE}"
-msgstr ""
+msgstr "{@link org.jboss.logmanager.Level#TRACE}"
 
+#, fuzzy
 msgid "In addition, it also supports the standard JDK log levels."
-msgstr ""
+msgstr "Além disso, ele também oferece suporte aos níveis de log padrão do JDK."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_LEVEL[]"
 
+#, fuzzy
 msgid "link:https://docs.jboss.org/jbossas/javadoc/7.1.2.Final/org/jboss/logmanager/Level.html[Level]"
-msgstr ""
+msgstr "link:https://docs.jboss.org/jbossas/javadoc/7.1.2.Final/org/jboss/logmanager/Level.html[Nível]"
 
+#, fuzzy
 msgid "`INFO`"
-msgstr ""
+msgstr "`INFORMAÇÕES`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handlers]]`link:#quarkus-log-logging-log-config_quarkus.log.handlers[quarkus.log.handlers]`\n"
 "\n"
@@ -1422,20 +1524,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLERS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handlers[quarkus.log.handlers]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handlers]]`link:#quarkus-log-logging-log-config_quarkus.log.handlers[quarkus.log.handlers]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handlers[quarkus.log.handlers]`"
 
+#, fuzzy
 msgid "The names of additional handlers to link to the root category. These handlers are defined in consoleHandlers, fileHandlers or syslogHandlers."
-msgstr ""
+msgstr "Os nomes dos manipuladores adicionais a serem vinculados à categoria raiz. Esses manipuladores estão definidos em consoleHandlers, fileHandlers ou syslogHandlers."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLERS[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console-console-logging]]link:#quarkus-log-logging-log-config_quarkus.log.console-console-logging[Console logging]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.console-console-logging[Registros no console]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.console.enable[quarkus.log.console.enable]`\n"
 "\n"
@@ -1445,17 +1552,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ENABLE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.enable[quarkus.log.console.enable]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.console.enable[quarkus.log.console.enable]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.enable[quarkus.log.console.enable]`"
 
+#, fuzzy
 msgid "If console logging should be enabled"
-msgstr ""
+msgstr "Caso seja necessário ativar o registro de erros no console"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_ENABLE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.stderr]]`link:#quarkus-log-logging-log-config_quarkus.log.console.stderr[quarkus.log.console.stderr]`\n"
 "\n"
@@ -1465,17 +1576,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_STDERR+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.stderr[quarkus.log.console.stderr]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.stderr]]`link:#quarkus-log-logging-log-config_quarkus.log.console.stderr[quarkus.log.console.stderr]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.stderr[quarkus.log.console.stderr]`"
 
+#, fuzzy
 msgid "If console logging should go to `System++#++err` instead of `System++#++out`."
-msgstr ""
+msgstr "Caso o registro de log no console deva ser direcionado para `System#err` em vez de `System#out` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_STDERR+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_STDERR[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.format]]`link:#quarkus-log-logging-log-config_quarkus.log.console.format[quarkus.log.console.format]`\n"
 "\n"
@@ -1485,20 +1600,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.format[quarkus.log.console.format]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.format]]`link:#quarkus-log-logging-log-config_quarkus.log.console.format[quarkus.log.console.format]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.format[quarkus.log.console.format]`"
 
+#, fuzzy
 msgid "The log format. Note that this value will be ignored if an extension is present that takes control of console formatting (e.g. an XML or JSON-format extension)."
-msgstr ""
+msgstr "O formato do log. Observe que esse valor será ignorado caso haja uma extensão que controle a formatação do console (por exemplo, uma extensão no formato XML ou JSON)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_FORMAT[]"
 
+#, fuzzy
 msgid "`%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c{3.}] (%t) %s%e%n`"
-msgstr ""
+msgstr "`%d{aaaa-MM-dd HH:mm:ss,SSS} %-5p [%c{3.}] (%t) %s%e%n`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.level]]`link:#quarkus-log-logging-log-config_quarkus.log.console.level[quarkus.log.console.level]`\n"
 "\n"
@@ -1508,20 +1628,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.level[quarkus.log.console.level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.level]]`link:#quarkus-log-logging-log-config_quarkus.log.console.level[quarkus.log.console.level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.level[quarkus.log.console.level]`"
 
+#, fuzzy
 msgid "The console log level."
-msgstr ""
+msgstr "O nível de registro do console."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_LEVEL[]"
 
+#, fuzzy
 msgid "`ALL`"
-msgstr ""
+msgstr "`TODOS`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.darken]]`link:#quarkus-log-logging-log-config_quarkus.log.console.darken[quarkus.log.console.darken]`\n"
 "\n"
@@ -1531,16 +1656,19 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_DARKEN+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.darken[quarkus.log.console.darken]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.darken]]`link:#quarkus-log-logging-log-config_quarkus.log.console.darken[quarkus.log.console.darken]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.darken[quarkus.log.console.darken]`"
 
+#, fuzzy
 msgid "Specify how much the colors should be darkened. Note that this value will be ignored if an extension is present that takes control of console formatting (e.g. an XML or JSON-format extension)."
-msgstr ""
+msgstr "Especifique o quanto as cores devem ser escurecidas. Observe que esse valor será ignorado caso haja uma extensão que assuma o controle da formatação do console (por exemplo, uma extensão no formato XML ou JSON)."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_DARKEN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_DARKEN[]"
 
 msgid "int"
 msgstr "int"
@@ -1549,6 +1677,7 @@ msgstr "int"
 msgid "`0`"
 msgstr "`0`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.console.filter[quarkus.log.console.filter]`\n"
 "\n"
@@ -1558,17 +1687,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.filter[quarkus.log.console.filter]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.console.filter[quarkus.log.console.filter]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.filter[quarkus.log.console.filter]`"
 
+#, fuzzy
 msgid "The name of the filter to link to the console handler."
-msgstr ""
+msgstr "O nome do filtro a ser vinculado ao manipulador do console."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.async]]`link:#quarkus-log-logging-log-config_quarkus.log.console.async[quarkus.log.console.async]`\n"
 "\n"
@@ -1578,17 +1711,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ASYNC+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.async[quarkus.log.console.async]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.async]]`link:#quarkus-log-logging-log-config_quarkus.log.console.async[quarkus.log.console.async]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.async[quarkus.log.console.async]`"
 
+#, fuzzy
 msgid "Indicates whether to log asynchronously"
-msgstr ""
+msgstr "Indica se o registro deve ser feito de forma assíncrona"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ASYNC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_ASYNC[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.console.async.queue-length[quarkus.log.console.async.queue-length]`\n"
 "\n"
@@ -1598,20 +1735,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ASYNC_QUEUE_LENGTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.async.queue-length[quarkus.log.console.async.queue-length]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.console.async.queue-length[quarkus.log.console.async.queue-length]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.async.queue-length[quarkus.log.console.async.queue-length]`"
 
+#, fuzzy
 msgid "The queue length to use before flushing writing"
-msgstr ""
+msgstr "O comprimento da fila a ser utilizado antes de atualizar as gravações"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ASYNC_QUEUE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_ASYNC_QUEUE_LENGTH[]"
 
+#, fuzzy
 msgid "`512`"
-msgstr ""
+msgstr "`512`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.console.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.console.async.overflow[quarkus.log.console.async.overflow]`\n"
 "\n"
@@ -1621,26 +1763,33 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ASYNC_OVERFLOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.async.overflow[quarkus.log.console.async.overflow]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.console.async.overflow[quarkus.log.console.async.overflow]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.console.async.overflow[quarkus.log.console.async.overflow]`"
 
+#, fuzzy
 msgid "Determine whether to block the publisher (rather than drop the message) when the queue is full"
-msgstr ""
+msgstr "Determine se deve bloquear o emissor (em vez de descartar a mensagem) quando a fila estiver cheia"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CONSOLE_ASYNC_OVERFLOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CONSOLE_ASYNC_OVERFLOW[]"
 
+#, fuzzy
 msgid "`block`, `discard`"
-msgstr ""
+msgstr "`bloquear` , `descartar`"
 
+#, fuzzy
 msgid "`block`"
-msgstr ""
+msgstr "`bloco`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file-file-logging]]link:#quarkus-log-logging-log-config_quarkus.log.file-file-logging[File logging]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.file-file-logging[Registro em arquivo]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.file.enable[quarkus.log.file.enable]`\n"
 "\n"
@@ -1650,17 +1799,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ENABLE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.enable[quarkus.log.file.enable]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.file.enable[quarkus.log.file.enable]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.enable[quarkus.log.file.enable]`"
 
+#, fuzzy
 msgid "If file logging should be enabled"
-msgstr ""
+msgstr "Caso seja necessário ativar o registro em arquivo"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ENABLE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.format]]`link:#quarkus-log-logging-log-config_quarkus.log.file.format[quarkus.log.file.format]`\n"
 "\n"
@@ -1670,20 +1823,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.format[quarkus.log.file.format]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.format]]`link:#quarkus-log-logging-log-config_quarkus.log.file.format[quarkus.log.file.format]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.format[quarkus.log.file.format]`"
 
+#, fuzzy
 msgid "The log format"
-msgstr ""
+msgstr "O formato do log"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_FORMAT[]"
 
+#, fuzzy
 msgid "`%d{yyyy-MM-dd HH:mm:ss,SSS} %h %N[%i] %-5p [%c{3.}] (%t) %s%e%n`"
-msgstr ""
+msgstr "`%d{aaaa-MM-dd HH:mm:ss,SSS} %h %N[%i] %-5p [%c{3.}] (%t) %s%e%n`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.level]]`link:#quarkus-log-logging-log-config_quarkus.log.file.level[quarkus.log.file.level]`\n"
 "\n"
@@ -1693,17 +1851,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.level[quarkus.log.file.level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.level]]`link:#quarkus-log-logging-log-config_quarkus.log.file.level[quarkus.log.file.level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.level[quarkus.log.file.level]`"
 
+#, fuzzy
 msgid "The level of logs to be written into the file."
-msgstr ""
+msgstr "O nível dos registros a serem gravados no arquivo."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_LEVEL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.path]]`link:#quarkus-log-logging-log-config_quarkus.log.file.path[quarkus.log.file.path]`\n"
 "\n"
@@ -1713,23 +1875,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.path[quarkus.log.file.path]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.path]]`link:#quarkus-log-logging-log-config_quarkus.log.file.path[quarkus.log.file.path]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.path[quarkus.log.file.path]`"
 
+#, fuzzy
 msgid "The name of the file in which logs will be written."
-msgstr ""
+msgstr "O nome do arquivo no qual os registros serão gravados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_PATH[]"
 
+#, fuzzy
 msgid "link:https://docs.oracle.com/javase/8/docs/api/java/io/File.html[File]"
-msgstr ""
+msgstr "link:https://docs.oracle.com/javase/8/docs/api/java/io/File.html[Arquivo]"
 
+#, fuzzy
 msgid "`quarkus.log`"
-msgstr ""
+msgstr "`quarkus.log`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.file.filter[quarkus.log.file.filter]`\n"
 "\n"
@@ -1739,17 +1907,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.filter[quarkus.log.file.filter]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.file.filter[quarkus.log.file.filter]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.filter[quarkus.log.file.filter]`"
 
+#, fuzzy
 msgid "The name of the filter to link to the file handler."
-msgstr ""
+msgstr "O nome do filtro a ser associado ao manipulador de arquivos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.async]]`link:#quarkus-log-logging-log-config_quarkus.log.file.async[quarkus.log.file.async]`\n"
 "\n"
@@ -1759,14 +1931,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ASYNC+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.async[quarkus.log.file.async]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.async]]`link:#quarkus-log-logging-log-config_quarkus.log.file.async[quarkus.log.file.async]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.async[quarkus.log.file.async]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ASYNC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ASYNC[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.file.async.queue-length[quarkus.log.file.async.queue-length]`\n"
 "\n"
@@ -1776,14 +1951,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ASYNC_QUEUE_LENGTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.async.queue-length[quarkus.log.file.async.queue-length]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.file.async.queue-length[quarkus.log.file.async.queue-length]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.async.queue-length[quarkus.log.file.async.queue-length]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ASYNC_QUEUE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ASYNC_QUEUE_LENGTH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.file.async.overflow[quarkus.log.file.async.overflow]`\n"
 "\n"
@@ -1793,14 +1971,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ASYNC_OVERFLOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.async.overflow[quarkus.log.file.async.overflow]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.file.async.overflow[quarkus.log.file.async.overflow]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.async.overflow[quarkus.log.file.async.overflow]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ASYNC_OVERFLOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ASYNC_OVERFLOW[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.max-file-size]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-file-size[quarkus.log.file.rotation.max-file-size]`\n"
 "\n"
@@ -1810,23 +1991,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_MAX_FILE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-file-size[quarkus.log.file.rotation.max-file-size]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.max-file-size]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-file-size[quarkus.log.file.rotation.max-file-size]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-file-size[quarkus.log.file.rotation.max-file-size]`"
 
+#, fuzzy
 msgid "The maximum file size of the log file after which a rotation is executed."
-msgstr ""
+msgstr "O tamanho máximo do arquivo de log a partir do qual é executada uma rotação."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_MAX_FILE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ROTATION_MAX_FILE_SIZE[]"
 
+#, fuzzy
 msgid "MemorySize  link:#memory-size-note-anchor[icon:question-circle[], title=More information about the MemorySize format]"
-msgstr ""
+msgstr "MemorySize link:#memory-size-note-anchor[[círculo de pergunta]]"
 
+#, fuzzy
 msgid "`10M`"
-msgstr ""
+msgstr "`10 milhões`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.max-backup-index]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-backup-index[quarkus.log.file.rotation.max-backup-index]`\n"
 "\n"
@@ -1836,20 +2023,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_MAX_BACKUP_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-backup-index[quarkus.log.file.rotation.max-backup-index]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.max-backup-index]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-backup-index[quarkus.log.file.rotation.max-backup-index]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.max-backup-index[quarkus.log.file.rotation.max-backup-index]`"
 
+#, fuzzy
 msgid "The maximum number of backups to keep."
-msgstr ""
+msgstr "O número máximo de backups a serem mantidos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_MAX_BACKUP_INDEX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ROTATION_MAX_BACKUP_INDEX[]"
 
+#, fuzzy
 msgid "`5`"
-msgstr ""
+msgstr "`5`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.file-suffix]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.file-suffix[quarkus.log.file.rotation.file-suffix]`\n"
 "\n"
@@ -1859,17 +2051,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_FILE_SUFFIX+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.file-suffix[quarkus.log.file.rotation.file-suffix]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.file-suffix]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.file-suffix[quarkus.log.file.rotation.file-suffix]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.file-suffix[quarkus.log.file.rotation.file-suffix]`"
 
+#, fuzzy
 msgid "File handler rotation file suffix. When used, the file will be rotated based on its suffix. Example fileSuffix: .yyyy-MM-dd"
-msgstr ""
+msgstr "Sufixo de arquivo para rotação do gerenciador de arquivos. Quando utilizado, o arquivo será submetido à rotação com base em seu sufixo. Exemplo de fileSuffix: .yyyy-MM-dd"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_FILE_SUFFIX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ROTATION_FILE_SUFFIX[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.rotate-on-boot]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot]`\n"
 "\n"
@@ -1880,22 +2076,27 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_ROTATE_ON_BOOT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file.rotation.rotate-on-boot]]`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.file.rotation.rotate-on-boot[quarkus.log.file.rotation.rotate-on-boot]`"
 
+#, fuzzy
 msgid ""
 "Indicates whether to rotate log files on server initialization.\n"
 "You need to either set a `max-file-size` or configure a `file-suffix` for it to work."
-msgstr ""
+msgstr "Indica se os arquivos de log devem ser alternados na inicialização do servidor. É necessário definir um ` `max-file-size`` ou configurar um ``file-suffix` ` para que isso funcione."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILE_ROTATION_ROTATE_ON_BOOT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILE_ROTATION_ROTATE_ON_BOOT[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog-syslog-logging]]link:#quarkus-log-logging-log-config_quarkus.log.syslog-syslog-logging[Syslog logging]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.syslog-syslog-logging[Registro no Syslog]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.enable[quarkus.log.syslog.enable]`\n"
 "\n"
@@ -1905,17 +2106,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ENABLE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.enable[quarkus.log.syslog.enable]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.enable[quarkus.log.syslog.enable]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.enable[quarkus.log.syslog.enable]`"
 
+#, fuzzy
 msgid "If syslog logging should be enabled"
-msgstr ""
+msgstr "Caso seja necessário ativar o registro no syslog"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_ENABLE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.endpoint]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.endpoint[quarkus.log.syslog.endpoint]`\n"
 "\n"
@@ -1925,23 +2130,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ENDPOINT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.endpoint[quarkus.log.syslog.endpoint]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.endpoint]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.endpoint[quarkus.log.syslog.endpoint]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.endpoint[quarkus.log.syslog.endpoint]`"
 
+#, fuzzy
 msgid "The IP address and port of the syslog server"
-msgstr ""
+msgstr "O endereço IP e a porta do servidor syslog"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_ENDPOINT[]"
 
+#, fuzzy
 msgid "host:port"
-msgstr ""
+msgstr "servidor:porta"
 
+#, fuzzy
 msgid "`localhost:514`"
-msgstr ""
+msgstr "`localhost:514`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.app-name]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.app-name[quarkus.log.syslog.app-name]`\n"
 "\n"
@@ -1951,17 +2162,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_APP_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.app-name[quarkus.log.syslog.app-name]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.app-name]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.app-name[quarkus.log.syslog.app-name]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.app-name[quarkus.log.syslog.app-name]`"
 
+#, fuzzy
 msgid "The app name used when formatting the message in RFC5424 format"
-msgstr ""
+msgstr "O nome do aplicativo utilizado na formatação da mensagem no formato RFC 5424"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_APP_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_APP_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.hostname]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.hostname[quarkus.log.syslog.hostname]`\n"
 "\n"
@@ -1971,17 +2186,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_HOSTNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.hostname[quarkus.log.syslog.hostname]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.hostname]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.hostname[quarkus.log.syslog.hostname]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.hostname[quarkus.log.syslog.hostname]`"
 
+#, fuzzy
 msgid "The name of the host the messages are being sent from"
-msgstr ""
+msgstr "O nome do servidor do qual as mensagens estão sendo enviadas"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_HOSTNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_HOSTNAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.facility]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.facility[quarkus.log.syslog.facility]`\n"
 "\n"
@@ -1991,23 +2210,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_FACILITY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.facility[quarkus.log.syslog.facility]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.facility]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.facility[quarkus.log.syslog.facility]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.facility[quarkus.log.syslog.facility]`"
 
+#, fuzzy
 msgid "Sets the facility used when calculating the priority of the message as defined by RFC-5424 and RFC-3164"
-msgstr ""
+msgstr "Define o recurso utilizado no cálculo da prioridade da mensagem, conforme definido pelas normas RFC-5424 e RFC-3164"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_FACILITY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_FACILITY[]"
 
+#, fuzzy
 msgid "`kernel`, `user-level`, `mail-system`, `system-daemons`, `security`, `syslogd`, `line-printer`, `network-news`, `uucp`, `clock-daemon`, `security2`, `ftp-daemon`, `ntp`, `log-audit`, `log-alert`, `clock-daemon2`, `local-use-0`, `local-use-1`, `local-use-2`, `local-use-3`, `local-use-4`, `local-use-5`, `local-use-6`, `local-use-7`"
-msgstr ""
+msgstr "`kernel` , `nível do usuário` , `sistema de e-mail` , `daemons do sistema` , `segurança` , `syslogd` , `impressora de linha` , `notícias de rede` , `uucp` , `daemon do relógio` , `segurança2` , `daemon ftp` , `ntp` , `log de auditoria` , `log de alerta` , `daemon de relógio2` , `uso local-0` , `uso local-1` , `uso local-2` , `uso local-3` , `uso local-4` , `uso local-5` , `uso local-6` , `uso local-7`"
 
+#, fuzzy
 msgid "`user-level`"
-msgstr ""
+msgstr "`nível do usuário`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.syslog-type]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.syslog-type[quarkus.log.syslog.syslog-type]`\n"
 "\n"
@@ -2017,23 +2242,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_SYSLOG_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.syslog-type[quarkus.log.syslog.syslog-type]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.syslog-type]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.syslog-type[quarkus.log.syslog.syslog-type]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.syslog-type[quarkus.log.syslog.syslog-type]`"
 
+#, fuzzy
 msgid "Set the `SyslogType syslog type` this handler should use to format the message sent"
-msgstr ""
+msgstr "Defina `o tipo de syslog (SyslogType` ) que este manipulador deve utilizar para formatar a mensagem enviada"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_SYSLOG_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_SYSLOG_TYPE[]"
 
+#, fuzzy
 msgid "`rfc5424`, `rfc3164`"
-msgstr ""
+msgstr "`rfc5424` , `rfc3164`"
 
+#, fuzzy
 msgid "`rfc5424`"
-msgstr ""
+msgstr "`rfc5424`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.protocol]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.protocol[quarkus.log.syslog.protocol]`\n"
 "\n"
@@ -2043,23 +2274,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_PROTOCOL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.protocol[quarkus.log.syslog.protocol]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.protocol]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.protocol[quarkus.log.syslog.protocol]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.protocol[quarkus.log.syslog.protocol]`"
 
+#, fuzzy
 msgid "Sets the protocol used to connect to the syslog server"
-msgstr ""
+msgstr "Define o protocolo utilizado para se conectar ao servidor syslog"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_PROTOCOL[]"
 
+#, fuzzy
 msgid "`tcp`, `udp`, `ssl-tcp`"
-msgstr ""
+msgstr "`tcp` , `udp` , `ssl-tcp`"
 
+#, fuzzy
 msgid "`tcp`"
-msgstr ""
+msgstr "`tcp`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.use-counting-framing]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.use-counting-framing[quarkus.log.syslog.use-counting-framing]`\n"
 "\n"
@@ -2069,17 +2306,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_USE_COUNTING_FRAMING+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.use-counting-framing[quarkus.log.syslog.use-counting-framing]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.use-counting-framing]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.use-counting-framing[quarkus.log.syslog.use-counting-framing]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.use-counting-framing[quarkus.log.syslog.use-counting-framing]`"
 
+#, fuzzy
 msgid "Set to `true` if the message being sent should be prefixed with the size of the message"
-msgstr ""
+msgstr "Defina como `“true”` se a mensagem que está sendo enviada deve ser precedida pelo tamanho da mensagem"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_USE_COUNTING_FRAMING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_USE_COUNTING_FRAMING[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.truncate]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.truncate[quarkus.log.syslog.truncate]`\n"
 "\n"
@@ -2089,17 +2330,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_TRUNCATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.truncate[quarkus.log.syslog.truncate]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.truncate]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.truncate[quarkus.log.syslog.truncate]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.truncate[quarkus.log.syslog.truncate]`"
 
+#, fuzzy
 msgid "Set to `true` if the message should be truncated"
-msgstr ""
+msgstr "Defina como `“true”` se a mensagem dever ser truncada"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_TRUNCATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_TRUNCATE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.block-on-reconnect]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.block-on-reconnect[quarkus.log.syslog.block-on-reconnect]`\n"
 "\n"
@@ -2110,19 +2355,23 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_BLOCK_ON_RECONNECT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.block-on-reconnect[quarkus.log.syslog.block-on-reconnect]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.block-on-reconnect]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.block-on-reconnect[quarkus.log.syslog.block-on-reconnect]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.block-on-reconnect[quarkus.log.syslog.block-on-reconnect]`"
 
+#, fuzzy
 msgid ""
 "Enables or disables blocking when attempting to reconnect a `org.jboss.logmanager.handlers.SyslogHandler.Protocol++#++TCP\n"
 "TCP` or `org.jboss.logmanager.handlers.SyslogHandler.Protocol++#++SSL_TCP SSL TCP` protocol"
-msgstr ""
+msgstr "Ativa ou desativa o bloqueio ao tentar se reconectar a um protocolo `TCP (org.jboss.logmanager.handlers.SyslogHandler.Protocol#TCP)` ou `SSL TCP (org.jboss.logmanager.handlers.SyslogHandler.Protocol#SSL_TCP)`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_BLOCK_ON_RECONNECT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_BLOCK_ON_RECONNECT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.format]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.format[quarkus.log.syslog.format]`\n"
 "\n"
@@ -2132,17 +2381,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.format[quarkus.log.syslog.format]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.format]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.format[quarkus.log.syslog.format]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.format[quarkus.log.syslog.format]`"
 
+#, fuzzy
 msgid "The log message format"
-msgstr ""
+msgstr "O formato das mensagens de log"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_FORMAT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.level]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.level[quarkus.log.syslog.level]`\n"
 "\n"
@@ -2152,17 +2405,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.level[quarkus.log.syslog.level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.level]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.level[quarkus.log.syslog.level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.level[quarkus.log.syslog.level]`"
 
+#, fuzzy
 msgid "The log level specifying, which message levels will be logged by syslog logger"
-msgstr ""
+msgstr "O nível de registro que especifica quais níveis de mensagem serão registrados pelo registrador syslog"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_LEVEL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.filter[quarkus.log.syslog.filter]`\n"
 "\n"
@@ -2172,14 +2429,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.filter[quarkus.log.syslog.filter]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.filter[quarkus.log.syslog.filter]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.filter[quarkus.log.syslog.filter]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.async]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async[quarkus.log.syslog.async]`\n"
 "\n"
@@ -2189,14 +2449,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ASYNC+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async[quarkus.log.syslog.async]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.async]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async[quarkus.log.syslog.async]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async[quarkus.log.syslog.async]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ASYNC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_ASYNC[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.queue-length[quarkus.log.syslog.async.queue-length]`\n"
 "\n"
@@ -2206,14 +2469,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ASYNC_QUEUE_LENGTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.queue-length[quarkus.log.syslog.async.queue-length]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.queue-length[quarkus.log.syslog.async.queue-length]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.queue-length[quarkus.log.syslog.async.queue-length]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ASYNC_QUEUE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_ASYNC_QUEUE_LENGTH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.syslog.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.overflow[quarkus.log.syslog.async.overflow]`\n"
 "\n"
@@ -2223,17 +2489,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ASYNC_OVERFLOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.overflow[quarkus.log.syslog.async.overflow]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.overflow[quarkus.log.syslog.async.overflow]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.syslog.async.overflow[quarkus.log.syslog.async.overflow]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_SYSLOG_ASYNC_OVERFLOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_SYSLOG_ASYNC_OVERFLOW[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.categories-logging-categories]]link:#quarkus-log-logging-log-config_quarkus.log.categories-logging-categories[Logging categories]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.categories-logging-categories[Categorias de extração florestal]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.category.-categories-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.level[quarkus.log.category.\"categories\".level]`\n"
 "\n"
@@ -2243,23 +2513,29 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CATEGORY__CATEGORIES__LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.level[quarkus.log.category.\"categorias\".nível]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.category.-categories-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.level[quarkus.log.category.\"categories\".level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.level[quarkus.log.category.\"categorias\".nível]`"
 
+#, fuzzy
 msgid "The log level for this category. Note that to get log levels below `INFO`, the minimum level build time configuration option needs to be adjusted as well."
-msgstr ""
+msgstr "O nível de registro para esta categoria. Observe que, para obter níveis de registro inferiores a `INFO` , a opção de configuração de nível mínimo na fase de compilação também precisa ser ajustada."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CATEGORY__CATEGORIES__LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CATEGORY__CATEGORIES__LEVEL[]"
 
+#, fuzzy
 msgid "InheritableLevel"
-msgstr ""
+msgstr "Nível Hereditário"
 
+#, fuzzy
 msgid "`inherit`"
-msgstr ""
+msgstr "`herdar`"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.category.-categories-.handlers]]`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.handlers[quarkus.log.category.\"categories\".handlers]`\n"
 "\n"
@@ -2269,17 +2545,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CATEGORY__CATEGORIES__HANDLERS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.handlers[quarkus.log.category.\"categories\".handlers]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.category.-categories-.handlers]]`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.handlers[quarkus.log.category.\"categories\".handlers]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.handlers[quarkus.log.category.\"categories\".handlers]`"
 
+#, fuzzy
 msgid "The names of the handlers to link to this category."
-msgstr ""
+msgstr "Os nomes dos manipuladores a serem vinculados a esta categoria."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CATEGORY__CATEGORIES__HANDLERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CATEGORY__CATEGORIES__HANDLERS[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.category.-categories-.use-parent-handlers]]`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.use-parent-handlers[quarkus.log.category.\"categories\".use-parent-handlers]`\n"
 "\n"
@@ -2289,20 +2569,25 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CATEGORY__CATEGORIES__USE_PARENT_HANDLERS+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.use-parent-handlers[quarkus.log.category.\"categories\".use-parent-handlers]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.category.-categories-.use-parent-handlers]]`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.use-parent-handlers[quarkus.log.category.\"categories\".use-parent-handlers]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.category.-categories-.use-parent-handlers[quarkus.log.category.\"categories\".use-parent-handlers]`"
 
+#, fuzzy
 msgid "Specify whether this logger should send its output to its parent Logger"
-msgstr ""
+msgstr "Especifique se este registrador deve enviar sua saída para o registrador pai"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_CATEGORY__CATEGORIES__USE_PARENT_HANDLERS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_CATEGORY__CATEGORIES__USE_PARENT_HANDLERS[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.console-handlers-console-handlers]]link:#quarkus-log-logging-log-config_quarkus.log.console-handlers-console-handlers[Console handlers]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.console-handlers-console-handlers[Manipuladores de console]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.enable[quarkus.log.handler.console.\"console-handlers\".enable]`\n"
 "\n"
@@ -2312,14 +2597,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ENABLE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.enable[quarkus.log.handler.console.\"console-handlers\".enable]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.enable[quarkus.log.handler.console.\"console-handlers\".enable]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.enable[quarkus.log.handler.console.\"console-handlers\".enable]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ENABLE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.stderr]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.stderr[quarkus.log.handler.console.\"console-handlers\".stderr]`\n"
 "\n"
@@ -2329,14 +2617,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__STDERR+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.stderr[quarkus.log.handler.console.\"console-handlers\".stderr]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.stderr]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.stderr[quarkus.log.handler.console.\"console-handlers\".stderr]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.stderr[quarkus.log.handler.console.\"console-handlers\".stderr]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__STDERR+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__STDERR[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.format]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.format[quarkus.log.handler.console.\"console-handlers\".format]`\n"
 "\n"
@@ -2346,14 +2637,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.format[quarkus.log.handler.console.\"console-handlers\".format]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.format]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.format[quarkus.log.handler.console.\"console-handlers\".format]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.format[quarkus.log.handler.console.\"console-handlers\".format]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__FORMAT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.level[quarkus.log.handler.console.\"console-handlers\".level]`\n"
 "\n"
@@ -2363,14 +2657,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.level[quarkus.log.handler.console.\"console-handlers\".level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.level[quarkus.log.handler.console.\"console-handlers\".level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.level[quarkus.log.handler.console.\"console-handlers\".level]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__LEVEL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.darken]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.darken[quarkus.log.handler.console.\"console-handlers\".darken]`\n"
 "\n"
@@ -2380,14 +2677,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__DARKEN+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.darken[quarkus.log.handler.console.\"console-handlers\".darken]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.darken]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.darken[quarkus.log.handler.console.\"console-handlers\".darken]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.darken[quarkus.log.handler.console.\"console-handlers\".darken]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__DARKEN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__DARKEN[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.filter[quarkus.log.handler.console.\"console-handlers\".filter]`\n"
 "\n"
@@ -2397,14 +2697,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.filter[quarkus.log.handler.console.\"console-handlers\".filter]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.filter[quarkus.log.handler.console.\"console-handlers\".filter]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.filter[quarkus.log.handler.console.\"console-handlers\".filter]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async[quarkus.log.handler.console.\"console-handlers\".async]`\n"
 "\n"
@@ -2414,14 +2717,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async[quarkus.log.handler.console.\"console-handlers\".async]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async[quarkus.log.handler.console.\"console-handlers\".async]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async[quarkus.log.handler.console.\"console-handlers\".async]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.queue-length[quarkus.log.handler.console.\"console-handlers\".async.queue-length]`\n"
 "\n"
@@ -2431,14 +2737,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC_QUEUE_LENGTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.queue-length[quarkus.log.handler.console.\"console-handlers\".async.queue-length]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.queue-length[quarkus.log.handler.console.\"console-handlers\".async.queue-length]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.queue-length[quarkus.log.handler.console.\"console-handlers\".async.queue-length]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC_QUEUE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC_QUEUE_LENGTH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.overflow[quarkus.log.handler.console.\"console-handlers\".async.overflow]`\n"
 "\n"
@@ -2448,17 +2757,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC_OVERFLOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.overflow[quarkus.log.handler.console.\"console-handlers\".async.overflow]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.overflow[quarkus.log.handler.console.\"console-handlers\".async.overflow]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.console.-console-handlers-.async.overflow[quarkus.log.handler.console.\"console-handlers\".async.overflow]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC_OVERFLOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_CONSOLE__CONSOLE_HANDLERS__ASYNC_OVERFLOW[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.file-handlers-file-handlers]]link:#quarkus-log-logging-log-config_quarkus.log.file-handlers-file-handlers[File handlers]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.file-handlers-file-handlers[Manipuladores de arquivos]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.enable[quarkus.log.handler.file.\"file-handlers\".enable]`\n"
 "\n"
@@ -2468,14 +2781,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ENABLE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.enable[quarkus.log.handler.file.\"file-handlers\".enable]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.enable[quarkus.log.handler.file.\"file-handlers\".enable]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.enable[quarkus.log.handler.file.\"file-handlers\".enable]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ENABLE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.format]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.format[quarkus.log.handler.file.\"file-handlers\".format]`\n"
 "\n"
@@ -2485,14 +2801,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.format[quarkus.log.handler.file.\"file-handlers\".format]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.format]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.format[quarkus.log.handler.file.\"file-handlers\".format]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.format[quarkus.log.handler.file.\"file-handlers\".format]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__FORMAT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.level[quarkus.log.handler.file.\"file-handlers\".level]`\n"
 "\n"
@@ -2502,14 +2821,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.level[quarkus.log.handler.file.\"file-handlers\".level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.level[quarkus.log.handler.file.\"file-handlers\".level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.level[quarkus.log.handler.file.\"file-handlers\".level]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__LEVEL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.path]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.path[quarkus.log.handler.file.\"file-handlers\".path]`\n"
 "\n"
@@ -2519,14 +2841,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__PATH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.path[quarkus.log.handler.file.\"file-handlers\".path]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.path]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.path[quarkus.log.handler.file.\"file-handlers\".path]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.path[quarkus.log.handler.file.\"file-handlers\".path]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__PATH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.filter[quarkus.log.handler.file.\"file-handlers\".filter]`\n"
 "\n"
@@ -2536,14 +2861,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.filter[quarkus.log.handler.file.\"file-handlers\".filter]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.filter[quarkus.log.handler.file.\"file-handlers\".filter]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.filter[quarkus.log.handler.file.\"file-handlers\".filter]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async[quarkus.log.handler.file.\"file-handlers\".async]`\n"
 "\n"
@@ -2553,14 +2881,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async[quarkus.log.handler.file.\"file-handlers\".async]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async[quarkus.log.handler.file.\"file-handlers\".async]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async[quarkus.log.handler.file.\"file-handlers\".async]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.queue-length[quarkus.log.handler.file.\"file-handlers\".async.queue-length]`\n"
 "\n"
@@ -2570,14 +2901,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC_QUEUE_LENGTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.queue-length[quarkus.log.handler.file.\"file-handlers\".async.queue-length]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.queue-length[quarkus.log.handler.file.\"file-handlers\".async.queue-length]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.queue-length[quarkus.log.handler.file.\"file-handlers\".async.queue-length]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC_QUEUE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC_QUEUE_LENGTH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.overflow[quarkus.log.handler.file.\"file-handlers\".async.overflow]`\n"
 "\n"
@@ -2587,14 +2921,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC_OVERFLOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.overflow[quarkus.log.handler.file.\"file-handlers\".async.overflow]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.overflow[quarkus.log.handler.file.\"file-handlers\".async.overflow]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.async.overflow[quarkus.log.handler.file.\"file-handlers\".async.overflow]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC_OVERFLOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ASYNC_OVERFLOW[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size[quarkus.log.handler.file.\"file-handlers\".rotation.max-file-size]`\n"
 "\n"
@@ -2604,14 +2941,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_FILE_SIZE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size[quarkus.log.handler.file.\"file-handlers\".rotation.max-file-size]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size[quarkus.log.handler.file.\"file-handlers\".rotation.max-file-size]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-file-size[quarkus.log.handler.file.\"file-handlers\".rotation.max-file-size]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_FILE_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_FILE_SIZE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index[quarkus.log.handler.file.\"file-handlers\".rotation.max-backup-index]`\n"
 "\n"
@@ -2621,14 +2961,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_BACKUP_INDEX+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index[quarkus.log.handler.file.\"file-handlers\".rotation.max-backup-index]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index[quarkus.log.handler.file.\"file-handlers\".rotation.max-backup-index]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.max-backup-index[quarkus.log.handler.file.\"file-handlers\".rotation.max-backup-index]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_BACKUP_INDEX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_MAX_BACKUP_INDEX[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix[quarkus.log.handler.file.\"file-handlers\".rotation.file-suffix]`\n"
 "\n"
@@ -2638,14 +2981,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_FILE_SUFFIX+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix[quarkus.log.handler.file.\"file-handlers\".rotation.file-suffix]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix[quarkus.log.handler.file.\"file-handlers\".rotation.file-suffix]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.file-suffix[quarkus.log.handler.file.\"file-handlers\".rotation.file-suffix]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_FILE_SUFFIX+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_FILE_SUFFIX[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot[quarkus.log.handler.file.\"file-handlers\".rotation.rotate-on-boot]`\n"
 "\n"
@@ -2656,17 +3002,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_ROTATE_ON_BOOT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot[quarkus.log.handler.file.\"file-handlers\".rotation.rotate-on-boot]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot[quarkus.log.handler.file.\"file-handlers\".rotation.rotate-on-boot]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.file.-file-handlers-.rotation.rotate-on-boot[quarkus.log.handler.file.\"file-handlers\".rotation.rotate-on-boot]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_ROTATE_ON_BOOT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_FILE__FILE_HANDLERS__ROTATION_ROTATE_ON_BOOT[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.syslog-handlers-syslog-handlers]]link:#quarkus-log-logging-log-config_quarkus.log.syslog-handlers-syslog-handlers[Syslog handlers]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.syslog-handlers-syslog-handlers[Manipuladores de Syslog]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.enable[quarkus.log.handler.syslog.\"syslog-handlers\".enable]`\n"
 "\n"
@@ -2676,14 +3026,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ENABLE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.enable[quarkus.log.handler.syslog.\"syslog-handlers\".enable]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.enable]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.enable[quarkus.log.handler.syslog.\"syslog-handlers\".enable]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.enable[quarkus.log.handler.syslog.\"syslog-handlers\".enable]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ENABLE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.endpoint]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.endpoint[quarkus.log.handler.syslog.\"syslog-handlers\".endpoint]`\n"
 "\n"
@@ -2693,14 +3046,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ENDPOINT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.endpoint[quarkus.log.handler.syslog.\"syslog-handlers\".endpoint]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.endpoint]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.endpoint[quarkus.log.handler.syslog.\"syslog-handlers\".endpoint]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.endpoint[quarkus.log.handler.syslog.\"syslog-handlers\".endpoint]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ENDPOINT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ENDPOINT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.app-name]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.app-name[quarkus.log.handler.syslog.\"syslog-handlers\".app-name]`\n"
 "\n"
@@ -2710,14 +3066,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__APP_NAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.app-name[quarkus.log.handler.syslog.\"syslog-handlers\".app-name]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.app-name]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.app-name[quarkus.log.handler.syslog.\"syslog-handlers\".app-name]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.app-name[quarkus.log.handler.syslog.\"syslog-handlers\".app-name]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__APP_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__APP_NAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.hostname]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.hostname[quarkus.log.handler.syslog.\"syslog-handlers\".hostname]`\n"
 "\n"
@@ -2727,14 +3086,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__HOSTNAME+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.hostname[quarkus.log.handler.syslog.\"syslog-handlers\".hostname]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.hostname]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.hostname[quarkus.log.handler.syslog.\"syslog-handlers\".hostname]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.hostname[quarkus.log.handler.syslog.\"syslog-handlers\".hostname]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__HOSTNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__HOSTNAME[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.facility]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.facility[quarkus.log.handler.syslog.\"syslog-handlers\".facility]`\n"
 "\n"
@@ -2744,14 +3106,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FACILITY+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.facility[quarkus.log.handler.syslog.\"syslog-handlers\".facility]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.facility]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.facility[quarkus.log.handler.syslog.\"syslog-handlers\".facility]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.facility[quarkus.log.handler.syslog.\"syslog-handlers\".facility]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FACILITY+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FACILITY[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.syslog-type]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.syslog-type[quarkus.log.handler.syslog.\"syslog-handlers\".syslog-type]`\n"
 "\n"
@@ -2761,14 +3126,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__SYSLOG_TYPE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.syslog-type[quarkus.log.handler.syslog.\"syslog-handlers\".syslog-type]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.syslog-type]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.syslog-type[quarkus.log.handler.syslog.\"syslog-handlers\".syslog-type]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.syslog-type[quarkus.log.handler.syslog.\"syslog-handlers\".syslog-type]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__SYSLOG_TYPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__SYSLOG_TYPE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.protocol]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.protocol[quarkus.log.handler.syslog.\"syslog-handlers\".protocol]`\n"
 "\n"
@@ -2778,14 +3146,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__PROTOCOL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.protocol[quarkus.log.handler.syslog.\"syslog-handlers\".protocol]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.protocol]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.protocol[quarkus.log.handler.syslog.\"syslog-handlers\".protocol]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.protocol[quarkus.log.handler.syslog.\"syslog-handlers\".protocol]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__PROTOCOL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__PROTOCOL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.use-counting-framing]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.use-counting-framing[quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing]`\n"
 "\n"
@@ -2795,14 +3166,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__USE_COUNTING_FRAMING+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.use-counting-framing[quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.use-counting-framing]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.use-counting-framing[quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.use-counting-framing[quarkus.log.handler.syslog.\"syslog-handlers\".use-counting-framing]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__USE_COUNTING_FRAMING+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__USE_COUNTING_FRAMING[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.truncate]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.truncate[quarkus.log.handler.syslog.\"syslog-handlers\".truncate]`\n"
 "\n"
@@ -2812,14 +3186,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__TRUNCATE+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.truncate[quarkus.log.handler.syslog.\"syslog-handlers\".truncate]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.truncate]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.truncate[quarkus.log.handler.syslog.\"syslog-handlers\".truncate]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.truncate[quarkus.log.handler.syslog.\"syslog-handlers\".truncate]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__TRUNCATE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__TRUNCATE[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.block-on-reconnect]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.block-on-reconnect[quarkus.log.handler.syslog.\"syslog-handlers\".block-on-reconnect]`\n"
 "\n"
@@ -2830,14 +3207,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__BLOCK_ON_RECONNECT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.block-on-reconnect[quarkus.log.handler.syslog.\"syslog-handlers\".block-on-reconnect]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.block-on-reconnect]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.block-on-reconnect[quarkus.log.handler.syslog.\"syslog-handlers\".block-on-reconnect]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.block-on-reconnect[quarkus.log.handler.syslog.\"syslog-handlers\".block-on-reconnect]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__BLOCK_ON_RECONNECT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__BLOCK_ON_RECONNECT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.format]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.format[quarkus.log.handler.syslog.\"syslog-handlers\".format]`\n"
 "\n"
@@ -2847,14 +3227,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FORMAT+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.format[quarkus.log.handler.syslog.\"syslog-handlers\".format]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.format]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.format[quarkus.log.handler.syslog.\"syslog-handlers\".format]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.format[quarkus.log.handler.syslog.\"syslog-handlers\".format]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FORMAT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FORMAT[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.level[quarkus.log.handler.syslog.\"syslog-handlers\".level]`\n"
 "\n"
@@ -2864,14 +3247,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.level[quarkus.log.handler.syslog.\"syslog-handlers\".level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.level]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.level[quarkus.log.handler.syslog.\"syslog-handlers\".level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.level[quarkus.log.handler.syslog.\"syslog-handlers\".level]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__LEVEL[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.filter[quarkus.log.handler.syslog.\"syslog-handlers\".filter]`\n"
 "\n"
@@ -2881,14 +3267,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FILTER+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.filter[quarkus.log.handler.syslog.\"syslog-handlers\".filter]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.filter]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.filter[quarkus.log.handler.syslog.\"syslog-handlers\".filter]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.filter[quarkus.log.handler.syslog.\"syslog-handlers\".filter]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FILTER+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__FILTER[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async[quarkus.log.handler.syslog.\"syslog-handlers\".async]`\n"
 "\n"
@@ -2898,14 +3287,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async[quarkus.log.handler.syslog.\"syslog-handlers\".async]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async[quarkus.log.handler.syslog.\"syslog-handlers\".async]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async[quarkus.log.handler.syslog.\"syslog-handlers\".async]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.queue-length[quarkus.log.handler.syslog.\"syslog-handlers\".async.queue-length]`\n"
 "\n"
@@ -2915,14 +3307,17 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC_QUEUE_LENGTH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.queue-length[quarkus.log.handler.syslog.\"syslog-handlers\".async.queue-length]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.queue-length]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.queue-length[quarkus.log.handler.syslog.\"syslog-handlers\".async.queue-length]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.queue-length[quarkus.log.handler.syslog.\"syslog-handlers\".async.queue-length]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC_QUEUE_LENGTH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC_QUEUE_LENGTH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.overflow[quarkus.log.handler.syslog.\"syslog-handlers\".async.overflow]`\n"
 "\n"
@@ -2932,17 +3327,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC_OVERFLOW+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.overflow[quarkus.log.handler.syslog.\"syslog-handlers\".async.overflow]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.overflow]]`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.overflow[quarkus.log.handler.syslog.\"syslog-handlers\".async.overflow]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.handler.syslog.-syslog-handlers-.async.overflow[quarkus.log.handler.syslog.\"syslog-handlers\".async.overflow]`"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC_OVERFLOW+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_HANDLER_SYSLOG__SYSLOG_HANDLERS__ASYNC_OVERFLOW[]"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.filters-log-cleanup-filters-internal-use]]link:#quarkus-log-logging-log-config_quarkus.log.filters-log-cleanup-filters-internal-use[Log cleanup filters - internal use]"
-msgstr ""
+msgstr "link:#quarkus-log-logging-log-config_quarkus.log.filters-log-cleanup-filters-internal-use[Filtros de limpeza de logs — uso interno]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.filter.-filters-.if-starts-with]]`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.if-starts-with[quarkus.log.filter.\"filters\".if-starts-with]`\n"
 "\n"
@@ -2952,17 +3351,21 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILTER__FILTERS__IF_STARTS_WITH+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.if-starts-with[quarkus.log.filter.\"filters\".if-starts-with]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.filter.-filters-.if-starts-with]]`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.if-starts-with[quarkus.log.filter.\"filters\".if-starts-with]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.if-starts-with[quarkus.log.filter.\"filters\".if-starts-with]`"
 
+#, fuzzy
 msgid "The message starts to match"
-msgstr ""
+msgstr "A mensagem começa a corresponder"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILTER__FILTERS__IF_STARTS_WITH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILTER__FILTERS__IF_STARTS_WITH[]"
 
+#, fuzzy
 msgid ""
 "[[quarkus-log-logging-log-config_quarkus.log.filter.-filters-.target-level]]`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.target-level[quarkus.log.filter.\"filters\".target-level]`\n"
 "\n"
@@ -2972,24 +3375,30 @@ msgid ""
 "\n"
 "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILTER__FILTERS__TARGET_LEVEL+++[]\n"
 "--"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.target-level[quarkus.log.filter. \"filters\".target-level]`"
 
+#, fuzzy
 msgid "[[quarkus-log-logging-log-config_quarkus.log.filter.-filters-.target-level]]`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.target-level[quarkus.log.filter.\"filters\".target-level]`"
-msgstr ""
+msgstr "`link:#quarkus-log-logging-log-config_quarkus.log.filter.-filters-.target-level[quarkus.log.filter.\"filters\".target-level]`"
 
+#, fuzzy
 msgid "The new log level for the filtered message, defaults to DEBUG"
-msgstr ""
+msgstr "O novo nível de registro para a mensagem filtrada é, por padrão, DEBUG"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_LOG_FILTER__FILTERS__TARGET_LEVEL+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_LOG_FILTER__FILTERS__TARGET_LEVEL[]"
 
+#, fuzzy
 msgid "`DEBUG`"
-msgstr ""
+msgstr "`DEBUG`"
 
+#, fuzzy
 msgid "About the MemorySize format"
-msgstr ""
+msgstr "Sobre o formato MemorySize"
 
+#, fuzzy
 msgid ""
 "A size configuration option recognises string in this format (shown as a regular expression): `[0-9]+[KkMmGgTtPpEeZzYy]?`.\n"
 "If no suffix is given, assume bytes."
-msgstr ""
+msgstr "Uma opção de configuração de tamanho reconhece uma sequência neste formato (apresentada como uma expressão regular): `[0-9]+[KkMmGgTtPpEeZzYy]?` . Caso não seja fornecido nenhum sufixo, considera-se que se trata de bytes."

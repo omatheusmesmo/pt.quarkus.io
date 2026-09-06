@@ -48,17 +48,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-enabled]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-enabled[quarkus.redis.devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "If DevServices has been explicitly enabled or disabled. DevServices is generally enabled by default, unless there is an existing configuration present."
-msgstr ""
+msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices geralmente vem ativado por padrão, a menos que haja uma configuração existente."
 
+#, fuzzy
 msgid "When DevServices is enabled Quarkus will attempt to automatically configure and start a database when running in Dev or Test mode and when Docker is running."
-msgstr ""
+msgstr "Quando o DevServices estiver ativado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test e quando o Docker estiver em execução."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -81,11 +85,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-image-name[quarkus.redis.devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name to use, for container based DevServices providers. If you want to use Redis Stack modules (bloom, graph, search...), use: `redis/redis-stack:latest`."
-msgstr ""
+msgstr "O nome da imagem do contêiner a ser utilizado, para provedores de DevServices baseados em contêineres. Caso deseje utilizar módulos do Redis Stack (bloom, graph, search…​), utilize: `redis/redis-stack:latest` ."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -107,14 +113,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-port[quarkus.redis.devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Optional fixed port the dev service will listen to."
-msgstr ""
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta."
 
+#, fuzzy
 msgid "If not defined, the port will be chosen randomly."
-msgstr ""
+msgstr "Caso não seja definida, a porta será escolhida aleatoriamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_PORT[]"
 
 msgid "int"
 msgstr "int"
@@ -138,17 +147,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-shared[quarkus.redis.devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Indicates if the Redis server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for Redis starts a new container."
-msgstr ""
+msgstr "Indica se o servidor Redis gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for Redis inicia um novo contêiner."
 
+#, fuzzy
 msgid "The discovery uses the `quarkus-dev-service-redis` label. The value is configured using the `service-name` property."
-msgstr ""
+msgstr "A descoberta utiliza a etiqueta `“quarkus-dev-service-redis` ”. O valor é configurado por meio da propriedade `“service-name` ”."
 
+#, fuzzy
 msgid "Container sharing is only used in dev mode."
-msgstr ""
+msgstr "O compartilhamento de contêineres é utilizado apenas no modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name[quarkus.redis.devservices.service-name]`\n"
@@ -167,17 +180,21 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-service-name[quarkus.redis.devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "The value of the `quarkus-dev-service-redis` label attached to the started container. This property is used when `shared` is set to `true`. In this case, before starting a container, Dev Services for Redis looks for a container with the `quarkus-dev-service-redis` label set to the configured value. If found, it will use this container instead of starting a new one. Otherwise, it starts a new container with the `quarkus-dev-service-redis` label set to the specified value."
-msgstr ""
+msgstr "O valor do rótulo `“quarkus-dev-service-redis”` associado ao contêiner iniciado. Essa propriedade é utilizada quando `a opção “shared”` está definida como `“true` ”. Nesse caso, antes de iniciar um contêiner, o Dev Services for Redis procura um contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor configurado. Se for encontrado, ele utilizará esse contêiner em vez de iniciar um novo. Caso contrário, ele inicia um novo contêiner com o rótulo `“quarkus-dev-service-redis”` definido com o valor especificado."
 
+#, fuzzy
 msgid "This property is used when you need multiple shared Redis servers."
-msgstr ""
+msgstr "Essa propriedade é utilizada quando for necessário dispor de vários servidores Redis compartilhados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS_DEVSERVICES_SERVICE_NAME[]"
 
+#, fuzzy
 msgid "`redis`"
-msgstr ""
+msgstr "`redis`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-container-env-container-env]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-container-env-container-env[quarkus.redis.devservices.container-env]`\n"
@@ -194,14 +211,16 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-container-env-container-env]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-devservices-container-env-container-env[quarkus.redis.devservices.container-env]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables that are passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente que são passadas ao contêiner."
 
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS_DEVSERVICES_CONTAINER_ENV+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "`Map<String,String>`"
-msgstr ""
+msgstr "`Map<String, String>`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-enabled]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-enabled[quarkus.redis.\"additional-redis-clients\".devservices.enabled]`\n"
@@ -220,8 +239,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-enabled]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-enabled[quarkus.redis.\"additional-redis-clients\".devservices.enabled]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`\n"
@@ -238,8 +258,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-image-name[quarkus.redis.\"additional-redis-clients\".devservices.image-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_IMAGE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port[quarkus.redis.\"additional-redis-clients\".devservices.port]`\n"
@@ -258,8 +279,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-port[quarkus.redis.\"additional-redis-clients\".devservices.port]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_PORT[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared[quarkus.redis.\"additional-redis-clients\".devservices.shared]`\n"
@@ -280,8 +302,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-shared[quarkus.redis.\"additional-redis-clients\".devservices.shared]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SHARED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SHARED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name[quarkus.redis.\"additional-redis-clients\".devservices.service-name]`\n"
@@ -300,8 +323,9 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-service-name[quarkus.redis.\"additional-redis-clients\".devservices.service-name]`"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SERVICE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_REDIS__ADDITIONAL_REDIS_CLIENTS__DEVSERVICES_SERVICE_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-container-env-container-env]]`link:#quarkus-redis-config-group-client-dev-services-config_quarkus-redis-additional-redis-clients-devservices-container-env-container-env[quarkus.redis.\"additional-redis-clients\".devservices.container-env]`\n"

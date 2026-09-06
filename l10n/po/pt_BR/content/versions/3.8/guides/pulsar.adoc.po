@@ -657,8 +657,9 @@ msgstr "O aplicativo pode optar por tratar o caso de erro, mas, para que o consu
 msgid "In order to avoid duplicates in case of failure, it is recommended to enable message deduplication and batch index level acknowledgment on the broker side:"
 msgstr "Para evitar duplicatas em caso de falha, recomenda-se habilitar a desduplicação de mensagens e o reconhecimento em nível de índice de lote no lado do broker:"
 
+#, fuzzy
 msgid "Pulsar Schema Configuration &amp; Auto Schema Discovery"
-msgstr ""
+msgstr "Configuração do esquema do Pulsar e descoberta automática de esquemas"
 
 #, fuzzy
 msgid ""

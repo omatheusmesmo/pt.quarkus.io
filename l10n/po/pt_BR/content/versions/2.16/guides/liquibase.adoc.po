@@ -307,7 +307,7 @@ msgstr "`link:#quarkus-liquibase_quarkus.liquibase.contexts[quarkus.liquibase.co
 #. mt: deepl
 #, fuzzy
 msgid "Comma-separated case-sensitive list of ChangeSet contexts to execute for liquibase."
-msgstr "Lista separada por vírgulas, que diferencia maiúsculas de minúsculas, dos contextos do ChangeSet a serem executados pelo Liquibase."
+msgstr "Lista separada por vírgulas, com distinção entre maiúsculas e minúsculas, dos contextos do ChangeSet a serem executados pelo Liquibase."
 
 #. mt: deepl
 #, fuzzy
@@ -339,7 +339,7 @@ msgstr "`link:#quarkus-liquibase_quarkus.liquibase.labels[quarkus.liquibase.labe
 #. mt: deepl
 #, fuzzy
 msgid "Comma-separated case-sensitive list of expressions defining labeled ChangeSet to execute for liquibase."
-msgstr "Lista de expressões, separadas por vírgulas e com distinção entre maiúsculas e minúsculas, que definem o ChangeSet rotulado a ser executado pelo Liquibase."
+msgstr "Lista de expressões separadas por vírgulas, com distinção entre maiúsculas e minúsculas, que definem o ChangeSet rotulado a ser executado pelo Liquibase."
 
 #. mt: deepl
 #, fuzzy

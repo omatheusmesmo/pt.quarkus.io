@@ -470,7 +470,7 @@ msgstr " link:#quarkus-elasticsearch-rest-client_quarkus-elasticsearch-hosts[qua
 #. mt: deepl
 #, fuzzy
 msgid "The list of hosts of the Elasticsearch servers."
-msgstr "A lista de hosts dos servidores do Elasticsearch."
+msgstr "A lista dos hosts dos servidores do Elasticsearch."
 
 #. mt: deepl
 #, fuzzy
@@ -1226,7 +1226,7 @@ msgstr "Esta propriedade é utilizada quando `a opção “shared”` está defi
 #. mt: deepl
 #, fuzzy
 msgid "This property is used when you need multiple shared Elasticsearch servers."
-msgstr "Essa propriedade é utilizada quando for necessário utilizar vários servidores Elasticsearch compartilhados."
+msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Elasticsearch compartilhados."
 
 #. mt: deepl
 #, fuzzy
@@ -1331,7 +1331,7 @@ msgid ""
 "(username, password, environment, port bindings, ...) did not change.\n"
 "This feature is specifically about keeping containers running\n"
 "**when Quarkus is not running** to reuse them across runs."
-msgstr "Durante uma sessão no modo de desenvolvimento ou na execução de um conjunto de testes, o Quarkus sempre reutilizará os Dev Services, desde que sua configuração (nome de usuário, senha, ambiente, ligações de porta, etc.) não tenha sido alterada. Esse recurso visa especificamente manter os contêineres em execução *quando o Quarkus não estiver em execução* , a fim de reutilizá-los em execuções subsequentes."
+msgstr "Durante uma sessão no modo de desenvolvimento ou na execução de um conjunto de testes, o Quarkus sempre reutilizará os Dev Services, desde que sua configuração (nome de usuário, senha, ambiente, ligações de porta, …​) não tenha sido alterada. Esse recurso visa especificamente manter os contêineres em execução *quando o Quarkus não estiver em execução* , a fim de reutilizá-los em execuções subsequentes."
 
 #. mt: deepl
 #, fuzzy

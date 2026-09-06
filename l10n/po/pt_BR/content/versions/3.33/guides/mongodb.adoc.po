@@ -954,7 +954,7 @@ msgstr "`mongodb://` é um prefixo obrigatório para indicar que se trata de uma
 #. mt: deepl
 #, fuzzy
 msgid "`username:password@` are optional. If given, the driver will attempt to log in to a database after connecting to a database server. For some authentication mechanisms, only the username is specified and the password is not, in which case the \":\" after the username is left off as well."
-msgstr "`nome de usuário:senha@` são opcionais. Se fornecidos, o driver tentará fazer login em um banco de dados após se conectar a um servidor de banco de dados. Em alguns mecanismos de autenticação, apenas o nome de usuário é especificado, sem a senha; nesse caso, o “:” após o nome de usuário também é omitido."
+msgstr "`nome de usuário:senha@` são opcionais. Se fornecidos, o driver tentará fazer o login em um banco de dados após se conectar a um servidor de banco de dados. Para alguns mecanismos de autenticação, apenas o nome de usuário é especificado e a senha não; nesse caso, o “:” após o nome de usuário também é omitido."
 
 #. mt: deepl
 #, fuzzy
@@ -969,17 +969,17 @@ msgstr "`:portX` é opcional e, caso não seja especificado, o valor padrão é 
 #. mt: deepl
 #, fuzzy
 msgid "`/database` is the name of the database to log in to and thus is only relevant if the `username:password@` syntax is used. If not specified the `admin` database will be used by default."
-msgstr "`/database` é o nome do banco de dados no qual se deve fazer login e, portanto, só é relevante se for utilizada a sintaxe `nome de usuário:senha@` . Caso não seja especificado, o banco de dados `“admin”` será utilizado por padrão."
+msgstr "`/database` é o nome do banco de dados no qual se deve efetuar o login e, portanto, só é relevante se for utilizada a sintaxe `nome de usuário:senha@` . Caso não seja especificado, o banco de dados `“admin”` será utilizado por padrão."
 
 #. mt: deepl
 #, fuzzy
 msgid "`?options` are connection options. Note that if `database` is absent there is still a `/` required between the last host and the `?` introducing the options. Options are name=value pairs and the pairs are separated by \"&\"."
-msgstr "`?options` são opções de conexão. Observe que, mesmo que `a base de dados` não seja especificada, ainda é necessário incluir um `/` entre o último host e o `?` que introduz as opções. As opções são pares nome=valor, e os pares são separados por \"&\"."
+msgstr "`?options` são opções de conexão. Observe que, mesmo que `a base de dados` não seja especificada, ainda é necessário incluir um `/` entre o último host e o `?` que introduz as opções. As opções são pares nome=valor, e os pares são separados por “&”."
 
 #. mt: deepl
 #, fuzzy
 msgid "An alternative format, using the `mongodb{plus}srv` protocol, is:"
-msgstr "Um formato alternativo, que utiliza o protocolo `mongodb+srv` , é o seguinte:"
+msgstr "Um formato alternativo, que utiliza o protocolo `mongodb+srv` , é:"
 
 #. mt: deepl
 #, fuzzy
@@ -999,7 +999,7 @@ msgstr "`O host` é a única parte obrigatória da URI. Ele identifica um único
 #. mt: deepl
 #, fuzzy
 msgid "`/database` is the name of the database to login to and thus is only relevant if the `username:password@` syntax is used. If not specified the \"admin\" database will be used by default."
-msgstr "`/database` é o nome do banco de dados no qual se deve fazer o login e, portanto, só é relevante se for utilizada a sintaxe `nome de usuário:senha@` . Caso não seja especificado, o banco de dados “admin” será utilizado por padrão."
+msgstr "`/database` é o nome do banco de dados no qual se deve efetuar o login e, portanto, só é relevante se for utilizada a sintaxe `nome de usuário:senha@` . Caso não seja especificado, o banco de dados “admin” será utilizado por padrão."
 
 #. mt: deepl
 #, fuzzy
@@ -1443,7 +1443,7 @@ msgstr "`quarkus.mongodb.\"mongo-client-name\".connect-timeout` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "How long a connection can take to be opened before timing out."
-msgstr "Quanto tempo uma conexão pode demorar para ser estabelecida antes que ocorra o tempo limite."
+msgstr "Quanto tempo uma conexão pode demorar para ser estabelecida antes de ocorrer o tempo limite."
 
 #. mt: deepl
 #, fuzzy
@@ -1571,7 +1571,7 @@ msgstr " link:#quarkus-mongodb-client_quarkus-mongodb-tls-configuration-name[qua
 msgid ""
 "`+++quarkus.mongodb.\"mongo-client-name\".tls-configuration-name+++`\n"
 "config_property_copy_button:+++quarkus.mongodb.\"mongo-client-name\".tls-configuration-name+++[]"
-msgstr "`quarkus.mongodb.\"nome-do-cliente-mongo\".nome-da-configuração-tls` botão-para-copiar-propriedade-de-configuração:quarkus.mongodb.\"nome-do-cliente-mongo\".nome-da-configuração-tls[]"
+msgstr "`quarkus.mongodb.\"mongo-client-name\".tls-configuration-name` config_property_copy_button:quarkus.mongodb.\"mongo-client-name\".tls-configuration-name[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2033,7 +2033,7 @@ msgstr "_Esta propriedade está obsoleta: este resolvedor é sempre utilizado._"
 #. mt: deepl
 #, fuzzy
 msgid "The default DNS resolver used to handle `mongo{plus}srv://` urls cannot be used in a native executable. This option enables a fallback to use Vert.x to resolve the server names instead of JNDI. *IMPORTANT:* The resolution may be different in JVM mode using the default (JNDI-based) DNS resolver, and in native mode. This feature is experimental."
-msgstr "O resolvedor DNS padrão utilizado para processar URLs `do tipo mongo+srv://` não pode ser utilizado em um executável nativo. Esta opção habilita um recurso alternativo para utilizar o Vert.x na resolução dos nomes de servidor, em vez do JNDI. *IMPORTANTE:* A resolução pode ser diferente no modo JVM, que utiliza o resolvedor DNS padrão (baseado em JNDI), e no modo nativo. Este recurso é experimental."
+msgstr "O resolvedor DNS padrão utilizado para lidar com URLs `do tipo mongo+srv://` não pode ser utilizado em um executável nativo. Esta opção habilita um recurso alternativo para utilizar o Vert.x na resolução dos nomes de servidor, em vez do JNDI. *IMPORTANTE:* A resolução pode ser diferente no modo JVM, que utiliza o resolvedor DNS padrão (baseado em JNDI), e no modo nativo. Este recurso é experimental."
 
 #. mt: deepl
 #, fuzzy
@@ -2083,7 +2083,7 @@ msgstr "_Esta propriedade está obsoleta desde a versão 3.21: recomenda-se a co
 #. mt: deepl
 #, fuzzy
 msgid "If connecting with TLS, this option enables insecure TLS connections."
-msgstr "Se a conexão for feita por TLS, esta opção habilita conexões TLS não seguras."
+msgstr "Caso a conexão seja feita via TLS, esta opção habilita conexões TLS não seguras."
 
 #. mt: deepl
 #, fuzzy
@@ -2128,7 +2128,7 @@ msgstr "Se o DevServices foi explicitamente ativado ou desativado. O DevServices
 #. mt: deepl
 #, fuzzy
 msgid "When DevServices is enabled Quarkus will attempt to automatically configure and start a database when running in Dev or Test mode."
-msgstr "Quando o DevServices estiver habilitado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test."
+msgstr "Quando o DevServices estiver ativado, o Quarkus tentará configurar e iniciar automaticamente um banco de dados ao ser executado nos modos Dev ou Test."
 
 #. mt: deepl
 #, fuzzy
@@ -2314,7 +2314,7 @@ msgstr "[lock]  link:#quarkus-mongodb-client_quarkus-mongodb-devservices-shared[
 #. mt: deepl
 #, fuzzy
 msgid "Indicates if the MongoDB server managed by Quarkus Dev Services is shared. When shared, Quarkus looks for running containers using label-based service discovery. If a matching container is found, it is used, and so a second one is not started. Otherwise, Dev Services for MongoDB starts a new container."
-msgstr "Indica se o servidor MongoDB gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele será utilizado, e, portanto, um segundo contêiner não será iniciado. Caso contrário, o Dev Services for MongoDB inicia um novo contêiner."
+msgstr "Indica se o servidor MongoDB gerenciado pelo Quarkus Dev Services é compartilhado. Quando compartilhado, o Quarkus procura por contêineres em execução por meio da descoberta de serviços baseada em rótulos. Se for encontrado um contêiner correspondente, ele é utilizado, e, portanto, um segundo contêiner não é iniciado. Caso contrário, o Dev Services for MongoDB inicia um novo contêiner."
 
 #. mt: deepl
 #, fuzzy
@@ -2537,7 +2537,7 @@ msgstr " link:#quarkus-mongodb-client_quarkus-mongodb-write-concern-retry-writes
 msgid ""
 "`+++quarkus.mongodb.\"mongo-client-name\".write-concern.retry-writes+++`\n"
 "config_property_copy_button:+++quarkus.mongodb.\"mongo-client-name\".write-concern.retry-writes+++[]"
-msgstr "`quarkus.mongodb.\"mongo-client-name\".write-concern.retry-writes` config_property_copy_button:quarkus.mongodb.\"mongo-client-name\".write-concern.retry-writes[]"
+msgstr "`quarkus.mongodb.\"nome-do-cliente-mongo\".write-concern.retry-writes` config_property_copy_button:quarkus.mongodb.\"nome-do-cliente-mongo\".write-concern.retry-writes[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2671,7 +2671,7 @@ msgstr " link:#quarkus-mongodb-client_quarkus-mongodb-credentials-password[quark
 msgid ""
 "`+++quarkus.mongodb.\"mongo-client-name\".credentials.password+++`\n"
 "config_property_copy_button:+++quarkus.mongodb.\"mongo-client-name\".credentials.password+++[]"
-msgstr "`quarkus.mongodb.\"mongo-client-name\".credentials.password` config_property_copy_button:quarkus.mongodb.\"mongo-client-name\".credentials.password[]"
+msgstr "`quarkus.mongodb.\"nome-do-cliente-mongo\".credentials.password` config_property_copy_button:quarkus.mongodb.\"nome-do-cliente-mongo\".credentials.password[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2900,7 +2900,7 @@ msgstr "O nome do bean do provedor de credenciais."
 #. mt: deepl
 #, fuzzy
 msgid "This is a bean name (as in `@Named`) of a bean that implements `CredentialsProvider`. It is used to select the credentials provider bean when multiple exist. This is unnecessary when there is only one credentials provider available."
-msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean do provedor de credenciais quando há vários disponíveis. Isso não é necessário quando há apenas um provedor de credenciais disponível."
+msgstr "Este é o nome de um bean (como em `@Named` ) que implementa `a interface CredentialsProvider` . Ele é utilizado para selecionar o bean provedor de credenciais quando houver mais de um. Isso não é necessário quando há apenas um provedor de credenciais disponível."
 
 #. mt: deepl
 #, fuzzy

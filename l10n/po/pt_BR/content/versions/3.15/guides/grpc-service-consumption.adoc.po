@@ -79,8 +79,9 @@ msgstr "Para cada serviço gRPC que você injeta em sua aplicação, você pode 
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -103,14 +104,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-grpc_quarkus-grpc-client-stork-proactive-connections]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-client-stork-proactive-connections[`quarkus.grpc-client.stork-proactive-connections`]##"
 msgstr ""
 
+#, fuzzy
 msgid "If set to true, and a Stork load balancer is used, connections with all available service instances will be requested proactively. This means better load balancing at the cost of having multiple active connections."
-msgstr ""
+msgstr "Se definido como “true” e for utilizado um balanceador de carga Stork, serão solicitadas proativamente conexões com todas as instâncias de serviço disponíveis. Isso significa um melhor balanceamento de carga, em troca de se ter várias conexões ativas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_CLIENT_STORK_PROACTIVE_CONNECTIONS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_CLIENT_STORK_PROACTIVE_CONNECTIONS[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -260,11 +264,13 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-grpc_quarkus-grpc-dev-mode_quarkus-grpc-dev-mode-force-server-start]] [.property-path]##link:#quarkus-grpc_quarkus-grpc-dev-mode_quarkus-grpc-dev-mode-force-server-start[`quarkus.grpc.dev-mode.force-server-start`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Start gRPC server in dev mode even if no gRPC services are implemented. By default set to `true` to ease incremental development of new services using dev mode."
-msgstr ""
+msgstr "Inicie o servidor gRPC no modo de desenvolvimento, mesmo que não haja serviços gRPC implementados. Por padrão, está definido como ``true`` para facilitar o desenvolvimento incremental de novos serviços utilizando o modo de desenvolvimento."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_GRPC_DEV_MODE_FORCE_SERVER_START+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_GRPC_DEV_MODE_FORCE_SERVER_START[]"
 
 msgid "Inject mock clients"
 msgstr "Injetar clientes falsos"

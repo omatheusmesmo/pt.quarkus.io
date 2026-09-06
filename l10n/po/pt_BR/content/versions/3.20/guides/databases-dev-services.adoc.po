@@ -382,8 +382,9 @@ msgstr "Os serviços de desenvolvimento para bancos de dados oferecem suporte à
 msgid "icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime"
 msgstr "[Propriedade de configuração fixada no momento  da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -421,19 +422,23 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.enabled+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Whether this Dev Service should start with the application in dev mode or tests."
-msgstr ""
+msgstr "Se este Serviço de Desenvolvimento deve iniciar com o aplicativo no modo de desenvolvimento ou com os testes."
 
+#, fuzzy
 msgid ""
 "Dev Services are enabled by default\n"
 "unless connection configuration (e.g. the JDBC URL or reactive client URL) is set explicitly."
-msgstr ""
+msgstr "Os Serviços de Desenvolvimento estão habilitados por padrão, a menos que a configuração da conexão (por exemplo, a URL JDBC ou a URL do cliente reativo) seja definida explicitamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_ENABLED[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -467,14 +472,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.image-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The container image name for container-based Dev Service providers."
-msgstr ""
+msgstr "O nome da imagem do contêiner para provedores de serviços de desenvolvimento baseados em contêineres."
 
+#, fuzzy
 msgid "This has no effect if the provider is not a container-based database, such as H2 or Derby."
-msgstr ""
+msgstr "Isso não surte efeito se o provedor não for um banco de dados baseado em contêiner, como o H2 ou o Derby."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_IMAGE_NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -506,14 +514,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.container-env.\"environment-variable-name\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variables that are passed to the container."
-msgstr ""
+msgstr "Variáveis de ambiente que são passadas ao contêiner."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_ENV__ENVIRONMENT_VARIABLE_NAME_[]"
 
+#, fuzzy
 msgid "Map<String,String>"
-msgstr ""
+msgstr "Map<String, String>"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-container-properties-property-key]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-container-properties-property-key[`quarkus.datasource.devservices.container-properties.\"property-key\"`]##\n"
@@ -544,14 +555,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.container-properties.\"property-key\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Generic properties that are passed for additional container configuration."
-msgstr ""
+msgstr "Propriedades genéricas que são passadas para configuração adicional do contêiner."
 
+#, fuzzy
 msgid "Properties defined here are database-specific and are interpreted specifically in each database dev service implementation."
-msgstr ""
+msgstr "As propriedades definidas aqui são específicas de cada banco de dados e são interpretadas de maneira específica em cada implementação do serviço de desenvolvimento de banco de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES__PROPERTY_KEY_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_CONTAINER_PROPERTIES__PROPERTY_KEY_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-properties-property-key]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-properties-property-key[`quarkus.datasource.devservices.properties.\"property-key\"`]##\n"
@@ -580,11 +594,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.properties.\"property-key\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Generic properties that are added to the database connection URL."
-msgstr ""
+msgstr "Propriedades genéricas que são adicionadas à URL de conexão com o banco de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES__PROPERTY_KEY_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PROPERTIES__PROPERTY_KEY_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-port]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-port[`quarkus.datasource.devservices.port`]##\n"
@@ -615,14 +631,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.port+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Optional fixed port the dev service will listen to."
-msgstr ""
+msgstr "Porta fixa opcional na qual o serviço de desenvolvimento ficará à escuta."
 
+#, fuzzy
 msgid "If not defined, the port will be chosen randomly."
-msgstr ""
+msgstr "Caso não seja definida, a porta será escolhida aleatoriamente."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PORT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PORT[]"
 
 msgid "int"
 msgstr "int"
@@ -656,11 +675,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.command+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The container start command to use for container-based Dev Service providers."
-msgstr ""
+msgstr "O comando de inicialização do contêiner a ser utilizado por provedores de serviços de desenvolvimento baseados em contêineres."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_COMMAND+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_COMMAND[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-db-name]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-db-name[`quarkus.datasource.devservices.db-name`]##\n"
@@ -689,11 +710,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.db-name+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The database name to use if this Dev Service supports overriding it."
-msgstr ""
+msgstr "O nome do banco de dados a ser utilizado caso este Serviço de Desenvolvimento permita sua substituição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_DB_NAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-username]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-username[`quarkus.datasource.devservices.username`]##\n"
@@ -722,11 +745,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.username+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The username to use if this Dev Service supports overriding it."
-msgstr ""
+msgstr "O nome de usuário a ser utilizado, caso este Serviço de Desenvolvimento permita sua substituição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_USERNAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_USERNAME[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-password]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-password[`quarkus.datasource.devservices.password`]##\n"
@@ -755,11 +780,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.password+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The password to use if this Dev Service supports overriding it."
-msgstr ""
+msgstr "A senha a ser utilizada caso este Serviço de Desenvolvimento permita sua substituição."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_PASSWORD[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-init-script-path]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-init-script-path[`quarkus.datasource.devservices.init-script-path`]##\n"
@@ -790,11 +817,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.init-script-path+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The paths to SQL scripts to be loaded from the classpath and applied to the Dev Service database."
-msgstr ""
+msgstr "Os caminhos para os scripts SQL a serem carregados a partir do classpath e aplicados ao banco de dados do Dev Service."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_INIT_SCRIPT_PATH[]"
 
 #, fuzzy
 msgid "list of string"
@@ -833,17 +862,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.volumes.\"host-path\"+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The volumes to be mapped to the container."
-msgstr ""
+msgstr "Os volumes a serem mapeados para o contêiner."
 
+#, fuzzy
 msgid "The map key corresponds to the host location; the map value is the container location. If the host location starts with \"classpath:\", the mapping loads the resource from the classpath with read-only permission."
-msgstr ""
+msgstr "A chave do mapa corresponde à localização do host; o valor do mapa é a localização do contêiner. Se a localização do host começar com “classpath:”, o mapeamento carrega o recurso a partir do classpath com permissão somente para leitura."
 
+#, fuzzy
 msgid "When using a file system location, the volume will be generated with read-write permission, potentially leading to data loss or modification in your file system."
-msgstr ""
+msgstr "Ao utilizar um caminho no sistema de arquivos, o volume será gerado com permissão de leitura e gravação, o que pode resultar em perda ou alteração de dados no seu sistema de arquivos."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES__HOST_PATH_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_VOLUMES__HOST_PATH_[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-reuse]] [.property-path]##link:#quarkus-datasource_quarkus-datasource-devservices_quarkus-datasource-devservices-reuse[`quarkus.datasource.devservices.reuse`]##\n"
@@ -889,28 +922,32 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.reuse+++[]"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "Whether to keep Dev Service containers running *after a dev mode session or test suite execution*\n"
 "to reuse them in the next dev mode session or test suite execution."
-msgstr ""
+msgstr "Se os contêineres do Dev Service devem permanecer em execução *após uma sessão no modo de desenvolvimento ou após a execução de um conjunto de testes* , a fim de reutilizá-los na próxima sessão no modo de desenvolvimento ou na próxima execução de um conjunto de testes."
 
+#, fuzzy
 msgid ""
 "Within a dev mode session or test suite execution,\n"
 "Quarkus will always reuse Dev Services as long as their configuration\n"
 "(username, password, environment, port bindings, ...) did not change.\n"
 "This feature is specifically about keeping containers running\n"
 "**when Quarkus is not running** to reuse them across runs."
-msgstr ""
+msgstr "Durante uma sessão no modo de desenvolvimento ou na execução de um conjunto de testes, o Quarkus sempre reutilizará os Dev Services, desde que sua configuração (nome de usuário, senha, ambiente, ligações de porta, …​) não tenha sido alterada. Esse recurso visa especificamente manter os contêineres em execução *quando o Quarkus não estiver em execução* , a fim de reutilizá-los em execuções subsequentes."
 
+#, fuzzy
 msgid ""
 "This configuration property is set to `true` by default,\n"
 "so it is mostly useful to *disable* reuse,\n"
 "if you enabled it in `testcontainers.properties`\n"
 "but only want to use it for some of your Quarkus applications or datasources."
-msgstr ""
+msgstr "Essa propriedade de configuração está definida como `“true”` por padrão; portanto, ela é útil principalmente para *desativar* a reutilização, caso você a tenha habilitado no `arquivo testcontainers.properties,` mas deseje utilizá-la apenas para algumas de suas aplicações Quarkus ou fontes de dados."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_REUSE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_REUSE[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -944,11 +981,13 @@ msgid ""
 "config_property_copy_button:+++quarkus.datasource.\"datasource-name\".devservices.show-logs+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "Whether the logs should be consumed by the JBoss logger."
-msgstr ""
+msgstr "Se os logs devem ser processados pelo registrador de logs do JBoss."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_DATASOURCE_DEVSERVICES_SHOW_LOGS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_DATASOURCE_DEVSERVICES_SHOW_LOGS[]"
 
 #, fuzzy
 msgid "`false`"

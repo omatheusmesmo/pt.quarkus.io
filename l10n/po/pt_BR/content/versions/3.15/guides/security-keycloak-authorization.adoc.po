@@ -552,8 +552,9 @@ msgstr "Essa configuração segue as diretrizes oficiais link:https://www.keyclo
 msgid "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Configuration property fixed at build time - All other configuration properties are overridable at runtime <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 msgstr "<span class=\"icon\"><i class=\"fa fa-lock\" title=\"Fixed at build time\"></i></span> Propriedade de configuração fixada no momento da construção - Todas as outras propriedades de configuração podem ser substituídas no momento da execução <input type=\"search\" id=\"config-search-1\" placeholder=\"FILTER CONFIGURATION\" disabled>"
 
+#, fuzzy
 msgid "[.header-title]##Configuration property##"
-msgstr ""
+msgstr "Propriedade de configuração"
 
 msgid "Type"
 msgstr "Tipo"
@@ -576,14 +577,17 @@ msgstr ""
 msgid "icon:lock[title=Fixed at build time] [[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-enable]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-enable[`quarkus.keycloak.policy-enforcer.enable`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Enables policy enforcement."
-msgstr ""
+msgstr "Permite a aplicação de políticas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_ENABLE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_ENABLE[]"
 
+#, fuzzy
 msgid "<i class=\"fa fa-chevron-down\"></i><span>Show more</span>"
-msgstr ""
+msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 
 msgid "boolean"
 msgstr "booleano"
@@ -607,17 +611,20 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-connection-pool-size]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-connection-pool-size[`quarkus.keycloak.connection-pool-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Adapters will make separate HTTP invocations to the Keycloak server to turn an access code into an access token. This config option defines how many connections to the Keycloak server should be pooled"
-msgstr ""
+msgstr "Os adaptadores realizarão chamadas HTTP separadas ao servidor Keycloak para converter um código de acesso em um token de acesso. Esta opção de configuração define quantas conexões com o servidor Keycloak devem ser agrupadas em um pool"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_CONNECTION_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_CONNECTION_POOL_SIZE[]"
 
 msgid "int"
 msgstr "int"
 
+#, fuzzy
 msgid "`20`"
-msgstr ""
+msgstr "`20`"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-enforcement-mode[`quarkus.keycloak.policy-enforcer.enforcement-mode`]##\n"
@@ -634,17 +641,21 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-enforcement-mode[`quarkus.keycloak.policy-enforcer.enforcement-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies how policies are enforced."
-msgstr ""
+msgstr "Especifica como as políticas são aplicadas."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_ENFORCEMENT_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_ENFORCEMENT_MODE[]"
 
+#, fuzzy
 msgid "`permissive`, `enforcing`, `disabled`"
-msgstr ""
+msgstr "`permissivo` , `em vigor` , `desativado`"
 
+#, fuzzy
 msgid "`enforcing`"
-msgstr ""
+msgstr "`aplicando`"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-path-cache-max-entries]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-path-cache-max-entries[`quarkus.keycloak.policy-enforcer.path-cache.max-entries`]##\n"
@@ -661,11 +672,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-path-cache-max-entries]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-path-cache-max-entries[`quarkus.keycloak.policy-enforcer.path-cache.max-entries`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Defines the limit of entries that should be kept in the cache"
-msgstr ""
+msgstr "Define o limite de entradas que devem ser mantidas no cache"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATH_CACHE_MAX_ENTRIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATH_CACHE_MAX_ENTRIES[]"
 
 msgid "`1000`"
 msgstr "`1000`"
@@ -685,17 +698,20 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-path-cache-lifespan]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-path-cache-lifespan[`quarkus.keycloak.policy-enforcer.path-cache.lifespan`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Defines the time in milliseconds when the entry should be expired"
-msgstr ""
+msgstr "Define o tempo, em milissegundos, após o qual a entrada deve expirar"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATH_CACHE_LIFESPAN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATH_CACHE_LIFESPAN[]"
 
 msgid "long"
 msgstr "long"
 
+#, fuzzy
 msgid "`30000`"
-msgstr ""
+msgstr "`30.000`"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-lazy-load-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-lazy-load-paths[`quarkus.keycloak.policy-enforcer.lazy-load-paths`]##\n"
@@ -712,11 +728,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-lazy-load-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-lazy-load-paths[`quarkus.keycloak.policy-enforcer.lazy-load-paths`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies how the adapter should fetch the server for resources associated with paths in your application. If true, the policy enforcer is going to fetch resources on-demand accordingly with the path being requested"
-msgstr ""
+msgstr "Especifica como o adaptador deve obter do servidor os recursos associados aos caminhos em seu aplicativo. Se o valor for “true”, o executor de políticas irá obter os recursos sob demanda, de acordo com o caminho solicitado"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_LAZY_LOAD_PATHS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_LAZY_LOAD_PATHS[]"
 
 msgid "`true`"
 msgstr "`true`"
@@ -736,14 +754,17 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-claim-information-point-complex-config[`quarkus.keycloak.policy-enforcer.claim-information-point.\"complex-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Complex config."
-msgstr ""
+msgstr "Configuração complexa."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_[]"
 
+#, fuzzy
 msgid "Map<String,Map<String,Map<String,String>>>"
-msgstr ""
+msgstr "Map<String, Map<String, Map<String, String>>>"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-claim-information-point-simple-config[`quarkus.keycloak.policy-enforcer.claim-information-point.\"simple-config\"`]##\n"
@@ -760,14 +781,17 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-claim-information-point-simple-config[`quarkus.keycloak.policy-enforcer.claim-information-point.\"simple-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Simple config."
-msgstr ""
+msgstr "Configuração simples."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_[]"
 
+#, fuzzy
 msgid "Map<String,Map<String,String>>"
-msgstr ""
+msgstr "Map<String, Map<String, String>>"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-http-method-as-scope]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-http-method-as-scope[`quarkus.keycloak.policy-enforcer.http-method-as-scope`]##\n"
@@ -784,11 +808,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-http-method-as-scope]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-http-method-as-scope[`quarkus.keycloak.policy-enforcer.http-method-as-scope`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies how scopes should be mapped to HTTP methods. If set to true, the policy enforcer will use the HTTP method from the current request to check whether access should be granted"
-msgstr ""
+msgstr "Especifica como os escopos devem ser mapeados para os métodos HTTP. Se definido como “true”, o aplicador de políticas utilizará o método HTTP da solicitação atual para verificar se o acesso deve ser concedido"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_HTTP_METHOD_AS_SCOPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_HTTP_METHOD_AS_SCOPE[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-name]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-name[`quarkus.keycloak.policy-enforcer.paths.\"paths\".name`]##\n"
@@ -805,11 +831,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-name]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-name[`quarkus.keycloak.policy-enforcer.paths.\"paths\".name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The name of a resource on the server that is to be associated with a given path"
-msgstr ""
+msgstr "O nome de um recurso no servidor que deve ser associado a um determinado caminho"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__NAME[]"
 
 msgid "string"
 msgstr "string"
@@ -829,11 +857,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-paths[`quarkus.keycloak.policy-enforcer.paths.\"paths\".paths`]##"
 msgstr ""
 
+#, fuzzy
 msgid "HTTP request paths that should be protected by the policy enforcer"
-msgstr ""
+msgstr "Caminhos de solicitação HTTP que devem ser protegidos pelo mecanismo de aplicação da política"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__PATHS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__PATHS[]"
 
 #, fuzzy
 msgid "list of string"
@@ -854,14 +884,17 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-method]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-method[`quarkus.keycloak.policy-enforcer.paths.\"paths\".methods.\"methods\".method`]##"
 msgstr ""
 
+#, fuzzy
 msgid "The name of the HTTP method"
-msgstr ""
+msgstr "O nome do método HTTP"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__METHOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__METHOD[]"
 
+#, fuzzy
 msgid "required icon:exclamation-circle[title=Configuration property is required]"
-msgstr ""
+msgstr "obrigatório [círculo de exclamação]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes[`quarkus.keycloak.policy-enforcer.paths.\"paths\".methods.\"methods\".scopes`]##\n"
@@ -878,11 +911,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes[`quarkus.keycloak.policy-enforcer.paths.\"paths\".methods.\"methods\".scopes`]##"
 msgstr ""
 
+#, fuzzy
 msgid "An array of strings with the scopes associated with the method"
-msgstr ""
+msgstr "Um array de strings com os escopos associados ao método"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode[`quarkus.keycloak.policy-enforcer.paths.\"paths\".methods.\"methods\".scopes-enforcement-mode`]##\n"
@@ -899,14 +934,17 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode[`quarkus.keycloak.policy-enforcer.paths.\"paths\".methods.\"methods\".scopes-enforcement-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "A string referencing the enforcement mode for the scopes associated with a method"
-msgstr ""
+msgstr "Uma string que indica o modo de aplicação para os escopos associados a um método"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES_ENFORCEMENT_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES_ENFORCEMENT_MODE[]"
 
+#, fuzzy
 msgid "`all`, `any`, `disabled`"
-msgstr ""
+msgstr "`todos` , `qualquer` , `pessoas com deficiência`"
 
 #, fuzzy
 msgid "`all`"
@@ -927,11 +965,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-enforcement-mode[`quarkus.keycloak.policy-enforcer.paths.\"paths\".enforcement-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Specifies how policies are enforced"
-msgstr ""
+msgstr "Especifica como as políticas são aplicadas"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__ENFORCEMENT_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__ENFORCEMENT_MODE[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-complex-config[`quarkus.keycloak.policy-enforcer.paths.\"paths\".claim-information-point.\"complex-config\"`]##\n"
@@ -948,8 +988,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-complex-config[`quarkus.keycloak.policy-enforcer.paths.\"paths\".claim-information-point.\"complex-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-simple-config[`quarkus.keycloak.policy-enforcer.paths.\"paths\".claim-information-point.\"simple-config\"`]##\n"
@@ -966,11 +1007,13 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-policy-enforcer-paths-paths-claim-information-point-simple-config[`quarkus.keycloak.policy-enforcer.paths.\"paths\".claim-information-point.\"simple-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK_POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_[]"
 
+#, fuzzy
 msgid "[[quarkus-keycloak-authorization_section_quarkus-keycloak]] [.section-name.section-level0]##link:#quarkus-keycloak-authorization_section_quarkus-keycloak[Additional named tenants]##"
-msgstr ""
+msgstr " link:#quarkus-keycloak-authorization_section_quarkus-keycloak[Outros locatários identificados]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-connection-pool-size]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-connection-pool-size[`quarkus.keycloak.\"tenant\".connection-pool-size`]##\n"
@@ -987,8 +1030,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-connection-pool-size]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-connection-pool-size[`quarkus.keycloak.\"tenant\".connection-pool-size`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__CONNECTION_POOL_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__CONNECTION_POOL_SIZE[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-enforcement-mode[`quarkus.keycloak.\"tenant\".policy-enforcer.enforcement-mode`]##\n"
@@ -1005,8 +1049,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-enforcement-mode[`quarkus.keycloak.\"tenant\".policy-enforcer.enforcement-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_ENFORCEMENT_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_ENFORCEMENT_MODE[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-name]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-name[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".name`]##\n"
@@ -1023,8 +1068,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-name]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-name[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".name`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__NAME[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-paths[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".paths`]##\n"
@@ -1041,8 +1087,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-paths[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".paths`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__PATHS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__PATHS[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-method]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-method[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".methods.\"methods\".method`]##\n"
@@ -1059,8 +1106,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-method]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-method[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".methods.\"methods\".method`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__METHOD+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__METHOD[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".methods.\"methods\".scopes`]##\n"
@@ -1077,8 +1125,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".methods.\"methods\".scopes`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".methods.\"methods\".scopes-enforcement-mode`]##\n"
@@ -1095,8 +1144,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-methods-methods-scopes-enforcement-mode[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".methods.\"methods\".scopes-enforcement-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES_ENFORCEMENT_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__METHODS__METHODS__SCOPES_ENFORCEMENT_MODE[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-enforcement-mode[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".enforcement-mode`]##\n"
@@ -1113,8 +1163,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-enforcement-mode]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-enforcement-mode[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".enforcement-mode`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__ENFORCEMENT_MODE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__ENFORCEMENT_MODE[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-complex-config[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".claim-information-point.\"complex-config\"`]##\n"
@@ -1131,8 +1182,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-complex-config[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".claim-information-point.\"complex-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-simple-config[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".claim-information-point.\"simple-config\"`]##\n"
@@ -1149,8 +1201,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-paths-paths-claim-information-point-simple-config[`quarkus.keycloak.\"tenant\".policy-enforcer.paths.\"paths\".claim-information-point.\"simple-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATHS__PATHS__CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-max-entries]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-max-entries[`quarkus.keycloak.\"tenant\".policy-enforcer.path-cache.max-entries`]##\n"
@@ -1167,8 +1220,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-max-entries]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-max-entries[`quarkus.keycloak.\"tenant\".policy-enforcer.path-cache.max-entries`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATH_CACHE_MAX_ENTRIES+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATH_CACHE_MAX_ENTRIES[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-lifespan]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-lifespan[`quarkus.keycloak.\"tenant\".policy-enforcer.path-cache.lifespan`]##\n"
@@ -1185,8 +1239,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-lifespan]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-path-cache-lifespan[`quarkus.keycloak.\"tenant\".policy-enforcer.path-cache.lifespan`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATH_CACHE_LIFESPAN+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_PATH_CACHE_LIFESPAN[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-lazy-load-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-lazy-load-paths[`quarkus.keycloak.\"tenant\".policy-enforcer.lazy-load-paths`]##\n"
@@ -1203,8 +1258,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-lazy-load-paths]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-lazy-load-paths[`quarkus.keycloak.\"tenant\".policy-enforcer.lazy-load-paths`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_LAZY_LOAD_PATHS+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_LAZY_LOAD_PATHS[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-complex-config[`quarkus.keycloak.\"tenant\".policy-enforcer.claim-information-point.\"complex-config\"`]##\n"
@@ -1221,8 +1277,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-complex-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-complex-config[`quarkus.keycloak.\"tenant\".policy-enforcer.claim-information-point.\"complex-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_CLAIM_INFORMATION_POINT__COMPLEX_CONFIG_[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-simple-config[`quarkus.keycloak.\"tenant\".policy-enforcer.claim-information-point.\"simple-config\"`]##\n"
@@ -1239,8 +1296,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-simple-config]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-claim-information-point-simple-config[`quarkus.keycloak.\"tenant\".policy-enforcer.claim-information-point.\"simple-config\"`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_CLAIM_INFORMATION_POINT__SIMPLE_CONFIG_[]"
 
 msgid ""
 "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-http-method-as-scope]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-http-method-as-scope[`quarkus.keycloak.\"tenant\".policy-enforcer.http-method-as-scope`]##\n"
@@ -1257,8 +1315,9 @@ msgstr ""
 msgid "[[quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-http-method-as-scope]] [.property-path]##link:#quarkus-keycloak-authorization_quarkus-keycloak-tenant-policy-enforcer-http-method-as-scope[`quarkus.keycloak.\"tenant\".policy-enforcer.http-method-as-scope`]##"
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_HTTP_METHOD_AS_SCOPE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_KEYCLOAK__TENANT__POLICY_ENFORCER_HTTP_METHOD_AS_SCOPE[]"
 
 msgid "References"
 msgstr "Referências"

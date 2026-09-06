@@ -1120,7 +1120,7 @@ msgstr "`link:#quarkus-kafka-streams_quarkus.kafka-streams.sasl.kerberos-service
 #. mt: deepl
 #, fuzzy
 msgid "The Kerberos principal name that Kafka runs as"
-msgstr "O nome de principal do Kerberos sob o qual o Kafka é executado"
+msgstr "O nome de principal do Kerberos com o qual o Kafka é executado"
 
 #. mt: deepl
 #, fuzzy
@@ -1346,7 +1346,7 @@ msgstr "`link:#quarkus-kafka-streams_quarkus.kafka-streams.sasl.login-refresh-bu
 #. mt: deepl
 #, fuzzy
 msgid "The amount of buffer duration before credential expiration to maintain when refreshing a credential"
-msgstr "O período de validade do intervalo de segurança antes do vencimento da credencial que deve ser mantido ao atualizar uma credencial"
+msgstr "O período de validade do buffer a ser mantido antes do vencimento da credencial, ao atualizá-la"
 
 #. mt: deepl
 #, fuzzy

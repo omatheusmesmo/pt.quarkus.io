@@ -200,7 +200,7 @@ msgstr "`link:#quarkus-spring-cloud-config-client_quarkus.spring-cloud-config.en
 #. mt: deepl
 #, fuzzy
 msgid "If enabled, will try to read the configuration from a Spring Cloud Config Server"
-msgstr "Se estiver ativado, tentará ler a configuração a partir de um Spring Cloud Config Server"
+msgstr "Se ativado, tentará ler a configuração a partir de um Spring Cloud Config Server"
 
 #. mt: deepl
 #, fuzzy
@@ -527,7 +527,7 @@ msgstr "`link:#quarkus-spring-cloud-config-client_quarkus.spring-cloud-config.ke
 #. mt: deepl
 #, fuzzy
 msgid "KeyStore to be used containing the SSL certificate for authentication with the Config server Can be either a classpath resource or a file system path"
-msgstr "KeyStore a ser utilizado, contendo o certificado SSL para autenticação no servidor de configuração. Pode ser um recurso do classpath ou um caminho no sistema de arquivos"
+msgstr "KeyStore a ser utilizado, contendo o certificado SSL para autenticação junto ao servidor de configuração. Pode ser um recurso do classpath ou um caminho no sistema de arquivos"
 
 #. mt: deepl
 #, fuzzy

@@ -1820,7 +1820,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_WEBSOCKETS_NEXT_
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:log-and-close[Log the error message and close the connection.], tooltip:close[Close the connection silently.], tooltip:log[Log the error message.], tooltip:noop[No operation.]"
-msgstr "tooltip:log-and-close[Registrar a mensagem de erro e fechar a conexão.], tooltip:close[Fechar a conexão sem exibir mensagem.], tooltip:log[Registrar a mensagem de erro.], tooltip:noop[Sem operação.]"
+msgstr "tooltip:log-and-close[Registrar a mensagem de erro e fechar a conexão.], tooltip:close[Fechar a conexão sem aviso.], tooltip:log[Registrar a mensagem de erro.], tooltip:noop[Sem operação.]"
 
 #. mt: deepl
 #, fuzzy
@@ -2045,7 +2045,7 @@ msgstr " link:#quarkus-websockets-next_quarkus-websockets-next-server-supported-
 #. mt: deepl
 #, fuzzy
 msgid "See link:https://datatracker.ietf.org/doc/html/rfc6455#page-12[The WebSocket Protocol]"
-msgstr "Consulte link:https://datatracker.ietf.org/doc/html/rfc6455#page-12[“O Protocolo WebSocket”]"
+msgstr "Consulte link:https://datatracker.ietf.org/doc/html/rfc6455#page-12[o Protocolo WebSocket]"
 
 #. mt: deepl
 #, fuzzy

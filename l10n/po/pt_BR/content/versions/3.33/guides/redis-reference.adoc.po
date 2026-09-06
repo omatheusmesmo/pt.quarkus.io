@@ -1239,12 +1239,12 @@ msgstr "Uma instrução por linha"
 #. mt: deepl
 #, fuzzy
 msgid "Each instruction is a Redis command and its parameter such as `HSET foo field value`"
-msgstr "Cada instrução consiste em um comando do Redis e seu parâmetro, como, por exemplo, `HSET foo field value`"
+msgstr "Cada instrução é um comando do Redis e seu parâmetro, como, por exemplo, `HSET foo field value`"
 
 #. mt: deepl
 #, fuzzy
 msgid "Parameters can be wrapped into double-quotes if they include spaces"
-msgstr "Os parâmetros podem ser colocados entre aspas duplas caso contenham espaços"
+msgstr "Os parâmetros podem ser colocados entre aspas duplas caso incluam espaços"
 
 #. mt: deepl
 #, fuzzy
@@ -1437,7 +1437,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".hosts` config_property_copy_button:
 #. mt: deepl
 #, fuzzy
 msgid "The Redis hosts to use while connecting to the Redis server. Only the cluster and sentinel modes will consider more than 1 element."
-msgstr "Os hosts do Redis a serem utilizados ao se conectar ao servidor Redis. Apenas os modos cluster e sentinel consideram mais de um elemento."
+msgstr "Os hosts do Redis a serem utilizados ao se conectar ao servidor Redis. Apenas os modos cluster e sentinel aceitarão mais de um elemento."
 
 #. mt: deepl
 #, fuzzy
@@ -1550,7 +1550,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".timeout` config_property_copy_butto
 #. mt: deepl
 #, fuzzy
 msgid "The maximum delay to wait before a blocking command to Redis server times out"
-msgstr "O tempo máximo de espera antes que um comando que bloqueia o servidor Redis expire"
+msgstr "O tempo máximo de espera antes que um comando de bloqueio enviado ao servidor Redis expire"
 
 #. mt: deepl
 #, fuzzy
@@ -1757,7 +1757,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".replicas` config_property_copy_butt
 #. mt: deepl
 #, fuzzy
 msgid "Whether to use replicas nodes (only considered in Cluster mode and Replication mode). Accepted values are: `ALWAYS`, `NEVER`, `SHARE`."
-msgstr "Se deve-se utilizar nós de réplica (considerado apenas nos modos de cluster e de replicação). Os valores aceitos são: `SEMPRE` , `NUNCA` , `COMPARTILHAR` ."
+msgstr "Se deve-se utilizar nós de réplica (considerado apenas no modo Cluster e no modo Replicação). Os valores aceitos são: `SEMPRE` , `NUNCA` , `COMPARTILHAR` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1860,7 +1860,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".max-pool-size` config_property_copy
 #. mt: deepl
 #, fuzzy
 msgid "The maximum size of the connection pool."
-msgstr "O tamanho máximo do pool de conexões."
+msgstr "O tamanho máximo do conjunto de conexões."
 
 #. mt: deepl
 #, fuzzy
@@ -2062,7 +2062,7 @@ msgstr "Define quantos handlers o cliente está disposto a colocar na fila."
 #. mt: deepl
 #, fuzzy
 msgid "The client will always work on pipeline mode, this means that messages can start queueing. Using this configuration option, you can control how much backlog you're willing to accept."
-msgstr "O cliente sempre funcionará no modo pipeline, o que significa que as mensagens podem começar a ficar em fila. Com essa opção de configuração, o senhor pode controlar o volume de mensagens em atraso que está disposto a aceitar."
+msgstr "O cliente funcionará sempre no modo pipeline, o que significa que as mensagens podem começar a ser enfileiradas. Com essa opção de configuração, o senhor pode controlar o volume de mensagens em atraso que está disposto a aceitar."
 
 #. mt: deepl
 #, fuzzy
@@ -2357,7 +2357,7 @@ msgstr "O TTL do cache de topologia. Um cache de topologia é utilizado por um c
 #. mt: deepl
 #, fuzzy
 msgid "This setting is only meaningful in case of a clustered Redis client and a sentinel Redis client and has no effect otherwise."
-msgstr "Essa configuração só tem sentido no caso de um cliente Redis em cluster e de um cliente Redis Sentinel; em outras situações, ela não produz nenhum efeito."
+msgstr "Essa configuração só tem sentido no caso de um cliente Redis em cluster e de um cliente Redis Sentinel; caso contrário, não produz nenhum efeito."
 
 #. mt: deepl
 #, fuzzy
@@ -2524,7 +2524,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".cluster-transactions` config_proper
 #. mt: deepl
 #, fuzzy
 msgid "How transactions are handled in a cluster. This only makes sense for cluster clients and is ignored otherwise."
-msgstr "Como as transações são tratadas em um cluster. Isso só faz sentido para clientes do cluster e, caso contrário, é ignorado."
+msgstr "Como as transações são processadas em um cluster. Isso só faz sentido para clientes do cluster e, nos demais casos, é ignorado."
 
 #. mt: deepl
 #, fuzzy
@@ -2534,7 +2534,7 @@ msgstr "Por padrão, as transações no cluster estão desativadas e os comandos
 #. mt: deepl
 #, fuzzy
 msgid "When set to `single-node`, Redis transactions are supported in the cluster, but only when they target a single node. The `MULTI` command is queued and is only issued when the next command is executed. This next command binds the connection to the corresponding node of the Redis cluster (so it should have keys, otherwise the target node is random). All subsequent commands are targeted to that node. If some of the subsequent commands have a key that belongs to another node, the command will fail on the server side. If `WATCH` is used before `MULTI`, its key(s) determine to which node the connection is bound and the subsequent `MULTI` is not queued. If `WATCH` keys belong to multiple nodes, the command fails on the client side."
-msgstr "Quando configurado para `um único nó` , as transações do Redis são suportadas no cluster, mas somente quando têm como alvo um único nó. O comando `MULTI` é colocado na fila e só é executado quando o próximo comando for executado. Esse próximo comando vincula a conexão ao nó correspondente do cluster do Redis (portanto, ele deve conter chaves; caso contrário, o nó de destino será aleatório). Todos os comandos subsequentes são direcionados a esse nó. Se algum dos comandos subsequentes tiver uma chave que pertença a outro nó, o comando falhará no lado do servidor. Se `o comando WATCH` for utilizado antes `do MULTI` , suas chaves determinam a qual nó a conexão será vinculada, e o comando `MULTI` subsequente não será colocado na fila. Se as chaves `do WATCH` pertencerem a vários nós, o comando falhará no lado do cliente."
+msgstr "Quando configurado para `um único nó` , as transações do Redis são suportadas no cluster, mas apenas quando têm como alvo um único nó. O comando `MULTI` é colocado na fila e só é executado quando o próximo comando for executado. Esse próximo comando vincula a conexão ao nó correspondente do cluster do Redis (portanto, ele deve conter chaves; caso contrário, o nó de destino será aleatório). Todos os comandos subsequentes são direcionados a esse nó. Se algum dos comandos subsequentes tiver uma chave que pertença a outro nó, o comando falhará no lado do servidor. Se `o comando WATCH` for utilizado antes `do MULTI` , suas chaves determinam a qual nó a conexão é vinculada, e o comando `MULTI` subsequente não é colocado na fila. Se as chaves `do WATCH` pertencerem a vários nós, o comando falhará no lado do cliente."
 
 #. mt: deepl
 #, fuzzy
@@ -2712,7 +2712,7 @@ msgstr "O nome da configuração TLS a ser utilizada."
 #. mt: deepl
 #, fuzzy
 msgid "If a name is configured, it uses the configuration from `quarkus.tls.<name>.++*++` If a name is configured, but no TLS configuration is found with that name then an error will be thrown."
-msgstr "Caso um nome seja configurado, ele utilizará a configuração de `quarkus.tls.<nome>.*` Caso um nome seja configurado, mas não seja encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
+msgstr "Caso um nome esteja configurado, ele utiliza a configuração de `quarkus.tls.<nome>.*` Caso um nome esteja configurado, mas não seja encontrada nenhuma configuração TLS com esse nome, será gerado um erro."
 
 #. mt: deepl
 #, fuzzy
@@ -3029,7 +3029,7 @@ msgstr "O valor do rótulo `“quarkus-dev-service-redis”` associado ao contê
 #. mt: deepl
 #, fuzzy
 msgid "This property is used when you need multiple shared Redis servers."
-msgstr "Essa propriedade é utilizada quando há necessidade de vários servidores Redis compartilhados."
+msgstr "Essa propriedade é utilizada quando for necessário dispor de vários servidores Redis compartilhados."
 
 #. mt: deepl
 #, fuzzy
@@ -3359,7 +3359,7 @@ msgstr "Caso `a variável quarkus.redis.tcp.proxy-options.host` esteja definida,
 #. mt: deepl
 #, fuzzy
 msgid "Otherwise, if not set and the default proxy configuration is configured (`quarkus.proxy.++*++`), it is used. If set to `none`, no proxy configuration is used. If set to some other value, the configuration from `quarkus.proxy.<name>.++*++` is used. If set but no proxy configuration with that name is found, an exception is thrown at runtime."
-msgstr "Caso contrário, se não estiver definido e houver uma configuração de proxy padrão ( `quarkus.proxy.*` ), ela será utilizada. Se estiver definido como `“none”` , nenhuma configuração de proxy será utilizada. Se estiver definido como algum outro valor, será utilizada a configuração de `quarkus.proxy.<nome>.*.` Se estiver definido, mas nenhuma configuração de proxy com esse nome for encontrada, uma exceção será lançada em tempo de execução."
+msgstr "Caso contrário, se não estiver definido e houver uma configuração de proxy padrão ( `quarkus.proxy.*` ), ela será utilizada. Se definido como `“none”` , nenhuma configuração de proxy será utilizada. Se definido como algum outro valor, será utilizada a configuração de `quarkus.proxy.<nome>.*.` Se estiver definido, mas nenhuma configuração de proxy com esse nome for encontrada, uma exceção será lançada em tempo de execução."
 
 #. mt: deepl
 #, fuzzy
@@ -3440,7 +3440,7 @@ msgstr " link:#quarkus-redis-client_quarkus-redis-tcp-receive-buffer-size[quarku
 msgid ""
 "`+++quarkus.redis.\"redis-client-name\".tcp.receive-buffer-size+++`\n"
 "config_property_copy_button:+++quarkus.redis.\"redis-client-name\".tcp.receive-buffer-size+++[]"
-msgstr "`quarkus.redis.\"redis-client-name\".tcp.receive-buffer-size` config_property_copy_button:quarkus.redis.\"redis-client-name\".tcp.receive-buffer-size[]"
+msgstr "`quarkus.redis.\"redis-client-name\".tcp.receive-buffer-size` botão_para_copiar_propriedade_de_configuração:quarkus.redis.\"redis-client-name\".tcp.receive-buffer-size[]"
 
 #. mt: deepl
 #, fuzzy
@@ -3703,7 +3703,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".tcp.so-linger` config_property_copy
 #. mt: deepl
 #, fuzzy
 msgid "Set the `SO_linger` keep alive duration."
-msgstr "Defina a duração do keep-alive `SO_linger` ."
+msgstr "Defina a duração do keep-alive `do SO_linger` ."
 
 #. mt: deepl
 #, fuzzy
@@ -4047,7 +4047,7 @@ msgstr "`quarkus.redis.\"redis-client-name\".tcp.local-address` config_property_
 #. mt: deepl
 #, fuzzy
 msgid "Set the local interface to bind for network connections. When the local address is null, it will pick any local address, the default local address is null."
-msgstr "Defina a interface local para estabelecer conexões de rede. Quando o endereço local for nulo, será escolhido qualquer endereço local; o endereço local padrão é nulo."
+msgstr "Defina a interface local para que seja associada às conexões de rede. Quando o endereço local for nulo, será selecionado qualquer endereço local; o endereço local padrão é nulo."
 
 #. mt: deepl
 #, fuzzy
@@ -4563,7 +4563,7 @@ msgstr " link:#quarkus-redis-client_quarkus-redis-tls-key-certificate-pem-keys[q
 msgid ""
 "`+++quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.keys+++`\n"
 "config_property_copy_button:+++quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.keys+++[]"
-msgstr "`quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.keys` config_property_copy_button:quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.keys[]"
+msgstr "`quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.keys` botão_para_copiar_propriedade_de_configuração:quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.keys[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4606,7 +4606,7 @@ msgstr " link:#quarkus-redis-client_quarkus-redis-tls-key-certificate-pem-certs[
 msgid ""
 "`+++quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.certs+++`\n"
 "config_property_copy_button:+++quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.certs+++[]"
-msgstr "`quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.certs` config_property_copy_button:quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.certs[]"
+msgstr "`quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.certs` botão_para_copiar_propriedade_de_configuração:quarkus.redis.\"redis-client-name\".tls.key-certificate-pem.certs[]"
 
 #. mt: deepl
 #, fuzzy
@@ -4904,7 +4904,7 @@ msgstr "`NENHUM`"
 #. mt: deepl
 #, fuzzy
 msgid "About the Duration format"
-msgstr "Sobre o formato “Duração”"
+msgstr "Sobre o formato de duração"
 
 #. mt: deepl
 #, fuzzy

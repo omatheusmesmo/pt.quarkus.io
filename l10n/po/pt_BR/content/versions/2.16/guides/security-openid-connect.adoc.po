@@ -767,7 +767,7 @@ msgstr "[lock] `link:#quarkus-oidc_quarkus.oidc.devui.web-client-timeout[quarkus
 #. mt: deepl
 #, fuzzy
 msgid "The WebClient timeout. Use this property to configure how long an HTTP client used by Dev UI handlers will wait for a response when requesting tokens from OpenId Connect Provider and sending them to the service endpoint."
-msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelos manipuladores da Dev UI aguardará uma resposta ao solicitar tokens do provedor OpenID Connect e enviá-los ao endpoint do serviço."
+msgstr "O tempo limite do WebClient. Utilize esta propriedade para configurar por quanto tempo um cliente HTTP utilizado pelos manipuladores da Dev UI aguardará uma resposta ao solicitar tokens do provedor OpenID Connect e enviá-los ao ponto de extremidade do serviço."
 
 #. mt: deepl
 #, fuzzy
@@ -1979,7 +1979,7 @@ msgstr "`link:#quarkus-oidc_quarkus.oidc.tls.trust-store-password[quarkus.oidc.t
 #. mt: deepl
 #, fuzzy
 msgid "A parameter to specify the password of the trust store file."
-msgstr "Um parâmetro para especificar a senha do arquivo do armazenamento de confiança."
+msgstr "Um parâmetro para especificar a senha do arquivo do repositório de confiança."
 
 #. mt: deepl
 #, fuzzy
@@ -3777,7 +3777,7 @@ msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_OIDC_TOKEN_STATE
 #. mt: deepl
 #, fuzzy
 msgid "tooltip:keep-all-tokens[Keep ID, access and refresh tokens.], tooltip:id-token[Keep ID token only], tooltip:id-refresh-tokens[Keep ID and refresh tokens only]"
-msgstr "tooltip:keep-all-tokens[Manter tokens de identificação, acesso e atualização.], tooltip:id-token[Manter apenas o token de identificação], tooltip:id-refresh-tokens[Manter apenas os tokens de identificação e atualização]"
+msgstr "tooltip:keep-all-tokens[Manter tokens de identificação, de acesso e de atualização.], tooltip:id-token[Manter apenas o token de identificação], tooltip:id-refresh-tokens[Manter apenas os tokens de identificação e de atualização]"
 
 #. mt: deepl
 #, fuzzy
@@ -3805,7 +3805,7 @@ msgstr "`link:#quarkus-oidc_quarkus.oidc.token-state-manager.split-tokens[quarku
 #. mt: deepl
 #, fuzzy
 msgid "Default TokenStateManager keeps all tokens (ID, access and refresh) returned in the authorization code grant response in a single session cookie by default. Enable this property to minimize a session cookie size"
-msgstr "Por padrão, o TokenStateManager armazena todos os tokens (ID, de acesso e de atualização) retornados na resposta da concessão do código de autorização em um único cookie de sessão. Ative esta propriedade para minimizar o tamanho do cookie de sessão"
+msgstr "Por padrão, o TokenStateManager mantém todos os tokens (ID, acesso e atualização) retornados na resposta da concessão do código de autorização em um único cookie de sessão. Ative esta propriedade para minimizar o tamanho do cookie de sessão"
 
 #. mt: deepl
 #, fuzzy
@@ -4071,7 +4071,7 @@ msgstr "`link:#quarkus-oidc_quarkus.oidc.token-cache.clean-up-timer-interval[qua
 #. mt: deepl
 #, fuzzy
 msgid "Clean up timer interval. If this property is set then a timer will check and remove the stale entries periodically."
-msgstr "Intervalo do temporizador de limpeza. Se essa propriedade estiver definida, um temporizador verificará e removerá as entradas desatualizadas periodicamente."
+msgstr "Intervalo do temporizador de limpeza. Se essa propriedade estiver definida, um temporizador verificará e removerá as entradas obsoletas periodicamente."
 
 #. mt: deepl
 #, fuzzy

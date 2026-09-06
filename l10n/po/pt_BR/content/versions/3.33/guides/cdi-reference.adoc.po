@@ -1590,7 +1590,7 @@ msgstr "[lock]  link:#quarkus-arc_quarkus-arc-transform-private-injected-fields[
 #. mt: deepl
 #, fuzzy
 msgid "If set to true, the bytecode of private fields that are injection points will be transformed to package private. This ensures that field injection can be performed completely reflection-free. If the value is set to false, then a reflection fallback is used to perform the injection."
-msgstr "Se definido como “true”, o bytecode dos campos privados que são pontos de injeção será transformado para “privado do pacote”. Isso garante que a injeção de campos possa ser realizada de forma totalmente isenta de reflexão. Se o valor for definido como “false”, será utilizado um recurso alternativo de reflexão para realizar a injeção."
+msgstr "Se definido como “true”, o bytecode dos campos privados que são pontos de injeção será transformado para “privado do pacote”. Isso garante que a injeção de campos possa ser realizada sem o uso de reflexão. Se o valor for definido como “false”, será utilizado um mecanismo alternativo de reflexão para realizar a injeção."
 
 #. mt: deepl
 #, fuzzy
@@ -1623,7 +1623,7 @@ msgstr "[lock]  link:#quarkus-arc_quarkus-arc-fail-on-intercepted-private-method
 #. mt: deepl
 #, fuzzy
 msgid "If set to true (the default), the build fails if a private method that is neither an observer nor a producer, is annotated with an interceptor binding. An example of this is the use of `Transactional` on a private method of a bean. If set to false, Quarkus simply logs a warning that the annotation will be ignored."
-msgstr "Se definido como `true` (padrão), a compilação falhará caso um método privado — que não seja nem um observador nem um produtor — seja anotado com uma ligação de interceptador. Um exemplo disso é o uso da `anotação `Transactional`` em um método privado de um bean. Se definido como `false`, o Quarkus simplesmente registra um aviso informando que a anotação será ignorada."
+msgstr "Se definido como `true` (padrão), a compilação falhará caso um método privado — que não seja um observador nem um produtor — seja anotado com uma ligação de interceptador. Um exemplo disso é o uso da `anotação `Transactional`` em um método privado de um bean. Se definido como `false`, o Quarkus simplesmente registra um aviso informando que a anotação será ignorada."
 
 #. mt: deepl
 #, fuzzy
@@ -1732,7 +1732,7 @@ msgstr "[lock]  link:#quarkus-arc_quarkus-arc-auto-producer-methods[quarkus.arc.
 #. mt: deepl
 #, fuzzy
 msgid "If set to true then `jakarta.enterprise.inject.Produces` is automatically added to all non-void methods that are annotated with a scope annotation, a stereotype or a qualifier, and are not annotated with `Inject` or `Produces`, and no parameter is annotated with `Disposes`, `Observes` or `ObservesAsync`."
-msgstr "Se definido como `true`, ``jakarta.enterprise.inject.Produces`` é automaticamente adicionado a todos os métodos que não sejam do tipo `void`, que estejam anotados com uma anotação de escopo, um estereótipo ou um qualificador, e que não estejam anotados com ``Inject`` ou ``Produces`` , e em que nenhum parâmetro esteja anotado com ``Disposes`` , ``Observes`` ou ``ObservesAsync`` ."
+msgstr "Se definido como `true`, ``jakarta.enterprise.inject.Produces`` é automaticamente adicionado a todos os métodos que não sejam do tipo `void`, que estejam anotados com uma anotação de escopo, um estereótipo ou um qualificador, e que não estejam anotados com ``Inject`` ou ``Produces`` , e nenhum parâmetro esteja anotado com ``Disposes`` , ``Observes`` ou ``ObservesAsync`` ."
 
 #. mt: deepl
 #, fuzzy
@@ -1897,7 +1897,7 @@ msgstr "[lock]  link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-artifact-id]] [.property-path]##link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-artifact-id[`+++quarkus.arc.exclude-dependency.\"dependency-name\".artifact-id+++`]##\n"
 "config_property_copy_button:+++quarkus.arc.exclude-dependency.\"dependency-name\".artifact-id+++[]"
-msgstr "[lock]  link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-artifact-id[quarkus.arc.exclude-dependency.\"dependency-name\".artifact-id] config_property_copy_button:quarkus.arc.exclude-dependency.\"dependency-name\".artifact-id[]"
+msgstr "[lock]  link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-artifact-id[quarkus.arc.exclude-dependency.\"nome-da-dependência\".artifact-id] config_property_copy_button:quarkus.arc.exclude-dependency.\"nome-da-dependência\".artifact-id[]"
 
 #. mt: deepl
 #, fuzzy
@@ -1930,7 +1930,7 @@ msgstr "[lock]  link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-classifier]] [.property-path]##link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-classifier[`+++quarkus.arc.exclude-dependency.\"dependency-name\".classifier+++`]##\n"
 "config_property_copy_button:+++quarkus.arc.exclude-dependency.\"dependency-name\".classifier+++[]"
-msgstr "[lock]  link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-classifier[quarkus.arc.exclude-dependency.\"nome-da-dependência\".classifier] config_property_copy_button:quarkus.arc.exclude-dependency.\"nome-da-dependência\".classifier[]"
+msgstr "[lock]  link:#quarkus-arc_quarkus-arc-exclude-dependency-dependency-name-classifier[quarkus.arc.exclude-dependency.\"dependency-name\".classifier] config_property_copy_button:quarkus.arc.exclude-dependency.\"dependency-name\".classifier[]"
 
 #. mt: deepl
 #, fuzzy
@@ -2224,7 +2224,7 @@ msgstr "o nome completo do pacote, ou seja, `org.acme.foo`"
 #. mt: deepl
 #, fuzzy
 msgid "a package name with suffix `.++*++`, i.e. `org.acme.++*++`, which matches a package that starts with provided value"
-msgstr "um nome de pacote com o sufixo `.*` , ou seja, `org.acme.*` , que corresponde a um pacote que começa com o valor fornecido"
+msgstr "um nome de pacote com o sufixo `.*` , ou seja, `org.acme.*` , que corresponde a um pacote que comece com o valor fornecido"
 
 #. mt: deepl
 #, fuzzy

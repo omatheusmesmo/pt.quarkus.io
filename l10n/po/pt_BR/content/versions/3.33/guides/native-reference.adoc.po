@@ -430,7 +430,7 @@ msgid ""
 "(even if you haven't enabled debug info)\n"
 "to get around this obstacle because it allows you to stop the application at the first instruction.\n"
 "Let's start by running the native executable via `gdb`:"
-msgstr "O script bcc/eBPF link:../assets/mallocstacks.py[mallocstacks.py] será utilizado para capturar os rastreamentos de pilha `do malloc` com seus tamanhos alocados. Esse script, assim como outros scripts típicos de bcc/eBPF (por exemplo, `o stackcount` ), precisa receber um ID de processo (PID). Isso torna o processo um pouco complicado quando se deseja rastrear a inicialização, mas é possível utilizar `o gdb` (mesmo que as informações de depuração não estejam habilitadas) para contornar esse obstáculo, pois ele permite interromper o aplicativo na primeira instrução. Vamos começar executando o executável nativo por meio `do gdb` :"
+msgstr "O script bcc/eBPF link:../assets/mallocstacks.py[mallocstacks.py] será utilizado para capturar os rastreamentos de pilha `do malloc` com seus tamanhos alocados. Esse script, assim como outros scripts típicos de bcc/eBPF (por exemplo, `o stackcount` ), precisa receber um ID de processo (PID). Isso torna o processo um pouco complicado quando se deseja rastrear a inicialização, mas é possível utilizar `o gdb` (mesmo que as informações de depuração não tenham sido habilitadas) para contornar esse obstáculo, pois ele permite interromper o aplicativo na primeira instrução. Vamos começar executando o executável nativo por meio `do gdb` :"
 
 #, fuzzy
 msgid "`starti` is a `gdb` command that sets a temporary breakpoint at the very first instruction of the program's execution."
@@ -1560,7 +1560,7 @@ msgstr "Se a opção mencionada for adicionada por uma biblioteca de terceiros, 
 #. mt: deepl
 #, fuzzy
 msgid "I get a <code>AnalysisError\\$ParsingError</code> when building a native executable due to an <code>UnresolvedElementException</code>, what can I do?"
-msgstr "Recebo uma exceção <code>AnalysisError\\$ParsingError</code> ao compilar um executável nativo devido a uma exceção <code>UnresolvedElementException</code>. O que posso fazer?"
+msgstr "Recebo uma <code>AnalysisError\\$ParsingError</code> ao compilar um executável nativo devido a uma <code>UnresolvedElementException</code>. O que posso fazer?"
 
 #, fuzzy
 msgid ""
@@ -1963,7 +1963,7 @@ msgstr "API de eventos personalizados"
 #. mt: deepl
 #, fuzzy
 msgid "Start recordings upon executabe run or JFR Recording API"
-msgstr "Iniciar gravações ao iniciar a execução do executável ou por meio da API de gravação JFR"
+msgstr "Iniciar gravações ao executar o executável ou por meio da API de gravação JFR"
 
 #, fuzzy
 msgid ""
@@ -2041,7 +2041,7 @@ msgstr ""
 #. mt: deepl
 #, fuzzy
 msgid "Everything from GraalVM CE 22.3"
-msgstr "Tudo o que há de novo no GraalVM CE 22.3"
+msgstr "Tudo sobre o GraalVM CE 22.3"
 
 #. mt: deepl
 #, fuzzy

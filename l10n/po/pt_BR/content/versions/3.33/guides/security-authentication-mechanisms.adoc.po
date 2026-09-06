@@ -367,7 +367,7 @@ msgstr "Observe que, se uma solicitação corresponder a qualquer caminho de qua
 #. mt: deepl
 #, fuzzy
 msgid "Method specific permissions take precedence over matches that do not have any methods set."
-msgstr "As permissões específicas de método têm precedência sobre as correspondências que não tenham nenhum método definido."
+msgstr "As permissões específicas de método têm precedência sobre as correspondências que não possuem nenhum método definido."
 
 #. mt: deepl
 #, fuzzy
@@ -451,12 +451,12 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-permission
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-permission-permissions-auth-mechanism]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-permission-permissions-auth-mechanism[`+++quarkus.http.auth.permission.\"permissions\".auth-mechanism+++`]##\n"
 "config_property_copy_button:+++quarkus.http.auth.permission.\"permissions\".auth-mechanism+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-permission-permissions-auth-mechanism[quarkus.http.auth.permission.\"permissions\".auth-mechanism] botão de cópia de propriedade de configuração:quarkus.http.auth.permission.\"permissions\".auth-mechanism[]"
+msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-permission-permissions-auth-mechanism[quarkus.http.auth.permission.\"permissions\".auth-mechanism] botão_para_copiar_propriedade_de_configuração:quarkus.http.auth.permission.\"permissions\".auth-mechanism[]"
 
 #. mt: deepl
 #, fuzzy
 msgid "One or more path specific authentication mechanisms separated by comma. Every listed value needs to match `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` authentication scheme such as 'basic', 'bearer', 'form', etc. By default, only one of the matching authentication mechanisms will produce a `SecurityIdentity`, and all matching authentication mechanisms will attempt to authenticate when an inclusive authentication is enabled."
-msgstr "Um ou mais mecanismos de autenticação específicos para cada caminho, separados por vírgula. Cada valor listado deve corresponder ao esquema de autenticação definido em `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` , como 'basic', 'bearer', 'form', etc. Por padrão, apenas um dos mecanismos de autenticação compatíveis produzirá um `SecurityIdentity` , e todos os mecanismos de autenticação compatíveis tentarão autenticar quando a autenticação inclusiva estiver habilitada."
+msgstr "Um ou mais mecanismos de autenticação específicos para cada caminho, separados por vírgula. Cada valor listado deve corresponder ao esquema de autenticação definido em `io.quarkus.vertx.http.runtime.security.HttpCredentialTransport` , como 'basic', 'bearer', 'form', etc. Por padrão, apenas um dos mecanismos de autenticação compatíveis produzirá uma `SecurityIdentity` , e todos os mecanismos de autenticação compatíveis tentarão autenticar quando a autenticação inclusiva estiver habilitada."
 
 #. mt: deepl
 #, fuzzy
@@ -570,7 +570,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-policy-rol
 #. mt: deepl
 #, fuzzy
 msgid "The roles that are allowed to access resources protected by this policy. By default, access is allowed to any authenticated user."
-msgstr "As funções que têm permissão para acessar os recursos protegidos por esta política. Por padrão, o acesso é permitido a qualquer usuário autenticado."
+msgstr "As funções que têm permissão para acessar recursos protegidos por esta política. Por padrão, o acesso é permitido a qualquer usuário autenticado."
 
 #. mt: deepl
 #, fuzzy
@@ -674,7 +674,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-policy-rol
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-policy-role-policy-permission-class]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-policy-role-policy-permission-class[`+++quarkus.http.auth.policy.\"role-policy\".permission-class+++`]##\n"
 "config_property_copy_button:+++quarkus.http.auth.policy.\"role-policy\".permission-class+++[]"
-msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-policy-role-policy-permission-class[quarkus.http.auth.policy.\"role-policy\".permission-class] config_property_copy_button:quarkus.http.auth.policy.\"role-policy\".permission-class[]"
+msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-policy-role-policy-permission-class[quarkus.http.auth.policy.\"role-policy\".permission-class] botão_para_copiar_propriedade_de_configuração:quarkus.http.auth.policy.\"role-policy\".permission-class[]"
 
 #. mt: deepl
 #, fuzzy
@@ -762,7 +762,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-certificat
 #. mt: deepl
 #, fuzzy
 msgid "Client certificate attribute whose values are going to be mapped to the 'SecurityIdentity' roles according to the roles mapping specified in the certificate properties file. The attribute must be either one of the Relative Distinguished Names (RDNs) or Subject Alternative Names (SANs). By default, the Common Name (CN) attribute value is used for roles mapping. Supported values are:"
-msgstr "Atributo do certificado do cliente cujos valores serão mapeados para as funções 'SecurityIdentity', de acordo com o mapeamento de funções especificado no arquivo de propriedades do certificado. O atributo deve ser um dos Nomes Distintos Relativos (RDNs) ou um dos Nomes Alternativos do Assunto (SANs). Por padrão, o valor do atributo Nome Comum (CN) é utilizado para o mapeamento de funções. Os valores suportados são:"
+msgstr "Atributo do certificado do cliente cujos valores serão mapeados para as funções 'SecurityIdentity', de acordo com o mapeamento de funções especificado no arquivo de propriedades do certificado. O atributo deve ser um dos Nomes Distintos Relativos (RDNs) ou Nomes Alternativos do Assunto (SANs). Por padrão, o valor do atributo Nome Comum (CN) é utilizado para o mapeamento de funções. Os valores suportados são:"
 
 #. mt: deepl
 #, fuzzy
@@ -782,7 +782,7 @@ msgstr "'SAN_URI' — Identificador Uniforme de Recursos (URI) do campo “Nome 
 #. mt: deepl
 #, fuzzy
 msgid "'SAN_ANY' - Subject Alternative Name field Other Name. Please note that only simple case of UTF8 identifier mapping is supported. For example, you can map 'other-identifier' to the SecurityIdentity roles. If you use 'openssl' tool, supported Other name definition would look like this: `subjectAltName=otherName:1.2.3.4;UTF8:other-identifier`"
-msgstr "'SAN_ANY' – Campo “Nome Alternativo do Assunto” (Other Name). Observe que apenas o caso simples de mapeamento de identificadores UTF-8 é suportado. Por exemplo, é possível mapear 'other-identifier' para as funções do SecurityIdentity. Caso utilize a ferramenta ‘openssl’, a definição de “Outro nome” suportada teria a seguinte forma: `subjectAltName=otherName:1.2.3.4;UTF8:other-identifier`"
+msgstr "'SAN_ANY' – Campo “Outro Nome” (Subject Alternative Name). Observe que apenas o caso simples de mapeamento de identificadores UTF-8 é suportado. Por exemplo, é possível mapear 'other-identifier' para as funções do SecurityIdentity. Caso utilize a ferramenta ‘openssl’, a definição de Outro Nome suportada teria a seguinte forma: `subjectAltName=otherName:1.2.3.4;UTF8:other-identifier`"
 
 #. mt: deepl
 #, fuzzy
@@ -935,7 +935,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-form-login
 #. mt: deepl
 #, fuzzy
 msgid "List of query parameters that should be passed through when Quarkus redirects requests to the login page. For example, if a request to the `/secured-path?query_param=1&other_query_param=2` is redirected on the authentication failure to the login page and this property is set to the `other_query_param`, then the resulting redirect path will be `/login.html?other_query_param=2`. By default, no request query parameters are passed through."
-msgstr "Lista de parâmetros de consulta que devem ser repassados quando o Quarkus redireciona solicitações para a página de login. Por exemplo, se uma solicitação para `/secured-path?query_param=1&other_query_param=2` for redirecionada para a página de login em caso de falha na autenticação e esta propriedade estiver definida como `other_query_param` , o caminho de redirecionamento resultante será `/login.html?other_query_param=2` . Por padrão, nenhum parâmetro de consulta da solicitação é transmitido."
+msgstr "Lista de parâmetros de consulta que devem ser repassados quando o Quarkus redireciona solicitações para a página de login. Por exemplo, se uma solicitação para `/secured-path?query_param=1&other_query_param=2` for redirecionada para a página de login em caso de falha na autenticação e essa propriedade estiver definida como `other_query_param` , o caminho de redirecionamento resultante será `/login.html?other_query_param=2` . Por padrão, nenhum parâmetro de consulta da solicitação é repassado."
 
 #. mt: deepl
 #, fuzzy
@@ -1285,7 +1285,7 @@ msgstr " link:#quarkus-vertx-http_quarkus-http-auth_quarkus-http-auth-form-new-c
 #. mt: deepl
 #, fuzzy
 msgid "How old a cookie can get before it will be replaced with a new cookie with an updated timeout, also referred to as \"renewal-timeout\"."
-msgstr "Qual é o prazo máximo de validade de um cookie antes que ele seja substituído por um novo cookie com um tempo de expiração atualizado, também conhecido como “renewal-timeout”?"
+msgstr "Qual é o prazo máximo de validade de um cookie antes que ele seja substituído por um novo cookie com um tempo de expiração atualizado, também conhecido como “tempo de renovação”?"
 
 #. mt: deepl
 #, fuzzy
@@ -1295,7 +1295,7 @@ msgstr "Observe que valores menores resultarão em uma carga um pouco maior no s
 #. mt: deepl
 #, fuzzy
 msgid "For example if this is set to 10 minutes, and the inactivity timeout is 30m, if a user's last request is when the cookie is 9m old then the actual timeout will happen 21m after the last request because the timeout is only refreshed when a new cookie is generated."
-msgstr "Por exemplo, se esse valor estiver definido como 10 minutos e o tempo limite de inatividade for de 30m, caso a última solicitação de um usuário tenha ocorrido quando o cookie já tinha 9m, o tempo limite efetivo ocorrerá 21m após a última solicitação, pois o tempo limite só é atualizado quando um novo cookie é gerado."
+msgstr "Por exemplo, se esse valor estiver definido como 10 minutos e o tempo limite de inatividade for de 30 minutos, caso a última solicitação de um usuário tenha ocorrido quando o cookie já tinha 9 minutos, o tempo limite efetivo ocorrerá 21 minutos após a última solicitação, pois o tempo limite só é atualizado quando um novo cookie é gerado."
 
 #. mt: deepl
 #, fuzzy
@@ -1661,7 +1661,7 @@ msgstr "Exigir que todos os mecanismos de autenticação HTTP registrados devem 
 #. mt: deepl
 #, fuzzy
 msgid "By default, when the `inclusive-mode` is strict, every registered authentication mechanism must produce SecurityIdentity, otherwise, a number of mechanisms which produce the identity may be less than a total number of registered mechanisms."
-msgstr "Por padrão, quando o `modo inclusivo` é estrito, todos os mecanismos de autenticação registrados devem gerar um SecurityIdentity; caso contrário, o número de mecanismos que geram essa identidade poderá ser inferior ao número total de mecanismos registrados."
+msgstr "Por padrão, quando o `modo inclusivo` está definido como “estrito”, todos os mecanismos de autenticação registrados devem gerar um SecurityIdentity; caso contrário, o número de mecanismos que geram essa identidade poderá ser inferior ao número total de mecanismos registrados."
 
 #. mt: deepl
 #, fuzzy
@@ -1671,12 +1671,12 @@ msgstr "Todas as identidades de segurança geradas podem ser recuperadas por mei
 #. mt: deepl
 #, fuzzy
 msgid "An injected `SecurityIdentity` represents an identity produced by the first inclusive authentication mechanism. When the `mTLS` authentication is required, the `mTLS` mechanism is always the first mechanism, because its priority is elevated when inclusive authentication"
-msgstr "Uma `SecurityIdentity` injetada representa uma identidade gerada pelo primeiro mecanismo de autenticação inclusiva. Quando a autenticação `mTLS` é exigida, o mecanismo `mTLS` é sempre o primeiro, pois sua prioridade é elevada quando se trata de autenticação inclusiva"
+msgstr "Uma `SecurityIdentity` injetada representa uma identidade gerada pelo primeiro mecanismo de autenticação inclusivo. Quando a autenticação `mTLS` é exigida, o mecanismo `mTLS` é sempre o primeiro, pois sua prioridade é elevada quando se trata de autenticação inclusiva"
 
 #. mt: deepl
 #, fuzzy
 msgid "This property is false by default which means that the authentication process is complete as soon as the first `SecurityIdentity` is created."
-msgstr "Essa propriedade é definida como falsa por padrão, o que significa que o processo de autenticação é concluído assim que o primeiro `SecurityIdentity` é criado."
+msgstr "Essa propriedade é definida como falsa por padrão, o que significa que o processo de autenticação é concluído assim que a primeira `SecurityIdentity` é criada."
 
 #. mt: deepl
 #, fuzzy

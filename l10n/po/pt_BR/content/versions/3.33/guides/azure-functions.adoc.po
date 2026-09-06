@@ -598,7 +598,7 @@ msgstr "[lock]  link:#quarkus-azure-functions_quarkus-azure-functions-runtime-re
 #. mt: deepl
 #, fuzzy
 msgid "If using docker, url of registry"
-msgstr "Caso utilize o Docker, a URL do registro"
+msgstr "Caso utilize o Docker, a URL do repositório"
 
 #. mt: deepl
 #, fuzzy
@@ -659,7 +659,7 @@ msgstr "*O `azure_cli`* delega o login à CLI do Azure"
 #. mt: deepl
 #, fuzzy
 msgid "*managed_identity* Requires client to be set"
-msgstr "*managed_identity* : é necessário definir o cliente"
+msgstr "*managed_identity* : É necessário que o cliente esteja configurado"
 
 #. mt: deepl
 #, fuzzy
